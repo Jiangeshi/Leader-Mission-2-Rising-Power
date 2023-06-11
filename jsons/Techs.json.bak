@@ -1,0 +1,149 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Drill Wood to Make Fire",
+				"row": 5,
+				"quote": "",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Belief Worship",
+				"row": 2,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": ""
+			},
+			{
+				"name": "Writing",
+				"row": 4,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": ""
+			},
+			{
+				"name": "Agriculture",
+				"row": 5,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": ""
+			},
+			{
+				"name": "Mining",
+				"row": 6,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": ""
+			},
+			{
+				"name": "Trapping",
+				"row": 7,
+				"prerequisites": ["Drill Wood to Make Fire"],
+				"quote": ""	
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Art",
+				"row": 2,
+				"prerequisites": ["Belief Worship"],
+				"quote": ""
+			},
+			{
+				"name": "Clan",
+				"row": 3,
+				"prerequisites": ["Belief Worship","Writing"],
+				"quote": ""
+			},
+			{
+				"name": "Calendar",
+				"row": 4,
+				"prerequisites": ["Writing"],
+				"quote": ""
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Pottery",
+				"row": 7,
+				"prerequisites": ["Mining","Trapping"],
+				"quote": ""	
+			}
+		]	
+	},
+	{
+		"columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Burial Custom",
+				"row": 2,
+				"prerequisites": ["Art","Clan"],
+				"quote": ""
+			},
+			{
+				"name": "Sailing",
+				"row": 3,
+				"prerequisites": ["Calendar"],
+				"quote": ""
+			},
+			{
+				"name": "The Wheel",
+				"row": 4,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": ""
+			},
+			{
+				"name": "Masonry",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry","Pottery"],
+				"quote": ""
+			},
+			{
+				"name": "Bronze Working",
+				"row": 7,
+				"prerequisites": ["Pottery"],
+				"quote": ""	
+			}
+		]		
+	},
+	{
+		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 6,
+				"prerequisites": [],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "",
+			}
+		]
+	}
+]

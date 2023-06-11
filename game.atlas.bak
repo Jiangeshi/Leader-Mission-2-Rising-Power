@@ -1,0 +1,473 @@
+DrillWoodtoMakeFire.png
+TechIcons/Drill Wood to Make Fire
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+BeliefWorship.png
+TechIcons/Belief Worship
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+BurialCustom.png
+TechIcons/Burial Custom
+  rotate: false
+  xy: 0, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
+Clan.png
+TechIcons/Clan
+  rotate: false
+  xy: 0, 0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+
+UnitPromotionIcons.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitPromotionIcons/Quick Offensive
+  rotate: false
+  xy: 576, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rejuvenation
+  rotate: false
+  xy: 1968, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Detection
+  rotate: false
+  xy: 112, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Alert
+  rotate: false
+  xy: 112, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Continuous Attack
+  rotate: false
+  xy: 1620, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1   
+UnitPromotionIcons/Hide
+  rotate: false
+  xy: 576, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Attack City
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Storm Fortification
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Break City
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Detonate
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+UnitPromotionIcons/Pinpoint Bombing
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+UnitPromotionIcons/Rescue
+  rotate: false
+  xy: 1736, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Grab Beach
+  rotate: false
+  xy: 344, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sealift
+  rotate: false
+  xy: 344, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Additional Range
+  rotate: false
+  xy: 1098, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carrying Missile
+  rotate: false
+  xy: 692, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Saturation Bombing
+  rotate: false
+  xy: 692, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Continuous Interception
+  rotate: false
+  xy: 286, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
+Hard.png
+UnitPromotionIcons/Hard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Trample.png
+UnitPromotionIcons/Trample
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Formation.png
+UnitPromotionIcons/Formation
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
+  
+Aim.png
+UnitPromotionIcons/Aim
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+ 
+Salvo.png
+UnitPromotionIcons/Salvo
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+ 
+Indirect Fire.png
+UnitPromotionIcons/Indirect Fire
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+ 
+Off-road.png
+UnitPromotionIcons/Off-road
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+  
+Hold Ground.png
+UnitPromotionIcons/Hold Ground
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Street Battle.png
+UnitPromotionIcons/Street Battle
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+ 
+Charge.png
+UnitPromotionIcons/Charge
+  rotate: false
+  xy: 0,0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1 
+ 
+Wear Armor.png
+UnitPromotionIcons/Wear Armor
+  rotate: false
+  xy: 0,0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1  
+ 
+First Attack.png
+UnitPromotionIcons/First Attack
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1     
+  
+Rush.png
+UnitPromotionIcons/Rush
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1   
+  
+Raid.png
+UnitPromotionIcons/Raid
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+
+Expose Armor.png
+UnitPromotionIcons/Expose Armor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+  
+Expose Armor.png
+UnitPromotionIcons/Armor Piercing
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Pass.png
+UnitPromotionIcons/Pass
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1       
+  
+Escort.png
+UnitPromotionIcons/Escort
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Escort.png
+UnitPromotionIcons/Queue
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+
+Landfall.png
+UnitPromotionIcons/Landfall
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Armor.png
+UnitPromotionIcons/Armor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+ 
+Shooting Support.png
+UnitPromotionIcons/Shooting Support
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+ 
+Bayonet Charge.png
+UnitPromotionIcons/Bayonet Charge
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1         
+ 
+Apply Poison.png
+UnitPromotionIcons/Apply Poison
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1               
+       
+Bombard.png
+UnitPromotionIcons/Bombard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                   
+   
+Shrapnel.png
+UnitPromotionIcons/Shrapnel
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                   
+   
+Strategic Deployment.png
+UnitPromotionIcons/Strategic Deployment
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+   
+Firepower Coverage.png
+UnitPromotionIcons/Firepower Coverage
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Cruise.png
+UnitPromotionIcons/Cruise
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                    
+   
+Fire Support.png
+UnitPromotionIcons/Fire Support
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1           
+   
+Dive.png
+UnitPromotionIcons/Dive
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+   
+Noise Reduction.png
+UnitPromotionIcons/Noise Reduction
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+   
+Tactical Evasion.png
+UnitPromotionIcons/Tactical Evasion
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+    
+Rout.png
+UnitPromotionIcons/Rout
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1          

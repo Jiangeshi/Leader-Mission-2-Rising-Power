@@ -1,0 +1,1266 @@
+[
+    //步兵晋升
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 1,
+    },
+    {
+    	"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 2,
+    },	
+    {
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 3,
+    },	
+    {
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 4,
+    },	
+    {
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 5,       
+    },	
+    {
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 1,
+        "column": 6,
+    },
+    {
+    	"name": "Street Battle I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 1,
+    },
+    {
+    	"name": "Hold Ground I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 2,
+    },
+    {
+    	"name": "Attack City I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 3,
+    },	
+    {
+		"name": "Street Battle II",
+		"prerequisites": ["Street Battle I"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 4,    
+    },	
+    {
+		"name": "Hold Ground II",
+		"prerequisites": ["Hold Ground I"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 5, 
+    },	
+    {
+		"name": "Attack City II",
+		"prerequisites": ["Attack City I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Foot Soldier"]
+		"row": 2,
+        "column": 6,               
+    //射手晋升
+    },
+    {
+		"name": "Salvo I",
+		"uniques": ["[+10]% Strength  <when attacking>"],
+		"unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 7,
+    },
+    {
+		"name": "Shooting Support I",
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+		"unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 8,
+    },
+    {
+		"name": "Salvo II",
+		"prerequisites": ["Salvo I"],
+		"uniques": ["[+10]% Strength  <when attacking>"],
+	    "unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 9,
+    },
+    {
+		"name": "Shooting Support II",
+		"prerequisites": ["Shooting Support I"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+	    "unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 10,    
+    },
+    {
+		"name": "Salvo III",
+		"prerequisites": ["Salvo II"],
+		"uniques": ["[+10]% Strength  <when attacking>"],
+	    "unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 11,
+    },
+    {
+		"name": "Shooting Support III",
+		"prerequisites": ["Shooting Support II"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+	    "unitTypes": ["Shooter"]
+		"row": 1,
+        "column": 12,
+    },
+    {
+    	"name": "Cover I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 7,      
+    },
+    {
+    	"name": "Apply Poison I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 8,  
+    },
+    {
+    	"name": "Bayonet Charge I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 9, 
+    },
+    {
+    	"name": "Cover II",
+    	"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 10,      
+    },
+    {
+    	"name": "Apply Poison II",
+    	"prerequisites": ["Apply Poison I"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 11,  
+    },
+    {
+    	"name": "Bayonet Charge II",
+    	"prerequisites": ["Bayonet Charge I"],
+		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
+		"unitTypes": ["Shooter"]
+		"row": 2,
+        "column": 12,                   
+    //机动部队晋升
+    },
+    {
+		"name": "Trample I",
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes": ["Mobile"]
+		"row": 1,
+        "column": 13,
+    },
+    {
+		"name": "Charge I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mobile"]
+		"row": 1,
+        "column": 14,    
+    },
+    {
+		"name": "Trample II",
+		"prerequisites": ["Trample I"],
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes":["Mobile"]
+		"row": 1,
+        "column": 15,
+    },
+    {
+		"name": "Charge II",
+		"prerequisites": ["Charge I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes":["Mobile"]
+		"row": 1,
+        "column": 16,    
+    },
+    {
+		"name": "Trample III",
+	    "prerequisites": ["Trample II"],
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes": ["Mobile"]
+		"row": 1,
+        "column": 17,
+    },
+    {
+		"name": "Charge III",
+	    "prerequisites": ["Charge II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mobile"]
+		"row": 1,
+        "column": 18,
+    },
+    {
+    	"name": "Wear Armor I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 13,  
+    },
+    {
+    	"name": "Storm Fortification I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 14,  
+    },
+    {
+    	"name": "Rout I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 15,  
+    },	
+    {
+		"name": "Wear Armor II",
+		"prerequisites": ["Wear Armor I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 16,    
+    },	
+    {
+		"name": "Storm Fortification II",
+		"prerequisites": ["Storm Fortification I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 17,      
+    },	
+    {
+		"name": "Rout II",
+		"prerequisites": ["Rout I"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Mobile"]
+		"row": 2,
+        "column": 18,         
+    //抗机动单位、直升机晋升
+    },	
+    {
+		"name": "Formation I",
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 19,
+    },	
+    {
+		"name": "Raid I",
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 20,
+    },	
+    {
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 21,
+    },	
+    {
+		"name": "Raid II",
+		"prerequisites": ["Raid I"],
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 22,    
+    },	
+    {
+		"name": "Formation III",
+		"prerequisites": ["Formation II"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 23,
+    },	
+    {
+		"name": "Raid III",
+		"prerequisites": ["Raid II"],
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 1,
+        "column": 24,  
+    },
+    {
+    	"name": "Expose Armor I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 19,  
+    },
+    {
+    	"name": "Break City I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 20,   
+    },
+    {
+    	"name": "Pass I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 21,             
+    },
+    {
+    	"name": "Expose Armor II",
+    	"prerequisites": ["Expose Armor I"],
+		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 22,     
+    },
+    {
+    	"name": "Break City II",
+    	"prerequisites": ["Break City I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 23,  
+    },
+    {
+    	"name": "Pass II",
+    	"prerequisites": ["Pass I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
+		"row": 2,
+        "column": 24,                        
+    //侦察单位晋升
+    },	
+    {
+		"name": "Detection I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance"]
+		"row": 1,
+        "column": 25,
+    },
+    {
+		"name": "Survivalism I",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Reconnaissance"],
+	    "row": 1,
+        "column": 26,        
+    },	
+    {
+		"name": "Detection II",
+		"prerequisites": ["Detection I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance"]
+		"row": 1,
+        "column": 27,
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Reconnaissance"],
+        "row": 1,
+        "column": 28,        
+    },	
+    {
+		"name": "Detection III",
+		"prerequisites": ["Detection II"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance"]
+		"row": 1,
+        "column": 29,
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"], 
+		"unitTypes": ["Reconnaissance"],
+        "row": 1,
+        "column": 30,
+    //攻城单位晋升
+    },	
+    {
+		"name": "Hard I",
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 31,
+    },	
+    {
+		"name": "Bombard I",
+		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 32,    
+    },	
+    {
+		"name": "Hard II",
+		"prerequisites": ["Hard I"],
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 33,
+    },	
+    {
+		"name": "Bombard II",
+		"prerequisites": ["Bombard I"],
+		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 34,
+    },	
+    {
+		"name": "Hard III",
+		"prerequisites": ["Hard II"],
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when defending>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 35,
+    },	
+    {
+		"name": "Bombard III",
+		"prerequisites": ["Bombard II"],
+		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Siege"]
+		"row": 1,
+        "column": 36,
+    },
+    {
+    	"name": "Strategic Deployment I",
+    	"prerequisites": ["Hard II","Bombard II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 31, 
+    },
+    {
+    	"name": "Shrapnel I",
+    	"prerequisites": ["Hard II","Bombard II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 32, 
+    },
+    {
+    	"name": "Detonate I",
+    	"prerequisites": ["Hard II","Bombard II"],
+		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 33,        
+    },
+    {
+    	"name": "Strategic Deployment II",
+    	"prerequisites": ["Strategic Deployment I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 34,
+    },
+    {
+    	"name": "Shrapnel II",
+    	"prerequisites": ["Shrapnel I"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 35,   
+    },
+    {
+    	"name": "Detonate II",
+    	"prerequisites": ["Detonate I"],
+		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Siege"]
+		"row": 2,
+        "column": 36,                  
+    //近程海军晋升
+    },	
+    {
+		"name": "Boarding Party I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 1,
+        "column": 37,
+    },	
+    {
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 1,
+        "column": 38,
+    },	
+    {
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+		"row": 1,
+        "column": 39,
+    },
+	{
+		"name": "Coastal Raider I",
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+	    "row": 1,
+        "column": 40,
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+	    "row": 1,
+        "column": 41,
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+        "row": 1,
+        "column": 42,
+    },
+    {
+    	"name": "Armor I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 37,
+    },
+    {
+    	"name": "Landfall I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
+		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 38,  
+    },
+    {
+    	"name": "Escort I",
+    	"prerequisites": ["Boarding Party II","Coastal Raider II"],
+		"uniques": ["[+10]% Strength bonus for [Water] units within [1] tiles <when defending>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 39,          
+    },
+    {
+    	"name": "Armor II",
+    	"prerequisites": ["Armor I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 40, 
+    },
+    {
+    	"name": "Landfall II",
+    	"prerequisites": ["Landfall I"],
+		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 41,
+    },
+    {
+    	"name": "Escort II",
+    	"prerequisites": ["Escort I"],
+		"uniques": ["[+10]% Strength bonus for [Water] units within [1] tiles <when defending>"],
+		"unitTypes": ["Melee Water"]
+		"row": 2,
+        "column": 42,                       
+    //远程海军晋升
+    },	
+    {
+		"name": "Aim I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 43,
+    },	
+    {
+		"name": "Firepower Coverage I",
+		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 44,    
+    },	
+    {
+		"name": "Aim II",
+		"prerequisites": ["Aim I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 45, 
+    },	
+    {
+		"name": "Firepower Coverage II",
+		"prerequisites": ["Firepower Coverage I"],
+		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 46,        
+    },	
+    {
+		"name": "Aim III",
+		"prerequisites": ["Aim II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 47,
+    },	
+    {
+		"name": "Firepower Coverage III",
+		"prerequisites": ["Firepower Coverage II"],
+		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 1,
+        "column": 48,      
+    },
+    {
+    	"name": "Cruise I",
+    	"prerequisites": ["Aim II","Firepower Coverage II"],
+		"uniques": ["[+10] HP when healing"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 43,
+    },
+    {
+    	"name": "Fire Support I",
+        "prerequisites": ["Aim II","Firepower Coverage II"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Military] unit> <when attacking>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 44,  
+    },
+    {
+    	"name": "Queue I",
+        "prerequisites": ["Aim II","Firepower Coverage II"],
+		"uniques": ["[+10]% Strength bonus for [Ranged Water] units within [1] tiles"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 45,          
+    },
+    {
+    	"name": "Cruise II",
+    	"prerequisites": ["Cruise I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 46, 
+    },
+    {
+    	"name": "Fire Support II",
+    	"prerequisites": ["Fire Support I"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Military] unit> <when attacking>"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 47,
+    },
+    {
+    	"name": "Queue II",
+    	"prerequisites": ["Queue I"],
+		"uniques": ["[+10]% Strength bonus for [Ranged Water] units within [1] tiles"],
+		"unitTypes": ["Ranged Water"]
+		"row": 2,
+        "column": 48,                  
+    //航母晋升
+    },
+	{
+		"name": "Armor Plating I",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Water Carrier"],
+	    "row": 1,
+        "column": 49,     
+    },
+	{
+		"name": "Flight Deck I",
+		"uniques": ["Can carry [2] extra [Aircraft] units"],
+		"unitTypes": ["Water Carrier"],
+        "row": 1,
+        "column": 50,         
+	},
+	{
+		"name": "Armor Plating II",
+		"prerequisites": ["Armor Plating I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Water Carrier"],
+        "row": 1,
+        "column": 51,     
+    },
+	{
+		"name": "Flight Deck II",
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [2] extra [Aircraft] units"],
+		"unitTypes": ["Water Carrier"],
+        "row": 1,
+        "column": 52,   
+	},
+	{
+		"name": "Armor Plating III",
+		"prerequisites": ["Armor Plating II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Water Carrier"],
+        "row": 1,
+        "column": 53,     
+	},
+	{
+		"name": "Flight Deck III",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["Can carry [2] extra [Aircraft] units"],
+		"unitTypes": ["Water Carrier"],
+        "row": 1,
+        "column": 54,
+    //潜艇晋升 
+    },  
+    {
+		"name": "Wolfpack I",
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 55,
+    },  
+    {
+		"name": "Dive I",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 56,    
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 57,
+    },
+	{
+		"name": "Dive II",
+		"prerequisites": ["Dive I"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 58,    
+	},
+	{
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 59,
+    },
+	{
+		"name": "Dive III",
+		"prerequisites": ["Dive II"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Submarine"],
+        "row": 1,
+        "column": 60,   
+    },  
+    {
+		"name": "Armor Piercing I",
+		"prerequisites": ["Wolfpack II","Dive II"],
+		"uniques": ["[+33]% Strength <vs [Melee Water] units> <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 55,     
+    },  
+    {
+		"name": "Noise Reduction I",
+		"prerequisites": ["Wolfpack II","Dive II"],
+		"uniques": ["[+33]% Strength <vs [Ranged Water] units> <when defending>"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 56,        
+    },  
+    {
+		"name": "Carrying Missile I",
+		"prerequisites": ["Wolfpack II","Dive II"],
+		"uniques": ["Can carry [1] extra [Flybomb] units"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 57,          
+    },  
+    {
+		"name": "Armor Piercing II",
+		"prerequisites": ["Armor Piercing I"],
+		"uniques": ["[+33]% Strength <vs [Melee Water] units> <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 58,        
+    },  
+    {
+		"name": "Noise Reduction II",
+		"prerequisites": ["Noise Reduction I"],
+		"uniques": ["[+33]% Strength <vs [Ranged Water] units> <when defending>"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 59,     
+    },  
+    {
+		"name": "Carrying Missile II",
+		"prerequisites": ["Carrying Missile I"],
+		"uniques": ["Can carry [1] extra [Flybomb] units"],
+		"unitTypes": ["Submarine"],
+        "row": 2,
+        "column": 60,                        //战斗机晋升   
+    },
+	{
+		"name": "Interception I",
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 61,    
+	},
+	{
+		"name": "Dogfighting I",
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 62,  
+        
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 63,  
+    },
+	{
+		"name": "Dogfighting II",
+		"prerequisites": ["Dogfighting I"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 64,      
+	},
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+34]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 65,  
+	},
+	{
+		"name": "Dogfighting III",
+		"prerequisites": ["Dogfighting II"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "row": 1,
+        "column": 66,  
+    },
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Interception II","Dogfighting II"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter"],
+        "row": 2,
+        "column": 61,  
+    },
+	{
+		"name": "Continuous Interception I",
+		"prerequisites": ["Interception II", "Dogfighting II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"],
+        "row": 2,
+        "column": 62,  
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter"],
+        "row": 2,
+        "column": 64,  
+    },
+	{
+		"name": "Continuous Interception II",
+		"prerequisites": ["Continuous Interception I"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"],
+        "row": 2,
+        "column": 65,   
+    //轰炸机晋升
+    },
+	{
+		"name": "Pinpoint Bombing I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 67,   
+    },
+	{
+		"name": "Saturation Bombing I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 68,      
+	},
+	{
+		"name": "Pinpoint Bombing II",
+		"prerequisites": ["Pinpoint Bombing I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 69,   
+    },
+	{
+		"name": "Saturation Bombing II",
+		"prerequisites": ["Saturation Bombing I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 70,       
+	},
+	{
+		"name": "Pinpoint Bombing III",
+		"prerequisites": ["Pinpoint Bombing II"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 71,   
+	},
+	{
+		"name": "Saturation Bombing III",
+		"prerequisites": ["Saturation Bombing II"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Bomber"],
+        "row": 1,
+        "column": 72,   
+    },
+	{
+		"name": "Ambush I",
+		"prerequisites": ["Pinpoint Bombing II","Saturation Bombing II"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Bomber"],
+        "row": 2,
+        "column": 67,   
+    },
+	{
+		"name": "Tactical Evasion I",
+		"prerequisites": ["Pinpoint Bombing II","Saturation Bombing II"],
+		"uniques": ["Damage taken from interception reduced by [25]%"],
+		"unitTypes": ["Bomber"],
+        "row": 2,
+        "column": 68,       
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Bomber"],
+        "row": 2,
+        "column": 69,   
+    },
+	{
+		"name": "Tactical Evasion II",
+		"prerequisites": ["Tactical Evasion I"],
+		"uniques": ["Damage taken from interception reduced by [25]%"],
+		"unitTypes": ["Bomber"],
+        "row": 2,
+        "column": 70,       
+    //英雄晋升
+    
+    //特殊晋升
+    },
+    {
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Foot Soldier",
+		"Shooter",
+		"Mobile",
+		"Anti-Mobile","Anti-Air","Helicopter",
+		"Siege",
+		"Reconnaissance",
+		"Melee Water","Ranged Water",
+		"Submarine",
+		"Water Carrier",
+		"Fighter","Bomber",
+		],
+        "row": 0,
+        "column": 0
+    },
+	{
+		"name": "Quick Offensive",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air","Melee Water"],
+	    "row": 3	
+        "column": 1,
+    },
+	{
+		"name": "Off-road",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
+		"uniques": ["Ignores terrain cost"],
+		"unitTypes": ["Foot Soldier",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Siege"],
+		"row": 3
+        "column": 2,
+    },
+	{
+		"name": "Hide",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Formation III","Raid III","Expose Armor I","Break City I","Pass I","Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I"],
+		"uniques": ["[+30]% Strength <when attacking> <when fighting in [Forest] tiles>","[+30]% Strength <when attacking> <when fighting in [Jungle] tiles>"],
+		"unitTypes": ["Foot Soldier",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Shooter"],
+		"row": 3
+        "column": 3,
+    },
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I","Detection III","Survivalism III","Formation III","Raid III","Expose Armor I","Break City I","Pass I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air"],
+		"row": 3,  
+        "column": 4,
+    },
+	{
+		"name": "Rescue",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Detection III","Survivalism III",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Foot Soldier",
+		"Reconnaissance",
+		"Siege"],
+	    "row": 3,  
+        "column": 5,
+    },
+	{
+		"name": "March",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Siege",
+	    "Submarine"
+		],
+        "row": 3,  
+        "column": 6,
+    },
+	{
+		"name": "First Attack",
+		"prerequisites": [
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["[+75]% Strength <when above [95] HP>"],
+		"unitTypes": [
+		"Mobile",
+		"Melee Water",
+		],
+        "row": 3,  
+        "column": 7, 
+    },
+	{
+		"name": "Rush",
+		"prerequisites": [
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Melee Water","Ranged Water",
+		"Shooter",
+		"Submarine"],
+        "row": 3,  
+        "column": 8,   
+    },
+	{
+		"name": "Grab Beach",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water"],
+        "row": 3,  
+        "column": 9,
+    },
+	{
+		"name" : "Sealift",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water","Ranged Water","Submarine"],
+        "row": 3,  
+        "column": 10,
+    },	
+    {
+		"name": "Alert",
+		"prerequisites": [
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": [
+		"Melee Water","Ranged Water",
+		"Shooter",
+		"Submarine"]
+		"row": 3,
+        "column": 11,   
+    },
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Shooter",
+		"Siege",
+		"Ranged Water"],
+		"row": 3,
+		"column": 12,
+	},
+	{
+		"name": "Continuous Attack",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I",
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
+		"unitTypes": ["Shooter",
+		"Siege",
+		"Ranged Water",
+		"Submarine",
+		"Fighter","Bomber"
+		],
+         "row": 3
+         "column": 13,    
+    },
+	{
+		"name": "Additional Range",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Shooter",
+		"Siege",
+		"Ranged Water",
+		"Submarine"
+		],
+         "row": 3
+         "column": 14,     
+    },
+	{
+		"name": "Operational Range",
+		"prerequisites": [
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter","Bomber"],
+         "row": 3
+         "column": 15,   
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": [
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter","Bomber"],
+         "row": 3
+         "column": 16,    
+    },
+	{     
+    //特色单位晋升
+
+	//特殊
+		"name": "Rejuvenation", 
+		"uniques": ["All healing effects doubled"]
+	}
+]
+    

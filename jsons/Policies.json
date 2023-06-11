@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Test",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": [],
+        "policies": [
+            {
+                "name": "Test1",
+                "uniques": [],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Test Complete",
+                "uniques": []
+            }
+        ]
+    }
+]

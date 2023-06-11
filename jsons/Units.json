@@ -1,0 +1,29 @@
+[
+
+	// 公民单位
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+    // 战士单位
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"attackSound": "nonmetalhit",
+	}
+]
