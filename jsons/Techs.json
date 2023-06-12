@@ -131,6 +131,45 @@
 		]		
 	},
 	{
+		"columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Art","Clan"],
+				"quote": ""
+			},
+			{
+				"name": "Sailing",
+				"row": 3,
+				"prerequisites": ["Calendar"],
+				"quote": ""
+			},
+			{
+				"name": "Optics",
+				"row": 4,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": ""
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry","Pottery"],
+				"quote": ""
+			},
+			{
+				"name": "Iron Working",
+				"row": 7,
+				"prerequisites": ["Pottery"],
+				"quote": ""	
+			}
+		]			
+	},
+	{
 		"columnNumber": 17,
 		"era": "Future era",
 		"techCost": 9500,

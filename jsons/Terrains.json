@@ -204,6 +204,7 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
+			"Provides a one-time Production bonus to the closest city when cut down",
 			"[25]% Chance to be destroyed by nukes",
 			"[-1] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
