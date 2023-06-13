@@ -262,7 +262,7 @@
 			},
 			{
 				"name": "Steel",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Defensive Fortification"],
 				"quote": ""
 			}
@@ -290,7 +290,7 @@
 			{
 				"name": "Chivalry",
 				"row": 7,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Defensive Fortification"],
 				"quote": ""
 			}
 		]						
