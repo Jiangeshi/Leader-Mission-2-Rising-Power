@@ -317,7 +317,7 @@
 			{
 				"name": "Archery",
 				"row": 6,
-				"prerequisites": ["Agricultural Improvement","Chivalry"],
+				"prerequisites": ["Agricultural Improvement","Chivalry","Steel"],
 				"quote": ""
 			}
 		]					
