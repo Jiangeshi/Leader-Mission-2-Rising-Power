@@ -27,7 +27,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Writing",
+				"name": "Clan",
 				"row": 4,
 				"prerequisites": ["Drill Wood to Make Fire"],
 				"quote": ""
@@ -66,15 +66,15 @@
 				"quote": ""
 			},
 			{
-				"name": "Clan",
+				"name": "Writing",
 				"row": 3,
-				"prerequisites": ["Belief Worship","Writing"],
+				"prerequisites": ["Belief Worship","Clan"],
 				"quote": ""
 			},
 			{
 				"name": "Calendar",
 				"row": 4,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Clan"],
 				"quote": ""
 			},
 			{
@@ -146,7 +146,7 @@
 			{
 				"name": "Legislation",
 				"row": 3,
-				"prerequisites": ["Clan"],
+				"prerequisites": ["Writing"],
 				"quote": ""
 			},
 			{
