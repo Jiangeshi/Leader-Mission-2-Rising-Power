@@ -72,7 +72,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Calendar",
+				"name": "Sailing",
 				"row": 4,
 				"prerequisites": ["Clan"],
 				"quote": ""
@@ -105,9 +105,9 @@
 				"quote": ""
 			},
 			{
-				"name": "Sailing",
-				"row": 4,
-				"prerequisites": ["Calendar"],
+				"name": "Calendar",
+				"row": 3,
+				"prerequisites": ["Writing"],
 				"quote": ""
 			},
 			{
@@ -146,7 +146,7 @@
 			{
 				"name": "Legislation",
 				"row": 3,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Calendar"],
 				"quote": ""
 			},
 			{
@@ -179,7 +179,7 @@
 			{
 				"name": "Nation",
 				"row": 3,
-				"prerequisites": ["Theology","Legislation","Optics"],
+				"prerequisites": ["Theology","Legislation"],
 				"quote": ""
 			},
 			{
@@ -191,7 +191,7 @@
 			{
 				"name": "Engineering",
 				"row": 6,
-				"prerequisites": ["Masonry"],
+				"prerequisites": ["Horseback Riding","Masonry"],
 				"quote": ""
 			},
 			{
@@ -224,7 +224,7 @@
 			{
 				"name": "Guilds",
 				"row": 5,
-				"prerequisites": ["Nation","Currency","Engineering"],
+				"prerequisites": ["Currency","Engineering"],
 				"quote": ""
 			},
 			{
