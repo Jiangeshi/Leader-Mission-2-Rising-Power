@@ -60,6 +60,60 @@ TechIcons/Legislation
   orig: 100, 100
   offset: 0, 0
   index: -1      
+  
+Nation.png
+TechIcons/Nation
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+Army Formation.png
+TechIcons/Army Formation
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1    
+
+Defensive Fortification.png
+TechIcons/Defensive Fortification
+  rotate: false
+  xy: 0, 0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1  
+  
+Politics.png
+TechIcons/Politics
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+Feudalism.png
+TechIcons/Feudalism
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+  
+Agricultural Improvement.png
+TechIcons/Agricultural Improvement
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1        
 
 UnitPromotionIcons.png
 size: 2048, 128

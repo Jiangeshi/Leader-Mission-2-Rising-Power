@@ -101,7 +101,7 @@
 			{
 				"name": "Burial Custom",
 				"row": 2,
-				"prerequisites": ["Art","Clan"],
+				"prerequisites": ["Art"],
 				"quote": ""
 			},
 			{
@@ -140,34 +140,187 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Art","Clan"],
+				"prerequisites": ["Burial Custom"],
 				"quote": ""
 			},
 			{
-				"name": "Sailing",
+				"name": "Legislation",
 				"row": 3,
-				"prerequisites": ["Calendar"],
+				"prerequisites": ["Clan"],
 				"quote": ""
 			},
 			{
 				"name": "Optics",
 				"row": 4,
-				"prerequisites": ["Animal Husbandry"],
+				"prerequisites": ["Sailing"],
 				"quote": ""
 			},
 			{
 				"name": "Horseback Riding",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry","Pottery"],
+				"prerequisites": ["The Wheel"],
 				"quote": ""
 			},
 			{
 				"name": "Iron Working",
 				"row": 7,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Bronze Working"],
 				"quote": ""	
 			}
 		]			
+	},
+	{
+		"columnNumber": 5,
+		"era": "Classical era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Nation",
+				"row": 3,
+				"prerequisites": ["Theology","Legislation","Optics"],
+				"quote": ""
+			},
+			{
+				"name": "Currency",
+				"row": 5,
+				"prerequisites": ["Optics","Horseback Riding"],
+				"quote": ""
+			},
+			{
+				"name": "Engineering",
+				"row": 6,
+				"prerequisites": ["Masonry"],
+				"quote": ""
+			},
+			{
+				"name": "Army Formation",
+				"row": 7,
+				"prerequisites": ["Iron Working"],
+				"quote": ""
+			}
+		]			
+	},
+	{
+		"columnNumber": 6,
+		"era": "Classical era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Politics",
+				"row": 2,
+				"prerequisites": ["Nation"],
+				"quote": ""
+			},
+			{
+				"name": "Drama and Poetry",
+				"row": 3,
+				"prerequisites": ["Nation"],
+				"quote": ""
+			},
+			{
+				"name": "Guilds",
+				"row": 5,
+				"prerequisites": ["Nation","Currency","Engineering"],
+				"quote": ""
+			},
+			{
+				"name": "Defensive Fortification",
+				"row": 7,
+				"prerequisites": ["Engineering","Army Formation"],
+				"quote": ""
+			}
+		]		
+	},
+	{
+		"columnNumber": 7,
+		"era": "Medieval era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Feudalism",
+				"row": 2,
+				"prerequisites": ["Politics"],
+				"quote": ""
+			},
+			{
+				"name": "Compass",
+				"row": 4,
+				"prerequisites": ["Guilds"],
+				"quote": ""
+			},
+			{
+				"name": "Machinery",
+				"row": 5,
+				"prerequisites": ["Guilds"],
+				"quote": ""
+			},
+			{
+				"name": "Steel",
+				"row": 7,
+				"prerequisites": ["Defensive Fortification"],
+				"quote": ""
+			}
+		]				
+	},
+	{
+		"columnNumber": 8,
+		"era": "Medieval era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 3,
+				"prerequisites": ["Feudalism","Drama and Poetry","Compass"],
+				"quote": ""
+			},
+			{
+				"name": "Agricultural Improvement",
+				"row": 5,
+				"prerequisites": ["Machinery"],
+				"quote": ""
+			},
+			{
+				"name": "Chivalry",
+				"row": 7,
+				"prerequisites": ["Steel"],
+				"quote": ""
+			}
+		]						
+	},
+	{
+		"columnNumber": 9,
+		"era": "Medieval era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Civil Service",
+				"row": 2,
+				"prerequisites": ["Education"],
+				"quote": ""
+			},
+			{
+				"name": "Astronomy",
+				"row": 4,
+				"prerequisites": ["Education"],
+				"quote": ""
+			},
+			{
+				"name": "Archery",
+				"row": 6,
+				"prerequisites": ["Agricultural Improvement","Chivalry"],
+				"quote": ""
+			}
+		]					
 	},
 	{
 		"columnNumber": 17,
