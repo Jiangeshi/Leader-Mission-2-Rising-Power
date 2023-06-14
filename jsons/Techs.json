@@ -323,6 +323,105 @@
 		]					
 	},
 	{
+		"columnNumber": 10,
+		"era": "Renaissance era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "The Renaissance",
+				"row": 2,
+				"prerequisites": ["Civil Service"],
+				"quote": ""
+			},
+			{
+				"name": "Printing Press",
+				"row": 3,
+				"prerequisites": ["Civil Service"],
+				"quote": ""
+			},
+			{
+				"name": "Chemistry",
+				"row": 6,
+				"prerequisites": ["Archery"],
+				"quote": ""
+			}
+		]					
+	},
+	{
+		"columnNumber": 11,
+		"era": "Renaissance era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Architecture",
+				"row": 2,
+				"prerequisites": ["The Renaissance"],
+				"quote": ""
+			},
+			{
+				"name": "Banking",
+				"row": 3,
+				"prerequisites": ["The Renaissance","Printing Press"],
+				"quote": ""
+			},
+			{
+				"name": "Navigation",
+				"row": 4,
+				"prerequisites": ["Astronomy"],
+				"quote": ""
+			},
+			{
+				"name": "Metal Casting",
+				"row": 5,
+				"prerequisites": ["Chemistry"],
+				"quote": ""
+			},
+			{
+				"name": "Gunpowder",
+				"row": 7,
+				"prerequisites": ["Chemistry"],
+				"quote": ""
+			}
+		]			
+	},
+	{
+		"columnNumber": 12,
+		"era": "Renaissance era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Enlightenment",
+				"row": 2,
+				"prerequisites": ["Banking","Architecture"],
+				"quote": ""
+			},
+			{
+				"name": "Economics",
+				"row": 4,
+				"prerequisites": ["Banking","Navigation"],
+				"quote": ""
+			},
+			{
+				"name": "Metallurgy",
+				"row": 5,
+				"prerequisites": ["Metal Casting"],
+				"quote": ""		
+			},
+			{
+				"name": "Fertilizer",
+				"row": 6,
+				"prerequisites": ["Chemistry"],
+				"quote": ""
+			}
+		]					
+	},
+	{
 		"columnNumber": 17,
 		"era": "Future era",
 		"techCost": 9500,
