@@ -419,7 +419,94 @@
 				"prerequisites": ["Chemistry"],
 				"quote": ""
 			}
-		]					
+		]			
+	},
+	{
+		"columnNumber": 13,
+		"era": "Industrial era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Scientific Theory",
+				"row": 3,
+				"prerequisites": ["Enlightenment"],
+				"quote": ""
+			},
+			{
+				"name": "Steam Power",
+				"row": 5,
+				"prerequisites": ["Metallurgy"],
+				"quote": ""
+			},
+			{
+				"name": "Military Science",
+				"row": 6,
+				"prerequisites": ["Metallurgy","Fertilizer"],
+				"quote": ""		
+			},
+			{
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Gunpowder"],
+				"quote": ""
+			}
+		]				
+	},
+	{
+		"columnNumber": 14,
+		"era": "Industrial era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["Scientific Theory"],
+				"quote": ""
+			},
+			{
+				"name": "Industrialization",
+				"row": 4,
+				"prerequisites": ["Scientific Theory","Economics","Steam Power"],
+				"quote": ""
+			},
+			{
+				"name": "Dynamite",
+				"row": 6,
+				"prerequisites": ["Military Science","Rifling"],
+				"quote": ""		
+			}
+		]		
+	},
+	{
+		"columnNumber": 15,
+		"era": "Industrial era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Archaeology"],
+				"quote": ""
+			},
+			{
+				"name": "Construction",
+				"row": 4,
+				"prerequisites": ["Industrialization"],
+				"quote": ""
+			},
+			{
+				"name": "Railroads",
+				"row": 6,
+				"prerequisites": ["Industrialization","Dynamite"],
+				"quote": ""		
+			}
+		]			
 	},
 	{
 		"columnNumber": 17,
