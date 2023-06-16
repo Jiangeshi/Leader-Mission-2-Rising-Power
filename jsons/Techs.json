@@ -475,7 +475,7 @@
 			},
 			{
 				"name": "Dynamite",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Military Science","Rifling"],
 				"quote": ""		
 			}
@@ -502,14 +502,281 @@
 			},
 			{
 				"name": "Railroads",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Industrialization","Dynamite"],
 				"quote": ""		
 			}
 		]			
 	},
 	{
+		"columnNumber": 16,
+		"era": "Modern era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Electricity",
+				"row": 2,
+				"prerequisites": ["Biology","Construction"],
+				"quote": ""
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 4,
+				"prerequisites": ["Construction"],
+				"quote": ""
+			},
+			{
+				"name": "Socialism",
+				"row": 6,
+				"prerequisites": ["Construction"],
+				"quote": ""		
+			}
+		]					
+	},
+	{
 		"columnNumber": 17,
+		"era": "Modern era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Radio",
+				"row": 3,
+				"prerequisites": ["Replaceable Parts","Electricity"],
+				"quote": ""
+			},
+			{
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Replaceable Parts","Socialism"],
+				"quote": ""		
+			},
+			{
+				"name": "Combustion",
+				"row": 7,
+				"prerequisites": ["Railroads"],
+				"quote": ""
+			}
+		]				
+	},
+	{
+		"columnNumber": 18,
+		"era": "Modern era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Electronics",
+				"row": 3,
+				"prerequisites": ["Radio"],
+				"quote": ""
+			},
+			{
+				"name": "Plastics",
+				"row": 4,
+				"prerequisites": ["Replaceable Parts"],
+				"quote": ""
+			},
+			{
+				"name": "Ballistics",
+				"row": 5,
+				"prerequisites": ["Flight"],
+				"quote": ""		
+			},
+			{
+				"name": "Globalization",
+				"row": 7,
+				"prerequisites": ["Flight","Combustion"],
+				"quote": ""
+			}
+		]					
+	},
+	{
+		"columnNumber": 19,
+		"era": "Atomic era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Atomic Theory",
+				"row": 2,
+				"prerequisites": ["Electronics"],
+				"quote": ""
+			},
+			{
+				"name": "Materials Science",
+				"row": 4,
+				"prerequisites": ["Electronics","Plastics"],
+				"quote": ""
+			},
+			{
+				"name": "Radar",
+				"row": 5,
+				"prerequisites": ["Ballistics"],
+				"quote": ""		
+			},
+			{
+				"name": "Combined Arms",
+				"row": 7,
+				"prerequisites": ["Globalization"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Atomic era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Ecology",
+				"row": 2,
+				"prerequisites": ["Atomic Theory"],
+				"quote": ""
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 3,
+				"prerequisites": ["Atomic Theory","Materials Science"],
+				"quote": ""
+			},
+			{
+				"name": "Computers",
+				"row": 5,
+				"prerequisites": ["Radar","Materials Science"],
+				"quote": ""		
+			}
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Atomic era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 2,
+				"prerequisites": ["Ecology"],
+				"quote": ""
+			},
+			{
+				"name": "Rocketry",
+				"row": 5,
+				"prerequisites": ["Computers"],
+				"quote": ""
+			},
+			{
+				"name": "Telecommunications",
+				"row": 7,
+				"prerequisites": ["Combined Arms"],
+				"quote": ""		
+			}
+		]				
+	},
+	{
+		"columnNumber": 22,
+		"era": "Information era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Advanced Ballistics",
+				"row": 3,
+				"prerequisites": ["Nuclear Fission","Rocketry","Pharmaceuticals"],
+				"quote": ""
+			},
+			{
+				"name": "Robotics",
+				"row": 5,
+				"prerequisites": ["Telecommunications","Rocketry"],
+				"quote": ""
+			},
+			{
+				"name": "Internetwork",
+				"row": 7,
+				"prerequisites": ["Telecommunications"],
+				"quote": ""		
+			}
+		]					
+	},
+	{
+		"columnNumber": 23,
+		"era": "Information era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Nanotechnology",
+				"row": 2,
+				"prerequisites": ["Advanced Ballistics",],
+				"quote": ""
+			},
+			{
+				"name": "Particle Physics",
+				"row": 3,
+				"prerequisites": ["Advanced Ballistics","Robotics"],
+				"quote": ""
+			},
+			{
+				"name": "Satellites",
+				"row": 5,
+				"prerequisites": ["Advanced Ballistics","Robotics"],
+				"quote": ""
+			},
+			{
+				"name": "Mobile Tactics",
+				"row": 7,
+				"prerequisites": ["Internetwork","Robotics"],
+				"quote": ""		
+			}
+		]		
+	},
+	{
+		"columnNumber": 24,
+		"era": "Information era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Nuclear Fusion",
+				"row": 2,
+				"prerequisites": ["Particle Physics","Nanotechnology"],
+				"quote": ""
+			},
+			{
+				"name": "Artificial Intelligence",
+				"row": 4,
+				"prerequisites": ["Satellites","Particle Physics"],
+				"quote": ""
+		    },
+			{
+				"name": "Low Earth Orbit Project",
+				"row": 5,
+				"prerequisites": ["Satellites","Mobile Tactics"],
+				"quote": ""		
+			},
+			{
+				"name": "Stealth",
+				"row": 7,
+				"prerequisites": ["Mobile Tactics","Satellites"],
+				"quote": ""		
+			}
+		]			
+	},
+	{
+		"columnNumber": 25,
 		"era": "Future era",
 		"techCost": 9500,
 		"buildingCost": 750,
@@ -517,8 +784,8 @@
 		"techs": [
 			{
 				"name": "Future Tech",
-				"row": 6,
-				"prerequisites": [],
+				"row": 4,
+				"prerequisites": ["Nuclear Fusion","Artificial Intelligence","Low Earth Orbit Project","Stealth"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "",
 			}
