@@ -6,6 +6,15 @@ ResourceIcons/Bison
   orig: 110, 110
   offset: 0, 0
   index: -1
+  
+Warfare Aversion Level.png
+ResourceIcons/Warfare Aversion Level
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
 
 DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire
@@ -121,6 +130,52 @@ TechIcons/The Renaissance
   xy: 0, 0
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1          
+
+Socialism.png
+TechIcons/Socialism
+  rotate: false
+  xy: 0, 0
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1          
+
+Materials Science.png
+TechIcons/Materials Science
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1          
+
+Internetwork.png
+TechIcons/Internetwork
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1          
+
+Low Earth Orbit Project.png
+TechIcons/Low Earth Orbit Project
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1          
+
+
+Artificial Intelligence.png
+TechIcons/Artificial Intelligence
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: -1          
 

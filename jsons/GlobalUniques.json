@@ -1,4 +1,13 @@
 {
     "name": "Global uniques",
-    "uniques": []
+    "uniques": [
+    //厌战度
+    "Provides [1] [Warfare Aversion Level] <when at war>"
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [0] [Warfare Aversion Level]>"
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [10] [Warfare Aversion Level]>"   
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [30] [Warfare Aversion Level]>"
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [50] [Warfare Aversion Level]>"
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [70] [Warfare Aversion Level]>"
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>"
+    ]
 }
