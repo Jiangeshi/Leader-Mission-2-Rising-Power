@@ -11,7 +11,7 @@
         "name": "Reconnaissance",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]    
     },
@@ -19,7 +19,7 @@
         "name": "Foot Soldier",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]
     },
@@ -27,7 +27,7 @@
         "name": "Shooter",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]    
     },
@@ -35,7 +35,7 @@
         "name": "Mobile",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]        
     },
@@ -43,7 +43,7 @@
         "name": "Anti-Mobile",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]        
     },
@@ -51,7 +51,7 @@
         "name": "Anti-Air",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -59,7 +59,7 @@
         "name": "Helicopter",
         "movementType": "Land",    
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -67,7 +67,7 @@
         "name": "Siege",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -75,7 +75,7 @@
         "name": "Melee Water",
         "movementType": "Water"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -83,7 +83,7 @@
         "name": "Ranged Water",
         "movementType": "Water"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -91,7 +91,7 @@
         "name": "Submarine",
         "movementType": "Water",
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -99,7 +99,7 @@
         "name": "Water Carrier",
         "movementType": "Water"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
@@ -107,7 +107,7 @@
         "name": "Fighter",
         "movementType": "Air"
         "uniques": [
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Aircraft"]
     },
@@ -115,7 +115,7 @@
         "name": "Bomber",
         "movementType": "Air"   
         "uniques": [
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Aircraft"]   
     },
@@ -123,7 +123,7 @@
         "name": "Bomb",
         "movementType": "Air",
         "uniques": [
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Flybomb"]
     },
@@ -131,7 +131,7 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Flybomb"]
     //判断类型

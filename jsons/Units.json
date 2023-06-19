@@ -15,7 +15,6 @@
 		"cost": 106,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-		"hurryCostModifier": 20
     // 战士单位
 	},
 	{

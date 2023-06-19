@@ -3,11 +3,32 @@
     "uniques": [
     //厌战度
     "Provides [1] [Warfare Aversion Level] <when at war>"
+    "Instantly consumes [10] [Warfare Aversion Level] <upon conquering a city> <when above [10] [Warfare Aversion Level]>"
+    
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [0] [Warfare Aversion Level]>"
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [10] [Warfare Aversion Level]>"   
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [30] [Warfare Aversion Level]>"
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [50] [Warfare Aversion Level]>"
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [70] [Warfare Aversion Level]>"
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>"
+    //厌战度（10，30）
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [10] [Warfare Aversion Level]>"
+    //厌战度（30，50）
+    "[-10]% [Gold] <when above [30] [Warfare Aversion Level]>"
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [30] [Warfare Aversion Level]>"
+    //厌战度（50，70）
+    "[-5]% [Gold] <when above [50] [Warfare Aversion Level]>"
+    "[-15]% [Production] [in all cities] <when above [50] [Warfare Aversion Level]>"
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [50] [Warfare Aversion Level]>"    
+    //厌战度（70，100）
+    "[-5]% [Gold] <when above [70] [Warfare Aversion Level]>" 
+    "[-5]% [Production] [in all cities] <when above [70] [Warfare Aversion Level]>"    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [70] [Warfare Aversion Level]>" 
+    "Rebel units may spawn <when above [70] [Warfare Aversion Level]>"     
+    //厌战度（100，+∞）
+    "[-5]% [Gold] <when above [100] [Warfare Aversion Level]>"     
+    "[-5]% [Production] [in all cities] <when above [100] [Warfare Aversion Level]>"     
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [100] [Warfare Aversion Level]>"    
+    "[-25]% Strength <for [Military] units> <when above [100] [Warfare Aversion Level]>"
     ]
 }
