@@ -10,5 +10,30 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
+	// 模组介绍
+	},
+	{
+        "name": "1.1 Leader Mission 2 Rising Power-Author's Thanks",
+		"uniques": [
+		""
+		"Unbuildable",
+		"Cannot be purchased"
+		]
+	},
+	{
+        "name": "2.1 Warfare Aversion Level",
+		"uniques": [
+		""
+		"Unbuildable",
+		"Cannot be purchased"
+		]	
+	},
+	{
+        "name": "2.2 Religious Victory and the Great Prophet",
+		"uniques": [
+		""
+		"Unbuildable",
+		"Cannot be purchased"
+		]	
 	}
 ]

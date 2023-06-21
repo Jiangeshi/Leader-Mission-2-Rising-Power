@@ -12,7 +12,10 @@
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
         ]    
     },
     {
@@ -21,6 +24,9 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
         ]
     },
     {
@@ -28,7 +34,10 @@
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
         ]    
     },
     {
@@ -36,24 +45,33 @@
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
-        ]        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        ]    
     },
     {
         "name": "Anti-Mobile",
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
-        ]        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        ]    
     },
     {
         "name": "Anti-Air",
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
-        ]                
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        ]        
     },
     {
         "name": "Helicopter",
@@ -68,8 +86,11 @@
         "movementType": "Land"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
-        ]                
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles>"
+        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        ]    
     },
     {
         "name": "Melee Water",

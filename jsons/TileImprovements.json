@@ -84,6 +84,13 @@
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
+	// 伟人建筑
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 5,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
     },
 	// Unbuildable improvements
 	{

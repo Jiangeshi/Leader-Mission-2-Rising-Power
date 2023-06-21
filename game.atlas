@@ -7,6 +7,15 @@ ResourceIcons/Bison
   offset: 0, 0
   index: -1
   
+Cocoa.png
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
+  
 Warfare Aversion Level.png
 ResourceIcons/Warfare Aversion Level
   rotate: false

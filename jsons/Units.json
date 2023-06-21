@@ -24,5 +24,20 @@
 		"strength": 8,
 		"cost": 40,
 		"attackSound": "nonmetalhit",
+	// 伟人单位
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+            "May found a religion",
+            "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
 	}
 ]

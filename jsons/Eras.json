@@ -10,6 +10,8 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
@@ -27,6 +29,8 @@
         "embarkDefense": 4,
         "startPercent": 10,
         "citySound": "cityClassical",
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],    
         "iconRGB": [233, 31, 99]
     },
     {
@@ -45,6 +49,8 @@
         "embarkDefense": 6,
         "startPercent": 25,
         "citySound": "cityMedieval",
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],        
         "iconRGB": [157, 39, 176]
     },
     {
@@ -63,7 +69,8 @@
         "embarkDefense": 8,
         "startPercent": 37,
         "citySound": "cityRenaissance",
-        "uniques": [],
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],
         "iconRGB": [104, 58, 183]
     },
     {
@@ -82,8 +89,9 @@
         "embarkDefense": 10,
         "startPercent": 50,
         "citySound": "cityIndustrial",
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],        
         "iconRGB": [63, 81, 182],
-        "uniques": [],
     },
     {
         "name": "Modern era",
@@ -101,8 +109,9 @@
         "embarkDefense": 13,
         "startPercent": 65,
         "citySound": "cityModern",
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],        
         "iconRGB": [33, 150, 243],
-        "uniques": [],
     },
     {
         "name": "Atomic era",
@@ -121,7 +130,8 @@
         "startPercent": 65,
         "citySound": "cityAtomic",
         "iconRGB": [0, 150, 136],
-        "uniques": [],
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],
     },
     {
         "name": "Information era",
@@ -138,10 +148,10 @@
         "baseUnitBuyCost": 1000,
         "embarkDefense": 20,
         "startPercent": 80,
-
         "citySound": "cityInformation",
         "iconRGB": [76, 176, 81],
-        "uniques": [],
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],
     },
     {
         "name": "Future era",
@@ -160,6 +170,7 @@
         "startPercent": 80,
         "citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
-        "uniques": []
+        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [100] [Faith] [in all cities] at an increasing price ([50])",],
     }
 ]
