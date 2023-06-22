@@ -187,6 +187,33 @@ TechIcons/Artificial Intelligence
   orig: 300, 300
   offset: 0, 0
   index: -1          
+  
+GeothermalCrevice.png
+TileSets/HexaRealm/Tiles/Geothermal Crevice
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+
+Volcano.png
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+
+VolcanicSoil.png
+TileSets/HexaRealm/Tiles/Volcanic Soil
+  rotate: false
+  xy: 0, -15
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1  
 
 UnitPromotionIcons.png
 size: 2048, 128

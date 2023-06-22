@@ -41,6 +41,7 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+	        "Becomes [Volcanic Soil] when adjacent to [Volcano]",            
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
@@ -69,6 +70,7 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Plains] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
+        	"Becomes [Volcanic Soil] when adjacent to [Volcano]",    
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -87,6 +89,7 @@
             "Considered [Food] when determining start locations <in [Tundra] Regions>",
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
+        	"Becomes [Volcanic Soil] when adjacent to [Volcano]",    
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
@@ -103,12 +106,13 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+        	"Becomes [Volcanic Soil] when adjacent to [Volcano]",    
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Lakes",
 		"type": "Water",
-		"food": 2,
+		"food": 3,
 		"gold": 1,
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
@@ -119,7 +123,7 @@
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"RGB": [102, 102, 102],
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
@@ -153,11 +157,11 @@
 		"production": 2,
 		"movementCost": 2,
 		"overrideStats": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
-					"[+5] Strength for cities built on this terrain",
+					"[+3] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
 					"Occurs in groups around high elevations",
 					"[+1] to Fertility for Map Generation",
@@ -176,7 +180,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"occursOn": ["Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
@@ -199,7 +203,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
@@ -221,12 +225,10 @@
 		"food": -1,
 		"movementCost": 3,
 		"unbuildable": true,
-		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
 	{
 		"name": "Fallout",
@@ -497,47 +499,54 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+	//模组新地形
 	},
-/*
-	// BNW wonders
 	{
-		"name": "King Solomon's Mines",
-		"type": "NaturalWonder",
-		"production": 6,
+		"name": "Geothermal Crevice",
+		"type": "TerrainFeature",
+		"science": 1,
+		"food": 2,
+		"movementCost": 1,
 		"overrideStats": true,
-		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"],
-		"turnsInto": "Plains",
-		"impassable": true,
+		"unbuildable": false,
+		"occursOn": ["Plains","Tundra","Grassland","Snow"],
+		"uniques": ["Rare feature","Never receives any resources"]	
+    },
+	{
+		"name": "Volcano",
+		"type": "TerrainFeature",
+		"production": 1,
+		"science": 1,
+		"overrideStats": true,
 		"unbuildable": true,
-		"weight": 4
-	},
-	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
-		"name": "Lake Victoria",
-		"type": "NaturalWonder",
-		"food": 6,
-		"occursOn": ["Plains"],
-		"turnsInto": "Mountain",
 		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
-		"weight": 10
+		"occursOn": ["Desert", "Plains"],
+		"uniques": ["Rough terrain","Rare feature", 
+		"Never receives any resources",
+			"Tile provides yield without assigned population",
+			"Units ending their turn on this terrain take [70] damage",
+			"Blocks line-of-sight from tiles at same elevation",
+				"Has an elevation of [3] for visibility calculations",
+				"Nullifies all other stats this tile provides"],
+		"civilopediaText": [
+		{"text":"The plains, deserts, grasslands and tundras without other landforms near the volcano will become volcanic soil", "link":"Terrain/Volcanic Soil"}
+		]
 	},
 	{
-		"name": "Mount Kilimanjaro",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains","Grassland"],
-		"turnsInto": "Mountain",
-		"impassable": true,
+		"name": "Volcanic Soil",
+		"type": "TerrainFeature",
+		"food": 1,
+		"production": -1,
+		"overrideStats": true,
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
-	}
-*/
+		"defenceBonus": -0.30
+		"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
+		"uniques": ["Base Terrain on this tile is not counted for Region determination",
+			"Units ending their turn on this terrain take [20] damage",
+			"Doesn't generate naturally",
+			"Never receives any resources"
+	]
+		"civilopediaText": [
+		{"text":"Only generated around the volcano", "link":"Terrain/Volcano"}]	
+	},
 ]

@@ -16,6 +16,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]    
     },
     {
@@ -27,6 +28,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]
     },
     {
@@ -38,6 +40,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"    
         ]    
     },
     {
@@ -49,6 +52,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]    
     },
     {
@@ -60,6 +64,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]    
     },
     {
@@ -71,6 +76,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]        
     },
     {
@@ -90,6 +96,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Cannot attack <in [Marsh] tiles>"
         ]    
     },
     {
