@@ -1,5 +1,5 @@
 [	
-	// Bonus resources
+	// 奖金资源
 	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
@@ -87,7 +87,8 @@
 					"Generated on every [30] tiles <in [Featureless] [Grassland] tiles>"]
 		"improvementStats": {"production": 1}
 	},
-	// Luxury resources
+	
+	// 奢侈资源
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
@@ -392,7 +393,57 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-	//厌战度
+					
+    // 战略资源	
+	},
+	{
+	    "name": "Horses",
+		"resourceType": "Strategic",
+		"revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], 
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": [
+		"Stockpiled",
+		"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
+					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"uniques": [
+		"Stockpiled",
+		"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}		
+		
+	// 厌战度
 	},
 	{
 		"name": "Warfare Aversion Level",

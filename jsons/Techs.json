@@ -3,33 +3,28 @@
 		"columnNumber": 0,
 		"era": "Ancient era",
 		"techCost": 20,
-		"buildingCost": 40,
+		"buildingCost": 35,
 		"techs": [
 			{
 				"name": "Drill Wood to Make Fire",
 				"row": 5,
 				"quote": "",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","Enables Open Borders agreements"]
 			}
 		]
 	},
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 25,
+		"buildingCost": 45,
 		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Belief Worship",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Drill Wood to Make Fire"],
-				"quote": ""
-			},
-			{
-				"name": "Clan",
-				"row": 4,
-				"prerequisites": ["Drill Wood to Make Fire"],
+				"uniques":["[+1 Faith]"]
 				"quote": ""
 			},
 			{
@@ -68,13 +63,13 @@
 			{
 				"name": "Writing",
 				"row": 3,
-				"prerequisites": ["Belief Worship","Clan"],
+				"prerequisites": ["Belief Worship"],
 				"quote": ""
 			},
 			{
 				"name": "Sailing",
 				"row": 4,
-				"prerequisites": ["Clan"],
+				"prerequisites": ["Agriculture"],
 				"quote": ""
 			},
 			{
@@ -94,8 +89,8 @@
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 60,
+		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
 			{

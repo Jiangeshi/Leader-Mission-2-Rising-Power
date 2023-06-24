@@ -30,5 +30,8 @@
     "[-5]% [Production] [in all cities] <when above [100] [Warfare Aversion Level]>"     
     "[+5]% Unhappiness from [Population] [in all cities] <when above [100] [Warfare Aversion Level]>"    
     "[-25]% Strength <for [Military] units> <when above [100] [Warfare Aversion Level]>"
+    
+    // 特殊单位
+    "Enables [Great Admiral] units to enter ocean tiles",
     ]
 }

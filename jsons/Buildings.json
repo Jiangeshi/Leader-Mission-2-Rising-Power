@@ -10,6 +10,307 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
+		
+	// 远古时代-必建建筑
+	},
+	{
+        "name": "City Level I",
+        "cost": 1,
+		"uniques": [
+		"Never destroyed when the city is captured",
+		"Cannot be purchased",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable"
+		]	
+	},
+	{
+		"name": "Bonfire",
+		"culture": 1,
+		"science": 1,
+		"maintenance": 0,
+		"requiredTech": "Drill Wood to Make Fire",		
+		"uniques":["Only available <in cities with a [City Level I]>"]
+	},
+	{
+		"name": "Kiln",
+		"production": 1,
+		"science": 1,
+		"requiredTech": "Pottery",
+		"uniques":["Only available <in cities with a [City Level I]>"]
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"uniques": [
+		    "Only available <in cities with a [City Level I]>",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			],
+		"requiredTech": "Pottery"	
+	
+	// 远古时代-选建建筑
+	},
+	{
+		"name": "Shrine",
+		"faith": 2,
+		"maintenance": 1,
+		"requiredTech": "Belief Worship",
+		"uniques":["Only available <in cities with a [City Level I]>"]
+	},
+	{
+		"name": "Library",
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level I]>",
+		"[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"	
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 3,
+		"cityHealth": 50,
+		"requiredTech": "Masonry",
+		"uniques":["Only available <in cities with a [City Level I]>"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"requiredTech": "Burial Custom",	
+		"uniques":["Only available <in cities with a [City Level I]>"]
+		
+	// 远古时代-特殊建筑
+    },
+	{
+		"name": "Water Mill",
+		"maintenance": 1,
+		"food": 1,
+		"production": 1,
+		"uniques": [
+		"Only available <in cities with a [City Level I]>",
+		"Must be on [River]",
+		"[+1 Production] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Agriculture"	
+	},
+	{
+		"name": "Stone Works",
+		"happiness": 2,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"uniques": [
+	    "Only available <in cities with a [City Level I]>",		
+		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Art"	
+	},
+	{
+		"name": "Circus",
+  "requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 2,
+		"gold": 1,
+		"requiredTech": "Art"
+		"uniques":["Only available <in cities with a [City Level I]>"]		
+	
+	// 远古时代-奇观
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 3,
+		"isWonder": true,
+		"requiredTech": "Belief Worship",
+		"uniques": ["[1] free [Great Prophet] units appear"]
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "The Great Library",
+		"science": 4,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"		
+	},
+	{
+		"name": "Temple of Artemis",
+		"food": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]"],
+		"requiredTech": "Calendar",
+	    "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "The Pyramids",
+		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-20]% tile improvement construction time","[2] free [Worker] units appear"],
+		"requiredTech": "Burial Custom",
+		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+	},
+	{
+		"name": "Mausoleum of Halicarnassus",
+		"faith": 3,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Coast]",
+			"[+2 Science] from [Coast] tiles [in this city]"],
+		"requiredTech": "Burial Custom",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Statue of Zeus",
+		"faith": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["[+25]% Strength <for [All] units> <vs cities>"],
+		"requiredTech": "Bronze Working",
+	    "quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+	},
+	{
+		"name": "The Oracle",
+		"culture": 3,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[1] Free Social Policies"],
+		"requiredTech": "Calendar",
+	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"				
+	// 古典-必建建筑
+	},
+	{
+        "name": "City Level II",
+        "cost": 1,
+        "production": 1,
+        "culture": 1,
+		"uniques": [
+		"Only available <starting from the [Classical era]>",
+		"Only available <in cities with a [Bonfire]>",
+		"Only available <in cities with a [Kiln]>",
+		"Only available <in cities with a [Granary]>",	
+		
+		"Never destroyed when the city is captured",
+		"Cannot be purchased",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable"
+		]	
+	},
+	{
+		"name": "Market",
+		"gold": 1,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"	
+		"uniques": ["Only available <in cities with a [City Level II]>",
+		"[+1 Gold] per [2] population [in this city]"],
+	},
+	{
+		"name": "Courthouse",
+		"happiness": 1,
+		"culture": 2,
+		"maintenance": 1,
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"Remove extra unhappiness from annexed cities",
+		"Destroyed when the city is captured"],
+		"requiredTech": "Legislation",	
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	
+	// 古典-选建建筑
+	},
+	{
+		"name": "Barracks",
+		"maintenance": 1,
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Army Formation"
+	},
+	{
+		"name": "Colosseum",
+	    "maintenance": 1,
+		"happiness": 2,
+		"requiredTech": "Engineering"
+		"uniques":["Only available <in cities with a [City Level II]>"]	
+	},
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry"		
+		"uniques":["Only available <in cities with a [City Level II]>"]	
+	},
+	{
+		"name": "Temple",
+		"maintenance": 1,
+		"requiredTech": "Theology",
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"Destroyed when the city is captured",
+		"[+1 Faith] per [2] population [in this city]"]	
+		
+	// 古典-特殊建筑
+	},
+	{
+		"name": "Lighthouse",
+		"maintenance": 1,
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+		"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Stable",
+		"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",	
+		"[+15]% Production when constructing [Mobile] units [in this city]",
+		"[+1 Production] from [Cattle] tiles [in this city]",
+		"[+1 Production] from [Horses] tiles [in this city]",
+		"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Smithy",
+		"maintenance": 1,
+		"production": 2,
+		"science": 2,
+		"requiredTech": "Iron Working"
+	"requiredNearbyImprovedResources": ["Iron"],
+	
+	// 古典-奇观
+	},
+	{
+		"name": "The Great Lighthouse",
+		"gold": 2,
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear"
+			],
+		"requiredTech": "Optics",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Terracotta Army",
+		"culture": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Engineering",
+		"uniques":[
+		//"[2] free [Spearman] units appear","[3] free [Composite Bowman] units appear",
+		]
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+		
 	// 模组介绍
 	},
 	{
@@ -38,6 +339,14 @@
 	},
 	{
         "name": "2.3 Terrain Modification",
+		"uniques": [
+		""
+		"Unbuildable",
+		"Cannot be purchased"
+		]	
+	},
+	{
+        "name": "2.4 City Level",
 		"uniques": [
 		""
 		"Unbuildable",

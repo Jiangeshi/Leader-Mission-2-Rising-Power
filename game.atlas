@@ -1,3 +1,50 @@
+City Level I.png
+BuildingIcons/City Level I
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+  
+City Level II.png
+BuildingIcons/City Level II
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Bonfire.png
+BuildingIcons/Bonfire
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+Kiln.png
+BuildingIcons/Kiln
+  rotate: false
+  xy: 0,0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+Smithy.png
+BuildingIcons/Smithy
+  rotate: false
+  xy: 0,0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+
+
+
 Bison.png
 ResourceIcons/Bison
   rotate: false
@@ -51,15 +98,6 @@ TechIcons/Burial Custom
   orig: 50, 50
   offset: 0, 0
   index: -1  
-
-Clan.png
-TechIcons/Clan
-  rotate: false
-  xy: 0, 0
-  size: 75, 75
-  orig: 75, 75
-  offset: 0, 0
-  index: -1
 
 Art.png
 TechIcons/Art
@@ -213,7 +251,101 @@ TileSets/HexaRealm/Tiles/Volcanic Soil
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
+  index: -1 
+  
+GreatAdmiralLand.png
+TileSets/AbsoluteUnits/Units/Great Admiral
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralLand-1.png
+TileSets/AbsoluteUnits/Units/Great Admiral-1
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralLand-1.png
+TileSets/AbsoluteUnits/Units/Great Admiral-2
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralA.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralA-1.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralA-1.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralB.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+GreatAdmiralB-1.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+  
+GreatAdmiralB-1.png
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
   index: -1  
+  
+  
+  
+GreatAdmiralIcon.png
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+  
+  
 
 UnitPromotionIcons.png
 size: 2048, 128

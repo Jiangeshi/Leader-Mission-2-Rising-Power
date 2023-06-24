@@ -12,19 +12,146 @@
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
+		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-    // 战士单位
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 3,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", 
+		"May create improvements on water resources", "Uncapturable"]	
+		
+	//侦查单位
+	},
+	{
+		"name": "Scout",
+		"unitType": "Reconnaissance",
+		"movement": 2,
+		"strength": 5,
+		"cost": 20,
+		"promotions": ["Off-road"],
+		"attackSound": "nonmetalhit"
+				
+    // 战士
 	},
 	{
 		"name": "Warrior",
 		"unitType": "Foot Soldier",
 		"movement": 2,
 		"strength": 8,
+		"cost": 30,
+		//"obsoleteTech": "铁器",
+		//"upgradesTo": "Swordsman",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "nonmetalhit"
+		
+	// 射手
+	},
+	{
+		"name": "Archer",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 35,
+		"requiredTech": "Trapping",
+		//"obsoleteTech": "铁器",
+		//"upgradesTo": "Composite Bowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Shooter",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		//"upgradesTo": "Knight",
+		//"obsoleteTech": "骑士制度",
+		"uniques": [
+		"Costs [3] [Horses]",
+		"Consumes [1] [Horses]"
+		"No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
+		],
+		"attackSound": "arrow"		
+		
+	//反XX单位
+	},
+	{
+		"name": "Spearman",
+		"unitType": "Anti-Mobile",
+		"movement": 2,
+		"strength": 12,
+		"cost": 50,
+		"requiredTech": "Bronze Working",
+		//"obsoleteTech": "Defensive Fortification",
+		//"upgradesTo": "Pikeman",
+		"uniques":["[+50]% Strength <vs [Mobile] units>"]
+		"attackSound": "metalhit"	
+	
+	//攻城单位
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 10,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		//"obsoleteTech": "骑士制度",
+		//"upgradesTo": "Trebuchet",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight",
+		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"attackSound": "throw"		
+		
+	// 近程海军
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
 		"cost": 40,
-		"attackSound": "nonmetalhit",
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		//"upgradesTo": "Caravel",
+		//"obsoleteTech": "天文学",
+		"attackSound": "nonmetalhit"	
+			
 	// 伟人单位
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2	
 	},
 	{
 		"name": "Great Prophet",
@@ -39,5 +166,32 @@
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]", 
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable", 
+		"Uncapturable"],
+		"movement": 2	
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian",
+		"uniques": [
+		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
+		"[+15]% Strength bonus for [Water] units within [3] tiles", 
+		"Great Person - [Great Admiral]", 
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"[+1] Sight <when [Embarked]>",
+		"Double movement in [Coast]"
+		"Unbuildable", 
+		"Uncapturable"],
+		"movement": 2
 	}
 ]

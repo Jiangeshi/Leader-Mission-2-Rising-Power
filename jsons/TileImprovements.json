@@ -57,9 +57,7 @@
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 
-	// Removals
-	// Any improvement that starts with 'Remove ' is automatically changed into
-	// the improvement that removes the terrainfeature after it.
+	// 移除
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 5,
@@ -84,15 +82,66 @@
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
+	
+	//道路
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory","Infrastructure"]	
 	// 伟人建筑
+    },
+    {
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"uniques": ["Great Improvement",
+		//"[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>",
+		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 5,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 3,
+		"uniques": ["Great Improvement",
+		//"[+1 Production] <after discovering [Chemistry]>",
+		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 5,
+		"uniques": ["Great Improvement",
+		//"[+1 Gold] <after discovering [Economics]>", 
+		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 5,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
     },
-	// Unbuildable improvements
+	// 不可建造设施
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
