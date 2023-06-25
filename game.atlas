@@ -15,6 +15,15 @@ BuildingIcons/City Level II
   orig: 280, 280
   offset: 0, 0
   index: -1  
+  
+City Level III.png
+BuildingIcons/City Level III
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
 
 Bonfire.png
 BuildingIcons/Bonfire
