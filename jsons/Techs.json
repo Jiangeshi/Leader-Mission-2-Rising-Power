@@ -4,6 +4,7 @@
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 35,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Drill Wood to Make Fire",
@@ -243,9 +244,9 @@
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 260,
+		"buildingCost": 120,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Feudalism",
@@ -262,6 +263,7 @@
 			{
 				"name": "Machinery",
 				"row": 5,
+				"uniques": ["Improves movement speed on roads"],
 				"prerequisites": ["Guilds"],
 				"quote": ""
 			},
@@ -276,14 +278,15 @@
 	{
 		"columnNumber": 8,
 		"era": "Medieval era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 370,
+		"buildingCost": 150,
+		"wonderCost": 375,
 		"techs": [
 			{
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Feudalism","Drama and Poetry","Compass"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": ""
 			},
 			{
@@ -303,26 +306,30 @@
 	{
 		"columnNumber": 9,
 		"era": "Medieval era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 485,
+		"buildingCost": 170,
+		"wonderCost": 425,
 		"techs": [
 			{
 				"name": "Civil Service",
 				"row": 2,
 				"prerequisites": ["Education"],
+				"uniques":["[+15]% [Culture] [in all cities]"]
 				"quote": ""
 			},
 			{
 				"name": "Astronomy",
 				"row": 4,
 				"prerequisites": ["Education"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 				"quote": ""
 			},
 			{
 				"name": "Archery",
 				"row": 6,
 				"prerequisites": ["Agricultural Improvement","Chivalry","Steel"],
+				"uniques": ["[-25]% Gold cost of upgrading <for [Military] units>",
+				"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
 				"quote": ""
 			}
 		]					

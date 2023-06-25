@@ -52,7 +52,14 @@ BuildingIcons/Taxation Bureau
   offset: 0, 0
   index: -1
   
-  
+MinistryofDefense.png
+BuildingIcons/Ministry of Defense
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1    
   
 
 Bison.png

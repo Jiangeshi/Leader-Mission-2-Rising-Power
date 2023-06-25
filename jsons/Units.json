@@ -56,9 +56,23 @@
 		"strength": 14,
 		"cost": 60,
 		"requiredTech": "Iron Working",
-		//"upgradesTo": "Longswordsman",
-		//"obsoleteTech": "兵器储备",
-		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques":[
+		"Costs [3] [Iron]",
+		"Consumes [1] [Iron]",
+		"[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 21,
+		"cost": 145,
+		"requiredTech": "Steel",
+		//"upgradesTo": "Musketman",
+		//"obsoleteTech": "火药",
 		"uniques":[
 		"Costs [3] [Iron]",
 		"Consumes [1] [Iron]",
@@ -105,10 +119,23 @@
 		"rangedStrength": 11,
 		"cost": 60,
 		"requiredTech": "Iron Working",
-		//"obsoleteTech": "兵器储备",
-		//"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Crossbowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"
+    },
+	{
+		"name": "Crossbowman",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 145,
+		"requiredTech": "Steel",
+		//"upgradesTo": "Gatling Gun",
+		//"obsoleteTech": "军事科学",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"	
 		
 	// 机动部队
 	},
@@ -119,8 +146,8 @@
 		"strength": 13,
 		"cost": 70,
 		"requiredTech": "Horseback Riding",
-		//"upgradesTo": "Knight",
-		//"obsoleteTech": "骑士制度",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
 		"uniques": [
 		"Costs [3] [Horses]",
 		"Consumes [1] [Horses]"
@@ -128,6 +155,24 @@
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mobile",
+		"movement": 4,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Chivalry",
+		//"obsoleteTech": "军事科学",
+		//"upgradesTo": "Cavalry",
+		"uniques": [
+		"Costs [3] [Horses]",
+		"Costs [3] [Iron]",
+		"Consumes [1] [Horses]"
+		"Can move after attacking","No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+        "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"	
 		
 	// 反XX单位
 	},
@@ -165,11 +210,25 @@
 		"rangedStrength": 10,
 		"cost": 70,
 		"requiredTech": "The Wheel",
-		//"obsoleteTech": "骑士制度",
-		//"upgradesTo": "Trebuchet",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Trebuchet",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
 		"attackSound": "throw"		
+	},
+	{
+		"name": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 16,
+		"rangedStrength": 16,
+		"cost": 150,
+		"requiredTech": "Chivalry",
+		//"obsoleteTech": "火药",
+		//"upgradesTo": "Cannon",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
+		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"attackSound": "throw"	
 		
 	// 近程海军
 	},
@@ -181,36 +240,63 @@
 		"cost": 40,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
-		//"upgradesTo": "Caravel",
-		//"obsoleteTech": "天文学",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"	
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 155,
+		"requiredTech": "Astronomy",
+		//"upgradesTo": "Ironclad",
+		//"obsoleteTech": "蒸汽机",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
+		"attackSound": "cannon"	
+	
+	// 远程海军
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 145,
+		"requiredTech": "Compass",
+		//"obsoleteTech": "航海术",
+		//"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
 			
 	// 伟人单位
 	},
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Happiness]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"
 		],
 		"movement": 2
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]"],
 		"movement": 2	
 	},
 	{
@@ -251,7 +337,9 @@
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Unbuildable", 
-		"Uncapturable"],
+		"Uncapturable",
+		"Is part of Great Person group [Military]"
+		],
 		"movement": 2
 	// 宗教单位
     },

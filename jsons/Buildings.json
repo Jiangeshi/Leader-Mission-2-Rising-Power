@@ -242,7 +242,8 @@
 	},
 	{
 		"name": "Amphitheater",
-		"culture": 3,
+		"culture": 1,
+		"science": 2,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"requiredTech": "Drama and Poetry"		
@@ -303,8 +304,8 @@
         "requiredTech": "Currency"	
         "cost": 1,
 		"uniques": [
-		"[+1 Gold] per [1] population [in this city]"
 		"Only available <in cities with a [City Level II]>",
+		"[+1 Gold] per [1] population [in this city]"
 		"Cannot be purchased",
 		"Unsellable",
 		"Automatically built in all cities where it is buildable"
@@ -353,7 +354,15 @@
 		"gold": 8,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Guilds"			
+		"requiredTech": "Guilds"	
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 105,
+		"isNationalWonder": true,
+		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
 		
 	// 古典-世界奇观
 	},
@@ -443,6 +452,155 @@
 			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+		
+	// 中古-必建建筑
+	},
+	{
+        "name": "City Level III",
+        "cost": 1,
+        "culture": 2,
+        "science": 2,
+		"uniques": [
+		"Only available <starting from the [Medieval era]>",
+		"Only available <in cities with a [Market]>",
+		"Only available <in cities with a [Courthouse]>",
+		"Only available <in cities with a [Aqueduct]>",	
+		
+		"Never destroyed when the city is captured",
+		"Cannot be purchased",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable"
+		]	
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Teacher": 2},
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"	
+	},
+	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 15},
+		"uniques": ["Only available <in cities with a [City Level III]>"],
+		"requiredTech": "Machinery"	
+	
+	// 中古-选建建筑
+	},
+	{
+	    "name": "Garden",
+	    "food": 2,
+		"uniques": ["Only available <in cities with a [City Level III]>","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"maintenance": 1,
+		"requiredTech": "Agricultural Improvement"
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"requiredTech": "Chivalry",
+		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Armory",
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level III]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"		
+			
+	// 中古-特殊建筑
+	},
+	{
+		"name": "Forge",
+		"maintenance": 1,
+		"specialistSlots": {"Engineer": 1},
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Machinery",
+		"uniques": ["Only available <in cities with a [City Level III]>",
+		"[+15]% Production when constructing [Spaceship part] units [in this city]",
+		"[+15]% Production when constructing [Land] units [in this city]",
+		"[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Harbor",
+		"greatPersonPoints": {"Great Admiral": 1},
+		"maintenance": 3,
+		"uniques": ["Only available <in cities with a [City Level III]>",
+		"[+1 Production] from [Water resource] tiles [in this city]","[+5]% [Gold] from Trade Routes",
+		"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Observatory",
+		"maintenance": 0,
+		"specialistSlots": {"Scientist": 1},
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Astronomy"	
+		
+	// 中古-国家奇观
+	},
+	{
+		"name": "Oxford University",
+		"cost": 120,
+		"science": 5,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Ministry of Defense",
+		"cost": 120,
+		"isNationalWonder": true,
+		"uniques": [
+		"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+		 "[+15]% Production when constructing [Military] units [in all cities]",
+		"[-5]% [Gold] [in all cities]",
+		"Cost increases by [30] per owned city"],
+		"requiredTech": "Archery",
+			
+	// 中古-世界奇观
+	},
+	{
+		"name": "Chichen Itza",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Civil Service",
+		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+	},
+	{
+		"name": "Angkor Wat",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"requiredTech": "Education",
+		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"	
+	},
+	{
+		"name": "Alhambra",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 25},
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+		"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"	
+	},
+	{
+		"name": "Notre Dame",
+		"faith": 4,
+		"happiness": 10,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"requiredTech": "Feudalism",
+		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 		
 	// 模组介绍
 	},

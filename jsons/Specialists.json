@@ -1,5 +1,10 @@
 [
 	{
+		"name":"Teacher",
+		"greatPersonPoints": {"Great Scientist":2, "Great Merchant":2, "Great Artist":2, "Great Engineer":2},
+		"color": [40,195,150]
+	},
+	{
 		"name":"Scientist",
 		"science":3,
 		"greatPersonPoints": {"Great Scientist":3},
@@ -13,7 +18,8 @@
 	},
 	{
 		"name":"Artist",
-		"culture":2,
+		"science":1,
+		"happiness":1,
 		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
 	},

@@ -1,12 +1,14 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"[+2 Food] <in [Volcanic Soil] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]"],
     },
 	{
 		"name": "Mine",
@@ -41,7 +43,9 @@
 		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Agriculture",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Quarry",
@@ -54,7 +58,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Trading post",
@@ -122,7 +126,8 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 5,
+		"happiness": 3,
+		"science": 3,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{

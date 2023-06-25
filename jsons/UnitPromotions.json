@@ -1261,6 +1261,10 @@
 	//特殊
 		"name": "Rejuvenation", 
 		"uniques": ["All healing effects doubled"]
+	},
+	{
+		"name": "Morale", // Heroic Epic
+		"uniques": ["[+15]% Strength"]
 	}
 ]
     
