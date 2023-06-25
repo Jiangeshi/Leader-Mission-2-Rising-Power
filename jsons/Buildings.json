@@ -111,7 +111,7 @@
 		"requiredTech": "Art"
 		"uniques":["Only available <in cities with a [City Level I]>"]		
 	
-	// 远古时代-奇观
+	// 远古时代-世界奇观
 	},
 	{
 		"name": "Stonehenge",
@@ -237,7 +237,7 @@
 		"name": "Colosseum",
 	    "maintenance": 1,
 		"happiness": 2,
-		"requiredTech": "Engineering"
+		"requiredTech": "Horseback Riding"
 		"uniques":["Only available <in cities with a [City Level II]>"]	
 	},
 	{
@@ -287,8 +287,75 @@
 		"science": 2,
 		"requiredTech": "Iron Working"
 	"requiredNearbyImprovedResources": ["Iron"],
+		"uniques": ["Only available <in cities with a [City Level II]>"]	
+	},
+	{
+		"name": "Mint",
+		"maintenance": 0,
+    "requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"uniques": [
+		"Only available <in cities with a [City Level II]>",
+		"[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"	
+	},
+	{
+        "name": "Taxation Bureau",
+        "requiredTech": "Currency"	
+        "cost": 1,
+		"uniques": [
+		"[+1 Gold] per [1] population [in this city]"
+		"Only available <in cities with a [City Level II]>",
+		"Cannot be purchased",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable"
+		]	
 	
-	// 古典-奇观
+	// 古典-国家奇观
+	},
+	{
+		"name": "Circus Maximus",
+		"cost": 105,
+		"happiness": 4,
+	    "gold": 4,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "National College",
+		"cost": 105,
+		"science": 3,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Nation"
+	},
+	{
+		"name": "National Epic",
+		"cost": 105,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in all cities]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Nation"	
+	},
+	{
+		"name": "Grand Temple",
+		"cost": 130,
+		"faith": 8,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"Gain a free [Pantheon] belief",
+		"[+100]% Natural religion spread [in this city]", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true	
+	},
+	{
+		"name": "National Treasury",
+		"cost": 105,
+		"gold": 8,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Guilds"			
+		
+	// 古典-世界奇观
 	},
 	{
 		"name": "The Great Lighthouse",
@@ -304,12 +371,78 @@
 		"name": "Terracotta Army",
 		"culture": 2,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
+	    "greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Engineering",
 		"uniques":[
-		//"[2] free [Spearman] units appear","[3] free [Composite Bowman] units appear",
+		"[2] free [Spearman] units appear","[3] free [Composite Bowman] units appear",
 		]
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "Hanging Gardens",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"food": 5,
+		"isWonder": true,
+		"requiredTech": "Engineering",
+		"uniques": ["[+2] population [in this city]"],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"	
+	},
+	{
+		"name": "Great Wall",
+		"culture": 2,
+		"gold": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory"],
+		"requiredTech": "Defensive Fortification",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"	
+	},
+	{
+		"name": "Petra",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]"],
+		"requiredTech": "Drama and Poetry",
+		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"	
+	},
+	{
+		"name": "Colossus",
+		"gold": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+2 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Guilds",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "Machu Picchu",
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Guilds",
+		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"	
+	},
+	{
+		"name": "Hagia Sophia",
+		"faith": 3,
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears"],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Great Mosque of Djenne",
+		"culture": 1,
+		"faith": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]", "Hidden when religion is disabled",
+			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"],
+		"requiredTech": "Theology",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 		
 	// 模组介绍
 	},

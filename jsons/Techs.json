@@ -18,7 +18,7 @@
 		"era": "Ancient era",
 		"techCost": 25,
 		"buildingCost": 45,
-		"wonderCost": 185,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Belief Worship",
@@ -52,7 +52,7 @@
 		"era": "Ancient era",
 		"techCost": 35,
 		"buildingCost": 60,
-		"wonderCost": 185,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Art",
@@ -91,7 +91,7 @@
 		"era": "Ancient era",
 		"techCost": 60,
 		"buildingCost": 75,
-		"wonderCost": 185,
+		"wonderCost": 180,
 		"techs": [
 			{
 				"name": "Burial Custom",
@@ -128,9 +128,9 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 95,
+		"buildingCost": 100,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Theology",
@@ -148,6 +148,7 @@
 				"name": "Optics",
 				"row": 4,
 				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"],	
 				"quote": ""
 			},
 			{
@@ -167,9 +168,9 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 135,
+		"buildingCost": 105,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Nation",
@@ -187,12 +188,16 @@
 				"name": "Engineering",
 				"row": 6,
 				"prerequisites": ["Horseback Riding","Masonry"],
+				"uniques": ["Roads connect tiles across rivers"],
 				"quote": ""
 			},
 			{
 				"name": "Army Formation",
 				"row": 7,
 				"prerequisites": ["Iron Working"],
+				"uniques":["Free [Great General] appears <if no other Civilization has researched this>",
+				"[+50]% XP gained from combat <for [Military] units>"
+				]	
 				"quote": ""
 			}
 		]			
@@ -200,14 +205,18 @@
 	{
 		"columnNumber": 6,
 		"era": "Classical era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 160,
+		"buildingCost": 115,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Politics",
 				"row": 2,
 				"prerequisites": ["Nation"],
+			    "uniques":[
+		"Free Social Policy <if no other Civilization has researched this>",	    
+		"[-10]% Culture cost of adopting new Policies",
+		]
 				"quote": ""
 			},
 			{
@@ -220,6 +229,7 @@
 				"name": "Guilds",
 				"row": 5,
 				"prerequisites": ["Currency","Engineering"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": ""
 			},
 			{

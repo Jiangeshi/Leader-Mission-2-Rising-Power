@@ -44,10 +44,26 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 30,
-		//"obsoleteTech": "铁器",
-		//"upgradesTo": "Swordsman",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		//"upgradesTo": "Longswordsman",
+		//"obsoleteTech": "兵器储备",
+		"requiredResource": "Iron",
+		"uniques":[
+		"Costs [3] [Iron]",
+		"Consumes [1] [Iron]",
+		"[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"	
 		
 	// 射手
 	},
@@ -59,8 +75,8 @@
 		"rangedStrength": 7,
 		"cost": 35,
 		"requiredTech": "Trapping",
-		//"obsoleteTech": "铁器",
-		//"upgradesTo": "Composite Bowman",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Composite Bowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"
 	},
@@ -79,9 +95,41 @@
 		"Consumes [1] [Horses]"
 		"No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
 		],
-		"attackSound": "arrow"		
+		"attackSound": "arrow"	
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		//"obsoleteTech": "兵器储备",
+		//"upgradesTo": "Crossbowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"
 		
-	//反XX单位
+	// 机动部队
+	},
+	{
+		"name": "Horseman",
+		"unitType": "Mobile",
+		"movement": 4,
+		"strength": 13,
+		"cost": 70,
+		"requiredTech": "Horseback Riding",
+		//"upgradesTo": "Knight",
+		//"obsoleteTech": "骑士制度",
+		"uniques": [
+		"Costs [3] [Horses]",
+		"Consumes [1] [Horses]"
+		"Can move after attacking","No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+        "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"
+		
+	// 反XX单位
 	},
 	{
 		"name": "Spearman",
@@ -90,9 +138,21 @@
 		"strength": 12,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
-		//"obsoleteTech": "Defensive Fortification",
-		//"upgradesTo": "Pikeman",
+		"obsoleteTech": "Defensive Fortification",
+		"upgradesTo": "Pikeman",
 		"uniques":["[+50]% Strength <vs [Mobile] units>"]
+		"attackSound": "metalhit"	
+	},   
+	{
+		"name": "Pikeman",
+		"unitType": "Anti-Mobile",
+		"movement": 2,
+		"strength": 18,
+		"cost": 135,
+		"requiredTech": "Defensive Fortification",
+		//"upgradesTo": "Lancer",
+	    //"obsoleteTech": "合金",
+        "uniques":["[+50]% Strength <vs [Mobile] units>"]	    
 		"attackSound": "metalhit"	
 	
 	//攻城单位
@@ -193,5 +253,25 @@
 		"Unbuildable", 
 		"Uncapturable"],
 		"movement": 2
+	// 宗教单位
+    },
+    {
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
 	}
 ]

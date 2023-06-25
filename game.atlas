@@ -43,7 +43,17 @@ BuildingIcons/Smithy
   offset: 0, 0
   index: -1
 
-
+Taxation Bureau.png
+BuildingIcons/Taxation Bureau
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+  
+  
+  
 
 Bison.png
 ResourceIcons/Bison
