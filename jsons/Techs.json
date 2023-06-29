@@ -378,6 +378,7 @@
 				"name": "Banking",
 				"row": 3,
 				"prerequisites": ["The Renaissance","Printing Press"],
+			    "uniques":["[+25]% [Gold] from Trade Routes", "[+1 Gold] from all [Production] buildings"]
 				"quote": ""
 			},
 			{

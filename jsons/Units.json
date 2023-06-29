@@ -71,13 +71,25 @@
 		"strength": 21,
 		"cost": 145,
 		"requiredTech": "Steel",
-		//"upgradesTo": "Musketman",
-		//"obsoleteTech": "火药",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
 		"uniques":[
 		"Costs [3] [Iron]",
 		"Consumes [1] [Iron]",
 		"[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 24,
+		"cost": 230,
+		"requiredTech": "Gunpowder",
+		//"upgradesTo": "Rifleman",
+		//"obsoleteTech": "膛线",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
 		
 	// 射手
 	},
@@ -163,8 +175,8 @@
 		"strength": 20,
 		"cost": 150,
 		"requiredTech": "Chivalry",
-		//"obsoleteTech": "军事科学",
-		//"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
 		"uniques": [
 		"Costs [3] [Horses]",
 		"Costs [3] [Iron]",
@@ -173,6 +185,23 @@
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
         "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"	
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mobile",
+		"movement": 4,
+		"strength": 35,
+		"cost": 330,
+		"requiredTech": "Military Science",
+		//"obsoleteTech": "内燃机",
+		//"upgradesTo": "Landship",
+		"uniques": [
+		"Costs [3] [Horses]",
+		"Consumes [1] [Horses]"
+		"Can move after attacking","No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+        "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "shot"	
 		
 	// 反XX单位
 	},
@@ -195,11 +224,28 @@
 		"strength": 18,
 		"cost": 135,
 		"requiredTech": "Defensive Fortification",
-		//"upgradesTo": "Lancer",
-	    //"obsoleteTech": "合金",
+		"upgradesTo": "Lancer",
+	    "obsoleteTech": "Metallurgy",
         "uniques":["[+50]% Strength <vs [Mobile] units>"]	    
 		"attackSound": "metalhit"	
-	
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Anti-Mobile",
+		"movement": 4,
+		"strength": 25,
+		"cost": 275,
+		"requiredTech": "Metallurgy",
+		"uniques": [
+		"Costs [3] [Horses]",
+		"Costs [5] [Steel]",
+		"Consumes [1] [Horses]"
+		"Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mobile] units>"],
+		"promotions": ["Raid I"],
+		//"upgradesTo": "Anti-Tank Gun",
+		//"obsoleteTech": "协同作战",
+		"attackSound": "metalhit"
+		
 	//攻城单位
 	},
 	{
@@ -229,6 +275,20 @@
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
 		"attackSound": "throw"	
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"range": 3,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 280,
+		"requiredTech": "Gunpowder",
+		//"upgradesTo": "Artillery",
+		//"obsoleteTech": "炸药",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+200]% Strength <vs cities> <when attacking>"],
+		"attackSound": "cannon"	
 		
 	// 近程海军
 	},
@@ -255,6 +315,19 @@
 		//"obsoleteTech": "蒸汽机",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
 		"attackSound": "cannon"	
+	},
+	{
+		"name": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 25,
+		"cost": 225,
+		"requiredTech": "Navigation",
+		//"upgradesTo": "Destroyer",
+		//"obsoleteTech": "内燃机",
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"	
 	
 	// 远程海军
 	},
@@ -266,10 +339,22 @@
 		"rangedStrength": 17,
 		"cost": 145,
 		"requiredTech": "Compass",
-		//"obsoleteTech": "航海术",
-		//"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 265,
+		"requiredTech": "Navigation",
+		//"obsoleteTech": "电子学",
+		//"upgradesTo": "Battleship",
+		"attackSound": "cannon"	
 			
 	// 伟人单位
 	},

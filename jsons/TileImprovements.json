@@ -7,6 +7,7 @@
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"[+1 Food] <after discovering [Fertilizer]>",
 		"[+2 Food] <in [Volcanic Soil] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold]"],
     },
@@ -16,13 +17,15 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+		"[+1 Production] <after discovering [Chemistry]>",
+		"Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Lumber mill",
@@ -36,7 +39,7 @@
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Plantation",
@@ -44,14 +47,16 @@
 		"gold": 1,
 		"techRequired": "Agriculture",
 		"uniques": [
-		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"[+1 Food] <after discovering [Fertilizer]>",
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+		"[+1 Production] <after discovering [Chemistry]>",
+		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Fishing Boats",
@@ -66,7 +71,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		
 	// 军事设施
 	},
@@ -135,16 +140,14 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 3,
 		"uniques": ["Great Improvement",
-		//"[+1 Production] <after discovering [Chemistry]>",
+		"[+1 Production] <after discovering [Chemistry]>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 5,
-		"uniques": ["Great Improvement",
-		//"[+1 Gold] <after discovering [Economics]>", 
-		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",

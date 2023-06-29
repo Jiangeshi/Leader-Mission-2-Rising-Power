@@ -25,6 +25,15 @@ BuildingIcons/City Level III
   offset: 0, 0
   index: -1  
 
+City Level IV.png
+BuildingIcons/City Level IV
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
 Bonfire.png
 BuildingIcons/Bonfire
   rotate: false
@@ -70,8 +79,19 @@ BuildingIcons/Ministry of Defense
   offset: 0, 0
   index: -1    
   
+PrintingHouse.png
+BuildingIcons/Printing House
+  rotate: false
+  xy: 0,0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+  
+      
+  
 
-Bison.png
+BisonIcon.png
 ResourceIcons/Bison
   rotate: false
   xy: 0, 0
@@ -89,6 +109,15 @@ ResourceIcons/Cocoa
   offset: 0, 0
   index: -1  
   
+CamelIcon.png
+ResourceIcons/Camel
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1    
+  
 Warfare Aversion Level.png
 ResourceIcons/Warfare Aversion Level
   rotate: false
@@ -97,6 +126,15 @@ ResourceIcons/Warfare Aversion Level
   orig: 100, 100
   offset: 0, 0
   index: -1  
+
+Steel.png
+ResourceIcons/Steel
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 
 DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire
@@ -251,6 +289,26 @@ TechIcons/Artificial Intelligence
   orig: 300, 300
   offset: 0, 0
   index: -1          
+  
+  
+  
+Bison.png
+TileSets/HexaRealm/Tiles/Bison
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1  
+  
+Camel.png
+TileSets/HexaRealm/Tiles/Camel
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
   
 GeothermalCrevice.png
 TileSets/HexaRealm/Tiles/Geothermal Crevice
