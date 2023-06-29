@@ -664,7 +664,7 @@
 	},
 	{
 		"name": "Opera House",
-		"Happiness": 2,
+		"happiness": 2,
 		"science": 2,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
