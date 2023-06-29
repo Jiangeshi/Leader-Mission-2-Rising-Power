@@ -337,9 +337,9 @@
 	{
 		"columnNumber": 10,
 		"era": "Renaissance era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 1000,
+		"buildingCost": 270,
+		"wonderCost": 675,
 		"techs": [
 			{
 				"name": "The Renaissance",
@@ -364,9 +364,9 @@
 	{
 		"columnNumber": 11,
 		"era": "Renaissance era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 1100,
+		"buildingCost": 290,
+		"wonderCost": 725,
 		"techs": [
 			{
 				"name": "Architecture",
@@ -404,9 +404,9 @@
 	{
 		"columnNumber": 12,
 		"era": "Renaissance era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 1250,
+		"buildingCost": 320,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Enlightenment",

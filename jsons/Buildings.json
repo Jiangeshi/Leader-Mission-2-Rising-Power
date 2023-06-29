@@ -703,7 +703,7 @@
 	},
 	{
 		"name": "Hermitage",
-		"cost": 125,
+		"cost": 290,
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
