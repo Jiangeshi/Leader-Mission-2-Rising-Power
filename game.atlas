@@ -326,16 +326,6 @@ TechIcons/Internetwork
   offset: 0, 0
   index: -1          
 
-Images/TechIcons/Low Earth Orbit Project.png
-TechIcons/Low Earth Orbit Project
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1          
-
-
 Images/TechIcons/Artificial Intelligence.png
 TechIcons/Artificial Intelligence
   rotate: false
