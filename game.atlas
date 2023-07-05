@@ -1,0 +1,143 @@
+Images/BuildingIcons/City Level I.png
+BuildingIcons/City Level I
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/City Level II.png
+BuildingIcons/City Level II
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/City Level III.png
+BuildingIcons/City Level III
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/City Level IV.png
+BuildingIcons/City Level IV
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/City Level V.png
+BuildingIcons/City Level V
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Bonfire.png
+BuildingIcons/Bonfire
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/Kiln.png
+BuildingIcons/Kiln
+  rotate: false
+  xy: 0,0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Smithy.png
+BuildingIcons/Smithy
+  rotate: false
+  xy: 0,0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Taxation Bureau.png
+BuildingIcons/Taxation Bureau
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/MinistryofDefense.png
+BuildingIcons/Ministry of Defense
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/PrintingHouse.png
+BuildingIcons/Printing House
+  rotate: false
+  xy: 0,0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/Shipyard.png
+BuildingIcons/Shipyard
+  rotate: false
+  xy: 0,0
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1         
+      
+Images/BuildingIcons/Tunnel.png
+BuildingIcons/Tunnel
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+  
+Images/BuildingIcons/ChemicalPlant.png
+BuildingIcons/Chemical Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Coal-FiredPowerPlant.png
+BuildingIcons/Coal-Fired Power Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/League of Nations.png
+BuildingIcons/League of Nations
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
