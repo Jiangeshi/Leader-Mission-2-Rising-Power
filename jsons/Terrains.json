@@ -135,9 +135,10 @@
 	{
 		"name": "Snow",
 		"type": "Land",
-		"movementCost": 1,
+		"movementCost": 2,
 		"RGB": [230, 238, 255], //Darker229, 229, 255
 		"uniques": [
+		    "Has an elevation of [1] for visibility calculations",
             "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
             "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
             "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
@@ -146,8 +147,7 @@
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
             "Becomes [Tundra] when adjacent to [River]",
-            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>"]
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 
 	// Terrain features
@@ -181,7 +181,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.15,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"occursOn": ["Tundra","Plains","Grassland","Hill","Snow"],
 		"uniques": ["Rough terrain", "Vegetation",
 					"Provides a one-time Production bonus to the closest city when cut down",
 					"Blocks line-of-sight from tiles at same elevation",

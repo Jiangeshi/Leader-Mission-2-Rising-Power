@@ -34,6 +34,15 @@ BuildingIcons/City Level IV
   offset: 0, 0
   index: -1  
 
+City Level V.png
+BuildingIcons/City Level V
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
 Bonfire.png
 BuildingIcons/Bonfire
   rotate: false
@@ -88,7 +97,50 @@ BuildingIcons/Printing House
   offset: 0, 0
   index: -1
   
+Shipyard.png
+BuildingIcons/Shipyard
+  rotate: false
+  xy: 0,0
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1         
       
+Tunnel.png
+BuildingIcons/Tunnel
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+  
+ChemicalPlant.png
+BuildingIcons/Chemical Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Coal-FiredPowerPlant.png
+BuildingIcons/Coal-Fired Power Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+League of Nations.png
+BuildingIcons/League of Nations
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
   
 
 BisonIcon.png
@@ -128,7 +180,7 @@ ResourceIcons/Warfare Aversion Level
   index: -1  
 
 Steel.png
-ResourceIcons/Steel
+ResourceIcons/Steels
   rotate: false
   xy: 0, 0
   size: 200, 200
@@ -868,3 +920,12 @@ UnitPromotionIcons/Rout
   orig: 50, 50
   offset: 0, 0
   index: -1          
+  
+Crossing the Mountain.png
+UnitPromotionIcons/Crossing the Mountain
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1   

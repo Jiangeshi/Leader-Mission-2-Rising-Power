@@ -137,6 +137,7 @@
 				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Burial Custom"],
+				"uniques": ["Enables conversion of city production to [Faith]"],
 				"quote": ""
 			},
 			{
@@ -437,9 +438,9 @@
 	{
 		"columnNumber": 13,
 		"era": "Industrial era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 1800,
+		"buildingCost": 435,
+		"wonderCost": 1085,
 		"techs": [
 			{
 				"name": "Scientific Theory",
@@ -451,6 +452,7 @@
 				"name": "Steam Power",
 				"row": 5,
 				"prerequisites": ["Metallurgy"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": ""
 			},
 			{
@@ -470,14 +472,15 @@
 	{
 		"columnNumber": 14,
 		"era": "Industrial era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 2250,
+		"buildingCost": 510,
+		"wonderCost": 1275,
 		"techs": [
 			{
 				"name": "Archaeology",
 				"row": 2,
 				"prerequisites": ["Scientific Theory"],
+				"uniques": ["Enables conversion of city production to [Culture]"],
 				"quote": ""
 			},
 			{
@@ -497,9 +500,9 @@
 	{
 		"columnNumber": 15,
 		"era": "Industrial era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 2600,
+		"buildingCost": 560,
+		"wonderCost": 1400,
 		"techs": [
 			{
 				"name": "Biology",
@@ -511,6 +514,7 @@
 				"name": "Construction",
 				"row": 4,
 				"prerequisites": ["Industrialization"],
+				"uniques":["[+1 Production] from all [Production] buildings"]
 				"quote": ""
 			},
 			{
@@ -524,9 +528,9 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 3500,
+		"buildingCost": 650,
+		"wonderCost": 1625,
 		"techs": [
 			{
 				"name": "Electricity",
@@ -544,6 +548,7 @@
 				"name": "Socialism",
 				"row": 6,
 				"prerequisites": ["Construction"],
+				"uniques":["[+1 Production] from every specialist [in all cities]"]
 				"quote": ""		
 			}
 		]					
@@ -551,9 +556,9 @@
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 4000,
+		"buildingCost": 700,
+		"wonderCost": 1750,
 		"techs": [
 			{
 				"name": "Radio",
@@ -578,9 +583,9 @@
 	{
 		"columnNumber": 18,
 		"era": "Modern era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 4500,
+		"buildingCost": 800,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Electronics",
@@ -698,9 +703,9 @@
 	{
 		"columnNumber": 22,
 		"era": "Information era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 8500,
+		"buildingCost": 1300,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Advanced Ballistics",
@@ -725,9 +730,9 @@
 	{
 		"columnNumber": 23,
 		"era": "Information era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 9000,
+		"buildingCost": 1400,
+		"wonderCost": 2200,
 		"techs": [
 			{
 				"name": "Nanotechnology",
@@ -758,9 +763,9 @@
 	{
 		"columnNumber": 24,
 		"era": "Information era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 10000,
+		"buildingCost": 1600,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Nuclear Fusion",
@@ -773,12 +778,6 @@
 				"row": 4,
 				"prerequisites": ["Satellites","Particle Physics"],
 				"quote": ""
-		    },
-			{
-				"name": "Low Earth Orbit Project",
-				"row": 5,
-				"prerequisites": ["Satellites","Mobile Tactics"],
-				"quote": ""		
 			},
 			{
 				"name": "Stealth",
@@ -798,7 +797,7 @@
 			{
 				"name": "Future Tech",
 				"row": 4,
-				"prerequisites": ["Nuclear Fusion","Artificial Intelligence","Low Earth Orbit Project","Stealth"],
+				"prerequisites": ["Nuclear Fusion","Artificial Intelligence","Stealth"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "",
 			}

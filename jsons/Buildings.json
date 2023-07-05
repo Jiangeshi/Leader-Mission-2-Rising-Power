@@ -219,7 +219,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [City Level II]>",
-		"[40]% Food is carried over after population increases [in this city]"],
+		"[35]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	
 	// 古典-选建建筑
@@ -522,7 +522,7 @@
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Machinery",
 		"uniques": ["Only available <in cities with a [City Level III]>",
-		//"[+15]% Production when constructing [Spaceship part] units [in this city]",
+		"[+15]% Production when constructing [Spaceship part] units [in this city]",
 		"[+15]% Production when constructing [Land] units [in this city]",
 		"[+1 Production] from [Iron] tiles [in this city]"]
 	},
@@ -654,11 +654,11 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
-		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 1 Iron and Provides 3 Steel when above 1 Iron"
+		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 1 Iron and Provides 3 Steels when above 1 Iron"
 	    "uniques":[
 	    "Only available <in cities with a [City Level IV]>",
 	    "Provides [-1] [Iron] <when above [1] [Iron]>",
-	    "Provides [3] [Steel] <when above [1] [Iron]>",
+	    "Provides [3] [Steels] <when above [1] [Iron]>",
 	    ]
 	// 复兴-选建建筑
 	},
@@ -775,8 +775,341 @@
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"requiredTech": "Metallurgy",
-		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"		
+		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"	
+			
+	// 工业-必建建筑
+	},
+	{
+        "name": "City Level V",
+        "cost": 1,
+        "production": 3,
+        "gold": 5,
+		"uniques": [
+		"Only available <starting from the [Industrial era]>",
+		"Only available <in cities with a [Bank]>",
+		"Only available <in cities with a [Printing House]>",
+		"Only available <in cities with a [Ironworks]>",
+		
+		"Never destroyed when the city is captured",
+		"Cannot be purchased",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable"
+		]
+	},
+	{
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Teacher": 2, "Scientist": 1},
+		"maintenance": 3,
+		"uniques": [
+		"Only available <in cities with a [City Level V]>",
+		"Costs [10] [Steels]",
+		"[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"	
+	},
+	{
+		"name": "Factory",
+		"production": 3,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 3,
+		"requiredTech": "Industrialization"	
+		"replacementTextForUniques": 
+		"Only available in cities with a City Level V \n Cost 20 Steels \n Consumes 1 Coal to Provide 3 Production and 15% Production in this city"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [20] [Steels]", "Provides [-1] [Coal] <when above [1] [Coal]>", "[-3 Production] [in this city] <when below [0] [Coal]>", "[-15]% [Production] [in this city] <when below [0] [Coal]>"]
+	},
+	{
+		"name": "Hospital",
+		"maintenance": 2,
+		"requiredTech": "Biology"
+		"uniques":[
+		"Only available <in cities with a [City Level V]>",	"Costs [10] [Steels]", "[25]% Food is carried over after population increases [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",]
+			
+	// 工业-选建建筑
+	},
+	{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 3,
+		"requiredTech": "Archaeology",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]"]
+	},
+	{
+		"name": "Military Academy",
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level V]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"requiredTech": "Construction"	
+		"uniques": ["Only available <in cities with a [City Level V]>"]	
+	// 工业-特殊建筑
+	},
+	{
+		"name": "Shipyard",
+		"production": 2,
+		"greatPersonPoints": {"Great Admiral": 2},
+		"maintenance": 4,
+		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]","Must be next to [Coast]","[+20]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Steam Power"    
+		   
+	// 工业-国家奇观
+	},
+	{
+		"name": "Tunnel",
+		"cost": 435,
+		"isNationalWonder": true,
+	    "uniques":["All newly-trained [Land] units [in all cities] receive the [Crossing the Mountain] promotion","Cost increases by [30] per owned city"]
+		"requiredTech": "Dynamite"
+		
+	// 工业-世界奇观
+	},
+	{
+		"name": "The Louvre",
+		"culture": 1,
+		"happiness": 4,
+		"isWonder": true,
+		"uniques": ["[2] free [Great Artist] units appear"],
+		"requiredTech": "Archaeology",
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Big Ben",
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Industrialization",
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+	},
+	{
+		"name": "Brandenburg Gate",
+		"culture": 3,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+	},
+	{
+		"name": "Neuschwanstein",
+		"happiness": 2,
+		"culture": 4,
+		"gold": 6,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
+			"Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Railroads",
+		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+		
+	// 电气-建筑
+	},
+	{
+		"name": "Hydro Plant",
+		"maintenance": 3,
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Aluminum]", "Must be on [River]", "[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"	
+    },
+	{
+		"name": "Stadium",
+		"happiness": 4,
+		"maintenance": 2,
+		"requiredTech": "Radio"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Steels]"]	
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [5] [Aluminum]", "Costs [5] [Steels]"]	
+	},
+	{
+		"name": "Military Base",
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Steels]"]	
+	},
+	{
+		"name": "Chemical Plant",
+		"production": 5,
+		"maintenance": 5,
+		"percentStatBonus": {"gold": 15},
+		"specialistSlots": {"Engineer": 1},
+		"requiredTech": "Plastics",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Aluminum]","Costs [15] [Steels]"]	
+	},
+	{
+		"name": "Coal-Fired Power Plant",
+	    "percentStatBonus": {"production": 25},
+		"maintenance": 5,
+		"requiredTech": "Electricity",
+		"replacementTextForUniques": 	"Only available in cities with a City Level V \n Cost 20 Steels \n Consumes 1 Coal to Provide 25% Production in this city"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [20] [Steels]", "Provides [-1] [Coal] <when above [1] [Coal]>", "[-25]% [Production] [in this city] <when below [0] [Coal]>"]
+		
+	// 电气-奇观	
+	},
+	{
+		"name": "Eiffel Tower",
+		"culture": 1,
+		"happiness": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[+1 Culture] per [2] social policies adopted"],
+		"requiredTech": "Radio",
+		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+	},
+	{
+		"name": "Statue of Liberty",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"requiredTech": "Replaceable Parts",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Cristo Redentor",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[-10]% Culture cost of adopting new Policies"],
+		"requiredTech": "Plastics",
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
+	},
+	{
+		"name": "League of Nations",
+		"cost": 500,
+		"uniques": ["Can only be built [in capital]", "When declaring friendship, both parties gain a [10]% boost to great person generation", "[+25]% [Culture] [in all cities]", "[-15]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers a global alert upon completion", "Obsolete with [Telecommunications]"]
+		"requiredTech": "Globalization",
 	
+	// 原子-建筑
+	},
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 2},
+		"maintenance": 3,
+		"requiredTech": "Materials Science"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Aluminum]"]		
+	},
+	{
+		"name": "Medical Lab",
+		"specialistSlots": {"Scientist": 2},
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Aluminum]", "[30]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Aluminum]", "Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Recycling Center",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+	},
+	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredTech": "Nuclear Fission",
+		"replacementTextForUniques": 
+		"Only available in cities with a City Level V \n Cost 10 Steels and 10 Aluminum \n Consumes 1 Uranium to Provide 5 Production and 15% Production in this city"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "Costs [10] [Aluminum]", "Provides [-1] [Uranium] <when above [1] [Uranium]>", "[-5 Production] [in this city] <when below [0] [Uranium]>", "[-15]% [Production] [in this city] <when below [0] [Uranium]>"]
+
+	// 原子-奇观
+	},
+	{
+		"name": "Manhattan Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Atomic Theory"
+	},
+	{
+		"name": "Apollo Program",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Combined Arms",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"		
+	},
+	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"percentStatBonus": {"culture": 50},
+		"uniques": ["Free Social Policy","Must be next to [Coast]"],
+		"requiredTech": "Pharmaceuticals",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
+		
+	// 信息-建筑
+	},
+	{
+		"name": "Bomb Shelter",
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [30] [Steels]", "Population loss from nuclear attacks [-75]% [in this city]"]
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 3,
+	    "percentStatBonus": {"production": 25},
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [30] [Aluminum]", "[+50]% Production when constructing [Spaceship part] units [in this city]"],
+		"requiredTech": "Robotics"
+		
+	// 信息-奇观
+	},
+	{
+		"name": "CN Tower",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
+		"requiredTech": "Internetwork",
+		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+	},
+	{
+		"name": "Hubble Space Telescope",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[2] free [Great Scientist] units appear", "[+25]% Production when constructing [Spaceship part] units [in this city]", "Gain a free [Spaceship Factory] [in this city]"],
+		"requiredTech": "Satellites",
+		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"	
+	},
+	{
+		"name": "United Nations",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"percentStatBonus": {"production": 15, "culture": 15, "gold": 15},
+		"requiredTech": "Telecommunications",
+		"uniques": ["Can only be built [in capital]", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"	
+		
 	// 模组介绍
 	},
 	{

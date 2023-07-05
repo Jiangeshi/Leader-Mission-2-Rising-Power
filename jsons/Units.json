@@ -86,11 +86,56 @@
 		"strength": 24,
 		"cost": 230,
 		"requiredTech": "Gunpowder",
-		//"upgradesTo": "Rifleman",
-		//"obsoleteTech": "膛线",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "shot"	
-		
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 34,
+		"cost": 320,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Great War Infantry",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 50,
+		"cost": 510,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Materials Science",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 70,
+		"cost": 620,
+		"requiredTech": "Materials Science",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Foot Soldier",
+		"movement": 3,
+		"strength": 90,
+		"cost": 720,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Robotics",
+		"uniques":["Costs [3] [Aluminum]", "Consumes [1] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "tankshot"	
 	// 射手
 	},
 	{
@@ -114,8 +159,8 @@
 		"rangedStrength": 10,
 		"cost": 60,
 		"requiredTech": "The Wheel",
-		//"upgradesTo": "Knight",
-		//"obsoleteTech": "骑士制度",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
 		"uniques": [
 		"Costs [3] [Horses]",
 		"Consumes [1] [Horses]"
@@ -140,14 +185,41 @@
 		"name": "Crossbowman",
 		"unitType": "Shooter",
 		"movement": 2,
-		"strength": 12,
+		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 145,
 		"requiredTech": "Steel",
-		//"upgradesTo": "Gatling Gun",
-		//"obsoleteTech": "军事科学",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Military Science",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"	
+	},
+	{
+		"name": "Gatling Gun",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 320,
+		"requiredTech": "Military Science",
+	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"	
+	},
+	{
+		"name": "Machine Gun",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 620,
+		"requiredTech": "Ballistics",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"upgradesTo": "Mechanized Infantry",
+		"attackSound": "machinegun"	
 		
 	// 机动部队
 	},
@@ -155,8 +227,8 @@
 		"name": "Horseman",
 		"unitType": "Mobile",
 		"movement": 4,
-		"strength": 13,
-		"cost": 70,
+		"strength": 12,
+		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -190,26 +262,67 @@
 		"name": "Cavalry",
 		"unitType": "Mobile",
 		"movement": 4,
-		"strength": 35,
-		"cost": 330,
+		"strength": 34,
+		"cost": 325,
 		"requiredTech": "Military Science",
-		//"obsoleteTech": "内燃机",
-		//"upgradesTo": "Landship",
-		"uniques": [
-		"Costs [3] [Horses]",
-		"Consumes [1] [Horses]"
-		"Can move after attacking","No defensive terrain bonus",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[-33]% Strength <vs cities> <when attacking>"],
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"	
-		
+	},
+	{
+		"name": "Landship",
+		"unitType": "Mobile",
+		"movement": 4,
+		"strength": 65,
+		"cost": 650,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Costs [10] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus",
+		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+],
+		"attackSound": "tankshot"
+   	},
+	{
+		"name": "Tank",
+		"unitType": "Mobile",
+		"movement": 5,
+		"strength": 75,
+		"cost": 720,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"attackSound": "tankshot"	
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Mobile",
+		"movement": 5,
+		"strength": 100,
+		"cost": 770,
+		"requiredTech": "Mobile Tactics",
+		"requiredResource": "Oil",
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"attackSound": "tankshot"	
+	},
+	{
+		"name": "Giant Death Robot",
+		"unitType": "Mobile",
+		"movement": 5,
+		"strength": 150,
+		"cost": 1200,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": ["Costs [20] [Aluminum]","Costs [20] [Steels]","Consumes [2] [Uranium]", "Can move after attacking", "No defensive terrain bonus"],
+		"attackSound": "gdrAttack"
+			
 	// 反XX单位
 	},
 	{
 		"name": "Spearman",
 		"unitType": "Anti-Mobile",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
@@ -221,8 +334,8 @@
 		"name": "Pikeman",
 		"unitType": "Anti-Mobile",
 		"movement": 2,
-		"strength": 18,
-		"cost": 135,
+		"strength": 16,
+		"cost": 125,
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
@@ -238,21 +351,66 @@
 		"requiredTech": "Metallurgy",
 		"uniques": [
 		"Costs [3] [Horses]",
-		"Costs [5] [Steel]",
+		"Costs [5] [Steels]",
 		"Consumes [1] [Horses]"
 		"Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
-		//"upgradesTo": "Anti-Tank Gun",
-		//"obsoleteTech": "协同作战",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Anti-Mobile",
+		"movement": 2,
+		"strength": 50,
+		"cost": 570,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques":["Costs [8] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>"]
+		"attackSound": "machinegun"
+	},
+	{
+	    "name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 65,
+		"cost": 800,
+		"requiredTech": "Computers",
+		"uniques": ["Costs [10] [Aluminum]", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+66]% Strength <vs [Mobile] units> <when attacking>", "Can pass through impassable tiles"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Anti-Air",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 55,
+		"cost": 670,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"obsoleteTech": "Rocketry",
+		"uniques": ["Costs [8] [Steels]", "[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Anti-Air",
+		"movement": 3,
+		"interceptRange": 3,
+		"strength": 70,
+		"cost": 820,
+		"requiredTech": "Rocketry",
+		"uniques": ["Costs [10] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units"],
+		"attackSound": "missile"	
 		
-	//攻城单位
+	// 攻城单位
 	},
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 70,
 		"requiredTech": "The Wheel",
@@ -266,12 +424,12 @@
 		"name": "Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 16,
-		"rangedStrength": 16,
+		"strength": 14,
+		"rangedStrength": 15,
 		"cost": 150,
 		"requiredTech": "Chivalry",
-		//"obsoleteTech": "火药",
-		//"upgradesTo": "Cannon",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
 		"attackSound": "throw"	
@@ -285,10 +443,38 @@
 		"rangedStrength": 20,
 		"cost": 280,
 		"requiredTech": "Gunpowder",
-		//"upgradesTo": "Artillery",
-		//"obsoleteTech": "炸药",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+200]% Strength <vs cities> <when attacking>"],
 		"attackSound": "cannon"	
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 420,
+		"requiredTech": "Dynamite",
+	    "obsoleteTech": "Rocketry",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["Costs [10] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"	
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 800,
+		"requiredTech": "Rocketry",
+		"uniques": ["Costs [10] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"	
 		
 	// 近程海军
 	},
@@ -309,10 +495,10 @@
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 20,
-		"cost": 155,
+		"cost": 150,
 		"requiredTech": "Astronomy",
-		//"upgradesTo": "Ironclad",
-		//"obsoleteTech": "蒸汽机",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
 		"attackSound": "cannon"	
 	},
@@ -323,12 +509,35 @@
 		"strength": 25,
 		"cost": 225,
 		"requiredTech": "Navigation",
-		//"upgradesTo": "Destroyer",
-		//"obsoleteTech": "内燃机",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"	
-	
+	},
+	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 340,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Costs [10] [Steels]","Consumes [1] [Coal]","[+33]% Strength <vs cities>","Double movement in [Coast]"],
+		"attackSound": "shipguns"		
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 60,
+		"interceptRange": 2,
+		"cost": 720,
+		"requiredTech": "Combustion",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight"],
+		"attackSound": "shipguns"	
+
 	// 远程海军
 	},
 	{
@@ -352,10 +561,244 @@
 		"rangedStrength": 28,
 		"cost": 265,
 		"requiredTech": "Navigation",
-		//"obsoleteTech": "电子学",
-		//"upgradesTo": "Battleship",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
 		"attackSound": "cannon"	
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 4,
+		"cost": 745,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 4,
+		"interceptRange": 3,
+		"cost": 1000,
+		"requiredTech": "Internetwork",
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Oil]", "[70]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can carry [4] [Flybomb] units", "[+100]% Strength <vs [Submarine] units>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"	
 			
+	//海军运输单位
+	},
+	{
+		"name": "Carrier",
+		"unitType": "Water Carrier",
+		"movement": 4,
+		"strength": 70,
+		"cost": 800,
+		"requiredTech": "Electronics",
+		"uniques": ["Costs [5] [Aluminum]", "Costs [5] [Steels]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units"]
+		
+	// 潜艇
+	},
+	{
+		"name": "Submarine",
+		"unitType": "Submarine",
+		"movement": 4,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 655,
+		"requiredTech": "Radio",
+		"upgradesTo": "Nuclear Submarine",
+		"uniques": ["Costs [8] [Aluminum]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"attackSound": "torpedo"
+    },
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 850,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Uranium]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"attackSound": "torpedo"
+		
+	// 战斗机
+	},
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 620,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 720,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["Costs [7] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 9,
+		"interceptRange": 9,
+		"cost": 820,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Oil",
+		"uniques": ["Costs [15] [Aluminum]", "[90]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>","[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+		"attackSound": "jetgun"
+		
+	// 轰炸机
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 5,
+		"cost": 620,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Radar",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 7,
+		"cost": 720,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques":["Costs [7] [Aluminum]"]
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 15,
+		"cost": 880,
+		"requiredTech": "Stealth",
+		"requiredResource": "Oil",
+		"uniques": ["Costs [15] [Aluminum]", "Damage taken from interception reduced by [50]%", "Cannot be carried by [Water Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+		
+	// 核武器、导弹
+	},
+	{
+		"name": "Atomic Bomb",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 5,
+		"cost": 1300,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking", "Blast radius [2]"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 12,
+		"cost": 900,
+		"requiredTech": "Advanced Ballistics"
+		"uniques": ["Blast radius [0]", "Nuclear weapon of Strength [1]", "Self-destructs when attacking", "Cannot be intercepted"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 10,
+		"cost": 2200,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>", "Blast radius [2]", "Consumes [2] [Uranium]", "Self-destructs when attacking", "Cannot be intercepted"
+			],
+		"attackSound": "nuke"
+		
+	// 宇宙飞船
+	},
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Aluminum",
+		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+				
 	// 伟人单位
 	},
 	{

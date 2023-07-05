@@ -33,7 +33,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]"],
 	},
 	{
 		"name": "Pasture",
@@ -72,7 +72,17 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 10,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Electricity",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],		
 	// 军事设施
 	},
 	{
@@ -108,15 +118,28 @@
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": ["Can be built outside your borders"],
-	
+	},
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
 	//道路
 	},
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
+		"turnsToBuild": 3,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]	
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Railroads",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"],
 		
 	// 伟人建筑
     },
@@ -125,7 +148,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 6,
 		"uniques": ["Great Improvement",
-		//"[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>",
+		"[+2 Science] <after discovering [Scientific Theory]>", 
+		//"[+2 Science] <after discovering [Atomic Theory]>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{

@@ -57,7 +57,7 @@
     {
     	"name": "Hold Ground I",
     	"prerequisites": ["Drill II","Shock II"],
-		"uniques": ["[+15]% Strength <when defending>"],
+		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 2,
@@ -81,7 +81,7 @@
     {
 		"name": "Hold Ground II",
 		"prerequisites": ["Hold Ground I"],
-		"uniques": ["[+15]% Strength <when defending>"],
+		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
         "column": 5, 
@@ -340,7 +340,7 @@
     {
     	"name": "Expose Armor I",
     	"prerequisites": ["Formation II","Raid II"],
-		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
+		"uniques": ["[+25]% Strength <vs [Mobile] units>","[+25]% Strength <vs [Air] units>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 19,  
@@ -364,7 +364,7 @@
     {
     	"name": "Expose Armor II",
     	"prerequisites": ["Expose Armor I"],
-		"uniques": ["[+20]% Strength <vs [Mobile] units>","[+20]% Strength <vs [Air] units>"],
+		"uniques": ["[+25]% Strength <vs [Mobile] units>","[+25]% Strength <vs [Air] units>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 2,
         "column": 22,     
@@ -1265,6 +1265,10 @@
 	{
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Crossing the Mountain",
+		"uniques": ["Can pass through impassable tiles"]	
 	}
 ]
     

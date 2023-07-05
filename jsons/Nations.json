@@ -24,7 +24,9 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Test",
-		"uniques": [],
+		"uniques": [
+	    "Members of the League of Nations <if [League of Nations] is constructed>"
+		],
 		"cities": ["Test"],
         "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
     },
@@ -47,9 +49,21 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Test",
-		"uniques": [],
+		"uniques": [
+	    "Members of the League of Nations <if [League of Nations] is constructed>"
+		],
 		"cities": ["Test"],
         "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
+    // 亚洲
+    
+    // 欧洲
+     
+    //美洲
+    
+    //非洲
+    
+    //游牧  
+        
 	},
 	//城邦
 	{
