@@ -1295,7 +1295,7 @@
 	//印加	
 	},
 	{	
-        "name": "Civilized Leader-Pachacútec",
+        "name": "Civilized Leader-Pachacutec",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Inca",
