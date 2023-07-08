@@ -26,15 +26,6 @@ BuildingIcons/Civilized Leader-Leonidas
   index: -1  
      
 Images/BuildingIcons/Civilized leader (4).png
-BuildingIcons/Civilized Leader-Pericles
-  rotate: false
-  xy: 0,0
-  size: 270, 270
-  orig: 270, 270
-  offset: 0, 0
-  index: -1  
-
-Images/BuildingIcons/Civilized leader (5).png
 BuildingIcons/Civilized Leader-Pachacútec
   rotate: false
   xy: 0,0
@@ -42,6 +33,15 @@ BuildingIcons/Civilized Leader-Pachacútec
   orig: 270, 270
   offset: 0, 0
   index: -1       
+
+Images/BuildingIcons/Civilized leader (5).png
+BuildingIcons/Civilized Leader-Pericles
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
 
 Images/BuildingIcons/Civilized leader (6).png
 BuildingIcons/Civilized Leader-Alexander
