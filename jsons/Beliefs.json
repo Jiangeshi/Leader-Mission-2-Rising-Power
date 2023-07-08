@@ -1,27 +1,325 @@
 
 [
+    // 万神殿
     {
-        "name": "Test1",
+        "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": []
+        "uniques": ["[+2 Faith] from every [Desert]"]
     },
-///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
-        "name": "Test2",
-        "type": "Follower",
-        "uniques": []
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Tundra]"]
     },
-///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
-
     {
-        "name": "Test3",
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Jungle]", "[+2 Faith] from every [Forest]"]
+      //文化
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture] from every [Fishing Boats]"]
+    },
+    {
+        "name": "Sacred Route",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture] from each Trade Route"]
+    //金钱
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+2 Gold] from every [Camp]","[+2 Gold] from every [Pasture]"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+2 Gold] from every [Plantation]","[+2 Gold] from every [Farm]"]
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+2 Gold] from every [Lumber mill]","[+1 Gold] from every [Mine]"]
+    //科研
+    },
+    {
+        "name": "Divine Revelation",
+        "type": "Pantheon",
+        "uniques": ["[+1 Science] from every [Shrine]","[+1 Science] from every [Temple]"]
+    },
+    {
+        "name": "God of Wisdom",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from every [World Wonder]"]
+    },
+    {
+        "name": "Messenger of God",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from each Trade Route"]
+    //产能
+    },
+    {
+        "name": "God of River",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production, +1 Food, +1 Faith] in cities on [River] tiles"]
+    },
+    {
+        "name": "God of Flood",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production, +2 Food] from every [Marsh]", "[+1 Production] from every [Flood plains]"]
+    },
+    {
+        "name": "God of Forging",
+        "type": "Pantheon",
+        "uniques": ["[+2 Production] from every [Quarry]"]
+    //战争
+    },
+    {
+        "name": "Patron Saint",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+35] HP per turn when healing"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [Military] units [in all cities]"]
+    },
+    {
+        "name": "God of Death",
+        "type": "Pantheon",
+        "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    //特殊
+    },
+    {
+        "name": "Sacred Blaze",
+        "type": "Pantheon",
+        "uniques": ["[+25]% Great Person generation [in all cities]"]
+    },
+    {
+        "name": "Religious Expansion",
+        "type": "Pantheon",
+        "uniques": ["[-33]% Culture cost of natural border growth [in all cities]"]
+    },
+    {
+        "name": "Miracle",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+    },
+    {
+        "name": "Monumentality",
+        "type": "Pantheon",
+        "uniques": [
+        "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
+        "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
+    //创建者词条
+    },
+    {
+        "name": "Unification of The State and The Church",
         "type": "Founder",
-        "uniques": []
+        "uniques": ["[+1 Culture] from every [4] global followers [in all cities]"]
     },
-    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
     {
-        "name": "Test4",
+        "name": "Nation Led by God",
+        "type": "Founder",
+        "uniques": ["[+10 Faith] from every [Grand Temple]", "[+1 Culture] from every [Temple]"]
+    },
+    {
+        "name": "Monotheism",
+        "type": "Founder",
+        "uniques": ["[+4 Faith, -1 Happiness] [in all cities]"]
+    },
+    {
+        "name": "Polytheism",
+        "type": "Founder",
+        "uniques": ["[+1 Faith] from every [3] global followers [in all cities]"]
+    },
+    {
+        "name": "Liberation Theology",
+        "type": "Founder",
+        "uniques": ["[+3 Production] [in all cities] <with a garrison>"]
+    },
+    {
+        "name": "Popular Religion",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Founder",
+        "uniques": ["[+1 Food, +1 Faith] from every [Temple]", "[+1 Food] from every [Shrine]"]
+    },
+    {
+        "name": "State Religion",
+        "type": "Founder",
+        "uniques": ["[+1 Culture, +1 Science, +1 Gold, +1 Faith] [in all cities]"]
+    },
+    {
+        "name": "Religious Syncretism",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+25]"]
+    //跟随者词条
+    },
+    {
+        "name": "Strong Holy City",
+        "type": "Follower",
+        "uniques": ["[+25]% Strength for cities <when defending>"]    
+    },
+    {
+        "name": "Way of Pilgrimage",
+        "type": "Follower",
+        "uniques": ["[+2 Faith, +1 Culture] from each Trade Route"] 
+    },
+    {
+        "name": "Tithes",
+        "type": "Follower",
+        "uniques": ["[+1 Gold] from all [Faith] buildings"]    
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]   
+    },
+    {
+        "name": "Commonplace Belief",
+        "type": "Follower",
+        "uniques": ["[+1]% [Culture] from every follower, up to [15]%"]    
+    },
+    {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["May buy [Military] units with [Faith] for [3] times their normal Production cost"]   
+    },
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+33]% growth [in this city] <when not at war>"]    
+    },
+    {
+        "name": "Inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Wonder]"] 
+    },
+    {
+        "name": "Baptism",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from [River] tiles [in all cities]"]   
+    },
+    {
+        "name": "Professional Ethics",
+        "type": "Follower",
+        "uniques": ["[+2 Production] from every [Holy site]"]    
+    },
+    {
+        "name": "Atonement Certificate",
+        "type": "Follower",
+        "uniques": ["[+3 Gold] from every [Holy site]"]    
+    },
+    {
+        "name": "Religious Painting",
+        "type": "Follower",
+        "uniques": ["[+3 Culture] from every [Holy site]"]         
+    },
+    {
+        "name": "Worship",
+        "type": "Follower",
+        "uniques": ["[+3 Faith] from every [Holy site]"]     
+    },
+    {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"] 
+    },
+    {
+        "name": "Monasteries",
+        "type": "Follower",
+        "uniques": ["May buy [Monastery] buildings with [Faith] [in cities following this religion]"]    
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]    
+    },
+    {
+        "name": "Pagodas",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]   
+    },
+    {
+        "name": "Wonderland Garden",
+        "type": "Follower",
+        "uniques": ["[+1 Food, +2 Faith] from every [Garden]"]    
+    },
+    {
+        "name": "Incense Fire Sacrifice",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Temple]","[+1 Faith] from every [Shrine]"]    
+    },
+    {
+        "name": "Choral Chant",
+        "type": "Follower",
+        "uniques": ["[+4 Faith] from every [Opera House]"]    
+    //增强词条
+    },
+    {
+        "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": []
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+    },
+    {
+        "name": "Crusader",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+4] tiles away"]
+    },
+    {
+        "name": "Religious Solidarity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+50]% Natural religion spread [in all cities]",] 
+    },
+    {
+        "name": "Holy City of Faith",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in holy cities]",]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": ["[+100 Faith] whenever a Great Person is expended"]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+40]% Spread Religion Strength <for [Missionary] units>"]
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Spread Religion Strength <for [Great Prophet] units>", "[-20]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-35]%", "[Faith] cost of purchasing [Inquisitor] units [-35]%"] 
     }
 ]

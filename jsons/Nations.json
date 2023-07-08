@@ -4,62 +4,213 @@
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
-    },
-	{
-		"name": "Test1",
-		"leaderName": "Leader",
-		"adjective": ["Test"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": ""
-		"declaringWar": "Your behavior has angered me. I declare a just war against you",
-		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
-		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
-		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-		"outerColor": [60,120,220],
-		"innerColor": [255,255,255],
-		"favoredReligion": "Christianity",
-		"uniqueName": "Test",
-		"uniques": [
-	    "Members of the League of Nations <if [League of Nations] is constructed>"
-		],
-		"cities": ["Test"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
-    },
-	{
-		"name": "Test2",
-		"leaderName": "Leader",
-		"adjective": ["Test"],
-		"startBias": ["Coast"],
-		"preferredVictoryType":"Domination",
-
-		"startIntroPart1": ""
-		"declaringWar": "Your behavior has angered me. I declare a just war against you",
-		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
-		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
-		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-		"outerColor": [60,120,220],
-		"innerColor": [255,255,255],
-		"favoredReligion": "Christianity",
-		"uniqueName": "Test",
-		"uniques": [
-	    "Members of the League of Nations <if [League of Nations] is constructed>"
-		],
-		"cities": ["Test"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
     // 亚洲
+    },
+	{
+		"name": "Iran",
+		"leaderName": "Leader",
+		"adjective": ["Iranian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
     
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [255, 255, 255],
+		"innerColor": [218, 0, 0],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Achaemenid Legacy",
+		"uniqueText": "+25% ⌣Golden Age length,\np +1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
+		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+        "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]    
+        
     // 欧洲
-     
+    },
+	{
+		"name": "Greece",
+		"leaderName": "Leader",
+		"adjective": ["Greek"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [60,120,220],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Enlightenment of Western Philosophy",
+		"uniqueText": "+100 ♪Culture and +150 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier" 
+		"uniques": ["[+100 Culture, +150 Science] whenever a Great Person is expended"],
+		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"] 
+    },
+	{
+		"name": "Macedonia",
+		"leaderName": "Leader",
+		"adjective": ["Macedonian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [57,114,209],
+		"innerColor": [255,211,57],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Conqueror's Army",
+		"uniqueText": "+25% XP gained from †combat for Military units, \nInstantly consumes 1 Warfare Aversion Level upon a Military unit ☠defeats an Major unit"
+		"uniques": ["[+25]% XP gained from combat <for [Melee] units>"],
+		"cities": ["Pella","Skopje","Vergina","Bergama","Ankara","Issus","Antioch","Tyre","Alexandria","Gaugamela","Susa",
+			"Gamesia","Patara","Bucephala","Bactra","Marakanda","Alexandria Eshata","Bitola","Kumanovo","Prilep",
+			"Tetovo","Ohrid","Štip","Gostivar","Bosilovo","Butel","Krivogashtany","Novazi"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]       
+    },
+	{
+		"name": "France",
+		"leaderName": "Leader",
+		"adjective": ["French"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Revolutionary Tradition",
+		"uniqueText": "Greater than or equal to -10 ⌣Happiness,\nevery increase of 5 ⌣Happiness +1 ♪Culture,\nup to +7 ♪Culture\n\nLess than or equal to 10 ⌣Happiness,\nas ⌣Happiness decreases,\n†combat Strength for Military units gradually increases,\nup to +20% †combat Strength" 
+		"uniques": [
+		"[+7 Culture] <when between [20] and [10000] Happiness>",
+	
+		"[+6 Culture] <when between [15] and [20] Happiness>",
+	
+		"[+5 Culture] <when between [10] and [15] Happiness>",
+	
+		"[+4 Culture] <when between [5] and [10] Happiness>",
+		
+		"[+3 Culture] <when between [0] and [5] Happiness>",
+	
+		"[+2 Culture] <when between [-5] and [0] Happiness>",
+			
+		"[+1 Culture] <when between [-10] and [-5] Happiness>",	
+			
+		"[+1]% Strength <for [Military] units> <when between [8] and [10] Happiness>",
+
+		"[+2]% Strength <for [Military] units> <when between [6] and [8] Happiness>",
+		
+		"[+3]% Strength <for [Military] units> <when between [4] and [6] Happiness>",
+
+		"[+4]% Strength <for [Military] units> <when between [2] and [4] Happiness>",
+	
+		"[+5]% Strength <for [Military] units> <when between [0] and [2] Happiness>",
+		
+		"[+7]% Strength <for [Military] units> <when between [-2] and [0] Happiness>",
+		
+		"[+8]% Strength <for [Military] units> <when between [-4] and [-2] Happiness>",
+	
+		"[+10]% Strength <for [Military] units> <when between [-6] and [-4] Happiness>",
+		
+		"[+11]% Strength <for [Military] units> <when between [-8] and [-6] Happiness>",
+		
+		"[+13]% Strength <for [Military] units> <when between [-10] and [-8] Happiness>",
+		
+		"[+14]% Strength <for [Military] units> <when between [-12] and [-10] Happiness>",
+		
+		"[+16]% Strength <for [Military] units> <when between [-14] and [-12] Happiness>",
+		
+		"[+17]% Strength <for [Military] units> <when between [-16] and [-14] Happiness>",
+		
+		"[+19]% Strength <for [Military] units> <when between [-18] and [-16] Happiness>",
+		
+		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>"
+		],
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]         
+        
     //美洲
-    
+    },
+	{
+		"name": "Inca",
+		"leaderName": "Leader",
+		"adjective": ["Incan"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Descendants of the Sun",
+		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without Bonus resource in all cities" 
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]          
     //非洲
     
     //游牧  

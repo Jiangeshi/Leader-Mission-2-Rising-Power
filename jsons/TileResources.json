@@ -108,11 +108,12 @@
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Snow"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
+		            "Generated with weight [20] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated near City States with weight [15]"]
 	},
@@ -219,7 +220,9 @@
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
+					"Doesn't generate naturally <in [Hill] tiles>",	
+					"Doesn't generate naturally <in [Snow] tiles>"
+					]
 	},
 	{
 		"name": "Spices",
@@ -234,7 +237,9 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+					"Doesn't generate naturally <in [Tundra] [Forest] tiles>",
+					"Doesn't generate naturally <in [Snow] [Forest] tiles>"
+					]
 	},
 	{
 		"name": "Wine",
@@ -324,7 +329,9 @@
 					"Generated with weight [5] <in [Desert] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
+					"Doesn't generate naturally <in [Tundra] tiles>",
+					"Doesn't generate naturally <in [Snow] tiles>"
+					]
 	},
 	{
 		"name": "Copper",
@@ -358,7 +365,9 @@
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
+					"Doesn't generate naturally <in [Tundra] tiles>",
+					"Doesn't generate naturally <in [Snow] tiles>"
+					]
 	},
 	{
 		"name": "Crab",
@@ -407,7 +416,9 @@
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+					"Doesn't generate naturally <in [Tundra] [Forest] tiles>",
+					"Doesn't generate naturally <in [Snow] [Forest] tiles>"
+					]
 					
     // 战略资源	
 	},

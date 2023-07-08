@@ -1254,11 +1254,23 @@
 		"unitTypes": ["Fighter","Bomber"],
          "row": 3
          "column": 16,    
-    },
-	{     
     //特色单位晋升
-
+	},
+	{
+		"name": "[Persian Immortal] ability",
+		"uniques": ["Unit will heal every turn, even if it performs an action"]	
+	},
+	{
+		"name": "[Companion Cavalry] ability",
+		"uniques": ["[+15]% Strength <when attacking> <when above [90] HP>"]		
+	},
+	{
+		"name": "[Hypaspist] ability",
+		"uniques": ["[+75]% to Flank Attack bonuses"]			
+		
 	//特殊
+	},
+	{     
 		"name": "Rejuvenation", 
 		"uniques": ["All healing effects doubled"]
 	},

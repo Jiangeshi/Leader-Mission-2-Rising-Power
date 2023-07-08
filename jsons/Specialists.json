@@ -1,7 +1,7 @@
 [
 	{
 		"name":"Teacher",
-		"greatPersonPoints": {"Great Scientist":2, "Great Merchant":2, "Great Artist":2, "Great Engineer":2},
+		"greatPersonPoints": {"Great Scientist":2, "Great Merchant":2, "Great Artist":2, "Great Engineer":2, "Great Admiral":2},
 		"color": [40,195,150]
 	},
 	{

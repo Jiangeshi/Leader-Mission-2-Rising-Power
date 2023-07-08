@@ -218,5 +218,16 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+    
+    // 特色建筑
+    },
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 10,
+		"uniques": ["Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "The Wheel",	
 	}
 ]

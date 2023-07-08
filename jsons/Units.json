@@ -65,6 +65,21 @@
 		"attackSound": "metalhit"	
 	},
 	{
+		"name": "Hypaspist",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Macedonia",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 66,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["[Hypaspist] ability"],
+		"uniques":["Costs [3] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"		
+	},
+	{
 		"name": "Longswordsman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -84,6 +99,20 @@
 		"unitType": "Foot Soldier",
 		"movement": 2,
 		"strength": 24,
+		"cost": 230,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Musketeer",
+		"unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
 		"cost": 230,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -113,6 +142,20 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Foot Soldier",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 50,
+		"cost": 510,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Materials Science",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -150,6 +193,20 @@
 		"upgradesTo": "Composite Bowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Slinger",
+		"unitType": "Shooter",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 7,
+		"cost": 35,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Composite Bowman",
+		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>"]
+		"attackSound": "arrow"		
 	},
 	{
 		"name": "Chariot Archer",
@@ -232,13 +289,23 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": [
-		"Costs [3] [Horses]",
-		"Consumes [1] [Horses]"
-		"Can move after attacking","No defensive terrain bonus",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Companion Cavalry",
+		"unitType": "Mobile",
+		"uniqueTo": "Macedonia",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 71,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["[Companion Cavalry] ability"],
+		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"		
 	},
 	{
 		"name": "Knight",
@@ -323,12 +390,54 @@
 		"unitType": "Anti-Mobile",
 		"movement": 2,
 		"strength": 11,
-		"cost": 50,
+		"cost": 48,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
 		"uniques":["[+50]% Strength <vs [Mobile] units>"]
 		"attackSound": "metalhit"	
+	},
+	{
+		"name": "Persian Immortal",
+		"unitType": "Anti-Mobile",
+		"replaces": "Spearman",
+		"uniqueTo": "Iran",
+		"movement": 2,
+		"strength": 12,
+	    "cost": 53,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Defensive Fortification",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal(Ranged)]"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "Persian Immortal(Ranged)",
+		"unitType": "Anti-Mobile",
+		"uniqueTo": "Iran",
+		"cost": 53,
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"upgradesTo": "Pikeman",
+		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal]"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"		
+	},
+	{
+		"name": "Hoplite",
+		"unitType": "Anti-Mobile",
+		"replaces": "Spearman",
+		"uniqueTo": "Greece",
+		"movement": 2,
+		"strength": 13,
+		"cost": 53,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Defensive Fortification",
+		"upgradesTo": "Pikeman",
+	    "uniques":["[+50]% Strength <vs [Mobile] units>"]	
+		"attackSound": "metalhit"		
 	},   
 	{
 		"name": "Pikeman",

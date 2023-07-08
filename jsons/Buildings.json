@@ -9,8 +9,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"
-		]
+		"uniques": ["Indicates the capital city"]
 		
 	// 远古时代-必建建筑
 	},
@@ -227,10 +226,7 @@
 	{
 		"name": "Barracks",
 		"maintenance": 1,
-		"uniques": [
-		"Only available <in cities with a [City Level II]>",
-		"New [Military] units start with [15] Experience [in this city]",
-		"Destroyed when the city is captured"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Army Formation"
 	},
 	{
@@ -664,8 +660,8 @@
 	},
 	{
 		"name": "Opera House",
-		"happiness": 2,
 		"science": 2,
+		"culture": 2,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
@@ -1108,7 +1104,40 @@
 		"percentStatBonus": {"production": 15, "culture": 15, "gold": 15},
 		"requiredTech": "Telecommunications",
 		"uniques": ["Can only be built [in capital]", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"	
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	// 宗教建筑	
+	},
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 1,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unbuildable"]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable"]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable"]	
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable"]	
 		
 	// 模组介绍
 	},
@@ -1149,7 +1178,136 @@
 		"uniques": [
 		""
 		"Unbuildable",
-		"Cannot be purchased"
-		]	
+		"Cannot be purchased"]
+		
+	// 伊朗
+	},
+	{	
+        "name": "Civilized Leader-Cyrus",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Iran",
+		"replacementTextForUniques": "Empire enters ⌣Golden Age upon conquering a city",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Darius I]>", "Empire enters golden age <upon conquering a city>"]
+	},
+	{	
+        "name": "Civilized Leader-Darius I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Iran",
+		"replacementTextForUniques": "+20% ⌣Golden Age length, \n+3 ⌣Happiness and +3 ¤Gold in capital during a ⌣Golden Age",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cyrus]>", "[+20]% Golden Age length", "[+3 Happiness, +3 Gold] [in capital] <during a Golden Age>"]
+    },
+	{
+		"name": "Satrap's Court"
+		"replaces": "Market",
+		"uniqueTo": "Iran",
+		"gold": 2,
+		"happiness": 1,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"	
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]", "[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]"],
+		
+	//希腊
+	},
+	{	
+        "name": "Civilized Leader-Leonidas",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Greece",
+		"replacementTextForUniques": "+50% XP gained from †combat for Melee units, \nDamage is ignored when determining unit †Strength for Melee units",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Pericles]>", "[+50]% XP gained from combat <for [Melee] units>", "Damage is ignored when determining unit Strength <for [Melee] units>"]
+    },
+	{	
+        "name": "Civilized Leader-Pericles",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Greece",
+		"replacementTextForUniques": "+1 ⍾Science and +1 ♪Culture from all ⌣Happiness buildings",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Leonidas]>",
+	"[+1 Science, +1 Culture] from all [Happiness] buildings"]
+	},
+	{
+		"name": "Acropolis",
+		"culture": 2,
+	    "maintenance": 1,
+	    "uniqueTo": "Greece",
+		"replaces": "Temple",
+		"requiredTech": "Theology",
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]"]	
+		
+	    //马其顿
+    },
+	{	
+        "name": "Civilized Leader-Alexander",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Macedonia",
+		"replacementTextForUniques": "+1 ➡Movement for Military units",
+		"uniques": ["Can only be built [in capital]", "[+1] Movement <for [Military] units>"]
+	},
+	{
+		"name": "Military Royal School",
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]"],
+		"requiredTech": "Army Formation",
+		"replaces": "Barracks",
+		"uniqueTo": "Macedonia",	
+		
+	//法兰西
+	},
+	{	
+        "name": "Civilized Leader-Napoleon",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"replacementTextForUniques": "+25% †Strength for Siege units vs Military units when attacking",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+25]% Strength <for [Siege] units> <vs [Military] units> <when attacking>"]	
+	},
+	{	
+        "name": "Civilized Leader-De Gaulle",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -25%"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-25]%"]
+	},
+	{	
+        "name": "Civilized Leader-Louis XIV",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"replacementTextForUniques": "+2 ♪Culture, +2 ¤Gold and -1 ⚙Production from every Luxury resource"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+2 Culture, +2 Gold, -1 Production] from every [Luxury resource]"]	
+	},
+	{
+		"name": "French Castle",
+		"replaces": "Castle",
+		"uniqueTo": "France",
+		"cityStrength": 5,
+		"culture": 3,
+		"maintenance": 2,
+		"cityHealth": 50,
+		"requiredTech": "Chivalry",
+		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured"]
+		
+	//印加	
+	},
+	{	
+        "name": "Civilized Leader-Pachacútec",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Inca",
+		"replacementTextForUniques": "-15% ⏳tile improvement construction time",
+		"uniques": ["Can only be built [in capital]", "[-15]% tile improvement construction time"]
+	},
+	{
+		"name": "Inca Pyramid",
+		"replaces": "Shrine",
+        "uniqueTo": "Inca",
+		"culture": 2,
+		"requiredTech": "Belief Worship",
+		"uniques":["Only available <in cities with a [City Level I]>"]
 	}
 ]

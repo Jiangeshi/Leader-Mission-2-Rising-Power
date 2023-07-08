@@ -25,7 +25,6 @@
 				"name": "Belief Worship",
 				"row": 3,
 				"prerequisites": ["Drill Wood to Make Fire"],
-				"uniques":["[+1 Faith]"]
 				"quote": ""
 			},
 			{
@@ -616,8 +615,8 @@
 	{
 		"columnNumber": 19,
 		"era": "Atomic era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 5500,
+		"buildingCost": 900,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -649,8 +648,8 @@
 	{
 		"columnNumber": 20,
 		"era": "Atomic era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 7000,
+		"buildingCost": 1000,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -676,8 +675,8 @@
 	{
 		"columnNumber": 21,
 		"era": "Atomic era",
-		"techCost": 35,
-		"buildingCost": 60,
+		"techCost": 7500,
+		"buildingCost": 1050,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -750,6 +749,7 @@
 				"name": "Satellites",
 				"row": 5,
 				"prerequisites": ["Advanced Ballistics","Robotics"],
+				"uniques": ["Reveals the entire map"],
 				"quote": ""
 			},
 			{

@@ -13,6 +13,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
@@ -25,6 +26,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
@@ -37,6 +39,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
@@ -49,7 +52,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
         "Cannot attack <in [Marsh] tiles>"
@@ -61,7 +64,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
         "Cannot attack <in [Marsh] tiles>"
@@ -73,7 +76,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         "Invisible to non-adjacent units<in [Forest] tiles>"
         "Invisible to non-adjacent units<in [Jungle] tiles>"
         "Cannot attack <in [Marsh] tiles>"
@@ -85,6 +88,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         ]                
     },
     {
@@ -105,6 +109,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         ]                
     },
     {
@@ -113,6 +118,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         ]                
     },
     {
@@ -121,6 +127,7 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         ]                
     },
     {
@@ -128,7 +135,6 @@
         "movementType": "Water"
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         ]                
     },
     {
@@ -137,6 +143,7 @@
         "uniques": [
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         "Aircraft"]
     },
     {
@@ -145,6 +152,7 @@
         "uniques": [
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         "Aircraft"]   
     },
     {
@@ -153,6 +161,7 @@
         "uniques": [
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
         "Flybomb"]
     },
     {
@@ -161,6 +170,7 @@
         "uniques": [
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>", 
         "Flybomb"]
     //判断类型
     },

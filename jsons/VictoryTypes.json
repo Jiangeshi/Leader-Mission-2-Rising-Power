@@ -1,9 +1,44 @@
 [
     {
+        "name": "Scientific",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "milestones": [
+            "Build [Apollo Program]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "SS Engine", "SS Stasis Chamber", "SS Cockpit", "SS Booster", "SS Booster", "SS Booster"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Conquer",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Capture all capitals\nto win!",
+        "milestones": ["Capture all capitals"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Domination",
         "victoryScreenHeader": "Destroy all enemies\nto win!",
         "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Build the UN and be voted\nworld leader to win!",
+        "milestones": ["Build [United Nations]", "Win diplomatic vote"],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"   
+    }
+    {
+        "name": "Religion",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Become the world religion and build the Grand Temple\nto win!",
+        "milestones": ["Build [Grand Temple]","Become the world religion"],
+        "victoryString": "You have achieved victory by becoming the only faith in the world! Believing in something stronger is a fundamental human demand, and now, everyone will pray for you. Your words and actions represent everything, and those false beliefs have been forgotten and extinguished in your glory.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {

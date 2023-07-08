@@ -1,3 +1,85 @@
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Cyrus
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Darius I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Leonidas
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Pericles
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Pachacútec
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1       
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Alexander
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Napoleon
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-De Gaulle
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Louis XIV
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+
+
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
   rotate: false
@@ -141,6 +223,67 @@ BuildingIcons/League of Nations
   orig: 150, 150
   offset: 0, 0
   index: -1      
+  
+Images/BuildingIcons/Acropolis.png
+BuildingIcons/Acropolis
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/IncaPyramid.png
+BuildingIcons/Inca Pyramid
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/Military Royal School.png
+BuildingIcons/Military Royal School
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/BuildingIcons/FrenchCastle.png
+BuildingIcons/French Castle
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+        
+  
+  
+  
+  
+Images/NationIcons/Iran.png
+NationIcons/Iran
+  rotate: false
+  xy: 0, 0
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Macedonia.png
+NationIcons/Macedonia
+  rotate: false
+  xy: 0, 0
+  size: 329, 329
+  orig: 329, 329
+  offset: 0, 0
+  index: -1  
+  
+  
+  
   
   
   
@@ -463,6 +606,15 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
   offset: 0, 0
   index: -1    
   
+Images/TileSets/Persian Immortal(Ranged).png
+TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
+  rotate: false
+  xy: 0, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1  
+  
   
   
 Images/UnitIcons/GreatAdmiralIcon.png
@@ -473,6 +625,30 @@ UnitIcons/Great Admiral
   orig: 100, 100
   offset: 0, 0
   index: -1     
+  
+Images/UnitIcons/Persian Immortal(Ranged)Icon.png
+UnitIcons/Persian Immortal(Ranged)
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+  
+Images/UnitIcons/HypaspistIcon.png
+UnitIcons/Hypaspist
+  rotate: false
+  xy: 0,0
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1    
+  
+    
+      
+        
+            
+  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
