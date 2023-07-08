@@ -1,4 +1,38 @@
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Cyrus
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Darius I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Leonidas
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Pericles
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
