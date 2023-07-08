@@ -34,6 +34,51 @@ BuildingIcons/Civilized Leader-Pericles
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Pachacútec
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1       
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Alexander
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Napoleon
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-De Gaulle
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Louis XIV
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
   rotate: false
