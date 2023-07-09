@@ -650,10 +650,10 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
-		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 1 Iron and Provides 3 Steels when above 1 Iron"
+		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 3 Steels when above 1 Iron"
 	    "uniques":[
 	    "Only available <in cities with a [City Level IV]>",
-	    "Provides [-1] [Iron] <when above [1] [Iron]>",
+	    "Provides [-3] [Iron] <when above [1] [Iron]>",
 	    "Provides [3] [Steels] <when above [1] [Iron]>",
 	    ]
 	// 复兴-选建建筑

@@ -59,7 +59,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques":[
-		"Costs [3] [Iron]",
+		"Costs [7] [Iron]",
 		"Consumes [1] [Iron]",
 		"[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
@@ -76,7 +76,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Hypaspist] ability"],
-		"uniques":["Costs [3] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [5] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"		
 	},
 	{
@@ -89,7 +89,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"uniques":[
-		"Costs [3] [Iron]",
+		"Costs [5] [Iron]",
 		"Consumes [1] [Iron]",
 		"[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
@@ -219,7 +219,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-		"Costs [3] [Horses]",
+		"Costs [5] [Horses]",
 		"Consumes [1] [Horses]"
 		"No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
 		],
@@ -289,7 +289,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -304,7 +304,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["[Companion Cavalry] ability"],
-		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"		
 	},
 	{
@@ -317,8 +317,8 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-		"Costs [3] [Horses]",
-		"Costs [3] [Iron]",
+		"Costs [5] [Horses]",
+		"Costs [5] [Iron]",
 		"Consumes [1] [Horses]"
 		"Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 

@@ -131,7 +131,7 @@ Ministry of Defense = 国防部
 
 City Level IV = 城市等级 IV
 Printing House = 印刷厂
-Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 3 Steels when above 1 Iron = 在建有城市等级 IV的城市中可以存在\n当拥有时消耗 3铁/每回合 并获得 3钢铁/每回合
+Only available in cities with a City Level IV \n Consumes 1 Iron and Provides 3 Steels when above 1 Iron = 在建有城市等级 IV的城市中可以存在\n当拥有时消耗 1铁/每回合 并获得 3钢铁/每回合
 
 City Level V = 城市等级 V
 Only available in cities with a City Level V \n Cost 20 Steels \n Consumes 1 Coal to Provide 3 Production and 15% Production in this city = 在建有城市等级 V的城市中可以存在\n立即消耗20钢铁\n当拥有时消耗 1煤/每回合并提供+3产能与+15%产能

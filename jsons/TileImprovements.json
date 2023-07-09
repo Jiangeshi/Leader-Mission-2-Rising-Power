@@ -149,14 +149,13 @@
 		"science": 6,
 		"uniques": ["Great Improvement",
 		"[+2 Science] <after discovering [Scientific Theory]>", 
-		//"[+2 Science] <after discovering [Atomic Theory]>",
+		"[+2 Science] <after discovering [Atomic Theory]>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"happiness": 3,
-		"science": 3,
+		"culture": 5,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
