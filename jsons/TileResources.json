@@ -558,8 +558,15 @@
 	// 厌战度
 	},
 	{
-		"name": "Warfare Aversion Level",
+		"name": "Warfare Aversion Level",  
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled","Cannot be traded"]		
+	    "uniques": ["Stockpiled", "Cannot be traded"]	
+
+	// 建筑数量
+	},
+	{
+		"name": "Number of Buildings",  
+		"resourceType": "Strategic",
+	    "uniques": ["City-level resource"]	
 	}
 ]

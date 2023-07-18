@@ -39,7 +39,67 @@
 			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
 			"Paishiyauvada","Patigrbana","Phrada"],
         "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]    
-        
+    },
+	{
+		"name": "Arabia",
+		"leaderName": "Leader",
+		"adjective": ["Arabian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"favoredReligion": "Islam",
+		"uniqueName": "Praise Allah",
+		"uniqueText": "Receive free ☮Great Prophet when you discover Theology",
+		"uniques": ["Receive free [Great Prophet] when you discover [Theology]"],
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]    
+    },
+	{
+		"name": "Mongolia",
+		"leaderName": "Leader",
+		"adjective": ["Mongolian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [3,35,235],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniqueText": "+10% †Strength for Military units when attack Major units,\n+30% †Strength for Military units when attack City-states units,\n+1 ➡Movement for Mobile units",
+		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <vs [City-states] units> <for [Military] units> <when attacking>", "[+1] Movement <for [Mobile] units>"],
+		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"],
+        "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]    
     // 欧洲
     },
 	{
@@ -62,12 +122,12 @@
 
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
 
-		"outerColor": [60,120,220],
-		"innerColor": [255,255,255],
+		"innerColor": [60,120,220],
+		"outerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Enlightenment of Western Philosophy",
-		"uniqueText": "+100 ♪Culture and +150 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier" 
-		"uniques": ["[+100 Culture, +150 Science] whenever a Great Person is expended"],
+		"uniqueText": "+80 ♪Culture and +180 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier" 
+		"uniques": ["[+80 Culture, +180 Science] whenever a Great Person is expended"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -210,11 +270,127 @@
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
 			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
-        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]          
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]         
+         
     //非洲
-    
-    //游牧  
+    },
+	{
+		"name": "Burkina Faso",
+		"leaderName": "Leader",
+		"adjective": ["Burkinabes"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [247, 207, 33],
+		"outerColor": [0,133,61],
+		"favoredReligion": "Islam",
+		"uniqueName": "Country of Upright People",
+		"uniqueText": "-20% ¤maintenance cost for buildings in all cities,\n-20% ¤maintenance costs for Military units,\n -20 Unhappiness from Population in all cities"
+		"uniques": ["[-20]% maintenance cost for buildings [in all cities]", "[-20]% maintenance costs <for [Military] units>", "[-20]% Unhappiness from [Population] [in all cities]"]
+		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
+			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Egypt",
+		"leaderName": "Leader",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [180, 142, 0],
+		"favoredReligion": "Islam",
+		"uniqueName": "By The Nile",
+		"uniqueText": "+15% ⚙Production when constructing All wonders in all cities"
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]"]
+		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+              
+    // 游牧  
         
+    // 特殊文明
+    },
+	{
+		"name": "Yun Ji Court",
+		"leaderName": "Leader",
+		"adjective": ["Yunjiness"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [222, 68, 68],
+		"outerColor": [10,10,10],
+		"favoredReligion": "Taoism",
+		"uniqueName": "War of Hope",
+		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\nMore Fight More Brave:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit"
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game"]
+		"cities": ["Titans"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]    
+    },
+	{
+		"name": "Glenn Empire",
+		"leaderName": "Leader",
+		"adjective": ["Glenness"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [255, 68, 68],
+		"outerColor": [16,241,241],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Unstoppable Expansion",
+		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills,\nEarn 75% of killed☠ Military unit's †Strength as ☮Faith,\nBorrows city names from other civilizations in the game"
+		"uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Faith]", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game"]
+		"cities": ["Cerranxi", "Mukuso", "Handanar", "Iverson", "Epson", "Collins", "Bena", "Gandahel", "Blue Bridge Fortress", "Highlander"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]        
 	},
 	//城邦
 	{

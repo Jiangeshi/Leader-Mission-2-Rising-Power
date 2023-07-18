@@ -1,3 +1,4 @@
 {
     "isBaseRuleset": true,
+    "constants":{religionLimitMultiplier:1, riverCountMultiplier:0.02, minimalCityDistance:2}
 }

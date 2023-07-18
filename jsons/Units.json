@@ -50,6 +50,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Mossi Warrior",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 10,
+		"cost": 37,
+		"uniqueTo": "Burkina Faso",
+		"replaces": "Warrior",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "nonmetalhit"	
+	},
+	{
 		"name": "Swordsman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -58,10 +71,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques":[
-		"Costs [7] [Iron]",
-		"Consumes [1] [Iron]",
-		"[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -76,8 +86,23 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Hypaspist] ability"],
-		"uniques":["Costs [5] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
-		"attackSound": "metalhit"		
+		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"	
+	},
+	{
+		"name": "Iron Wall Legion",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Glenn Empire",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["[Iron Wall Legion] ability"],
+		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "metalhit"			
 	},
 	{
 		"name": "Longswordsman",
@@ -88,10 +113,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":[
-		"Costs [5] [Iron]",
-		"Consumes [1] [Iron]",
-		"[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -218,12 +240,23 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": [
-		"Costs [5] [Horses]",
-		"Consumes [1] [Horses]"
-		"No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
-		],
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"	
+	},
+	{
+		"name": "War Chariot",
+		"unitType": "Shooter",
+		"uniqueTo": "Egypt",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 66,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"		
 	},
 	{
 		"name": "Composite Bowman",
@@ -316,14 +349,40 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": [
-		"Costs [5] [Horses]",
-		"Costs [5] [Iron]",
-		"Consumes [1] [Horses]"
-		"Can move after attacking","No defensive terrain bonus",
-		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-        "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"	
+	},
+	{
+		"name": "Camel Archer",
+		"unitType": "Shooter",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 17,
+		"cost": 165,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"	
+	},
+	{
+		"name": "Keshik",
+		"unitType": "Shooter",
+		"replaces": "Knight",
+		"uniqueTo": "Mongolia",
+		"range": 2,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 158,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"promotions": ["[Keshik] ability"],
+		"attackSound": "arrow"	
 	},
 	{
 		"name": "Cavalry",
@@ -953,15 +1012,16 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": [
-		"Empire enters a [8]-turn Golden Age <by consuming this unit>", 
-		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-		"Great Person - [War]", 
-		"All adjacent units heal [+10] HP when healing",
-		"Unbuildable", 
-		"Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
 		"movement": 2	
+	},
+	{
+		"name": "Yun Ji Commander",
+		"replaces": "Great General",
+		"uniqueTo": "Yun Ji Court",
+		"unitType": "Civilian",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
+		"movement": 4	
 	},
 	{
 		"name": "Great Admiral",

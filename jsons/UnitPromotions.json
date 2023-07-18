@@ -1267,6 +1267,14 @@
 	{
 		"name": "[Hypaspist] ability",
 		"uniques": ["[+75]% to Flank Attack bonuses"]			
+	},
+	{
+		"name": "[Keshik] ability",
+		"uniques": ["[Great General] is earned [50]% faster","[+50]% XP gained from combat"]		
+	},
+	{
+		"name": "[Iron Wall Legion] ability",
+		"uniques": ["[-1] Movement", "[+20]% Strength <when defending>"]			
 		
 	//特殊
 	},
@@ -1280,7 +1288,11 @@
 	},
 	{
 		"name": "Crossing the Mountain",
-		"uniques": ["Can pass through impassable tiles"]	
+		"uniques": ["Can pass through impassable tiles"]
+	},
+	{
+		"name": "More Fight More Brave",
+		"uniques": ["[+10]% Strength <when below [75] HP>", "[+10]% Strength <when below [50] HP>", "[+10]% Strength <when below [25] HP>", "Heals [10] damage if it kills a unit"]	
 	}
 ]
     

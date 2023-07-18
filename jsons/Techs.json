@@ -197,7 +197,7 @@
 				"row": 7,
 				"prerequisites": ["Iron Working"],
 				"uniques":["Free [Great General] appears <if no other Civilization has researched this>",
-				"[+50]% XP gained from combat <for [Military] units>"
+				"[+33]% XP gained from combat <for [Military] units>"
 				]	
 				"quote": ""
 			}

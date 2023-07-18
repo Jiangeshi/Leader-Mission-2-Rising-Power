@@ -78,6 +78,100 @@ BuildingIcons/Civilized Leader-Louis XIV
   orig: 270, 270
   offset: 0, 0
   index: -1    
+  
+Images/BuildingIcons/Civilized leader (10).png
+BuildingIcons/Civilized Leader-Omar I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (11).png
+BuildingIcons/Civilized Leader-Saladin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/Civilized leader (12).png
+BuildingIcons/Civilized Leader-Genghis Khan
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (13).png
+BuildingIcons/Civilized Leader-Kublai
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader (14).png
+BuildingIcons/Civilized Leader-Sankara
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/Civilized leader (15).png
+BuildingIcons/Civilized Leader-Yi Feng
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+
+Images/BuildingIcons/Civilized leader (16).png
+BuildingIcons/Civilized Leader-Explorer
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/Civilized leader (17).png
+BuildingIcons/Civilized leader-Ramesses II
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (18).png
+BuildingIcons/Civilized leader-Nasser
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (19).png
+BuildingIcons/Civilized leader-Sadat
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+  
+  
+  
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -259,6 +353,43 @@ BuildingIcons/French Castle
   offset: 0, 0
   index: -1    
         
+Images/BuildingIcons/Posthouse.png
+BuildingIcons/Posthouse
+  rotate: false
+  xy: 0,0
+  size: 70, 40
+  orig: 70, 40
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/GanduoPrimarySchool.png
+BuildingIcons/Ganduo Primary School
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/Yun Ji Barracks.png
+BuildingIcons/Yun Ji Barracks
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1       
+  
+Images/BuildingIcons/Fane.png
+BuildingIcons/Fane
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1         
+  
+  
   
   
   
@@ -281,8 +412,41 @@ NationIcons/Macedonia
   offset: 0, 0
   index: -1  
   
+Images/NationIcons/TheStar.png
+NationIcons/Burkina Faso
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
   
+Images/NationIcons/Yun Ji Court.png
+NationIcons/Yun Ji Court
+  rotate: false
+  xy: 0, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1    
   
+Images/NationIcons/Glenn Empire.png
+NationIcons/Glenn Empire
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/Egypt.png
+NationIcons/Egypt
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
   
   
   
@@ -330,6 +494,16 @@ ResourceIcons/Steels
   orig: 200, 200
   offset: 0, 0
   index: -1  
+  
+Images/ResourceIcons/Number of Buildings.png
+ResourceIcons/Number of Buildings
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1    
+  
   
   
   
@@ -643,9 +817,32 @@ UnitIcons/Hypaspist
   offset: 0, 0
   index: -1    
   
-    
+Images/UnitIcons/Mossi Warrior.png
+UnitIcons/Mossi Warrior
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1          
       
-        
+Images/UnitIcons/Yun Ji Commander.png
+UnitIcons/Yun Ji Commander
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1              
+  
+Images/UnitIcons/Iron Wall Legion.png
+UnitIcons/Iron Wall Legion
+  rotate: false
+  xy: 0,0
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1                
             
   
   
@@ -1095,3 +1292,12 @@ UnitPromotionIcons/Crossing the Mountain
   orig: 50, 50
   offset: 0, 0
   index: -1     
+  
+Images/UnitPromotionIcons/More Fight More Brave.png
+UnitPromotionIcons/More Fight More Brave
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1       
