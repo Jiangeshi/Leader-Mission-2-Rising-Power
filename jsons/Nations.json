@@ -383,8 +383,8 @@
 		"hateHello": "What?",
 
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-		"innerColor": [255, 68, 68],
-		"outerColor": [16,241,241],
+		"innerColor": [216, 57, 57],
+		"outerColor": [51,243,243],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Unstoppable Expansion",
 		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills,\nEarn 75% of killed☠ Military unit's †Strength as ☮Faith,\nBorrows city names from other civilizations in the game"
