@@ -143,6 +143,21 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Janissary",
+		"unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "Turkey",
+		"movement": 2,
+		"strength": 24,
+		"cost": 230,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"promotions": ["[Janissary] ability"],
+		"attackSound": "shot"		
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -517,13 +532,24 @@
 		"strength": 25,
 		"cost": 275,
 		"requiredTech": "Metallurgy",
-		"uniques": [
-		"Costs [3] [Horses]",
-		"Costs [5] [Steels]",
-		"Consumes [1] [Horses]"
-		"Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [3] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sipahi",
+		"unitType": "Anti-Mobile",
+		"replaces": "Lancer",
+		"uniqueTo": "Turkey",
+		"movement": 5,
+		"strength": 25,
+		"cost": 275,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Costs [3] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"promotions": ["Raid I"],
+	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
 	},

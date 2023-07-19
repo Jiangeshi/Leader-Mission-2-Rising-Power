@@ -1226,8 +1226,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -25%"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-25]%"]
+		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -20%,\n+2 ¤Gold per 1 social policies adopted"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-20]%", "[+2 Gold] per [1] social policies adopted"]
 	},
 	{	
         "name": "Civilized Leader-Louis XIV",
@@ -1247,6 +1247,42 @@
 		"cityHealth": 50,
 		"requiredTech": "Chivalry",
 		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
+		
+	// 土耳其
+	},
+	{	
+        "name": "Civilized leader-Suleiman",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Turkey",
+		"replacementTextForUniques": "+2 XP gained from †combat for Military units"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Kemal]>", "[+2] XP gained from combat <for [Military] units>"]	
+	},
+	{	
+        "name": "Civilized leader-Osman I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Turkey",
+		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -10%,\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Suleiman]>", "Only available <in cities without a [Civilized leader-Kemal]>", "[Faith] cost of purchasing items in cities [-10]%", "May buy [Military] units with [Faith] for [3] times their normal Production cost"]	
+	},
+	{	
+        "name": "Civilized leader-Kemal",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Turkey",
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities,\n+2 ⚙Production, +1 ⍾Science and +1 ♪Culture from all ☮Faith buildings"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+2 Production, +1 Science, +1 Culture] from all [Faith] buildings"]	
+	},
+	{
+		"name": "Galata Tower",
+		"faith": 1,
+		"cityStrength": 5,
+		"cityHealth": 25,
+		"requiredTech": "Masonry",
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"replaces": "Walls",
+		"uniqueTo": "Turkey",	
 		
 	//印加	
 	},

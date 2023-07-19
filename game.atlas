@@ -169,6 +169,34 @@ BuildingIcons/Civilized leader-Sadat
   offset: 0, 0
   index: -1  
   
+Images/BuildingIcons/Civilized leader (20).png
+BuildingIcons/Civilized leader-Osman I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader (21).png
+BuildingIcons/Civilized leader-Suleiman
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (22).png
+BuildingIcons/Civilized leader-Kemal
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+  
+  
   
   
   
@@ -389,7 +417,14 @@ BuildingIcons/Fane
   offset: 0, 0
   index: -1         
   
-  
+Images/BuildingIcons/GalataTower.png
+BuildingIcons/Galata Tower
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1     
   
   
   
@@ -447,6 +482,18 @@ NationIcons/Egypt
   orig: 200, 200
   offset: 0, 0
   index: -1  
+  
+Images/NationIcons/Turkey.png
+NationIcons/Turkey
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1  
+  
+  
+  
   
   
   
