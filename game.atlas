@@ -196,6 +196,59 @@ BuildingIcons/Civilized leader-Kemal
   offset: 0, 0
   index: -1
   
+Images/BuildingIcons/Civilized leader (23).png
+BuildingIcons/Civilized Leader-Peter
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (24).png
+BuildingIcons/Civilized Leader-Catherine
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/Civilized leader (25).png
+BuildingIcons/Civilized Leader-Constantine I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (26).png
+BuildingIcons/Civilized Leader-Justinian I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader (27).png
+BuildingIcons/Civilized Leader-Octavius
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (28).png
+BuildingIcons/Civilized Leader-Cesar
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                  
   
   
   
@@ -426,7 +479,35 @@ BuildingIcons/Galata Tower
   offset: 0, 0
   index: -1     
   
+Images/BuildingIcons/LavraMonastery.png
+BuildingIcons/Lavra Monastery
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
   
+Images/BuildingIcons/Racetrack.png
+BuildingIcons/Racetrack
+  rotate: false
+  xy: 0,0
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Column.png
+BuildingIcons/Column
+  rotate: false
+  xy: 0,0
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1    
+  
+    
+        
   
   
 Images/NationIcons/Iran.png

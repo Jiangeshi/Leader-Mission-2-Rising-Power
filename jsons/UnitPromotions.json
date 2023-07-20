@@ -1279,6 +1279,14 @@
 	{
 		"name": "[Janissary] ability",
 		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]	
+	},
+	{
+		"name": "[Cossack] ability",
+		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]	
+	},
+	{
+		"name": "[Legion] ability",
+		"uniques": ["[+15]% Strength <when adjacent to a [Foot Soldier] unit>"],	
 	//特殊
 	},
 	{     

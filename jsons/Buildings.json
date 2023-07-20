@@ -1284,6 +1284,87 @@
 		"replaces": "Walls",
 		"uniqueTo": "Turkey",	
 		
+	// 俄罗斯
+	},
+	{	
+        "name": "Civilized Leader-Catherine",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Russia",
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Enemy Land tiles"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Peter]>", "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"]
+	},
+	{	
+        "name": "Civilized Leader-Peter",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Russia",
+		"replacementTextForUniques": "+2 ⍾Science and +2 ¤Gold from each Trade Route"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "[+2 Science, +2 Gold] from each Trade Route"]
+	},
+	{
+		"name": "Lavra Monastery",
+		"production": 2,
+	    "maintenance": 1,
+	    "uniqueTo": "Russia",
+		"replaces": "Temple",
+		"requiredTech": "Theology",
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		
+	// 拜占庭
+	},
+	{	
+        "name": "Civilized Leader-Constantine I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Byzantium",
+		"replacementTextForUniques": "-33% ☮Faith cost of generating ☮Great Prophet equivalents",	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[-33]% Faith cost of generating Great Prophet equivalents"]
+	},
+	{	
+        "name": "Civilized Leader-Justinian I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Byzantium",
+		"replacementTextForUniques": "+2 ☮Faith in all cities,\n+2 ☮Faith in capital",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Constantine I]>", "[+2 Faith] [in all cities]", "[+2 Faith] [in capital]"]
+	},
+	{
+		"name": "Racetrack",
+	    "maintenance": 1,
+	    "happiness": 2,
+	    "uniqueTo": "Byzantium",
+		"replaces": "Colosseum",
+	    "requiredTech": "Horseback Riding"
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]", "Provides [1] [Horses]", "[1] free [Horseman] units appear"],	
+	
+	// 罗马
+	},
+	{	
+        "name": "Civilized Leader-Cesar",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Rome",
+		"replacementTextForUniques": "+10% †Strength for Military units when adjacent to a Military unit",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Octavius]>", "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"]
+	},
+	{	
+        "name": "Civilized Leader-Octavius",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Rome",
+		"replacementTextForUniques": "+10% ⚙Production when constructing All buildings in capital,\n+10 ⚙Production when constructing Military units in all cities",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cesar]>", "[+10]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
+	},
+	{
+		"name": "Column",
+		"culture": 2,
+		"maintenance": 1,
+	    "uniqueTo": "Rome",
+		"requiredTech": "Burial Custom",
+		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [5] Experience [in this city]", "Provides [1] [Number of Buildings]"]
+		"replaces": "Monument",
+		
 	//印加	
 	},
 	{	

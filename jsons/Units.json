@@ -102,7 +102,22 @@
 		"obsoleteTech": "Steel",
 		"promotions": ["[Iron Wall Legion] ability"],
 		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
-		"attackSound": "metalhit"			
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Legion",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Rome",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 72,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["[Legion] ability"],
+		"uniques": ["Costs [7] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "metalhit"	
 	},
 	{
 		"name": "Longswordsman",
@@ -347,13 +362,27 @@
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 13,
-		"cost": 71,
+		"cost": 72,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["[Companion Cavalry] ability"],
 		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"		
+		"attackSound": "horse"	
+	},
+	{
+		"name": "Cataphract",
+		"unitType": "Mobile",
+		"uniqueTo": "Byzantium",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 65,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"			
 	},
 	{
 		"name": "Knight",
@@ -398,6 +427,21 @@
 		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"	
+	},
+	{
+		"name": "Cossack",
+		"unitType": "Mobile",
+		"replaces": "Knight",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 21,
+		"cost": 158,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"	
 	},
 	{
 		"name": "Cavalry",
@@ -610,9 +654,24 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight",
-		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
-		"attackSound": "throw"		
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"range": 3,
+		"cost": 84,
+	    "requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"attackSound": "throw"			
 	},
 	{
 		"name": "Trebuchet",
@@ -682,7 +741,22 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"	
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"replaces": "Trireme",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 11,
+		"cost": 45,
+		"uniques": ["Cannot enter ocean tiles", "[+33]% Strength <vs [Water] units> <when attacking>"],
+			"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"		
 	},
 	{
 		"name": "Caravel",
