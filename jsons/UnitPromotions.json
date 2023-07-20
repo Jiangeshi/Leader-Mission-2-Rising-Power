@@ -1283,10 +1283,6 @@
 	{
 		"name": "[Cossack] ability",
 		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]	
-	},
-	{
-		"name": "[Legion] ability",
-		"uniques": ["[+15]% Strength <when adjacent to a [Foot Soldier] unit>"],	
 	//特殊
 	},
 	{     

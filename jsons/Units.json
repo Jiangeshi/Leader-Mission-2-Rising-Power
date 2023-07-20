@@ -110,12 +110,11 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 72,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"promotions": ["[Legion] ability"],
 		"uniques": ["Costs [7] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "metalhit"	
 	},
