@@ -1164,8 +1164,36 @@
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Legislation",	
 		"uniques": ["Only available <in cities with a [City Level II]>", "Remove extra unhappiness from annexed cities", "[+15]% Production when constructing [Mobile] units [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
+	
+	// 印度
+	},
+	{	
+        "name": "Civilized Leader-Gandhi",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "India",
+		"replacementTextForUniques": "+25% ♪Culture when not at war",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Nehru]>", "[+25]% [Culture] <when not at war>"]
+    },
+	{	
+        "name": "Civilized Leader-Nehru",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "India",
+		"replacementTextForUniques": "+1 ♪Culture per 3 population in all cities",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Gandhi]>",  "[+1 Culture] per [3] population [in all cities]"]	
+	},
+	{
+		"name": "Mughal Fort",
+		"replaces": "Castle",
+		"uniqueTo": "India",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"culture": 2,
+		"requiredTech": "Chivalry",
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
 		
-	//希腊
+	// 希腊
 	},
 	{	
         "name": "Civilized Leader-Leonidas",
@@ -1383,6 +1411,25 @@
 		"requiredTech": "Belief Worship",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
 	
+	// 阿兹特克
+	},
+	{	
+        "name": "Civilized Leader-Montezuma I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Aztecs",
+		"replacementTextForUniques": "Earn 66% of killed☠ Military unit's †Strength as ♪Culture",
+		"uniques": ["Can only be built [in capital]", "Earn [66]% of killed [Military] unit's [Strength] as [Culture]"]
+	},
+	{
+		"name": "Floating Gardens",
+		"replaces": "Water Mill",
+		"uniqueTo": "Aztecs",
+		"food": 1,
+		"production": 1,
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]", "[+15]% [Food] [in this city]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"requiredTech": "Agriculture"	
 	// 布基纳法索
 	},
 	{	

@@ -1,7 +1,14 @@
 {
     "name": "Global uniques",
     "uniques": [
-    //厌战度
+    // 快乐惩罚
+    "[-25]% growth [in all cities] <when between [-10] and [0] Happiness>",
+    "[-75]% growth [in all cities] <when between [-15] and [-10] Happiness>",
+    "Nullifies Growth [in all cities] <when below [-15] Happiness>",
+    "[-50]% [Production] [in all cities] <when below [-15] Happiness>",
+    "Rebel units may spawn <when below [-15] Happiness>",
+    "Cannot build [Settler] units <when below [-10] Happiness>",
+    // 厌战度
     "Provides [1] [Warfare Aversion Level] <when at war>",
     "Instantly consumes [10] [Warfare Aversion Level] <upon conquering a city> <when above [10] [Warfare Aversion Level]>",
     

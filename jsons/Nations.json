@@ -97,13 +97,46 @@
 		"uniqueName": "Mongol Terror",
 		"uniqueText": "+10% †Strength for Military units when attack Major units,\n+30% †Strength for Military units when attack City-states units,\n+1 ➡Movement for Mobile units",
 		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <vs [City-states] units> <for [Military] units> <when attacking>", "[+1] Movement <for [Mobile] units>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
-		],
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
 			"Har-Ayrag","Nalayh","Tes"],
-        "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]    
+        "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]   
+    },
+	{
+		"name": "India",
+		"leaderName": "Leader",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+	"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Population Growth",
+		"uniqueText": "+50% unhappiness from the number of cities,\n-50% Unhappiness from Population in all cities,\n+50% ⁂growth in all cities"		
+		"uniques": ["[+50]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[+50]% growth [in all cities]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]        
+          
     // 欧洲
     },
 	{
@@ -403,8 +436,42 @@
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
 			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
-        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]         
-         
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Aztecs",
+		"leaderName": "Leader",
+		"adjective": ["Aztec"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [139,32,23],
+        "innerColor": [134,238,214],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Golden Empire",
+		"uniqueText": "+3% ¤Gold and +3% †Strength for Military units for each kind of ⌣Luxury Resource owned",
+		"uniques": ["[+3]% [Gold] <when above [0] [Furs]>", "[+3]% Strength <for [Military] units> <when above [0] [Furs]>", "[+3]% [Gold] <when above [0] [Citrus]>", "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>", "[+3]% [Gold] <when above [0] [Cocoa]>", "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>", "[+3]% [Gold] <when above [0] [Copper]>", "[+3]% Strength <for [Military] units> <when above [0] [Copper]>", "[+3]% [Gold] <when above [0] [Cotton]>", "[+3]% Strength <for [Military] units> <when above [0] [Cotton]>", "[+3]% [Gold] <when above [0] [Crab]>", "[+3]% Strength <for [Military] units> <when above [0] [Crab]>",	"[+3]% [Gold] <when above [0] [Dyes]>", "[+3]% Strength <for [Military] units> <when above [0] [Dyes]>", "[+3]% [Gold] <when above [0] [Gems]>", "[+3]% Strength <for [Military] units> <when above [0] [Gems]>", "[+3]% [Gold] <when above [0] [Gold Ore]>", "[+3]% Strength <for [Military] units> <when above [0] [Gold Ore]>", "[+3]% [Gold] <when above [0] [Incense]>", "[+3]% Strength <for [Military] units> <when above [0] [Incense]>", "[+3]% [Gold] <when above [0] [Ivory]>", "[+3]% Strength <for [Military] units> <when above [0] [Ivory]>", "[+3]% [Gold] <when above [0] [Jewelry]>", "[+3]% Strength <for [Military] units> <when above [0] [Jewelry]>", "[+3]% [Gold] <when above [0] [Marble]>", "[+3]% Strength <for [Military] units> <when above [0] [Marble]>", "[+3]% [Gold] <when above [0] [Pearls]>", "[+3]% Strength <for [Military] units> <when above [0] [Pearls]>", "[+3]% [Gold] <when above [0] [Porcelain]>", "[+3]% Strength <for [Military] units> <when above [0] [Porcelain]>", "[+3]% [Gold] <when above [0] [Salt]>", "[+3]% Strength <for [Military] units> <when above [0] [Salt]>", "[+3]% [Gold] <when above [0] [Silk]>", "[+3]% Strength <for [Military] units> <when above [0] [Silk]>", "[+3]% [Gold] <when above [0] [Silver]>", "[+3]% Strength <for [Military] units> <when above [0] [Silver]>",	"[+3]% [Gold] <when above [0] [Spices]>", "[+3]% Strength <for [Military] units> <when above [0] [Spices]>", "[+3]% [Gold] <when above [0] [Sugar]>", "[+3]% Strength <for [Military] units> <when above [0] [Sugar]>",	"[+3]% [Gold] <when above [0] [Truffles]>", "[+3]% Strength <for [Military] units> <when above [0] [Truffles]>", "[+3]% [Gold] <when above [0] [Whales]>", "[+3]% Strength <for [Military] units> <when above [0] [Whales]>", "[+3]% [Gold] <when above [0] [Wine]>", "[+3]% Strength <for [Military] units> <when above [0] [Wine]>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"],
+        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
+     
     //非洲
     },
 	{

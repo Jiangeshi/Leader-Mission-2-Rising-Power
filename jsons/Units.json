@@ -63,6 +63,20 @@
 		"attackSound": "nonmetalhit"	
 	},
 	{
+		"name": "Jaguar",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"promotions": ["[Jaguar] ability"],
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]"]
+		"attackSound": "nonmetalhit"	
+	},
+	{
 		"name": "Swordsman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -229,7 +243,8 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Robotics",
 		"uniques":["Costs [3] [Aluminum]", "Consumes [1] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>"]
-		"attackSound": "tankshot"	
+		"attackSound": "tankshot"
+			
 	// 射手
 	},
 	{
@@ -284,8 +299,23 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"		
+	},
+	{
+		"name": "War Elephant",
+		"unitType": "Shooter",
+		"uniqueTo": "India",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "elephant"	
 	},
 	{
 		"name": "Composite Bowman",

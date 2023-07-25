@@ -250,6 +250,33 @@ BuildingIcons/Civilized Leader-Cesar
   offset: 0, 0
   index: -1                  
   
+Images/BuildingIcons/Civilized leader (29).png
+BuildingIcons/Civilized Leader-Montezuma I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                
+  
+Images/BuildingIcons/Civilized leader (30).png
+BuildingIcons/Civilized Leader-Gandhi
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                  
+  
+Images/BuildingIcons/Civilized leader (30).png
+BuildingIcons/Civilized Leader-Nehru
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1              
+  
   
   
   
