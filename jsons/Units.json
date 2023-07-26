@@ -21,8 +21,7 @@
 		"movement": 3,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", 
-		"May create improvements on water resources", "Uncapturable"]	
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", "May create improvements on water resources", "Uncapturable"]	
 		
 	//侦查单位
 	},
