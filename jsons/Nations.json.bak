@@ -537,33 +537,7 @@
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
               
     // 游牧  
-    },
-	{
-		"name": "The Huns",
-		"leaderName": "Leader",
-		"adjective": ["Hunnic"],
-		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
-		"preferredVictoryType": "Domination",
-
-        "startIntroPart1": "",
-
-		"declaringWar": "Your behavior has angered me. I declare a just war against you",
-		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
-		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
-		
-		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
-		
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-		
-		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-		"outerColor": [180, 178, 164],
-		"innerColor": [70, 0, 4],
-		"favoredReligion": "Tengriism",
-		"uniqueName": "Scourge of God",
-		"uniques": ["Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
-		"cities": ["Attila's Court"],
-        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]    
+        
     // 特殊文明
     },
 	{
