@@ -277,9 +277,27 @@ BuildingIcons/Civilized Leader-Nehru
   offset: 0, 0
   index: -1              
   
+Images/BuildingIcons/Civilized leader (32).png
+BuildingIcons/Civilized Leader-Attila
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                
   
+Images/BuildingIcons/Civilized leader (33).png
+BuildingIcons/Civilized Leader-Tomyris
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
   
-  
+      
+        
+            
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -533,7 +551,14 @@ BuildingIcons/Column
   offset: 0, 0
   index: -1    
   
-    
+Images/BuildingIcons/TombMound.png
+BuildingIcons/Tomb Mound
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1      
         
   
   
@@ -600,7 +625,14 @@ NationIcons/Turkey
   offset: 0, 0
   index: -1  
   
-  
+Images/NationIcons/Scythian.png
+NationIcons/Scythian
+  rotate: false
+  xy: 0, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1   
   
   
   
@@ -999,7 +1031,14 @@ UnitIcons/Iron Wall Legion
   offset: 0, 0
   index: -1                
             
-  
+Images/UnitIcons/MobileArcherIcon.png
+UnitIcons/Mobile Archer
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
@@ -1456,3 +1495,12 @@ UnitPromotionIcons/More Fight More Brave
   orig: 49, 49
   offset: 0, 0
   index: -1       
+  
+Images/UnitPromotionIcons/Civilizedleaderability.png
+UnitPromotionIcons/TomyrisAbility
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1             

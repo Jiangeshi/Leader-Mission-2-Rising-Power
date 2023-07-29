@@ -1287,6 +1287,10 @@
 	{
 		"name": "[Jaguar] ability",
 		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]	
+	},
+    {
+        "name": "[Mobile Archer] ability",
+        "uniques": ["Ignores terrain cost"]
 	//特殊
 	},
 	{     
@@ -1304,6 +1308,10 @@
 	{
 		"name": "More Fight More Brave",
 		"uniques": ["[+10]% Strength <when below [75] HP>", "[+10]% Strength <when below [50] HP>", "[+10]% Strength <when below [25] HP>", "Heals [10] damage if it kills a unit"]	
+	},
+	{
+		"name": "TomyrisAbility", // 托米丽司
+		"uniques": ["Free [Horseman] appears", "[-10]% Strength"]		
 	}
 ]
     

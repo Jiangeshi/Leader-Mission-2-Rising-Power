@@ -20,7 +20,7 @@
     {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP", "Only available <after [10] turns>"]
+        "uniques": ["This Unit gains [15] XP"]
     },
     {
         "name": "survivors (adds population to a city)",
@@ -31,7 +31,7 @@
     {
         "name": "a stash of gold",
         "notification": "",
-        "uniques": ["Gain [50]-[100] [Gold]"],
+        "uniques": ["Gain [100]-[200] [Gold]"],
         "color": "#ffeb7f"
     },
     {
@@ -48,24 +48,23 @@
     {
         "name": "reveal nearby Barbarian camps",
         "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [15] tile radius"]
     },
     {
         "name": "find a crudely-drawn map",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"]
+        "uniques": ["From a randomly chosen tile [6] tiles away from the ruins, reveal tiles up to [6] tiles away with [80]% chance"]
     },
     {
         "name": "discover holy symbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after [20] turns>"],
+        "uniques": ["Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
 		"color": "#CDDDF4"
     },
     {
         "name": "an ancient prophecy",
         "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet",
-            "Only available <after founding a Pantheon>", "Only available <after [20] turns>"],
+        "uniques": ["Gain enough Faith for [33]% of a Great Prophet", "Hidden after generating a Great Prophet", "Only available <after founding a Pantheon>"],
 		"color": "#CDDDF4"
     }
 ]

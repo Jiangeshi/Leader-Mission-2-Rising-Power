@@ -166,7 +166,7 @@
         "cost": 1,
         "production": 1,
         "culture": 1,
-		"uniques": ["Only available <starting from the [Classical era]>", "Consumes [4] [Number of Buildings]", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [4] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
 		"name": "Market",
@@ -406,7 +406,7 @@
         "cost": 1,
         "culture": 2,
         "science": 2,
-		"uniques": ["Only available <starting from the [Medieval era]>", "Consumes [4] [Number of Buildings]", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [8] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
 		"name": "University",
@@ -547,7 +547,7 @@
         "cost": 1,
         "culture": 3,
         "science": 3,
-		"uniques": ["Only available <starting from the [Renaissance era]>", "Consumes [5] [Number of Buildings]", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [13] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
 	{
 		"name": "Bank",
@@ -692,7 +692,7 @@
         "production": 3,
         "gold": 5,
 		"uniques": [
-		"Only available <starting from the [Industrial era]>", "Consumes [5] [Number of Buildings]", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"Only available <starting from the [Industrial era]>", "Only available <when above [18] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
 	{
 		"name": "Public School",
@@ -1482,7 +1482,35 @@
 		"requiredTech": "Theology",
 		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
 		"happiness": 2,
-
+		
+	// 匈人
+	},
+	{	
+        "name": "Civilized Leader-Attila",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "The Huns",
+		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
+		
+	// 斯基泰
+	},
+	{	
+        "name": "Civilized Leader-Tomyris",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Scythian",
+		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -10% †Strength"
+		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion"]
+	},
+	{
+		"name": "Tomb Mound",
+		"replaces": "Monument",
+        "uniqueTo": "Scythian",
+		"culture": 2,
+		"production": 1,
+		"requiredTech": "Burial Custom",
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+        
 	// 云冀之庭
 	},
 	{	

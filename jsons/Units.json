@@ -44,7 +44,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -57,7 +57,7 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects"]
 		"attackSound": "nonmetalhit"	
 	},
 	{
@@ -71,7 +71,7 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"promotions": ["[Jaguar] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]", "May upgrade to [Spearman] through ruins-like effects"]
 		"attackSound": "nonmetalhit"	
 	},
 	{
@@ -282,7 +282,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -316,6 +316,21 @@
 		"attackSound": "elephant"	
 	},
 	{
+		"name": "Horse Archer",
+		"unitType": "Shooter",
+		"uniqueTo": "The Huns",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 60,
+	    "requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"		
+	},
+	{
 		"name": "Composite Bowman",
 		"unitType": "Shooter",
 		"movement": 2,
@@ -327,6 +342,22 @@
 		"upgradesTo": "Crossbowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Mobile Archer",
+		"unitType": "Shooter",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Scythian",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 11,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["[Mobile Archer] ability"],
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"		
     },
 	{
 		"name": "Crossbowman",
