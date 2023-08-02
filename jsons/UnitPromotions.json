@@ -1254,7 +1254,8 @@
 		"unitTypes": ["Fighter","Bomber"],
          "row": 3
          "column": 16,    
-    //特色单位晋升
+         
+    // 特色单位晋升
 	},
 	{
 		"name": "[Persian Immortal] ability",
@@ -1291,7 +1292,16 @@
     {
         "name": "[Mobile Archer] ability",
         "uniques": ["Ignores terrain cost"]
-	//特殊
+	},
+	{
+		"name": "Haka War Dance",
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]        
+	},
+    {
+        "name": "[African Forest Elephant] ability",
+        "uniques": ["[Great General] is earned [100]% faster"]
+        
+	// 特殊
 	},
 	{     
 		"name": "Rejuvenation", 

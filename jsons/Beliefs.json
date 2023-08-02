@@ -15,6 +15,7 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Jungle]", "[+2 Faith] from every [Forest]"]
+   
     // 文化
     },
     {
@@ -31,6 +32,7 @@
         "name": "Sacred Route",
         "type": "Pantheon",
         "uniques": ["[+2 Culture] from each Trade Route"]
+        
     // 金钱
     },
     {
@@ -47,6 +49,7 @@
         "name": "God of Craftsman",
         "type": "Pantheon",
         "uniques": ["[+2 Gold] from every [Lumber mill]", "[+1 Gold] from every [Mine]"]
+        
     // 科研
     },
     {
@@ -63,6 +66,7 @@
         "name": "Messenger of God",
         "type": "Pantheon",
         "uniques": ["[+2 Science] from each Trade Route"]
+        
     //产能
     },
     {
@@ -79,6 +83,7 @@
         "name": "God of Forging",
         "type": "Pantheon",
         "uniques": ["[+2 Production] from every [Quarry]"]
+        
     // 战争
     },
     {
@@ -95,6 +100,7 @@
         "name": "God of Death",
         "type": "Pantheon",
         "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        
     //特殊
     },
     {
@@ -118,6 +124,7 @@
         "uniques": [
         "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
         "May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
+        
     //创建者词条
     },
     {

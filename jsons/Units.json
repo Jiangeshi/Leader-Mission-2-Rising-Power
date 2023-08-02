@@ -72,7 +72,21 @@
 		"upgradesTo": "Swordsman",
 		"promotions": ["[Jaguar] ability"],
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]", "May upgrade to [Spearman] through ruins-like effects"]
-		"attackSound": "nonmetalhit"	
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Maori Warrior",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"obsoleteTech": "Iron Working",
+		"promotions": ["Haka War Dance"],
+		"uniques":["Can build [Moai] improvements on tiles", "[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects"]	
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Swordsman",
@@ -167,6 +181,20 @@
 		"obsoleteTech": "Rifling",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "shot"	
+	},
+	{
+		"name": "Dahomei Women's Guard",
+		"unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "Benin",
+		"movement": 2,
+		"strength": 26,
+		"cost": 207,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"		
 	},
 	{
 		"name": "Janissary",
@@ -270,6 +298,20 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
 		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>"]
+		"attackSound": "arrow"	
+	},
+	{
+		"name": "Atlatlist",
+	"unitType": "Shooter",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 30,
+		"obsoleteTech": "Iron Working",
+		"replaces": "Archer",
+		"uniqueTo": "The Maya",
+		"upgradesTo": "Composite Bowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"		
 	},
 	{
@@ -440,7 +482,22 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"			
+		"attackSound": "horse"	
+	},
+	{
+		"name": "African Forest Elephant",
+		"unitType": "Mobile",
+		"uniqueTo": "Carthage",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 14,
+		"cost": 72,
+        "requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["[African Forest Elephant] ability"],	
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"attackSound": "elephant"
 	},
 	{
 		"name": "Knight",
@@ -811,10 +868,23 @@
 		"rangedStrength": 11,
 		"cost": 45,
 		"uniques": ["Cannot enter ocean tiles", "[+33]% Strength <vs [Water] units> <when attacking>"],
-			"requiredTech": "Sailing",
+		"requiredTech": "Sailing",
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"		
+	},
+	{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 13,
+		"cost": 40,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Caravel",

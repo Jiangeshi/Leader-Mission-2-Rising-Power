@@ -396,7 +396,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "All Roads Lead To Rome",
 		"uniqueText": "+15% ⚙Production towards any buildings that already exist in the Capital,\n+1 ⚙Production in all cities connected to capital",
-		"uniques": ["[+15]% Production towards any buildings that already exist in the Capital", "[+1 Production] [in all cities connected to capital]"],
+		"uniques": ["[+15]% Production towards any buildings that already exist in the Capital", "[+1 Production] [in all cities connected to capital]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -471,6 +471,37 @@
 			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
 			"Itzapalapa","Ayotzinco","Iztapam"],
         "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
+    },
+	{
+		"name": "The Maya",
+		"leaderName": "Leader",
+		"adjective": ["mayan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Long Count",
+	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching Theology. Each bonus person can only be chosen once,\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
+        "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]     
      
     //非洲
     },
@@ -535,7 +566,67 @@
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
-              
+    },
+	{
+		"name": "Benin",
+		"leaderName": "Leader",
+		"adjective": ["Beninese"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+	    "outerColor": [141, 45, 57],
+		"innerColor": [204, 202, 205],
+		"favoredReligion": "Islam",
+		"uniqueName": "Sacrifice",
+		"uniqueText": "-1 ⁂population in a random city and empire enters a 6-turn ⌣Golden Age upon declaring war with a major Civilization or conquering a city,\n+1 ⁂population in a random city upon declaring friendship or constructing Wonder"
+		"uniques": ["[-1] population in a random city <upon declaring war with a major Civilization>", "Empire enters a [6]-turn Golden Age <upon declaring war with a major Civilization>", "[-1] population in a random city <upon conquering a city>", "Empire enters a [5]-turn Golden Age <upon conquering a city>", "[+1] population in a random city <upon declaring friendship>", "[+1] population in a random city <upon constructing [Wonder]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Porto-Novo","Cotonou","Parakou","Adjara","Adjohoun","Aguegue","Natitingou","Tanguieta","Tchaourou","Bante","Nikki","Perere","Ouesse","Lalo","Toviklin","Bopa","Come","Abomey","Bonou","Djia"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
+		"name": "Carthage",
+		"leaderName": "Leader",
+		"adjective": ["Carthaginian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+        
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Boat Of The Mediterranean",
+	    "uniqueText": "Starts with Sailing,\n+1 ➡Movement for Water units,\nGain a free Cothon in all coastal cities",
+		"uniques": ["Starts with [Sailing]", "[+1] Movement <for [Water] units>", "Gain a free [Cothon] [in all coastal cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"],
+        "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]           
+        
     // 游牧  
     },
 	{
@@ -561,7 +652,8 @@
 		"innerColor": [70, 0, 4],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniqueText": "+1 ⚙Production from every Pasture,\nCities are razed 2 times as fast,\nStarts with Animal Husbandry,\nBorrows city names from other civilizations in the game",
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     
@@ -591,11 +683,42 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "People of Prairie",
 		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠,\nMobile unit heals 2 HP and gains 1 XP upon ending a turn in a grassland tile" 
-		"uniques": [],
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
 		],
-        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]          
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+    {
+		"name": "Polynesia",
+		"leaderName": "Leader",
+		"adjective": ["Polynesia"],
+		"startBias": ["Coast"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [217,89,0],
+		"innerColor": [255,255,75],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Wayfinding",
+		"uniqueText": "Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles,\n+1 Sight for Embarked units,\n+10% †Strength within 3 tiles of a Moai",
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [3] tiles of a [Moai]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
+			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
+			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
+			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]     
+        
     // 特殊文明
     },
 	{

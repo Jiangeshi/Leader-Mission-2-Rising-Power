@@ -125,6 +125,7 @@
         "turnsToBuild": 2,
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+        
 	//道路
 	},
 	{
@@ -189,7 +190,19 @@
         	"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Removes removable features when built",
 		]
+		
+	// 特色建筑
+	},
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
+		"techRequired": "Belief Worship",
     },
+    
 	// 不可建造设施
 	{
 		"name": "Ancient ruins",

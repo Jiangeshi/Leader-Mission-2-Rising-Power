@@ -295,9 +295,56 @@ BuildingIcons/Civilized Leader-Tomyris
   offset: 0, 0
   index: -1   
   
-      
+Images/BuildingIcons/Civilized leader (34).png
+BuildingIcons/Civilized Leader-Kerekou
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1         
         
-            
+Images/BuildingIcons/Civilized leader (35).png
+BuildingIcons/Civilized Leader-Kamehameha I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                 
+
+Images/BuildingIcons/Civilized leader (36).png
+BuildingIcons/Civilized Leader-Hannibal
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1         
+        
+Images/BuildingIcons/Civilized leader (37).png
+BuildingIcons/Civilized Leader-Pacal
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                 
+
+Images/BuildingIcons/Civilized leader (38).png
+BuildingIcons/Civilized Leader-Dido
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1         
+
+
+
+
+
+
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -560,7 +607,27 @@ BuildingIcons/Tomb Mound
   offset: 0, 0
   index: -1      
         
+Images/BuildingIcons/Tata Somba.png
+BuildingIcons/Tata Somba
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
   
+Images/BuildingIcons/Cothon.png
+BuildingIcons/Cothon
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+      
+        
+          
+              
   
 Images/NationIcons/Iran.png
 NationIcons/Iran
@@ -634,7 +701,14 @@ NationIcons/Scythian
   offset: 0, 0
   index: -1   
   
-  
+Images/NationIcons/Benin.png
+NationIcons/Benin
+  rotate: false
+  xy: 0, 0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1     
   
   
 Images/ResourceIcons/BisonIcon.png
@@ -1039,6 +1113,19 @@ UnitIcons/Mobile Archer
   orig: 150, 150
   offset: 0, 0
   index: -1      
+  
+Images/UnitIcons/Dahomei Womens Guard.png
+UnitIcons/Dahomei Women's Guard
+  rotate: false
+  xy: 0,0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1        
+  
+  
+  
+  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
