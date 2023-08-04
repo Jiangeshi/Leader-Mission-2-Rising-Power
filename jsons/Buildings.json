@@ -493,11 +493,7 @@
 		"name": "Ministry of Defense",
 		"cost": 120,
 		"isNationalWonder": true,
-		"uniques": [
-		"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-		 "[+15]% Production when constructing [Military] units [in all cities]",
-		"[-5]% [Gold] [in all cities]",
-		"Cost increases by [30] per owned city"],
+		"uniques": ["[+25]% Production when constructing [Military] units [in all cities]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Archery",
 			
 	// 中古-世界奇观
@@ -574,6 +570,7 @@
 		"requiredTech": "Metal Casting",
 		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 3 Steels when above 1 Iron"
 	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [3] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings]"]
+	    
 	// 复兴-选建建筑
 	},
 	{
@@ -1193,6 +1190,66 @@
 		"requiredTech": "Chivalry",
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
 		
+	// 中华
+	},
+	{
+	    "name": "Civilized Leader-Emperor Huang",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "+2 ♪Culture in all cities",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+2 Culture] [in all cities]"]
+	},
+	{
+        "name": "Civilized Leader-First Emperor of Qin",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "+10% †Strength for Military units before discovering Nation,\n+33% ⚙Production when constructing National Wonder wonders in all cities",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
+	},
+	{
+	    "name": "Civilized Leader-Emperor Wu of Han",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "⛤Great General provides double †combat bonus",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Great General provides double combat bonus"]
+	},
+	{
+	    "name": "Civilized Leader-Emperor Taizong of Tang",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "+50% Great Person generation in all cities",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]"]
+	},
+	{
+	    "name": "Civilized Leader-Emperor Taizu of Song",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "+10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles,\n+15% ⍾Science and ♪Culture in all cities",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]	
+	},
+    {
+        "name": "Civilized Leader-Chairman Mao",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units,\n+15% ⚙Production when constructing Civilian units in all cities",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "[+1] Movement <for [Foot Soldier] units>", "[+15]% Production when constructing [Civilian] units [in all cities]"]
+	},
+	{
+		"name": "Rockery Garden",
+		"food": 2,
+		"culture":3,
+	    "uniques": ["Only available <in cities with a [City Level III]>", "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings]"],
+		"maintenance": 2,
+		"requiredTech": "Agricultural Improvement"
+		"uniqueTo": "China",
+		"replaces": "Garden",
+		
 	// 希腊
 	},
 	{	
@@ -1392,8 +1449,64 @@
 		"requiredTech": "Burial Custom",
 		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [5] Experience [in this city]", "Provides [1] [Number of Buildings]"]
 		"replaces": "Monument",
-		
-	//印加	
+	
+	// 英格兰
+	},
+	{	
+        "name": "Civilized Leader-Queen Victoria",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "England",
+		"replacementTextForUniques": "Empire enters a 3-turn ⌣Golden Age upon founding a city,\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+15]% [Production] [in all cities] <during a Golden Age>", "[+15]% [Culture] [in all cities] <during a Golden Age>", "Empire enters a [3]-turn Golden Age <upon founding a city>"]
+	},
+	{	
+        "name": "Civilized Leader-Churchill",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "England",
+		"replacementTextForUniques": "Warfare Aversion Level stops natural growth when above 30 Warfare Aversion Level,\n+5% ⚙Production in all cities when at war",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+5]% [Production] [in all cities] <when at war>"]
+	},
+	{
+		"name": "Royal Navy Dockyard",
+		"production": 2,
+		"greatPersonPoints": {"Great Admiral": 2},
+		"maintenance": 4,
+		"replaces": "Shipyard",
+        "uniqueTo": "England",
+		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]","Must be next to [Coast]", "[+40]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Steam Power" 
+	
+	// 塞尔维亚
+	},
+	{	
+        "name": "Civilized Leader-Tito",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Serbia",
+		"replacementTextForUniques": "Influence of all other civilizations with all city-states degrades 33% faster,\n+10% †Strength when fighting units from a Civilization with more Cities than you",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Milosevic]>", "Influence of all other civilizations with all city-states degrades [33]% faster", "[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]	
+	},
+	{	
+        "name": "Civilized Leader-Milosevic",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Serbia",
+		"replacementTextForUniques": "-33% ⚙Gold cost of upgrading,\n+15% City Strength from defensive buildings",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Tito]>", "[-33]% Gold cost of upgrading", "[+15]% City Strength from defensive buildings"]
+	},
+	{
+		"name": "Studenica Monastery",
+		"gold": 3,
+	    "maintenance": 0,
+	    "uniqueTo": "Serbia",
+	    "requiredTech": "Theology",
+	    "replaces": "Temple",
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		 		 	
+		 	
+	// 印加	
 	},
 	{	
         "name": "Civilized Leader-Pachacutec",

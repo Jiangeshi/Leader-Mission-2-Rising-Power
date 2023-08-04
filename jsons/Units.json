@@ -261,6 +261,19 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Cobra Commando",
+		"unitType": "Foot Soldier",
+		"replaces": "Infantry",
+		"uniqueTo": "Serbia",
+		"movement": 4,
+		"strength": 70,
+		"cost": 660,
+		"requiredTech": "Materials Science",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"		
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Foot Soldier",
 		"movement": 3,
@@ -373,6 +386,22 @@
 		"attackSound": "arrow"		
 	},
 	{
+		"name": "Ancient Chinese Chariot",
+		"unitType": "Foot Soldier",
+		"uniqueTo": "China",
+		"replaces": "Chariot Archer",
+		"range": 1,
+		"movement": 4,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+	    "requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Composite Bowman",
 		"unitType": "Shooter",
 		"movement": 2,
@@ -413,6 +442,39 @@
 		"obsoleteTech": "Military Science",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"	
+	},
+	{
+		"name": "Longbowman",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "Crossbowman",
+		"uniqueTo": "England",
+		"cost": 145,
+		"requiredTech": "Steel",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Military Science",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"promotions": ["Additional Range"],
+		"attackSound": "arrow"	
+	},
+	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Shooter",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 16,
+		"replaces": "Crossbowman",
+		"cost": 145,
+	    "requiredTech": "Steel",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Military Science",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"	
 	},
 	{
 		"name": "Gatling Gun",
@@ -956,6 +1018,20 @@
 		"strength": 25,
 		"rangedStrength": 28,
 		"cost": 265,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"attackSound": "cannon"	
+	},
+	{
+		"name": "Ship of the Line",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "England",
+		"movement": 3,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 305,
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",

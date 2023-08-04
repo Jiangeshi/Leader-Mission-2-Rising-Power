@@ -44,7 +44,9 @@
         "Invisible to non-adjacent units<in [Forest] tiles>",
         "Invisible to non-adjacent units<in [Jungle] tiles>",
         "Cannot attack <in [Marsh] tiles>",
-        "Gain [35] [Gold] <upon being defeated> <for [Scythian]>"
+        "Gain [35] [Gold] <upon being defeated> <for [Scythian]>",
+        "May attack when embarked <for [England]>",
+        "Eliminates combat penalty for attacking across a coast <for [England]>"
         ]    
     },
     {
@@ -97,20 +99,22 @@
         "name": "Siege",
         "movementType": "Land"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         
-        "Invisible to non-adjacent units<in [Forest] tiles>"
-        "Invisible to non-adjacent units<in [Jungle] tiles>"
-        "Cannot attack <in [Marsh] tiles>"
+        "Invisible to non-adjacent units<in [Forest] tiles>",
+        "Invisible to non-adjacent units<in [Jungle] tiles>",
+        "Cannot attack <in [Marsh] tiles>",
+        "May attack when embarked <for [England]>",
+        "Eliminates combat penalty for attacking across a coast <for [England]>"
         ]    
     },
     {
         "name": "Melee Water",
         "movementType": "Water"
         "uniques":[
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         ]                
     },

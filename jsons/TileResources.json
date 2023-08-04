@@ -568,5 +568,10 @@
 		"name": "Number of Buildings",  
 		"resourceType": "Strategic",
 	    "uniques": ["City-level resource"]	
+    },
+	{
+		"name": "Number of Leaders",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen"]
 	}
 ]

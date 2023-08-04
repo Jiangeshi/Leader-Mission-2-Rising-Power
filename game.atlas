@@ -340,11 +340,97 @@ BuildingIcons/Civilized Leader-Dido
   offset: 0, 0
   index: -1         
 
+Images/BuildingIcons/Civilized leader (39).png
+BuildingIcons/Civilized Leader-Queen Victoria
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1                 
 
+Images/BuildingIcons/Civilized leader (40).png
+BuildingIcons/Civilized Leader-Churchill
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1         
 
+Images/BuildingIcons/Civilized leader (41).png
+BuildingIcons/Civilized Leader-Emperor Wu of Han
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (42).png
+BuildingIcons/Civilized Leader-First Emperor of Qin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader (43).png
+BuildingIcons/Civilized Leader-Chairman Mao
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
-
-
+Images/BuildingIcons/Civilized leader (44).png
+BuildingIcons/Civilized Leader-Emperor Taizu of Song
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (45).png
+BuildingIcons/Civilized Leader-Emperor Taizong of Tang
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader (46).png
+BuildingIcons/Civilized Leader-Emperor Huang
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Civilized leader (47).png
+BuildingIcons/Civilized Leader-Tito
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+     
+Images/BuildingIcons/Civilized leader (48).png
+BuildingIcons/Civilized Leader-Milosevic
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
+  
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -625,8 +711,37 @@ BuildingIcons/Cothon
   offset: 0, 0
   index: -1
       
-        
+Images/BuildingIcons/Royal Navy Dockyard.png
+BuildingIcons/Royal Navy Dockyard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
           
+Images/BuildingIcons/RockeryGarden.png
+BuildingIcons/Rockery Garden
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1                
+              
+Images/BuildingIcons/StudenicaMonastery.png
+BuildingIcons/Studenica Monastery
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                  
+              
+              
+              
+              
+              
               
   
 Images/NationIcons/Iran.png
@@ -710,6 +825,25 @@ NationIcons/Benin
   offset: 0, 0
   index: -1     
   
+Images/NationIcons/China.png
+NationIcons/China
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Serbia.png
+NationIcons/Serbia
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1    
+  
+  
   
 Images/ResourceIcons/BisonIcon.png
 ResourceIcons/Bison
@@ -764,6 +898,17 @@ ResourceIcons/Number of Buildings
   orig: 280, 280
   offset: 0, 0
   index: -1    
+  
+Images/ResourceIcons/Civilized leader.png
+ResourceIcons/Number of Leaders
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+  
   
   
   
@@ -959,6 +1104,15 @@ TileSets/HexaRealm/Tiles/Volcanic Soil
   offset: 0, 0
   index: -1 
   
+Images/TileSets/Cocoa.png
+TileSets/HexaRealm/Tiles/Cocoa
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
 Images/TileSets/GreatAdmiralLand.png
 TileSets/AbsoluteUnits/Units/Great Admiral
   rotate: false
@@ -1122,6 +1276,25 @@ UnitIcons/Dahomei Women's Guard
   orig: 140, 140
   offset: 0, 0
   index: -1        
+  
+Images/UnitIcons/AncientChineseChariotIcon.png
+UnitIcons/Ancient Chinese Chariot
+  rotate: false
+  xy: 0,0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitIcons/CobraCommandoIcon.png
+UnitIcons/Cobra Commando
+  rotate: false
+  xy: 0,0
+  size: 75, 125
+  orig: 75, 125
+  offset: 0, 0
+  index: -1       
+  
   
   
   
