@@ -29,7 +29,7 @@
 		"innerColor": [218, 0, 0],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
-		"uniqueText": "+25% ⌣Golden Age length,\np +1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
+		"uniqueText": "+25% ⌣Golden Age length,\n+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
 		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
