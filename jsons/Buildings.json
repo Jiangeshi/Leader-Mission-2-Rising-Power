@@ -1550,8 +1550,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Germany",
-		"replacementTextForUniques": "When conquering an [Barbarian encampment], recruit a [Barbarians] unit,\nWhen defeating a [City-states] unit, recruit it with 33% chance"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Bismarck]>", "When conquering an encampment, earn [0] Gold and recruit a Barbarian unit", "When defeating a [City-states] unit, earn [0] Gold and recruit it <with [33]% chance>"]	
+		"replacementTextForUniques": "When conquering an [Barbarian encampment], recruit a [Barbarians] unit,\nWhen defeating a Melee unit, recruit it with 25% chance"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Bismarck]>", "When conquering an encampment, earn [0] Gold and recruit a Barbarian unit", "When defeating a [Melee] unit, earn [0] Gold and recruit it <with [25]% chance>"]	
 	},
 	{
         "name": "Hanse",
