@@ -224,6 +224,21 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Mehal Sefari",
+		"unitType": "Foot Soldier",
+		"replaces": "Rifleman",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 34,
+		"cost": 288,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"promotions": ["Drill I"],
+		"attackSound": "shot"	
+	},
+	{
 		"name": "Great War Infantry",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -392,7 +407,7 @@
 		"replaces": "Chariot Archer",
 		"range": 1,
 		"movement": 4,
-		"strength": 11,
+		"strength": 10,
 		"rangedStrength": 11,
 		"cost": 75,
 	    "requiredTech": "The Wheel",
@@ -747,6 +762,20 @@
 		"attackSound": "metalhit"	
 	},
 	{
+		"name": "Landsknecht",
+		"unitType": "Anti-Mobile",
+		"replaces": "Pikeman",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought" ],
+		"requiredTech": "Defensive Fortification",
+		"upgradesTo": "Lancer",
+	    "obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Lancer",
 		"unitType": "Anti-Mobile",
 		"movement": 4,
@@ -865,6 +894,21 @@
 		"attackSound": "throw"	
 	},
 	{
+		"name": "Hwach'a",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Korea",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 26,
+		"cost": 150,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Cannon",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "throw"	
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
@@ -958,6 +1002,20 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
+		"attackSound": "cannon"	
+	},
+	{
+		"name": "Turtle Ship",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Korea",
+		"movement": 4,
+		"strength": 36,
+		"cost": 150,
+	    "requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "cannon"	
 	},
 	{

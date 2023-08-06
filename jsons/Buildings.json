@@ -1205,7 +1205,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units before discovering Nation,\n+33% ⚙Production when constructing National Wonder wonders in all cities",
+		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation],\n+33% ⚙Production when constructing National Wonder wonders in all cities",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
 	},
 	{
@@ -1221,8 +1221,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+50% Great Person generation in all cities",
-		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]"]
+		"replacementTextForUniques": "+75% Great Person generation in all cities",
+		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+75]% Great Person generation [in all cities]"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizu of Song",
@@ -1250,6 +1250,36 @@
 		"uniqueTo": "China",
 		"replaces": "Garden",
 		
+	// 朝鲜
+	},
+	{	
+        "name": "Civilized Leader-Yi Song-gye",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Korea",
+	    "replacementTextForUniques": "Earn 75% of killed Military unit's †Strength as ♪Culture",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "Earn [75]% of killed [Military] unit's [Strength] as [Culture]"]	
+	},
+	{	
+        "name": "Civilized Leader-Kim Il-sung",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Korea",
+		"replacementTextForUniques": "+1 [Science] and +1 [Gold] from all [Production] buildings"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Yi Song-gye]>", "[+1 Science, +1 Gold] from all [Production] buildings",
+		]
+	},
+	{
+		"name": "Korean Academy",
+		"replaces": "University",
+		"uniqueTo": "Korea",
+		"science": 3,
+		"maintenance": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Teacher": 2},
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"requiredTech": "Education"	
+			
 	// 希腊
 	},
 	{	
@@ -1319,7 +1349,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+2 ♪Culture, +2 ¤Gold and -1 ⚙Production from every Luxury resource"
+		"replacementTextForUniques": "+2 ♪Culture, +2 ¤Gold and -1 ⚙Production from every ⌣Luxury resource"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+2 Culture, +2 Gold, -1 Production] from every [Luxury resource]"]	
 	},
 	{
@@ -1403,7 +1433,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "-33% ☮Faith cost of generating ☮Great Prophet equivalents",	
+		"replacementTextForUniques": "-33% ☮Faith cost of generating [Great Prophet] equivalents",	
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[-33]% Faith cost of generating Great Prophet equivalents"]
 	},
 	{	
@@ -1465,7 +1495,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Warfare Aversion Level stops natural growth when above 30 Warfare Aversion Level,\n+5% ⚙Production in all cities when at war",
+		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level],\n+5% ⚙Production in all cities when at war",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+5]% [Production] [in all cities] <when at war>"]
 	},
 	{
@@ -1493,7 +1523,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"replacementTextForUniques": "-33% ⚙Gold cost of upgrading,\n+15% City Strength from defensive buildings",
+		"replacementTextForUniques": "-33% ¤Gold cost of upgrading,\n+15% City Strength from defensive buildings",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Tito]>", "[-33]% Gold cost of upgrading", "[+15]% City Strength from defensive buildings"]
 	},
 	{
@@ -1505,7 +1535,34 @@
 	    "replaces": "Temple",
 		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
 		 		 	
-		 	
+	// 德意志
+	},
+	{	
+        "name": "Civilized Leader-Bismarck",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Germany",
+		"replacementTextForUniques": "Provides a [Barracks] in your first 2 cities for free,\n+10% [Culture] in all cities when not at war"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Provides a [Barracks] in your first [2] cities for free", "[+10]% [Culture] [in all cities] <when not at war>"]
+	},
+	{	
+        "name": "Civilized Leader-Barbarossa",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Germany",
+		"replacementTextForUniques": "When conquering an [Barbarian encampment], recruit a [Barbarians] unit,\nWhen defeating a [City-states] unit, recruit it with 33% chance"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Bismarck]>", "When conquering an encampment, earn [0] Gold and recruit a Barbarian unit", "When defeating a [City-states] unit, earn [0] Gold and recruit it <with [33]% chance>"]	
+	},
+	{
+        "name": "Hanse",
+     	"replaces": "Bank",
+        "uniqueTo": "Germany",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 2},
+		"percentStatBonus": {"gold": 30},
+		"requiredTech": "Economics"	
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+15]% [Production] [in this city]", "Provides [1] [Number of Buildings]"]	
+		
 	// 印加	
 	},
 	{	
@@ -1582,7 +1639,7 @@
 		"maintenance": 0,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+2 Science] per [3] population [in this city]", "Provides [1] [Number of Buildings]"],
 		
-	//埃及
+	// 埃及
 	},
 	{	
         "name": "Civilized leader-Ramesses II",
@@ -1605,7 +1662,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "All newly-trained Military units in all cities receive the Amphibious promotion,\nGain 25-50 ¤Gold upon declaring war with a major Civilization"
+		"replacementTextForUniques": "All newly-trained Military units in all cities receive the [Amphibious] promotion,\nGain 25-50 ¤Gold upon declaring war with a major Civilization"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Ramesses II]>", "Only available <in cities without a [Civilized leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [25]-[50] [Gold] <upon declaring war with a major Civilization>"]
 	},
 	{
@@ -1644,7 +1701,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"replacementTextForUniques": "+33% ⚙Production when constructing Settler units in capital,\n+3 ¤Gold in all cities connected to capital",
+		"replacementTextForUniques": "+33% ⚙Production when constructing [Settler] units in capital,\n+3 ¤Gold in all cities connected to capital",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+33]% Production when constructing [Settler] units [in capital]", "[+3 Gold] [in all cities connected to capital]"]	
 	},
 	{	
@@ -1653,8 +1710,7 @@
 		"cost":1,
 		"uniqueTo": "Carthage",
 		"replacementTextForUniques": "+75% to †Flank Attack bonuses for Military units",	
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Dido]>", "[+75]% to Flank Attack bonuses <for [Military] units>"
-		]
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Dido]>", "[+75]% to Flank Attack bonuses <for [Military] units>"]
     },
 	{
 		"name": "Cothon",
@@ -1665,6 +1721,34 @@
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Compass"
 
+    // 埃塞俄比亚
+    },
+	{	
+        "name": "Civilized Leader-Menelik II",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Ethiopia",
+		"replacementTextForUniques": "+20% †Strength for Military units when fighting units from a Civilization with more Cities than you",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Haile Selassie]>", "[+20]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"]	
+	},
+	{	
+        "name": "Civilized Leader-Haile Selassie",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Ethiopia",
+		"replacementTextForUniques": "+33% †Strength for Military units decreasing with distance from the capital",	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Menelik II]>", "[+33]% Strength decreasing with distance from the capital <for [Military] units>"]
+    },
+	{
+		"name": "Stele",
+		"replaces": "Monument",
+		"uniqueTo": "Ethiopia",
+		"culture": 2,
+		"faith": 2,
+		"maintenance": 0,
+		"requiredTech": "Burial Custom",
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+
 	// 匈人
 	},
 	{	
@@ -1672,7 +1756,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles,\nReceive triple ¤Gold from Barbarian encampments and pillaging Cities",
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles,\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
 		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
 		
 	// 斯基泰
@@ -1682,7 +1766,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a horseman is produced in capital, you will gain a free horseman, and one of them -10% †Strength"
+		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength"
 		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion"]
 	},
 	{
@@ -1711,7 +1795,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Yun Ji Court",
-		"replacementTextForUniques": "+10% ⚙Production when constructing Military units in all cities,\nReceive free ⛤Great General when you discover Army Formation"
+		"replacementTextForUniques": "+10% ⚙Production when constructing Military units in all cities,\nReceive free ⛤Great General when you discover [Army Formation]"
 		"uniques": ["Can only be built [in capital]", "[+10]% Production when constructing [Military] units [in all cities]", "Receive free [Great General] when you discover [Army Formation]"]	  
 	},
 	{

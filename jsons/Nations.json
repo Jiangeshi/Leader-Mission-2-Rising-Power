@@ -64,7 +64,7 @@
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
 		"uniqueName": "Praise Allah",
-		"uniqueText": "Receive free ☮Great Prophet when you discover Theology",
+		"uniqueText": "Receive free ☮Great Prophet when you discover [Theology]",
 		"uniques": ["Receive free [Great Prophet] when you discover [Theology]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -168,7 +168,35 @@
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
-              
+    },
+	{
+		"name": "Korea",
+		"leaderName": "Leader",
+		"adjective": ["Korean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+	    "uniqueText": "+2 ⍾Science from every specialist in all cities,\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital",
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "Receive a tech boost when scientific buildings/wonders are built in capital"],
+		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+                                  
     // 欧洲
     },
 	{
@@ -230,7 +258,7 @@
 		"innerColor": [255,211,57],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Conqueror's Army",
-		"uniqueText": "+25% XP gained from †combat for Military units, \nInstantly consumes 1 Warfare Aversion Level upon a Military unit ☠defeats an Major unit"
+		"uniqueText": "+25% XP gained from †combat for Military units, \nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
 		"uniques": ["[+25]% XP gained from combat <for [Melee] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
@@ -332,7 +360,7 @@
         "innerColor": [18,84,30],
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "Gain enough ☮Faith for 15% of a ☮Great Prophet upon constructing ☮Faith building in all cities,\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
+		"uniqueText": "Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities,\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
 		"uniques": ["Gain enough Faith for [15]% of a Great Prophet <upon constructing [Faith] [in all cities]>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
@@ -365,7 +393,7 @@
 		"innerColor": [0,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wealth of Siberia",
-		"uniqueText": "+1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring Tundra tiles,\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring Tundra tiles,\n+1 ⚙Production from every Strategic resource and Great Improvement"
+		"uniqueText": "+1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring [Tundra] tiles,\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring [Tundra] tiles,\n+1 ⚙Production from every Strategic resource and Great Improvement"
 		"uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>", "[+2 Faith, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>", "[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
@@ -497,6 +525,39 @@
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
 			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]  
+    },
+	{
+		"name": "Germany",
+		"leaderName": "Leader",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [250, 255, 255],
+		"innerColor": [26, 22, 21],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Prussian Spirit",
+		"uniqueText": "+1 [Science] from all [Science] buildings when not at war,\n+1 [Production] from all [Production] buildings when at war",
+		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]    
+        
     //美洲
     },
 	{
@@ -522,7 +583,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Descendants of the Sun",
-		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without Bonus resource in all cities",
+		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
@@ -588,7 +649,7 @@
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching Theology. Each bonus person can only be chosen once,\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
+	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once,\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
@@ -713,13 +774,45 @@
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
 		"uniqueName": "The Boat Of The Mediterranean",
-	    "uniqueText": "Starts with Sailing,\n+1 ➡Movement for Water units,\nGain a free Cothon in all coastal cities",
+	    "uniqueText": "Starts with [Sailing],\n+1 ➡Movement for Water units,\nGain a free [Cothon] in all coastal cities",
 		"uniques": ["Starts with [Sailing]", "[+1] Movement <for [Water] units>", "Gain a free [Cothon] [in all coastal cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
 			"Saldae"],
         "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]           
+    },
+	{
+		"name": "Ethiopia",
+		"leaderName": "Leader",
+		"adjective": ["ethiopian"],
+		"startBias": ["Jungle"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [18, 66, 22],
+        "innerColor": [255, 56, 56],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Spirit of Adwa",
+		"uniqueText": "Reveal up to All tiles within a 5 tile radius upon founding a city,\nNo ¤Maintenance costs for improvements in Hill tiles,\n-50% ♪Culture cost of natural border growth in all cities",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "No Maintenance costs for improvements in [Hill] tiles", "[-50]% Culture cost of natural border growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]        
         
     // 游牧  
     },
@@ -746,7 +839,7 @@
 		"innerColor": [70, 0, 4],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniqueText": "+1 ⚙Production from every Pasture,\nCities are razed 2 times as fast,\nStarts with Animal Husbandry,\nBorrows city names from other civilizations in the game",
+		"uniqueText": "+1 ⚙Production from every [Pasture],\nCities are razed 2 times as fast,\nStarts with [Animal Husbandry],\nBorrows city names from other civilizations in the game",
 		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Atilla's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
@@ -805,7 +898,7 @@
 		"innerColor": [255,255,75],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
-		"uniqueText": "Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles,\n+1 Sight for Embarked units,\n+10% †Strength within 3 tiles of a Moai",
+		"uniqueText": "Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles,\n+1 Sight for Embarked units,\n+10% †Strength within 3 tiles of a [Moai]",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [3] tiles of a [Moai]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
@@ -838,7 +931,7 @@
 		"outerColor": [10,10,10],
 		"favoredReligion": "Taoism",
 		"uniqueName": "War of Hope",
-		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\nMore Fight More Brave:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit"
+		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit"
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Titans"],
@@ -1293,7 +1386,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it","Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[+1] Sight <for [Embarked] units>", "[-10]% Strength <for [All] units>"]
 	}
 
 ]

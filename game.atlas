@@ -430,7 +430,59 @@ BuildingIcons/Civilized Leader-Milosevic
   offset: 0, 0
   index: -1    
   
+Images/BuildingIcons/Civilized leader (49).png
+BuildingIcons/Civilized Leader-Bismarck
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
+
+Images/BuildingIcons/Civilized leader (50).png
+BuildingIcons/Civilized Leader-Barbarossa
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
   
+Images/BuildingIcons/Civilized leader (51).png
+BuildingIcons/Civilized Leader-Menelik II
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1      
+
+Images/BuildingIcons/Civilized leader (52).png
+BuildingIcons/Civilized Leader-Haile Selassie
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1        
+
+Images/BuildingIcons/Civilized leader (53).png
+BuildingIcons/Civilized Leader-Yi Song-gye
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (54).png
+BuildingIcons/Civilized Leader-Kim Il-sung
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -738,7 +790,14 @@ BuildingIcons/Studenica Monastery
   offset: 0, 0
   index: -1                  
               
-              
+Images/BuildingIcons/KoreanAcademy.png
+BuildingIcons/Korean Academy
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
               
               
               
