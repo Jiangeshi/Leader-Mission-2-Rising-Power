@@ -158,7 +158,8 @@
 		"isWonder": true,
 		"uniques": ["[1] Free Social Policies"],
 		"requiredTech": "Calendar",
-	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"				
+	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"	
+	    			
 	// 古典-必建建筑
 	},
 	{
@@ -207,8 +208,8 @@
 	},
 	{
 		"name": "Amphitheater",
-		"culture": 1,
-		"science": 2,
+		"culture": 2,
+		"science": 1,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"requiredTech": "Drama and Poetry"		
@@ -740,6 +741,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"requiredTech": "Construction"	
 		"uniques": ["Only available <in cities with a [City Level V]>"]	
+		
 	// 工业-特殊建筑
 	},
 	{
@@ -925,7 +927,13 @@
 		"replacementTextForUniques": 
 		"Only available in cities with a City Level V \n Cost 10 Steels and 10 Aluminum \n Consumes 1 Uranium to Provide 5 Production and 15% Production in this city"
 		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "Costs [10] [Aluminum]", "Provides [-1] [Uranium] <when above [1] [Uranium]>", "[-5 Production] [in this city] <when below [0] [Uranium]>", "[-15]% [Production] [in this city] <when below [0] [Uranium]>"]
-
+	},
+	{
+		"name": "Bomb Shelter",
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [30] [Steels]", "Population loss from nuclear attacks [-75]% [in this city]"]
+		
 	// 原子-奇观
 	},
 	{
@@ -958,14 +966,17 @@
 		"uniques": ["Free Social Policy","Must be next to [Coast]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
-		
-	// 信息-建筑
 	},
 	{
-		"name": "Bomb Shelter",
-		"maintenance": 1,
+		"name": "United Nations",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"percentStatBonus": {"production": 15, "culture": 15, "gold": 15},
 		"requiredTech": "Telecommunications",
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [30] [Steels]", "Population loss from nuclear attacks [-75]% [in this city]"]
+		"uniques": ["Can only be built [in capital]", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"	
+		
+	// 信息-建筑
 	},
 	{
 		"name": "Spaceship Factory",
@@ -992,15 +1003,7 @@
 		"uniques": ["[2] free [Great Scientist] units appear", "[+25]% Production when constructing [Spaceship part] units [in this city]", "Gain a free [Spaceship Factory] [in this city]"],
 		"requiredTech": "Satellites",
 		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"	
-	},
-	{
-		"name": "United Nations",
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"percentStatBonus": {"production": 15, "culture": 15, "gold": 15},
-		"requiredTech": "Telecommunications",
-		"uniques": ["Can only be built [in capital]", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+
 	
 	// 宗教建筑	
 	},
@@ -1113,16 +1116,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
-		"replacementTextForUniques": "Earn 66% of killed☠ Military unit's †Strength as ⍾Science"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [66]% of killed [Military] unit's [Strength] as [Science]"]
+		"replacementTextForUniques": "Earn 75% of killed☠ Military unit's †Strength as ⍾Science"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [75]% of killed [Military] unit's [Strength] as [Science]"]
 	},
 	{	
         "name": "Civilized Leader-Omar I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
-		"replacementTextForUniques": "+10% †Strength for Military units after enhancing a religion"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Saladin]>", "[+10]% Strength <for [Military] units> <after enhancing a religion>"]	
+		"replacementTextForUniques": "+15% †Strength for Military units after enhancing a religion"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Saladin]>", "[+15]% Strength <for [Military] units> <after enhancing a religion>"]	
 	},
 	{
 		"name": "Bazaar",
@@ -1279,7 +1282,34 @@
 		"specialistSlots": {"Teacher": 2},
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Education"	
-			
+		
+	// 巴比伦
+	},
+	{	
+        "name": "Civilized Leader-Hammurabi",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Babylon",
+		"replacementTextForUniques": "-66% [Culture] cost of natural border growth in all cities",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Nebuchadnezzar II]>", "[-66]% Culture cost of natural border growth [in all cities]"]	
+	},
+	{	
+        "name": "Civilized Leader-Nebuchadnezzar II",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Babylon",
+		"replacementTextForUniques": "+20% [Science] in all cities with a world wonder",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hammurabi]>", "[+20]% [Science] [in all cities with a world wonder]"]
+	},
+	{
+		"name": "Walls of Babylon",
+		"replaces": "Walls",
+		"uniqueTo": "Babylon",
+		"cityStrength": 4,
+		"cityHealth": 100,
+		"requiredTech": "Masonry",
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+				
 	// 希腊
 	},
 	{	
@@ -1386,8 +1416,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities,\n+2 ⚙Production, +1 ⍾Science and +1 ♪Culture from all ☮Faith buildings"	
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+2 Production, +1 Science, +1 Culture] from all [Faith] buildings"]	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities,\n+2 ⚙Production, +2 ⍾Science and +1 ♪Culture from all ☮Faith buildings"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized leader-Osman I]>", "Only available <in cities without a [Civilized leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+2 Production, +2 Science, +1 Culture] from all [Faith] buildings"]	
 	},
 	{
 		"name": "Galata Tower",
@@ -1562,7 +1592,62 @@
 		"percentStatBonus": {"gold": 30},
 		"requiredTech": "Economics"	
 		"uniques": ["Only available <in cities with a [City Level IV]>", "[+15]% [Production] [in this city]", "Provides [1] [Number of Buildings]"]	
-		
+	
+	// 西班牙
+	},
+	{	
+        "name": "Civilized Leader-Charles V",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Spain",
+		"replacementTextForUniques": "+2 [Faith] and +5 [Gold] [in all cities] [on foreign continents],\n+1 [Science] [in all cities] not on foreign continents"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +5 Gold, -1 Science] [in all cities] <on foreign continents>", "[+1 Science] [in all cities]"]
+	},
+	{	
+        "name": "Civilized Leader-Franco",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Spain",
+		"replacementTextForUniques": "+15% †Strength for Military units when attacking on foreign continents,\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Charles V]>", "[+15]% Strength <for [Military] units> <when attacking> <on foreign continents>", "[+15]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>"]	
+	},
+	{
+		"name": "Spanish ability",
+		"cost": 1,
+		"replacementTextForUniques": "Spanish ability",
+		"uniques": ["Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Only available <for [Spain]>"
+		"[+1 Food] [in this city] <when above [0] [Number of Bonus]> <for [Spain]>",
+		"[+2 Food] [in this city] <when above [1] [Number of Bonus]> <for [Spain]>",
+		"[+3 Food] [in this city] <when above [2] [Number of Bonus]> <for [Spain]>",
+		"[+4 Food] [in this city] <when above [3] [Number of Bonus]> <for [Spain]>",
+		"[+5 Food] [in this city] <when above [4] [Number of Bonus]> <for [Spain]>",
+		"[+6 Food] [in this city] <when above [5] [Number of Bonus]> <for [Spain]>",
+		"[+7 Food] [in this city] <when above [6] [Number of Bonus]> <for [Spain]>",
+		"[+8 Food] [in this city] <when above [7] [Number of Bonus]> <for [Spain]>",
+		"[+9 Food] [in this city] <when above [8] [Number of Bonus]> <for [Spain]>",
+		"[+10 Food] [in this city] <when above [9] [Number of Bonus]> <for [Spain]>",
+	
+		"[+15 Gold] [in this city] <when above [0] [Number of Luxury]> <for [Spain]>",
+		"[+30 Gold] [in this city] <when above [1] [Number of Luxury]> <for [Spain]>",
+		"[+45 Gold] [in this city] <when above [2] [Number of Luxury]> <for [Spain]>",
+		"[+60 Gold] [in this city] <when above [3] [Number of Luxury]> <for [Spain]>",
+		"[+75 Gold] [in this city] <when above [4] [Number of Luxury]> <for [Spain]>",
+		"[+90 Gold] [in this city] <when above [5] [Number of Luxury]> <for [Spain]>",
+		"[+105 Gold] [in this city] <when above [6] [Number of Luxury]> <for [Spain]>",
+		"[+120 Gold] [in this city] <when above [7] [Number of Luxury]> <for [Spain]>",
+		"[+135 Gold] [in this city] <when above [8] [Number of Luxury]> <for [Spain]>",
+		"[+150 Gold] [in this city] <when above [9] [Number of Luxury]> <for [Spain]>",
+	
+		"[+1 Production] [in this city] <when above [0] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [1] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [2] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [3] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [4] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [5] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [6] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [7] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [8] [Number of Strategic]> <for [Spain]>",
+		"[+1 Production] [in this city] <when above [9] [Number of Strategic]> <for [Spain]>"]
 	// 印加	
 	},
 	{	
@@ -1766,8 +1851,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength"
-		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion"]
+		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength,\nDouble quantity of [Horses] produced"
+		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion", "Double quantity of [Horses] produced"]
 	},
 	{
 		"name": "Tomb Mound",
@@ -1813,8 +1898,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Glenn Empire",
-		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities,\n+1 Sight for Reconnaissance units"
-		"uniques": ["Can only be built [in capital]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+1] Sight <for [Reconnaissance] units>"]	  
+		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities,\n+2 Sight for Reconnaissance units"
+		"uniques": ["Can only be built [in capital]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2] Sight <for [Reconnaissance] units>"]	  
 	},
 	{
 		"name": "Fane",

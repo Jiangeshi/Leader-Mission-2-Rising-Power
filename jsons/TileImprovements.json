@@ -74,6 +74,15 @@
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
+		"name": "Spa",
+		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
+		"gold": 2,
+		"science": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Drama and Poetry",
+		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>"]	
+	},
+	{
 		"name": "Oil well",
 		"turnsToBuild": 10,
 		"techRequired": "Biology",
@@ -83,6 +92,7 @@
 		"name": "Offshore Platform",
 		"techRequired": "Electricity",
 		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],		
+		
 	// 军事设施
 	},
 	{
@@ -182,25 +192,8 @@
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
-		]
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "Constructing it will take over the tiles around it and assign them to your closest city", "Removes removable features when built"]
 		
-	// 特色建筑
-	},
-	{
-		"name": "Moai",
-		"uniqueTo": "Polynesia",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
-		"techRequired": "Belief Worship",
     },
     
 	// 不可建造设施
@@ -241,5 +234,38 @@
 		"turnsToBuild": 10,
 		"uniques": ["Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
+	},
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
+		"techRequired": "Belief Worship",
+	},
+	{
+		"name": "Colony",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [4] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Constructing it will take over the tiles around it and assign them to your closest city", 
+		"Provides [1] [Number of Bonus] <with [1] to [1] neighboring [Bonus resource] tiles>",
+		"Provides [2] [Number of Bonus] <with [2] to [2] neighboring [Bonus resource] tiles>",
+		"Provides [3] [Number of Bonus] <with [3] to [3] neighboring [Bonus resource] tiles>",
+		"Provides [4] [Number of Bonus] <with [4] to [4] neighboring [Bonus resource] tiles>",		
+		"Provides [5] [Number of Bonus] <with [5] to [5] neighboring [Bonus resource] tiles>",
+		"Provides [6] [Number of Bonus] <with [6] to [6] neighboring [Bonus resource] tiles>",
+		"Provides [1] [Number of Luxury] <with [1] to [1] neighboring [Luxury resource] tiles>",
+		"Provides [2] [Number of Luxury] <with [2] to [2] neighboring [Luxury resource] tiles>",
+		"Provides [3] [Number of Luxury] <with [3] to [3] neighboring [Luxury resource] tiles>",
+		"Provides [4] [Number of Luxury] <with [4] to [4] neighboring [Luxury resource] tiles>",		
+		"Provides [5] [Number of Luxury] <with [5] to [5] neighboring [Luxury resource] tiles>",
+		"Provides [6] [Number of Luxury] <with [6] to [6] neighboring [Luxury resource] tiles>",
+		"Provides [1] [Number of Strategic] <with [1] to [1] neighboring [Strategic resource] tiles>",
+		"Provides [2] [Number of Strategic] <with [2] to [2] neighboring [Strategic resource] tiles>",
+		"Provides [3] [Number of Strategic] <with [3] to [3] neighboring [Strategic resource] tiles>",
+		"Provides [4] [Number of Strategic] <with [4] to [4] neighboring [Strategic resource] tiles>",		
+		"Provides [5] [Number of Strategic] <with [5] to [5] neighboring [Strategic resource] tiles>",
+		"Provides [6] [Number of Strategic] <with [6] to [6] neighboring [Strategic resource] tiles>",
+		],
 	}
 ]

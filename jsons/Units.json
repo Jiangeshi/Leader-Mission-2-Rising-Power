@@ -212,6 +212,20 @@
 		"attackSound": "shot"		
 	},
 	{
+		"name": "Tercio",
+		"unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "Spain",
+		"movement": 2,
+		"strength": 26,
+		"cost": 255,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"	
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -339,6 +353,21 @@
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"	
+	},
+	{
+		"name": "Bowman",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 35,
+	    "requiredTech": "Trapping",
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Composite Bowman",
+		"replaces": "Archer",
+		"uniqueTo": "Babylon",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"attackSound": "arrow"		
 	},
@@ -595,7 +624,7 @@
 		"uniqueTo": "Arabia",
 		"movement": 4,
 		"strength": 17,
-		"rangedStrength": 17,
+		"rangedStrength": 18,
 		"cost": 165,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -633,6 +662,21 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"	
+	},
+	{
+		"name": "Conquistador",
+	    "unitType": "Mobile",
+		"replaces": "Knight",
+		"uniqueTo": "Spain",
+		"movement": 4,
+		"strength": 20,
+		"cost": 150,
+	    "requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"	
 	},
 	{
@@ -1374,7 +1418,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
 		"movement": 2	
 	},
 	{
@@ -1393,6 +1437,7 @@
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>",
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Unbuildable", 

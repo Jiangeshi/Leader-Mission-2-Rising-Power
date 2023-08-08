@@ -573,5 +573,20 @@
 		"name": "Number of Leaders",  
 		"resourceType": "Strategic",
 	    "uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Number of Bonus",  
+		"resourceType": "Strategic",
+	    "uniques": ["City-level resource"]	
+	},
+	{
+		"name": "Number of Luxury",  
+		"resourceType": "Strategic",
+	    "uniques": ["City-level resource"]	 
+	},
+	{
+		"name": "Number of Strategic",  
+		"resourceType": "Strategic",
+	    "uniques": ["City-level resource"]	 
 	}
 ]

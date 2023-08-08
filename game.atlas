@@ -484,6 +484,42 @@ BuildingIcons/Civilized Leader-Kim Il-sung
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader (55).png
+BuildingIcons/Civilized Leader-Hammurabi
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (56).png
+BuildingIcons/Civilized Leader-Nebuchadnezzar II
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (57).png
+BuildingIcons/Civilized Leader-Charles V
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (58).png
+BuildingIcons/Civilized Leader-Franco
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
   rotate: false
@@ -801,6 +837,25 @@ BuildingIcons/Korean Academy
               
               
               
+              
+              
+Images/ImprovementIcons/ColonyIcon.png
+ImprovementIcons/Colony
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1              
+              
+Images/ImprovementIcons/SpaIcon.png
+ImprovementIcons/Spa
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1              
               
   
 Images/NationIcons/Iran.png
@@ -1171,6 +1226,24 @@ TileSets/HexaRealm/Tiles/Cocoa
   orig: 64, 56
   offset: 0, 0
   index: -1    
+  
+Images/TileSets/Colony.png
+TileSets/HexaRealm/Tiles/Colony
+  rotate: false
+  xy: 0, 0
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1      
+  
+Images/TileSets/Spa.png
+TileSets/HexaRealm/Tiles/Spa
+  rotate: false
+  xy: 0, 0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1  
   
 Images/TileSets/GreatAdmiralLand.png
 TileSets/AbsoluteUnits/Units/Great Admiral

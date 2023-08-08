@@ -4,6 +4,7 @@
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
+
     // 亚洲
     },
 	{
@@ -129,8 +130,8 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
-		"uniqueText": "+50% unhappiness from the number of cities,\n-50% Unhappiness from Population in all cities,\n+50% ⁂growth in all cities"		
-		"uniques": ["[+50]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[+50]% growth [in all cities]",
+		"uniqueText": "+50% unhappiness from the number of cities,\n-50% Unhappiness from Population in all cities,\n+33% ⁂growth in all cities"		
+		"uniques": ["[+50]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[+33]% growth [in all cities]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -196,7 +197,45 @@
         "uniques": ["[+2 Science] from every specialist [in all cities]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+    },
+	{
+		"name": "Babylon",
+		"leaderName": "Leader",
+		"adjective": ["Babylonian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ingenuity",
+		"uniqueText": "Gain 33% of the required [Production] demand for [Science] upon constructing Buildings in all cities" 
+		"uniques": ["Gain [12] [Science] <upon constructing [Bonfire] [in all cities]>", "Gain [15] [Science] <upon constructing [Shrine] [in all cities]>", "Gain [15] [Science] <upon constructing [Water Mill] [in all cities]>", "Gain [20] [Science] <upon constructing [Kiln] [in all cities]>", "Gain [20] [Science] <upon constructing [Granary] [in all cities]>", "Gain [20] [Science] <upon constructing [Library] [in all cities]>", "Gain [20] [Science] <upon constructing [Stone Works] [in all cities]>", "Gain [20] [Science] <upon constructing [Circus] [in all cities]>", "Gain [25] [Science] <upon constructing [Walls] [in all cities]>", "Gain [25] [Science] <upon constructing [Monument] [in all cities]>", "Gain [33] [Science] <upon constructing [Courthouse] [in all cities]>", "Gain [33] [Science] <upon constructing [Colosseum] [in all cities]>", "Gain [33] [Science] <upon constructing [Temple] [in all cities]>",	"Gain [33] [Science] <upon constructing [Lighthouse] [in all cities]>", "Gain [33] [Science] <upon constructing [Stable] [in all cities]>",	"Gain [33] [Science] <upon constructing [Smithy] [in all cities]>",	"Gain [35] [Science] <upon constructing [Aqueduct] [in all cities]>", "Gain [35] [Science] <upon constructing [Barracks] [in all cities]>",	"Gain [35] [Science] <upon constructing [Mint] [in all cities]>", "Gain [38] [Science] <upon constructing [Amphitheater] [in all cities]>", "Gain [40] [Science] <upon constructing [Workshop] [in all cities]>", "Gain [40] [Science] <upon constructing [Armory] [in all cities]>", "Gain [40] [Science] <upon constructing [Forge] [in all cities]>", "Gain [40] [Science] <upon constructing [Harbor] [in all cities]>", "Gain [50] [Science] <upon constructing [Garden] [in all cities]>", "Gain [50] [Science] <upon constructing [University] [in all cities]>" , "Gain [50] [Science] <upon constructing [Castle] [in all cities]>", "Gain [50] [Science] <upon constructing [Windmill] [in all cities]>", "Gain [57] [Science] <upon constructing [Observatory] [in all cities]>", "Gain [90] [Science] <upon constructing [Printing House] [in all cities]>", "Gain [90] [Science] <upon constructing [Theatre] [in all cities]>", "Gain [96] [Science] <upon constructing [Ironworks] [in all cities]>", "Gain [96] [Science] <upon constructing [Seaport] [in all cities]>", "Gain [106] [Science] <upon constructing [Arsenal] [in all cities]>", "Gain [106] [Science] <upon constructing [Opera House] [in all cities]>", "Gain [106] [Science] <upon constructing [Bank] [in all cities]>", "Gain [142] [Science] <upon constructing [Public School] [in all cities]>", "Gain [142] [Science] <upon constructing [Military Academy] [in all cities]>", "Gain [142] [Science] <upon constructing [Shipyard] [in all cities]>", "Gain [170] [Science] <upon constructing [Factory] [in all cities]>", "Gain [170] [Science] <upon constructing [Museum] [in all cities]>", "Gain [185] [Science] <upon constructing [Hospital] [in all cities]>", "Gain [185] [Science] <upon constructing [Stock Exchange] [in all cities]>", "Gain [215] [Science] <upon constructing [Hydro Plant] [in all cities]>", "Gain [215] [Science] <upon constructing [Coal-Fired Power Plant] [in all cities]>", "Gain [215] [Science] <upon constructing [Military Base] [in all cities]>", "Gain [231] [Science] <upon constructing [Stadium] [in all cities]>", "Gain [231] [Science] <upon constructing [Broadcast Tower] [in all cities]>", "Gain [264] [Science] <upon constructing [Chemical Plant] [in all cities]>", "Gain [297] [Science] <upon constructing [Research Lab] [in all cities]>", "Gain [333] [Science] <upon constructing [Solar Plant] [in all cities]>", "Gain [333] [Science] <upon constructing [Recycling Center] [in all cities]>", "Gain [333] [Science] <upon constructing [Nuclear Plant] [in all cities]>", "Gain [345] [Science] <upon constructing [Medical Lab] [in all cities]>", "Gain [350] [Science] <upon constructing [Bomb Shelter] [in all cities]>", "Gain [433] [Science] <upon constructing [Spaceship Factory] [in all cities]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]                             
                                   
+                                   
+                                    
+                                     
+                                      
+                                       
+                                        
+                                          
     // 欧洲
     },
 	{
@@ -557,7 +596,38 @@
 			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
 			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]    
-        
+    },
+	{
+		"name": "Spain",
+		"leaderName": "Leader",
+		"adjective": ["Spanish"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Conquerors of the New World",
+		"uniqueText": "[Great General] and [Great Admiral] can instantly construct a [Colony] improvement one time,\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +15[Gold]/ +1 [Production] for the nearest City, and Each City can receive up to +10[Food]/ +150[Gold]/ +10 [Production],\nReceive free [Great Admiral] when you discover [Compass], [Astronomy] and [Navigation]\n\n[Colony]:\n[Can be built outside your borders],\n[Removes removable features when built],\nCannot be built on [Land] tiles within [4] tiles of a [City center],\nCannot be built on [Land] tiles within [2] tiles of a [Colony],\n[Adjacent enemy units ending their turn take [10] damage],\n[Constructing it will take over the tiles around it and assign them to your closest city]",
+		"uniques": ["Receive free [Great Admiral] when you discover [Compass]", "Receive free [Great Admiral] when you discover [Astronomy]", "Receive free [Great Admiral] when you discover [Navigation]"],
+		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
+			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]    
+                
     //美洲
     },
 	{

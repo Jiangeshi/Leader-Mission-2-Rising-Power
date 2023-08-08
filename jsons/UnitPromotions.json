@@ -1275,7 +1275,7 @@
 	},
 	{
 		"name": "[Iron Wall Legion] ability",
-		"uniques": ["[-1] Movement", "[+25]% Strength <when defending>"]			
+		"uniques": ["[+20]% Strength <when defending>"]			
 	},
 	{
 		"name": "[Janissary] ability",
@@ -1304,7 +1304,10 @@
     {
         "name": "[Chu-Ko-Nu] ability",
         "uniques": ["[1] additional attacks per turn", "Can move after attacking"]    
-        
+	},
+	{
+		"name": "[Conquistador] ability",
+		"uniques": ["Defense bonus when embarked"]
 	// 特殊
 	},
 	{     
