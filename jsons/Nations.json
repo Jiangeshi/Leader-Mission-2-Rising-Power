@@ -65,8 +65,8 @@
 		"innerColor": [146,221,9],
 		"favoredReligion": "Islam",
 		"uniqueName": "Praise Allah",
-		"uniqueText": "Receive free ☮Great Prophet when you discover [Theology]",
-		"uniques": ["Receive free [Great Prophet] when you discover [Theology]",
+		"uniqueText": "Receive free ☮Great Prophet when you discover [Calendar]",
+		"uniques": ["Receive free [Great Prophet] when you discover [Calendar]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -96,8 +96,8 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniqueText": "+10% †Strength for Military units when attack Major units,\n+30% †Strength for Military units when attack City-states units,\n+1 ➡Movement for Mobile units",
-		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <vs [City-states] units> <for [Military] units> <when attacking>", "[+1] Movement <for [Mobile] units>",
+		"uniqueText": "+10% †Strength for Military units when attack Major units,\n[+30% Strength when fighting City-State units and cities],\n+1 ➡Movement for Mobile units",
+		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mobile] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -227,8 +227,63 @@
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]                             
-                                  
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]                          },
+	{
+		"name": "Afghanistan",
+		"leaderName": "Leader",
+		"adjective": ["Afghans"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"innerColor": [255, 213, 15],
+		"outerColor": [0,0,0],
+		"favoredReligion": "Islam",
+		"uniqueName": "Graveyard of Empires",
+		"uniqueText": "Enemy military units must spend 1 extra ➡movement points when inside your territory,\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory" 
+		"uniques": ["Enemy [Military] units must spend [1] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+    },
+	{
+		"name": "Vietnam",
+		"leaderName": "Leader",
+		"adjective": ["Vietnamese"],
+		"startBias": ["Vegetation"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [183, 22, 41],
+		"innerColor": [243, 243, 0],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Hidden In The Forest",
+		"uniqueText": "[All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.]",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]                         
                                    
                                     
                                      
@@ -297,8 +352,8 @@
 		"innerColor": [255,211,57],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Conqueror's Army",
-		"uniqueText": "+25% XP gained from †combat for Military units, \nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
-		"uniques": ["[+25]% XP gained from combat <for [Melee] units>",
+		"uniqueText": "-33% ¤maintenance costs for Military units,\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
+		"uniques": ["[-33]% maintenance costs <for [Military] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Pella","Skopje","Vergina","Bergama","Ankara","Issus","Antioch","Tyre","Alexandria","Gaugamela","Susa",
@@ -399,8 +454,8 @@
         "innerColor": [18,84,30],
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities,\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
-		"uniques": ["Gain enough Faith for [15]% of a Great Prophet <upon constructing [Faith] [in all cities]>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
+		"uniqueText": "Gain enough ☮Faith for 20% of a [Great Prophet] upon constructing ☮Faith building in all cities,\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
+		"uniques": ["Gain enough Faith for [20]% of a Great Prophet <upon constructing [Faith] [in all cities]>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
@@ -621,7 +676,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquerors of the New World",
 		"uniqueText": "[Great General] and [Great Admiral] can instantly construct a [Colony] improvement one time,\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +15[Gold]/ +1 [Production] for the nearest City, and Each City can receive up to +10[Food]/ +150[Gold]/ +10 [Production],\nReceive free [Great Admiral] when you discover [Compass], [Astronomy] and [Navigation]\n\n[Colony]:\n[Can be built outside your borders],\n[Removes removable features when built],\nCannot be built on [Land] tiles within [4] tiles of a [City center],\nCannot be built on [Land] tiles within [2] tiles of a [Colony],\n[Adjacent enemy units ending their turn take [10] damage],\n[Constructing it will take over the tiles around it and assign them to your closest city]",
-		"uniques": ["Receive free [Great Admiral] when you discover [Compass]", "Receive free [Great Admiral] when you discover [Astronomy]", "Receive free [Great Admiral] when you discover [Navigation]"],
+		"uniques": ["Receive free [Great Admiral] when you discover [Compass]", "Receive free [Great Admiral] when you discover [Astronomy]", "Receive free [Great Admiral] when you discover [Navigation]", "Gain a free [Spanish ability] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
@@ -687,8 +742,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Golden Empire",
-		"uniqueText": "+3% ¤Gold and +3% †Strength for Military units for each kind of ⌣Luxury Resource owned",
-		"uniques": ["[+3]% [Gold] <when above [0] [Furs]>", "[+3]% Strength <for [Military] units> <when above [0] [Furs]>", "[+3]% [Gold] <when above [0] [Citrus]>", "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>", "[+3]% [Gold] <when above [0] [Cocoa]>", "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>", "[+3]% [Gold] <when above [0] [Copper]>", "[+3]% Strength <for [Military] units> <when above [0] [Copper]>", "[+3]% [Gold] <when above [0] [Cotton]>", "[+3]% Strength <for [Military] units> <when above [0] [Cotton]>", "[+3]% [Gold] <when above [0] [Crab]>", "[+3]% Strength <for [Military] units> <when above [0] [Crab]>",	"[+3]% [Gold] <when above [0] [Dyes]>", "[+3]% Strength <for [Military] units> <when above [0] [Dyes]>", "[+3]% [Gold] <when above [0] [Gems]>", "[+3]% Strength <for [Military] units> <when above [0] [Gems]>", "[+3]% [Gold] <when above [0] [Gold Ore]>", "[+3]% Strength <for [Military] units> <when above [0] [Gold Ore]>", "[+3]% [Gold] <when above [0] [Incense]>", "[+3]% Strength <for [Military] units> <when above [0] [Incense]>", "[+3]% [Gold] <when above [0] [Ivory]>", "[+3]% Strength <for [Military] units> <when above [0] [Ivory]>", "[+3]% [Gold] <when above [0] [Jewelry]>", "[+3]% Strength <for [Military] units> <when above [0] [Jewelry]>", "[+3]% [Gold] <when above [0] [Marble]>", "[+3]% Strength <for [Military] units> <when above [0] [Marble]>", "[+3]% [Gold] <when above [0] [Pearls]>", "[+3]% Strength <for [Military] units> <when above [0] [Pearls]>", "[+3]% [Gold] <when above [0] [Porcelain]>", "[+3]% Strength <for [Military] units> <when above [0] [Porcelain]>", "[+3]% [Gold] <when above [0] [Salt]>", "[+3]% Strength <for [Military] units> <when above [0] [Salt]>", "[+3]% [Gold] <when above [0] [Silk]>", "[+3]% Strength <for [Military] units> <when above [0] [Silk]>", "[+3]% [Gold] <when above [0] [Silver]>", "[+3]% Strength <for [Military] units> <when above [0] [Silver]>",	"[+3]% [Gold] <when above [0] [Spices]>", "[+3]% Strength <for [Military] units> <when above [0] [Spices]>", "[+3]% [Gold] <when above [0] [Sugar]>", "[+3]% Strength <for [Military] units> <when above [0] [Sugar]>",	"[+3]% [Gold] <when above [0] [Truffles]>", "[+3]% Strength <for [Military] units> <when above [0] [Truffles]>", "[+3]% [Gold] <when above [0] [Whales]>", "[+3]% Strength <for [Military] units> <when above [0] [Whales]>", "[+3]% [Gold] <when above [0] [Wine]>", "[+3]% Strength <for [Military] units> <when above [0] [Wine]>",
+		"uniqueText": "+4% ¤Gold and +3% †Strength for Military units for each kind of ⌣Luxury Resource owned",
+		"uniques": ["[+4]% [Gold] <when above [0] [Furs]>", "[+3]% Strength <for [Military] units> <when above [0] [Furs]>", "[+4]% [Gold] <when above [0] [Citrus]>", "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>", "[+4]% [Gold] <when above [0] [Cocoa]>", "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>", "[+4]% [Gold] <when above [0] [Copper]>", "[+3]% Strength <for [Military] units> <when above [0] [Copper]>", "[+4]% [Gold] <when above [0] [Cotton]>", "[+3]% Strength <for [Military] units> <when above [0] [Cotton]>", "[+4]% [Gold] <when above [0] [Crab]>", "[+3]% Strength <for [Military] units> <when above [0] [Crab]>",	"[+4]% [Gold] <when above [0] [Dyes]>", "[+3]% Strength <for [Military] units> <when above [0] [Dyes]>", "[+4]% [Gold] <when above [0] [Gems]>", "[+3]% Strength <for [Military] units> <when above [0] [Gems]>", "[+4]% [Gold] <when above [0] [Gold Ore]>", "[+3]% Strength <for [Military] units> <when above [0] [Gold Ore]>", "[+4]% [Gold] <when above [0] [Incense]>", "[+3]% Strength <for [Military] units> <when above [0] [Incense]>", "[+4]% [Gold] <when above [0] [Ivory]>", "[+3]% Strength <for [Military] units> <when above [0] [Ivory]>", "[+4]% [Gold] <when above [0] [Jewelry]>", "[+3]% Strength <for [Military] units> <when above [0] [Jewelry]>", "[+4]% [Gold] <when above [0] [Marble]>", "[+3]% Strength <for [Military] units> <when above [0] [Marble]>", "[+4]% [Gold] <when above [0] [Pearls]>", "[+3]% Strength <for [Military] units> <when above [0] [Pearls]>", "[+4]% [Gold] <when above [0] [Porcelain]>", "[+3]% Strength <for [Military] units> <when above [0] [Porcelain]>", "[+4]% [Gold] <when above [0] [Salt]>", "[+3]% Strength <for [Military] units> <when above [0] [Salt]>", "[+4]% [Gold] <when above [0] [Silk]>", "[+3]% Strength <for [Military] units> <when above [0] [Silk]>", "[+4]% [Gold] <when above [0] [Silver]>", "[+3]% Strength <for [Military] units> <when above [0] [Silver]>",	"[+4]% [Gold] <when above [0] [Spices]>", "[+3]% Strength <for [Military] units> <when above [0] [Spices]>", "[+4]% [Gold] <when above [0] [Sugar]>", "[+3]% Strength <for [Military] units> <when above [0] [Sugar]>",	"[+4]% [Gold] <when above [0] [Truffles]>", "[+3]% Strength <for [Military] units> <when above [0] [Truffles]>", "[+4]% [Gold] <when above [0] [Whales]>", "[+3]% Strength <for [Military] units> <when above [0] [Whales]>", "[+4]% [Gold] <when above [0] [Wine]>", "[+3]% Strength <for [Military] units> <when above [0] [Wine]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
@@ -816,8 +871,8 @@
 		"innerColor": [204, 202, 205],
 		"favoredReligion": "Islam",
 		"uniqueName": "Sacrifice",
-		"uniqueText": "-1 ⁂population in a random city and empire enters a 6-turn ⌣Golden Age upon declaring war with a major Civilization or conquering a city,\n+1 ⁂population in a random city upon declaring friendship or constructing Wonder"
-		"uniques": ["[-1] population in a random city <upon declaring war with a major Civilization>", "Empire enters a [6]-turn Golden Age <upon declaring war with a major Civilization>", "[-1] population in a random city <upon conquering a city>", "Empire enters a [5]-turn Golden Age <upon conquering a city>", "[+1] population in a random city <upon declaring friendship>", "[+1] population in a random city <upon constructing [Wonder]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "-1 ⁂population in a random city and empire enters a 7-turn ⌣Golden Age upon declaring war with a major Civilization or conquering a city,\n+1 ⁂population in a random city upon declaring friendship or constructing Wonder"
+		"uniques": ["[-1] population in a random city <upon declaring war with a major Civilization>", "Empire enters a [7]-turn Golden Age <upon declaring war with a major Civilization>", "[-1] population in a random city <upon conquering a city>", "Empire enters a [7]-turn Golden Age <upon conquering a city>", "[+1] population in a random city <upon declaring friendship>", "[+1] population in a random city <upon constructing [Wonder]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Porto-Novo","Cotonou","Parakou","Adjara","Adjohoun","Aguegue","Natitingou","Tanguieta","Tchaourou","Bante","Nikki","Perere","Ouesse","Lalo","Toviklin","Bopa","Come","Abomey","Bonou","Djia"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
@@ -1061,30 +1116,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [62,197,252],
 		"cities": ["Florence"]
-	},
-	{
-		"name": "Hanoi",
-		"adjective": ["Hanoi"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-        "innerColor": [51,51,255],
-		"cities": ["Hanoi"]
-	},
-	{
-		"name": "Kabul",
-		"adjective": ["Kabul"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [168,38,102],
-		"cities": ["Kabul"]
 	},
 	{
 		"name": "Kuala Lumpur",
@@ -1456,7 +1487,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it","Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[+1] Sight <for [Embarked] units>", "[-10]% Strength <for [All] units>"]
+		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it", "Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[-10]% Strength <for [All] units>"]
 	}
 
 ]

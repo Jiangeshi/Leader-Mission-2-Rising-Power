@@ -572,7 +572,7 @@
 	{
 		"name": "Number of Leaders",  
 		"resourceType": "Strategic",
-	    "uniques": ["Not shown on world screen"]
+	    "uniques": ["Not shown on world screen", "Cannot be traded"]
 	},
 	{
 		"name": "Number of Bonus",  

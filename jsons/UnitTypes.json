@@ -15,8 +15,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
-        "Invisible to non-adjacent units<in [Forest] tiles>"
-        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>"
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>"
         "Cannot attack <in [Marsh] tiles>"
         ]    
     },
@@ -28,8 +28,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         
-        "Invisible to non-adjacent units<in [Forest] tiles>"
-        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>"
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>"
         "Cannot attack <in [Marsh] tiles>"
         ]
     },
@@ -41,8 +41,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
         
-        "Invisible to non-adjacent units<in [Forest] tiles>",
-        "Invisible to non-adjacent units<in [Jungle] tiles>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Gain [35] [Gold] <upon being defeated> <for [Scythian]>",
         "May attack when embarked <for [England]>",
@@ -56,8 +56,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
-        "Invisible to non-adjacent units<in [Forest] tiles>",
-        "Invisible to non-adjacent units<in [Jungle] tiles>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Heal this unit by [3] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>"
         ]    
@@ -69,8 +69,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
-        "Invisible to non-adjacent units<in [Forest] tiles>"
-        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>"
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>"
         "Cannot attack <in [Marsh] tiles>"
         ]    
     },
@@ -81,8 +81,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
-        "Invisible to non-adjacent units<in [Forest] tiles>"
-        "Invisible to non-adjacent units<in [Jungle] tiles>"
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>"
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>"
         "Cannot attack <in [Marsh] tiles>"
         ]        
     },
@@ -102,8 +102,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         
-        "Invisible to non-adjacent units<in [Forest] tiles>",
-        "Invisible to non-adjacent units<in [Jungle] tiles>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "May attack when embarked <for [England]>",
         "Eliminates combat penalty for attacking across a coast <for [England]>"

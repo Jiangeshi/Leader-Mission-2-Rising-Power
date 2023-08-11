@@ -334,12 +334,13 @@
 		"uniqueTo": "Inca",
 		"replaces": "Archer",
 		"movement": 2,
-		"strength": 6,
+		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 35,
+		"requiredTech": "Trapping",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>"]
+		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>", "May withdraw before melee ([80]%)"]
 		"attackSound": "arrow"	
 	},
 	{
@@ -546,7 +547,21 @@
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"	
-		
+	},
+	{
+		"name": "Bazooka",
+		"unitType": "Shooter",
+		"uniqueTo": "Afghanistan",
+		"replaces": "Machine Gun",
+	    "range": 2,
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 55,
+		"cost": 465,
+		"requiredTech": "Ballistics",
+	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[+50]% Strength <vs [Mobile] units>"]
+	    "upgradesTo": "Mechanized Infantry",
+		"attackSound": "machinegun"
 	// 机动部队
 	},
 	{
@@ -655,7 +670,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Russia",
 		"movement": 4,
-		"strength": 21,
+		"strength": 20,
 		"cost": 158,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -678,6 +693,20 @@
 		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Founds a new city <on foreign continents>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"	
+	},
+	{
+		"name": "War Elephant",
+		"unitType": "Mobile",
+		"replaces": "Knight",
+		"uniqueTo": "Vietnam",
+		"movement": 4,
+		"strength": 24,
+		"cost": 162,
+        "requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+1] Sight"],
+		"attackSound": "arrow"			
 	},
 	{
 		"name": "Cavalry",

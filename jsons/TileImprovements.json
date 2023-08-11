@@ -265,7 +265,16 @@
 		"Provides [3] [Number of Strategic] <with [3] to [3] neighboring [Strategic resource] tiles>",
 		"Provides [4] [Number of Strategic] <with [4] to [4] neighboring [Strategic resource] tiles>",		
 		"Provides [5] [Number of Strategic] <with [5] to [5] neighboring [Strategic resource] tiles>",
-		"Provides [6] [Number of Strategic] <with [6] to [6] neighboring [Strategic resource] tiles>",
-		],
+		"Provides [6] [Number of Strategic] <with [6] to [6] neighboring [Strategic resource] tiles>"],
+	},
+	{
+		"name": "Vietnamese City",
+		"uniqueTo": "Vietnam",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Masonry",
+		"uniques": ["Gives a defensive bonus of [15]%", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Production] <after discovering [Industrialization]>"],	
 	}
 ]

@@ -520,6 +520,37 @@ BuildingIcons/Civilized Leader-Franco
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader (59).png
+BuildingIcons/Civilized leader-Hafizullah Amin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (60).png
+BuildingIcons/Civilized leader-Daoud Khan
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (61).png
+BuildingIcons/Civilized Leader-Ho Chi Minh
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+
+
+
+
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
   rotate: false
@@ -835,7 +866,14 @@ BuildingIcons/Korean Academy
   offset: 0, 0
   index: -1              
               
-              
+Images/BuildingIcons/MinaretofJam.png
+BuildingIcons/Minaret of Jam
+  rotate: false
+  xy: 0,0
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1              
               
               
               
@@ -856,6 +894,19 @@ ImprovementIcons/Spa
   orig: 16, 16
   offset: 0, 0
   index: -1              
+  
+Images/ImprovementIcons/VietnameseCityIcon.png
+ImprovementIcons/Vietnamese City
+  rotate: false
+  xy: 0, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
+    
+      
+          
               
   
 Images/NationIcons/Iran.png
@@ -876,7 +927,7 @@ NationIcons/Macedonia
   offset: 0, 0
   index: -1  
   
-Images/NationIcons/TheStar.png
+Images/NationIcons/Burkina Faso.png
 NationIcons/Burkina Faso
   rotate: false
   xy: 0, 0
@@ -957,7 +1008,24 @@ NationIcons/Serbia
   offset: 0, 0
   index: -1    
   
+Images/NationIcons/Afghanistan.png
+NationIcons/Afghanistan
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
   
+
+Images/NationIcons/Vietnam.png
+NationIcons/Vietnam
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
   
 Images/ResourceIcons/BisonIcon.png
 ResourceIcons/Bison
@@ -1245,6 +1313,15 @@ TileSets/HexaRealm/Tiles/Spa
   offset: 0, 0
   index: -1  
   
+Images/TileSets/VietnameseCity.png
+TileSets/HexaRealm/Tiles/Vietnamese City
+  rotate: false
+  xy: 0, 0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1  
+  
 Images/TileSets/GreatAdmiralLand.png
 TileSets/AbsoluteUnits/Units/Great Admiral
   rotate: false
@@ -1427,7 +1504,14 @@ UnitIcons/Cobra Commando
   offset: 0, 0
   index: -1       
   
-  
+Images/UnitIcons/Bazooka.png
+UnitIcons/Bazooka
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1       
   
   
   
