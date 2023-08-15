@@ -1308,6 +1308,11 @@
 	{
 		"name": "[Conquistador] ability",
 		"uniques": ["Defense bonus when embarked"]
+	},
+	{
+		"name": "[Hakkapeliitta] ability",
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]	
+		
 	// 特殊
 	},
 	{     
@@ -1329,6 +1334,10 @@
 	{
 		"name": "TomyrisAbility", // 托米丽司
 		"uniques": ["Free [Horseman] appears", "[-10]% Strength"]
+	},
+	{
+		"name": "Defend the Motherland",
+		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]	
 	}
 ]
     

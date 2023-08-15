@@ -9,6 +9,15 @@
 		"cost": 70
 	},
 	{
+		"name": "SovietWorker",
+		"unitType": "Civilian",
+		"movement": 3,
+		"uniqueTo": "Soviet Union",
+		"replaces": "Worker",
+		"cost": 70,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -562,6 +571,7 @@
 	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[+50]% Strength <vs [Mobile] units>"]
 	    "upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
+		
 	// 机动部队
 	},
 	{
@@ -717,8 +727,22 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Costs [3] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"	
+	},
+	{
+		"name": "Cowboy Cavalry",
+		"unitType": "Mobile",
+		"uniqueTo": "Columbia",
+		"replaces": "Cavalry",	
+		"movement": 5,
+		"strength": 34,
+		"cost": 293,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "shot"   	
 	},
 	{
 		"name": "Landship",
@@ -740,6 +764,19 @@
 		"movement": 5,
 		"strength": 75,
 		"cost": 720,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"attackSound": "tankshot"	
+	},
+	{
+		"name": "T-34",
+		"unitType": "Mobile",
+		"replaces": "Tank",
+		"uniqueTo": "Soviet Union",
+		"movement": 5,
+		"strength": 80,
+		"cost": 670,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
@@ -855,7 +892,7 @@
 		"strength": 25,
 		"cost": 275,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [3] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -870,11 +907,27 @@
 		"strength": 25,
 		"cost": 275,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [3] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hakkapeliitta",
+		"unitType": "Anti-Mobile",
+		"replaces": "Lancer",
+		"uniqueTo": "Finland",
+		"movement": 4,
+		"strength": 25,
+		"cost": 275,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"promotions": ["[Hakkapeliitta] ability", "Raid I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"	
 	},
 	{
 		"name": "Anti-Tank Gun",

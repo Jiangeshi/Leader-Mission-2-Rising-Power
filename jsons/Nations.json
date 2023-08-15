@@ -682,7 +682,63 @@
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
 			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]    
-                
+    },
+	{
+		"name": "Finland",
+		"leaderName": "Leader",
+		"adjective": ["Finns"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [200,200,255],
+		"innerColor": [0,54,128],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Snow Ghost",
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles,\n+1 [Gold]/+1 [Food] from Tundra/Snow tiles in all cities",
+		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[+1 Food] from [Snow] tiles [in all cities]", "[+1 Gold] from [Tundra] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
+    },
+	{
+		"name": "Soviet Union",
+		"leaderName": "Leader",
+		"adjective": ["Soviet"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [188, 0, 0],
+		"innerColor": [253,209,22],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tide of Revolution",
+		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.],\n[Resting point for Influence with City-States is increased by [50]]",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.", "Resting point for Influence with City-States is increased by [50]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]         
     //美洲
     },
 	{
@@ -782,7 +838,36 @@
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
 			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
         "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]     
-     
+    },
+	{
+		"name": "Columbia",
+		"leaderName": "Leader",
+		"adjective": ["Colombian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"innerColor": [250, 196, 0],
+		"outerColor": [2,1,193],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Liberation Army",
+		"uniqueText": "+10% †Strength within 3 tiles of a [City center] for Military units",
+		"uniques": ["[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Bogota","Medellin","Barranquilla","Cartagena","Cali","Leticia","Arauca","Tunja","Manizales","Florencia","Yopal","Popayan","Valledupar","Quibdo","Monteria","Puerto Inirida","San Jose del Guaviare","Neiva","Riohacha","Santa Marta","Villavicencio","Pasto","Cucuta","Mocoa","Armenia","Pereira","San Andres","Buenaventura","Sincelejo","Quibdo","Itagui","Mitu"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+        
     //非洲
     },
 	{

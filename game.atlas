@@ -547,6 +547,61 @@ BuildingIcons/Civilized Leader-Ho Chi Minh
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader (62).png
+BuildingIcons/Civilized Leader-Bolivar
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (63).png
+BuildingIcons/Civilized Leader-Mannerheim
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (64).png
+BuildingIcons/Civilized leader-Lenin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+      
+Images/BuildingIcons/Civilized leader (65).png
+BuildingIcons/Civilized leader-Stalin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (66).png
+BuildingIcons/Civilized leader-Trotsky
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (67).png
+BuildingIcons/Trotsky ability
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+
 
 
 
@@ -875,6 +930,37 @@ BuildingIcons/Minaret of Jam
   offset: 0, 0
   index: -1              
               
+Images/BuildingIcons/GrandManor.png
+BuildingIcons/Grand Manor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+              
+Images/BuildingIcons/Santa Claus House.png
+BuildingIcons/Santa Claus House
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                     
+              
+Images/BuildingIcons/RedSquare.png
+BuildingIcons/Red Square
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1              
+              
+              
+              
+              
+              
               
               
 Images/ImprovementIcons/ColonyIcon.png
@@ -1027,6 +1113,43 @@ NationIcons/Vietnam
   offset: 0, 0
   index: -1  
   
+Images/NationIcons/Columbia.png
+NationIcons/Columbia
+  rotate: false
+  xy: 0, 0
+  size: 550, 500
+  orig: 550, 500
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Finland.png
+NationIcons/Finland
+  rotate: false
+  xy: 0, 0
+  size: 200, 150
+  orig: 200, 150
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/SovietUnion.png
+NationIcons/Soviet Union
+  rotate: false
+  xy: 0, 0
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 Images/ResourceIcons/BisonIcon.png
 ResourceIcons/Bison
   rotate: false
@@ -1090,7 +1213,7 @@ ResourceIcons/Number of Leaders
   offset: 0, 0
   index: -1  
   
-  
+
   
   
   
@@ -1513,8 +1636,45 @@ UnitIcons/Bazooka
   offset: 0, 0
   index: -1       
   
+Images/UnitIcons/CowboyCavalryIcon.png
+UnitIcons/Cowboy Cavalry
+  rotate: false
+  xy: 0,0
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1       
+ 
+Images/UnitIcons/SovietWorkerIcon.png
+UnitIcons/SovietWorker
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+
+Images/UnitIcons/T-34Icon.png
+UnitIcons/T-34
+  rotate: false
+  xy: 0,0
+  size: 354, 260
+  orig: 355, 260
+  offset: 0, 0
+  index: -1      
+ 
+Images/UnitIcons/War ElephantIcon.png
+UnitIcons/War Elephant
+  rotate: false
+  xy: 0,0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1  
   
-  
+   
+     
+ 
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
@@ -1979,4 +2139,13 @@ UnitPromotionIcons/TomyrisAbility
   size: 270, 270
   orig: 270, 270
   offset: 0, 0
-  index: -1             
+  index: -1       
+  
+Images/UnitPromotionIcons/Defend the Motherland.png
+UnitPromotionIcons/Defend the Motherland
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1               
