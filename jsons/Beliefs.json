@@ -99,14 +99,14 @@
     {
         "name": "God of Death",
         "type": "Pantheon",
-        "uniques": ["Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": ["Earn [120]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
         
     //特殊
     },
     {
         "name": "Sacred Blaze",
         "type": "Pantheon",
-        "uniques": ["[+25]% Great Person generation [in all cities]"]
+        "uniques": ["[+33]% Great Person generation [in all cities]"]
     },
     {
         "name": "Religious Expansion",
@@ -130,22 +130,22 @@
     {
         "name": "Unification of The State and The Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [4] global followers [in all cities]"]
+        "uniques": ["[+1 Culture] from every [3] global followers [in all cities]"]
     },
     {
         "name": "Nation Led by God",
         "type": "Founder",
-        "uniques": ["[+10 Faith] from every [Grand Temple]", "[+1 Culture] from every [Temple]"]
+        "uniques": ["[+10 Faith] from every [Grand Temple]", "[+2 Culture] from every [Temple]"]
     },
     {
         "name": "Monotheism",
         "type": "Founder",
-        "uniques": ["[+4 Faith, -1 Happiness] [in all cities]"]
+        "uniques": ["[+5 Faith, -1 Happiness] [in cities following this religion]"]
     },
     {
         "name": "Polytheism",
         "type": "Founder",
-        "uniques": ["[+1 Faith] from every [3] global followers [in all cities]"]
+        "uniques": ["[+1 Faith] from every [3] global followers [in all cities]", "[+1 Happiness] [in cities following this religion]"]
     },
     {
         "name": "Liberation Theology",
@@ -155,12 +155,12 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+2 Faith] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
+        "uniques": ["[+2 Faith, +2 Culture] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
     },
     {
         "name": "Feed the World",
         "type": "Founder",
-        "uniques": ["[+1 Food, +1 Faith] from every [Temple]", "[+1 Food] from every [Shrine]"]
+        "uniques": ["[+2 Food] from every [Temple]", "[+2 Food] from every [Shrine]"]
     },
     {
         "name": "State Religion",
@@ -170,12 +170,12 @@
     {
         "name": "Religious Syncretism",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [15] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
     },
     {
         "name": "Religious Unity",
         "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+25]"]
+        "uniques": ["Resting point for Influence with City-States following this religion [+35]"]
         
     //跟随者词条
     },

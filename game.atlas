@@ -143,7 +143,7 @@ BuildingIcons/Civilized Leader-Explorer
   index: -1    
   
 Images/BuildingIcons/Civilized leader (17).png
-BuildingIcons/Civilized leader-Ramesses II
+BuildingIcons/Civilized Leader-Ramesses II
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -152,7 +152,7 @@ BuildingIcons/Civilized leader-Ramesses II
   index: -1  
 
 Images/BuildingIcons/Civilized leader (18).png
-BuildingIcons/Civilized leader-Nasser
+BuildingIcons/Civilized Leader-Nasser
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -161,7 +161,7 @@ BuildingIcons/Civilized leader-Nasser
   index: -1  
 
 Images/BuildingIcons/Civilized leader (19).png
-BuildingIcons/Civilized leader-Sadat
+BuildingIcons/Civilized Leader-Sadat
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -170,7 +170,7 @@ BuildingIcons/Civilized leader-Sadat
   index: -1  
   
 Images/BuildingIcons/Civilized leader (20).png
-BuildingIcons/Civilized leader-Osman I
+BuildingIcons/Civilized Leader-Osman I
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -179,7 +179,7 @@ BuildingIcons/Civilized leader-Osman I
   index: -1  
      
 Images/BuildingIcons/Civilized leader (21).png
-BuildingIcons/Civilized leader-Suleiman
+BuildingIcons/Civilized Leader-Suleiman
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -188,7 +188,7 @@ BuildingIcons/Civilized leader-Suleiman
   index: -1  
 
 Images/BuildingIcons/Civilized leader (22).png
-BuildingIcons/Civilized leader-Kemal
+BuildingIcons/Civilized Leader-Kemal
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -521,7 +521,7 @@ BuildingIcons/Civilized Leader-Franco
   index: -1  
 
 Images/BuildingIcons/Civilized leader (59).png
-BuildingIcons/Civilized leader-Hafizullah Amin
+BuildingIcons/Civilized Leader-Hafizullah Amin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -530,7 +530,7 @@ BuildingIcons/Civilized leader-Hafizullah Amin
   index: -1  
 
 Images/BuildingIcons/Civilized leader (60).png
-BuildingIcons/Civilized leader-Daoud Khan
+BuildingIcons/Civilized Leader-Daoud Khan
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -566,7 +566,7 @@ BuildingIcons/Civilized Leader-Mannerheim
   index: -1  
 
 Images/BuildingIcons/Civilized leader (64).png
-BuildingIcons/Civilized leader-Lenin
+BuildingIcons/Civilized Leader-Lenin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -575,7 +575,7 @@ BuildingIcons/Civilized leader-Lenin
   index: -1  
       
 Images/BuildingIcons/Civilized leader (65).png
-BuildingIcons/Civilized leader-Stalin
+BuildingIcons/Civilized Leader-Stalin
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -584,7 +584,7 @@ BuildingIcons/Civilized leader-Stalin
   index: -1  
 
 Images/BuildingIcons/Civilized leader (66).png
-BuildingIcons/Civilized leader-Trotsky
+BuildingIcons/Civilized Leader-Trotsky
   rotate: false
   xy: 0,0
   size: 270, 270
@@ -601,6 +601,68 @@ BuildingIcons/Trotsky ability
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader (68).png
+BuildingIcons/Civilized Leader-Jan III Sobieski
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (69).png
+BuildingIcons/Civilized Leader-Pilsudski
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (70).png
+BuildingIcons/Civilized Leader-Pedro I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (71).png
+BuildingIcons/Civilized Leader-Lenin-Russia
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (72).png
+BuildingIcons/Civilized Leader-Thaelmann
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (73).png
+BuildingIcons/Civilized Leader-Che Guevara
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (74).png
+BuildingIcons/Civilized Leader-Fidel Castro
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
 
 
@@ -956,10 +1018,41 @@ BuildingIcons/Red Square
   orig: 100, 100
   offset: 0, 0
   index: -1              
+                            
+Images/BuildingIcons/Ducal Stable.png
+BuildingIcons/Ducal Stable
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1                     
               
-              
-              
-              
+Images/BuildingIcons/Street Carnival.png
+BuildingIcons/Street Carnival
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1          
+
+Images/BuildingIcons/CubanCapitol.png
+BuildingIcons/Cuban Capitol
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+
+
+
+
+
+
+
+
               
               
               
@@ -1103,7 +1196,6 @@ NationIcons/Afghanistan
   offset: 0, 0
   index: -1  
   
-
 Images/NationIcons/Vietnam.png
 NationIcons/Vietnam
   rotate: false
@@ -1140,7 +1232,32 @@ NationIcons/Soviet Union
   offset: 0, 0
   index: -1  
   
+Images/NationIcons/Poland.png
+NationIcons/Poland
+  rotate: false
+  xy: 0, 0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
   
+Images/NationIcons/Brazil.png
+NationIcons/Brazil
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/Cuba.png
+NationIcons/Cuba
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1  
   
   
   
@@ -1399,6 +1516,24 @@ TileSets/HexaRealm/Tiles/Volcano
   orig: 300, 300
   offset: 0, 0
   index: -1
+  
+Images/TileSets/Volcano.png
+TileSets/Minimal/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/Volcano.png
+TileSets/FantasyHex/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1      
 
 Images/TileSets/VolcanicSoil.png
 TileSets/HexaRealm/Tiles/Volcanic Soil
@@ -1663,8 +1798,8 @@ UnitIcons/T-34
   offset: 0, 0
   index: -1      
  
-Images/UnitIcons/War ElephantIcon.png
-UnitIcons/War Elephant
+Images/UnitIcons/Vietnam War ElephantIcon.png
+UnitIcons/Vietnam War Elephant
   rotate: false
   xy: 0,0
   size: 64, 64
@@ -1672,7 +1807,39 @@ UnitIcons/War Elephant
   offset: 0, 0
   index: -1  
   
-   
+Images/UnitIcons/Winged Hussar.png
+UnitIcons/Winged Hussar
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
+  
+Images/UnitIcons/Minas Gerais Battleship.png
+UnitIcons/Minas Gerais Battleship
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1       
+
+Images/UnitIcons/CubanInternationalRevolutionaryFighterIcon.png
+UnitIcons/Cuban International Revolutionary Fighter
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+
+
+
+
+
+
+
      
  
   

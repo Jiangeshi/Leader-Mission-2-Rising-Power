@@ -312,6 +312,28 @@
 		"attackSound": "shot"		
 	},
 	{
+		"name": "Paratrooper",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 65,
+		"cost": 620,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "shot"	
+	},
+	{
+		"name": "Cuban International Revolutionary Fighter",
+		"unitType": "Foot Soldier",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Cuba",
+		"movement": 2,
+		"strength": 70,
+		"cost": 620,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>"],
+		"attackSound": "shot"			
+	},
+	{
 		"name": "Mechanized Infantry",
 		"unitType": "Foot Soldier",
 		"movement": 3,
@@ -705,7 +727,7 @@
 		"attackSound": "horse"	
 	},
 	{
-		"name": "War Elephant",
+		"name": "Vietnam War Elephant",
 		"unitType": "Mobile",
 		"replaces": "Knight",
 		"uniqueTo": "Vietnam",
@@ -742,7 +764,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "shot"   	
+		"attackSound": "shot"   
 	},
 	{
 		"name": "Landship",
@@ -928,6 +950,21 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"	
+	},
+	{
+		"name": "Winged Hussar",
+		"unitType": "Anti-Mobile",
+		"replaces": "Lancer",
+		"uniqueTo": "Poland",
+		"movement": 5,
+		"strength": 27,
+		"cost": 300,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"promotions": ["[Winged Hussar] ability", "Raid I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "metalhit"	
 	},
 	{
 		"name": "Anti-Tank Gun",
@@ -1229,11 +1266,25 @@
 		"rangedStrength": 60,
 		"range": 4,
 		"cost": 745,
-		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Minas Gerais Battleship",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Brazil",
+		"movement": 4,
+		"strength": 40,
+		"rangedStrength": 70,
+		"range": 4,
+		"cost": 700,
+		"requiredTech": "Electronics",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"	
 	},
 	{
 		"name": "Missile Cruiser",
@@ -1508,7 +1559,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Unbuildable", "Uncapturable"],
 		"movement": 4	
 	},
 	{

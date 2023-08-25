@@ -1311,8 +1311,11 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]	
-		
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+	},
+	{
+		"name": "[Winged Hussar] ability",
+		"uniques": ["May withdraw before melee ([66]%)"]	
 	// 特殊
 	},
 	{     

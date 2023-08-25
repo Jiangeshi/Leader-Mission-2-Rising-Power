@@ -10,7 +10,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
-        "uniques": ["May buy [Great Prophet] units for [150] [Faith] [in all cities] at an increasing price ([50])"],
+        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
@@ -28,7 +28,7 @@
         "embarkDefense": 4,
         "startPercent": 10,
         "citySound": "cityClassical",
-        "uniques": ["May buy [Great Prophet] units for [150] [Faith] [in all cities] at an increasing price ([50])"],    
+        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"],    
         "iconRGB": [233, 31, 99]
     },
     {
