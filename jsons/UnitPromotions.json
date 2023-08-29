@@ -1316,6 +1316,20 @@
 	{
 		"name": "[Winged Hussar] ability",
 		"uniques": ["May withdraw before melee ([66]%)"]	
+	},
+	{
+		"name": "Start a Concert",
+		"uniques": ["Gain [5] [Culture]", "Gain [10] [Gold]", "Doing so will consume this opportunity to choose a Promotion"]			
+	},
+	{
+		"name": "[Impi] ability",
+		"uniques": ["[+50]% XP gained from combat", "[+50]% to Flank Attack bonuses"]	
+	},
+	{
+		"name": "[Andean Army] ability",
+		"uniques": ["All tiles cost 1 movement", "Can pass through impassable tiles"]		
+		
+		
 	// 特殊
 	},
 	{     

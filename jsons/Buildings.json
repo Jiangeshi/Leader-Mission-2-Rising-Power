@@ -203,7 +203,7 @@
 		"name": "Colosseum",
 	    "maintenance": 1,
 		"happiness": 2,
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Horseback Riding",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
 	},
 	{
@@ -212,7 +212,7 @@
 		"science": 1,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
-		"requiredTech": "Drama and Poetry"		
+		"requiredTech": "Drama and Poetry",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
 	},
 	{
@@ -1799,8 +1799,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Inca",
-		"replacementTextForUniques": "-20% ⏳tile improvement construction time",
-		"uniques": ["Can only be built [in capital]", "[-20]% tile improvement construction time"]
+		"replacementTextForUniques": "-15% ⏳tile improvement construction time",
+		"uniques": ["Can only be built [in capital]", "[-15]% tile improvement construction time"]
 	},
 	{
 		"name": "Inca Pyramid",
@@ -1918,6 +1918,34 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"uniques":["[-15]% Culture cost of adopting new Policies", "Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"]
+		
+	// 美利坚
+	},
+	{	
+        "name": "Civilized Leader-Theodore Roosevelt",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "America",
+		"replacementTextForUniques": "+2 [Culture] from every specialist",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Culture] from every specialist [in all cities]"]	
+	},
+	{	
+        "name": "Civilized Leader-Franklin Delano Roosevelt",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "America",
+		"replacementTextForUniques": "+1 [Production] and +1 [Gold] from every specialist"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "[+1 Production, +1 Gold] from every specialist [in all cities]"]	
+	
+	// 阿根廷
+	},
+	{	
+        "name": "Civilized Leader-San Martín",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Argentina",
+		"replacementTextForUniques": "[New [Military] units start with [10] Experience [in all cities]]"
+		"uniques": ["Can only be built [in capital]", "New [Military] units start with [10] Experience [in all cities]"]	
 		
 	// 布基纳法索
 	},
@@ -2046,7 +2074,27 @@
 		"maintenance": 0,
 		"requiredTech": "Burial Custom",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
-
+		
+	// 祖鲁
+	},
+	{	
+        "name": "Civilized Leader-Shaka",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Zulu",
+		"replacementTextForUniques": "+20% [Production] when constructing Military units in all cities",
+		"uniques": ["Can only be built [in capital]", "[+20]% Production when constructing [Military] units [in all cities]"]
+	},
+	{
+		"name": "Ikanda",
+		"maintenance": 0,
+		"uniqueTo": "Zulu",
+		"replaces": "Barracks",
+		"gold": 2,
+		"science": 1,
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
+		"requiredTech": "Army Formation"
+		
 	// 匈人
 	},
 	{	

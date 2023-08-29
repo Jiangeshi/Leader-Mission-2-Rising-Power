@@ -796,8 +796,7 @@
 		"uniqueName": "Descendants of the Sun",
 		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
-		],
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
@@ -955,6 +954,69 @@
 		"uniques": ["All healing effects doubled <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
+    },
+	{
+		"name": "America",
+		"leaderName": "Leader",
+		"adjective": ["American"],
+		"preferredVictoryType": "Domination",
+
+"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [28,51,119],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Manifest Destiny",
+		"uniqueText": "[[-66]% Gold cost of acquiring tiles [in all cities]],\n[Earn [66]% of killed [Military] unit's [Cost] as [Gold]],\n[May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])]",
+		"uniques": ["[-66]% Gold cost of acquiring tiles [in all cities]", "Earn [66]% of killed [Military] unit's [Cost] as [Gold]", "May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Argentina",
+		"leaderName": "Leader",
+		"adjective": ["Argentine"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [118,168,221],
+        "innerColor": [243,182,16],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Pampas Pasture",
+		"uniqueText": "+1 [Food] from every [Pasture],\n[No Maintenance costs for improvements in [Grassland] tiles]",
+		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
         
     //非洲
     },
@@ -982,9 +1044,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
 		"uniqueText": "-20% ¤maintenance cost for buildings in all cities,\n-20% ¤maintenance costs for Military units,\n -20 Unhappiness from Population in all cities"
-		"uniques": ["[-20]% maintenance cost for buildings [in all cities]", "[-20]% maintenance costs <for [Military] units>", "[-20]% Unhappiness from [Population] [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
-		]
+		"uniques": ["[-20]% maintenance cost for buildings [in all cities]", "[-20]% maintenance costs <for [Military] units>", "[-20]% Unhappiness from [Population] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -1110,7 +1170,39 @@
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
 			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
-        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]        
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]     
+    },
+	{
+		"name": "Zulu",
+		"leaderName": "Leader",
+		"adjective": ["the Zulu"],
+		"startBias": ["Plains"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [211, 158, 28],
+        "innerColor": [88, 48, 36],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "African Hegemon",
+		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison,\nFoot Soldier gains 1 XP upon ending a turn in a [City center] tile",
+		"uniques": ["[+1 Happiness, +1 Culture] [in all cities with a garrison]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               
         
     // 游牧  
     },
@@ -1229,8 +1321,8 @@
 		"outerColor": [10,10,10],
 		"favoredReligion": "Taoism",
 		"uniqueName": "War of Hope",
-		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\n+2 [Science] in all cities when at war,\nEarn 66% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit"
-		"uniques": ["[+2 Science] [in all cities] <when at war>", "Earn [66]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game",
+		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\n+2 [Science] in all cities when at war,\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit"
+		"uniques": ["[+2 Science] [in all cities] <when at war>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Titans"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]    
@@ -1258,9 +1350,8 @@
 		"outerColor": [51,243,243],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Unstoppable Expansion",
-		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills,\nEarn 75% of killed☠ Military unit's †Strength as ☮Faith,\nBorrows city names from other civilizations in the game"
-		"uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Faith]", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills,\nEarn 100% of killed☠ Military unit's †Strength as ☮Faith,\nBorrows city names from other civilizations in the game"
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		]
 		"cities": ["Cerranxi", "Mukuso", "Handanar", "Iverson", "Epson", "Collins", "Bena", "Gandahel", "Blue Bridge Fortress", "Highlander"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]        
@@ -1540,18 +1631,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [152,0,241],
 		"cities": ["Almaty"]
-	},
-	{
-		"name": "Belgrade",
-		"adjective": ["Belgrade"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Belgrade"]
 	},
 	{
 		"name": "Dublin",

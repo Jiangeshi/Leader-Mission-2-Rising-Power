@@ -106,7 +106,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -121,7 +121,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Hypaspist] ability"],
-		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -136,7 +136,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Iron Wall Legion] ability"],
-		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"
 	},
 	{
@@ -150,7 +150,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["Costs [7] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>"],
+		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "metalhit"	
 	},
 	{
@@ -162,7 +162,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [7] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -235,6 +235,21 @@
 		"attackSound": "shot"	
 	},
 	{
+		"name": "Minuteman",
+	    "unitType": "Foot Soldier",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"cost": 230,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "Ignores terrain cost"],
+		"promotions": ["Drill I"],
+		"attackSound": "shot"	
+	},
+	{
 		"name": "Rifleman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
@@ -260,6 +275,21 @@
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
 		"promotions": ["Drill I"],
 		"attackSound": "shot"	
+	},
+	{
+		"name": "Andean Army",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 34,
+		"cost": 320,
+		"replaces": "Rifleman",
+		"uniqueTo": "Argentina",
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["[Andean Army] ability"],
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>"]
+		"attackSound": "shot"		
 	},
 	{
 		"name": "Great War Infantry",
@@ -341,7 +371,7 @@
 		"cost": 720,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Robotics",
-		"uniques":["Costs [3] [Aluminum]", "Consumes [1] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>"]
+		"uniques":["Costs [5] [Aluminum]", "Consumes [1] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>"]
 		"attackSound": "tankshot"
 			
 	// 射手
@@ -413,7 +443,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -458,7 +488,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"		
 	},
 	{
@@ -474,7 +504,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [7] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "[+10]% Strength <vs [Military] units> <when defending>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus", "[+10]% Strength <vs [Military] units> <when defending>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -605,7 +635,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -620,7 +650,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["[Companion Cavalry] ability"],
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -634,7 +664,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -661,7 +691,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -676,7 +706,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -692,7 +722,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"	
 	},
@@ -707,7 +737,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"	
 	},
@@ -722,7 +752,7 @@
 	    "requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Founds a new city <on foreign continents>", "[+2] Sight"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"	
 	},
@@ -737,7 +767,7 @@
         "requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+1] Sight"],
+		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+1] Sight"],
 		"attackSound": "arrow"			
 	},
 	{
@@ -749,7 +779,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -763,7 +793,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Costs [5] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "shot"   
 	},
 	{
@@ -775,7 +805,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Costs [10] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus",
 		"[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
 ],
 		"attackSound": "tankshot"
@@ -906,6 +936,21 @@
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
+	},   
+	{
+		"name": "Impi",
+		"unitType": "Anti-Mobile",
+		"replaces": "Pikeman",
+		"uniqueTo": "Zulu",
+		"movement": 2,
+		"strength": 16,
+		"cost": 125,
+		"requiredTech": "Defensive Fortification",
+		"upgradesTo": "Lancer",
+	    "obsoleteTech": "Metallurgy",
+	    "promotions": ["[Impi] ability"],
+        "uniques":["[+50]% Strength <vs [Mobile] units>"]	    
+		"attackSound": "metalhit"		
 	},
 	{
 		"name": "Lancer",
@@ -914,7 +959,7 @@
 		"strength": 25,
 		"cost": 275,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -929,7 +974,7 @@
 		"strength": 25,
 		"cost": 275,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["Raid I"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -945,7 +990,7 @@
 		"cost": 275,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["[Hakkapeliitta] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -960,7 +1005,7 @@
 		"strength": 27,
 		"cost": 300,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [5] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>"],
 		"promotions": ["[Winged Hussar] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -974,7 +1019,7 @@
 		"cost": 570,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques":["Costs [8] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>"]
+		"uniques":["Costs [10] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>"]
 		"attackSound": "machinegun"
 	},
 	{
@@ -997,7 +1042,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Costs [8] [Steels]", "[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["Costs [10] [Steels]", "[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1008,7 +1053,7 @@
 		"strength": 70,
 		"cost": 820,
 		"requiredTech": "Rocketry",
-		"uniques": ["Costs [10] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units"],
+		"uniques": ["Costs [15] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units"],
 		"attackSound": "missile"	
 		
 	// 攻城单位
@@ -1032,7 +1077,7 @@
 		"replaces": "Catapult",
 		"uniqueTo": "Rome",
 		"movement": 2,
-		"strength": 7,
+		"strength": 6,
 		"rangedStrength": 9,
 		"range": 3,
 		"cost": 81,
@@ -1096,7 +1141,7 @@
 		"requiredTech": "Dynamite",
 	    "obsoleteTech": "Rocketry",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Costs [10] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Costs [15] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"	
 	},
@@ -1203,7 +1248,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Costs [10] [Steels]","Consumes [1] [Coal]","[+33]% Strength <vs cities>","Double movement in [Coast]"],
+		"uniques": ["Costs [15] [Steels]","Consumes [1] [Coal]","[+33]% Strength <vs cities>","Double movement in [Coast]"],
 		"attackSound": "shipguns"		
 	},
 	{
@@ -1309,7 +1354,7 @@
 		"strength": 70,
 		"cost": 800,
 		"requiredTech": "Electronics",
-		"uniques": ["Costs [5] [Aluminum]", "Costs [5] [Steels]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units"]
+		"uniques": ["Costs [10] [Aluminum]", "Costs [10] [Steels]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units"]
 		
 	// 潜艇
 	},
@@ -1322,7 +1367,7 @@
 		"cost": 655,
 		"requiredTech": "Radio",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["Costs [8] [Aluminum]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
+		"uniques": ["Costs [10] [Aluminum]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"],
 		"attackSound": "torpedo"
     },
 	{
@@ -1413,6 +1458,23 @@
 		"uniques":["Costs [7] [Aluminum]"]
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
+	},
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 7,
+		"cost": 720,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"uniques":["Costs [7] [Aluminum]"]
+		"promotions": ["Pinpoint Bombing I", "Tactical Evasion I"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"	
 	},
 	{
 		"name": "Stealth Bomber",
@@ -1511,9 +1573,16 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Happiness]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"
-		],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"],
 		"movement": 2
+	},
+	{
+		"name": "Rock Band",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "America",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Development]", "This Unit gains the [Start a Concert] promotion <upon ending a turn in a [City center] tile>", "May enter foreign tiles without open borders"],
+		"movement": 2	
 	},
 	{
 		"name": "Great Scientist",

@@ -664,6 +664,44 @@ BuildingIcons/Civilized Leader-Fidel Castro
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Civilized leader (75).png
+BuildingIcons/Civilized Leader-Theodore Roosevelt
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (76).png
+BuildingIcons/Civilized Leader-Franklin Delano Roosevelt
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (77).png
+BuildingIcons/Civilized Leader-Shaka
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Civilized leader (78).png
+BuildingIcons/Civilized Leader-San Martín
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+
+
+
 
 
 
@@ -1046,7 +1084,14 @@ BuildingIcons/Cuban Capitol
   offset: 0, 0
   index: -1
 
-
+Images/BuildingIcons/Ikanda.png
+BuildingIcons/Ikanda
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1          
 
 
 
@@ -1083,7 +1128,14 @@ ImprovementIcons/Vietnamese City
   offset: 0, 0
   index: -1
   
-    
+Images/ImprovementIcons/Expand Pasture Icon.png
+ImprovementIcons/Expand Pasture
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
       
           
               
@@ -1259,9 +1311,23 @@ NationIcons/Cuba
   offset: 0, 0
   index: -1  
   
+Images/NationIcons/Zulu.png
+NationIcons/Zulu
+  rotate: false
+  xy: 0, 0
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1       
   
-  
-  
+Images/NationIcons/Argentina.png
+NationIcons/Argentina
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1       
   
   
   
@@ -1580,6 +1646,15 @@ TileSets/HexaRealm/Tiles/Vietnamese City
   offset: 0, 0
   index: -1  
   
+Images/TileSets/Expand Pasture.png
+TileSets/HexaRealm/Tiles/Expand Pasture
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
 Images/TileSets/GreatAdmiralLand.png
 TileSets/AbsoluteUnits/Units/Great Admiral
   rotate: false
@@ -1834,12 +1909,32 @@ UnitIcons/Cuban International Revolutionary Fighter
   offset: 0, 0
   index: -1    
 
+Images/UnitIcons/Rock Band.png
+UnitIcons/Rock Band
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
 
+Images/UnitIcons/Impi.png
+UnitIcons/Impi
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1       
 
-
-
-
-
+Images/UnitIcons/Andean Army.png
+UnitIcons/Andean Army
+  rotate: false
+  xy: 0,0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1       
      
  
   
@@ -2315,4 +2410,13 @@ UnitPromotionIcons/Defend the Motherland
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1               
+  index: -1          
+  
+Images/UnitPromotionIcons/Rock Band.png
+UnitPromotionIcons/Start a Concert
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1                     

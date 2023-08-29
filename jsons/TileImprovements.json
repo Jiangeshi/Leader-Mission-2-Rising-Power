@@ -5,11 +5,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
-		"[+1 Food] <after discovering [Agricultural Improvement]>",
-		"[+1 Food] <after discovering [Fertilizer]>",
-		"[+2 Food] <in [Volcanic Soil] tiles>",
-            "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
     },
 	{
 		"name": "Mine",
@@ -17,9 +13,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": [
-		"[+1 Production] <after discovering [Chemistry]>",
-		"Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "Camp",
@@ -39,7 +33,7 @@
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Animal Husbandry",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] for each adjacent [Expand Pasture]", "[+1 Gold] for each adjacent [Expand Pasture] <after discovering [Agricultural Improvement]>"],
 	},
 	{
 		"name": "Plantation",
@@ -276,5 +270,14 @@
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": ["Gives a defensive bonus of [15]%", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Production] <after discovering [Industrialization]>"],	
+	},
+	{
+		"name": "Expand Pasture",
+		"uniqueTo": "Argentina",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+		"food": 1,
+		"turnsToBuild": 4,
+	    "techRequired": "Animal Husbandry",
+		"uniques": ["Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Each adjacent Expand Pasture +1 Gold", "Each adjacent Expand Pasture +1 Gold after discovering Agricultural Improvement"],
 	}
 ]

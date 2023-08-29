@@ -38,6 +38,7 @@
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
+        "This Unit gains [1] XP <upon ending a turn in a [City center] tile> <for [Zulu]>",
         ]
     },
     {
