@@ -1954,8 +1954,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
-		"replacementTextForUniques": "+1 ⁂Food in all cities,\n+10% ⁂Food in capital"
-		"uniques": ["Can only be built [in capital]", "[+1 Food] [in all cities]", "[+15]% [Food] [in capital]"]	   
+		"replacementTextForUniques": "+1 ⁂Food in all cities,\n+20% ⁂Food in capital"
+		"uniques": ["Can only be built [in capital]", "[+1 Food] [in all cities]", "[+20]% [Food] [in capital]"]	   
 	},
 	{
 		"name": "Ganduo Primary School",
@@ -2027,8 +2027,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"replacementTextForUniques": "+33% ⚙Production when constructing [Settler] units in capital,\n+3 ¤Gold in all cities connected to capital",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+33]% Production when constructing [Settler] units [in capital]", "[+3 Gold] [in all cities connected to capital]"]	
+		"replacementTextForUniques": "+25% ⚙Production when constructing [Settler] units in capital,\n+3 ¤Gold in all cities connected to capital",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+25]% Production when constructing [Settler] units [in capital]", "[+3 Gold] [in all cities connected to capital]"]	
 	},
 	{	
         "name": "Civilized Leader-Hannibal",
@@ -2131,9 +2131,27 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Polynesia",
-		"replacementTextForUniques": "+1 ⁂population in capital,\n+1 ⁂Food from every Fishing Boats"
-		"uniques": ["Can only be built [in capital]", "[+1] population [in capital]", "[+1 Food] from every [Fishing Boats]"]	  
-        
+		"replacementTextForUniques": "+1 ⁂population in capital,\n+1 ⁂Food and +1 [Gold] from every Fishing Boats"
+		"uniques": ["Can only be built [in capital]", "[+1] population [in capital]", "[+1 Food, +1 Gold] from every [Fishing Boats]"]	  
+		
+	// 印度尼西亚
+	},
+	{	
+        "name": "Civilized Leader-Bung Sukarno",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Indonesia",
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]"
+		"uniques": ["Can only be built [in capital]", "Resting point for Influence with City-States is increased by [30]"]
+    },
+	{
+		"name": "Kampung",
+		"food": 2,
+		"maintenance": 0,
+		"replaces": "Granary",
+        "uniqueTo": "Indonesia",
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water resource] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"requiredTech": "Pottery"	    
 	// 云冀之庭
 	},
 	{	

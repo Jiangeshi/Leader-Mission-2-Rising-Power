@@ -1227,6 +1227,20 @@
 		"attackSound": "cannon"	
 	},
 	{
+		"name": "Jukung Perang",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Indonesia",
+		"movement": 6,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"uniques": ["[+1] Sight"]
+		"attackSound": "cannon"		
+	},
+	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 4,

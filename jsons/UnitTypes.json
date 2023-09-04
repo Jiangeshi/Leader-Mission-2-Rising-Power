@@ -2,12 +2,12 @@
     {
         "name": "Civilian",
         "movementType": "Land"
-        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",]
+        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]
     },
     {
         "name": "Civilian Water",
         "movementType": "Water"
-        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",]
+        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>"]
     },
     {
         "name": "Reconnaissance",
@@ -21,9 +21,7 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
-        ]    
+        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]    
     },
     {
         "name": "Foot Soldier",
@@ -36,10 +34,7 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
-        "This Unit gains [1] XP <upon ending a turn in a [City center] tile> <for [Zulu]>",
-        ]
+        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "This Unit gains [1] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]
     },
     {
         "name": "Shooter",
@@ -56,8 +51,7 @@
         "May attack when embarked <for [England]>",
         "Eliminates combat penalty for attacking across a coast <for [England]>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
-        ]    
+        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]    
     },
     {
         "name": "Mobile",
@@ -72,8 +66,7 @@
         "Heal this unit by [3] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",   
-        ]    
+        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]    
     },
     {
         "name": "Anti-Mobile",
@@ -87,8 +80,7 @@
         "Cannot attack <in [Marsh] tiles>",
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
-        ]    
+        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]    
     },
     {
         "name": "Anti-Air",
@@ -101,8 +93,7 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
-        ]        
+        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]        
     },
     {
         "name": "Helicopter",
@@ -130,8 +121,7 @@
         "Eliminates combat penalty for attacking across a coast <for [England]>",
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
-        ]    
+        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]    
     },
     {
         "name": "Melee Water",

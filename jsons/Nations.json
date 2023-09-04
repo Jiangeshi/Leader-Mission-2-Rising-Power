@@ -1008,8 +1008,8 @@
 
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
 
-        "outerColor": [118,168,221],
-        "innerColor": [243,182,16],
+        "outerColor": [73,105,138],
+        "innerColor": [244,189,39],
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Pampas Pasture",
@@ -1198,10 +1198,7 @@
 		"uniqueName": "African Hegemon",
 		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison,\nFoot Soldier gains 1 XP upon ending a turn in a [City center] tile",
 		"uniques": ["[+1 Happiness, +1 Culture] [in all cities with a garrison]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
-		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
-			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
-			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
-			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               
         
     // 游牧  
@@ -1295,7 +1292,34 @@
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
 			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]     
-        
+    },
+    {
+		"name": "Indonesia",
+		"leaderName": "Leader",
+		"adjective": ["Indonesian"],
+		"startBias": ["Coast"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [245,173,173],
+		"innerColor": [163,71,71],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Land of Thousand Islands",
+		"uniqueText": "[May travel on Water tiles without embarking] [after discovering [Optics]],\n-1 ➡Movement for Land units in Water tiles,\n+15% †Strength for Military units when fighting in Coast tiles",
+		"uniques": ["[-1] Movement <for [Land] units> <in [Water] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Coast] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+            
     // 特殊文明
     },
 	{

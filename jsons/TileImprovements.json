@@ -276,7 +276,7 @@
 		"uniqueTo": "Argentina",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"food": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 3,
 	    "techRequired": "Animal Husbandry",
 		"uniques": ["Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Each adjacent Expand Pasture +1 Gold", "Each adjacent Expand Pasture +1 Gold after discovering Agricultural Improvement"],
 	}

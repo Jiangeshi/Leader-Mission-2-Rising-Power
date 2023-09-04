@@ -700,7 +700,14 @@ BuildingIcons/Civilized Leader-San Martín
   offset: 0, 0
   index: -1  
 
-
+Images/BuildingIcons/Civilized leader (79).png
+BuildingIcons/Civilized Leader-Bung Sukarno
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
 
 
 
@@ -1093,8 +1100,14 @@ BuildingIcons/Ikanda
   offset: 0, 0
   index: -1          
 
-
-
+Images/BuildingIcons/Kampung.png
+BuildingIcons/Kampung
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1   
 
 
 
@@ -1329,7 +1342,14 @@ NationIcons/Argentina
   offset: 0, 0
   index: -1       
   
-  
+Images/NationIcons/Indonesia.png
+NationIcons/Indonesia
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1         
   
   
   
@@ -1935,7 +1955,16 @@ UnitIcons/Andean Army
   orig: 300, 300
   offset: 0, 0
   index: -1       
-     
+      
+Images/UnitIcons/Jukung Perang.png
+UnitIcons/Jukung Perang
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1        
+ 
  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
