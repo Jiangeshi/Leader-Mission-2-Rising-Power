@@ -128,7 +128,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-20]% tile improvement construction time","[2] free [Worker] units appear"],
+		"uniques": ["[-20]% construction time for [All] improvements","[2] free [Worker] units appear"],
 		"requiredTech": "Burial Custom",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -396,7 +396,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Temple] [in this city]", 
-			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"],
+		"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion"]
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 		
@@ -1799,8 +1799,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Inca",
-		"replacementTextForUniques": "-15% ⏳tile improvement construction time",
-		"uniques": ["Can only be built [in capital]", "[-15]% tile improvement construction time"]
+		"replacementTextForUniques": "-15% ⏳construction time for All improvements",
+		"uniques": ["Can only be built [in capital]", "[-15]% construction time for [All] improvements"]
 	},
 	{
 		"name": "Inca Pyramid",
@@ -2160,7 +2160,7 @@
 		"cost":1,
 		"uniqueTo": "Yun Ji Court",
 		"replacementTextForUniques": "+10% ⚙Production when constructing Military units in all cities,\nReceive free ⛤Great General when you discover [Army Formation]"
-		"uniques": ["Can only be built [in capital]", "[+10]% Production when constructing [Military] units [in all cities]", "Receive free [Great General] when you discover [Army Formation]"]	  
+		"uniques": ["Can only be built [in capital]", "[+10]% Production when constructing [Military] units [in all cities]", "Free [Great General] appears <upon discovering [Army Formation]>"]	  
 	},
 	{
 		"name": "Yun Ji Barracks",

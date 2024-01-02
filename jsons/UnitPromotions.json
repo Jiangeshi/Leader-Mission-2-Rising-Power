@@ -1336,6 +1336,10 @@
 		"name": "Rejuvenation", 
 		"uniques": ["All healing effects doubled"]
 	},
+    {
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]			
+	},
 	{
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]

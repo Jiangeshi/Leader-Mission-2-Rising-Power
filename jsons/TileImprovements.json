@@ -240,6 +240,7 @@
 	},
 	{
 		"name": "Colony",
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [4] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Constructing it will take over the tiles around it and assign them to your closest city", 
 		"Provides [1] [Number of Bonus] <with [1] to [1] neighboring [Bonus resource] tiles>",
