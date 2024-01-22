@@ -1319,7 +1319,7 @@
 	},
 	{
 		"name": "Start a Concert",
-		"uniques": ["Gain [5] [Culture]", "Gain [10] [Gold]", "Doing so will consume this opportunity to choose a Promotion"]			
+		"uniques": ["Gain [7] [Culture] (modified by game speed)", "Gain [13] [Gold] (modified by game speed)", "Doing so will consume this opportunity to choose a Promotion"]			
 	},
 	{
 		"name": "[Impi] ability",

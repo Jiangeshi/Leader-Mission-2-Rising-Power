@@ -709,7 +709,32 @@ BuildingIcons/Civilized Leader-Bung Sukarno
   offset: 0, 0
   index: -1 
 
+Images/BuildingIcons/Civilized leader (80).png
+BuildingIcons/Civilized Leader-Ahmed Yassin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
+Images/BuildingIcons/Civilized leader (81).png
+BuildingIcons/Civilized Leader-Yasser Arafat
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Civilized leader (82).png
+BuildingIcons/Civilized Leader-Khomeini
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
 
 
 
@@ -1108,9 +1133,24 @@ BuildingIcons/Kampung
   orig: 250, 250
   offset: 0, 0
   index: -1   
+  
+Images/BuildingIcons/Wailing Wall.png
+BuildingIcons/Wailing Wall
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
 
-
-
+Images/BuildingIcons/Military Reclamation.png
+BuildingIcons/Military Reclamation
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
               
               
               
@@ -1351,6 +1391,195 @@ NationIcons/Indonesia
   offset: 0, 0
   index: -1         
   
+Images/NationIcons/Palestine.png
+NationIcons/Palestine
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1           
+  
+  
+Images/PolicyIcons/Centralization.png
+PolicyIcons/Centralization
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+  
+Images/PolicyIcons/Lord-Vassal.png
+PolicyIcons/Lord-Vassal
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/PolicyIcons/Divine Right of Kings.png
+PolicyIcons/Divine Right of Kings
+  rotate: false
+  xy: 0, 0
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1    
+
+Images/PolicyIcons/Urbanization.png
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1 
+
+Images/PolicyIcons/Colonialism.png
+PolicyIcons/Colonialism
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Imperialism.png
+PolicyIcons/Imperialism
+  rotate: false
+  xy: 0, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Hate Propaganda.png
+PolicyIcons/Hate Propaganda
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Military Chemical Industry.png
+PolicyIcons/Military Chemical Industry
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Neoliberalism.png
+PolicyIcons/Neoliberalism
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/The Five-Year Plan.png
+PolicyIcons/The Five-Year Plan
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Military Reclamation System.png
+PolicyIcons/Military Reclamation System
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
+  
+Images/PolicyIcons/Price Scissors.png
+PolicyIcons/Price Scissors
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1    
+
+Images/PolicyIcons/Sustainable Development.png
+PolicyIcons/Sustainable Development
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1      
+   
+Images/PolicyIcons/Industrialism.png
+PolicyIcons/Industrialism
+  rotate: false
+  xy: 0, 0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
+  
+Images/PolicyIcons/Rural Population Migration.png
+PolicyIcons/Rural Population Migration
+  rotate: false
+  xy: 0, 0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1      
+  
+Images/PolicyIcons/Agglomeration Planning.png
+PolicyIcons/Agglomeration Planning
+  rotate: false
+  xy: 0, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1     
+  
+ 
+  
+
+
+  
+  
+Images/PolicyBranchIcons/Feudalism.png
+PolicyBranchIcons/Feudalism1
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+  
+Images/PolicyBranchIcons/Industrial.png
+PolicyBranchIcons/Industrial
+  rotate: false
+  xy: 0, 0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 Images/ResourceIcons/BisonIcon.png
@@ -1384,8 +1613,8 @@ Images/ResourceIcons/Warfare Aversion Level.png
 ResourceIcons/Warfare Aversion Level
   rotate: false
   xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
+  size: 160, 160
+  orig: 160, 160
   offset: 0, 0
   index: -1  
 

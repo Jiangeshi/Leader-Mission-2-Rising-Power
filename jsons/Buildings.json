@@ -16,7 +16,7 @@
 	{
         "name": "City Level I",
         "cost": 1,
-		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Provides [1] [Number of Cities]"]	
 	},
 	{
 		"name": "Bonfire",
@@ -1039,47 +1039,19 @@
 		"happiness": 2,
 		"uniques": ["Unbuildable"]	
 		
-	// 模组介绍
-	},
+    // 特殊建筑
+    },
 	{
-        "name": "1.1 Leader Mission 2 Rising Power-Author's Thanks",
+		"name": "Military Reclamation",
+		"cost": 25,
+		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
 		"uniques": [
-		""
-		"Unbuildable",
-		"Cannot be purchased"
-		]
-	},
-	{
-        "name": "2.1 Warfare Aversion Level",
-		"uniques": [
-		""
-		"Unbuildable",
-		"Cannot be purchased"
+		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player]>",
+		    "Creates a [Farm] improvement on a specific tile",
+		    "Remove [Military Reclamation] [in this city]"
 		]	
-	},
-	{
-        "name": "2.2 Religious Victory and the Great Prophet",
-		"uniques": [
-		""
-		"Unbuildable",
-		"Cannot be purchased"
-	    ]
-	},
-	{
-        "name": "2.3 Terrain Modification",
-		"uniques": [
-		""
-		"Unbuildable",
-		"Cannot be purchased"
-		]	
-	},
-	{
-        "name": "2.4 City Level",
-		"uniques": [
-		""
-		"Unbuildable",
-		"Cannot be purchased"]
 		
+	// 国家/文明
 	// 伊朗
 	},
 	{	
@@ -1088,7 +1060,7 @@
 		"cost":1,
 		"uniqueTo": "Iran",
 		"replacementTextForUniques": "Empire enters ⌣Golden Age upon conquering a city",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Darius I]>", "Empire enters golden age <upon conquering a city>"]
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Darius I]>", "Only available <in cities without a [Civilized Leader-Khomeini]>", "Empire enters golden age <upon conquering a city>"]
 	},
 	{	
         "name": "Civilized Leader-Darius I",
@@ -1096,7 +1068,15 @@
 		"cost":1,
 		"uniqueTo": "Iran",
 		"replacementTextForUniques": "+20% ⌣Golden Age length, \n+3 ⌣Happiness and +3 ¤Gold in capital during a ⌣Golden Age",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cyrus]>", "[+20]% Golden Age length", "[+3 Happiness, +3 Gold] [in capital] <during a Golden Age>"]
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cyrus]>", "Only available <in cities without a [Civilized Leader-Khomeini]>", "[+30]% Golden Age length", "[+3 Happiness, +3 Gold] [in capital] <during a Golden Age>"]
+	},
+	{	
+        "name": "Civilized Leader-Khomeini",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Iran",
+		"replacementTextForUniques": "[Empire enters golden age] [<upon declaring a defensive pact>]\n[Creates a [Citadel] improvement on a specific tile]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cyrus]>", "Only available <in cities without a [Civilized Leader-Darius I]>", "Empire enters golden age <upon declaring a defensive pact>", "Creates a [Citadel] improvement on a specific tile"]
     },
 	{
 		"name": "Satrap's Court"
@@ -1152,7 +1132,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "+1 ⚙Production from every Posthouse,\n-50% ¤maintenance on road & railroads"
+		"replacementTextForUniques": "+1 ⚙Production from every Posthouse\n-50% ¤maintenance on road & railroads"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "[+1 Production] from every [Posthouse]", "[-50]% maintenance on road & railroads"]
     },
 	{
@@ -1200,7 +1180,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+2 ♪Culture in all cities before the Classical era,\n+1 ♪Culture in all cities starting from the Classical era",
+		"replacementTextForUniques": "+2 ♪Culture in all cities before the Classical era\n+1 ♪Culture in all cities starting from the Classical era",
 		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+2 Culture] [in all cities] <before the [Classical era]>", "[+1 Culture] [in all cities] <starting from the [Classical era]>"]
 	},
 	{
@@ -1208,7 +1188,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation],\n+33% ⚙Production when constructing National Wonder wonders in all cities",
+		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation]\n+33% ⚙Production when constructing National Wonder wonders in all cities",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
 	},
 	{
@@ -1216,7 +1196,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "⛤Great General provides double †combat bonus,\n+33% ¤maintenance costs for Military units",
+		"replacementTextForUniques": "⛤Great General provides double †combat bonus\n+33% ¤maintenance costs for Military units",
 		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Great General provides double combat bonus", "[+33]% maintenance costs <for [Military] units>"]
 	},
 	{
@@ -1232,7 +1212,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles,\n+15% ⍾Science and ♪Culture in all cities",
+		"replacementTextForUniques": "+10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles\n+15% ⍾Science and ♪Culture in all cities",
 		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]	
 	},
     {
@@ -1240,7 +1220,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units,\n+15% ⚙Production when constructing Civilian units in all cities",
+	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units\n+15% ⚙Production when constructing Civilian units in all cities",
 		"uniques": ["Can only be built [in capital]", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "[+1] Movement <for [Foot Soldier] units>", "[+15]% Production when constructing [Civilian] units [in all cities]"]
 	},
 	{
@@ -1325,7 +1305,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"replacementTextForUniques": "+1 [Production] in all cities,\n+25% ⁂growth in all cities when at war"
+		"replacementTextForUniques": "+1 [Production] in all cities\n+25% ⁂growth in all cities when at war"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hafizullah Amin]>", "[+1 Production] [in all cities]", "[+25]% growth [in all cities] <when at war>"]
     },
 	{
@@ -1345,7 +1325,35 @@
 		"cost":1,
 		"uniqueTo": "Vietnam",
 		"replacementTextForUniques": "+25% †Strength for Military units when fighting in Forest and Jungle tiles",
-		"uniques": ["Can only be built [in capital]", "[+25]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+25]% Strength <for [Military] units> <when fighting in [Jungle] tiles>"]									
+		"uniques": ["Can only be built [in capital]", "[+25]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+25]% Strength <for [Military] units> <when fighting in [Jungle] tiles>"]
+		
+	// 巴勒斯坦
+	},
+	{	
+        "name": "Civilized Leader-Ahmed Yassin",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Palestine",
+		"replacementTextForUniques": "+15% [Production] when constructing Military units in all cities when at war\n+10% [Production] when constructing Military units in capital",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Yasser Arafat]>", "[+15]% Production when constructing [Military] units [in all cities] <when at war>", "[+10]% Production when constructing [Military] units [in capital]"]
+    },
+	{	
+        "name": "Civilized Leader-Yasser Arafat",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Palestine",
+		"replacementTextForUniques": "+1 [Gold] from every [Science] and [Culture] buildings"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Ahmed Yassin]>", "[+1 Gold] from every [Science]", "[+1 Gold] from every [Culture]"]		
+	},
+	{
+		"name": "Wailing Wall",
+		"cost": 60,
+		"faith": 2,
+		"isNationalWonder": true,
+	    "uniqueTo": "Palestine",
+		"uniques": ["Requires a [Shrine] in all cities", "Cost increases by [15] per owned city", "Gain enough Faith for [50]% of a Great Prophet"],
+		"requiredTech": "Belief Worship"			
+		
 	// 希腊
 	},
 	{	
@@ -1407,7 +1415,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -20%,\n+2 ¤Gold per 1 social policies adopted"
+		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -20%\n+2 ¤Gold per 1 social policies adopted"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-20]%", "[+2 Gold] per [1] social policies adopted"]
 	},
 	{	
@@ -1444,7 +1452,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -10%,\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
+		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -10%\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-10]%", "May buy [Military] units with [Faith] for [3] times their normal Production cost"]	
 	},
 	{	
@@ -1452,7 +1460,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities,\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +1 [Gold] from all ☮Faith buildings"	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +1 [Gold] from all ☮Faith buildings"	
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +1 Science, +1 Culture, +1 Gold] from all [Faith] buildings"]	
 	},
 	{
@@ -1472,24 +1480,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Enemy Land tiles"	
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Peter]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"]
+		"replacementTextForUniques": "[[+1 Production] from all [Faith] buildings]"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Peter]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>","[+1 Production] from all [Faith] buildings"]
 	},
 	{	
         "name": "Civilized Leader-Peter",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+2 ⍾Science and +2 ¤Gold from each Trade Route"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+2 Science, +2 Gold] from each Trade Route"]
+		"replacementTextForUniques": "+2 ⍾Science and +3 ¤Gold from each Trade Route"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+2 Science, +3 Gold] from each Trade Route"]
 	},
 	{	
         "name": "Civilized Leader-Lenin-Russia",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-33]% less than normal"]	
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-40]% less than normal]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-40]% less than normal"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -1515,7 +1523,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "+1 ☮Faith in all cities,\n+2 ☮Faith in capital",
+		"replacementTextForUniques": "+1 ☮Faith in all cities\n+2 ☮Faith in capital",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Constantine I]>", "[+1 Faith] [in all cities]", "[+2 Faith] [in capital]"]
 	},
 	{
@@ -1542,7 +1550,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"replacementTextForUniques": "+10% ⚙Production when constructing All buildings in capital,\n+10 ⚙Production when constructing Military units in all cities",
+		"replacementTextForUniques": "+10% ⚙Production when constructing All buildings in capital\n+10 ⚙Production when constructing Military units in all cities",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Cesar]>", "[+10]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
 	},
 	{
@@ -1561,7 +1569,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Empire enters a 3-turn ⌣Golden Age upon founding a city,\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age",
+		"replacementTextForUniques": "Empire enters a 3-turn ⌣Golden Age upon founding a city\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+15]% [Production] [in all cities] <during a Golden Age>", "[+15]% [Culture] [in all cities] <during a Golden Age>", "Empire enters a [3]-turn Golden Age <upon founding a city>"]
 	},
 	{	
@@ -1569,7 +1577,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level],\n+5% ⚙Production in all cities when at war",
+		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]\n+5% ⚙Production in all cities when at war",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+5]% [Production] [in all cities] <when at war>"]
 	},
 	{
@@ -1589,7 +1597,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"replacementTextForUniques": "Influence of all other civilizations with all city-states degrades 33% faster,\n+10% †Strength when fighting units from a Civilization with more Cities than you",
+		"replacementTextForUniques": "Influence of all other civilizations with all city-states degrades 33% faster\n+10% †Strength when fighting units from a Civilization with more Cities than you",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Milosevic]>", "Influence of all other civilizations with all city-states degrades [33]% faster", "[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]	
 	},
 	{	
@@ -1597,7 +1605,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"replacementTextForUniques": "-33% ¤Gold cost of upgrading,\n+15% City Strength from defensive buildings",
+		"replacementTextForUniques": "-33% ¤Gold cost of upgrading\n+15% City Strength from defensive buildings",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Tito]>", "[-33]% Gold cost of upgrading", "[+15]% City Strength from defensive buildings"]
 	},
 	{
@@ -1616,7 +1624,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Germany",
-		"replacementTextForUniques": "Provides a [Barracks] in your first 2 cities for free,\n+10% [Culture] in all cities when not at war"
+		"replacementTextForUniques": "Provides a [Barracks] in your first 2 cities for free\n+10% [Culture] in all cities when not at war"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "Provides a [Barracks] in your first [2] cities for free", "[+10]% [Culture] [in all cities] <when not at war>"]
 	},
 	{	
@@ -1652,7 +1660,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Spain",
-		"replacementTextForUniques": "+2 [Faith] and +5 [Gold] [in all cities] [on foreign continents],\n+1 [Science] [in all cities] not on foreign continents"
+		"replacementTextForUniques": "+2 [Faith] and +5 [Gold] [in all cities] [on foreign continents]\n+1 [Science] [in all cities] not on foreign continents"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +5 Gold, -1 Science] [in all cities] <on foreign continents>", "[+1 Science] [in all cities]"]
 	},
 	{	
@@ -1660,7 +1668,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Spain",
-		"replacementTextForUniques": "+15% †Strength for Military units when attacking on foreign continents,\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles"
+		"replacementTextForUniques": "+15% †Strength for Military units when attacking on foreign continents\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Charles V]>", "[+15]% Strength <for [Military] units> <when attacking> <on foreign continents>", "[+15]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>"]	
 	},
 	{
@@ -1708,7 +1716,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Finland",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting units from a Civilization with more Cities than you,\n+10% †Strength for Military units when fighting in Friendly Land tiles",
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting units from a Civilization with more Cities than you\n+10% †Strength for Military units when fighting in Friendly Land tiles",
 		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>","[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"]
 	},
 	{
@@ -1728,15 +1736,15 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-33]% less than normal"]
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-40]% less than normal]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-40]% less than normal"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+5% ⚙Production when constructing All units/buildings in all cities,\n+10% ⚙Production when constructing All units/buildings in all cities when at war",
+		"replacementTextForUniques": "+5% ⚙Production when constructing All units/buildings in all cities\n+10% ⚙Production when constructing All units/buildings in all cities when at war",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "[+5]% Production when constructing [All] units [in all cities]", "[+10]% Production when constructing [All] units [in all cities] <when at war>", "[+5]% Production when constructing [All] buildings [in all cities]", "[+10]% Production when constructing [All] buildings [in all cities] <when at war>"]
 	},
 	{	
@@ -1744,7 +1752,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +4% †Strength,\n+10% ⚙Production when constructing Military units in all cities",
+		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +4% †Strength\n+10% ⚙Production when constructing Military units in all cities",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+10]% Production when constructing [Military] units [in all cities]", "[+6]% Strength <for [Military] units>", "Gain a free [Trotsky ability] [in annexed cities] <upon conquering a city>"]
 	},
 	{
@@ -1857,7 +1865,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Columbia",
-		"replacementTextForUniques": "+20% †Strength for All units vs cities,\n+1 [Happiness] and +2 [Culture] in annexed cities",
+		"replacementTextForUniques": "+20% †Strength for All units vs cities\n+1 [Happiness] and +2 [Culture] in annexed cities",
 		"uniques": ["Can only be built [in capital]", "[+20]% Strength <for [All] units> <vs cities>", "[+1 Happiness, +2 Culture] [in annexed cities]"]
 	},
 	{
@@ -1878,7 +1886,7 @@
 		"cost":1,
 		"uniqueTo": "Brazil",
 		"greatPersonPoints": {"Great Artist": 1},
-		"replacementTextForUniques": "[[Great Artist] is earned [80]% faster],\n+1 [Great Artist] Point",
+		"replacementTextForUniques": "[[Great Artist] is earned [80]% faster]\n+1 [Great Artist] Point",
 		"uniques": ["Can only be built [in capital]", "[Great Artist] is earned [80]% faster"]
 	},
 	{
@@ -1897,7 +1905,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"replacementTextForUniques": "+3 [Culture] when below 0 [Happiness],\n+15% [Culture] in all cities while the empire is ⌣happy",
+		"replacementTextForUniques": "+3 [Culture] when below 0 [Happiness]\n+15% [Culture] in all cities while the empire is ⌣happy",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Fidel Castro]>", "[+3 Culture] <when below [0] Happiness>", "[+15]% [Culture] [in all cities] <while the empire is happy>"]	
 	},
 	{	
@@ -1954,7 +1962,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
-		"replacementTextForUniques": "+1 ⁂Food in all cities,\n+20% ⁂Food in capital"
+		"replacementTextForUniques": "+1 ⁂Food in all cities\n+20% ⁂Food in capital"
 		"uniques": ["Can only be built [in capital]", "[+1 Food] [in all cities]", "[+20]% [Food] [in capital]"]	   
 	},
 	{
@@ -1988,7 +1996,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "All newly-trained Military units in all cities receive the [Amphibious] promotion,\nGain 25-50 ¤Gold upon declaring war with a major Civilization"
+		"replacementTextForUniques": "All newly-trained Military units in all cities receive the [Amphibious] promotion\nGain 25-50 ¤Gold upon declaring war with a major Civilization"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [25]-[50] [Gold] <upon declaring war with a major Civilization>"]
 	},
 	{
@@ -2027,7 +2035,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"replacementTextForUniques": "+25% ⚙Production when constructing [Settler] units in capital,\n+3 ¤Gold in all cities connected to capital",
+		"replacementTextForUniques": "+25% ⚙Production when constructing [Settler] units in capital\n+3 ¤Gold in all cities connected to capital",
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+25]% Production when constructing [Settler] units [in capital]", "[+3 Gold] [in all cities connected to capital]"]	
 	},
 	{	
@@ -2102,7 +2110,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles,\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
 		"uniques": ["Can only be built [in capital]", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
 		
 	// 斯基泰
@@ -2112,7 +2120,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength,\nDouble quantity of [Horses] produced"
+		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength\nDouble quantity of [Horses] produced"
 		"uniques": ["Can only be built [in capital]","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion", "Double quantity of [Horses] produced"]
 	},
 	{
@@ -2131,7 +2139,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Polynesia",
-		"replacementTextForUniques": "+1 ⁂population in capital,\n+1 ⁂Food and +1 [Gold] from every Fishing Boats"
+		"replacementTextForUniques": "+1 ⁂population in capital\n+1 ⁂Food and +1 [Gold] from every Fishing Boats"
 		"uniques": ["Can only be built [in capital]", "[+1] population [in capital]", "[+1 Food, +1 Gold] from every [Fishing Boats]"]	  
 		
 	// 印度尼西亚
@@ -2141,8 +2149,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Indonesia",
-		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]"
-		"uniques": ["Can only be built [in capital]", "Resting point for Influence with City-States is increased by [30]"]
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]\n[[+1 Culture] from [Atoll] tiles [in all cities]]"
+		"uniques": ["Can only be built [in capital]", "Resting point for Influence with City-States is increased by [30]", "[+1 Culture] from [Atoll] tiles [in all cities]"]
     },
 	{
 		"name": "Kampung",
@@ -2159,7 +2167,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Yun Ji Court",
-		"replacementTextForUniques": "+10% ⚙Production when constructing Military units in all cities,\nReceive free ⛤Great General when you discover [Army Formation]"
+		"replacementTextForUniques": "+10% ⚙Production when constructing Military units in all cities\nReceive free ⛤Great General when you discover [Army Formation]"
 		"uniques": ["Can only be built [in capital]", "[+10]% Production when constructing [Military] units [in all cities]", "Free [Great General] appears <upon discovering [Army Formation]>"]	  
 	},
 	{
@@ -2177,7 +2185,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Glenn Empire",
-		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities,\n+2 Sight for Reconnaissance units"
+		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities\n+2 Sight for Reconnaissance units"
 		"uniques": ["Can only be built [in capital]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2] Sight <for [Reconnaissance] units>"]	  
 	},
 	{

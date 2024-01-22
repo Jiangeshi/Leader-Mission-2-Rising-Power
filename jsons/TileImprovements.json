@@ -5,7 +5,7 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "Pillaging this improvement yields approximately [+15 Gold]"],
     },
 	{
 		"name": "Mine",
@@ -13,7 +13,10 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", 
+		"[+1 Production] <after adopting [Agglomeration Planning]> <within [3] tiles of a [Mine]>", 
+		"[+1 Production] <after adopting [Agglomeration Planning]> <within [1] tiles of a [City center]>", 
+		"Pillaging this improvement yields approximately [+15 Gold]"],
 	},
 	{
 		"name": "Camp",
@@ -50,7 +53,7 @@
 		"techRequired": "Mining",
 		"uniques": [
 		"[+1 Production] <after discovering [Chemistry]>",
-		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+15 Gold]"],
 	},
 	{
 		"name": "Fishing Boats",
@@ -65,7 +68,7 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+15 Gold]"],
 	},
 	{
 		"name": "Spa",
@@ -74,7 +77,7 @@
 		"science": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Drama and Poetry",
-		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>"]	
+		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>"]	
 	},
 	{
 		"name": "Oil well",
@@ -242,7 +245,7 @@
 		"name": "Colony",
 		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [4] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Constructing it will take over the tiles around it and assign them to your closest city", 
+		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Constructing it will take over the tiles around it and assign them to your closest city", 
 		"Provides [1] [Number of Bonus] <with [1] to [1] neighboring [Bonus resource] tiles>",
 		"Provides [2] [Number of Bonus] <with [2] to [2] neighboring [Bonus resource] tiles>",
 		"Provides [3] [Number of Bonus] <with [3] to [3] neighboring [Bonus resource] tiles>",

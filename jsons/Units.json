@@ -53,7 +53,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -866,7 +866,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques":["[+50]% Strength <vs [Mobile] units>"]
+		"uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -920,7 +920,7 @@
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+50]% Strength <vs [Mobile] units>"]	    
+        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]	    
 		"attackSound": "metalhit"	
 	},
 	{

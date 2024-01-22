@@ -566,27 +566,37 @@
 	},
 	{
 		"name": "Number of Buildings",  
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 	    "uniques": ["City-level resource"]	
     },
 	{
 		"name": "Number of Leaders",  
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 	    "uniques": ["Not shown on world screen", "Cannot be traded"]
 	},
 	{
 		"name": "Number of Bonus",  
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 	    "uniques": ["City-level resource"]	
 	},
 	{
 		"name": "Number of Luxury",  
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 	    "uniques": ["City-level resource"]	 
 	},
 	{
 		"name": "Number of Strategic",  
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 	    "uniques": ["City-level resource"]	 
+	},
+	{
+		"name": "Number of Fighters",  
+		"resourceType": "Bonus",
+	    "uniques": ["Not shown on world screen", "Cannot be traded"]    
+	},
+	{
+		"name": "Number of Cities",  
+		"resourceType": "Bonus",
+	    "uniques": ["Not shown on world screen", "Cannot be traded"]    
 	}
 ]
