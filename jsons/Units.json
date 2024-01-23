@@ -1634,7 +1634,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat"],
 		"movement": 2	
 	},
 	{
@@ -1642,7 +1642,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Unbuildable", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Unbuildable", "Can be earned through combat", "Uncapturable"],
 		"movement": 4	
 	},
 	{
