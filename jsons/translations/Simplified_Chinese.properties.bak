@@ -32,6 +32,8 @@ Majority religion of ? * [civName] = 成为[civName]的多数宗教？
 
 World Wonder = 世界奇观
 
+[relativeAmount]% Yield from every [buildingFilter/tileFilter] = 每个[buildingFilter/tileFilter]建筑[relativeAmount]%所有产出
+
 
 Is part of Great Person group [comment] = 属于[comment]伟人池
 
@@ -39,8 +41,67 @@ Action = 行动
 Development = 发展
 Technology = 技术
 
+# 介绍
+Introduction = 1.1 模组介绍
+Welcome to Leader-Mission-2-Rising-Power!\nAs the second installment of the Leadership Mission series, Leadership Mission 2 has been limited in strength compared to the first generation civilization and optimized for the gaming experience. Having a good trip! = 欢迎游玩承天景命2-大国崛起！作为领袖使命系列的第二部作品，领袖使命2相比初代文明强度进行了限制，并优化了游戏体验。祝您游玩愉快！
+
+New Game = 1.2 厌战度
+Excessive military aggression will inevitably lead to the downfall of the country. [Warfare Aversion Level] will gradually increase as the war progresses and bring negative effects. Please closely monitor the changes in the [Warfare Aversion Level] during the war! = 国虽大，好战必亡！[Warfare Aversion Level]将随着战争的进行逐渐升高并带来负面效果，在进行战争时请密切关注国家的[Warfare Aversion Level]变化！
+The increase in Warfare Aversion Level: = 将导致厌战度增加：
+When in war, each turn will increase 1 [Warfare Aversion Level]. \nWhen one's own military unit is defeated, increase 1 [Warfare Aversion Level]. = 当处于战争时每回合+1[Warfare Aversion Level]\n当我方军事单位死亡时+1[Warfare Aversion Level]
+The decrease in Warfare Aversion Level: = 将导致厌战度减少：
+When not in war, reduce the [Warfare Aversion Level] per turn. When the [Warfare Aversion Level] is greater than 0/10/30/50/70/100, the reduced [Warfare Aversion Level] corresponds to 1/2/3/4/5/6.\nWhen defeating enemy military units reduce 1 [Warfare Aversion Level].\nWhen the [Warfare Aversion Level] is greater than 10 and conquering a city reduce 10 [Warfare Aversion Level]. = 当不处于战争时，每回合减少[Warfare Aversion Level]，在[Warfare Aversion Level]大于0/10/30/50/70/100时，减少的[Warfare Aversion Level]对应为1/2/3/4/5/6\n当击败敌方军事单位时减少1[Warfare Aversion Level]\n当占领城市且[Warfare Aversion Level]大于10时减少10[Warfare Aversion Level]
+The impact of Warfare Aversion Level: = 厌战度的影响：
+
+Unhappiness = 1.3 不满
+The impact of Unhappiness: = 不满的影响：
+
 # 难度
 Legend = 传奇
+
+# 政策
+Tradition = 奴隶制度
+Tradition Complete = 完整的奴隶制度
+Feudalism1 = 封建制度
+Centralization = 中央集权
+Lord-Vassal = 封君封臣
+Divine Right of Kings = 君权神授
+Feudalism1 Complete = 完整的封建制度
+Liberty = 资本制度
+Liberty Complete = 完整的资本制度
+Urbanization = 城市化
+Colonialism = 殖民主义
+Nationalism = 民族主义
+Imperialism = 帝国主义
+Autocracy = 独裁制度
+Military Chemical Industry = 军事化工业
+Autocracy Complete = 完整的独裁制度
+Hate Propaganda = 仇恨宣传
+Freedom = 自由制度
+Neoliberalism = 新自由主义
+Freedom Complete = 完整的自由制度
+Order = 社会制度
+The Five-Year Plan = 五年计划
+Order Complete = 完整的社会制度
+Populism = 民粹主义
+Honor = 战争政策
+Military Reclamation System = 军垦制度
+Military Reclamation can be carried out in cities with a garrison = 可以在拥有军事单位驻守的城市进行军垦
+Honor Complete = 完整的战争政策
+Piety = 宗教政策
+Piety Complete = 完整的宗教政策
+Industrial = 工业政策
+Industrialism = 重工主义
+Price Scissors = 工农业剪刀差
+Agglomeration Planning = 集聚规划
++1 [Production] from every [Mine] within 3 tiles of a [Mine] = 每个[Mine]在[Mine]3格范围内+1[Production]
++1 [Production] from every [Mine] within 1 tiles of a [City center] = 每个[Mine]在[City center]1格范围内+1[Production]
+Rural Population Migration = 农村人口迁移
+Sustainable Development = 可持续发展
+Industrial Complete = 完整的工业政策
+Patronage = 外交政策
+Patronage Complete = 完整的外交政策
+
 
 # 胜利
 Complete all the spaceship parts\nto win! = 建造完整的太空飞船\n来获取胜利！
@@ -67,6 +128,7 @@ God of Death = 死亡之神
 God of Flood = 泛滥之神
 God of Forging = 锻造之神
 God of River = 河神
+God of Water = 水神
 God of Wisdom = 智慧之神
 Messenger of God = 神明使者
 Miracle = 神迹
@@ -137,9 +199,10 @@ Artificial Intelligence = 人工智能
 Mobile Tactics = 信息化战争
 Internetwork = 互联网
 
-
 # 建筑
 Palace = 首都
+
+Military Reclamation = 军垦
 
 City Level I = 城市等级 I
 Bonfire = 篝火
@@ -191,7 +254,8 @@ Number of Leaders = 领袖数量
 Number of Bonus = 奖金资源数量
 Number of Luxury = 奢侈品资源数量
 Number of Strategic = 战略资源数量
-
+Number of Fighters = 战士数量
+Number of Cities = 城市数量
 
 # 地形
 Geothermal Crevice = 地热裂缝
@@ -396,11 +460,12 @@ Crossing the Mountain = 穿山
 
 # 伊朗
 Iran = 波斯
-+25% ⌣Golden Age length,\n+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age = +25%⌣黄金时代长度，\n处于⌣黄金时代时所有单位+1➡移动力+10%†战斗力
++25% ⌣Golden Age length\n+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age = +25%⌣黄金时代长度\n处于⌣黄金时代时所有单位+1➡移动力+10%†战斗力
 Civilized Leader-Darius I = 文明领袖-大流士一世
-+20% ⌣Golden Age length, \n+3 ⌣Happiness and +3 ¤Gold in capital during a ⌣Golden Age = +20%⌣黄金时代长度，\n处于⌣黄金时代时首都+3¤金钱+3⌣快乐
++20% ⌣Golden Age length, \n+3 ⌣Happiness and +3 ¤Gold in capital during a ⌣Golden Age = +20%⌣黄金时代长度\n处于⌣黄金时代时首都+3¤金钱+3⌣快乐
 Civilized Leader-Cyrus = 文明领袖-居鲁士大帝
 Empire enters ⌣Golden Age upon conquering a city = 占领城市时开启⌣黄金时代
+Civilized Leader-Khomeini = 文明领袖-霍梅尼
 Persian Immortal(Ranged) = 波斯长生军（远程）
 
 # 阿拉伯
@@ -412,15 +477,15 @@ Civilized Leader-Omar I = 文明领袖-欧麦尔一世
 +15% †Strength for Military units after enhancing a religion = 军事单位在加强宗教信仰后+15%†战斗力
 
 # 蒙古
-+10% †Strength for Military units when attack Major units,\n[+30% Strength when fighting City-State units and cities],\n+1 ➡Movement for Mobile units = 军事单位对战主要文明单位当进攻时+10%†战斗力，\n[+30% Strength when fighting City-State units and cities]，\n机动部队+1➡移动力
++30% †Strength for Military units vs City-States\n+10% †Strength for Military units when attack Major units\n+1 ➡Movement for Mobile units = 军事单位对战主要文明单位当进攻时+10%†战斗力\n军事单位对战城邦时+30%†战斗力\n机动部队+1➡移动力
 Posthouse = 驿站
 Civilized Leader-Genghis Khan = 文明领袖-成吉思汗
 +1 ⁂population in capital and gain a Free ⍾Technology upon conquering a city = 占领一个城市时首都+1⁂人口并获得1项免费⍾科技
 Civilized Leader-Kublai = 文明领袖-忽必烈
-+1 ⚙Production from every Posthouse,\n-50% ¤maintenance on road & railroads = 每个驿站+1⚙产能，\n道路和铁路¤维护费-50%
++1 ⚙Production from every Posthouse\n-50% ¤maintenance on road & railroads = 每个驿站+1⚙产能\n道路和铁路¤维护费-50%
 
 # 印度
-+50% unhappiness from the number of cities,\n-50% Unhappiness from Population in all cities,\n+33% ⁂growth in all cities = 城市数量造成的不快乐+50%，\n每座城市人口数量造成的不快乐-50%，\n每座城市+33%⁂人口增长
++50% unhappiness from the number of cities\n-50% Unhappiness from Population in all cities\n+33% ⁂growth in all cities = 城市数量造成的不快乐+50%\n每座城市人口数量造成的不快乐-50%\n每座城市+33%⁂人口增长
 Civilized Leader-Gandhi = 文明领袖-甘地
 +25% ♪Culture when not at war = 当不处于战争时+25%♪文化
 Civilized Leader-Nehru = 文明领袖-尼赫鲁
@@ -432,20 +497,20 @@ Can have two Leaders, but War Type Bonus Leaders can only choose one = 可以选
 Ancient Chinese Chariot = 中华古战车
 Rockery Garden = 园林
 Civilized Leader-Emperor Huang = 文明领袖-黄帝
-+2 ♪Culture in all cities before the Classical era,\n+1 ♪Culture in all cities starting from the Classical era = 每座城市在远古时代+2♪文化，\n每座城市自古典时代起+1♪文化
++2 ♪Culture in all cities before the Classical era\n+1 ♪Culture in all cities starting from the Classical era = 每座城市在远古时代+2♪文化\n每座城市自古典时代起+1♪文化
 Civilized Leader-First Emperor of Qin = 文明领袖-秦始皇
-+10% †Strength for Military units before discovering [Nation],\n+33% ⚙Production when constructing National Wonder wonders in all cities = 在研究[Nation]前军事单位+10%†战斗力，\n每座城市在建造国家奇观时+33%⚙产能
++10% †Strength for Military units before discovering [Nation]\n+33% ⚙Production when constructing National Wonder wonders in all cities = 在研究[Nation]前军事单位+10%†战斗力\n每座城市在建造国家奇观时+33%⚙产能
 Civilized Leader-Emperor Wu of Han = 文明领袖-汉武帝
-⛤Great General provides double †combat bonus,\n+33% ¤maintenance costs for Military units = ⛤大军师家提供双倍†战斗力加成，\n军事单位¤维护费需求+33%
+⛤Great General provides double †combat bonus\n+33% ¤maintenance costs for Military units = ⛤大军师家提供双倍†战斗力加成\n军事单位¤维护费需求+33%
 Civilized Leader-Emperor Taizong of Tang = 文明领袖-唐太宗
 +75% Great Person generation in all cities = 每座城市伟人点数生成速度+75%
 Civilized Leader-Emperor Taizu of Song = 文明领袖-宋太祖
-+10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles,\n+15% ⍾Science and ♪Culture in all cities = 军事单位在友好/敌国领土地块上作战时+10%/-10%†战斗力，\n每座城市+15%⍾科研和♪文化
++10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles\n+15% ⍾Science and ♪Culture in all cities = 军事单位在友好/敌国领土地块上作战时+10%/-10%†战斗力\n每座城市+15%⍾科研和♪文化
 Civilized Leader-Chairman Mao = 文明领袖-毛主席
-+1 ➡Movement for Foot Soldier units,\n+15% ⚙Production when constructing Civilian units in all cities = 步兵单位+1➡移动力，\n每座城市建造平民单位时+15%⚙产能
++1 ➡Movement for Foot Soldier units\n+15% ⚙Production when constructing Civilian units in all cities = 步兵单位+1➡移动力\n每座城市建造平民单位时+15%⚙产能
 
 # 朝鲜
-+2 ⍾Science from every specialist in all cities,\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital = 每座城市中的每个专业人员+2⍾科研，\n每当在首都建成⍾科研建筑/奇观时立刻获得一次⍾科研点数奖励
++2 ⍾Science from every specialist in all cities\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital = 每座城市中的每个专业人员+2⍾科研\n每当在首都建成⍾科研建筑/奇观时立刻获得一次⍾科研点数奖励
 Korean Academy = 书院
 Civilized Leader-Kim Il-sung = 文明领袖-金日成
 Earn 75% of killed Military unit's †Strength as ♪Culture = 击杀☠敌方军事单位后可获得♪文化（≈已击杀☠单位的†战斗力×75%）
@@ -475,7 +540,7 @@ Sariwon = 沙里院
 Changwon = 昌原
 
 # 巴比伦
-Gain 33% of the required [Production] demand for [Science] upon constructing Buildings in all cities = 当建造完成建筑时获得建筑[Production]需求33%的[Science]
+Gain 45% of the required [Production] demand for [Science] upon constructing Buildings in all cities = 当建造完成建筑时获得建筑[Production]需求45%的[Science]
 Civilized Leader-Nebuchadnezzar II = 文明领袖-尼布甲尼撒二世
 -66% [Culture] cost of natural border growth in all cities = 每座城市自然扩张的[Culture]需求-66%
 Civilized Leader-Hammurabi = 文明领袖-汉谟拉比
@@ -484,11 +549,11 @@ Civilized Leader-Hammurabi = 文明领袖-汉谟拉比
 # 阿富汗
 Afghanistan = 阿富汗
 Graveyard of Empires = 帝国坟场
-Enemy military units must spend 1 extra ➡movement points when inside your territory,\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory = 敌方的所有军事单位必须在你的土地上额外花费1➡移动力，机动部队需额外花费1➡移动力
+Enemy military units must spend 1 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory = 敌方的所有军事单位必须在你的土地上额外花费1➡移动力，机动部队需额外花费1➡移动力
 Civilized Leader-Hafizullah Amin = 文明领袖-哈菲佐拉·阿明
 +15% [Science] and [Culture] in all cities when at war = 当处于战争时每座城市+15%[Science]和[Culture]
 Civilized Leader-Daoud Khan = 文明领袖-达乌德·汗
-+1 [Production] in all cities,\n+25% ⁂growth in all cities when at war = 每座城市+1[Production]，\n当处于战争时每座城市+25%⁂人口增长
++1 [Production] in all cities\n+25% ⁂growth in all cities when at war = 每座城市+1[Production]\n当处于战争时每座城市+25%⁂人口增长
 Minaret of Jam = 贾姆宣礼塔
 Bazooka = 火箭筒游击军
 Kabul = 喀布尔
@@ -562,22 +627,41 @@ Play Ku = 波来古
 Buon Me Thuot = 邦美蜀
 Thu Dau Mot = 土龙木
 
-
-
+# 巴勒斯坦
+Palestine = 巴勒斯坦
+Freedom Will = 自由意志
+Ramallah = 拉马腊
+Gaza = 加沙
+Rafah = 拉法
+Northern Province = 北方省
+Khan Yunis = 汉尤尼斯
+Dair al-Balah = 代尔拜莱赫
+Hebron = 希伯伦
+Bethlehem = 伯利恒
+Jenin = 杰宁
+Tulkarm = 图勒凯尔姆
+Nablus = 纳布卢斯
+Jericho = 杰里科
+Civilized Leader-Ahmed Yassin = 文明领袖-亚辛
++15% [Production] when constructing Military units in all cities when at war\n+10% [Production] when constructing Military units in capital = 当处于战争时每座城市建造军事单位时+15%[Production]\n首都建造军事单位时+10%[Production]
+Civilized Leader-Yasser Arafat = 文明领袖-阿拉法特
++1 [Gold] from every [Science] and [Culture] buildings = 每个[Science], [Culture]建筑+1[Gold]
+When you have n cities, if your basic military units are less than n, you will automatically receive n basic military units upon turn end, up to a maximum of three.\nThe fewer cities there are, the higher the †Strength of military units. = 当你拥有n座城市时，如果你的基础军事单位少于n个，则在回合结束后自动补齐至n个，最多补齐至三个\n城市数量越少，军事单位†战斗力越高
+Wailing Wall = 哭墙
 
 # 希腊
 Enlightenment of Western Philosophy = 西方哲学启蒙
-+80 ♪Culture and +180 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier = 消耗伟人时获得80 ♪文化和180 ⍾科研，\n消耗伟人获得的⍾科研受到⍾⏳科研成本修正的影响
++80 ♪Culture and +180 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier = 消耗伟人时获得80 ♪文化和180 ⍾科研\n消耗伟人获得的⍾科研受到⍾⏳科研成本修正的影响
 Civilized Leader-Pericles = 文明领袖-伯里克利
 +1 ⍾Science and +1 ♪Culture from all ⌣Happiness buildings = 所有快乐建筑+1⍾科研+1♪文化
 Civilized Leader-Leonidas = 文明领袖-列奥尼达
-+50% XP gained from †combat for Melee units, \nDamage is ignored when determining unit †Strength for Melee units = 近战单位从†战斗中获得的经验+50%，\n当知晓单位†强度时近战单位将会忽视单位损伤
++50% XP gained from †combat for Melee units, \nDamage is ignored when determining unit †Strength for Melee units = 近战单位从†战斗中获得的经验+50%\n当知晓单位†强度时近战单位将会忽视单位损伤
 Acropolis = 卫城
 
 # 马其顿
 Macedonia = 马其顿
 The Conqueror's Army = 征服者之师
--33% ¤maintenance costs for Military units,\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit = 军事单位¤维护费需求-33%，\n当军事单位☠击败主要文明单位时立即降低1[Warfare Aversion Level]
+-33% ¤maintenance costs for Military units\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit = 军事单位¤维护费需求-33%\n当军事单位☠击败主要文明单位时立即降低1[Warfare Aversion Level]
 Military Royal School = 皇家军事学院
 Hypaspist = 持盾护卫
 Civilized Leader-Alexander = 文明领袖-亚历山大大帝
@@ -613,10 +697,10 @@ Novazi = 诺瓦齐
 
 # 法兰西
 Revolutionary Tradition = 革命传统
-Greater than or equal to -10 ⌣Happiness,\nevery increase of 5 ⌣Happiness +1 ♪Culture,\nup to +7 ♪Culture\n\nLess than or equal to 10 ⌣Happiness,\nas ⌣Happiness decreases,\n†combat Strength for Military units gradually increases,\nup to +20% †combat Strength = 当⌣快乐≥-10时，\n每提高5⌣快乐+1♪文化，\n最高+7♪文化\n\n当⌣快乐≤10时，\n†战斗力会随着⌣快乐的减少而增加，\n最高增加20%†战斗力
+Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture\nup to +7 ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength = 当⌣快乐≥-10时\n每提高5⌣快乐+1♪文化\n最高+7♪文化\n\n当⌣快乐≤10时\n†战斗力会随着⌣快乐的减少而增加\n最高增加20%†战斗力
 French Castle = 法兰西城堡
 Civilized Leader-De Gaulle = 文明领袖-戴高乐
-¤Gold cost of purchasing items in cities -20%,\n+2 ¤Gold per 1 social policies adopted = 在城市建造建筑/组建单位时的¤金钱花费-20%，\n每推行一个政策+2¤金钱
+¤Gold cost of purchasing items in cities -20%\n+2 ¤Gold per 1 social policies adopted = 在城市建造建筑/组建单位时的¤金钱花费-20%\n每推行一个政策+2¤金钱
 Civilized Leader-Napoleon = 文明领袖-拿破仑
 +25% †Strength for Siege units vs Military units when attacking = 攻城单位对战军事单位当进攻时+25%†战斗力
 Civilized Leader-Louis XIV = 文明领袖-路易十四
@@ -625,58 +709,57 @@ Civilized Leader-Louis XIV = 文明领袖-路易十四
 # 土耳其
 Turkey = 土耳其
 Star And Moon = 星与月
-Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities,\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale = 在每座城市建造☮信仰建筑后获得[Great Prophet]☮信仰需求的15%的☮信仰，\n可以在城市中以1:1的比例将⚙产能转化为☮信仰
+Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale = 在每座城市建造☮信仰建筑后获得[Great Prophet]☮信仰需求的15%的☮信仰\n可以在城市中以1:1的比例将⚙产能转化为☮信仰
 Galata Tower = 加拉太塔
 Civilized Leader-Osman I = 文明领袖-奥斯曼一世
-☮Faith cost of purchasing items in cities -10%,\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost = 在城市建造建筑/购买单位时的☮信仰花费-10%，\n可以用☮信仰购买军事单位，价格为其正常⚙生产成本的三倍
+☮Faith cost of purchasing items in cities -10%\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost = 在城市建造建筑/购买单位时的☮信仰花费-10%\n可以用☮信仰购买军事单位，价格为其正常⚙生产成本的三倍
 Civilized Leader-Suleiman = 文明领袖-苏莱曼大帝
 +2 XP gained from †combat for Military units = 军事单位从†战斗中获得的经验+2
 Civilized Leader-Kemal = 文明领袖-凯末尔
-Nullifies ☮Faith in all cities,\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +1 [Gold] from all ☮Faith buildings = 消除每座城市的☮信仰产出，\n所有☮信仰建筑+1⚙产能+1⍾科研+1[Culture]+1[Gold]
+Nullifies ☮Faith in all cities\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +1 [Gold] from all ☮Faith buildings = 消除每座城市的☮信仰产出\n所有☮信仰建筑+1⚙产能+1⍾科研+1[Culture]+1[Gold]
 
 # 俄罗斯
 Wealth of Siberia = 西伯利亚的财富
-+1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring [Tundra] tiles,\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring [Tundra] tiles,\n+1 ⚙Production from every Strategic resource and Great Improvement = 每座城市当与1到3[Tundra]地块相邻时+1☮信仰+1⁂食物，\n每座城市当与4到6[Tundra]地块相邻时+2☮信仰+2⁂食物，\n每个战略资源或伟人设施+1⚙产能
++1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring [Tundra] tiles\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring [Tundra] tiles\n+1 ⚙Production from every Strategic resource and Great Improvement = 每座城市当与1到3[Tundra]地块相邻时+1☮信仰+1⁂食物\n每座城市当与4到6[Tundra]地块相邻时+2☮信仰+2⁂食物\n每个战略资源或伟人设施+1⚙产能
 Lavra Monastery = 拉夫拉修道院
 Civilized Leader-Peter = 文明领袖-彼得大帝
-+2 ⍾Science and +2 ¤Gold from each Trade Route = 每条贸易路线+2¤金钱+2⍾科研
++2 ⍾Science and +3 ¤Gold from each Trade Route = 每条贸易路线+3¤金钱+2⍾科研
 Civilized Leader-Catherine = 文明领袖-叶卡捷琳娜大帝
-+10% †Strength for Military units when fighting in Enemy Land tiles = 军事单位在敌国领土地块上作战时+10%†战斗力
 Civilized Leader-Lenin-Russia = 文明领袖-列宁
 
 # 拜占庭
-May choose 1 additional ☮belief(s) of any type when founding a ☮religion,\nMajor Nation's Military units -5/-10/-15% †Strength after their Nations founding a ☮Pantheon/founding a ☮religion/enhancing a ☮religion when fighting with Byzantine units = 当创立一个☮宗教时，可以选择1个任意类型的额外☮信仰，\n主要文明的军事单位在其文明创立一个☮万神殿后/创立一个☮宗教后/强化一个☮宗教后对战拜占庭单位时-5/-10/-15%†战斗力
+May choose 1 additional ☮belief(s) of any type when founding a ☮religion\nMajor Nation's Military units -5/-10/-15% †Strength after their Nations founding a ☮Pantheon/founding a ☮religion/enhancing a ☮religion when fighting with Byzantine units = 当创立一个☮宗教时，可以选择1个任意类型的额外☮信仰\n主要文明的军事单位在其文明创立一个☮万神殿后/创立一个☮宗教后/强化一个☮宗教后对战拜占庭单位时-5/-10/-15%†战斗力
 Racetrack = 跑马场
 Civilized Leader-Constantine I = 文明领袖-君士坦丁一世
 -50% ☮Faith cost of generating [Great Prophet] equivalents = 获得[Great Prophet]的必须☮信仰-50%
 Civilized Leader-Justinian I = 文明领袖-查士丁尼一世
-+1 ☮Faith in all cities,\n+2 ☮Faith in capital = 每座城市+1☮信仰，\n首都+2☮信仰
++1 ☮Faith in all cities\n+2 ☮Faith in capital = 每座城市+1☮信仰\n首都+2☮信仰
 
 # 罗马
 All Roads Lead To Rome = 条条大路通罗马
-+15% ⚙Production towards any buildings that already exist in the Capital,\n+1 ⚙Production in all cities connected to capital = 当所有在首都已建成的建筑在其他城市建造时+15%⚙产能，\n每座有贸易路线与首都相连的城市+1⚙产能
++15% ⚙Production towards any buildings that already exist in the Capital\n+1 ⚙Production in all cities connected to capital = 当所有在首都已建成的建筑在其他城市建造时+15%⚙产能\n每座有贸易路线与首都相连的城市+1⚙产能
 Column = 纪功柱
 Civilized Leader-Octavius = 文明领袖-屋大维
-+10% ⚙Production when constructing All buildings in capital,\n+10 ⚙Production when constructing Military units in all cities = 首都建造所有建筑时+10%⚙产能，\n每座城市建造军事单位时+10%⚙产能
++10% ⚙Production when constructing All buildings in capital\n+10 ⚙Production when constructing Military units in all cities = 首都建造所有建筑时+10%⚙产能\n每座城市建造军事单位时+10%⚙产能
 Civilized Leader-Cesar = 文明领袖-恺撒
 +10% †Strength for Military units when adjacent to a Military unit = 军事单位当和军事单位相邻时+10%†战斗力
 
 # 英格兰
-Shooter and Siege units may attack without combat penalty for attacking across a coast when embarked,\nWater units and Embarked units +1 ➡Movement = 射手和攻城单位在船载状态可以攻击并消除跨海攻击带来的负面影响(-50%)，\n船载单位以及水上单位+1 ➡移动力
+Shooter and Siege units may attack without combat penalty for attacking across a coast when embarked\nWater units and Embarked units +1 ➡Movement = 射手和攻城单位在船载状态可以攻击并消除跨海攻击带来的负面影响(-50%)\n船载单位以及水上单位+1 ➡移动力
 Civilized Leader-Queen Victoria = 文明领袖-维多利亚女王
-Empire enters a 3-turn ⌣Golden Age upon founding a city,\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age = 创立城市时开启3回合⌣黄金时代，\n在⌣黄金时代期间每座城市+15%⚙产能和♪文化
+Empire enters a 3-turn ⌣Golden Age upon founding a city\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age = 创立城市时开启3回合⌣黄金时代\n在⌣黄金时代期间每座城市+15%⚙产能和♪文化
 Civilized Leader-Churchill = 文明领袖-丘吉尔
-[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level],\n+5% ⚙Production in all cities when at war = [Warfare Aversion Level]当大于30时停止自然增长，\n当处于战争时每座城市+5%⚙产能
+[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]\n+5% ⚙Production in all cities when at war = [Warfare Aversion Level]当大于30时停止自然增长\n当处于战争时每座城市+5%⚙产能
 Royal Navy Dockyard = 皇家海军船坞
 
 # 塞尔维亚
 Serbia = 塞尔维亚
 Balkan Tiger = 巴尔干之虎
-Earn 20% of the damage done to Military units as ♪Culture,\n+10%/20% †Strength for Military units when below 66/33 HP = 获得对军事单位造成的20%伤害作为♪文化，\n军事单位当低于66/33生命值时+10%/20%†战斗力
+Earn 20% of the damage done to Military units as ♪Culture\n+10%/20% †Strength for Military units when below 66/33 HP = 获得对军事单位造成的20%伤害作为♪文化\n军事单位当低于66/33生命值时+10%/20%†战斗力
 Civilized Leader-Tito = 文明领袖-铁托
-Influence of all other civilizations with all city-states degrades 33% faster,\n+10% †Strength when fighting units from a Civilization with more Cities than you = 其他文明对城邦的影响力下降速度+33%，\n当和来自比你拥有更多城市的文明的单位作战时+10%†战斗力
+Influence of all other civilizations with all city-states degrades 33% faster\n+10% †Strength when fighting units from a Civilization with more Cities than you = 其他文明对城邦的影响力下降速度+33%\n当和来自比你拥有更多城市的文明的单位作战时+10%†战斗力
 Civilized Leader-Milosevic = 文明领袖-米洛舍维奇
--33% ¤Gold cost of upgrading,\n+15% City Strength from defensive buildings = -33%升级¤金钱花费，\n+15%来自防御建筑的城市强度
+-33% ¤Gold cost of upgrading\n+15% City Strength from defensive buildings = -33%升级¤金钱花费\n+15%来自防御建筑的城市强度
 Studenica Monastery = 斯图代尼察修道院
 Cobra Commando = 眼镜蛇突击队
 Belgrade = 贝尔格莱德
@@ -711,10 +794,10 @@ Toplički = 托普利卡
 
 # 德意志
 Prussian Spirit = 普鲁士精神
-+1 [Science] from all [Science] buildings when not at war,\n+1 [Production] from all [Production] buildings when at war = 当不处于战争时所有[Science]建筑+1[Science]，\n当处于战争时所有[Production]建筑+1[Production]
++1 [Science] from all [Science] buildings when not at war\n+1 [Production] from all [Production] buildings when at war = 当不处于战争时所有[Science]建筑+1[Science]\n当处于战争时所有[Production]建筑+1[Production]
 Hanse = 商业同业公会
 Civilized Leader-Bismarck = 文明领袖-俾斯麦
-Provides a [Barracks] in your first 2 cities for free,\n+10% [Culture] in all cities when not at war = 前两座城市免费获得一座[Barracks]，\n当不处于战争时每座城市+10%[Culture]
+Provides a [Barracks] in your first 2 cities for free\n+10% [Culture] in all cities when not at war = 前两座城市免费获得一座[Barracks]\n当不处于战争时每座城市+10%[Culture]
 Civilized Leader-Barbarossa = 文明领袖-巴巴罗萨
 When conquering an encampment, earn 100 [Gold] and recruit a [Barbarians] unit = 从被占领的[Barbarian encampment]中俘获一个[Barbarians]并获得100[Gold]
 Civilized Leader-Thaelmann = 文明领袖-台尔曼
@@ -722,20 +805,20 @@ Civilized Leader-Thaelmann = 文明领袖-台尔曼
 
 # 西班牙
 Conquerors of the New World = 新大陆征服者
-[Great General] and [Great Admiral] can instantly construct a [Colony] improvement one time,\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +15[Gold]/ +1 [Production] for the nearest City, and Each City can receive up to +10[Food]/ +150[Gold]/ +10 [Production],\nReceive free [Great Admiral] when you discover [Compass], [Astronomy] and [Navigation]\n\n[Colony]:\n[Can be built outside your borders],\n[Removes removable features when built],\nCannot be built on [Land] tiles within [4] tiles of a [City center],\nCannot be built on [Land] tiles within [2] tiles of a [Colony],\n[Adjacent enemy units ending their turn take [10] damage],\n[Constructing it will take over the tiles around it and assign them to your closest city] = [Great General]和[Great Admiral]可立即建造一次[Colony]地块设施，\n殖民地范围内的每一个⁂奖金/⌣奢侈品/⚙战略资源将为最近的城市提供+1[Food]/+15[Gold]/+1[Production]，每座城市最高可获得+10[Food]/+150[Gold]/+10[Production]，\n当研究[Compass]，[Astronomy]和[Navigation]后获得免费的[Great Admiral]\n\n[Colony]:\n[Can be built outside your borders],\n[Removes removable features when built],\n在[City center]周围四格地块内无法建造,\n在[Colony]周围两格地块内无法建造\n[Adjacent enemy units ending their turn take [10] damage],\n[Constructing it will take over the tiles around it and assign them to your closest city]
+[Great General] and [Great Admiral] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +15[Gold]/ +1 [Production] for the nearest City, and Each City can receive up to +10[Food]/ +150[Gold]/ +10 [Production]\nReceive free [Great Admiral] when you discover [Compass], [Astronomy] and [Navigation]\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+1 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\n[Constructing it will take over the tiles around it and assign them to your closest city] = [Great General]和[Great Admiral]可立即建造一次[Colony]地块设施\n殖民地范围内的每一个⁂奖金/⌣奢侈品/⚙战略资源将为最近的城市提供+1[Food]/+15[Gold]/+1[Production]，每座城市最高可获得+10[Food]/+150[Gold]/+10[Production]\n当研究[Compass]，[Astronomy]和[Navigation]后获得免费的[Great Admiral]\n殖民地范围内的自然奇观+50%产出\n\n[Colony]:\n+1 [Gold]\n[Can be built outside your borders]\n[Removes removable features when built]\n在[City center]周围三格地块内无法建造\n在[Colony]周围两格地块内无法建造\n[Adjacent enemy units ending their turn take [10] damage]\n[Constructing it will take over the tiles around it and assign them to your closest city]
 Colony = 殖民地
 Spanish ability = 西班牙能力
 Civilized Leader-Charles V = 文明领袖-查理五世
-+2 [Faith] and +5 [Gold] [in all cities] [on foreign continents],\n+1 [Science] [in all cities] not on foreign continents = 在首都所在大陆的每座城市+1[Science]，\n在异大陆的每座城市+2[Faith]+5[Gold]
++2 [Faith] and +5 [Gold] [in all cities] [on foreign continents]\n+1 [Science] [in all cities] not on foreign continents = 在首都所在大陆的每座城市+1[Science]\n在异大陆的每座城市+2[Faith]+5[Gold]
 Civilized Leader-Franco = 文明领袖-弗朗哥
-+15% †Strength for Military units when attacking on foreign continents,\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles = 军事单位在异大陆攻击时+15%†战斗力，\n军事单位在友好领土地块上防御时+15%†战斗力
++15% †Strength for Military units when attacking on foreign continents\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles = 军事单位在异大陆攻击时+15%†战斗力\n军事单位在友好领土地块上防御时+15%†战斗力
 
 # 芬兰
 Finland = 芬兰
 Snow Ghost = 雪地幽灵
-+1/+2 ➡[Movement] for All units in Tundra/Snow tiles,\n+1 [Gold]/+1 [Food] from Tundra/Snow tiles in all cities = 所有单位在冻土/雪地地块+1/+2➡[Movement],\n每座城市冻土/雪地地块+1[Gold]/+1[Food]
++1/+2 ➡[Movement] for All units in Tundra/Snow tiles\n+1 [Gold]/+1 [Food] from Tundra/Snow tiles in all cities = 所有单位在冻土/雪地地块+1/+2➡[Movement]\n每座城市冻土/雪地地块+1[Gold]/+1[Food]
 Civilized Leader-Mannerheim = 文明领袖-曼纳海姆
-+10% †Strength for Military units when fighting units from a Civilization with more Cities than you,\n+10% †Strength for Military units when fighting in Friendly Land tiles = 军事单位当和来自比你拥有更多城市的文明的单位作战时+10%†战斗力，\n军事单位在友好领土地块上作战时+10%†战斗力
++10% †Strength for Military units when fighting units from a Civilization with more Cities than you\n+10% †Strength for Military units when fighting in Friendly Land tiles = 军事单位当和来自比你拥有更多城市的文明的单位作战时+10%†战斗力\n军事单位在友好领土地块上作战时+10%†战斗力
 Santa Claus House = 圣诞老人之家
 Helsinki = 赫尔辛基
 Espoo = 埃斯波
@@ -769,9 +852,9 @@ Can spend Gold to annex or puppet a City-State that has been your ally for [amou
 [civName] has married into the ruling family of [civName2], bringing them under their control. = [civName]已与[civName2]达成协议，使他们加入了苏维埃联盟之中。
 Civilized Leader-Lenin = 文明领袖-列宁
 Civilized Leader-Stalin = 文明领袖-斯大林
-+5% ⚙Production when constructing All units/buildings in all cities,\n+10% ⚙Production when constructing All units/buildings in all cities when at war = 每座城市建造所有军事单位/建筑时+5%⚙产能，当处于战争时这个数值变为15%
++5% ⚙Production when constructing All units/buildings in all cities\n+10% ⚙Production when constructing All units/buildings in all cities when at war = 每座城市建造所有军事单位/建筑时+5%⚙产能，当处于战争时这个数值变为15%
 Civilized Leader-Trotsky = 文明领袖-托洛茨基
-Initially possessing +6% †Strength, then each annexed city +4% †Strength,\n+10% ⚙Production when constructing Military units in all cities = 初始拥有军事单位+6%†战斗力，之后每占领一座城市军事单位+4%†战斗力，\n每座城市建造军事单位时+10%⚙产能
+Initially possessing +6% †Strength, then each annexed city +4% †Strength\n+10% ⚙Production when constructing Military units in all cities = 初始拥有军事单位+6%†战斗力，之后每占领一座城市军事单位+4%†战斗力\n每座城市建造军事单位时+10%⚙产能
 Trotsky ability = 托洛茨基能力
 Red Square = 红场
 Defend the Motherland = 卫国
@@ -822,7 +905,7 @@ Poland = 波兰
 Civilized Leader-Jan III Sobieski = 文明能力-扬三世·索别斯基
 Civilized Leader-Pilsudski = 文明能力-毕苏斯基
 Polish Zionism = 平独镇露
-All units [Ignores Zone of Control] after discovering [Army Formation],\nAll units [May enter foreign tiles without open borders] after discovering [Nation] = 研究[Army Formation]后所有单位[Ignores Zone of Control],\n研究[Nation]后所有单位[May enter foreign tiles without open borders]
+All units [Ignores Zone of Control] after discovering [Army Formation]\nAll units [May enter foreign tiles without open borders] after discovering [Nation] = 研究[Army Formation]后所有单位[Ignores Zone of Control]\n研究[Nation]后所有单位[May enter foreign tiles without open borders]
 Winged Hussar = 翼骑兵
 Ducal Stable = 公爵马厩
 Warsaw = 华沙
@@ -851,12 +934,20 @@ Rybnik = 里布尼克
 Bytom = 比托姆
 Olsztyn = 奥尔什丁
 
+# 梵蒂冈
+Vatican = 梵蒂冈
+Vatican City = 梵蒂冈城
+Catholic Holy Land = 天主教圣地
+Basilica Di San Pietro In Vaticano = 圣彼得大教堂
+Templar Knight = 圣殿骑士
+
+
 # 印加
 Descendants of the Sun = 太阳神的子孙
-Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities = 单位进入丘陵地块不消耗➡移动力，\n没有⁂奖金资源的丘陵地块+1☮信仰
+Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities = 单位进入丘陵地块不消耗➡移动力\n没有⁂奖金资源的丘陵地块+1☮信仰
 Inca Pyramid = 印加金字塔
 Civilized Leader-Pachacutec = 文明领袖-帕查库特克
--15% ⏳tile improvement construction time = -15%⏳地块设施建造时间
+-15% ⏳construction time for All improvements = 对所有地块设施-15%⏳建造时间
 
 # 阿兹特克
 Golden Empire = 黄金帝国
@@ -865,7 +956,7 @@ Civilized Leader-Montezuma I = 文明领袖-蒙特祖玛一世
 Earn 75% of killed☠ Military unit's †Strength as ♪Culture = 击杀☠敌方军事单位后可获得♪文化（≈已击杀☠单位的†战斗力×75%）
 
 # 玛雅
-Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once,\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count = 在研究[Theology]后，在每个玛雅长历法结束时（每394年）得到一个免费的伟人，每个奖励只能选择一次，\n一旦长计数激活，世界屏幕上的年份将显示为传统的玛雅长计数。
+Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count = 在研究[Theology]后，在每个玛雅长历法结束时（每394年）得到一个免费的伟人，每个奖励只能选择一次\n一旦长计数激活，世界屏幕上的年份将显示为传统的玛雅长计数。
 Civilized Leader-Pacal = 文明领袖-帕卡尔
 +15% ⚙Production in other cities = 其他城市+15%⚙产能
 
@@ -874,7 +965,7 @@ Columbia = 哥伦比亚
 Liberation Army = 解放之军
 +10% †Strength within 3 tiles of a [City center] for Military units = 军事单位在[City center]三格范围内时+10%†战斗力
 Civilized Leader-Bolivar = 文明领袖-玻利瓦尔
-+20% †Strength for All units vs cities,\n+1 [Happiness] and +2 [Culture] in annexed cities = 所有军事单位对战城市+20%†战斗力，\n每座被吞并的城市+1[Happiness]+2[Culture]
++20% †Strength for All units vs cities\n+1 [Happiness] and +2 [Culture] in annexed cities = 所有军事单位对战城市+20%†战斗力\n每座被吞并的城市+1[Happiness]+2[Culture]
 Cowboy Cavalry = 牛仔骑兵
 Grand Manor = 大庄园
 Bogota = 波哥大
@@ -913,11 +1004,11 @@ Mitu = 米图
 # 巴西
 Brazil = 巴西
 Tropical Heritage = 热带遗产
-+1 [Food] from Jungle tiles without [Lumber mill] in all cities,\n+2 [Food] from Jungle tiles without [Lumber mill] in all cities after discovering [Ecology],\n+1 [Culture] from Fresh Water tiles in all cities,\n+2 [Culture] from Fresh Water tiles in all cities after discovering [Ecology] = 每座城市没有[Lumber mill]的丛林地块+1[Food],\n当研究[Ecology]后每座城市没有[Lumber mill]的丛林地块+2[Food],\n每座城市的淡水地块+1[Culture],\n当研究[Ecology]后每座城市的淡水地块+2[Culture]
++1 [Food] from Jungle tiles without [Lumber mill] in all cities\n+2 [Food] from Jungle tiles without [Lumber mill] in all cities after discovering [Ecology]\n+1 [Culture] from Fresh Water tiles in all cities\n+2 [Culture] from Fresh Water tiles in all cities after discovering [Ecology] = 每座城市没有[Lumber mill]的丛林地块+1[Food]\n当研究[Ecology]后每座城市没有[Lumber mill]的丛林地块+2[Food]\n每座城市的淡水地块+1[Culture]\n当研究[Ecology]后每座城市的淡水地块+2[Culture]
 Minas Gerais Battleship = 米纳斯吉拉斯级战列舰
 Street Carnival = 街头狂欢节
 Civilized Leader-Pedro I = 文明领袖-佩德罗一世
-[[Great Artist] is earned [80]% faster],\n+1 [Great Artist] Point = [[Great Artist] is earned [80]% faster],\n+1 [Great Artist]点数
+[[Great Artist] is earned [80]% faster]\n+1 [Great Artist] Point = [[Great Artist] is earned [80]% faster]\n+1 [Great Artist]点数
 Brasilia = 巴西利亚
 Sao Paulo = 圣保罗
 Rio de Janeiro = 里约热内卢
@@ -951,7 +1042,7 @@ Cuban Capitol = 古巴国会大厦
 Civilized Leader-Fidel Castro = 文明领袖-菲德尔·卡斯特罗
 +1 [Production] / [Gold] from all [Gold] / [Production] buildings = 每个[Gold] / [Production] 建筑+1[Production] / [Gold]
 Civilized Leader-Che Guevara = 文明领袖-切·格瓦拉
-+3 [Culture] when below 0 [Happiness],\n+15% [Culture] in all cities while the empire is ⌣happy = 当国家低于0[Happiness]时+3[Culture]，\n当国家处于⌣快乐时+15%[Culture]
++3 [Culture] when below 0 [Happiness]\n+15% [Culture] in all cities while the empire is ⌣happy = 当国家低于0[Happiness]时+3[Culture]\n当国家处于⌣快乐时+15%[Culture]
 Cuban International Revolutionary Fighter = 古巴国际革命战士
 Havana = 哈瓦那
 Santiago de Cuba = 圣地亚哥
@@ -990,7 +1081,7 @@ Civilized Leader-Franklin Delano Roosevelt = 文明领袖-富兰克林·D·罗�
 # 阿根廷
 Argentina = 阿根廷
 Pampas Pasture = 潘帕斯牧场
-+1 [Food] from every [Pasture],\n[No Maintenance costs for improvements in [Grassland] tiles] = 每个[Pasture]+1 [Food],\n[No Maintenance costs for improvements in [Grassland] tiles]
++1 [Food] from every [Pasture]\n[No Maintenance costs for improvements in [Grassland] tiles] = 每个[Pasture]+1 [Food]\n[No Maintenance costs for improvements in [Grassland] tiles]
 Andean Army = 安第斯山军
 Expand Pasture = 扩展牧场
 Each adjacent Expand Pasture +1 Gold = 为相邻的牧场提供+1¤金钱
@@ -1025,9 +1116,9 @@ Quilmes = 基尔梅斯
 # 布基纳法索
 Burkina Faso = 布基纳法索
 Country of Upright People = 正人君子之国
--20% ¤maintenance cost for buildings in all cities,\n-20% ¤maintenance costs for Military units,\n -20 Unhappiness from Population in all cities = 每座城市-20%¤建筑维护费与人口造成的不快乐，\n军事单位-20%¤维护费用
+-20% ¤maintenance cost for buildings in all cities\n-20% ¤maintenance costs for Military units\n -20 Unhappiness from Population in all cities = 每座城市-20%¤建筑维护费与人口造成的不快乐\n军事单位-20%¤维护费用
 Civilized Leader-Sankara = 文明领袖-桑卡拉
-+1 ⁂Food in all cities,\n+20% ⁂Food in capital = 每座城市+1⁂食物，\n首都+20%⁂食物
++1 ⁂Food in all cities\n+20% ⁂Food in capital = 每座城市+1⁂食物\n首都+20%⁂食物
 Ganduo Primary School = 甘多小学
 Mossi Warrior = 莫西战士
 Ougadougou = 瓦加杜古
@@ -1067,7 +1158,7 @@ Civilized Leader-Ramesses II = 文明领袖-拉美西斯二世
 Civilized Leader-Nasser = 文明领袖-纳赛尔
 Resting point for Influence with City-States is increased by 25 = 对所有城邦的影响力的基准值+25（随回合慢慢恢复）
 Civilized Leader-Sadat = 文明领袖-萨达特
-All newly-trained Military units in all cities receive the [Amphibious] promotion,\nGain 25-50 ¤Gold upon declaring war with a major Civilization = 每座城市新组建的军事单位获得[Amphibious]晋升，\n向主要文明宣战时获得25-50¤金钱
+All newly-trained Military units in all cities receive the [Amphibious] promotion\nGain 25-50 ¤Gold upon declaring war with a major Civilization = 每座城市新组建的军事单位获得[Amphibious]晋升\n向主要文明宣战时获得25-50¤金钱
 Cairo = 开罗
 Alexandria = 亚历山大
 Port Said = 塞得港
@@ -1100,7 +1191,7 @@ Kom Ombo = 康翁波
 # 贝宁
 Benin = 贝宁
 Sacrifice = 献祭
--1 ⁂population in a random city and empire enters a 7-turn ⌣Golden Age upon declaring war with a major Civilization or conquering a city,\n+1 ⁂population in a random city upon declaring friendship or constructing Wonder = 当占领一座城市或向主要文明宣战时，一个随机城市中失去1⁂人口并开启7回合⌣黄金时代，\n当宣布友谊宣言或建造完成奇观时，一个随机城市中获得1⁂人口
+-1 ⁂population in a random city and empire enters a 7-turn ⌣Golden Age upon declaring war with a major Civilization or conquering a city\n+1 ⁂population in a random city upon declaring friendship or constructing Wonder = 当占领一座城市或向主要文明宣战时，一个随机城市中失去1⁂人口并开启7回合⌣黄金时代\n当宣布友谊宣言或建造完成奇观时，一个随机城市中获得1⁂人口
 Civilized Leader-Kerekou = 文明领袖-克雷库
 +33% ⚙Production when constructing ⚙Production buildings in all cities = 每座城市在建造⚙产能建筑时+33%⚙产能
 Dahomei Women's Guard = 达荷美女子近卫军
@@ -1128,15 +1219,15 @@ Djia =吉贾
 
 # 迦太基
 The Boat Of The Mediterranean = 地中海之舟
-Starts with [Sailing],\n+1 ➡Movement for Water units,\nGain a free [Cothon] in all coastal cities = 初始拥有科技：[Sailing]，\n水上单位+1➡移动力，\n每座海滨城市获得一座免费的[Cothon]
+Starts with [Sailing]\n+1 ➡Movement for Water units\nGain a free [Cothon] in all coastal cities = 初始拥有科技：[Sailing]\n水上单位+1➡移动力\n每座海滨城市获得一座免费的[Cothon]
 Cothon = U型港
 Civilized Leader-Hannibal = 文明领袖-汉尼拔
 +75% to †Flank Attack bonuses for Military units = 军事单位+75%†侧翼攻击加成
 Civilized Leader-Dido = 文明领袖-狄多
-+25% ⚙Production when constructing [Settler] units in capital,\n+3 ¤Gold in all cities connected to capital = 首都建造[Settler]单位时+25%⚙产能，\n每座海滨城市+3¤金钱
++25% ⚙Production when constructing [Settler] units in capital\n+3 ¤Gold in all cities connected to capital = 首都建造[Settler]单位时+25%⚙产能\n每座海滨城市+3¤金钱
 
 # 埃塞俄比亚
-Reveal up to All tiles within a 5 tile radius upon founding a city,\nNo ¤Maintenance costs for improvements in Hill tiles,\n-50% ♪Culture cost of natural border growth in all cities = 建立一座城市时显示五格半径内所有地块，\n每座城市自然扩张♪文化需求-50%，\n在丘陵地块的设施无需¤维护费用
+Reveal up to All tiles within a 5 tile radius upon founding a city\nNo ¤Maintenance costs for improvements in Hill tiles\n-50% ♪Culture cost of natural border growth in all cities = 建立一座城市时显示五格半径内所有地块\n每座城市自然扩张♪文化需求-50%\n在丘陵地块的设施无需¤维护费用
 Civilized Leader-Menelik II = 文明领袖-孟尼利克二世
 +20% †Strength for Military units when fighting units from a Civilization with more Cities than you = 军事单位当和来自比你拥有更多城市的文明的单位作战时+20%†战斗力
 Civilized Leader-Haile Selassie = 文明领袖-海尔塞拉西
@@ -1146,7 +1237,7 @@ Civilized Leader-Haile Selassie (Wonder) = 文明领袖-海尔塞拉西
 # 祖鲁
 Zulu = 祖鲁
 African Hegemon = 非洲霸主
-+1 [Happiness] and +1 [Culture] in all cities with a garrison,\nFoot Soldier gains 1 XP upon ending a turn in a [City center] tile = 每座有军事单位镇守的城市+1[Happiness]+1[Culture],\n步兵单位在[City center]地块结束回合时获得1XP
++1 [Happiness] and +1 [Culture] in all cities with a garrison\nFoot Soldier gains 1 XP upon ending a turn in a [City center] tile = 每座有军事单位镇守的城市+1[Happiness]+1[Culture]\n步兵单位在[City center]地块结束回合时获得1XP
 Impi = 班图武士
 Civilized Leader-Shaka = 文明领袖-恰卡
 +20% [Production] when constructing Military units in all cities = 每座城市建造军事单位时+20%[Production]
@@ -1173,16 +1264,16 @@ Ixopo = 伊克索波
 Mahlabatini = 马拉巴蒂尼
 
 # 匈人
-+1 ⚙Production from every [Pasture],\nCities are razed 2 times as fast,\nStarts with [Animal Husbandry],\nBorrows city names from other civilizations in the game = 每个[Pasture]+1⚙产能，\n2倍城市拆除速度，\n初始拥有科技：[Animal Husbandry]，\n从其他城市借用城市名
++1 ⚙Production from every [Pasture]\nCities are razed 2 times as fast\nStarts with [Animal Husbandry]\nBorrows city names from other civilizations in the game = 每个[Pasture]+1⚙产能\n2倍城市拆除速度\n初始拥有科技：[Animal Husbandry]\n从其他城市借用城市名
 Civilized Leader-Attila = 文明领袖-阿提拉
-+10% †Strength for Military units when fighting in Foreign Land tiles,\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities = 军事单位在异国领土作战时+10%†战斗力，\n摧毁[Barbarian encampment]及掠劫城市时获得三倍¤金钱
++10% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities = 军事单位在异国领土作战时+10%†战斗力\n摧毁[Barbarian encampment]及掠劫城市时获得三倍¤金钱
 
 Scythian = 斯基泰
 People of Prairie = 大草原的子民
-Gain 35 ¤Gold upon shooter units being defeated☠,\nMobile unit heals 2 HP and gains 1 XP upon ending a turn in a grassland tile = 当射手单位被击败☠时获得35¤金钱，\n机动部队在草原地块结束回合时恢复2HP并获得1XP
+Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 2 HP and gains 1 XP upon ending a turn in a grassland tile = 当射手单位被击败☠时获得35¤金钱\n机动部队在草原地块结束回合时恢复2HP并获得1XP
 Civilized Leader-Tomyris = 文明领袖-托米丽司
 TomyrisAbility = 托米丽司能力
-Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength,\nDouble quantity of [Horses] produced = 每当你的首都生产出一个[Horseman]时，你将再免费获得一个[Horseman]，并且生产出的[Horseman]-10%†战斗力，\n双倍[Horses]产出
+Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength\nDouble quantity of [Horses] produced = 每当你的首都生产出一个[Horseman]时，你将再免费获得一个[Horseman]，并且生产出的[Horseman]-10%†战斗力\n双倍[Horses]产出
 Mobile Archer = 游弓手
 Tomb Mound = 墓丘
 Massagetae = 马萨格泰
@@ -1232,35 +1323,63 @@ Kallatis = 卡拉提斯
 Dionysupolis = 狄俄尼索波利斯
 
 # 波利尼西亚
-Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles,\n+1 Sight for Embarked units,\n+10% †Strength within 3 tiles of a [Moai] = 从远古时代开始允许陆军单位拥有船运能力并允许所有单位进入海洋，\n船运单位+1视野，\n在[Moai]3格内+10%†战斗力
+Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles\n+1 Sight for Embarked units\n+10% †Strength within 3 tiles of a [Moai] = 从远古时代开始允许陆军单位拥有船运能力并允许所有单位进入海洋\n船运单位+1视野\n在[Moai]3格内+10%†战斗力
 Civilized Leader-Kamehameha I = 文明领袖-卡美哈梅哈一世
-+1 ⁂population in capital,\n+1 ⁂Food and +1 [Gold] from every Fishing Boats = 首都+1⁂人口，\n每个渔船+1⁂食物+1[Gold]
++1 ⁂population in capital\n+1 ⁂Food and +1 [Gold] from every Fishing Boats = 首都+1⁂人口\n每个渔船+1⁂食物+1[Gold]
 
 # 印度尼西亚
 Indonesia = 印度尼西亚
 The Land of Thousand Islands = 千岛之国
-[May travel on Water tiles without embarking] [after discovering [Optics]],\n-1 ➡Movement for Land units in Water tiles,\n+15% †Strength for Military units when fighting in Coast tiles = [after discovering [Optics]][May travel on Water tiles without embarking]，\n陆地单位在水上地块-1➡移动力，\n军事单位在海滨地块+15%†战斗力
+[May travel on Water tiles without embarking] [after discovering [Optics]]\n-1 ➡Movement for Land units in Water tiles\n+15% †Strength for Military units when fighting in Coast tiles = [after discovering [Optics]][May travel on Water tiles without embarking]\n陆地单位在水上地块-1➡移动力\n军事单位在海滨地块+15%†战斗力
 Jukung Perang = 滨海战船
 Kampung = 甘榜屋
 Civilized Leader-Bung Sukarno = 文明领袖-苏加诺
+Jakarta = 雅加达
+Surabaya = 泗水
+Bandung = 万隆
+Medan = 棉兰
+Semarang = 三宝垄
+Bekasi = 马萨
+Tangerang = 丹格朗
+Depok = 德波
+Palembang = 巴邻巴让
+South Tangerang = 南丹格朗
+Makassar = 望加锡
+Bogor = 布高尔
+Batam = 巴淡岛
+Pekanbaru = 北干巴鲁
+Padang = 帕丁
+Denpasar = 丹帕萨
+Malang = 马朗
+Samarinda = 沙马林达
+Bandar Lampung = 万隆港
+Jambi = 詹毕
+Pontianak = 马鲁古
+Manado = 曼纳多
+Balikpapan = 巴里巴班
+Yogyakarta = 日惹
+Surakarta = 苏腊卡
+
+
+
 
 
 # 云冀之庭
 Yun Ji Court = 云冀之庭
 War of Hope = 希望之战
-This is the championship reward of the second Leader Mission Competition.\n\n+2 [Science] in all cities when at war,\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science,\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength,\nHeals 10 damage if it kills☠ a unit = 这是第二届承天景命杯的冠军奖励。\n\n当处于战争时每座城市+2[Science]，\n击杀☠敌方军事单位后可获得⍾科研（≈已击杀☠单位的†战斗力×100%）,\n从其他文明借用城市名\n\n[More Fight More Brave]：\n每损失25生命值+10%†战斗力，\n消灭☠敌方单位后恢复10生命值
+This is the championship reward of the second Leader Mission Competition.\n\n+2 [Science] in all cities when at war\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength\nHeals 10 damage if it kills☠ a unit = 这是第二届承天景命杯的冠军奖励。\n\n当处于战争时每座城市+2[Science]\n击杀☠敌方军事单位后可获得⍾科研（≈已击杀☠单位的†战斗力×100%）\n从其他文明借用城市名\n\n[More Fight More Brave]：\n每损失25生命值+10%†战斗力\n消灭☠敌方单位后恢复10生命值
 Titans = 庭城
 Civilized Leader-Yi Feng = 文明领袖-遗封
-+10% ⚙Production when constructing Military units in all cities,\nReceive free ⛤Great General when you discover [Army Formation] = 所有城市建造军事单位时+10%⚙产能，\n当研究[Army Formation]后获得免费的⛤大军事家
++10% ⚙Production when constructing Military units in all cities\nReceive free ⛤Great General when you discover [Army Formation] = 所有城市建造军事单位时+10%⚙产能\n当研究[Army Formation]后获得免费的⛤大军事家
 Yun Ji Barracks = 云冀营
 More Fight More Brave = 愈战愈勇
 Yun Ji Commander = 云冀统帅
 
 Glenn Empire = 格伦帝国
 Unstoppable Expansion = 高掌远跖
-This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills,\nEarn 100% of killed☠ Military unit's †Strength as ☮Faith,\nBorrows city names from other civilizations in the game = 这是第二届承天景命杯的亚军奖励。\n\n单位进入丘陵地块不消耗➡移动力，\n击杀☠敌方军事单位后可获得☮信仰（≈已击杀☠单位的†战斗力×100%）,\n从其他文明借用城市名
+This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills\nEarn 100% of killed☠ Military unit's †Strength as ☮Faith\nBorrows city names from other civilizations in the game = 这是第二届承天景命杯的亚军奖励。\n\n单位进入丘陵地块不消耗➡移动力\n击杀☠敌方军事单位后可获得☮信仰（≈已击杀☠单位的†战斗力×100%）\n从其他文明借用城市名
 Civilized Leader-Explorer = 文明领袖-探索者
-+15% ⚙Production when constructing ☮Faith buildings in all cities,\n+2 Sight for Reconnaissance units = 每座城市建造☮信仰建筑时+15%⚙产能，\n侦查单位+2视野
++15% ⚙Production when constructing ☮Faith buildings in all cities\n+2 Sight for Reconnaissance units = 每座城市建造☮信仰建筑时+15%⚙产能\n侦查单位+2视野
 Fane = 神殿
 Iron Wall Legion = 铁壁军团
 Cerranxi = 瑟兰曦

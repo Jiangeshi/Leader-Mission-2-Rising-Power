@@ -96,8 +96,8 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniqueText": "+10% †Strength for Military units when attack Major units\n[+30% Strength when fighting City-State units and cities]\n+1 ➡Movement for Mobile units",
-		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mobile] units>",
+		"uniqueText": "+30% †Strength for Military units vs City-States\n+10% †Strength for Military units when attack Major units\n+1 ➡Movement for Mobile units",
+		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <for [Military] units><vs [City-States]>", "[+1] Movement <for [Mobile] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -820,7 +820,34 @@
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Warsaw","Krakow","Wroclaw","Gdansk","Poznan","Szczecin","Bydgoszcz","Lodz","Katowice","Gdynia","Czestochowa","Lublin","Bialystok","Torun","Kielce","Rzeszow","Opole","Gliwice","Zielona Gora","Sosnowiec","Tarnow","Bielsko-Biala","Rybnik","Bytom","Olsztyn"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]     
-        
+  
+    },
+	{
+		"name": "Vatican",
+		"leaderName": "Leader",
+		"adjective": ["Pope"],
+		"preferredVictoryType": "Religion",
+        "startIntroPart1": "",
+    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,222,13],
+        "innerColor": [229,49,49],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Catholic Holy Land",
+		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniques": ["Free [Missionary] appears <upon declaring friendship> <after founding a religion>", "[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Vatican City"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
     //美洲
     },
 	{

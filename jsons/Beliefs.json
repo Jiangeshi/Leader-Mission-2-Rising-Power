@@ -15,6 +15,11 @@
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Jungle]", "[+1 Faith] from every [Forest]"]
+    },
+    {
+        "name": "God of Water",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [River] tiles [in all cities]"]    
    
     // 文化
     },
@@ -222,7 +227,7 @@
     {
         "name": "Baptism",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from [River] tiles [in all cities]"]   
+        "uniques": ["[+3 Faith] from every [Lakes]"]   
     },
     {
         "name": "Professional Ethics",

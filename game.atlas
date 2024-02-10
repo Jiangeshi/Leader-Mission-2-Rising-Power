@@ -736,7 +736,35 @@ BuildingIcons/Civilized Leader-Khomeini
   offset: 0, 0
   index: -1   
 
+Images/BuildingIcons/Civilized leader (83).png
+BuildingIcons/Pope-Innocent III
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
 
+Images/BuildingIcons/Civilized leader (84).png
+BuildingIcons/Pope-Francis
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Civilized leader (85).png
+BuildingIcons/Pope-Benedict XVI
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
+  
+  
+  
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -1152,8 +1180,26 @@ BuildingIcons/Military Reclamation
   offset: 0, 0
   index: -1  
               
-              
-              
+Images/BuildingIcons/Military Reclamation.png
+BuildingIcons/Military Reclamation
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/BasilicaDiSanPietroInVaticano.png
+BuildingIcons/Basilica Di San Pietro In Vaticano
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1  
+
+
+
 Images/ImprovementIcons/ColonyIcon.png
 ImprovementIcons/Colony
   rotate: false
@@ -1399,6 +1445,18 @@ NationIcons/Palestine
   orig: 100, 100
   offset: 0, 0
   index: -1           
+  
+Images/NationIcons/Vatican.png
+NationIcons/Vatican
+  rotate: false
+  xy: 0, 0
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1    
+  
+  
+  
   
   
 Images/PolicyIcons/Centralization.png
@@ -2193,6 +2251,18 @@ UnitIcons/Jukung Perang
   orig: 250, 250
   offset: 0, 0
   index: -1        
+
+Images/UnitIcons/Templar Knight.png
+UnitIcons/Templar Knight
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1   
+ 
+ 
+ 
  
  
   

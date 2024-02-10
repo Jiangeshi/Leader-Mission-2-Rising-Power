@@ -1799,7 +1799,46 @@
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Horseback Riding"
 
-	
+	// 梵蒂冈
+	},
+	{	
+        "name": "Pope-Innocent III",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Vatican",
+		"replacementTextForUniques": "[[+15]% [Culture] [in cities following our religion]]"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Francis]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+15]% [Culture] [in cities following our religion]"]	
+	},
+	{	
+        "name": "Pope-Benedict XVI",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Vatican",
+		"replacementTextForUniques": "[[+35]% growth [in cities following our religion]]"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Francis]>", "[+35]% growth [in cities following our religion]"]			
+	},
+	{	
+        "name": "Pope-Francis",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Vatican",
+		"replacementTextForUniques": "[[+2 Production] [in cities following our religion]]"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+2 Production] [in cities following our religion]"]	
+	},
+	{
+		"name": "Basilica Di San Pietro In Vaticano",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"faith": 3
+		"cityStrength": 2,
+		"cost": 1,
+		"uniqueTo": "Vatican",
+		"replaces": "Palace",
+		"uniques": ["Indicates the capital city", "[+1 Faith] per [3] population [in cities following our religion]"]	
+		
 	// 印加	
 	},
 	{	

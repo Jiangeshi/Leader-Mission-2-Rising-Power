@@ -771,6 +771,21 @@
 		"attackSound": "arrow"			
 	},
 	{
+		"name": "Templar Knight",
+		"unitType": "Mobile",
+		"replaces": "Knight",
+		"uniqueTo": "Vatican",
+		"movement": 4,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can be purchased for [200] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Templar Knight] ability"],
+		"attackSound": "horse"		
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mobile",
 		"movement": 4,

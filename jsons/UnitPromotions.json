@@ -1328,6 +1328,10 @@
 	{
 		"name": "[Andean Army] ability",
 		"uniques": ["All tiles cost 1 movement", "Can pass through impassable tiles"]		
+	},
+	{
+		"name": "[Templar Knight] ability",
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Gain [225] [Gold] (modified by game speed) <upon being defeated>", "Gain [45] [Faith] (modified by game speed) <upon being promoted>"]
 		
 		
 	// 特殊
