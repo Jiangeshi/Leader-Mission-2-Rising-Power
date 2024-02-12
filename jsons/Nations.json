@@ -436,47 +436,47 @@
 		"uniqueName": "Revolutionary Tradition",
 		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture\nup to +7 ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+7 Culture] <when between [20] and [10000] Happiness>",
+		"[+7 Culture] <when between [20] and [100000] Happiness>",
 	
-		"[+6 Culture] <when between [15] and [20] Happiness>",
+		"[+6 Culture] <when between [15] and [19] Happiness>",
 	
-		"[+5 Culture] <when between [10] and [15] Happiness>",
+		"[+5 Culture] <when between [10] and [14] Happiness>",
 	
-		"[+4 Culture] <when between [5] and [10] Happiness>",
+		"[+4 Culture] <when between [5] and [9] Happiness>",
 		
-		"[+3 Culture] <when between [0] and [5] Happiness>",
+		"[+3 Culture] <when between [0] and [4] Happiness>",
 	
-		"[+2 Culture] <when between [-5] and [0] Happiness>",
+		"[+2 Culture] <when between [-5] and [-1] Happiness>",
 			
-		"[+1 Culture] <when between [-10] and [-5] Happiness>",	
+		"[+1 Culture] <when between [-10] and [-6] Happiness>",	
 			
-		"[+1]% Strength <for [Military] units> <when between [8] and [10] Happiness>",
+		"[+1]% Strength <for [Military] units> <when between [9] and [10] Happiness>",
 
-		"[+2]% Strength <for [Military] units> <when between [6] and [8] Happiness>",
+		"[+2]% Strength <for [Military] units> <when between [7] and [8] Happiness>",
 		
-		"[+3]% Strength <for [Military] units> <when between [4] and [6] Happiness>",
+		"[+3]% Strength <for [Military] units> <when between [5] and [6] Happiness>",
 
-		"[+4]% Strength <for [Military] units> <when between [2] and [4] Happiness>",
+		"[+4]% Strength <for [Military] units> <when between [3] and [4] Happiness>",
 	
-		"[+5]% Strength <for [Military] units> <when between [0] and [2] Happiness>",
+		"[+5]% Strength <for [Military] units> <when between [1] and [2] Happiness>",
 		
-		"[+7]% Strength <for [Military] units> <when between [-2] and [0] Happiness>",
+		"[+7]% Strength <for [Military] units> <when between [-1] and [0] Happiness>",
 		
-		"[+8]% Strength <for [Military] units> <when between [-4] and [-2] Happiness>",
+		"[+8]% Strength <for [Military] units> <when between [-3] and [-2] Happiness>",
 	
-		"[+10]% Strength <for [Military] units> <when between [-6] and [-4] Happiness>",
+		"[+10]% Strength <for [Military] units> <when between [-5] and [-4] Happiness>",
 		
-		"[+11]% Strength <for [Military] units> <when between [-8] and [-6] Happiness>",
+		"[+11]% Strength <for [Military] units> <when between [-7] and [-6] Happiness>",
 		
-		"[+13]% Strength <for [Military] units> <when between [-10] and [-8] Happiness>",
+		"[+13]% Strength <for [Military] units> <when between [-9] and [-8] Happiness>",
 		
-		"[+14]% Strength <for [Military] units> <when between [-12] and [-10] Happiness>",
+		"[+14]% Strength <for [Military] units> <when between [-11] and [-10] Happiness>",
 		
-		"[+16]% Strength <for [Military] units> <when between [-14] and [-12] Happiness>",
+		"[+16]% Strength <for [Military] units> <when between [-13] and [-12] Happiness>",
 		
-		"[+17]% Strength <for [Military] units> <when between [-16] and [-14] Happiness>",
+		"[+17]% Strength <for [Military] units> <when between [-15] and [-14] Happiness>",
 		
-		"[+19]% Strength <for [Military] units> <when between [-18] and [-16] Happiness>",
+		"[+19]% Strength <for [Military] units> <when between [-17] and [-16] Happiness>",
 		
 		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>",
 		
