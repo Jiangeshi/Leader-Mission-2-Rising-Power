@@ -16,20 +16,19 @@
         ],
         "policies": [
             {
-                "name": "Aristocracy",
+                "name": "Legalism",
                 "uniques": [
-                    "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [10] population [in all cities]"
+                    "Notified of new Barbarian encampments"
+                    "[+1 Culture] [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
             },
-            {
-                "name": "Legalism",
+            {    
+                "name": "Aristocracy",
                 "uniques": [
-                    "[+33]% Strength <vs [Barbarian] units>",
-                    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-                    "Notified of new Barbarian encampments"
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -44,12 +43,12 @@
                 "column": 5  
             },
             {
-                "name": "Collective Rule",
+                "name": "Republic",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears"
+                    "[+1 Production] [in all cities]",
+                    "[+10]% Production when constructing [All] buildings [in all cities]"
                 ],
-                "requires": ["Legalism"],
+                "requires": ["Aristocracy"],
                 "row": 2,
                 "column": 3
             },
@@ -59,25 +58,24 @@
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>"
                 ],
-                "requires": ["Aristocracy"],
+                "requires": ["Legalism"],
                 "row": 3,
                 "column": 1
             },
             {
-                "name": "Republic",
+                "name": "Collective Rule",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                    "[+33]% Production when constructing [Settler] units [in capital]",
+                    "Free [Settler] appears"
                 ],
-                "requires": ["Collective Rule", "Citizenship"],
+                "requires": ["Republic", "Citizenship"],
                 "row": 3,
-                "column": 5
+                "column": 5    
             },
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[-5]% Culture cost of adopting new Policies",
-                    "[+1 Culture] [in all cities]"
+                    "[-10]% Culture cost of adopting new Policies"
                 ]
             }
         ]
@@ -780,15 +778,15 @@
         },
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
+            "[+1 Culture] from every [Shrine]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+2 Faith] from every [Temple]"
+                    "[+2 Faith] from every [Temple]",
+                    "[+100]% Production when constructing [Shrine] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
@@ -865,7 +863,8 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+                    "[+33]% Strength <vs [Barbarian] units>",
                 ],
                 "row": 1,
                 "column": 4
@@ -873,7 +872,8 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>"
+                    "[+50]% XP gained from combat <for [Military] units>",
+                    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
