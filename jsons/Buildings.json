@@ -1832,7 +1832,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"faith": 3
+		"faith": 2,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniqueTo": "Vatican",
