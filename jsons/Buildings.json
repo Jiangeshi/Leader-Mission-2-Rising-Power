@@ -413,7 +413,7 @@
 		"name": "University",
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Teacher": 2},
+		"specialistSlots": {"Scientist": 2},
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Education"	
 	},
@@ -695,7 +695,7 @@
 	{
 		"name": "Public School",
 		"science": 3,
-		"specialistSlots": {"Teacher": 2, "Scientist": 1},
+		"specialistSlots": {"Scientist": 2},
 		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Scientific Theory"	
@@ -1259,7 +1259,7 @@
 		"science": 3,
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Teacher": 2},
+		"specialistSlots": {"Scientist": 2},
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Education"	
 		
