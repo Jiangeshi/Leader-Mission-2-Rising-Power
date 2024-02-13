@@ -434,21 +434,19 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Revolutionary Tradition",
-		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture\nup to +7 ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
+		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture\nup to +6 ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+7 Culture] <when between [20] and [100000] Happiness>",
+		"[+6 Culture] <when between [21] and [100000] Happiness>",
 	
-		"[+6 Culture] <when between [15] and [19] Happiness>",
+		"[+5 Culture] <when between [15] and [20] Happiness>",
 	
-		"[+5 Culture] <when between [10] and [14] Happiness>",
-	
-		"[+4 Culture] <when between [5] and [9] Happiness>",
+		"[+4 Culture] <when between [9] and [14] Happiness>",
 		
-		"[+3 Culture] <when between [0] and [4] Happiness>",
+		"[+3 Culture] <when between [3] and [8] Happiness>",
 	
-		"[+2 Culture] <when between [-5] and [-1] Happiness>",
+		"[+2 Culture] <when between [-4] and [2] Happiness>",
 			
-		"[+1 Culture] <when between [-10] and [-6] Happiness>",	
+		"[+1 Culture] <when between [-10] and [-5] Happiness>",	
 			
 		"[+1]% Strength <for [Military] units> <when between [9] and [10] Happiness>",
 
