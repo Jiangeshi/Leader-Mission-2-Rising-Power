@@ -848,7 +848,9 @@
         "uniques": [
             "Only available <after discovering [Bronze Working]>"
             "[Great General] is earned [50]% faster",
-            "[+2] Movement <for [Great General] units>"
+            "[+2] Movement <for [Great General] units>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+                ],
         ],
         "policies": [
             {
@@ -873,8 +875,6 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
-                    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-                ],
                 "requires": ["Warrior Code"],
                 "row": 2,
                 "column": 2
