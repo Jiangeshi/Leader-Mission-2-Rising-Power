@@ -926,21 +926,6 @@
 		"upgradesTo": "Pikeman",
 	    "uniques":["[+50]% Strength <vs [Mobile] units>"]	
 		"attackSound": "metalhit"		
-	},
-	{
-		"name": "Pictish Warrior",
-		"unitType": "Anti-Mobile",	
-		"replaces": "Spearman",
-		"uniqueTo": "Celts",
-		"movement": 2,
-		"strength": 11,
-		"cost": 48,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Defensive Fortification",
-		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Pictish Courage"],
-		"attackSound": "metalhit"	
 	},   
 	{
 		"name": "Pikeman",

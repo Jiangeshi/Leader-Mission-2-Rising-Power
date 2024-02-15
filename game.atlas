@@ -762,9 +762,19 @@ BuildingIcons/Pope-Benedict XVI
   orig: 270, 270
   offset: 0, 0
   index: -1   
-  
-  
-  
+
+Images/BuildingIcons/Civilized leader (86).png
+BuildingIcons/Civilized Leader-Boudicca
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
+
+
+
+
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -1180,15 +1190,6 @@ BuildingIcons/Military Reclamation
   offset: 0, 0
   index: -1  
               
-Images/BuildingIcons/Military Reclamation.png
-BuildingIcons/Military Reclamation
-  rotate: false
-  xy: 0, 0
-  size: 180, 180
-  orig: 180, 180
-  offset: 0, 0
-  index: -1  
-  
 Images/BuildingIcons/BasilicaDiSanPietroInVaticano.png
 BuildingIcons/Basilica Di San Pietro In Vaticano
   rotate: false

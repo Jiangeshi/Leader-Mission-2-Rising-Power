@@ -1846,7 +1846,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Celts",
-		"replacementTextForUniques": "-10% †Strength for enemy Military units in adjacent All tiles for shooter units",
+		"replacementTextForUniques": "Earn 75% of killed☠ Military unit's †Strength as ♪Culture",
 		"uniques": ["Can only be built [in capital]"]
 	},
 	{

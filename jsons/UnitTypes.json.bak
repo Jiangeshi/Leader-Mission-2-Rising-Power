@@ -61,7 +61,7 @@
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>"
+        "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>"
         ]    
     },
     {

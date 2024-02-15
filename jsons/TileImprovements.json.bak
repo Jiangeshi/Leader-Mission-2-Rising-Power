@@ -209,7 +209,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
-			"[+1 Food] <in [Fresh Water] tiles> <in tiles without [Hill]>",
+			"[+1 Food] <in [fresh water] tiles> <in tiles without [Hill]>",
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},

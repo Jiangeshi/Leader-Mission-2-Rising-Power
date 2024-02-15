@@ -1335,7 +1335,7 @@
 	},
 	{
 		"name": "Pictish Courage",
-		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]	
+		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]	
 		
 	// 特殊
 	},

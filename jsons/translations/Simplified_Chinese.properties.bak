@@ -949,7 +949,7 @@ Pope-Francis = 教皇-方济各
 # 凯尔特
 Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith] [in all cities]] [with [1] to [6] neighboring [Forest] tiles] = 陆地军事单位在植被地块结束回合时回复15HP\n[with [1] to [6] neighboring [Forest] tiles][[+1 Faith] [in all cities]]
 Civilized Leader-Boudicca = 文明领袖-布狄卡
--10% †Strength for enemy Military units in adjacent All tiles for shooter units = 与射手单位相邻的敌方军事单位-10%†战斗力
+-10% †Strength for enemy Military units in adjacent All tiles for shooter units = 与射手单位相邻的敌方军事单位-10%战斗力
 
 # 印加
 Descendants of the Sun = 太阳神的子孙
