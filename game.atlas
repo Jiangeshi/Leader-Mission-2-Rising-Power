@@ -1690,10 +1690,19 @@ Images/ResourceIcons/Number of Buildings.png
 ResourceIcons/Number of Buildings
   rotate: false
   xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+  
+Images/ResourceIcons/Number of Cities.png
+ResourceIcons/Number of Cities
+  rotate: false
+  xy: 0, 0
   size: 280, 280
   orig: 280, 280
   offset: 0, 0
-  index: -1    
+  index: -1  
   
 Images/ResourceIcons/Civilized leader.png
 ResourceIcons/Number of Leaders
@@ -1704,7 +1713,14 @@ ResourceIcons/Number of Leaders
   offset: 0, 0
   index: -1  
   
-
+Images/ResourceIcons/Number of Fighters.png
+ResourceIcons/Number of Fighters
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
   
   
   

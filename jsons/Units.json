@@ -22,7 +22,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>",],
 	},
 	{
 		"name": "Work Boats",
@@ -1665,7 +1665,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat"],
 		"movement": 2	
 	},
 	{
@@ -1673,7 +1673,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "Unbuildable", "Can be earned through combat", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable"],
 		"movement": 4	
 	},
 	{
@@ -1684,7 +1684,6 @@
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-		"Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>",
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Unbuildable", 

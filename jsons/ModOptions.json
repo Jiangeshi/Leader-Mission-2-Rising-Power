@@ -1,4 +1,5 @@
 {
     "isBaseRuleset": true,
-    "constants":{religionLimitMultiplier:1, riverCountMultiplier:0.02, minimalCityDistance:2}
+    "constants":{religionLimitMultiplier:1, riverCountMultiplier:0.02, minimalCityDistance:2},
+    "uniques": ["Can trade civilization introductions for [100] Gold"]
 }

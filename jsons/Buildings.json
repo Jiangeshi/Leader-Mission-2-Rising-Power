@@ -1334,16 +1334,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Palestine",
-		"replacementTextForUniques": "+15% [Production] when constructing Military units in all cities when at war\n+10% [Production] when constructing Military units in capital",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Yasser Arafat]>", "[+15]% Production when constructing [Military] units [in all cities] <when at war>", "[+10]% Production when constructing [Military] units [in capital]"]
+		"replacementTextForUniques": "+10% [Production] when constructing Military units in all cities when at war\n+10% [Production] when constructing Military units in capital",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Yasser Arafat]>", "[+10]% Production when constructing [Military] units [in all cities] <when at war>", "[+10]% Production when constructing [Military] units [in capital]"]
     },
 	{	
         "name": "Civilized Leader-Yasser Arafat",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Palestine",
-		"replacementTextForUniques": "+1 [Gold] from every [Science] and [Culture] buildings"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Ahmed Yassin]>", "[+1 Gold] from every [Science]", "[+1 Gold] from every [Culture]"]		
+		"replacementTextForUniques": "+2 [Gold] from every [Science] and [Culture] buildings"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Ahmed Yassin]>", "[+2 Gold] from every [Science]", "[+2 Gold] from every [Culture]"]		
 	},
 	{
 		"name": "Wailing Wall",
@@ -1670,44 +1670,7 @@
 		"uniqueTo": "Spain",
 		"replacementTextForUniques": "+15% †Strength for Military units when attacking on foreign continents\n+15% †Strength for Military units when defending when fighting in Friendly Land tiles"
 		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Charles V]>", "[+15]% Strength <for [Military] units> <when attacking> <on foreign continents>", "[+15]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>"]	
-	},
-	{
-		"name": "Spanish ability",
-		"cost": 1,
-		"replacementTextForUniques": "Spanish ability",
-		"uniques": ["Cannot be purchased", "Unsellable", "Only available <for [Spain]>"
-		"[+1 Food] [in this city] <when above [0] [Number of Bonus]> <for [Spain]>",
-		"[+2 Food] [in this city] <when above [1] [Number of Bonus]> <for [Spain]>",
-		"[+3 Food] [in this city] <when above [2] [Number of Bonus]> <for [Spain]>",
-		"[+4 Food] [in this city] <when above [3] [Number of Bonus]> <for [Spain]>",
-		"[+5 Food] [in this city] <when above [4] [Number of Bonus]> <for [Spain]>",
-		"[+6 Food] [in this city] <when above [5] [Number of Bonus]> <for [Spain]>",
-		"[+7 Food] [in this city] <when above [6] [Number of Bonus]> <for [Spain]>",
-		"[+8 Food] [in this city] <when above [7] [Number of Bonus]> <for [Spain]>",
-		"[+9 Food] [in this city] <when above [8] [Number of Bonus]> <for [Spain]>",
-		"[+10 Food] [in this city] <when above [9] [Number of Bonus]> <for [Spain]>",
-	
-		"[+15 Gold] [in this city] <when above [0] [Number of Luxury]> <for [Spain]>",
-		"[+30 Gold] [in this city] <when above [1] [Number of Luxury]> <for [Spain]>",
-		"[+45 Gold] [in this city] <when above [2] [Number of Luxury]> <for [Spain]>",
-		"[+60 Gold] [in this city] <when above [3] [Number of Luxury]> <for [Spain]>",
-		"[+75 Gold] [in this city] <when above [4] [Number of Luxury]> <for [Spain]>",
-		"[+90 Gold] [in this city] <when above [5] [Number of Luxury]> <for [Spain]>",
-		"[+105 Gold] [in this city] <when above [6] [Number of Luxury]> <for [Spain]>",
-		"[+120 Gold] [in this city] <when above [7] [Number of Luxury]> <for [Spain]>",
-		"[+135 Gold] [in this city] <when above [8] [Number of Luxury]> <for [Spain]>",
-		"[+150 Gold] [in this city] <when above [9] [Number of Luxury]> <for [Spain]>",
-	
-		"[+1 Production] [in this city] <when above [0] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [1] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [2] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [3] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [4] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [5] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [6] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [7] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [8] [Number of Strategic]> <for [Spain]>",
-		"[+1 Production] [in this city] <when above [9] [Number of Strategic]> <for [Spain]>"]
+
 		
 	// 芬兰	
 	},
