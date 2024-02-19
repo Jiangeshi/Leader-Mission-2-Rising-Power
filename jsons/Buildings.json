@@ -1769,24 +1769,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vatican",
-		"replacementTextForUniques": "[[+15]% [Culture] [in cities following our religion]]"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Francis]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+15]% [Culture] [in cities following our religion]"]	
+		"replacementTextForUniques": "[[+15]% [Culture] [in cities following our religion]] [after founding a religion]"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Francis]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+15]% [Culture] [in cities following our religion] <after founding a religion>"]	
 	},
 	{	
         "name": "Pope-Benedict XVI",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vatican",
-		"replacementTextForUniques": "[[+35]% growth [in cities following our religion]]"	
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Francis]>", "[+35]% growth [in cities following our religion]"]			
+		"replacementTextForUniques": "[[+35]% growth [in cities following our religion]] [after founding a religion]"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Francis]>", "[+35]% growth [in cities following our religion] <after founding a religion>"]			
 	},
 	{	
         "name": "Pope-Francis",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vatican",
-		"replacementTextForUniques": "[[+2 Production] [in cities following our religion]]"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+2 Production] [in cities following our religion]"]	
+		"replacementTextForUniques": "[[+2 Production] [in cities following our religion]] [after founding a religion]"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Pope-Innocent III]>", "Only available <in cities without a [Pope-Benedict XVI]>", "[+2 Production] [in cities following our religion] <after founding a religion>"]	
 	},
 	{
 		"name": "Basilica Di San Pietro In Vaticano",

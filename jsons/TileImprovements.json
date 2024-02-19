@@ -245,8 +245,8 @@
 	{
 		"name": "Colony",
 		"gold": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage",
+		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle"],
+		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Ensures a minimum tile yield of [+2 Food, +1 Production]",
 		"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",
 		"[+2 Food] <with [2] to [2] neighboring [Bonus resource] tiles>",
 		"[+3 Food] <with [3] to [3] neighboring [Bonus resource] tiles>",
