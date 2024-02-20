@@ -4,17 +4,17 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": ["[+2 Faith] from every [Desert]", "[-1 Faith] [in all cities]"]
     },
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Tundra]"]
+        "uniques": ["[+2 Faith] from every [Tundra]", "[-1 Faith] [in all cities]"]
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Jungle]", "[+1 Faith] from every [Forest]"]
+        "uniques": ["[+2 Faith] from every [Jungle]", "[+2 Faith] from every [Forest]", "[-1 Faith] [in all cities]"]
     },
     {
         "name": "God of Water",
@@ -111,12 +111,12 @@
     {
         "name": "Sacred Blaze",
         "type": "Pantheon",
-        "uniques": ["[+33]% Great Person generation [in all cities]"]
+        "uniques": ["[+50]% Great Person generation [in all cities]"]
     },
     {
         "name": "Religious Expansion",
         "type": "Pantheon",
-        "uniques": ["[-33]% Culture cost of natural border growth [in all cities]"]
+        "uniques": ["[-50]% Culture cost of natural border growth [in all cities]"]
     },
     {
         "name": "Miracle",
@@ -135,12 +135,12 @@
     {
         "name": "Unification of The State and The Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [3] global followers [in all cities]"]
+        "uniques": ["[+1 Culture] from every [2] global followers [in all cities]"]
     },
     {
         "name": "Nation Led by God",
         "type": "Founder",
-        "uniques": ["[+10 Faith] from every [Grand Temple]", "[+2 Culture] from every [Temple]"]
+        "uniques": ["[+15 Faith] from every [Grand Temple]", "[+2 Culture] from every [Temple]"]
     },
     {
         "name": "Monotheism",
@@ -150,7 +150,7 @@
     {
         "name": "Polytheism",
         "type": "Founder",
-        "uniques": ["[+1 Faith] from every [3] global followers [in all cities]", "[+1 Happiness] [in cities following this religion]"]
+        "uniques": ["[+1 Faith] from every [2] global followers [in all cities]", "[+1 Happiness] [in cities following this religion]"]
     },
     {
         "name": "Liberation Theology",
@@ -160,12 +160,12 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+2 Faith, +2 Culture] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
+        "uniques": ["[+2 Faith, +2 Culture] from every [Opera House]", "[+2 Food, +2 Gold] from every [Temple]"]
     },
     {
         "name": "Feed the World",
         "type": "Founder",
-        "uniques": ["[+2 Food] from every [Temple]", "[+2 Food] from every [Shrine]"]
+        "uniques": ["[+3 Food] from every [Temple]", "[+2 Food] from every [Shrine]"]
     },
     {
         "name": "State Religion",
@@ -175,12 +175,12 @@
     {
         "name": "Religious Syncretism",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science]"]
+        "uniques": ["When spreading religion to a city, gain [25] times the amount of followers of other religions as [Science]"]
     },
     {
         "name": "Religious Unity",
         "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+35]"]
+        "uniques": ["Resting point for Influence with City-States following this religion [+40]"]
         
     //跟随者词条
     },
@@ -192,22 +192,22 @@
     {
         "name": "Way of Pilgrimage",
         "type": "Follower",
-        "uniques": ["[+2 Faith, +1 Culture] from each Trade Route"] 
+        "uniques": ["[+2 Faith, +2 Culture] from each Trade Route"] 
     },
     {
         "name": "Tithes",
         "type": "Follower",
-        "uniques": ["[+1 Gold] from all [Faith] buildings"]    
+        "uniques": ["[+3 Gold] from all [Faith] buildings"]    
     },
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]   
+        "uniques": ["[+2]% [Production] from every follower, up to [20]%"]   
     },
     {
         "name": "Commonplace Belief",
         "type": "Follower",
-        "uniques": ["[+1]% [Culture] from every follower, up to [15]%"]    
+        "uniques": ["[+2]% [Culture] from every follower, up to [20]%"]    
     },
     {
         "name": "Holy Warriors",
@@ -217,12 +217,12 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+33]% growth [in this city] <when not at war>"]    
+        "uniques": ["[+50]% growth [in this city] <when not at war>"]    
     },
     {
         "name": "Inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Wonder]"] 
+        "uniques": ["[+3 Faith] from every [Wonder]"] 
     },
     {
         "name": "Baptism",
@@ -272,17 +272,17 @@
     {
         "name": "Wonderland Garden",
         "type": "Follower",
-        "uniques": ["[+1 Food, +2 Faith] from every [Garden]"]    
+        "uniques": ["[+1 Food, +3 Faith] from every [Garden]"]    
     },
     {
         "name": "Incense Fire Sacrifice",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Temple]","[+1 Faith] from every [Shrine]"]    
+        "uniques": ["[+2 Faith] from every [Temple]","[+2 Faith] from every [Shrine]"]    
     },
     {
         "name": "Choral Chant",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [Opera House]"]    
+        "uniques": ["[+5 Faith] from every [Opera House]"]    
     //增强词条
     },
     {

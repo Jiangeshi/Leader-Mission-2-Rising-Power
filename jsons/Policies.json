@@ -786,22 +786,22 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+2 Faith] from every [Temple]",
-                    "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+                    "[+100]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[50]% of excess happiness converted to [Culture]"],
+                "uniques": ["[100]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Faith]"],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Theocracy",
                 "uniques": [
-                    "[+10]% [Gold] from every [Temple]",
-                    "[+10]% [Faith] from every [Temple]"
+                    "[+15]% [Gold] from every [Temple]",
+                    "[+15]% [Faith] from every [Temple]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -819,7 +819,7 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-10]% Culture cost of adopting new Policies"],
+                "uniques": ["[-15]% Culture cost of adopting new Policies"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4

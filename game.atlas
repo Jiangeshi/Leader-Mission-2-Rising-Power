@@ -1,3 +1,179 @@
+Images/TileSets/AbsoluteUnits.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Confucius
+  rotate: false
+  xy: 107, 1250
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius-1
+  rotate: false
+  xy: 210, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius-2
+  rotate: false
+  xy: 313, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius-Industrial era
+  rotate: false
+  xy: 416, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius-Industrial era-1
+  rotate: false
+  xy: 519, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius-Industrial era-2
+  rotate: false
+  xy: 622, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha
+  rotate: false
+  xy: 107, 1250
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha-1
+  rotate: false
+  xy: 210, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha-2
+  rotate: false
+  xy: 313, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era
+  rotate: false
+  xy: 416, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era-1
+  rotate: false
+  xy: 519, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era-2
+  rotate: false
+  xy: 622, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad
+  rotate: false
+  xy: 107, 1250
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad-1
+  rotate: false
+  xy: 210, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad-2
+  rotate: false
+  xy: 313, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad-Industrial era
+  rotate: false
+  xy: 416, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad-Industrial era-1
+  rotate: false
+  xy: 519, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad-Industrial era-2
+  rotate: false
+  xy: 622, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus
+  rotate: false
+  xy: 107, 1250
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus-1
+  rotate: false
+  xy: 210, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus-2
+  rotate: false
+  xy: 313, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus-Industrial era
+  rotate: false
+  xy: 416, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus-Industrial era-1
+  rotate: false
+  xy: 519, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus-Industrial era-2
+  rotate: false
+  xy: 622, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1      
+
+
+
 Images/BuildingIcons/Civilized leader (1).png
 BuildingIcons/Civilized Leader-Cyrus
   rotate: false
@@ -2278,9 +2454,41 @@ UnitIcons/Templar Knight
   offset: 0, 0
   index: -1   
  
- 
- 
- 
+Images/UnitIcons/GreatProphet.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Confucius
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+UnitIcons/Jesus
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Muhammad
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+UnitIcons/Gautama Siddhartha
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+    
  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
