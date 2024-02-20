@@ -30,6 +30,7 @@
 		"name": "Kiln",
 		"production": 1,
 		"science": 1,
+		"happiness": 1,
 		"requiredTech": "Pottery",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
 	},
