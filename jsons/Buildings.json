@@ -1840,6 +1840,7 @@
 		"replaces": "Shrine",
         "uniqueTo": "Inca",
 		"culture": 2,
+		"faith": 1, 
 		"requiredTech": "Belief Worship",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
 	

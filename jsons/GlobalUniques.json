@@ -46,6 +46,7 @@
     "[-25]% Strength <for [Military] units> <when above [100] [Warfare Aversion Level]>",
     
     // 特殊单位
-    "Enables [Great Admiral] units to enter ocean tiles"
+    "Enables [Great Admiral] units to enter ocean tiles",
+    "Enables [Lee Sunshin] units to enter ocean tiles"
     ]
 }

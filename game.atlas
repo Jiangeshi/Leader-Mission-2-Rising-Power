@@ -171,7 +171,320 @@ TileSets/AbsoluteUnits/Units/Jesus-Industrial era-2
   orig: 95, 81
   offset: 0, 0
   index: -1      
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain-Industrial era
+  rotate: false
+  xy: 730, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain-Industrial era-1
+  rotate: false
+  xy: 838, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain-Industrial era-2
+  rotate: false
+  xy: 4, 1161
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius-Industrial era
+  rotate: false
+  xy: 730, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius-Industrial era-1
+  rotate: false
+  xy: 838, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius-Industrial era-2
+  rotate: false
+  xy: 4, 1161
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 
+Images/TileSets/GreatAdmiralLand.png
+size: 400, 400
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Great Admiral
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lee Sunshin
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/GreatAdmiralLand-1.png
+size: 400, 400
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Great Admiral-1
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lee Sunshin-1
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/GreatAdmiralLand-1.png
+size: 400, 400
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Great Admiral-2
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lee Sunshin-2
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/GreatAdmiralA.png
+size: 64, 65
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/GreatAdmiralA-1.png
+size: 64, 65
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1  
+  
+
+Images/TileSets/GreatAdmiralA-1.png
+size: 64, 65
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/GreatAdmiralB.png
+size: 64, 56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin-Industrial era
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/GreatAdmiralB-1.png
+size: 64, 56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin-Industrial era-1
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/GreatAdmiralB-1.png
+size: 64, 56
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Lee Sunshin-Industrial era-2
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
+Images/UnitIcons/GreatGeneral.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Belisarius
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Henri Philippe Pétain
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+
+Images/UnitIcons/GreatAdmiralIcon.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lee Sunshin
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 Images/BuildingIcons/Civilized leader (1).png
@@ -2148,87 +2461,6 @@ TileSets/HexaRealm/Tiles/Vietnamese City
   
 Images/TileSets/Expand Pasture.png
 TileSets/HexaRealm/Tiles/Expand Pasture
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1    
-  
-Images/TileSets/GreatAdmiralLand.png
-TileSets/AbsoluteUnits/Units/Great Admiral
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralLand-1.png
-TileSets/AbsoluteUnits/Units/Great Admiral-1
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralLand-1.png
-TileSets/AbsoluteUnits/Units/Great Admiral-2
-  rotate: false
-  xy: 0, 0
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralA.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralA-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralA-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
-  rotate: false
-  xy: 0, 0
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralB.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-
-Images/TileSets/GreatAdmiralB-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-  
-Images/TileSets/GreatAdmiralB-1.png
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
   rotate: false
   xy: 0, 0
   size: 64, 56

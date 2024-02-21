@@ -53,7 +53,10 @@
         "startPercent": 25,
         "citySound": "cityMedieval",
         "uniques": ["May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])", 
-        "May buy [Muhammad] units for [400] [Faith] [in all cities] at an increasing price ([200])"],        
+        "May buy [Muhammad] units for [400] [Faith] [in all cities] at an increasing price ([200])",
+        "May buy [Lee Sunshin] units for [400] [Faith] [in all cities] at an increasing price ([200])",  
+        "May buy [Belisarius] units for [400] [Faith] [in all cities] at an increasing price ([200])"
+        ],        
         "iconRGB": [157, 39, 176]
     },
     {
@@ -113,7 +116,8 @@
         "startPercent": 65,
         "citySound": "cityModern",
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",],        
+            "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])", 
+            "May buy [Henri Philippe Pétain] units for [1000] [Faith] [in all cities] at an increasing price ([500])",    ],        
         "iconRGB": [33, 150, 243],
     },
     {
