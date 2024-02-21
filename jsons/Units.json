@@ -5,7 +5,8 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		],
 		"cost": 70
 	},
 	{
@@ -1727,7 +1728,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit>",
 		    "Limited to [1] per Civilization",
-            "Can Spread Religion <for [2] movement> <[4] times>",
+            "Can Spread Religion <for [2] movement> <[6] times>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
@@ -1742,8 +1743,8 @@
 		"name": "Muhammad",
 		"unitType": "Civilian",
 		"uniques": [
-		    "[+15]% Strength bonus for [Land] units within [2] tiles", 
-		    "Can Spread Religion <for [2] movement> <[2] times>",
+		    "[+20]% Strength bonus for [Land] units within [2] tiles", 
+		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Limited to [1] per Civilization",
 			"Great Person - [Great]",
 			"Unbuildable", "Uncapturable",
@@ -1756,8 +1757,8 @@
 		"name": "Henri Philippe Pétain",
 		"unitType": "Civilian",
 		"uniques": [
-		"[+10]% Strength bonus for [Land] units within [2] tiles", 
-		"All adjacent units heal [+10] HP when healing",
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
 		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>"
 		"Great Person - [Great]", 
 		"Unbuildable", "Uncapturable",
@@ -1770,8 +1771,8 @@
 		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-		"[+10]% Strength bonus for [Land] units within [2] tiles", 
-		"[-10]% Strength for enemy [Land] units in adjacent [Land] tiles"
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles"
 	    "Great Person - [Great]", 
 		"Unbuildable", "Uncapturable",
 		"Limited to [1] per Civilization"
@@ -1782,7 +1783,7 @@
 		"name": "Lee Sunshin",
 		"unitType": "Civilian",
 		"uniques": [
-		"[+25]% Strength bonus for [Water] units within [3] tiles",
+		"[+33]% Strength bonus for [Water] units within [3] tiles",
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Great Person - [Great]", 

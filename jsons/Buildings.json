@@ -1453,8 +1453,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -10%\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-10]%", "May buy [Military] units with [Faith] for [3] times their normal Production cost"]	
+		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -33%\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-33]%", "May buy [Military] units with [Faith] for [3] times their normal Production cost"]	
 	},
 	{	
         "name": "Civilized Leader-Kemal",
@@ -1497,8 +1497,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-40]% less than normal]",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-40]% less than normal"]	
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-66]% less than normal]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-66]% less than normal"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -1700,8 +1700,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-40]% less than normal]",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-40]% less than normal"]
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-66]% less than normal]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-66]% less than normal"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",

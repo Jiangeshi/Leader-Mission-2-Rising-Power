@@ -138,7 +138,7 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+2 Culture] [in all cities with a garrison]"
+                    "[+2 Culture, +2 Happiness] [in all cities with a garrison]"
                 ],
                 "requires": ["Lord-Vassal"],
                 "row": 3,
@@ -779,14 +779,14 @@
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
             "[+1 Culture] from every [Shrine]",
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+75]% Production when constructing [Shrine] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
                     "[+2 Faith] from every [Temple]",
-                    "[+100]% Production when constructing [Temple] buildings [in all cities]",
+                    "[+75]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
