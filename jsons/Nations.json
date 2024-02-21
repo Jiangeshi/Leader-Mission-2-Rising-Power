@@ -829,15 +829,14 @@
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Warsaw","Krakow","Wroclaw","Gdansk","Poznan","Szczecin","Bydgoszcz","Lodz","Katowice","Gdynia","Czestochowa","Lublin","Bialystok","Torun","Kielce","Rzeszow","Opole","Gliwice","Zielona Gora","Sosnowiec","Tarnow","Bielsko-Biala","Rybnik","Bytom","Olsztyn"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]     
-  
     },
 	{
 		"name": "Vatican",
 		"leaderName": "Leader",
 		"adjective": ["Pope"],
-		"preferredVictoryType": "Religion",
+		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
-    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
 		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
 		
@@ -854,7 +853,10 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Catholic Holy Land",
 		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
-		"uniques": ["Free [Missionary] appears <upon declaring friendship> <after founding a religion>", "[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": [
+		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
+		"[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)", 
+		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Vatican City"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
     },

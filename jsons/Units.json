@@ -771,7 +771,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[+1] Sight"],
 		"attackSound": "arrow"			
-	},
+    },
 	{
 		"name": "Templar Knight",
 		"unitType": "Mobile",
@@ -1768,7 +1768,6 @@
 	},
 	{
 		"name": "Belisarius",
-		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
