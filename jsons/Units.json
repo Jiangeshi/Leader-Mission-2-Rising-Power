@@ -490,7 +490,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Costs [10] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"		
 	},
 	{

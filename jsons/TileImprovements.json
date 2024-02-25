@@ -272,12 +272,12 @@
 		"[+5 Food] <with [5] to [5] neighboring [Bonus resource] tiles>",
 		"[+6 Food] <with [6] to [6] neighboring [Bonus resource] tiles>",
 		
-		"[+1 Gold] <with [1] to [1] neighboring [Luxury resource] tiles>",
-		"[+2 Gold] <with [2] to [2] neighboring [Luxury resource] tiles>",
-		"[+3 Gold] <with [3] to [3] neighboring [Luxury resource] tiles>",
-		"[+4 Gold] <with [4] to [4] neighboring [Luxury resource] tiles>",	
-		"[+5 Gold] <with [5] to [5] neighboring [Luxury resource] tiles>",
-		"[+6 Gold] <with [6] to [6] neighboring [Luxury resource] tiles>",
+		"[+2 Gold] <with [1] to [1] neighboring [Luxury resource] tiles>",
+		"[+4 Gold] <with [2] to [2] neighboring [Luxury resource] tiles>",
+		"[+6 Gold] <with [3] to [3] neighboring [Luxury resource] tiles>",
+		"[+8 Gold] <with [4] to [4] neighboring [Luxury resource] tiles>",	
+		"[+10 Gold] <with [5] to [5] neighboring [Luxury resource] tiles>",
+		"[+12 Gold] <with [6] to [6] neighboring [Luxury resource] tiles>",
 		
 		"[+1 Production] <with [1] to [1] neighboring [Strategic resource] tiles>",
 		"[+2 Production] <with [2] to [2] neighboring [Strategic resource] tiles>",

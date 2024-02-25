@@ -736,7 +736,7 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquerors of the New World",
-		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +1[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+1 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Ensures a minimum tile yield of [+1 Food, +1 Production]]",
+		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +2[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+1 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Ensures a minimum tile yield of [+1 Food, +1 Production]]",
 		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
@@ -852,10 +852,10 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Catholic Holy Land",
-		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+37 Faith, +75 Gold] when a city adopts this religion for the first time (modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
-		"[+50 Faith, +100 Gold] when a city adopts this religion for the first time (modified by game speed)", 
+		"[+37 Faith, +75 Gold] when a city adopts this religion for the first time (modified by game speed)", 
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Vatican City"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]

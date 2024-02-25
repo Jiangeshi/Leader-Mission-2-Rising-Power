@@ -779,13 +779,13 @@
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
             "[+1 Culture] from every [Shrine]",
-            "[+75]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+2 Faith] from every [Temple]",
+                    "[+1 Faith] from every [Temple]",
                     "[+75]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
@@ -793,7 +793,7 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[100]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Faith]"],
+                "uniques": ["[75]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Temple]"],
                 "row": 1,
                 "column": 5
             },

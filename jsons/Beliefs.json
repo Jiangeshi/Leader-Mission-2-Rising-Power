@@ -160,7 +160,7 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+2 Faith, +2 Culture] from every [Opera House]", "[+2 Food, +2 Gold] from every [Temple]"]
+        "uniques": ["[+3 Faith, +3 Culture] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
     },
     {
         "name": "Feed the World",
@@ -187,7 +187,7 @@
     {
         "name": "Strong Holy City",
         "type": "Follower",
-        "uniques": ["[+25]% Strength for cities <when defending>"]    
+        "uniques": ["[+30]% Strength for cities <when defending>"]    
     },
     {
         "name": "Way of Pilgrimage",
@@ -237,17 +237,17 @@
     {
         "name": "Atonement Certificate",
         "type": "Follower",
-        "uniques": ["[+3 Gold] from every [Holy site]"]    
+        "uniques": ["[+5 Gold] from every [Holy site]"]    
     },
     {
         "name": "Religious Painting",
         "type": "Follower",
-        "uniques": ["[+3 Culture] from every [Holy site]"]         
+        "uniques": ["[+4 Culture] from every [Holy site]"]         
     },
     {
         "name": "Worship",
         "type": "Follower",
-        "uniques": ["[+3 Faith] from every [Holy site]"]     
+        "uniques": ["[+4 Faith] from every [Holy site]"]     
     },
     {
         "name": "Cathedrals",
@@ -277,12 +277,12 @@
     {
         "name": "Incense Fire Sacrifice",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every [Temple]","[+2 Faith] from every [Shrine]"]    
+        "uniques": ["[+2 Faith] from every [Temple]","[+1 Faith, +1 Gold] from every [Shrine]"]    
     },
     {
         "name": "Choral Chant",
         "type": "Follower",
-        "uniques": ["[+5 Faith] from every [Opera House]"]    
+        "uniques": ["[+4 Faith] from every [Opera House]"]    
     //增强词条
     },
     {
