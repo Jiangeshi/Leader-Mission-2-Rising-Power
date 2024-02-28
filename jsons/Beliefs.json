@@ -282,7 +282,8 @@
     {
         "name": "Choral Chant",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [Opera House]"]    
+        "uniques": ["[+4 Faith] from every [Opera House]"]  
+          
     //增强词条
     },
     {
@@ -294,6 +295,11 @@
         "name": "Crusader",
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+    },
+    {
+        "name": "Religious War",
+        "type": "Enhancer",
+        "uniques": ["[+15]% Strength <for [All] units> <in cities following our religion>"]    
     },
     {
         "name": "Itinerant Preachers",

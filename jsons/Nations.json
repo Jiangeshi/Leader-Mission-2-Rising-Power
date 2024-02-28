@@ -441,7 +441,7 @@
 		"uniqueName": "Revolutionary Tradition",
 		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture or +10% ♪Culture\nup to +3 ♪Culture and +30% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+3 Culture] <when between [21] and [100000] Happiness>",
+		"[+3 Culture] <when above [21] Happiness>",
 		"[+30]% [Culture] <when between [21] and [100000] Happiness>",
 	
 		"[+3 Culture] <when between [15] and [20] Happiness>",
