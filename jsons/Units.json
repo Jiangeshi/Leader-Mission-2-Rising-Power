@@ -1688,6 +1688,7 @@
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Uncapturable",
+		"Unbuildable",
 		"Is part of Great Person group [Military]"
 		],
 		"movement": 2
