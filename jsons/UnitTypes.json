@@ -38,7 +38,7 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "This Unit gains [1] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
         ]
@@ -74,7 +74,7 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "Heal this unit by [3] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
+        "Heal this unit by [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 

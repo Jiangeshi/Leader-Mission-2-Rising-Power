@@ -767,8 +767,8 @@
 		"innerColor": [0,54,128],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
-		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\n+1 [Gold]/+1 [Food] from Tundra/Snow tiles in all cities",
-		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[+1 Food] from [Snow] tiles [in all cities]", "[+1 Gold] from [Tundra] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]",
+		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
     },
@@ -1319,7 +1319,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "African Hegemon",
-		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison\nFoot Soldier gains 1 XP upon ending a turn in a [City center] tile",
+		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison\nFoot Soldier gains 2 XP upon ending a turn in a [City center] tile",
 		"uniques": ["[+1 Happiness, +1 Culture] [in all cities with a garrison]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               
@@ -1379,7 +1379,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "People of Prairie",
-		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 2 HP and gains 1 XP upon ending a turn in a grassland tile" 
+		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 5 HP and gains 1 XP upon ending a turn in a grassland tile" 
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"

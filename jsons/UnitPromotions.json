@@ -1366,6 +1366,11 @@
 	{
 		"name": "Defend the Motherland",
 		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]	
+	},
+	{
+		"name": "Blizzard Wind Ability",
+		"uniques": [
+		"Turn this tile into a [Tundra] tile <once> <in [Plains] tiles>", "Turn this tile into a [Snow] tile <once> <in [Tundra] tiles>"]	
 	}
 ]
     

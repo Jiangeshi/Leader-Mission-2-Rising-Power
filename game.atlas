@@ -1688,7 +1688,23 @@ BuildingIcons/Basilica Di San Pietro In Vaticano
   offset: 0, 0
   index: -1  
 
+Images/BuildingIcons/Auspicious Snow.png
+BuildingIcons/Auspicious Snow
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1 
 
+Images/BuildingIcons/Blizzard Wind.png
+BuildingIcons/Blizzard Wind
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1 
 
 Images/ImprovementIcons/ColonyIcon.png
 ImprovementIcons/Colony
@@ -3204,4 +3220,13 @@ UnitPromotionIcons/Start a Concert
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
-  index: -1                     
+  index: -1                
+  
+Images/UnitPromotionIcons/Blizzard Wind.png
+UnitPromotionIcons/Blizzard Wind Ability
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1             

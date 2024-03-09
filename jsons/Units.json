@@ -31,7 +31,7 @@
 		"movement": 3,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", "May create improvements on water resources", "Uncapturable"]	
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "May create improvements on water resources", "Uncapturable"]	
 		
 	//侦查单位
 	},
@@ -975,7 +975,7 @@
 		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 125,
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
@@ -1684,10 +1684,9 @@
 		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
-		"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"Turn this tile into a [Coast] tile <[3] times> <in [Land] tiles> <in tiles adjacent to [Coast]> <for [2] movement>", 
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
-		"Unbuildable", 
 		"Uncapturable",
 		"Is part of Great Person group [Military]"
 		],
@@ -1789,6 +1788,7 @@
 		"Unbuildable", "Uncapturable",
 		"Limited to [1] per Civilization"
 		],
+		"movement": 2
 	// 宗教单位
     },
     {

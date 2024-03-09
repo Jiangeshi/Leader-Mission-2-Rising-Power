@@ -88,7 +88,12 @@
         "name": "God of Forging",
         "type": "Pantheon",
         "uniques": ["[+2 Production] from every [Quarry]"]
-        
+    },
+    {
+        "name": "God of the Tides",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+            
     // 战争
     },
     {

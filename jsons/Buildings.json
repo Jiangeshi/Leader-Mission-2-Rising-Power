@@ -463,6 +463,7 @@
 		"name": "Harbor",
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 3,
+		"production": 2,
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings]"],
 		"requiredTech": "Compass"
 	},
@@ -1692,7 +1693,36 @@
 		"culture": 2,
 		"requiredTech": "Art",
 		"uniques":["Gain [100]-[200] [Gold]", "Gain [30]-[50] [Culture]"]	
-		
+	},
+	{
+		"name": "Auspicious Snow",
+		"cost": 1,
+		"uniqueTo": "Finland",
+	    "maintenance": 0,
+	    "replacementTextForUniques": "Remove [Blizzard Wind]\n+1 [Food] from [Snow] and [Tundra] tiles in all cities\n+1 / +2 [Gold] from every [Camp] in [Tundra] / [Snow] tiles"
+		"uniques":[
+		"Can only be built [in capital]", 
+		"Cannot be purchased", "Unsellable",
+		"Destroyed when the city is captured",
+		"Remove [Blizzard Wind] [in all cities]",
+		"[+1 Food] from [Snow] tiles [in all cities]",
+		"[+1 Food] from [Tundra] tiles [in all cities]",
+		]		
+	},
+	{
+		"name": "Blizzard Wind",
+		"cost": 1,
+		"uniqueTo": "Finland",
+	    "maintenance": 0,
+	       "replacementTextForUniques": "Remove [Auspicious Snow]\n[All newly-trained [Worker] units [in all cities] receive the [Blizzard Wind Ability] promotion]\n+1 / +2 [Production] from every [Mine] in [Tundra] / [Snow] tiles"
+		"uniques":[
+		"Can only be built [in capital]", 
+		"Cannot be purchased", "Unsellable",
+		"Destroyed when the city is captured",
+		"Remove [Auspicious Snow] [in all cities]",
+		"All newly-trained [Worker] units [in all cities] receive the [Blizzard Wind Ability] promotion",
+		"Only available <for [Human player]>"
+		]		
 	// 苏联
 	},
 	{	
@@ -2077,8 +2107,8 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
-		"maintenance": 3,
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings]"],
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings]", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
     // 埃塞俄比亚
@@ -2153,8 +2183,8 @@
 		"name": "Tomb Mound",
 		"replaces": "Monument",
         "uniqueTo": "Scythian",
-		"culture": 2,
-		"production": 1,
+		"culture": 1,
+		"production": 2,
 		"requiredTech": "Burial Custom",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
         
