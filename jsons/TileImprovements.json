@@ -17,7 +17,7 @@
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [3] tiles of a [Mine]>", 
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [1] tiles of a [City center]>", 
 		"Pillaging this improvement yields approximately [+15 Gold]",
-		"[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland]>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland]>"
+		"[+1 Production] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>", "[+2 Production] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>"
 		],
 	},
 	{
