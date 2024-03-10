@@ -23,7 +23,8 @@
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
     },
     {
@@ -61,7 +62,8 @@
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>"
+        "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
     },
     {
@@ -79,7 +81,8 @@
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
     },
     {
@@ -97,7 +100,8 @@
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>"
         ]    
     },
     {
@@ -113,7 +117,8 @@
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]        
     },
     {
@@ -126,7 +131,8 @@
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",       
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]                
     },
     {
@@ -145,7 +151,8 @@
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
     },
     {

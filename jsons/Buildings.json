@@ -647,6 +647,14 @@
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
 	},
 	{
+		"name": "Jokhang Temple",
+		"culture": 3,
+		"isWonder": true,
+		"uniques":["[+2 Food] from [Snow] tiles [in this city]","[+2 Faith] from [Hill] tiles [in this city]"]
+		"requiredTech": "Printing Press",
+	    "quote": "'But according to the original heart, there is no need to seek the Dharma, the heart is also the Dharma.' - The Essential Techniques for Communicating Minds"
+	},
+	{
 		"name": "Himeji Castle",
 		"culture": 3,
 		"isWonder": true,
