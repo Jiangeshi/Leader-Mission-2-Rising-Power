@@ -1319,7 +1319,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "African Hegemon",
-		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison\nFoot Soldier gains 2 XP upon ending a turn in a [City center] tile",
+		"uniqueText": "+1 [Happiness] and +1 [Culture] in all cities with a garrison\nLand unit gains 2 XP upon ending a turn in a [City center] tile",
 		"uniques": ["[+1 Happiness, +1 Culture] [in all cities with a garrison]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               

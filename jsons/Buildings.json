@@ -1470,8 +1470,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +1 [Gold] from all ☮Faith buildings"	
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +1 Science, +1 Culture, +1 Gold] from all [Faith] buildings"]	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +2 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +2 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
 	},
 	{
 		"name": "Galata Tower",
