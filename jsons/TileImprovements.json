@@ -248,6 +248,8 @@
 		"uniqueTo": "Inca",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
+		"gold": 1,
+		"production": -1,
 		"turnsToBuild": 10,
 		"uniques": ["Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
@@ -298,7 +300,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
-		"uniques": ["Gives a defensive bonus of [15]%", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Production] <after discovering [Industrialization]>"],	
+		"uniques": ["Gives a defensive bonus of [20]%", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Pillaging this improvement yields approximately [+30 Gold]", "[+1 Food] <after discovering [Engineering]>", "[+1 Production] <after discovering [Industrialization]>"],	
 	},
 	{
 		"name": "Expand Pasture",
