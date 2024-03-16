@@ -1511,8 +1511,9 @@
 	},
 	{
 		"name": "Lavra Monastery",
-		"production": 2,
-	    "maintenance": 1,
+		"production": 1,
+		"faith": 1,
+	    "maintenance": 2,
 	    "uniqueTo": "Russia",
 		"replaces": "Temple",
 		"requiredTech": "Theology",
