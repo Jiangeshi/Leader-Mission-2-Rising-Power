@@ -60,12 +60,12 @@
     {
         "name": "Divine Revelation",
         "type": "Pantheon",
-        "uniques": ["[+1 Science] from every [Shrine]", "[+1 Science] from every [Temple]"]
+        "uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]"]
     },
     {
         "name": "God of Wisdom",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from every [World Wonder]"]
+        "uniques": ["[+3 Science] from every [World Wonder]"]
     },
     {
         "name": "Messenger of God",

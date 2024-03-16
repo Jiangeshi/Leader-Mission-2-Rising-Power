@@ -1579,16 +1579,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Empire enters a 3-turn ⌣Golden Age upon founding a city\n+15% ⚙Production and ♪Culture in all cities during a ⌣Golden Age",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+15]% [Production] [in all cities] <during a Golden Age>", "[+15]% [Culture] [in all cities] <during a Golden Age>", "Empire enters a [3]-turn Golden Age <upon founding a city>"]
+		"replacementTextForUniques": "Empire enters a 5-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [5]-turn Golden Age <upon founding a city>"]
 	},
 	{	
         "name": "Civilized Leader-Churchill",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]\n+5% ⚙Production in all cities when at war",
-		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+5]% [Production] [in all cities] <when at war>"]
+		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]\n+10% ⚙Production in all cities when at war",
+		"uniques": ["Can only be built [in capital]", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+10]% [Production] [in all cities] <when at war>"]
 	},
 	{
 		"name": "Royal Navy Dockyard",

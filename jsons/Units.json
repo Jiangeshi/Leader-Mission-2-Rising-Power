@@ -1684,7 +1684,8 @@
 		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
-		"Turn this tile into a [Coast] tile <[3] times> <in [Land] tiles> <in tiles adjacent to [Coast]> <for [2] movement> <for [Human player]>", 
+		"Turn this tile into a [Coast] tile <[3] times> <in [Land] tiles> <in tiles adjacent to [Coast]> <for [2] movement> <in [Your] cities> <for [Human player]>", 
+		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence", 
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Uncapturable",

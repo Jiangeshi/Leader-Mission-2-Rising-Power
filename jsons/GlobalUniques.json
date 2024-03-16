@@ -22,15 +22,15 @@
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>",
     
     //厌战度（10，30）
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [10] [Warfare Aversion Level]>",
+    "[+10]% Unhappiness from [Population] [in all cities] <when above [10] [Warfare Aversion Level]>",
     
     //厌战度（30，50）
-    "[-10]% [Gold] <when above [30] [Warfare Aversion Level]>",
+    "[-15]% [Gold] <when above [30] [Warfare Aversion Level]>",
     "[+5]% Unhappiness from [Population] [in all cities] <when above [30] [Warfare Aversion Level]>",
     
     //厌战度（50，70）
     "[-5]% [Gold] <when above [50] [Warfare Aversion Level]>",
-    "[-15]% [Production] [in all cities] <when above [50] [Warfare Aversion Level]>",
+    "[-20]% [Production] [in all cities] <when above [50] [Warfare Aversion Level]>",
     "[+5]% Unhappiness from [Population] [in all cities] <when above [50] [Warfare Aversion Level]>",    
     
     //厌战度（70，100）
@@ -43,7 +43,7 @@
     "[-5]% [Gold] <when above [100] [Warfare Aversion Level]>",
     "[-5]% [Production] [in all cities] <when above [100] [Warfare Aversion Level]>",    
     "[+5]% Unhappiness from [Population] [in all cities] <when above [100] [Warfare Aversion Level]>",    
-    "[-25]% Strength <for [Military] units> <when above [100] [Warfare Aversion Level]>",
+    "[-30]% Strength <for [Military] units> <when above [100] [Warfare Aversion Level]>",
     
     // 特殊单位
     "Enables [Great Admiral] units to enter ocean tiles",
