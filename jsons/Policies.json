@@ -704,7 +704,7 @@
             "Only available <after discovering [Currency]>",
             "[Great Admiral] is earned [50]% faster",
             "[+33]% [Gold] [in capital]",
-            "[Gold] cost of purchasing items in cities [-15]%"
+            "[+1 Culture, +1 Gold] from every [Luxury resource]"
         ],
         "policies": [
             {
