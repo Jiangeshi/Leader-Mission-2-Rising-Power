@@ -140,12 +140,6 @@
 				"quote": ""
 			},
 			{
-				"name": "Legislation",
-				"row": 3,
-				"prerequisites": ["Calendar"],
-				"quote": ""
-			},
-			{
 				"name": "Optics",
 				"row": 4,
 				"prerequisites": ["Sailing"],
@@ -176,7 +170,7 @@
 			{
 				"name": "Nation",
 				"row": 3,
-				"prerequisites": ["Theology","Legislation"],
+				"prerequisites": ["Theology","Calendar"],
 				"uniques":["Enables Research agreements"],
 				"quote": ""
 			},

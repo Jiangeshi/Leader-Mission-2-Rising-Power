@@ -1283,7 +1283,7 @@
 	},
 	{
 		"name": "[Cossack] ability",
-		"uniques": ["[+33]% Strength <vs [Wounded] units> <when attacking>"]
+		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -1331,7 +1331,7 @@
 	},
 	{
 		"name": "[Templar Knight] ability",
-		"uniques": ["Prevents spreading of religion to the city it is next to", "Gain [225] [Gold] (modified by game speed) <upon being defeated>", "Gain [45] [Faith] (modified by game speed) <upon being promoted>"]
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Gain [200] [Gold] (modified by game speed) <upon being defeated>", "Gain [40] [Faith] (modified by game speed) <upon being promoted>"]
 	},
 	{
 		"name": "Pictish Courage",

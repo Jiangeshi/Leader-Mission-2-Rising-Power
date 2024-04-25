@@ -216,7 +216,7 @@
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Only available <for [Benin]>"]
 	},
 	{
 		"name": "City ruins",

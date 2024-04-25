@@ -1706,6 +1706,12 @@ BuildingIcons/Blizzard Wind
   offset: 0, 0
   index: -1 
 
+
+
+
+
+
+
 Images/ImprovementIcons/ColonyIcon.png
 ImprovementIcons/Colony
   rotate: false
@@ -2265,15 +2271,6 @@ TechIcons/Art
   orig: 75, 75
   offset: 0, 0
   index: -1
-  
-Images/TechIcons/Legislation.png
-TechIcons/Legislation
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1      
   
 Images/TechIcons/Nation.png
 TechIcons/Nation

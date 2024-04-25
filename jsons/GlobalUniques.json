@@ -48,5 +48,8 @@
     // 特殊单位
     "Enables [Great Admiral] units to enter ocean tiles",
     "Enables [Lee Sunshin] units to enter ocean tiles"
+    
+    // 事件
+    "Triggers a [New Era] event <upon entering a new era>"
     ]
 }

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Sacrifice I",
+        "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
+        "choices": [
+            {
+                "text": "Gain Faith",
+                "triggeredUniques": ["Gain [2] [Faith] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Culture",
+                "triggeredUniques": ["Gain [3] [Culture] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Science",
+                "triggeredUniques": ["Gain [3] [Science] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Gold",
+                "triggeredUniques": ["Gain [10] [Gold] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Iron",
+                "triggeredUniques": ["Instantly provides [2] [Horses]", "Instantly provides [2] [Iron]"],
+                "conditions": []
+            },
+        ]
+    },
+    {
+        "name": "Sacrifice II",
+        "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
+        "choices": [
+            {
+                "text": "Gain Faith",
+                "triggeredUniques": ["Gain [7] [Faith] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Culture",
+                "triggeredUniques": ["Gain [10] [Culture] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Science",
+                "triggeredUniques": ["Gain [10] [Science] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Gold",
+                "triggeredUniques": ["Gain [20] [Gold] (modified by game speed)"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Iron",
+                "triggeredUniques": ["Instantly provides [5] [Iron]", "Instantly provides [3] [Coal]"],
+                "conditions": []
+            },
+        ]
+    },
+    {
+        "name": "Sacrifice III",
+        "text": "You offered up enemy's blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
+        "choices": [
+            {
+                "text": "Start Golden Age",
+                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Population",
+                "triggeredUniques": ["[+1] population in a random city"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Faith",
+                "triggeredUniques": ["Gain enough Faith for [20]% of a Great Prophet"],
+                "conditions": []
+            },
+        ]
+    },
+    {
+        "name": "New Era",
+        "text": "Under your wise and powerful leadership, your civilization has flourished and entered a new era.",
+        "choices": [
+            {
+                "text": "Start Golden Age",
+                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Population",
+                "triggeredUniques": ["[+1] population in a random city", "[+1] population in a random city"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Settler",
+                "triggeredUniques": ["Free [Settler] appears"],
+                "conditions": []
+            },            
+            {
+                "text": "Gain Technology",
+                "triggeredUniques": ["Free Technology"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Faith",
+                "triggeredUniques": ["Gain enough Faith for [33]% of a Great Prophet"],
+                "conditions": []
+            },
+            {
+                "text": "Gain Spy",
+                "triggeredUniques": ["Gain an extra spy"],
+                "conditions": []
+            },
+            
+        ]    
+    }
+]
