@@ -1158,9 +1158,9 @@ Quilmes = 基尔梅斯
 # 布基纳法索
 Burkina Faso = 布基纳法索
 Country of Upright People = 正人君子之国
--20% ¤maintenance cost for buildings in all cities\n-20% ¤maintenance costs for Military units\n -20 Unhappiness from Population in all cities = 每座城市-20%¤建筑维护费\n每座城市-20%人口造成的不快乐\n军事单位-20%¤维护费用
+-20% ¤maintenance cost for buildings in all cities\n-20% ¤maintenance costs for Military units\n -20 Unhappiness from Population in all cities = 每座城市-20%¤建筑维护费与人口造成的不快乐\n军事单位-20%¤维护费用
 Civilized Leader-Sankara = 文明领袖-桑卡拉
-+1 ⁂Food in all cities\n+15% ⁂Food in capital = 每座城市+1⁂食物\n首都+15%⁂食物
++1 ⁂Food in all cities\n+20% ⁂Food in capital = 每座城市+1⁂食物\n首都+20%⁂食物
 Ganduo Primary School = 甘多小学
 Mossi Warrior = 莫西战士
 Ougadougou = 瓦加杜古

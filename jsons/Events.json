@@ -5,27 +5,27 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [2] [Faith] (modified by game speed)"],
+                "triggeredUniques": ["Gain [4] [Faith] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [3] [Culture] (modified by game speed)"],
+                "triggeredUniques": ["Gain [6] [Culture] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [3] [Science] (modified by game speed)"],
+                "triggeredUniques": ["Gain [6] [Science] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [10] [Gold] (modified by game speed)"],
+                "triggeredUniques": ["Gain [15] [Gold] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Iron",
-                "triggeredUniques": ["Instantly provides [2] [Horses]", "Instantly provides [2] [Iron]"],
+                "triggeredUniques": ["Instantly provides [3] [Horses]", "Instantly provides [3] [Iron]"],
                 "conditions": []
             },
         ]
@@ -36,17 +36,17 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [7] [Faith] (modified by game speed)"],
+                "triggeredUniques": ["Gain [15] [Faith] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [10] [Culture] (modified by game speed)"],
+                "triggeredUniques": ["Gain [20] [Culture] (modified by game speed)"],
                 "conditions": []
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [10] [Science] (modified by game speed)"],
+                "triggeredUniques": ["Gain [20] [Science] (modified by game speed)"],
                 "conditions": []
             },
             {
@@ -56,7 +56,7 @@
             },
             {
                 "text": "Gain Iron",
-                "triggeredUniques": ["Instantly provides [5] [Iron]", "Instantly provides [3] [Coal]"],
+                "triggeredUniques": ["Instantly provides [7] [Iron]", "Instantly provides [5] [Coal]"],
                 "conditions": []
             },
         ]
@@ -88,7 +88,7 @@
         "choices": [
             {
                 "text": "Start Golden Age",
-                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
+                "triggeredUniques": ["Empire enters a [12]-turn Golden Age"],
                 "conditions": []
             },
             {

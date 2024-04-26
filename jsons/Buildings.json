@@ -1151,7 +1151,7 @@
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Horseback Riding"
-			"uniques": ["Only available <in cities with a [City Level II]>", "[+25]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+			"uniques": ["Only available <in cities with a [City Level II]>", "[+30]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
 	
 	
 	// 印度
@@ -1510,8 +1510,7 @@
 	},
 	{
 		"name": "Lavra Monastery",
-		"production": 1,
-		"faith": 1,
+		"production": 2,
 	    "maintenance": 2,
 	    "uniqueTo": "Russia",
 		"replaces": "Temple",
@@ -1579,8 +1578,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Empire enters a 5-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [5]-turn Golden Age <upon founding a city>"]
+		"replacementTextForUniques": "Empire enters a 7-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [7]-turn Golden Age <upon founding a city>"]
 	},
 	{	
         "name": "Civilized Leader-Churchill",
@@ -2026,8 +2025,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
-		"replacementTextForUniques": "+1 ⁂Food in all cities\n+20% ⁂Food in capital"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+20]% [Food] [in capital]"]	   
+		"replacementTextForUniques": "+1 ⁂Food in all cities\n+15% ⁂Food in capital"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+15]% [Food] [in capital]"]	   
 	},
 	{
 		"name": "Ganduo Primary School",
@@ -2173,8 +2172,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
+		"replacementTextForUniques": "+15% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
 		
 	// 斯基泰
 	},

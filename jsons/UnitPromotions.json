@@ -1283,7 +1283,7 @@
 	},
 	{
 		"name": "[Cossack] ability",
-		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"]
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "[Jaguar] ability",
