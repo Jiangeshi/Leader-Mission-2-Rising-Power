@@ -108,26 +108,30 @@
 		"name": "Remove Forest",
 		"turnsToBuild": 5,
 		"techRequired": "Mining",
-		"uniques": ["Can be built outside your borders"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 5,
 		"techRequired": "Mining",
-		"uniques": ["Can be built outside your borders"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"],
+		"terrainsCanBeBuiltOn": ["Land"],	
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
-		"uniques": ["Can be built outside your borders"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 	},
 	{
 		"name": "Remove Road",
