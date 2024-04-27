@@ -374,8 +374,8 @@
 		"outerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Enlightenment of Western Philosophy",
-		"uniqueText": "+80 ♪Culture and +180 ⍾Science whenever a Great Person is expended, \n⍾Science gained by expending a Great Person is influenced by ⍾⏳Science Cost Modifier" 
-		"uniques": ["[+80 Culture, +180 Science] whenever a Great Person is expended",
+		"uniqueText": "+50 ♪Culture and +100 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 100 [Science] upon gaining a Great Person unit (modified by game speed)" 
+		"uniques": ["[+50 Culture, +100 Science] whenever a Great Person is expended", "Gain [50] [Culture] (modified by game speed) <upon gaining a [Great Person] unit>", "Gain [100] [Science] (modified by game speed) <upon gaining a [Great Person] unit>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",

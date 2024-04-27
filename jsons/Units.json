@@ -754,7 +754,7 @@
 	    "requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Founds a new city <on foreign continents>", "[+2] Sight", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength <when attacking> <on foreign continents>", "[+2] Sight", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"	
 	},

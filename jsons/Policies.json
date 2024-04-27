@@ -28,7 +28,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [6] population [in all cities]"
+                    "[+1 Happiness] per [5] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -37,7 +37,7 @@
                 "name": "Citizenship",
                 "uniques": [
                     "[-25]% construction time for [All] improvements",
-                    "[+50]% Production when constructing [Worker] units [in capital]",
+                    "[+66]% Production when constructing [Worker] units [in capital]",
                 ],
                 "row": 1,
                 "column": 5  
@@ -65,7 +65,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+33]% Production when constructing [Settler] units [in capital]",
+                    "[+66]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears"
                 ],
                 "requires": ["Republic", "Citizenship"],
@@ -75,7 +75,8 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies"
+                    "[-10]% Culture cost of adopting new Policies",
+                    "Provides the cheapest [Production] building in your first [3] cities for free"
                 ]
             }
         ]
@@ -692,7 +693,7 @@
     {
     // 商业政策
         "name": "Commerce",
-        "era": "Classical era",
+        "era": "Ancient era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -701,7 +702,7 @@
             "Scientific": 10
         },
         "uniques": [
-            "Only available <after discovering [Currency]>",
+            "Only available <after discovering [Sailing]>",
             "[Great Admiral] is earned [50]% faster",
             "[+33]% [Gold] [in capital]",
             "[+1 Culture, +1 Gold] from every [Luxury resource]"
@@ -731,8 +732,8 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+3 Production] [in all coastal cities]",
-                    "[+1 Gold] from [Coast] tiles [in all coastal cities]"
+                    "[+2 Production] [in all coastal cities]",
+                    "[+2 Gold] from [Coast] tiles [in all coastal cities]"
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,
@@ -790,7 +791,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith] from every [Temple]",
-                    "[+75]% Production when constructing [Temple] buildings [in all cities]",
+                    "[+50]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
@@ -895,7 +896,7 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[-50]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",

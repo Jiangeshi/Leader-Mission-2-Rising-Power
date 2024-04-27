@@ -24,9 +24,14 @@
                 "conditions": []
             },
             {
-                "text": "Gain Iron",
+                "text": "Gain Resource",
                 "triggeredUniques": ["Instantly provides [3] [Horses]", "Instantly provides [3] [Iron]"],
                 "conditions": []
+            },
+            {
+                "text": "Gain Power",
+                "triggeredUniques": ["[+10]% Strength <for [Military] units> <for [1] turns>"],
+                "conditions": []    
             },
         ]
     },
@@ -51,13 +56,18 @@
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [20] [Gold] (modified by game speed)"],
+                "triggeredUniques": ["Gain [30] [Gold] (modified by game speed)"],
                 "conditions": []
             },
             {
-                "text": "Gain Iron",
+                "text": "Gain Resource",
                 "triggeredUniques": ["Instantly provides [7] [Iron]", "Instantly provides [5] [Coal]"],
                 "conditions": []
+            },
+            {
+                "text": "Gain Power",
+                "triggeredUniques": ["[+15]% Strength <for [Military] units> <for [1] turns>"],
+                "conditions": []    
             },
         ]
     },
@@ -100,6 +110,11 @@
                 "text": "Gain Settler",
                 "triggeredUniques": ["Free [Settler] appears"],
                 "conditions": []
+            },
+            {
+                "text": "Gain Worker",
+                "triggeredUniques": ["Free [Worker] appears"],
+                "conditions": []    
             },            
             {
                 "text": "Gain Technology",

@@ -1669,8 +1669,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Spain",
-		"replacementTextForUniques": "+2 [Faith] and +5 [Gold] [in all cities] [on foreign continents]\n+1 [Science] [in all cities] not on foreign continents"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +5 Gold, -1 Science] [in all cities] <on foreign continents>", "[+1 Science] [in all cities]"]
+		"replacementTextForUniques": "+2 [Faith] and +2 [Gold] [in all cities] [on foreign continents]\n+2 [Science] [in all cities] not on foreign continents"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +2 Gold, -2 Science] [in all cities] <on foreign continents>", "[+2 Science] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Franco",
