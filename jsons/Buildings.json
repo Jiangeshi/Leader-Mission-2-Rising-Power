@@ -1189,16 +1189,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+1 ♪Culture in all cities\n+10% ♪Culture in all cities starting from the Classical era",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities]", "[+10]% [Culture] [in all cities] <starting from the [Classical era]>"]
+		"replacementTextForUniques": "+1 ♪Culture in all cities\n+15% ♪Culture in all cities starting from the Classical era",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities]", "[+15]% [Culture] [in all cities] <starting from the [Classical era]>"]
 	},
 	{
         "name": "Civilized Leader-First Emperor of Qin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation]\n+33% ⚙Production when constructing National Wonder wonders in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
+		"replacementTextForUniques": "+15% †Strength for Military units before discovering [Nation]\n+25% ⚙Production when constructing National Wonder wonders in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+15]% Strength <for [Military] units> <before discovering [Nation]>", "[+25]% Production when constructing [National Wonder] wonders [in all cities]"]	
 	},
 	{
 	    "name": "Civilized Leader-Emperor Wu of Han",
@@ -1213,24 +1213,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+75% Great Person generation in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+75]% Great Person generation [in all cities]"]
+		"replacementTextForUniques": "+50% Great Person generation in all cities\n[[+2 Culture] from each Trade Route]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]", "[+2 Culture] from each Trade Route"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizu of Song",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10%/-10% †Strength for Military units when fighting in Friendly/Enemy Land tiles\n+15% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]	
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Friendly Land tiles\n+15% ⍾Science and ♪Culture in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units\n+15% ⚙Production when constructing Civilian units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "[+1] Movement <for [Foot Soldier] units>", "[+15]% Production when constructing [Civilian] units [in all cities]"]
+	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units\n+10% ⚙Production when constructing Foot Soldier units in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "[+1] Movement <for [Foot Soldier] units>", "[+10]% Production when constructing [Foot Soldier] units [in all cities]"]
 	},
 	{
 		"name": "Rockery Garden",

@@ -6,7 +6,7 @@
             {
                 "text": "Gain Faith",
                 "triggeredUniques": ["Gain [4] [Faith] (modified by game speed)"],
-                "conditions": []
+                "conditions": ["before [5] turns"]
             },
             {
                 "text": "Gain Culture",

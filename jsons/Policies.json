@@ -18,8 +18,7 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "Notified of new Barbarian encampments"
-                    "[+1 Culture] [in all cities]"
+                    "[+1 Culture] [in all cities]",
                 ],
                 "row": 1,
                 "column": 1
@@ -36,8 +35,8 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
-                    "[+66]% Production when constructing [Worker] units [in capital]",
+                    "[+75]% Production when constructing [Settler] units [in capital]",
+                    "[+75]% Production when constructing [Worker] units [in capital]",
                 ],
                 "row": 1,
                 "column": 5  
@@ -56,7 +55,8 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>"
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "Free [Settler] appears"
                 ],
                 "requires": ["Legalism"],
                 "row": 3,
@@ -65,8 +65,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+66]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears"
+                    "[-25]% construction time for [All] improvements",
+                    "Provides the cheapest [Production] building in your first [2] cities for free"
                 ],
                 "requires": ["Republic", "Citizenship"],
                 "row": 3,
@@ -75,8 +75,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[-10]% Culture cost of adopting new Policies",
-                    "Provides the cheapest [Production] building in your first [3] cities for free"
+                    "[-15]% Culture cost of adopting new Policies",
                 ]
             }
         ]
@@ -712,9 +711,8 @@
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
-                    "[+1] Sight <for [{Military} {Water}] units>",
-                    "Free [Great Admiral] appears"
-                    "[+2] Movement <for [Great Admiral] units>"
+                    "Free [Great Admiral] appears",
+                    "[+2 Production] [in all coastal cities]",
                 ],
                 "row": 1,
                 "column": 2
@@ -723,8 +721,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+2 Gold] from every [Seaport]"
+                    "[-33]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 4
@@ -732,7 +729,8 @@
             {
                 "name": "Merchant Navy",
                 "uniques": [
-                    "[+2 Production] [in all coastal cities]",
+                    "[+15]% Production when constructing [Water] units [in all coastal cities]",
+                    "[+1 Production] from every [Harbor]",
                     "[+2 Gold] from [Coast] tiles [in all coastal cities]"
                 ],
                 "requires": ["Naval Tradition"],
@@ -851,7 +849,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[Great General] is earned [50]% faster",
+            "Notified of new Barbarian encampments",
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
         ],
@@ -860,7 +858,8 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
-                    "Free [Great General] appears"
+                    "Free [Great General] appears",
+                    "[Great General] is earned [50]% faster",
                 ],
                 "row": 1,
                 "column": 2
