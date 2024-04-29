@@ -3,9 +3,7 @@
     "uniques": [
     // 快乐惩罚
     "[-25]% growth [in all cities] <when between [-10] and [0] Happiness>",
-    "[-5]% Strength <for [Military] units>  <when between [-10] and [0] Happiness>",
     "[-75]% growth [in all cities] <when between [-15] and [-11] Happiness>",
-     "[-10]% Strength <for [Military] units>  <when between [-15] and [11] Happiness>",
     "Nullifies Growth [in all cities] <when below [-15] Happiness>",
     "[-50]% [Production] [in all cities] <when below [-15] Happiness>",
     "[-15]% Strength <for [Military] units>  <when below [-15] Happiness>",
