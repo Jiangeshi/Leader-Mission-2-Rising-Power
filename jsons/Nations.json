@@ -314,7 +314,7 @@
 		"innerColor": [182, 182, 182],
 		"favoredReligion": "Islam",
 		"uniqueName": "Freedom Will",
-		"uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive n basic military units upon turn end, up to a maximum of three.\nThe fewer cities there are, the higher the †Strength of military units.",
+		"uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive n basic military units upon turn end, up to a maximum of two.\nThe fewer cities there are, the higher the †Strength of military units.",
 		"uniques": [
 		"[1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when above [0] [Number of Cities]> <before discovering [Bronze Working]> <upon turn end>",
 		"[1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when above [1] [Number of Cities]> <before discovering [Bronze Working]> <upon turn end>",
