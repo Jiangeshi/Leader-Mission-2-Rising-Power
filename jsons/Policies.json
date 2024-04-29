@@ -35,7 +35,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[+33]% Production when constructing [civilian units] units [in capital]",
+                    "[+33]% Production when constructing [Civilian] units [in capital]",
                 ],
                 "row": 1,
                 "column": 5  
