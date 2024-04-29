@@ -1197,16 +1197,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+15% †Strength for Military units before discovering [Nation]\n+25% ⚙Production when constructing National Wonder wonders in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+15]% Strength <for [Military] units> <before discovering [Nation]>", "[+25]% Production when constructing [National Wonder] wonders [in all cities]"]	
+		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation]\n+33% ⚙Production when constructing National Wonder wonders in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
 	},
 	{
 	    "name": "Civilized Leader-Emperor Wu of Han",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "⛤Great General provides double †combat bonus\n+50% ¤maintenance costs for Military units",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Great General provides double combat bonus", "[+50]% maintenance costs <for [Military] units>"]
+		"replacementTextForUniques": "⛤Great General provides double †combat bonus\n+25% ¤maintenance costs for Military units",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Great General provides double combat bonus", "[+25]% maintenance costs <for [Military] units>"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizong of Tang",

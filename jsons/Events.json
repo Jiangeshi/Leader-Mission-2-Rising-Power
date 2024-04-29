@@ -132,6 +132,32 @@
                 "conditions": []
             },
             
+        ]
+    },
+    {
+        "name": "Establishing Country",
+        "text": "Under your wise and powerful leadership, your civilization has established its own country and will shine brightly in the world.",
+        "choices": [
+            {
+                "text": "Start Golden Age",
+                "triggeredUniques": ["Empire enters a [15]-turn Golden Age"],
+                "conditions": []
+            },
+            {
+                "text": "Develop Agriculture",
+                "triggeredUniques": ["Provides the cheapest [Food] building in your first [2] cities for free"],
+                "conditions": []
+            },
+            {
+                "text": "Develop Industry",
+                "triggeredUniques": ["Provides the cheapest [Production] building in your first [2] cities for free"],
+                "conditions": []
+            },
+            {
+                "text": "Develop Science",
+                "triggeredUniques": ["Provides the cheapest [Science] building in your first [2] cities for free"],
+                "conditions": []
+            },
         ]    
     }
 ]

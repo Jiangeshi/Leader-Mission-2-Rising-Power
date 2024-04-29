@@ -35,8 +35,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[+75]% Production when constructing [Settler] units [in capital]",
-                    "[+75]% Production when constructing [Worker] units [in capital]",
+                    "[+33]% Production when constructing [civilian units] units [in capital]",
                 ],
                 "row": 1,
                 "column": 5  
@@ -704,7 +703,7 @@
             "Only available <after discovering [Sailing]>",
             "[Great Admiral] is earned [50]% faster",
             "[+33]% [Gold] [in capital]",
-            "[+1 Culture, +1 Gold] from every [Luxury resource]"
+            "[+2 Culture] from every [Luxury resource]"
         ],
         "policies": [
             {
@@ -715,27 +714,7 @@
                     "[+2 Production] [in all coastal cities]",
                 ],
                 "row": 1,
-                "column": 2
-            },
-            {
-                "name": "Trade Unions",
-                "uniques": [
-                    "[-50]% maintenance on road & railroads",
-                    "[-33]% maintenance cost for buildings [in all cities]"
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Merchant Navy",
-                "uniques": [
-                    "[+15]% Production when constructing [Water] units [in all coastal cities]",
-                    "[+1 Production] from every [Harbor]",
-                    "[+2 Gold] from [Coast] tiles [in all coastal cities]"
-                ],
-                "requires": ["Naval Tradition"],
-                "row": 2,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Mercantilism",
@@ -746,16 +725,35 @@
                     "[+1 Science] from every [Bank]",
                     "[+1 Science] from every [Stock Exchange]"
                 ],
-                "requires": ["Trade Unions"],
+                "row": 1,
+                "column": 3        
+            },
+            {
+                "name": "Trade Unions",
+                "uniques": [
+                    "[-50]% maintenance on road & railroads",
+                    "[-33]% maintenance cost for buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Merchant Navy",
+                "uniques": [
+                    "[+15]% Production when constructing [Water] units [in all coastal cities]",
+                    "[+1 Production] from every [Harbor]",
+                    "[+2 Gold] from [Coast] tiles [in all coastal cities]"
+                ],
+                "requires": ["Naval Tradition"],
                 "row": 2,
-                "column": 4
+                "column": 1
             },
             {
                 "name": "Protectionism",
                 "uniques": ["[+2] Happiness from each type of luxury resource"],
                 "requires": ["Mercantilism"],
                 "row": 3,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Commerce Complete",

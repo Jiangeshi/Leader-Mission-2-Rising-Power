@@ -171,7 +171,7 @@
 				"name": "Nation",
 				"row": 3,
 				"prerequisites": ["Theology","Calendar"],
-				"uniques":["Enables Research agreements"],
+				"uniques":["Enables Research agreements", "Triggers a [Establishing Country] event"],
 				"quote": ""
 			},
 			{
@@ -210,7 +210,7 @@
 				"row": 2,
 				"prerequisites": ["Nation"],
 			    "uniques":[
-		"Free Social Policy <if no other Civilization has researched this>",	    
+		"Free Social Policy",	    
 		"[-10]% Culture cost of adopting new Policies",
 		]
 				"quote": ""
