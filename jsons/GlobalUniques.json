@@ -52,5 +52,8 @@
     
     // 事件
     "Triggers a [New Era] event <upon entering a new era>"
+    
+    // 宗教
+    "[+5]% Yield from every [Faith] <after adopting [Heal the World and Guide the Lost]>"
     ]
 }

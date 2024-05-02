@@ -221,7 +221,7 @@
     {
         "name": "Heal the World and Guide the Lost",
         "type": "Follower",
-        "uniques": ["[+5]% Yield from every [Faith]"]        
+        "uniques": ["Comment [[+5]% Yield from every [Faith]]"]        
     },
     {
         "name": "Holy Warriors",
