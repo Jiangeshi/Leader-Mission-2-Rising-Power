@@ -1048,7 +1048,8 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["Unbuildable", "[+1 Happiness] per [2] population [in this city]"]	
+		"happiness": 2,
+		"uniques": ["Unbuildable"]	
 		
     // 特殊建筑
     },
@@ -1891,8 +1892,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Denmark",
-		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [20] times its [Production] production as [Gold] immediately]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [20] times its [Production] production as [Gold] immediately"]
+		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately"]
 	},
 	{
 		"name": "Grundtvigs Kirke",

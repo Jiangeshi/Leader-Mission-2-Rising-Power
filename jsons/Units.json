@@ -810,11 +810,11 @@
 		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 25,
-		"cost": 150,
+		"cost": 162,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>", "[+50]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
+		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>", "[+33]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
 		"attackSound": "elephant"
 	},
 	{

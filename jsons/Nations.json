@@ -360,9 +360,9 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniqueText": "+2% Yield from every [Culture] and [Faith] buildings"
+		"uniqueText": "+2% Yield from every [Culture] buildings"
 		"uniques": [
-		"[+2]% Yield from every [Culture]", "[+2]% Yield from every [Faith]", 
+		"[+2]% Yield from every [Culture]", 
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
