@@ -334,10 +334,41 @@
 					
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ramallah", "Gaza", "Rafah", "Northern Province", "Khan Yunis", "Dair al-Balah", "Hebron", "Bethlehem", "Jenin", "Tulkarm", "Nablus", "Jericho"],
-        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]                                 
-                                    
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
                                      
-                                      
+    },
+	{
+		"name": "Siam",
+		"leaderName": "Leader",
+		"adjective": ["Siamese"],
+		"startBias": ["Avoid [Forest]"],
+		"preferredVictoryType":"Diplomatic",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [245, 230, 55],
+		"innerColor": [177, 8, 3],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Father Governs Children",
+		"uniqueText": "+3% Yield from every [Culture] and [Faith] buildings"
+		"uniques": [
+		"[+3]% Yield from every [Culture]", "[+3]% Yield from every [Faith]", 
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
+			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
+			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
+			"Ban Phai","Loci","Khon Kaen","Surin"],
+        "spyNames": ["Aran", "Chanarong", "Kiet", "Niran", "Virote", "Kulap", "Mayuree", "Phueng", "Ratana", "Tola"]                                  
                                        
                                         
                                           
@@ -884,7 +915,41 @@
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
 			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]    
-            
+    },
+	{
+		"name": "Denmark",
+		"leaderName": "Leader",
+		"adjective": ["Danish"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Viking Fury",
+		"uniqueText": "➡1 Movement point cost to disembark for All units\nNo ➡movement cost to pillage for Military units\nEarn 33% of killed Military unit's †Strength as [Gold] / [Science] / [Culture]"
+		"uniques": ["[1] Movement point cost to disembark <for [All] units>", "No movement cost to pillage <for [Military] units>", "Earn [33]% of killed [Military] unit's [Strength] as [Gold]", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]", "Earn [33]% of killed [Military] unit's [Strength] as [Science]", 
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
+			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
+			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
+			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
+        "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]   
+             
     //美洲
     },
 	{

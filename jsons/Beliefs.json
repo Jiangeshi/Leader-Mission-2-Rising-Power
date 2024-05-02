@@ -1,4 +1,3 @@
-
 [
     // 万神殿
     {
@@ -14,13 +13,18 @@
     {
         "name": "Sacred Path",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Jungle]", "[+2 Faith] from every [Forest]", "[-1 Faith] [in all cities]"]
+        "uniques": ["[+2 Faith] from every [Jungle]", "[+2 Faith] from every [Forest]"]
     },
     {
         "name": "God of Water",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [River] tiles [in all cities]"]    
-   
+        "uniques": ["[+1 Faith] from [River] tiles [in all cities]", "[-1 Faith] [in all cities]"]    
+    },
+    {
+        "name": "God of Abundance",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Bonus resource]", "[-1 Faith] [in all cities]"],
+        
     // 文化
     },
     {
@@ -129,7 +133,7 @@
         "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
     },
     {
-        "name": "Monumentality",
+        "name": "Religious Immigrants",
         "type": "Pantheon",
         "uniques": [
         "May buy [Worker] units with [Faith] for [2] times their normal Production cost",
@@ -165,7 +169,7 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+3 Faith, +3 Culture] from every [Opera House]", "[+1 Food, +1 Gold] from every [Temple]"]
+        "uniques": ["[+1 Faith, +2 Culture] from every [Amphitheater]", "[+1 Food, +1 Gold] from every [Temple]"]
     },
     {
         "name": "Feed the World",
@@ -175,7 +179,7 @@
     {
         "name": "State Religion",
         "type": "Founder",
-        "uniques": ["[+1 Culture, +1 Science, +1 Gold, +1 Faith] [in all cities]"]
+        "uniques": ["[+2 Culture, +1 Science, +2 Gold, +1 Faith] [in all cities]"]
     },
     {
         "name": "Religious Syncretism",
@@ -215,9 +219,19 @@
         "uniques": ["[+2]% [Culture] from every follower, up to [20]%"]    
     },
     {
+        "name": "Heal the World and Guide the Lost",
+        "type": "Follower",
+        "uniques": ["[+5]% Yield from every [Faith]"]        
+    },
+    {
         "name": "Holy Warriors",
         "type": "Follower",
         "uniques": ["May buy [Military] units with [Faith] for [2] times their normal Production cost"]   
+    },
+    {
+        "name": "Monumentality",
+        "type": "Follower",
+        "uniques": ["May buy [All] buildings with [Faith] for [3] times their normal Production cost"]           
     },
     {
         "name": "Swords into Ploughshares",
@@ -339,11 +353,16 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+20]% Spread Religion Strength <for [Great Prophet] units>", "[-20]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+20]% Spread Religion Strength <for [Great Prophet] units>", "[Faith] cost of purchasing [Great Prophet] units [-20]%"]
     },
     {
         "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-35]%", "[Faith] cost of purchasing [Inquisitor] units [-35]%"] 
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%", "[Faith] cost of purchasing [Great Prophet] units [-30]%"] 
+    },
+    {
+        "name": "Devout Palmer",
+        "type": "Enhancer",
+        "uniques": ["[Faith] cost of purchasing items in cities [-15]%"]
     }
 ]

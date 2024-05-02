@@ -42,7 +42,7 @@
 		"strength": 5,
 		"cost": 20,
 		"promotions": ["Off-road"],
-		"uniques": ["Can see invisible [Land] units"]
+		"uniques": ["Can see invisible [Land] units", "Can build [Road] improvements on tiles"]
 		"attackSound": "nonmetalhit"
 				
     // 战士
@@ -154,6 +154,22 @@
 		"obsoleteTech": "Steel",
 		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"],
 		"attackSound": "metalhit"	
+    },
+	{
+		"name": "Berserker",
+		"unitType": "Foot Soldier",
+		"replaces": "Swordsman",
+		"uniqueTo": "Denmark",
+		"movement": 3,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+	    "uniques": ["[+10]% Strength <vs [Military] units> <when attacking>"],
+	    "promotions": ["[Berserker] ability"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Longswordsman",
@@ -786,6 +802,20 @@
 		"uniques": ["Costs [10] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Horses]", "Can be purchased for [200] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Templar Knight] ability"],
 		"attackSound": "horse"		
+	},
+	{
+		"name": "Naresuan's Elephant",
+		"unitType": "Mobile",
+		"replaces": "Knight",
+		"uniqueTo": "Siam",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>", "[+50]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
+		"attackSound": "elephant"
 	},
 	{
 		"name": "Cavalry",

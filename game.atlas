@@ -1261,6 +1261,26 @@ BuildingIcons/Civilized Leader-Boudicca
   offset: 0, 0
   index: -1   
 
+Images/BuildingIcons/Civilized leader (87).png
+BuildingIcons/Civilized Leader-Valdemar I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1   
+
+Images/BuildingIcons/Civilized leader (88).png
+BuildingIcons/Civilized Leader-Ram khamhaeng
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+
+
+
 
 
 
@@ -1706,8 +1726,14 @@ BuildingIcons/Blizzard Wind
   offset: 0, 0
   index: -1 
 
-
-
+Images/BuildingIcons/Grundtvigs Kirke.png
+BuildingIcons/Grundtvigs Kirke
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
 
 
 

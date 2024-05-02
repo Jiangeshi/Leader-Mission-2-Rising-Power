@@ -1336,6 +1336,10 @@
 	{
 		"name": "Pictish Courage",
 		"uniques": ["No movement cost to pillage", "[+15]% Strength <when fighting in [Foreign Land] tiles>"]	
+	},
+	{
+		"name": "[Berserker] ability",
+		"uniques": ["Destroys tile improvements when attacking", "Ignores Zone of Control"]		
 		
 	// 特殊
 	},

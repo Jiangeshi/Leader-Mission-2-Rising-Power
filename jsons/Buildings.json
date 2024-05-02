@@ -1023,6 +1023,7 @@
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
+		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable"]
 	},
@@ -1030,7 +1031,7 @@
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 2,
-		"faith": 2,
+		"faith": 3,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable"]
 	},
 	{
@@ -1039,6 +1040,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["Unbuildable"]	
 	},
 	{
@@ -1046,8 +1048,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
-		"happiness": 2,
-		"uniques": ["Unbuildable"]	
+		"uniques": ["Unbuildable", "[+1 Happiness] per [2] population [in this city]"]	
 		
     // 特殊建筑
     },
@@ -1363,6 +1364,27 @@
 		"uniques": ["Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [15] per owned city", "Gain enough Faith for [50]% of a Great Prophet"],
 		"requiredTech": "Belief Worship"			
 		
+	// 泰国
+	},
+	{	
+        "name": "Civilized Leader-Ram khamhaeng",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Siam",
+		"replacementTextForUniques": "+10% †Strength for Military units when adjacent to a Mobile unit",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when adjacent to a [Mobile] unit>"]
+	},
+	{
+		"name": "Wat",
+		"replaces": "University",
+		"uniqueTo": "Siam",
+		"maintenance": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"culture": 3,
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"requiredTech": "Education"
+
 	// 希腊
 	},
 	{	
@@ -1469,12 +1491,12 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +2 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +2 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+2 ⚙Production, +2 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+2 Production, +2 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
 	},
 	{
 		"name": "Galata Tower",
-		"faith": 1,
+		"faith": 2,
 		"cityStrength": 5,
 		"cityHealth": 25,
 		"requiredTech": "Masonry",
@@ -1578,8 +1600,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Empire enters a 7-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [7]-turn Golden Age <upon founding a city>"]
+		"replacementTextForUniques": "Empire enters a 6-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [6]-turn Golden Age <upon founding a city>"]
 	},
 	{	
         "name": "Civilized Leader-Churchill",
@@ -1862,6 +1884,26 @@
 		"requiredTech": "Enlightenment",
 		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings]"]
 		
+	// 丹麦
+	},
+	{	
+        "name": "Civilized Leader-Valdemar I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Denmark",
+		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [20] times its [Production] production as [Gold] immediately]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [20] times its [Production] production as [Gold] immediately"]
+	},
+	{
+		"name": "Grundtvigs Kirke",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Denmark",
+		"culture": 5,
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry",
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
+		
 	// 印加	
 	},
 	{	
@@ -2025,8 +2067,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
-		"replacementTextForUniques": "+1 ⁂Food in all cities\n+15% ⁂Food in capital"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+15]% [Food] [in capital]"]	   
+		"replacementTextForUniques": "+1 ⁂Food in all cities\n+10% ⁂Food in capital"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+10]% [Food] [in capital]"]	   
 	},
 	{
 		"name": "Ganduo Primary School",

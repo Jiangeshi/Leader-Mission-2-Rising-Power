@@ -6,7 +6,7 @@
             {
                 "text": "Gain Faith",
                 "triggeredUniques": ["Gain [4] [Faith] (modified by game speed)"],
-                "conditions": ["before [5] turns"]
+                "conditions": []
             },
             {
                 "text": "Gain Culture",
@@ -98,7 +98,7 @@
         "choices": [
             {
                 "text": "Start Golden Age",
-                "triggeredUniques": ["Empire enters a [12]-turn Golden Age"],
+                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
                 "conditions": []
             },
             {
