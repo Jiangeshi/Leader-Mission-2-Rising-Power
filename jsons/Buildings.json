@@ -1019,37 +1019,37 @@
 	},
 	{
 		"name": "Cathedral",
-		"cost": 0,
+		"cost": 50,
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable"]
+		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>"]
 	},
 	{
 		"name": "Monastery",
-		"cost": 0,
+		"cost": 50,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>"]
 	},
 	{
 		"name": "Mosque",
-		"cost": 0,
+		"cost": 50,
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["Unbuildable"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>"]	
 	},
 	{
 		"name": "Pagoda",
-		"cost": 0,
+		"cost": 50,
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>"]	
 		
     // 特殊建筑
     },
@@ -1484,16 +1484,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -33%\nMay buy Military units with ☮Faith for 3 times their normal ⚙Production cost"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-33]%", "May buy [Military] units with [Faith] for [3] times their normal Production cost"]	
+		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -33%\nMay buy Military units with ☮Faith for 4 times their normal ⚙Production cost"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-33]%", "May buy [Military] units with [Faith] for [4] times their normal Production cost"]	
 	},
 	{	
         "name": "Civilized Leader-Kemal",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+2 ⚙Production, +2 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+2 Production, +2 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +2 ⍾Science, +2 [Culture] and +2 [Gold] from all ☮Faith buildings"	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +2 Science, +2 Culture, +2 Gold] from all [Faith] buildings"]	
 	},
 	{
 		"name": "Galata Tower",
@@ -1781,7 +1781,9 @@
 	},
 	{
 		"name": "Trotsky ability",
+		"cost": 10000,
 	    "maintenance": 0,
+	    "uniqueTo": "Soviet Union",
 		"uniques":["Cannot be purchased","Unsellable","Unbuildable", "[+4]% Strength <for [Military] units>", "Destroyed when the city is captured"]	
 	},
 	{

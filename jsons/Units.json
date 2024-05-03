@@ -162,11 +162,10 @@
 		"uniqueTo": "Denmark",
 		"movement": 3,
 		"strength": 14,
-		"cost": 60,
+		"cost": 66,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
 	    "uniques": ["[+10]% Strength <vs [Military] units> <when attacking>"],
 	    "promotions": ["[Berserker] ability"],
 		"attackSound": "metalhit"
