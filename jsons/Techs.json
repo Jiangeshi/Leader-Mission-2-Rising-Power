@@ -55,7 +55,7 @@
 		"wonderCost": 180,
 		"techs": [
 			{
-				"name": "Art",
+				"name": "Burial Custom",
 				"row": 2,
 				"prerequisites": ["Belief Worship"],
 				"quote": ""
@@ -94,9 +94,9 @@
 		"wonderCost": 180,
 		"techs": [
 			{
-				"name": "Burial Custom",
+				"name": "Art",
 				"row": 2,
-				"prerequisites": ["Art"],
+				"prerequisites": ["Burial Custom"],
 				"quote": ""
 			},
 			{
@@ -135,7 +135,7 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Burial Custom"],
+				"prerequisites": ["Art"],
 				"uniques": ["Enables conversion of city production to [Faith]"],
 				"quote": ""
 			},

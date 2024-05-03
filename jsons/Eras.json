@@ -10,7 +10,7 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
-        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])", "[-10]% Culture cost of adopting new Policies"],
+        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
@@ -33,7 +33,7 @@
         "May buy [Confucius] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Gautama Siddhartha] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Jesus] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
-        "[-20]% Culture cost of adopting new Policies"
+
         ],    
         "iconRGB": [233, 31, 99]
     },
@@ -57,7 +57,7 @@
         "May buy [Muhammad] units for [400] [Faith] [in all cities] at an increasing price ([200])",
         "May buy [Lee Sunshin] units for [400] [Faith] [in all cities] at an increasing price ([200])",  
         "May buy [Belisarius] units for [400] [Faith] [in all cities] at an increasing price ([200])",
-        "[-30]% Culture cost of adopting new Policies"
+
         ],        
         "iconRGB": [157, 39, 176]
     },
@@ -79,7 +79,7 @@
         "citySound": "cityRenaissance",
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])",
-            "[-40]% Culture cost of adopting new Policies"
+
             ],
         "iconRGB": [104, 58, 183]
     },
@@ -101,7 +101,7 @@
         "citySound": "cityIndustrial",
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([50])",
-            "[-50]% Culture cost of adopting new Policies"
+
             ],        
         "iconRGB": [63, 81, 182],
     },
@@ -124,7 +124,7 @@
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])", 
             "May buy [Henri Philippe Pétain] units for [1000] [Faith] [in all cities] at an increasing price ([500])",  
-            "[-50]% Culture cost of adopting new Policies"
+
             ],        
         "iconRGB": [33, 150, 243],
     },
@@ -147,7 +147,7 @@
         "iconRGB": [0, 150, 136],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-            "[-50]% Culture cost of adopting new Policies"
+
             ],
     },
     {
@@ -169,7 +169,7 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-            "[-50]% Culture cost of adopting new Policies"
+
             ],
     },
     {
@@ -191,7 +191,7 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-            "[-50]% Culture cost of adopting new Policies"
+
             ],
     }
 ]

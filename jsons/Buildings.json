@@ -22,6 +22,7 @@
 		"name": "Bonfire",
 		"culture": 1,
 		"science": 1,
+		"food": 1,
 		"maintenance": 0,
 		"requiredTech": "Drill Wood to Make Fire",		
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
@@ -73,7 +74,7 @@
 	},
 	{
 		"name": "Monument",
-		"culture": 2,
+		"culture": 3,
 		"requiredTech": "Burial Custom",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
 		
