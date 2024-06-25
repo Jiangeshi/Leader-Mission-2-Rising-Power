@@ -40,7 +40,7 @@
     {
         "name": "Sacred Route",
         "type": "Pantheon",
-        "uniques": ["[+2 Culture] from each Trade Route"]
+        "uniques": ["[+3 Culture] from each Trade Route"]
         
     // 金钱
     },
@@ -74,7 +74,7 @@
     {
         "name": "Messenger of God",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
+        "uniques": ["[+3 Science] from each Trade Route"]
         
     //产能
     },
@@ -231,7 +231,7 @@
     {
         "name": "Monumentality",
         "type": "Follower",
-        "uniques": ["May buy [All] buildings with [Faith] for [4] times their normal Production cost"]           
+        "uniques": ["May buy [Culture] buildings with [Faith] for [4] times their normal Production cost", "May buy [Happiness] buildings with [Faith] for [4] times their normal Production cost", "May buy [Gold] buildings with [Faith] for [4] times their normal Production cost"]
     },
     {
         "name": "Swords into Ploughshares",
@@ -343,7 +343,7 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["[+100 Faith] whenever a Great Person is expended"]
+        "uniques": ["Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
     },
     {
         "name": "Missionary Zeal",

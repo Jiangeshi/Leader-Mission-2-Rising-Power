@@ -16,16 +16,16 @@
 	{
         "name": "City Level I",
         "cost": 1,
-		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Provides [1] [Number of Cities]"]	
+		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",]	
 	},
 	{
 		"name": "Bonfire",
+		"cost": 28
 		"culture": 1,
 		"science": 1,
-		"food": 1,
 		"maintenance": 0,
 		"requiredTech": "Drill Wood to Make Fire",		
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Kiln",
@@ -33,13 +33,13 @@
 		"science": 1,
 		"happiness": 1,
 		"requiredTech": "Pottery",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Granary",
 		"food": 2,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Pottery"	
     },
 	{
@@ -47,7 +47,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "Remove extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "Remove extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Bronze Working",
 	
 	// 远古时代-选建建筑
@@ -57,12 +57,12 @@
 		"faith": 2,
 		"maintenance": 1,
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]
 	},
 	{
 		"name": "Library",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Science] per [2] population [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Science] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Writing"	
 	},
 	{
@@ -70,13 +70,13 @@
 		"cityStrength": 3,
 		"cityHealth": 50,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Monument",
 		"culture": 3,
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 远古时代-特殊建筑
     },
@@ -86,7 +86,7 @@
 		"food": 1,
 		"production": 1,
 		"uniques": [
-		"Only available <in cities with a [City Level I]>", "Must be on [River]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"Only available <in cities with a [City Level I]>", "Must be on [River]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Agriculture"	
 	},
 	{
@@ -94,7 +94,7 @@
 		"happiness": 2,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Production] from [Stone] tiles [in this city]", "[+1 Production] from [Marble] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Production] from [Stone] tiles [in this city]", "[+1 Production] from [Marble] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Art"	
 	},
 	{
@@ -103,7 +103,7 @@
 		"happiness": 2,
 		"gold": 1,
 		"requiredTech": "Art"
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]		
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]		
 	
 	// 远古时代-世界奇观
 	},
@@ -147,7 +147,7 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person","Must be next to [Coast]",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>","Must be next to [Coast]",
 			"[+2 Science] from [Coast] tiles [in this city]"],
 		"requiredTech": "Burial Custom",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -185,12 +185,12 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
-		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"],
 	},
 	{
 		"name": "Aqueduct",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "[35]% Food is carried over after population increases [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[35]% Food is carried over after population increases [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Engineering"
 	
 	// 古典-选建建筑
@@ -198,7 +198,7 @@
 	{
 		"name": "Barracks",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	},
 	{
@@ -206,7 +206,7 @@
 	    "maintenance": 1,
 		"happiness": 2,
 		"requiredTech": "Horseback Riding",
-		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 	},
 	{
 		"name": "Amphitheater",
@@ -215,27 +215,27 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"requiredTech": "Drama and Poetry",
-		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 	},
 	{
 		"name": "Temple",
 		"maintenance": 1,
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
 		
 	// 古典-特殊建筑
 	},
 	{
 		"name": "Lighthouse",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Optics"
 	},
 	{
 		"name": "Stable",
 		"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -245,13 +245,13 @@
 		"science": 2,
 		"requiredTech": "Iron Working"
 	"requiredNearbyImprovedResources": ["Iron"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 	},
 	{
 		"name": "Mint",
 		"maintenance": 0,
     "requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Currency"	
 	},
 	{
@@ -416,7 +416,7 @@
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"	
 	},
 	{
@@ -425,7 +425,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 15},
-		"uniques": ["Only available <in cities with a [City Level III]>", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Machinery"	
 	
 	// 中古-选建建筑
@@ -433,7 +433,7 @@
 	{
 	    "name": "Garden",
 	    "food": 2,
-		"uniques": ["Only available <in cities with a [City Level III]>","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings] <in this city>"],
 		"maintenance": 1,
 		"requiredTech": "Agricultural Improvement"
 	},
@@ -442,13 +442,21 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Armory",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level III]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
-		"requiredTech": "Steel"		
+		"uniques": ["Only available <in cities with a [City Level III]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Steel"
+	},
+    {
+        "name": "Constabulary",
+        "maintenance": 1,
+        "production": 1,
+        "happiness": 2,
+        "uniques": ["Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "requiredTech": "Feudalism"
 			
 	// 中古-特殊建筑
 	},
@@ -458,14 +466,14 @@
 		"specialistSlots": {"Engineer": 1},
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Machinery",
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+15]% Production when constructing [Spaceship part] units [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+15]% Production when constructing [Spaceship part] units [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Harbor",
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 3,
 		"production": 2,
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -473,14 +481,14 @@
 		"maintenance": 0,
 		"specialistSlots": {"Scientist": 1},
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Only available <in cities with a [City Level III]>","Must be next to [Mountain]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>","Must be next to [Mountain]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Astronomy"	
 	},
 	{
 		"name": "Windmill",
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["Only available <in cities with a [City Level III]>", "Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Agricultural Improvement"	
 		
 	// 中古-国家奇观
@@ -555,7 +563,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 30},
 		"requiredTech": "Economics"	
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Printing House",
@@ -564,7 +572,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Printing Press"
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+30]% Natural religion spread [in this city]", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+30]% Natural religion spread [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Ironworks",
@@ -573,7 +581,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
 		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 3 Steels when above 1 Iron"
-	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [3] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings]"]
+	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [3] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings] <in this city>"]
 	    
 	// 复兴-选建建筑
 	},
@@ -584,27 +592,27 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Theatre",
 		"happiness": 3,
 		"maintenance": 2,
 		"requiredTech": "The Renaissance",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Arsenal",
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metallurgy",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1] Unit Supply per [2] population [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1] Unit Supply per [2] population [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 复兴-特殊建筑
 	},
 	{
 		"name": "Seaport",
 		"maintenance": 3,
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Navigation"
 		
 	// 复兴-国家奇观
@@ -728,7 +736,13 @@
 		"requiredTech": "Biology"
 		"uniques":[
 		"Only available <in cities with a [City Level V]>",	"Costs [10] [Steels]", "[25]% Food is carried over after population increases [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",]
-			
+	},
+    {
+        "name": "Police Station",
+        "happiness": 3,
+        "maintenance": 1,
+        "uniques": ["Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "requiredTech": "Rifling"
 	// 工业-选建建筑
 	},
 	{
@@ -896,7 +910,22 @@
 		"cost": 500,
 		"uniques": ["Can only be built<in [in capital] cities>", "When declaring friendship, both parties gain a [10]% boost to great person generation", "[+25]% [Culture] [in all cities]", "[-15]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers a global alert upon completion", "Obsolete with [Telecommunications]"]
 		"requiredTech": "Globalization",
-	
+	},
+    {
+        "name": "National Intelligence Agency",
+        "cost": 330,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+        "Hidden when espionage is disabled",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy",
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Electronics"
+        
 	// 原子-建筑
 	},
 	{
@@ -1026,14 +1055,14 @@
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>"]
+		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>", "Unsellable <for [Turkey]>"]
 	},
 	{
 		"name": "Monastery",
 		"cost": 50,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>", "Unsellable <for [Turkey]>"]
 	},
 	{
 		"name": "Mosque",
@@ -1042,7 +1071,7 @@
 		"faith": 3,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>", "Unsellable <for [Turkey]>"]	
 	},
 	{
 		"name": "Pagoda",
@@ -1050,7 +1079,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "Unsellable <for [Turkey]>"]	
 		
     // 特殊建筑
     },
@@ -1100,7 +1129,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]", "[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Happiness, +1 Gold] from [Gold Ore] tiles [in this city]", "[+1 Happiness, +1 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		
 	//阿拉伯
 	},
@@ -1128,7 +1157,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
-		"uniques": ["Only available <in cities with a [City Level II]>", "Provides 1 extra copy of each improved luxury resource near this City", "[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Provides 1 extra copy of each improved luxury resource near this City", "[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 	
 	//蒙古
 	},
@@ -1154,7 +1183,7 @@
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Horseback Riding"
-			"uniques": ["Only available <in cities with a [City Level II]>", "[+30]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+			"uniques": ["Only available <in cities with a [City Level II]>", "[+30]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 	
 	
 	// 印度
@@ -1183,7 +1212,7 @@
 		"cityHealth": 25,
 		"culture": 2,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 中华
 	},
@@ -1239,7 +1268,7 @@
 		"name": "Rockery Garden",
 		"food": 2,
 		"culture":3,
-	    "uniques": ["Only available <in cities with a [City Level III]>", "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings]"],
+	    "uniques": ["Only available <in cities with a [City Level III]>", "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings] <in this city>"],
 		"maintenance": 2,
 		"requiredTech": "Agricultural Improvement"
 		"uniqueTo": "China",
@@ -1272,7 +1301,7 @@
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"	
 		
 	// 巴比伦
@@ -1300,7 +1329,7 @@
 		"cityStrength": 4,
 		"cityHealth": 100,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 阿富汗
 	},
@@ -1325,9 +1354,9 @@
 		"faith": 2,
 		"replaces": "Monument",
 		"uniqueTo": "Afghanistan",
-		"culture": 2,
+		"culture": 3,
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 	
 	// 越南
 	},
@@ -1384,7 +1413,7 @@
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"culture": 3,
-		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"
 
 	// 希腊
@@ -1413,7 +1442,7 @@
 	    "uniqueTo": "Greece",
 		"replaces": "Temple",
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
 		
 	//马其顿
     },
@@ -1428,7 +1457,7 @@
 	{
 		"name": "Military Royal School",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation",
 		"replaces": "Barracks",
 		"uniqueTo": "Macedonia",	
@@ -1468,7 +1497,7 @@
 		"maintenance": 2,
 		"cityHealth": 50,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 土耳其
 	},
@@ -1502,7 +1531,7 @@
 		"cityStrength": 5,
 		"cityHealth": 25,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 		"replaces": "Walls",
 		"uniqueTo": "Turkey",	
 		
@@ -1539,7 +1568,7 @@
 	    "uniqueTo": "Russia",
 		"replaces": "Temple",
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
 		
 	// 拜占庭
 	},
@@ -1566,7 +1595,7 @@
 	    "uniqueTo": "Byzantium",
 		"replaces": "Colosseum",
 	    "requiredTech": "Horseback Riding"
-		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]", "Provides [1] [Horses]", "[1] free [Cataphract] units appear"],	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [Horses]", "[1] free [Cataphract] units appear"],	
 	
 	// 罗马
 	},
@@ -1588,11 +1617,11 @@
 	},
 	{
 		"name": "Column",
-		"culture": 2,
+		"culture": 3,
 		"maintenance": 1,
 	    "uniqueTo": "Rome",
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] Experience [in this city]", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] Experience [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 		"replaces": "Monument",
 	
 	// 英格兰
@@ -1648,7 +1677,7 @@
 	    "uniqueTo": "Serbia",
 	    "requiredTech": "Theology",
 	    "replaces": "Temple",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
 		 		 	
 	// 德意志
 	},
@@ -1684,7 +1713,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"percentStatBonus": {"gold": 30},
 		"requiredTech": "Economics"	
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+15]% [Production] [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+15]% [Production] [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 	
 	// 西班牙
 	},
@@ -1823,7 +1852,7 @@
 		"cost": 75,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Horseback Riding"
 
 // 梵蒂冈
@@ -1886,7 +1915,7 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 丹麦
 	},
@@ -1906,7 +1935,7 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"requiredTech": "Drama and Poetry",
-		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings]"]	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 		
 	// 印加	
 	},
@@ -1925,7 +1954,7 @@
 		"culture": 2,
 		"faith": 1, 
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Unsellable <for [Turkey]>", "Provides [1] [Number of Buildings] <in this city>"]
 	
 	// 阿兹特克
 	},
@@ -1944,7 +1973,7 @@
 		"food": 1,
 		"production": 1,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]", "[+15]% [Food] [in this city]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]", "[+15]% [Food] [in this city]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Agriculture"	
 	
 	// 玛雅
@@ -1965,7 +1994,7 @@
 		"science": 2,
 		"maintenance": 1,
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Unsellable <for [Turkey]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 大哥伦比亚
 	},
@@ -1985,7 +2014,7 @@
 	    "maintenance": 1,
 	    "uniqueTo": "Columbia",
 		"requiredTech": "Pottery",
-		"uniques":["Only available <in cities with a [City Level I]>", "[+1 Production] from [Plantation] tiles [in this city]", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "[+1 Production] from [Plantation] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 巴西
 	},
@@ -2005,7 +2034,7 @@
 		"uniqueTo": "Brazil",
 		"replaces": "Colosseum",
 		"requiredTech": "Horseback Riding"
-		"uniques":["Only available <in cities with a [City Level II]>","[-5]% [Production] [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques":["Only available <in cities with a [City Level II]>","[-5]% [Production] [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 				
 	// 古巴
 	},
@@ -2080,7 +2109,7 @@
 		"uniqueTo": "Burkina Faso",
 		"replaces": "Library",
 		"maintenance": 0,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+2 Science] per [3] population [in this city]", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+2 Science] per [3] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		
 	// 埃及
 	},
@@ -2114,7 +2143,7 @@
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
 		"happiness": 2,
 		
 	// 贝宁
@@ -2134,7 +2163,7 @@
 		"cost": 48,
 		"food": 2,
 		"maintenance": 0,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings]", "Unsellable"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable"],
 		"requiredTech": "Pottery"		
 	// 迦太基
 	},
@@ -2160,7 +2189,7 @@
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings]", "Comment [No Production Produce]"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
     // 埃塞俄比亚
@@ -2185,11 +2214,11 @@
 		"name": "Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Ethiopia",
-		"culture": 2,
+		"culture": 3,
 		"faith": 2,
 		"maintenance": 0,
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 祖鲁
 	},
@@ -2208,7 +2237,7 @@
 		"replaces": "Barracks",
 		"gold": 2,
 		"science": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 		
 	// 匈人
@@ -2235,10 +2264,10 @@
 		"name": "Tomb Mound",
 		"replaces": "Monument",
         "uniqueTo": "Scythian",
-		"culture": 1,
+		"culture": 2,
 		"production": 2,
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings]"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
         
     // 波利尼西亚
     },
@@ -2257,8 +2286,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Indonesia",
-		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]\n[[+1 Culture] from [Atoll] tiles [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Resting point for Influence with City-States is increased by [30]", "[+1 Culture] from [Atoll] tiles [in all cities]"]
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]\n+15% †Strength for Military units when fighting in Coast tiles"
+		"uniques": ["Can only be built<in [in capital] cities>", "Resting point for Influence with City-States is increased by [30]", "[+15]% Strength <for [Military] units> <when fighting in [Coast] tiles>"]
     },
 	{
 		"name": "Kampung",
@@ -2266,8 +2295,9 @@
 		"maintenance": 0,
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water resource] tiles [in this city]", "Provides [1] [Number of Buildings]"],
-		"requiredTech": "Pottery"	    
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Pottery"	 
+		   
 	// 云冀之庭
 	},
 	{	
@@ -2283,7 +2313,7 @@
 		"maintenance": 1,
 		"uniqueTo": "Yun Ji Court",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 		
 	// 格伦帝国

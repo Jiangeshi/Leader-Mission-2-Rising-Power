@@ -5,74 +5,68 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [4] [Faith] (modified by game speed)"],
-                "conditions": []
+                "triggeredUniques": ["Gain [20] [Faith] <(modified by game speed)>"],
+                "conditions": ["before [50] turns", "after [4] turns"]
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [6] [Culture] (modified by game speed)"],
-                "conditions": []
+                "triggeredUniques": ["Gain [30] [Culture] <(modified by game speed)>"],
+                "conditions": ["before [50] turns", "after [4] turns"]
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [6] [Science] (modified by game speed)"],
-                "conditions": []
+                "triggeredUniques": ["Gain [30] [Science] <(modified by game speed)>"],
+                "conditions": ["before [50] turns", "after [4] turns"]
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [15] [Gold] (modified by game speed)"],
-                "conditions": []
+                "triggeredUniques": ["Gain [75] [Gold] <(modified by game speed)>"],
+                "conditions": ["before [50] turns", "after [4] turns"]
             },
             {
                 "text": "Gain Resource",
-                "triggeredUniques": ["Instantly provides [3] [Horses]", "Instantly provides [3] [Iron]"],
-                "conditions": []
+                "triggeredUniques": ["Instantly provides [15] [Horses]", "Instantly provides [15] [Iron]"],
+                "conditions": ["before [50] turns", "after [4] turns"]
             },
             {
                 "text": "Gain Power",
-                "triggeredUniques": ["[+10]% Strength <for [Military] units> <for [1] turns>"],
-                "conditions": []    
+                "triggeredUniques": ["[+10]% Strength <for [Military] units> <for [5] turns>"],
+                "conditions": ["before [50] turns", "after [4] turns"]    
+            },
+            {
+                "text": "Gain Faith",
+                "triggeredUniques": ["Gain [75] [Faith] <(modified by game speed)>"],
+                "conditions": ["after [49] turns"]
+            },
+            {
+                "text": "Gain Culture",
+                "triggeredUniques": ["Gain [100] [Culture] <(modified by game speed)>"],
+                "conditions": ["after [49] turns"]
+            },
+            {
+                "text": "Gain Science",
+                "triggeredUniques": ["Gain [100] [Science] <(modified by game speed)>"],
+                "conditions": ["after [49] turns"]
+            },
+            {
+                "text": "Gain Gold",
+                "triggeredUniques": ["Gain [150] [Gold] <(modified by game speed)>"],
+                "conditions": ["after [49] turns"]
+            },
+            {
+                "text": "Gain Resource",
+                "triggeredUniques": ["Instantly provides [30] [Iron]", "Instantly provides [25] [Coal]"],
+                "conditions": ["after [49] turns"]
+            },
+            {
+                "text": "Gain Power",
+                "triggeredUniques": ["[+15]% Strength <for [Military] units> <for [5] turns>"],
+                "conditions": ["after [49] turns"]    
             },
         ]
     },
     {
         "name": "Sacrifice II",
-        "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
-        "choices": [
-            {
-                "text": "Gain Faith",
-                "triggeredUniques": ["Gain [15] [Faith] (modified by game speed)"],
-                "conditions": []
-            },
-            {
-                "text": "Gain Culture",
-                "triggeredUniques": ["Gain [20] [Culture] (modified by game speed)"],
-                "conditions": []
-            },
-            {
-                "text": "Gain Science",
-                "triggeredUniques": ["Gain [20] [Science] (modified by game speed)"],
-                "conditions": []
-            },
-            {
-                "text": "Gain Gold",
-                "triggeredUniques": ["Gain [30] [Gold] (modified by game speed)"],
-                "conditions": []
-            },
-            {
-                "text": "Gain Resource",
-                "triggeredUniques": ["Instantly provides [7] [Iron]", "Instantly provides [5] [Coal]"],
-                "conditions": []
-            },
-            {
-                "text": "Gain Power",
-                "triggeredUniques": ["[+15]% Strength <for [Military] units> <for [1] turns>"],
-                "conditions": []    
-            },
-        ]
-    },
-    {
-        "name": "Sacrifice III",
         "text": "You offered up enemy's blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
         "choices": [
             {
@@ -108,13 +102,17 @@
             },
             {
                 "text": "Gain Settler",
-                "triggeredUniques": ["Free [Settler] appears"],
-                "conditions": []
+                "triggeredUniques": [
+                "Free [Settler] appears"
+                ],
+                "conditions": ["for [Human player]"]
             },
             {
                 "text": "Gain Worker",
-                "triggeredUniques": ["Free [Worker] appears"],
-                "conditions": []    
+                "triggeredUniques": [
+                "Free [Worker] appears"
+                ],
+                "conditions": ["for [Human player]"]    
             },            
             {
                 "text": "Gain Technology",

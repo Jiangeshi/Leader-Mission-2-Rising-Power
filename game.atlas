@@ -1735,7 +1735,16 @@ BuildingIcons/Grundtvigs Kirke
   offset: 0, 0
   index: -1 
 
-
+Images/BuildingIcons/JokhangTemple.png
+BuildingIcons/Jokhang Temple
+  rotate: false
+  xy: 0,0
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1  
+  
+  
 
 
 Images/ImprovementIcons/ColonyIcon.png
@@ -2232,15 +2241,6 @@ ResourceIcons/Number of Buildings
   offset: 0, 0
   index: -1    
   
-Images/ResourceIcons/Number of Cities.png
-ResourceIcons/Number of Cities
-  rotate: false
-  xy: 0, 0
-  size: 280, 280
-  orig: 280, 280
-  offset: 0, 0
-  index: -1  
-  
 Images/ResourceIcons/Civilized leader.png
 ResourceIcons/Number of Leaders
   rotate: false
@@ -2259,7 +2259,14 @@ ResourceIcons/Number of Fighters
   offset: 0, 0
   index: -1  
   
-  
+Images/ResourceIcons/KelpIcon.png
+ResourceIcons/Kelp
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
   
   
 Images/TechIcons/DrillWoodtoMakeFire.png
@@ -2515,6 +2522,34 @@ TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
   orig: 95, 81
   offset: 0, 0
   index: -1  
+  
+Images/TileSets/Kelp.png
+TileSets/HexaRealm/Tiles/Kelp
+  rotate: false
+  xy: 0, 0
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/SaltLake.png
+TileSets/HexaRealm/Tiles/Salt Lake
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1   
+  
+Images/TileSets/Mudflat.png
+TileSets/HexaRealm/Tiles/Mudflat
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1     
+  
   
   
   
@@ -3253,3 +3288,12 @@ UnitPromotionIcons/Blizzard Wind Ability
   orig: 80, 80
   offset: 0, 0
   index: -1             
+  
+Images/UnitPromotionIcons/Afforestation.png
+UnitPromotionIcons/Afforestation
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1         

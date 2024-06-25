@@ -33,7 +33,7 @@
         "May buy [Confucius] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Gautama Siddhartha] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Jesus] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
-
+        "Every major Civilization gains a spy once a civilization enters this era"
         ],    
         "iconRGB": [233, 31, 99]
     },
@@ -57,7 +57,7 @@
         "May buy [Muhammad] units for [400] [Faith] [in all cities] at an increasing price ([200])",
         "May buy [Lee Sunshin] units for [400] [Faith] [in all cities] at an increasing price ([200])",  
         "May buy [Belisarius] units for [400] [Faith] [in all cities] at an increasing price ([200])",
-
+        "Every major Civilization gains a spy once a civilization enters this era"
         ],        
         "iconRGB": [157, 39, 176]
     },
@@ -78,8 +78,9 @@
         "startPercent": 37,
         "citySound": "cityRenaissance",
         "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])",
-
+        "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])",
+        "Every major Civilization gains a spy once a civilization enters this era",
+        "[-10]% [Faith]"
             ],
         "iconRGB": [104, 58, 183]
     },
@@ -101,7 +102,8 @@
         "citySound": "cityIndustrial",
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([50])",
-
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "[-20]% [Faith]"
             ],        
         "iconRGB": [63, 81, 182],
     },
@@ -124,7 +126,8 @@
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])", 
             "May buy [Henri Philippe Pétain] units for [1000] [Faith] [in all cities] at an increasing price ([500])",  
-
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "[-30]% [Faith]"
             ],        
         "iconRGB": [33, 150, 243],
     },
@@ -147,7 +150,8 @@
         "iconRGB": [0, 150, 136],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "[-40]% [Faith]"
             ],
     },
     {
@@ -169,7 +173,8 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "[-50]% [Faith]"
             ],
     },
     {
@@ -191,7 +196,8 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-
+            "Every major Civilization gains a spy once a civilization enters this era"
+            "[-60]% [Faith]"
             ],
     }
 ]

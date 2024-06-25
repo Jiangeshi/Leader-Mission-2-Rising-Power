@@ -23,28 +23,28 @@
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>",
     
     //厌战度（10，30）
-    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [Warfare Aversion Level] (modified by game speed)>",
+    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [Warfare Aversion Level]> <(modified by game speed)>",
    
     //厌战度（30，50）
-    "[-15]% [Gold] <when above [45] [Warfare Aversion Level] (modified by game speed)>",
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [Warfare Aversion Level] (modified by game speed)>",
+    "[-15]% [Gold] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
     
     //厌战度（50，70）
-    "[-5]% [Gold] <when above [75] [Warfare Aversion Level] (modified by game speed)>",
-    "[-20]% [Production] [in all cities] <when above [75] [Warfare Aversion Level] (modified by game speed)>",
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [Warfare Aversion Level] (modified by game speed)>",    
+    "[-5]% [Gold] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-20]% [Production] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",    
     
     //厌战度（70，100）
-    "[-5]% [Gold] <when above [105] [Warfare Aversion Level] (modified by game speed)>", 
-    "[-5]% [Production] [in all cities] <when above [105] [Warfare Aversion Level] (modified by game speed)>",    
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [Warfare Aversion Level] (modified by game speed)>", 
-    "Rebel units may spawn <when above [105] [Warfare Aversion Level] (modified by game speed)>",     
+    "[-5]% [Gold] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "[-5]% [Production] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "Rebel units may spawn <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",     
     
     //厌战度（100，+∞）
-    "[-5]% [Gold] <when above [150] [Warfare Aversion Level] (modified by game speed)>",
-    "[-5]% [Production] [in all cities] <when above [150] [Warfare Aversion Level] (modified by game speed)>",    
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level] (modified by game speed)>",    
-    "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level] (modified by game speed)>",
+    "[-5]% [Gold] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-5]% [Production] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
     
     // 特殊单位
     "Enables [Great Admiral] units to enter ocean tiles",

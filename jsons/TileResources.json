@@ -69,12 +69,23 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Ocean","Atoll"],
+		"terrainsCanBeFoundOn": ["Coast","Ocean", "Atoll"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>",
-		"Generated on every [10] tiles <in [Atoll] tiles>",
-		"Generated on every [15] tiles <in [{Featureless} {Ocean}] tiles>",
+		"Generated on every [15] tiles <in [Atoll] tiles>",
+		"Generated on every [20] tiles <in [{Featureless} {Ocean}] tiles>",
+		]
+	},
+	{
+		"name": "Kelp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Ocean", "Mudflat"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Coast}] tiles>",
+		"Generated on every [30] tiles <in [{Featureless} {Ocean}] tiles>",
 		]
 	},
 	{
@@ -293,7 +304,7 @@
 	{
 		"name": "Pearls",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
@@ -372,7 +383,7 @@
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
@@ -440,8 +451,8 @@
 					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 6, "abundant": 7},
-		"minorDepositAmount": {"sparse": 5, "default": 5, "abundant": 6}
+		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
+		"minorDepositAmount": {"sparse": 4, "default": 4, "abundant": 5}
 	},
 	{
 		"name": "Iron",
@@ -466,8 +477,8 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
-		"minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 4}	
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}	
 	},
 	{
 		"name": "Coal",
@@ -489,8 +500,8 @@
 					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}		
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}		
 	},
 	{
 		"name": "Steels",
@@ -508,7 +519,9 @@
 		"improvedBy": ["Oil well", "Offshore Platform"
 		],
 		"improvementStats": {"production": 3},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources","Stockpiled", "Not shown on world screen <when above [1000] [Oil]>",
+		"uniques": [
+		"Stockpiled", 
+		"Deposits in [Coast] tiles always provide [4] resources","Stockpiled", "Not shown on world screen <when above [1000] [Oil]>",
 		            "Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
@@ -520,8 +533,8 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
-		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}	
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 7},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}	
 	},
 	{
 		"name": "Aluminum",
@@ -536,8 +549,8 @@
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 8},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Uranium",
@@ -553,8 +566,8 @@
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}		
+		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2}		
 	// 厌战度
 	},
 	{
@@ -567,7 +580,10 @@
 	{
 		"name": "Number of Buildings",  
 		"resourceType": "Bonus",
-	    "uniques": ["City-level resource"]	
+	    "uniques": [
+	        "City-level resource", 
+            "Cannot be traded", 
+	    ]	
     },
 	{
 		"name": "Number of Leaders",  
@@ -576,11 +592,6 @@
 	},
 	{
 		"name": "Number of Fighters",  
-		"resourceType": "Bonus",
-	    "uniques": ["Not shown on world screen", "Cannot be traded"]    
-	},
-	{
-		"name": "Number of Cities",  
 		"resourceType": "Bonus",
 	    "uniques": ["Not shown on world screen", "Cannot be traded"]    
 	}

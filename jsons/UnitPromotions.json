@@ -1319,7 +1319,7 @@
 	},
 	{
 		"name": "Start a Concert",
-		"uniques": ["Gain [7] [Culture] (modified by game speed)", "Gain [13] [Gold] (modified by game speed)", "Doing so will consume this opportunity to choose a Promotion"]			
+		"uniques": ["Gain [7] [Culture] <(modified by game speed)>", "Gain [13] [Gold] <(modified by game speed)>", "Doing so will consume this opportunity to choose a Promotion"]			
 	},
 	{
 		"name": "[Impi] ability",
@@ -1331,7 +1331,7 @@
 	},
 	{
 		"name": "[Templar Knight] ability",
-		"uniques": ["Prevents spreading of religion to the city it is next to", "Gain [200] [Gold] (modified by game speed) <upon being defeated>", "Gain [40] [Faith] (modified by game speed) <upon being promoted>"]
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Gain [200] [Gold] <(modified by game speed)> <upon being defeated>", "Gain [40] [Faith] <(modified by game speed)> <upon being promoted>"]
 	},
 	{
 		"name": "Pictish Courage",

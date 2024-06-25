@@ -2,7 +2,7 @@
     {
         "name": "Civilian",
         "movementType": "Land"
-        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>"]
+        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]>"]
     },
     {
         "name": "Civilian Water",
@@ -22,7 +22,7 @@
         "Cannot attack <in [Marsh] tiles>",
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
@@ -40,7 +40,7 @@
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
         ]
     },
@@ -60,7 +60,7 @@
         "Eliminates combat penalty for attacking across a coast <for [England]>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
@@ -80,7 +80,7 @@
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    
@@ -98,8 +98,8 @@
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>"
         ]    
@@ -116,7 +116,7 @@
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]        
@@ -150,7 +150,7 @@
         
         "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
         "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "May travel on Water tiles without embarking <for [Indonesia]> <after discovering [Optics]>",
+        "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
         ]    

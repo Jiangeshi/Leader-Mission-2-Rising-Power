@@ -12,6 +12,7 @@
 		"name": "Coast",
 		"type": "Water",
 		"food": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": ["[+2] to Fertility for Map Generation",
@@ -504,6 +505,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+		
 	//模组新地形
 	},
 	{
@@ -553,5 +555,30 @@
 	]
 		"civilopediaText": [
 		{"text":"Only generated around the volcano", "link":"Terrain/Volcano"}]	
+	},
+	{
+		"name": "Salt Lake",
+		"type": "TerrainFeature",
+		"culture": 2,
+		"production": 2,
+		"movementCost": 3,
+		"unbuildable": true,
+		"impassable": true,
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water", "Rare feature",
+		"Nullifies all other stats this tile provides",
+		"Always Fertility [4] for Map Generation",
+					"Only [All Road] improvements may be built on this tile",
+					"Considered [Production] when determining start locations",
+					"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Mudflat",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Coast"],
+		"uniques": ["Fresh water", "Rare feature"]
 	},
 ]
