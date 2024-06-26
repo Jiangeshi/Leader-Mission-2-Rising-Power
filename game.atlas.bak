@@ -3288,3 +3288,12 @@ UnitPromotionIcons/Blizzard Wind Ability
   orig: 80, 80
   offset: 0, 0
   index: -1             
+  
+Images/UnitPromotionIcons/Afforestation.png
+UnitPromotionIcons/Afforestation
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1         
