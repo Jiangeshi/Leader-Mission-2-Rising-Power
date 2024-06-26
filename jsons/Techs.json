@@ -128,7 +128,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
-		"techCost": 95,
+		"techCost": 85,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -163,7 +163,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical era",
-		"techCost": 135,
+		"techCost": 120,
 		"buildingCost": 105,
 		"wonderCost": 250,
 		"techs": [
@@ -201,7 +201,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Classical era",
-		"techCost": 160,
+		"techCost": 140,
 		"buildingCost": 115,
 		"wonderCost": 250,
 		"techs": [
@@ -239,16 +239,10 @@
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
-		"techCost": 260,
+		"techCost": 226,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
-			{
-				"name": "Feudalism",
-				"row": 2,
-				"prerequisites": ["Politics"],
-				"quote": ""
-			},
 			{
 				"name": "Compass",
 				"row": 4,
@@ -273,14 +267,14 @@
 	{
 		"columnNumber": 8,
 		"era": "Medieval era",
-		"techCost": 370,
+		"techCost": 318,
 		"buildingCost": 150,
 		"wonderCost": 375,
 		"techs": [
 			{
 				"name": "Education",
 				"row": 3,
-				"prerequisites": ["Feudalism","Drama and Poetry","Compass"],
+				"prerequisites": ["Politics","Drama and Poetry","Compass"],
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"quote": ""
 			},
@@ -301,7 +295,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Medieval era",
-		"techCost": 485,
+		"techCost": 412,
 		"buildingCost": 170,
 		"wonderCost": 425,
 		"techs": [
@@ -359,7 +353,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Renaissance era",
-		"techCost": 1100,
+		"techCost": 924,
 		"buildingCost": 290,
 		"wonderCost": 725,
 		"techs": [
@@ -399,7 +393,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Renaissance era",
-		"techCost": 1250,
+		"techCost": 1037,
 		"buildingCost": 320,
 		"wonderCost": 800,
 		"techs": [
@@ -432,7 +426,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Industrial era",
-		"techCost": 1800,
+		"techCost": 1476,
 		"buildingCost": 435,
 		"wonderCost": 1085,
 		"techs": [
@@ -466,7 +460,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Industrial era",
-		"techCost": 2250,
+		"techCost": 1822,
 		"buildingCost": 510,
 		"wonderCost": 1275,
 		"techs": [
@@ -494,7 +488,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Industrial era",
-		"techCost": 2600,
+		"techCost": 2080,
 		"buildingCost": 560,
 		"wonderCost": 1400,
 		"techs": [
@@ -522,7 +516,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 3500,
+		"techCost": 2800,
 		"buildingCost": 650,
 		"wonderCost": 1625,
 		"techs": [
@@ -537,20 +531,13 @@
 				"row": 4,
 				"prerequisites": ["Construction"],
 				"quote": ""
-			},
-			{
-				"name": "Socialism",
-				"row": 6,
-				"prerequisites": ["Construction"],
-				"uniques":["[+1 Production] from every specialist [in all cities]"]
-				"quote": ""		
 			}
 		]					
 	},
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 4000,
+		"techCost": 3200,
 		"buildingCost": 700,
 		"wonderCost": 1750,
 		"techs": [
@@ -563,7 +550,7 @@
 			{
 				"name": "Flight",
 				"row": 6,
-				"prerequisites": ["Replaceable Parts","Socialism"],
+				"prerequisites": ["Replaceable Parts"],
 				"quote": ""		
 			},
 			{
@@ -577,7 +564,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Modern era",
-		"techCost": 4500,
+		"techCost": 3600,
 		"buildingCost": 800,
 		"wonderCost": 2000,
 		"techs": [
@@ -610,7 +597,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Atomic era",
-		"techCost": 5500,
+		"techCost": 4400,
 		"buildingCost": 900,
 		"wonderCost": 185,
 		"techs": [
@@ -643,7 +630,7 @@
 	{
 		"columnNumber": 20,
 		"era": "Atomic era",
-		"techCost": 7000,
+		"techCost": 5600,
 		"buildingCost": 1000,
 		"wonderCost": 185,
 		"techs": [
@@ -670,7 +657,7 @@
 	{
 		"columnNumber": 21,
 		"era": "Atomic era",
-		"techCost": 7500,
+		"techCost": 6000,
 		"buildingCost": 1050,
 		"wonderCost": 185,
 		"techs": [
@@ -697,7 +684,7 @@
 	{
 		"columnNumber": 22,
 		"era": "Information era",
-		"techCost": 8500,
+		"techCost": 6800,
 		"buildingCost": 1300,
 		"wonderCost": 2000,
 		"techs": [
@@ -724,7 +711,7 @@
 	{
 		"columnNumber": 23,
 		"era": "Information era",
-		"techCost": 9000,
+		"techCost": 7200,
 		"buildingCost": 1400,
 		"wonderCost": 2200,
 		"techs": [
@@ -758,7 +745,7 @@
 	{
 		"columnNumber": 24,
 		"era": "Information era",
-		"techCost": 10000,
+		"techCost": 8000,
 		"buildingCost": 1600,
 		"wonderCost": 2500,
 		"techs": [

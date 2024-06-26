@@ -137,24 +137,55 @@
         "text": "Under your wise and powerful leadership, your civilization has established its own country and will shine brightly in the world.",
         "choices": [
             {
-                "text": "Start Golden Age",
-                "triggeredUniques": ["Empire enters a [15]-turn Golden Age"],
+                "text": "Cultural Openness",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "Free Great Person"
+                ],
                 "conditions": []
             },
             {
-                "text": "Develop Agriculture",
-                "triggeredUniques": ["Provides the cheapest [Food] building in your first [2] cities for free"],
+                "text": "Ideological Emancipation",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "Free Social Policy"
+                    "[-10]% Culture cost of adopting new Policies",
+                    ],
                 "conditions": []
             },
             {
-                "text": "Develop Industry",
-                "triggeredUniques": ["Provides the cheapest [Production] building in your first [2] cities for free"],
+                "text": "Industrial Eevolution",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "[+25]% [Production] <for [10] turns>"
+                    ],
                 "conditions": []
             },
             {
-                "text": "Develop Science",
-                "triggeredUniques": ["Provides the cheapest [Science] building in your first [2] cities for free"],
+                "text": "Technological Innovation",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "Provides the cheapest [Science] building in your first [1] cities for free",
+                    "Free Technology"
+                ],
                 "conditions": []
+            },
+            {
+                "text": "Economic Development",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "[+50]% [Gold] <for [15] turns>"
+                    ],
+                "conditions": []    
+            },
+            {
+                "text": "Giving the People Peace and Security",
+                "triggeredUniques": [
+                    "Empire enters a [10]-turn Golden Age",
+                    "[+1] population [in all cities]",
+                    "[+15]% growth [in all cities] <for [10] turns>"
+                    ],
+                "conditions": []        
             },
         ]    
     }

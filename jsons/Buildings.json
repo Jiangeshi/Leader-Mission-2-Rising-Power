@@ -15,7 +15,7 @@
 	},
 	{
         "name": "City Level I",
-        "cost": 1,
+        "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",]	
 	},
 	{
@@ -174,7 +174,7 @@
 	},
 	{
         "name": "City Level II",
-        "cost": 1,
+        "cost": 5000,
         "production": 1,
         "culture": 1,
 		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [4] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
@@ -406,7 +406,7 @@
 	},
 	{
         "name": "City Level III",
-        "cost": 1,
+        "cost": 5000,
         "culture": 2,
         "science": 2,
 		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [8] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
@@ -456,7 +456,7 @@
         "production": 1,
         "happiness": 2,
         "uniques": ["Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
-        "requiredTech": "Feudalism"
+        "requiredTech": "Politics"
 			
 	// 中古-特殊建筑
 	},
@@ -545,14 +545,14 @@
 		"happiness": 10,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"requiredTech": "Feudalism",
+		"requiredTech": "Politics",
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 		
 	// 复兴-必建建筑
 	},
 	{
         "name": "City Level IV",
-        "cost": 1,
+        "cost": 5000,
         "culture": 3,
         "science": 3,
 		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [13] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
@@ -580,8 +580,8 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
-		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 3 Steels when above 1 Iron"
-	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [3] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 6 Steels when above 1 Iron"
+	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [6] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings] <in this city>"]
 	    
 	// 复兴-选建建筑
 	},
@@ -705,7 +705,7 @@
 	},
 	{
         "name": "City Level V",
-        "cost": 1,
+        "cost": 5000,
         "production": 3,
         "gold": 5,
 		"uniques": [
@@ -912,6 +912,16 @@
 		"requiredTech": "Globalization",
 	},
     {
+    	"name": "Utopia Project",
+		"cost": 1800,
+		"percentStatBonus": {"production": 20, "science": 20, "gold": 20},
+		"happiness": 10,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+		"requiredTech": "Globalization",
+	},
+	{
         "name": "National Intelligence Agency",
         "cost": 330,
         "culture": 1,
