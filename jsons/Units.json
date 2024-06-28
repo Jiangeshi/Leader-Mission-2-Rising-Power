@@ -418,7 +418,7 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>", "May withdraw before melee ([80]%)"]
+		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>", "Withdraws before melee combat <with [80]% chance>"]
 		"attackSound": "arrow"	
 	},
 	{
@@ -1282,7 +1282,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"]
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"]
 		"attackSound": "cannon"	
 	},
 	{
@@ -1346,7 +1346,7 @@
 		"interceptRange": 2,
 		"cost": 720,
 		"requiredTech": "Combustion",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Coal]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Coal]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "shipguns"	
 
 	// 远程海军

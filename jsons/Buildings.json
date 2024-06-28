@@ -1433,8 +1433,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Greece",
-		"replacementTextForUniques": "+50% XP gained from †combat for Melee units, \nDamage is ignored when determining unit †Strength for Melee units",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Pericles]>", "[+50]% XP gained from combat <for [Melee] units>", "Damage is ignored when determining unit Strength <for [Melee] units>"]
+		"replacementTextForUniques": "+50% XP gained from †combat for Melee units\nNo damage penalty for wounded units for Melee units",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Pericles]>", "[+50]% XP gained from combat <for [Melee] units>", "No damage penalty for wounded units <for [Melee] units>"]
     },
 	{	
         "name": "Civilized Leader-Pericles",

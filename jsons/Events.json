@@ -6,62 +6,62 @@
             {
                 "text": "Gain Faith",
                 "triggeredUniques": ["Gain [20] [Faith] <(modified by game speed)>"],
-                "conditions": ["before [50] turns", "after [4] turns"]
+                "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Culture",
                 "triggeredUniques": ["Gain [30] [Culture] <(modified by game speed)>"],
-                "conditions": ["before [50] turns", "after [4] turns"]
+                "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Science",
                 "triggeredUniques": ["Gain [30] [Science] <(modified by game speed)>"],
-                "conditions": ["before [50] turns", "after [4] turns"]
+                "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Gold",
                 "triggeredUniques": ["Gain [75] [Gold] <(modified by game speed)>"],
-                "conditions": ["before [50] turns", "after [4] turns"]
+                "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Resource",
                 "triggeredUniques": ["Instantly provides [15] [Horses]", "Instantly provides [15] [Iron]"],
-                "conditions": ["before [50] turns", "after [4] turns"]
+                "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Power",
                 "triggeredUniques": ["[+10]% Strength <for [Military] units> <for [5] turns>"],
-                "conditions": ["before [50] turns", "after [4] turns"]    
+                "conditions": ["before turn number [50]", "after turn number [4]"]    
             },
             {
                 "text": "Gain Faith",
                 "triggeredUniques": ["Gain [75] [Faith] <(modified by game speed)>"],
-                "conditions": ["after [49] turns"]
+                "conditions": ["after turn number [49]"]
             },
             {
                 "text": "Gain Culture",
                 "triggeredUniques": ["Gain [100] [Culture] <(modified by game speed)>"],
-                "conditions": ["after [49] turns"]
+                "conditions": ["after turn number [49]"]
             },
             {
                 "text": "Gain Science",
                 "triggeredUniques": ["Gain [100] [Science] <(modified by game speed)>"],
-                "conditions": ["after [49] turns"]
+                "conditions": ["after turn number [49]"]
             },
             {
                 "text": "Gain Gold",
                 "triggeredUniques": ["Gain [150] [Gold] <(modified by game speed)>"],
-                "conditions": ["after [49] turns"]
+                "conditions": ["after turn number [49]"]
             },
             {
                 "text": "Gain Resource",
                 "triggeredUniques": ["Instantly provides [30] [Iron]", "Instantly provides [25] [Coal]"],
-                "conditions": ["after [49] turns"]
+                "conditions": ["after turn number [49]"]
             },
             {
                 "text": "Gain Power",
                 "triggeredUniques": ["[+15]% Strength <for [Military] units> <for [5] turns>"],
-                "conditions": ["after [49] turns"]    
+                "conditions": ["after turn number [49]"]    
             },
         ]
     },

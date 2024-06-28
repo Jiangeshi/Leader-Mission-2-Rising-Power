@@ -1315,7 +1315,7 @@
 	},
 	{
 		"name": "[Winged Hussar] ability",
-		"uniques": ["May withdraw before melee ([66]%)"]	
+		"uniques": ["Withdraws before melee combat <with [66]% chance>"]	
 	},
 	{
 		"name": "Start a Concert",
