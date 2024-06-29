@@ -6,6 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]> <if [Blizzard Wind] is constructed>"
 		],
 		"cost": 70
 	},
@@ -16,7 +17,9 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 70,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]> <if [Blizzard Wind] is constructed>"
+		],
 	},
 	{
 		"name": "Settler",
@@ -471,7 +474,7 @@
 		"movement": 5,
 		"strength": 7,
 		"rangedStrength": 10,
-		"cost": 66,
+		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",

@@ -1768,13 +1768,13 @@
 		"cost": 1,
 		"uniqueTo": "Finland",
 	    "maintenance": 0,
-	    "replacementTextForUniques": "Remove [Blizzard Wind]\n+1 [Food] from [Snow] and [Tundra] tiles in all cities\n+1 / +2 [Gold] from every [Camp] in [Tundra] / [Snow] tiles"
+	    "replacementTextForUniques": "Remove [Blizzard Wind]\n+1 / +2 [Food] from [Snow] and [Tundra] tiles in all cities\n+1 / +2 [Gold] from every [Camp] in [Tundra] / [Snow] tiles"
 		"uniques":[
 		"Can only be built<in [in capital] cities>", 
 		"Cannot be purchased", "Unsellable",
 		"Destroyed when the city is captured",
 		"Remove [Blizzard Wind] [in all cities]",
-		"[+1 Food] from [Snow] tiles [in all cities]",
+		"[+2 Food] from [Snow] tiles [in all cities]",
 		"[+1 Food] from [Tundra] tiles [in all cities]",
 		]		
 	},
@@ -1783,13 +1783,12 @@
 		"cost": 1,
 		"uniqueTo": "Finland",
 	    "maintenance": 0,
-	       "replacementTextForUniques": "Remove [Auspicious Snow]\n[All newly-trained [Worker] units [in all cities] receive the [Blizzard Wind Ability] promotion]\n+1 / +2 [Production] from every [Mine] in [Tundra] / [Snow] tiles"
+	       "replacementTextForUniques": "Remove [Auspicious Snow]\nNew [Worker] units receive the [Blizzard Wind Ability] promotion\n+1 / +2 [Production] from every [Mine] in [Tundra] / [Snow] tiles"
 		"uniques":[
 		"Can only be built<in [in capital] cities>", 
 		"Cannot be purchased", "Unsellable",
 		"Destroyed when the city is captured",
 		"Remove [Auspicious Snow] [in all cities]",
-		"All newly-trained [Worker] units [in all cities] receive the [Blizzard Wind Ability] promotion",
 		"Only available <for [Human player]>"
 		]		
 	// 苏联

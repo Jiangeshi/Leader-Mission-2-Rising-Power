@@ -1254,9 +1254,9 @@
 		"innerColor": [180, 142, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
-		"uniqueText": "+15% ⚙Production when constructing All wonders in all cities"
-		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"uniqueText": "+15% ⚙Production when constructing All wonders in all cities\n[[+1 Production, +1 Food] in cities on [River] tiles]"
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", "[+1 Production, +1 Food] in cities on [River] tiles"
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
