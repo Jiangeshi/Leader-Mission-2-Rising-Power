@@ -20,9 +20,8 @@
 	},
 	{
 		"name": "Bonfire",
-		"cost": 28
-		"culture": 1,
-		"science": 1,
+		"cost": 21
+		"culture": 2,
 		"maintenance": 0,
 		"requiredTech": "Drill Wood to Make Fire",		
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]

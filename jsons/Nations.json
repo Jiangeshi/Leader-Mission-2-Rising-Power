@@ -198,8 +198,8 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
-	    "uniqueText": "+2 ⍾Science from every specialist in all cities\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital",
-        "uniques": ["[+2 Science] from every specialist [in all cities]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+	    "uniqueText": "+2 ⍾Science from every specialist in all cities\n+2 ⍾Science from every Great Improvement\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital",
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -876,7 +876,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Catholic Holy Land",
-		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+30 Faith, +70 Gold] when a city adopts this religion for the first time (modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+30 Faith, +70 Gold] when a city adopts this religion for the first time][(modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
 		"[+30 Faith, +70 Gold] when a city adopts this religion for the first time <(modified by game speed)>", 

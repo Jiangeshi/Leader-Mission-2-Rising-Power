@@ -19,7 +19,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+15]% Production when constructing [All] wonders [in all cities]",
-                    "Free [Settler] appears"
+                    "Free [Worker] appears"
                 ],
                 "row": 1,
                 "column": 1,   
@@ -533,7 +533,7 @@
         },
         "uniques": [
             "Only available <after discovering [Machinery]>",
-            "[+75]% Production when constructing [Production] buildings [in all cities]"
+            "[+33]% Production when constructing [Production] buildings [in all cities]"
         ],
         "policies": [
             {
@@ -555,7 +555,7 @@
             {
                 "name": "Agglomeration Planning",
                 "uniques": [
-                    "Comment [+1 [Production] from every [Mine] within 3 tiles of a [Mine]]",
+                    "Comment [+1 [Production] from every [Mine] within 2 tiles of a [Mine]]",
                     "Comment [+1 [Production] from every [Mine] within 1 tiles of a [City center]]"
                 ],
                 "requires": ["Price Scissors"],
@@ -584,7 +584,7 @@
             {
                 "name": "Industrial Complete",
                 "uniques": [
-                    "[+33]% Yield from every [Mine]",
+                    "[+25]% Yield from every [Mine]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]    
             }

@@ -564,7 +564,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"impassable": true,
-		"occursOn": ["Desert"],
+		"occursOn": ["Desert", "Plains"],
 		"uniques": ["Fresh water", "Rare feature",
 		"Nullifies all other stats this tile provides",
 		"Always Fertility [4] for Map Generation",

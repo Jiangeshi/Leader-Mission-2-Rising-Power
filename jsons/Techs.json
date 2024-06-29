@@ -426,7 +426,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Industrial era",
-		"techCost": 1476,
+		"techCost": 1328,
 		"buildingCost": 435,
 		"wonderCost": 1085,
 		"techs": [
@@ -460,7 +460,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Industrial era",
-		"techCost": 1822,
+		"techCost": 1639,
 		"buildingCost": 510,
 		"wonderCost": 1275,
 		"techs": [
@@ -488,7 +488,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Industrial era",
-		"techCost": 2080,
+		"techCost":1872,
 		"buildingCost": 560,
 		"wonderCost": 1400,
 		"techs": [
@@ -516,7 +516,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 2800,
+		"techCost": 2520,
 		"buildingCost": 650,
 		"wonderCost": 1625,
 		"techs": [
@@ -537,7 +537,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 3200,
+		"techCost": 2880,
 		"buildingCost": 700,
 		"wonderCost": 1750,
 		"techs": [
@@ -564,7 +564,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Modern era",
-		"techCost": 3600,
+		"techCost": 3240,
 		"buildingCost": 800,
 		"wonderCost": 2000,
 		"techs": [
@@ -597,7 +597,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Atomic era",
-		"techCost": 4400,
+		"techCost": 3960,
 		"buildingCost": 900,
 		"wonderCost": 185,
 		"techs": [
@@ -630,7 +630,7 @@
 	{
 		"columnNumber": 20,
 		"era": "Atomic era",
-		"techCost": 5600,
+		"techCost": 5040,
 		"buildingCost": 1000,
 		"wonderCost": 185,
 		"techs": [
@@ -657,7 +657,7 @@
 	{
 		"columnNumber": 21,
 		"era": "Atomic era",
-		"techCost": 6000,
+		"techCost": 5400,
 		"buildingCost": 1050,
 		"wonderCost": 185,
 		"techs": [
@@ -684,7 +684,7 @@
 	{
 		"columnNumber": 22,
 		"era": "Information era",
-		"techCost": 6800,
+		"techCost": 6120,
 		"buildingCost": 1300,
 		"wonderCost": 2000,
 		"techs": [
@@ -711,7 +711,7 @@
 	{
 		"columnNumber": 23,
 		"era": "Information era",
-		"techCost": 7200,
+		"techCost": 6480,
 		"buildingCost": 1400,
 		"wonderCost": 2200,
 		"techs": [
@@ -745,7 +745,7 @@
 	{
 		"columnNumber": 24,
 		"era": "Information era",
-		"techCost": 8000,
+		"techCost": 7200,
 		"buildingCost": 1600,
 		"wonderCost": 2500,
 		"techs": [
