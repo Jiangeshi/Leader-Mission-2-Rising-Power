@@ -1424,7 +1424,27 @@
 		"culture": 3,
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"
-
+	
+	// 新加坡
+    },
+	{	
+        "name": "Civilized Leader-Lee Kuan Yew",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Singapore",
+		"replacementTextForUniques": "[for every [5] [turns]][[+1 Science, +2 Gold] [in capital]]\n[[+1 Science, +2 Gold] per [3] population [in capital]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Science, +2 Gold] [in capital] <for every [5] [turns]>", "[+1 Science, +2 Gold] per [3] population [in capital]"]
+	},
+	{
+		"name": "Economic Development Bureau",
+		"cost": 80,
+	    "percentStatBonus": {"gold": 25},
+		"isNationalWonder": true,
+		"uniqueTo": "Singapore",
+		"uniques": ["Cost increases by [30] per owned city", "Gain [50] [Gold] <upon declaring friendship> <(modified by game speed)>", "Gain [50] [Gold] <upon discovering [All] technology> <(modified by game speed)>"],
+		"requiredTech": "Currency"
+		
+		
 	// 希腊
 	},
 	{	
