@@ -26,7 +26,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>",],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>",  "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]> <if [Blizzard Wind] is constructed>"],
 	},
 	{
 		"name": "Work Boats",
