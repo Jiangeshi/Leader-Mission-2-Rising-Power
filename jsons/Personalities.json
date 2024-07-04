@@ -86,20 +86,19 @@
       */
     {
         "name": "base",
-        "production": 5,
-        "food": 5,
-        "gold": 5,
-        "science": 5,
+        "production": 6,
+        "food": 4,
+        "gold": 7,
+        "science": 3,
         "culture": 5,
         "happiness": 5,
         "faith": 5,
-        
-        "military": 7,
-        "aggressive": 7,
-        "declareWar": 7,
-        "commerce": 7,
-        "diplomacy": 7,
-        "loyal": 7,
+        "military": 6,
+        "aggressive": 8,
+        "declareWar": 8,
+        "commerce": 6,
+        "diplomacy": 3,
+        "loyal": 4,
         "expansion": 7,
         
         "priorities": {
