@@ -1,0 +1,155 @@
+[
+    /*
+意愿类型: 
+1. 产能
+2. 食物
+3. 金钱
+4. 科研
+5. 文化
+6. 快乐
+7. 信仰
+8. 军事
+9. 侵略性
+10. 宣战意愿
+11. 贸易
+12. 外交
+13. 忠诚
+14. 扩张
+
+基础数值：5
+数值范围：[0，10]
+基于ua、ub、uu、ul以及文明历史偏好在基础数值上进行增减
+
+其中：
+文化+扩张＜12
+信仰+科研＜12
+产能+食物＜12
+
+低于5-1，高于5+1
+最后进行加权平均，总数为75
+
+在政策树方面，制度采取算数平均加现实政策（1），政策采用加权平均
+
+1. 小数采取5以下向下取整，5以上向上取整
+2. ～w = 10-w
+
+意愿参数：
+奴隶：文化、信仰、军事
+封建：文化、信仰、扩张、军事
+资本：文化、金钱、贸易、侵略性、科技
+独裁：文化、军事、侵略性、宣战意愿、扩张
+自由：文化、金钱、贸易、～宣战意愿
+社会：文化、快乐、产能、～侵略性
+
+战争：0.3军事、0.3侵略性、0.2宣战意愿、0.2扩张
+宗教：0.5信仰、0.2侵略性、0.2～科技、0.1扩张、
+商业：0.4金钱、0.4贸易、0.2外交
+外交：0.5外交、0.3贸易、0.2～宣战意愿
+工业：0.5产能、0.2军事、0.2贸易、0.1～粮食
+理性：0.5科技、0.3产能、0.1军事、0.1～信仰
+
+最后进行加权平均，各板块总数为35
+    {
+        "name": "base",
+        "production": 5,
+        "food": 5,
+        "gold": 5,
+        "science": 5,
+        "culture": 5,
+        "happiness": 5,
+        "faith": 5,
+        "military": 5,
+        "aggressive": 5,
+        "declareWar": 5,
+        "commerce": 5,
+        "diplomacy": 5,
+        "loyal": 5,
+        "expansion": 5,
+        
+        "priorities": {
+            "Tradition": 5,
+            "Feudalism1": 5,
+            "Liberty": 5,
+            "Autocracy": 5,
+            "Freedom": 5,
+            "Order": 5,
+            
+            "Honor": 5,
+            "Piety": 5,
+            "Commerce": 5,
+            "Patronage": 5,
+            "Industrial": 5,
+            "Rationalism": 5
+        }
+    }
+            
+      */
+    {
+        "name": "base",
+        "production": 5,
+        "food": 5,
+        "gold": 5,
+        "science": 5,
+        "culture": 5,
+        "happiness": 5,
+        "faith": 5,
+        
+        "military": 7,
+        "aggressive": 7,
+        "declareWar": 7,
+        "commerce": 7,
+        "diplomacy": 7,
+        "loyal": 7,
+        "expansion": 7,
+        
+        "priorities": {
+            "Tradition": 5,
+            "Feudalism1": 5,
+            "Liberty": 5,
+            "Autocracy": 5,
+            "Freedom": 5,
+            "Order": 5,
+            
+            "Honor": 5,
+            "Piety": 5,
+            "Commerce": 5,
+            "Patronage": 5,
+            "Industrial": 5,
+            "Rationalism": 5
+        }
+    },
+    {
+        "name": "Iran",
+        "production": 5,
+        "food": 4,
+        "gold": 6,
+        "science": 4,
+        "culture": 4,
+        "happiness": 10,
+        "faith": 4,
+        
+        "military": 7,
+        "aggressive": 6,
+        "declareWar": 6,
+        "commerce": 4,
+        "diplomacy": 6,
+        "loyal": 4,
+        "expansion": 6,
+        
+        "priorities": {
+            "Tradition": 5,
+            "Feudalism1": 6,
+            "Liberty": 4,
+            "Autocracy": 6,
+            "Freedom": 4,
+            "Order": 5,
+            
+            "Honor": 5,
+            "Piety": 5,
+            "Commerce": 5,
+            "Patronage": 5,
+            "Industrial": 5,
+            "Rationalism": 5
+        }
+    },
+]

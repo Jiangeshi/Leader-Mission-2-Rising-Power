@@ -576,7 +576,7 @@
 		"resourceType": "Strategic",
 	    "uniques": ["Stockpiled", "Cannot be traded"]	
 
-	// 建筑数量
+	// 数量
 	},
 	{
 		"name": "Number of Buildings",  
@@ -594,6 +594,14 @@
 	{
 		"name": "Number of Fighters",  
 		"resourceType": "Bonus",
-	    "uniques": ["Not shown on world screen", "Cannot be traded"]    
+	    "uniques": ["Not shown on world screen", "Cannot be traded"]
+	    
+    // 冷却
+	},
+	{
+		"name": "CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", "Not shown on world screen"
+	    ]
 	}
 ]

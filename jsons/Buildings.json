@@ -1126,8 +1126,13 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iran",
-		"replacementTextForUniques": "[Empire enters golden age] [<upon declaring a defensive pact>]\n[Creates a [Citadel] improvement on a specific tile]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cyrus]>", "Only available <in cities without a [Civilized Leader-Darius I]>", "Empire enters golden age <upon declaring a defensive pact>", "Creates a [Citadel] improvement on a specific tile"]
+		"replacementTextForUniques": "[Empire enters golden age] [<upon declaring a defensive pact>] (CD: 30)\n[Creates a [Citadel] improvement on a specific tile]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cyrus]>", "Only available <in cities without a [Civilized Leader-Darius I]>",
+		 "Empire enters golden age <upon declaring a defensive pact> <when number of [CD] is equal to [30]>", 
+		 
+		 "Instantly provides [30] [CD] <upon declaring a defensive pact> <when number of [CD] is equal to [0]>",
+		 "Provides [-1] [CD] <when number of [CD] is more than [0]>"
+		 "Creates a [Citadel] improvement on a specific tile"]
     },
 	{
 		"name": "Satrap's Court"

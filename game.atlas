@@ -2296,6 +2296,19 @@ ResourceIcons/Kelp
   offset: 0, 0
   index: -1    
   
+Images/ResourceIcons/CD.png
+ResourceIcons/CD
+  rotate: false
+  xy: 0,0
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1    
+  
+    
+      
+          
+  
   
 Images/TechIcons/DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire
