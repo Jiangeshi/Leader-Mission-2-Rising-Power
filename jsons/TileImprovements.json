@@ -193,14 +193,14 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
+		"turnsToBuild": 2,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]	
 	},
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 5,
+		"turnsToBuild": 4,
 		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"],
 		

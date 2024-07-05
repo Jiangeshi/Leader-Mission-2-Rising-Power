@@ -45,7 +45,9 @@
 		"strength": 5,
 		"cost": 20,
 		"promotions": ["Off-road"],
-		"uniques": ["Can see invisible [Land] units", "Can build [Road] improvements on tiles"]
+		"uniques": ["Can see invisible [Land] units", 
+		//"Can build [Road] improvements on tiles"
+		]
 		"attackSound": "nonmetalhit"
 				
     // 战士

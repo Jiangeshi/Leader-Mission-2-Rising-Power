@@ -33,7 +33,6 @@
         "May buy [Confucius] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Gautama Siddhartha] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Jesus] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
-        "Every major Civilization gains a spy once a civilization enters this era",
         "[+20]% maintenance costs <for [Military] units>"
         ],    
         "iconRGB": [233, 31, 99]
