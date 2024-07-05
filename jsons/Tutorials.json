@@ -36,9 +36,8 @@
   {
     "name": "Slow Start",
     "steps": [
-      "In your first couple of turns, you will have very little options, but as your civilization grows, so do the number of things requiring your attention."
+      "New Mode: Barbarian Breakout\nOpening method: Speed - Barbarian Breakout\nIntroduction:1. The  speed of Barbarian Breakout is based on quick speed.\n2. Under the Barbarian Breakout, the generation rate of the barbarians is 10 times higher than the normal rate.\n3.Under the  Barbarian Breakout, the barbarians no longer suffer negative effects of -10% Strength, but instead become+33% Strength.\n4. In Barbarian Breakout, players unlock the War policy from the beginning.\n5. In Barbarian Breakout, players can obtain 50% of the combat power, [Gold], [Science], and [Faith] of barbarian units by killing them."
     ],
-    "uniques": ["Will not be displayed in Civilopedia"]
   },
   {
     "name": "Culture and Policies",

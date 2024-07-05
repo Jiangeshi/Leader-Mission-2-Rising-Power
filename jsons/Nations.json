@@ -2011,7 +2011,10 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it", "Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[-10]% Strength <for [All] units>"]
+		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it", "Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[-10]% Strength <for [All] units>",
+		"[+43]% Strength <for [All] units><on [Barbarian Breakout] game speed>"
+		
+		]
 	}
 
 ]
