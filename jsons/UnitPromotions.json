@@ -1259,7 +1259,7 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["Unit will heal every turn, even if it performs an action"]	
+		"uniques": ["[+10] HP when healing"]	
 	},
 	{
 		"name": "[Companion Cavalry] ability",
@@ -1275,7 +1275,7 @@
 	},
 	{
 		"name": "[Iron Wall Legion] ability",
-		"uniques": ["[+20]% Strength <when defending>"]			
+		"uniques": ["[+25]% Strength <when defending>"]			
 	},
 	{
 		"name": "[Janissary] ability",

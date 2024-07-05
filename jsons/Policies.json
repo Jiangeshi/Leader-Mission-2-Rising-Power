@@ -565,7 +565,8 @@
             {
                 "name": "Rural Population Migration",
                 "uniques": [
-                    "[33]% Food is carried over after population increases [in all cities]"
+                    "[20]% Food is carried over after population increases [in all cities]",
+                    "[+1 Food] [in all cities]"
                 ],
                 "requires": ["Industrialism"],
                 "row": 2,

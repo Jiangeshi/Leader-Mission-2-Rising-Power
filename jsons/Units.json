@@ -167,7 +167,7 @@
 		"uniqueTo": "Denmark",
 		"movement": 3,
 		"strength": 14,
-		"cost": 66,
+		"cost": 60,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",

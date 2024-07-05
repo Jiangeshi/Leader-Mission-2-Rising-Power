@@ -734,7 +734,7 @@
 		"maintenance": 2,
 		"requiredTech": "Biology"
 		"uniques":[
-		"Only available <in cities with a [City Level V]>",	"Costs [10] [Steels]", "[25]% Food is carried over after population increases [in this city]","[Wounded] Units adjacent to this city heal [+15] HP per turn when healing",]
+		"Only available <in cities with a [City Level V]>", "Costs [10] [Steels]","[Wounded] Units adjacent to this city heal [+20] HP per turn when healing"]
 	},
     {
         "name": "Police Station",
@@ -950,8 +950,9 @@
 		"name": "Medical Lab",
 		"specialistSlots": {"Scientist": 2},
 		"maintenance": 3,
+		"percentStatBonus": {"food": 20},
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Aluminum]", "[30]% Food is carried over after population increases [in this city]"]
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Aluminum]", "[20]% Food is carried over after population increases [in this city]"]
 	},
 	{
 		"name": "Solar Plant",
@@ -2356,8 +2357,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Glenn Empire",
-		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities\n+2 Sight for Reconnaissance units"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2] Sight <for [Reconnaissance] units>"]	  
+		"replacementTextForUniques": "+15% ⚙Production when constructing ☮Faith buildings in all cities\n+2 Sight for All units"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2] Sight <for [All] units>"]	  
 	},
 	{
 		"name": "Fane",
