@@ -1768,3 +1768,1564 @@ BuildingIcons/Economic Development Bureau
   
 
 
+Images/ImprovementIcons/ColonyIcon.png
+ImprovementIcons/Colony
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1              
+              
+Images/ImprovementIcons/SpaIcon.png
+ImprovementIcons/Spa
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1              
+  
+Images/ImprovementIcons/VietnameseCityIcon.png
+ImprovementIcons/Vietnamese City
+  rotate: false
+  xy: 0, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
+Images/ImprovementIcons/Expand Pasture Icon.png
+ImprovementIcons/Expand Pasture
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+      
+          
+              
+  
+Images/NationIcons/Iran.png
+NationIcons/Iran
+  rotate: false
+  xy: 0, 0
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Macedonia.png
+NationIcons/Macedonia
+  rotate: false
+  xy: 0, 0
+  size: 329, 329
+  orig: 329, 329
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Burkina Faso.png
+NationIcons/Burkina Faso
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Yun Ji Court.png
+NationIcons/Yun Ji Court
+  rotate: false
+  xy: 0, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Glenn Empire.png
+NationIcons/Glenn Empire
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/Egypt.png
+NationIcons/Egypt
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Turkey.png
+NationIcons/Turkey
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Scythian.png
+NationIcons/Scythian
+  rotate: false
+  xy: 0, 0
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1   
+  
+Images/NationIcons/Benin.png
+NationIcons/Benin
+  rotate: false
+  xy: 0, 0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1     
+  
+Images/NationIcons/China.png
+NationIcons/China
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Serbia.png
+NationIcons/Serbia
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Afghanistan.png
+NationIcons/Afghanistan
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Vietnam.png
+NationIcons/Vietnam
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Columbia.png
+NationIcons/Columbia
+  rotate: false
+  xy: 0, 0
+  size: 550, 500
+  orig: 550, 500
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Finland.png
+NationIcons/Finland
+  rotate: false
+  xy: 0, 0
+  size: 200, 150
+  orig: 200, 150
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/SovietUnion.png
+NationIcons/Soviet Union
+  rotate: false
+  xy: 0, 0
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Poland.png
+NationIcons/Poland
+  rotate: false
+  xy: 0, 0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Brazil.png
+NationIcons/Brazil
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1      
+  
+Images/NationIcons/Cuba.png
+NationIcons/Cuba
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Zulu.png
+NationIcons/Zulu
+  rotate: false
+  xy: 0, 0
+  size: 600, 600
+  orig: 600, 600
+  offset: 0, 0
+  index: -1       
+  
+Images/NationIcons/Argentina.png
+NationIcons/Argentina
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1       
+  
+Images/NationIcons/Indonesia.png
+NationIcons/Indonesia
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1         
+  
+Images/NationIcons/Palestine.png
+NationIcons/Palestine
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1           
+  
+Images/NationIcons/Vatican.png
+NationIcons/Vatican
+  rotate: false
+  xy: 0, 0
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Singapore.png
+NationIcons/Singapore
+  rotate: false
+  xy: 0, 0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1      
+  
+  
+  
+Images/PolicyIcons/Centralization.png
+PolicyIcons/Centralization
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+  
+Images/PolicyIcons/Lord-Vassal.png
+PolicyIcons/Lord-Vassal
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+  
+Images/PolicyIcons/Divine Right of Kings.png
+PolicyIcons/Divine Right of Kings
+  rotate: false
+  xy: 0, 0
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1    
+
+Images/PolicyIcons/Urbanization.png
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 0, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1 
+
+Images/PolicyIcons/Colonialism.png
+PolicyIcons/Colonialism
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Imperialism.png
+PolicyIcons/Imperialism
+  rotate: false
+  xy: 0, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Hate Propaganda.png
+PolicyIcons/Hate Propaganda
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Military Chemical Industry.png
+PolicyIcons/Military Chemical Industry
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Neoliberalism.png
+PolicyIcons/Neoliberalism
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/The Five-Year Plan.png
+PolicyIcons/The Five-Year Plan
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+
+Images/PolicyIcons/Military Reclamation System.png
+PolicyIcons/Military Reclamation System
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
+  
+Images/PolicyIcons/Price Scissors.png
+PolicyIcons/Price Scissors
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1    
+
+Images/PolicyIcons/Sustainable Development.png
+PolicyIcons/Sustainable Development
+  rotate: false
+  xy: 0, 0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1      
+   
+Images/PolicyIcons/Industrialism.png
+PolicyIcons/Industrialism
+  rotate: false
+  xy: 0, 0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
+  
+Images/PolicyIcons/Rural Population Migration.png
+PolicyIcons/Rural Population Migration
+  rotate: false
+  xy: 0, 0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1      
+  
+Images/PolicyIcons/Agglomeration Planning.png
+PolicyIcons/Agglomeration Planning
+  rotate: false
+  xy: 0, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1     
+  
+ 
+  
+
+
+  
+  
+Images/PolicyBranchIcons/Feudalism.png
+PolicyBranchIcons/Feudalism1
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+  
+Images/PolicyBranchIcons/Industrial.png
+PolicyBranchIcons/Industrial
+  rotate: false
+  xy: 0, 0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+Images/ResourceIcons/BisonIcon.png
+ResourceIcons/Bison
+  rotate: false
+  xy: 0, 0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+  
+Images/ResourceIcons/Cocoa.png
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
+  
+Images/ResourceIcons/CamelIcon.png
+ResourceIcons/Camel
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1    
+  
+Images/ResourceIcons/Warfare Aversion Level.png
+ResourceIcons/Warfare Aversion Level
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1  
+
+Images/ResourceIcons/Steel.png
+ResourceIcons/Steels
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
+  
+Images/ResourceIcons/Number of Buildings.png
+ResourceIcons/Number of Buildings
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+  
+Images/ResourceIcons/Civilized leader.png
+ResourceIcons/Number of Leaders
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
+Images/ResourceIcons/Number of Fighters.png
+ResourceIcons/Number of Fighters
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/ResourceIcons/KelpIcon.png
+ResourceIcons/Kelp
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+Images/ResourceIcons/CD.png
+ResourceIcons/CD
+  rotate: false
+  xy: 0,0
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1    
+  
+    
+      
+          
+  
+  
+Images/TechIcons/DrillWoodtoMakeFire.png
+TechIcons/Drill Wood to Make Fire
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+Images/TechIcons/BeliefWorship.png
+TechIcons/Belief Worship
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+Images/TechIcons/BurialCustom.png
+TechIcons/Burial Custom
+  rotate: false
+  xy: 0, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+
+Images/TechIcons/Art.png
+TechIcons/Art
+  rotate: false
+  xy: 0, 0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+  
+Images/TechIcons/Nation.png
+TechIcons/Nation
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+Images/TechIcons/Army Formation.png
+TechIcons/Army Formation
+  rotate: false
+  xy: 0, 0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1    
+
+Images/TechIcons/Defensive Fortification.png
+TechIcons/Defensive Fortification
+  rotate: false
+  xy: 0, 0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1  
+  
+Images/TechIcons/Politics.png
+TechIcons/Politics
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+  
+Images/TechIcons/Feudalism.png
+TechIcons/Feudalism
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+  
+Images/TechIcons/Agricultural Improvement.png
+TechIcons/Agricultural Improvement
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1        
+  
+Images/TechIcons/The Renaissance.png
+TechIcons/The Renaissance
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1          
+
+Images/TechIcons/Socialism.png
+TechIcons/Socialism
+  rotate: false
+  xy: 0, 0
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1          
+
+Images/TechIcons/Materials Science.png
+TechIcons/Materials Science
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1          
+
+Images/TechIcons/Internetwork.png
+TechIcons/Internetwork
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1          
+
+Images/TechIcons/Artificial Intelligence.png
+TechIcons/Artificial Intelligence
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1            
+  
+  
+  
+Images/TileSets/Bison.png
+TileSets/HexaRealm/Tiles/Bison
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/Camel.png
+TileSets/HexaRealm/Tiles/Camel
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/GeothermalCrevice.png
+TileSets/HexaRealm/Tiles/Geothermal Crevice
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+
+Images/TileSets/Volcano.png
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/Volcano.png
+TileSets/Minimal/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/Volcano.png
+TileSets/FantasyHex/Tiles/Volcano
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1      
+
+Images/TileSets/VolcanicSoil.png
+TileSets/HexaRealm/Tiles/Volcanic Soil
+  rotate: false
+  xy: 0, -15
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/Cocoa.png
+TileSets/HexaRealm/Tiles/Cocoa
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/Colony.png
+TileSets/HexaRealm/Tiles/Colony
+  rotate: false
+  xy: 0, 0
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1      
+  
+Images/TileSets/Spa.png
+TileSets/HexaRealm/Tiles/Spa
+  rotate: false
+  xy: 0, 0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/VietnameseCity.png
+TileSets/HexaRealm/Tiles/Vietnamese City
+  rotate: false
+  xy: 0, 0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/Expand Pasture.png
+TileSets/HexaRealm/Tiles/Expand Pasture
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/Persian Immortal(Ranged).png
+TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
+  rotate: false
+  xy: 0, 0
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/Kelp.png
+TileSets/HexaRealm/Tiles/Kelp
+  rotate: false
+  xy: 0, 0
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/SaltLake.png
+TileSets/HexaRealm/Tiles/Salt Lake
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1   
+  
+Images/TileSets/Mudflat.png
+TileSets/HexaRealm/Tiles/Mudflat
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1     
+  
+  
+  
+  
+Images/UnitIcons/GreatAdmiralIcon.png
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1     
+  
+Images/UnitIcons/Persian Immortal(Ranged)Icon.png
+UnitIcons/Persian Immortal(Ranged)
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+  
+Images/UnitIcons/HypaspistIcon.png
+UnitIcons/Hypaspist
+  rotate: false
+  xy: 0,0
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1    
+  
+Images/UnitIcons/Mossi Warrior.png
+UnitIcons/Mossi Warrior
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1          
+      
+Images/UnitIcons/Yun Ji Commander.png
+UnitIcons/Yun Ji Commander
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1              
+  
+Images/UnitIcons/Iron Wall Legion.png
+UnitIcons/Iron Wall Legion
+  rotate: false
+  xy: 0,0
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1                
+            
+Images/UnitIcons/MobileArcherIcon.png
+UnitIcons/Mobile Archer
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
+  
+Images/UnitIcons/Dahomei Womens Guard.png
+UnitIcons/Dahomei Women's Guard
+  rotate: false
+  xy: 0,0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1        
+  
+Images/UnitIcons/AncientChineseChariotIcon.png
+UnitIcons/Ancient Chinese Chariot
+  rotate: false
+  xy: 0,0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitIcons/CobraCommandoIcon.png
+UnitIcons/Cobra Commando
+  rotate: false
+  xy: 0,0
+  size: 75, 125
+  orig: 75, 125
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitIcons/Bazooka.png
+UnitIcons/Bazooka
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitIcons/CowboyCavalryIcon.png
+UnitIcons/Cowboy Cavalry
+  rotate: false
+  xy: 0,0
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1       
+ 
+Images/UnitIcons/SovietWorkerIcon.png
+UnitIcons/SovietWorker
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+
+Images/UnitIcons/T-34Icon.png
+UnitIcons/T-34
+  rotate: false
+  xy: 0,0
+  size: 354, 260
+  orig: 355, 260
+  offset: 0, 0
+  index: -1      
+ 
+Images/UnitIcons/Vietnam War ElephantIcon.png
+UnitIcons/Vietnam War Elephant
+  rotate: false
+  xy: 0,0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1  
+  
+Images/UnitIcons/Winged Hussar.png
+UnitIcons/Winged Hussar
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1    
+  
+Images/UnitIcons/Minas Gerais Battleship.png
+UnitIcons/Minas Gerais Battleship
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1       
+
+Images/UnitIcons/CubanInternationalRevolutionaryFighterIcon.png
+UnitIcons/Cuban International Revolutionary Fighter
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+
+Images/UnitIcons/Rock Band.png
+UnitIcons/Rock Band
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+
+Images/UnitIcons/Impi.png
+UnitIcons/Impi
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1       
+
+Images/UnitIcons/Andean Army.png
+UnitIcons/Andean Army
+  rotate: false
+  xy: 0,0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1       
+      
+Images/UnitIcons/Jukung Perang.png
+UnitIcons/Jukung Perang
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1        
+
+Images/UnitIcons/Templar Knight.png
+UnitIcons/Templar Knight
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1   
+ 
+Images/UnitIcons/GreatProphet.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Confucius
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+UnitIcons/Jesus
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Muhammad
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+UnitIcons/Gautama Siddhartha
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+    
+ 
+  
+Images/UnitPromotionIcons/UnitPromotionIcons.png
+size: 2048, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitPromotionIcons/Quick Offensive
+  rotate: false
+  xy: 576, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rejuvenation
+  rotate: false
+  xy: 1968, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Detection
+  rotate: false
+  xy: 112, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Alert
+  rotate: false
+  xy: 112, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Continuous Attack
+  rotate: false
+  xy: 1620, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1   
+UnitPromotionIcons/Hide
+  rotate: false
+  xy: 576, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Attack City
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Storm Fortification
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Break City
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Detonate
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+UnitPromotionIcons/Pinpoint Bombing
+  rotate: false
+  xy: 518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+UnitPromotionIcons/Rescue
+  rotate: false
+  xy: 1736, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Grab Beach
+  rotate: false
+  xy: 344, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sealift
+  rotate: false
+  xy: 344, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Additional Range
+  rotate: false
+  xy: 1098, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Carrying Missile
+  rotate: false
+  xy: 692, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Saturation Bombing
+  rotate: false
+  xy: 692, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+UnitPromotionIcons/Continuous Interception
+  rotate: false
+  xy: 286, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+  
+Images/UnitPromotionIcons/Hard.png
+UnitPromotionIcons/Hard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/Trample.png
+UnitPromotionIcons/Trample
+  rotate: false
+  xy: 0,0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/Formation.png
+UnitPromotionIcons/Formation
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/Aim.png
+UnitPromotionIcons/Aim
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+ 
+Images/UnitPromotionIcons/Salvo.png
+UnitPromotionIcons/Salvo
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+ 
+Images/UnitPromotionIcons/Indirect Fire.png
+UnitPromotionIcons/Indirect Fire
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+ 
+Images/UnitPromotionIcons/Off-road.png
+UnitPromotionIcons/Off-road
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+  
+Images/UnitPromotionIcons/Hold Ground.png
+UnitPromotionIcons/Hold Ground
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/Street Battle.png
+UnitPromotionIcons/Street Battle
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+ 
+Images/UnitPromotionIcons/Charge.png
+UnitPromotionIcons/Charge
+  rotate: false
+  xy: 0,0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1 
+ 
+Images/UnitPromotionIcons/Wear Armor.png
+UnitPromotionIcons/Wear Armor
+  rotate: false
+  xy: 0,0
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1  
+ 
+Images/UnitPromotionIcons/First Attack.png
+UnitPromotionIcons/First Attack
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1     
+  
+Images/UnitPromotionIcons/Rush.png
+UnitPromotionIcons/Rush
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1   
+  
+Images/UnitPromotionIcons/Raid.png
+UnitPromotionIcons/Raid
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+
+Images/UnitPromotionIcons/Expose Armor.png
+UnitPromotionIcons/Expose Armor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+  
+Images/UnitPromotionIcons/Expose Armor.png
+UnitPromotionIcons/Armor Piercing
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/UnitPromotionIcons/Pass.png
+UnitPromotionIcons/Pass
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitPromotionIcons/Escort.png
+UnitPromotionIcons/Escort
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Images/UnitPromotionIcons/Escort.png
+UnitPromotionIcons/Queue
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+
+Images/UnitPromotionIcons/Landfall.png
+UnitPromotionIcons/Landfall
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Images/UnitPromotionIcons/Armor.png
+UnitPromotionIcons/Armor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+ 
+Images/UnitPromotionIcons/Shooting Support.png
+UnitPromotionIcons/Shooting Support
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+ 
+Images/UnitPromotionIcons/Bayonet Charge.png
+UnitPromotionIcons/Bayonet Charge
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1         
+ 
+Images/UnitPromotionIcons/Apply Poison.png
+UnitPromotionIcons/Apply Poison
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1               
+       
+Images/UnitPromotionIcons/Bombard.png
+UnitPromotionIcons/Bombard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                   
+   
+Images/UnitPromotionIcons/Shrapnel.png
+UnitPromotionIcons/Shrapnel
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                   
+   
+Images/UnitPromotionIcons/Strategic Deployment.png
+UnitPromotionIcons/Strategic Deployment
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+   
+Images/UnitPromotionIcons/Firepower Coverage.png
+UnitPromotionIcons/Firepower Coverage
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitPromotionIcons/Cruise.png
+UnitPromotionIcons/Cruise
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                    
+   
+Images/UnitPromotionIcons/Fire Support.png
+UnitPromotionIcons/Fire Support
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1           
+   
+Images/UnitPromotionIcons/Dive.png
+UnitPromotionIcons/Dive
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+   
+Images/UnitPromotionIcons/Noise Reduction.png
+UnitPromotionIcons/Noise Reduction
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+   
+Images/UnitPromotionIcons/Tactical Evasion.png
+UnitPromotionIcons/Tactical Evasion
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1      
+    
+Images/UnitPromotionIcons/Rout.png
+UnitPromotionIcons/Rout
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1          
+  
+Images/UnitPromotionIcons/Crossing the Mountain.png
+UnitPromotionIcons/Crossing the Mountain
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1     
+  
+Images/UnitPromotionIcons/More Fight More Brave.png
+UnitPromotionIcons/More Fight More Brave
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitPromotionIcons/Civilizedleaderability.png
+UnitPromotionIcons/TomyrisAbility
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1       
+  
+Images/UnitPromotionIcons/Defend the Motherland.png
+UnitPromotionIcons/Defend the Motherland
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1          
+  
+Images/UnitPromotionIcons/Rock Band.png
+UnitPromotionIcons/Start a Concert
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1                
+  
+Images/UnitPromotionIcons/Blizzard Wind.png
+UnitPromotionIcons/Blizzard Wind Ability
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1             
