@@ -1127,12 +1127,12 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 63,
+		"rangedStrength": 11,
+		"cost": 60,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"
 	},
 	{
@@ -1142,13 +1142,13 @@
 		"uniqueTo": "Rome",
 		"movement": 2,
 		"strength": 6,
-		"rangedStrength": 9,
+		"rangedStrength": 10,
 		"range": 3,
-		"cost": 73,
+		"cost": 70,
 	    "requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"	
     },
 	{
@@ -1157,12 +1157,12 @@
 		"replaces": "Catapult",
 		"uniqueTo": "The Huns",
 		"movement": 2,
-		"strength": 10,
-		"cost": 68,
+		"strength": 11,
+		"cost": 65,
 	    "requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending> <vs [Melee] units>", "[-1] Sight", "Can only attack [City] units", "[+100]% Strength <vs cities> <when defending>"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending> <vs [Melee] units>", "[-1] Sight", "Can only attack [City] units", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"    		
 	},
 	{
@@ -1170,13 +1170,13 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 14,
-		"rangedStrength": 15,
-		"cost": 142,
+		"rangedStrength": 16,
+		"cost": 140,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
-		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>"],
+		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"	
 	},
 	{
@@ -1186,12 +1186,12 @@
 		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 26,
-		"cost": 142,
+		"rangedStrength": 27,
+		"cost": 140,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"	
 	},
 	{
@@ -1205,7 +1205,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+200]% Strength <vs cities> <when attacking>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "cannon"	
 	},
 	{
@@ -1219,7 +1219,7 @@
 		"requiredTech": "Dynamite",
 	    "obsoleteTech": "Rocketry",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [1] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"	
 	},
@@ -1232,7 +1232,7 @@
 		"range": 3,
 		"cost": 800,
 		"requiredTech": "Rocketry",
-		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
+		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"	
 		
@@ -1749,7 +1749,6 @@
 		    "Free Social Policy <by consuming this unit>",
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Limited to [1] per Civilization",
-			"Great Person - [Great]",
 			"Unbuildable", "Uncapturable",
 			"Religious Unit"
 			],
@@ -1763,7 +1762,6 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Can Spread Religion <for [2] movement> <[4] times>",
 			"Limited to [1] per Civilization",
-		    "Great Person - [Great]",
 			"Unbuildable", "Uncapturable",
 			"Religious Unit"
 			],
@@ -1779,7 +1777,7 @@
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Great]",
+			"May enter foreign tiles without open borders", "[-1] Sight",
 			"Unbuildable", "Religious Unit",
 			"Takes your religion over the one in their birth city"
 			],
@@ -1793,7 +1791,6 @@
 		    "[+20]% Strength bonus for [Land] units within [2] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Limited to [1] per Civilization",
-			"Great Person - [Great]",
 			"Unbuildable", "Uncapturable",
 			"Religious Unit"
 			],
@@ -1806,8 +1803,7 @@
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
-		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>"
-		"Great Person - [Great]", 
+		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>",
 		"Unbuildable", "Uncapturable",
 		"Limited to [1] per Civilization"
 		],
@@ -1818,8 +1814,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles"
-	    "Great Person - [Great]", 
+		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles",
 		"Unbuildable", "Uncapturable",
 		"Limited to [1] per Civilization"
 		],
@@ -1831,12 +1826,12 @@
 		"uniques": [
 		"[+33]% Strength bonus for [Water] units within [3] tiles",
 		"[+1] Sight <when [Embarked]>",
-		"Double movement in [Coast]"
-		"Great Person - [Great]", 
+		"Double movement in [Coast]",
 		"Unbuildable", "Uncapturable",
 		"Limited to [1] per Civilization"
 		],
 		"movement": 2
+		
 	// 宗教单位
     },
     {

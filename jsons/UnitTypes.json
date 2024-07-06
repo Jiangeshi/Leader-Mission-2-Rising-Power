@@ -2,12 +2,12 @@
     {
         "name": "Civilian",
         "movementType": "Land"
-        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", "May travel on Water tiles without embarking <for [Indonesia]>"]
+        "uniques": ["Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", "May travel on Water tiles without embarking <for [Indonesia]>"]
     },
     {
         "name": "Civilian Water",
         "movementType": "Water"
-        "uniques": ["Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>"]
+        "uniques": ["Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>"]
     },
     {
         "name": "Reconnaissance",
@@ -21,10 +21,10 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]    
     },
     {
@@ -38,8 +38,8 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>", "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
         ]
@@ -58,12 +58,12 @@
         "Gain [35] [Gold] <upon being defeated> <for [Scythian]>",
         "May attack when embarked <for [England]>",
         "Eliminates combat penalty for attacking across a coast <for [England]>",
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]    
     },
     {
@@ -78,11 +78,11 @@
         "Cannot attack <in [Marsh] tiles>",
         "Heal this unit by [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]    
     },
     {
@@ -96,12 +96,12 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>"
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>"
         ]    
     },
     {
@@ -114,11 +114,11 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]        
     },
     {
@@ -129,10 +129,10 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",       
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",       
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]                
     },
     {
@@ -148,11 +148,11 @@
         "May attack when embarked <for [England]>",
         "Eliminates combat penalty for attacking across a coast <for [England]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>", 
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [City center] tile> <for [Zulu]>", 
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         ]    
     },
     {
@@ -162,8 +162,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",        
         ]                
     },
     {
@@ -174,8 +174,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",                    
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",                    
         ]                
     },
     {
@@ -186,8 +186,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",        
         ]                
     },
     {
@@ -196,8 +196,8 @@
         "uniques":[
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",        
         ]                
     },
     {
@@ -208,8 +208,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
         "Aircraft"]
     },
     {
@@ -220,8 +220,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
         "Aircraft"]   
     },
     {
@@ -231,8 +231,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
         "Flybomb"]
     },
     {
@@ -243,8 +243,8 @@
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
-        "Ignores Zone of Control <for [Poland]> <after discovering [Army Formation]>",
-        "May enter foreign tiles without open borders <for [Poland]> <after discovering [Nation]>",    
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",    
         "Flybomb"]
         
     //判断类型

@@ -446,7 +446,7 @@
 	{
 		"name": "Armory",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level III]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Steel"
 	},
     {
@@ -454,7 +454,7 @@
         "maintenance": 1,
         "production": 1,
         "happiness": 2,
-        "uniques": ["Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "uniques": ["Only available <in cities with a [City Level III]>", "Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
         "requiredTech": "Politics"
 			
 	// 中古-特殊建筑
@@ -740,7 +740,7 @@
         "name": "Police Station",
         "happiness": 3,
         "maintenance": 1,
-        "uniques": ["Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "uniques": ["Only available <in cities with a [City Level V]>", "Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
         "requiredTech": "Rifling"
 	// 工业-选建建筑
 	},
@@ -1236,8 +1236,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+1 ♪Culture in all cities\n+15% ♪Culture in all cities starting from the Classical era",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities]", "[+15]% [Culture] [in all cities] <starting from the [Classical era]>"]
+		"replacementTextForUniques": "+1 ♪Culture in all cities\n+10% ♪Culture in all cities starting from the Classical era",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities]", "[+10]% [Culture] [in all cities] <starting from the [Classical era]>"]
 	},
 	{
         "name": "Civilized Leader-First Emperor of Qin",
@@ -1268,8 +1268,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Friendly Land tiles\n+15% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]	
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Friendly Land tiles\n+10% ⍾Science and ♪Culture in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -1504,8 +1504,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+25% †Strength for Siege units vs Military units when attacking",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+25]% Strength <for [Siege] units> <vs [Military] units> <when attacking>"]	
+		"replacementTextForUniques": "+33% †Strength for Siege units vs Military units when attacking",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+33]% Strength <for [Siege] units> <vs [Military] units> <when attacking>"]	
 	},
 	{	
         "name": "Civilized Leader-De Gaulle",
@@ -1757,8 +1757,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Spain",
-		"replacementTextForUniques": "+2 [Faith] and +2 [Gold] [in all cities] [on foreign continents]\n+2 [Science] [in all cities] not on foreign continents"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +2 Gold, -2 Science] [in all cities] <on foreign continents>", "[+2 Science] [in all cities]"]
+		"replacementTextForUniques": "+2 [Faith] and +2 [Gold] [in all cities] [on foreign continents]\n+1 [Science] [in all cities] not on foreign continents"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franco]>", "[+2 Faith, +2 Gold, -1 Science] [in all cities] <on foreign continents>", "[+1 Science] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Franco",
@@ -2085,7 +2085,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"replacementTextForUniques": "+1 [Production] / [Gold] from all [Gold] / [Production] buildings"
+		"replacementTextForUniques": "[[+1 Production] from all [Gold] buildings]\n[[+1 Gold] from all [Production] buildings]"
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Che Guevara]>", "[+1 Production] from all [Gold] buildings", "[+1 Gold] from all [Production] buildings"]
 	},
 	{

@@ -40,7 +40,7 @@
     {
         "name": "Sacred Route",
         "type": "Pantheon",
-        "uniques": ["[+3 Culture] from each Trade Route"]
+        "uniques": ["[+3 Culture] [in all cities connected to capital]"]
         
     // 金钱
     },
@@ -74,7 +74,7 @@
     {
         "name": "Messenger of God",
         "type": "Pantheon",
-        "uniques": ["[+3 Science] from each Trade Route"]
+        "uniques": ["[+3 Science] [in all cities connected to capital]"]
         
     //产能
     },
@@ -201,7 +201,7 @@
     {
         "name": "Way of Pilgrimage",
         "type": "Follower",
-        "uniques": ["[+2 Faith, +2 Culture] from each Trade Route"] 
+        "uniques": ["[+2 Faith, +2 Culture] [in all cities connected to capital]"] 
     },
     {
         "name": "Tithes",
