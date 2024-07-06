@@ -1,3 +1,476 @@
+
+
+
+
+
+
+Images/BuildingIcons/City Level I.png
+BuildingIcons/City Level I
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/City Level II.png
+BuildingIcons/City Level II
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/City Level III.png
+BuildingIcons/City Level III
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/City Level IV.png
+BuildingIcons/City Level IV
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/City Level V.png
+BuildingIcons/City Level V
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Bonfire.png
+BuildingIcons/Bonfire
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/Kiln.png
+BuildingIcons/Kiln
+  rotate: false
+  xy: 0,0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Smithy.png
+BuildingIcons/Smithy
+  rotate: false
+  xy: 0,0
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Taxation Bureau.png
+BuildingIcons/Taxation Bureau
+  rotate: false
+  xy: 0,0
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/MinistryofDefense.png
+BuildingIcons/Ministry of Defense
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/PrintingHouse.png
+BuildingIcons/Printing House
+  rotate: false
+  xy: 0,0
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+  
+Images/BuildingIcons/Shipyard.png
+BuildingIcons/Shipyard
+  rotate: false
+  xy: 0,0
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1         
+      
+Images/BuildingIcons/Tunnel.png
+BuildingIcons/Tunnel
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+  
+Images/BuildingIcons/ChemicalPlant.png
+BuildingIcons/Chemical Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Coal-FiredPowerPlant.png
+BuildingIcons/Coal-Fired Power Plant
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/League of Nations.png
+BuildingIcons/League of Nations
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1      
+  
+Images/BuildingIcons/Acropolis.png
+BuildingIcons/Acropolis
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/IncaPyramid.png
+BuildingIcons/Inca Pyramid
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/Military Royal School.png
+BuildingIcons/Military Royal School
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+Images/BuildingIcons/FrenchCastle.png
+BuildingIcons/French Castle
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1    
+        
+Images/BuildingIcons/Posthouse.png
+BuildingIcons/Posthouse
+  rotate: false
+  xy: 0,0
+  size: 70, 40
+  orig: 70, 40
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/GanduoPrimarySchool.png
+BuildingIcons/Ganduo Primary School
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/Yun Ji Barracks.png
+BuildingIcons/Yun Ji Barracks
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1       
+  
+Images/BuildingIcons/Fane.png
+BuildingIcons/Fane
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1         
+  
+Images/BuildingIcons/GalataTower.png
+BuildingIcons/Galata Tower
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1     
+  
+Images/BuildingIcons/LavraMonastery.png
+BuildingIcons/Lavra Monastery
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Racetrack.png
+BuildingIcons/Racetrack
+  rotate: false
+  xy: 0,0
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1  
+  
+Images/BuildingIcons/Column.png
+BuildingIcons/Column
+  rotate: false
+  xy: 0,0
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/TombMound.png
+BuildingIcons/Tomb Mound
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1      
+        
+Images/BuildingIcons/Tata Somba.png
+BuildingIcons/Tata Somba
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+  
+Images/BuildingIcons/Cothon.png
+BuildingIcons/Cothon
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+      
+Images/BuildingIcons/Royal Navy Dockyard.png
+BuildingIcons/Royal Navy Dockyard
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1        
+          
+Images/BuildingIcons/RockeryGarden.png
+BuildingIcons/Rockery Garden
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1                
+              
+Images/BuildingIcons/StudenicaMonastery.png
+BuildingIcons/Studenica Monastery
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                  
+              
+Images/BuildingIcons/KoreanAcademy.png
+BuildingIcons/Korean Academy
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+              
+Images/BuildingIcons/MinaretofJam.png
+BuildingIcons/Minaret of Jam
+  rotate: false
+  xy: 0,0
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1              
+              
+Images/BuildingIcons/GrandManor.png
+BuildingIcons/Grand Manor
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1              
+              
+Images/BuildingIcons/Santa Claus House.png
+BuildingIcons/Santa Claus House
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1                     
+              
+Images/BuildingIcons/RedSquare.png
+BuildingIcons/Red Square
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1              
+                            
+Images/BuildingIcons/Ducal Stable.png
+BuildingIcons/Ducal Stable
+  rotate: false
+  xy: 0,0
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1                     
+              
+Images/BuildingIcons/Street Carnival.png
+BuildingIcons/Street Carnival
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1          
+
+Images/BuildingIcons/CubanCapitol.png
+BuildingIcons/Cuban Capitol
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Ikanda.png
+BuildingIcons/Ikanda
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1          
+
+Images/BuildingIcons/Kampung.png
+BuildingIcons/Kampung
+  rotate: false
+  xy: 0,0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1   
+  
+Images/BuildingIcons/Wailing Wall.png
+BuildingIcons/Wailing Wall
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Military Reclamation.png
+BuildingIcons/Military Reclamation
+  rotate: false
+  xy: 0, 0
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1  
+              
+Images/BuildingIcons/BasilicaDiSanPietroInVaticano.png
+BuildingIcons/Basilica Di San Pietro In Vaticano
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/Auspicious Snow.png
+BuildingIcons/Auspicious Snow
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Blizzard Wind.png
+BuildingIcons/Blizzard Wind
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Grundtvigs Kirke.png
+BuildingIcons/Grundtvigs Kirke
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/JokhangTemple.png
+BuildingIcons/Jokhang Temple
+  rotate: false
+  xy: 0,0
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1  
+
+Images/BuildingIcons/EconomicDevelopmentBureau.png
+BuildingIcons/Economic Development Bureau
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
   
   
   
