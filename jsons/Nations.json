@@ -747,8 +747,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Balkan Tiger",
-		"uniqueText": "Earn 20% of the damage done to Military units as ♪Culture\n+10%/20%/30% †Strength for Military units when below 75/50/25 HP",
-		"uniques": ["Earn [20]% of the damage done to [Military] units as [Culture]", "[+10]% Strength <for [Military] units> <when below [75] HP>", "[+10]% Strength <for [Military] units> <when below [50] HP>", "[+10]% Strength <for [Military] units> <when below [25] HP>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "Earn 20% of the damage done to Military units as ♪Culture\n+10%/15%/20% †Strength for Military units when below 75/50/25 HP\n[No damage penalty for wounded units]",
+		"uniques": ["No damage penalty for wounded units <for [Military] units>", "Earn [20]% of the damage done to [Military] units as [Culture]", "[+10]% Strength <for [Military] units> <when below [75] HP>", "[+5]% Strength <for [Military] units> <when below [50] HP>", "[+5]% Strength <for [Military] units> <when below [25] HP>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
 			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
@@ -1573,8 +1573,8 @@
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
 		"uniqueName": "The Land of Thousand Islands",
-		"uniqueText": "[May travel on Water tiles without embarking]\n-1 ➡Movement for Land units in Water tiles\n[[+1 Culture] from [Atoll] tiles [in all cities]]\n[[+1 Culture] from [Mudflat] tiles [in all cities]]",
-		"uniques": ["[-1] Movement <for [Land] units> <in [Water] tiles>", "[+1 Culture] from [Atoll] tiles [in all cities]", "[+1 Culture] from [Mudflat] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[May travel on Water tiles without embarking]\nMilitary units may attack without combat penalty for attacking across a coast when embarked\n[[+10]% Strength][for [Military] units][within [3] tiles of a [River]]\n[[+10]% Strength][for [Military] units][within [3] tiles of a [Coast]]",
+		"uniques": ["[+10]% Strength <for [Military] units> <within [3] tiles of a [River]>", "[+10]% Strength <for [Military] units> <within [3] tiles of a [River]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a Pantheon> <before founding a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-15]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
             

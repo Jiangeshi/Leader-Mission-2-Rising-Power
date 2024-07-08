@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
     // 快乐惩罚
-    "[-50]% growth [in all cities] <when between [-10] and [0] Happiness>",
+    "[-50]% growth [in all cities] <when between [-10] and [-1] Happiness>",
     "[-75]% growth [in all cities] <when between [-15] and [-11] Happiness>",
     "Nullifies Growth [in all cities] <when below [-15] Happiness>",
     "[-50]% [Production] [in all cities] <when below [-15] Happiness>",

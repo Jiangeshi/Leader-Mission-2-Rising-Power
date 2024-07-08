@@ -2320,8 +2320,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Indonesia",
-		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]\n+15% †Strength for Military units when fighting in Coast tiles"
-		"uniques": ["Can only be built<in [in capital] cities>", "Resting point for Influence with City-States is increased by [30]", "[+15]% Strength <for [Military] units> <when fighting in [Coast] tiles>"]
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [30]]\n[[+1 Culture] from [Water resource] tiles]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Culture] from [Water resource] tiles [in all cities]", "Resting point for Influence with City-States is increased by [30]"]
     },
 	{
 		"name": "Kampung",
@@ -2329,7 +2329,7 @@
 		"maintenance": 0,
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Pottery"	 
 		   
 	// 云冀之庭

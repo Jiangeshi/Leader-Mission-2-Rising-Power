@@ -30,7 +30,7 @@
       {"text":"Unhappiness has two main causes: Population and cities.\n  Each city causes 3 unhappiness, and each population, 1"},
       {"text":"There are 2 main ways to combat unhappiness:\n  by building happiness buildings for your population\n  or by having improved luxury resources within your borders."}
       {"text":"The impact of Unhappiness:","header":4,"color": "#ff0000"},
-      {"text":"-10~0 [Happiness]:\n[[-50]% growth [in all cities]]\n\n-15~-10 [Happiness]:\n[[-75]% growth [in all cities]]\n\n-∞~-10 [Happiness]:\n[Cannot build [Settler] units]\n\n-∞~-15 [Happiness]:\n[Nullifies Growth [in all cities]]\n[[-50]% [Production] [in all cities]]\n[Rebel units may spawn]\n[[-25]% Strength]"}
+      {"text":"-10~-1 [Happiness]:\n[[-50]% growth [in all cities]]\n\n-15~-10 [Happiness]:\n[[-75]% growth [in all cities]]\n\n-∞~-10 [Happiness]:\n[Cannot build [Settler] units]\n\n-∞~-15 [Happiness]:\n[Nullifies Growth [in all cities]]\n[[-50]% [Production] [in all cities]]\n[Rebel units may spawn]\n[[-25]% Strength]"}
     ]  
   },
   {
