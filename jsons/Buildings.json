@@ -198,6 +198,7 @@
 	{
 		"name": "Barracks",
 		"maintenance": 1,
+		"cost": 84,
 		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	},
@@ -1493,6 +1494,7 @@
 	{
 		"name": "Military Royal School",
 		"maintenance": 1,
+		"cost": 84,
 		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation",
 		"replaces": "Barracks",
@@ -2277,6 +2279,7 @@
 	{
 		"name": "Ikanda",
 		"maintenance": 0,
+		"cost": 84,
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
 		"gold": 2,
@@ -2355,6 +2358,7 @@
 	{
 		"name": "Yun Ji Barracks",
 		"maintenance": 1,
+		"cost": 84,
 		"uniqueTo": "Yun Ji Court",
 		"replaces": "Barracks",
 		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
