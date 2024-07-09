@@ -1685,8 +1685,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>"]
+		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 35 [Warfare Aversion Level]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [35] [Warfare Aversion Level]>"]
 	},
 	{
 		"name": "Royal Navy Dockyard",
