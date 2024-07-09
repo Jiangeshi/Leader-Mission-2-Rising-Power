@@ -177,7 +177,7 @@
         "cost": 5000,
         "production": 1,
         "culture": 1,
-		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [4] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
 		"name": "Market",
@@ -410,7 +410,7 @@
         "cost": 5000,
         "culture": 2,
         "science": 2,
-		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [8] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [7] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
 		"name": "University",
@@ -556,7 +556,7 @@
         "cost": 5000,
         "culture": 3,
         "science": 3,
-		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [13] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [12] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
 	{
 		"name": "Bank",
@@ -710,7 +710,7 @@
         "production": 3,
         "gold": 5,
 		"uniques": [
-		"Only available <starting from the [Industrial era]>", "Only available <when above [18] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"Only available <starting from the [Industrial era]>", "Only available <when above [16] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
 	{
 		"name": "Public School",
