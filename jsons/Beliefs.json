@@ -236,7 +236,7 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+50]% growth [in this city] <when not at war>"]    
+        "uniques": ["[+50]% growth [in cities following this religion] <when not at war>"]    
     },
     {
         "name": "Inspiration",

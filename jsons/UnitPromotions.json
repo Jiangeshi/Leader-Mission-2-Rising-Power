@@ -92,7 +92,8 @@
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Foot Soldier"]
 		"row": 2,
-        "column": 6,               
+        "column": 6,          
+             
     //射手晋升
     },
     {

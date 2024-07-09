@@ -56,8 +56,6 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Gain [35] [Gold] <upon being defeated> <for [Scythian]>",
-        "May attack when embarked <for [England]>",
-        "Eliminates combat penalty for attacking across a coast <for [England]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
@@ -144,8 +142,6 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "May attack when embarked <for [England]>",
-        "Eliminates combat penalty for attacking across a coast <for [England]>",
         
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 

@@ -295,7 +295,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
-		"promotions": ["Drill I"],
+		"promotions": ["Drill I", "Drill II"],
 		"attackSound": "shot"	
 	},
 	{
@@ -580,7 +580,7 @@
 		"rangedStrength": 18,
 		"replaces": "Crossbowman",
 		"uniqueTo": "England",
-		"cost": 145,
+		"cost": 160,
 		"requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
@@ -813,7 +813,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 25,
+		"strength": 24,
 		"cost": 162,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",

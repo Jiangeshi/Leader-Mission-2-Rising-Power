@@ -109,6 +109,7 @@
 	{
 		"name": "Stonehenge",
 		"isWonder": true,
+		"culture": 1,
 		"requiredTech": "Belief Worship",
 		"uniques": ["[1] free [Great Prophet] units appear"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
@@ -1504,24 +1505,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+33% †Strength for Siege units vs Military units when attacking",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+33]% Strength <for [Siege] units> <vs [Military] units> <when attacking>"]	
+		"replacementTextForUniques": "+15% †Strength for Siege units vs Military units when attacking\n[[+1] Movement] [for [Siege] units]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+15]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
 	},
 	{	
         "name": "Civilized Leader-De Gaulle",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -20%\n+2 ¤Gold per 1 social policies adopted"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-20]%", "[+2 Gold] per [1] social policies adopted"]
+		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -15%\n+3 ¤Gold per 1 social policies adopted"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-15]%", "[+3 Gold] per [1] social policies adopted"]
 	},
 	{	
         "name": "Civilized Leader-Louis XIV",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+2 ♪Culture, +2 ¤Gold and -1 ⚙Production from every ⌣Luxury resource"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+2 Culture, +2 Gold, -1 Production] from every [Luxury resource]"]	
+		"replacementTextForUniques": "+1 ♪Culture, +2 ¤Gold from every ⌣Luxury resource"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+1 Culture, +2 Gold] from every [Luxury resource]"]	
 	},
 	{
 		"name": "French Castle",
@@ -1593,8 +1594,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-66]% less than normal]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-66]% less than normal"]	
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-33]% less than normal", "Free [Worker] appears"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -1612,8 +1613,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "-50% ☮Faith cost of generating [Great Prophet] equivalents",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[-50]% Faith cost of generating Great Prophet equivalents"]
+		"replacementTextForUniques": "[[Faith] cost of purchasing [Great Prophet] units [-50]%]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[Faith] cost of purchasing [Great Prophet] units [-50]%"]
 	},
 	{	
         "name": "Civilized Leader-Justinian I",
@@ -1666,16 +1667,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "Empire enters a 6-turn ⌣Golden Age upon founding a city\n[+1 Production, +2 Culture, +2 Gold] [in all cities] [during a Golden Age]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+1 Production, +2 Culture, +2 Gold] [in all cities] <during a Golden Age>", "Empire enters a [6]-turn Golden Age <upon founding a city>"]
+		"replacementTextForUniques": "+10% Yield in capital [during a Golden Age]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", 
+		"[+10]% [Gold] [in capital] <during a Golden Age>", 
+		"[+10]% [Science] [in capital] <during a Golden Age>", 
+		"[+10]% [Production] [in capital] <during a Golden Age>", 
+		"[+10]% [Culture] [in capital] <during a Golden Age>",
+		"[+10]% [Faith] [in capital] <during a Golden Age>",
+		"[+10]% [Happiness] [in capital] <during a Golden Age>",
+		"[+10]% [Food] [in capital] <during a Golden Age>",
+		]
 	},
 	{	
         "name": "Civilized Leader-Churchill",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]\n+7% ⚙Production in all cities when at war",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>", "[+7]% [Production] [in all cities] <when at war>"]
+		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 30 [Warfare Aversion Level]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [30] [Warfare Aversion Level]>"]
 	},
 	{
 		"name": "Royal Navy Dockyard",
@@ -1817,6 +1826,7 @@
 		"Remove [Auspicious Snow] [in all cities]",
 		"Only available <for [Human player]>"
 		]		
+		
 	// 苏联
 	},
 	{	
@@ -1824,8 +1834,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-66]% less than normal]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-66]% less than normal"]
+		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-33]% less than normal", "Free [Worker] appears"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
@@ -2194,11 +2204,11 @@
 		"name": "Tata Somba",
 		"replaces": "Granary",
 		"uniqueTo": "Benin",
-		"cost": 48,
 		"food": 2,
 		"maintenance": 0,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable"],
-		"requiredTech": "Pottery"		
+		"requiredTech": "Pottery"	
+			
 	// 迦太基
 	},
 	{	
