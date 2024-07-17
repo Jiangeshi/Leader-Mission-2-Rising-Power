@@ -2041,7 +2041,7 @@
 		"Unbuildable",
 		"Provides [1] [Infrastructure Investment]",
 		"[+5 Gold] <without [Infrastructure Investment]>",
-		"[+2 Production] [in all cities] <without [Infrastructure Investment]>"
+		"[+1 Production] [in all cities] <without [Infrastructure Investment]>"
 		]
 	},
 	{
@@ -2052,9 +2052,7 @@
 		"Only available <for [The Netherlands]>",
 		"Unbuildable",
 		"Provides [1] [Productive Investment]",
-		"[+5 Gold] <without [Productive Investment]>",
-		"[+10]% [Gold] [in all cities] <without [Productive Investment]>",
-		"[+10]% growth [in all cities] <without [Productive Investment]>",
+		"[+8 Gold] <without [Productive Investment]>",
 		]
 	},
 	{
@@ -2092,7 +2090,7 @@
 		"Unbuildable",
 		"Provides [1] [Grain Investment]",
 		"[+5 Gold] <without [Grain Investment]>",
-		"[+1 Food] [in all cities] <without [Grain Investment]>",
+		"[+15]% growth [in all cities] <without [Grain Investment]>",
 		]		
 
 	// 印加
@@ -2188,11 +2186,11 @@
 	{
 		"name": "Street Carnival",
 	    "maintenance": 1,
-		"happiness": 4,
+		"happiness": 5,
 		"uniqueTo": "Brazil",
 		"replaces": "Colosseum",
 		"requiredTech": "Horseback Riding"
-		"uniques":["Only available <in cities with a [City Level II]>","[-5]% [Production] [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 				
 	// 古巴
 	},
@@ -2330,8 +2328,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"replacementTextForUniques": "+25% ⚙Production when constructing [Settler] units in capital\n+3 ¤Gold in all cities connected to capital",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+25]% Production when constructing [Settler] units [in capital]", "[+3 Gold] [in all cities connected to capital]"]	
+		"replacementTextForUniques": "+20% ⚙Production when constructing [Settler] units in capital\n+2 ¤Gold in all cities connected to capital",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Hannibal]>", "[+20]% Production when constructing [Settler] units [in capital]", "[+2 Gold] [in all cities connected to capital]"]	
 	},
 	{	
         "name": "Civilized Leader-Hannibal",

@@ -888,8 +888,8 @@
 		"innerColor": [26, 22, 21],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Prussian Spirit",
-		"uniqueText": "+1 [Science] from all [Science] buildings when not at war\n-1 [Science] in all cities when not at war\n+1 [Production] from all [Production] buildings when at war\n-1 [Production] in all cities when at war",
-		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[-1 Science] [in all cities] <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-1 Production] [in all cities] <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "+1 [Science] from all [Science] buildings when not at war\n-1 [Science] in capital when not at war\n+1 [Production] from all [Production] buildings when at war\n-1 [Production] in capital when at war",
+		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[-1 Science] [in capital] <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-1 Production] [in capital] <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -1141,13 +1141,13 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniqueText": "Obtain 1 Investment Project in 10 / 20 / 35 / 50 / 75 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+15]% Production when constructing [All] buildings [in all cities]],+2 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+20% [Gold],+10% [Gold] and growth in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+1 [Food] in all cities after purchasing from other civilizations"
+		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+20% [Gold],+3 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
 		"uniques": [
-		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [10]>",
-		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [20]>",
-		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [35]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
