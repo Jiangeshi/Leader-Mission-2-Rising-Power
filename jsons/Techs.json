@@ -337,12 +337,6 @@
 				"quote": ""
 			},
 			{
-				"name": "Printing Press",
-				"row": 3,
-				"prerequisites": ["Civil Service"],
-				"quote": ""
-			},
-			{
 				"name": "Chemistry",
 				"row": 6,
 				"prerequisites": ["Archery"],
@@ -364,11 +358,10 @@
 				"quote": ""
 			},
 			{
-				"name": "Banking",
+				"name": "Printing Press",
 				"row": 3,
-				"prerequisites": ["The Renaissance","Printing Press"],
-			    "uniques":["[+25]% [Gold] from Trade Routes", "[+1 Gold] from all [Production] buildings"]
-				"quote": ""
+				"prerequisites": ["The Renaissance"],
+				"quote": ""	
 			},
 			{
 				"name": "Navigation",
@@ -400,13 +393,13 @@
 			{
 				"name": "Enlightenment",
 				"row": 2,
-				"prerequisites": ["Banking","Architecture"],
+				"prerequisites": ["Printing Press","Architecture"],
 				"quote": ""
 			},
 			{
 				"name": "Economics",
 				"row": 4,
-				"prerequisites": ["Banking","Navigation"],
+				"prerequisites": ["Printing Press","Navigation"],
 				"quote": ""
 			},
 			{

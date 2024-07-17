@@ -487,7 +487,7 @@ UnitIcons/Lee Sunshin
   
 
 
-Images/BuildingIcons/Civilized leader (1).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Cyrus
   rotate: false
   xy: 0,0
@@ -496,7 +496,7 @@ BuildingIcons/Civilized Leader-Cyrus
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (2).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Darius I
   rotate: false
   xy: 0,0
@@ -505,7 +505,7 @@ BuildingIcons/Civilized Leader-Darius I
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (3).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Leonidas
   rotate: false
   xy: 0,0
@@ -514,7 +514,7 @@ BuildingIcons/Civilized Leader-Leonidas
   offset: 0, 0
   index: -1  
      
-Images/BuildingIcons/Civilized leader (4).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Pachacutec
   rotate: false
   xy: 0,0
@@ -523,7 +523,7 @@ BuildingIcons/Civilized Leader-Pachacutec
   offset: 0, 0
   index: -1       
 
-Images/BuildingIcons/Civilized leader (5).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Pericles
   rotate: false
   xy: 0,0
@@ -532,7 +532,7 @@ BuildingIcons/Civilized Leader-Pericles
   offset: 0, 0
   index: -1    
 
-Images/BuildingIcons/Civilized leader (6).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Alexander
   rotate: false
   xy: 0,0
@@ -541,7 +541,7 @@ BuildingIcons/Civilized Leader-Alexander
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (7).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Napoleon
   rotate: false
   xy: 0,0
@@ -550,7 +550,7 @@ BuildingIcons/Civilized Leader-Napoleon
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (8).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-De Gaulle
   rotate: false
   xy: 0,0
@@ -559,7 +559,7 @@ BuildingIcons/Civilized Leader-De Gaulle
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (9).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Louis XIV
   rotate: false
   xy: 0,0
@@ -568,7 +568,7 @@ BuildingIcons/Civilized Leader-Louis XIV
   offset: 0, 0
   index: -1    
   
-Images/BuildingIcons/Civilized leader (10).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Omar I
   rotate: false
   xy: 0,0
@@ -577,7 +577,7 @@ BuildingIcons/Civilized Leader-Omar I
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (11).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Saladin
   rotate: false
   xy: 0,0
@@ -586,7 +586,7 @@ BuildingIcons/Civilized Leader-Saladin
   offset: 0, 0
   index: -1    
   
-Images/BuildingIcons/Civilized leader (12).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Genghis Khan
   rotate: false
   xy: 0,0
@@ -595,7 +595,7 @@ BuildingIcons/Civilized Leader-Genghis Khan
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (13).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Kublai
   rotate: false
   xy: 0,0
@@ -604,7 +604,7 @@ BuildingIcons/Civilized Leader-Kublai
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (14).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Sankara
   rotate: false
   xy: 0,0
@@ -613,7 +613,7 @@ BuildingIcons/Civilized Leader-Sankara
   offset: 0, 0
   index: -1    
   
-Images/BuildingIcons/Civilized leader (15).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Yi Feng
   rotate: false
   xy: 0,0
@@ -622,7 +622,7 @@ BuildingIcons/Civilized Leader-Yi Feng
   offset: 0, 0
   index: -1    
 
-Images/BuildingIcons/Civilized leader (16).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Explorer
   rotate: false
   xy: 0,0
@@ -631,7 +631,7 @@ BuildingIcons/Civilized Leader-Explorer
   offset: 0, 0
   index: -1    
   
-Images/BuildingIcons/Civilized leader (17).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Ramesses II
   rotate: false
   xy: 0,0
@@ -640,7 +640,7 @@ BuildingIcons/Civilized Leader-Ramesses II
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (18).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Nasser
   rotate: false
   xy: 0,0
@@ -649,7 +649,7 @@ BuildingIcons/Civilized Leader-Nasser
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (19).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Sadat
   rotate: false
   xy: 0,0
@@ -658,7 +658,7 @@ BuildingIcons/Civilized Leader-Sadat
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (20).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Osman I
   rotate: false
   xy: 0,0
@@ -667,7 +667,7 @@ BuildingIcons/Civilized Leader-Osman I
   offset: 0, 0
   index: -1  
      
-Images/BuildingIcons/Civilized leader (21).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Suleiman
   rotate: false
   xy: 0,0
@@ -676,7 +676,7 @@ BuildingIcons/Civilized Leader-Suleiman
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (22).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Kemal
   rotate: false
   xy: 0,0
@@ -685,7 +685,7 @@ BuildingIcons/Civilized Leader-Kemal
   offset: 0, 0
   index: -1
   
-Images/BuildingIcons/Civilized leader (23).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Peter
   rotate: false
   xy: 0,0
@@ -694,7 +694,7 @@ BuildingIcons/Civilized Leader-Peter
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (24).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Catherine
   rotate: false
   xy: 0,0
@@ -703,7 +703,7 @@ BuildingIcons/Civilized Leader-Catherine
   offset: 0, 0
   index: -1     
   
-Images/BuildingIcons/Civilized leader (25).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Constantine I
   rotate: false
   xy: 0,0
@@ -712,7 +712,7 @@ BuildingIcons/Civilized Leader-Constantine I
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (26).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Justinian I
   rotate: false
   xy: 0,0
@@ -721,7 +721,7 @@ BuildingIcons/Civilized Leader-Justinian I
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (27).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Octavius
   rotate: false
   xy: 0,0
@@ -730,7 +730,7 @@ BuildingIcons/Civilized Leader-Octavius
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (29).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Cesar
   rotate: false
   xy: 0,0
@@ -739,7 +739,7 @@ BuildingIcons/Civilized Leader-Cesar
   offset: 0, 0
   index: -1                  
   
-Images/BuildingIcons/Civilized leader (28).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Montezuma I
   rotate: false
   xy: 0,0
@@ -748,7 +748,7 @@ BuildingIcons/Civilized Leader-Montezuma I
   offset: 0, 0
   index: -1                
   
-Images/BuildingIcons/Civilized leader (30).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Gandhi
   rotate: false
   xy: 0,0
@@ -757,7 +757,7 @@ BuildingIcons/Civilized Leader-Gandhi
   offset: 0, 0
   index: -1                  
   
-Images/BuildingIcons/Civilized leader (31).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Nehru
   rotate: false
   xy: 0,0
@@ -766,7 +766,7 @@ BuildingIcons/Civilized Leader-Nehru
   offset: 0, 0
   index: -1              
   
-Images/BuildingIcons/Civilized leader (32).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Attila
   rotate: false
   xy: 0,0
@@ -775,7 +775,7 @@ BuildingIcons/Civilized Leader-Attila
   offset: 0, 0
   index: -1                
   
-Images/BuildingIcons/Civilized leader (33).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Tomyris
   rotate: false
   xy: 0,0
@@ -784,7 +784,7 @@ BuildingIcons/Civilized Leader-Tomyris
   offset: 0, 0
   index: -1   
   
-Images/BuildingIcons/Civilized leader (34).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Kerekou
   rotate: false
   xy: 0,0
@@ -793,7 +793,7 @@ BuildingIcons/Civilized Leader-Kerekou
   offset: 0, 0
   index: -1         
         
-Images/BuildingIcons/Civilized leader (35).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Kamehameha I
   rotate: false
   xy: 0,0
@@ -802,7 +802,7 @@ BuildingIcons/Civilized Leader-Kamehameha I
   offset: 0, 0
   index: -1                 
 
-Images/BuildingIcons/Civilized leader (36).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Hannibal
   rotate: false
   xy: 0,0
@@ -811,7 +811,7 @@ BuildingIcons/Civilized Leader-Hannibal
   offset: 0, 0
   index: -1         
         
-Images/BuildingIcons/Civilized leader (37).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Pacal
   rotate: false
   xy: 0,0
@@ -820,7 +820,7 @@ BuildingIcons/Civilized Leader-Pacal
   offset: 0, 0
   index: -1                 
 
-Images/BuildingIcons/Civilized leader (38).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Dido
   rotate: false
   xy: 0,0
@@ -829,7 +829,7 @@ BuildingIcons/Civilized Leader-Dido
   offset: 0, 0
   index: -1         
 
-Images/BuildingIcons/Civilized leader (39).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Queen Victoria
   rotate: false
   xy: 0,0
@@ -838,7 +838,7 @@ BuildingIcons/Civilized Leader-Queen Victoria
   offset: 0, 0
   index: -1                 
 
-Images/BuildingIcons/Civilized leader (40).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Churchill
   rotate: false
   xy: 0,0
@@ -847,7 +847,7 @@ BuildingIcons/Civilized Leader-Churchill
   offset: 0, 0
   index: -1         
 
-Images/BuildingIcons/Civilized leader (41).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Emperor Wu of Han
   rotate: false
   xy: 0,0
@@ -856,7 +856,7 @@ BuildingIcons/Civilized Leader-Emperor Wu of Han
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (42).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-First Emperor of Qin
   rotate: false
   xy: 0,0
@@ -865,7 +865,7 @@ BuildingIcons/Civilized Leader-First Emperor of Qin
   offset: 0, 0
   index: -1  
      
-Images/BuildingIcons/Civilized leader (43).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Chairman Mao
   rotate: false
   xy: 0,0
@@ -874,7 +874,7 @@ BuildingIcons/Civilized Leader-Chairman Mao
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (44).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Emperor Taizu of Song
   rotate: false
   xy: 0,0
@@ -883,7 +883,7 @@ BuildingIcons/Civilized Leader-Emperor Taizu of Song
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (45).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Emperor Taizong of Tang
   rotate: false
   xy: 0,0
@@ -892,7 +892,7 @@ BuildingIcons/Civilized Leader-Emperor Taizong of Tang
   offset: 0, 0
   index: -1  
      
-Images/BuildingIcons/Civilized leader (46).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Emperor Huang
   rotate: false
   xy: 0,0
@@ -901,7 +901,7 @@ BuildingIcons/Civilized Leader-Emperor Huang
   offset: 0, 0
   index: -1  
   
-Images/BuildingIcons/Civilized leader (47).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Tito
   rotate: false
   xy: 0,0
@@ -910,7 +910,7 @@ BuildingIcons/Civilized Leader-Tito
   offset: 0, 0
   index: -1  
      
-Images/BuildingIcons/Civilized leader (48).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Milosevic
   rotate: false
   xy: 0,0
@@ -919,7 +919,7 @@ BuildingIcons/Civilized Leader-Milosevic
   offset: 0, 0
   index: -1    
   
-Images/BuildingIcons/Civilized leader (49).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Bismarck
   rotate: false
   xy: 0,0
@@ -928,7 +928,7 @@ BuildingIcons/Civilized Leader-Bismarck
   offset: 0, 0
   index: -1      
 
-Images/BuildingIcons/Civilized leader (50).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Barbarossa
   rotate: false
   xy: 0,0
@@ -937,7 +937,7 @@ BuildingIcons/Civilized Leader-Barbarossa
   offset: 0, 0
   index: -1      
   
-Images/BuildingIcons/Civilized leader (51).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Menelik II
   rotate: false
   xy: 0,0
@@ -946,7 +946,7 @@ BuildingIcons/Civilized Leader-Menelik II
   offset: 0, 0
   index: -1      
 
-Images/BuildingIcons/Civilized leader (52).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Haile Selassie
   rotate: false
   xy: 0,0
@@ -955,7 +955,7 @@ BuildingIcons/Civilized Leader-Haile Selassie
   offset: 0, 0
   index: -1        
 
-Images/BuildingIcons/Civilized leader (53).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Yi Song-gye
   rotate: false
   xy: 0,0
@@ -964,7 +964,7 @@ BuildingIcons/Civilized Leader-Yi Song-gye
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (54).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Kim Il-sung
   rotate: false
   xy: 0,0
@@ -973,7 +973,7 @@ BuildingIcons/Civilized Leader-Kim Il-sung
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (55).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Hammurabi
   rotate: false
   xy: 0,0
@@ -982,7 +982,7 @@ BuildingIcons/Civilized Leader-Hammurabi
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (56).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Nebuchadnezzar II
   rotate: false
   xy: 0,0
@@ -991,7 +991,7 @@ BuildingIcons/Civilized Leader-Nebuchadnezzar II
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (57).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Charles V
   rotate: false
   xy: 0,0
@@ -1000,7 +1000,7 @@ BuildingIcons/Civilized Leader-Charles V
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (58).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Franco
   rotate: false
   xy: 0,0
@@ -1009,7 +1009,7 @@ BuildingIcons/Civilized Leader-Franco
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (59).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Hafizullah Amin
   rotate: false
   xy: 0,0
@@ -1018,7 +1018,7 @@ BuildingIcons/Civilized Leader-Hafizullah Amin
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (60).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Daoud Khan
   rotate: false
   xy: 0,0
@@ -1027,7 +1027,7 @@ BuildingIcons/Civilized Leader-Daoud Khan
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (61).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Ho Chi Minh
   rotate: false
   xy: 0,0
@@ -1036,7 +1036,7 @@ BuildingIcons/Civilized Leader-Ho Chi Minh
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (62).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Bolivar
   rotate: false
   xy: 0,0
@@ -1045,7 +1045,7 @@ BuildingIcons/Civilized Leader-Bolivar
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (63).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Mannerheim
   rotate: false
   xy: 0,0
@@ -1054,7 +1054,7 @@ BuildingIcons/Civilized Leader-Mannerheim
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (64).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Lenin
   rotate: false
   xy: 0,0
@@ -1063,7 +1063,7 @@ BuildingIcons/Civilized Leader-Lenin
   offset: 0, 0
   index: -1  
       
-Images/BuildingIcons/Civilized leader (65).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Stalin
   rotate: false
   xy: 0,0
@@ -1072,7 +1072,7 @@ BuildingIcons/Civilized Leader-Stalin
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (66).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Trotsky
   rotate: false
   xy: 0,0
@@ -1081,7 +1081,7 @@ BuildingIcons/Civilized Leader-Trotsky
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (67).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Trotsky ability
   rotate: false
   xy: 0,0
@@ -1090,7 +1090,7 @@ BuildingIcons/Trotsky ability
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (68).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Jan III Sobieski
   rotate: false
   xy: 0,0
@@ -1099,7 +1099,7 @@ BuildingIcons/Civilized Leader-Jan III Sobieski
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (69).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Pilsudski
   rotate: false
   xy: 0,0
@@ -1108,7 +1108,7 @@ BuildingIcons/Civilized Leader-Pilsudski
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (70).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Pedro I
   rotate: false
   xy: 0,0
@@ -1117,7 +1117,7 @@ BuildingIcons/Civilized Leader-Pedro I
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (71).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Lenin-Russia
   rotate: false
   xy: 0,0
@@ -1126,7 +1126,7 @@ BuildingIcons/Civilized Leader-Lenin-Russia
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (72).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Thaelmann
   rotate: false
   xy: 0,0
@@ -1135,7 +1135,7 @@ BuildingIcons/Civilized Leader-Thaelmann
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (73).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Che Guevara
   rotate: false
   xy: 0,0
@@ -1144,7 +1144,7 @@ BuildingIcons/Civilized Leader-Che Guevara
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (74).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Fidel Castro
   rotate: false
   xy: 0,0
@@ -1153,7 +1153,7 @@ BuildingIcons/Civilized Leader-Fidel Castro
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (75).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Theodore Roosevelt
   rotate: false
   xy: 0,0
@@ -1162,7 +1162,7 @@ BuildingIcons/Civilized Leader-Theodore Roosevelt
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (76).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Franklin Delano Roosevelt
   rotate: false
   xy: 0,0
@@ -1171,7 +1171,7 @@ BuildingIcons/Civilized Leader-Franklin Delano Roosevelt
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (77).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Shaka
   rotate: false
   xy: 0,0
@@ -1180,7 +1180,7 @@ BuildingIcons/Civilized Leader-Shaka
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (78).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-San Martín
   rotate: false
   xy: 0,0
@@ -1189,7 +1189,7 @@ BuildingIcons/Civilized Leader-San Martín
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (79).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Bung Sukarno
   rotate: false
   xy: 0,0
@@ -1198,7 +1198,7 @@ BuildingIcons/Civilized Leader-Bung Sukarno
   offset: 0, 0
   index: -1 
 
-Images/BuildingIcons/Civilized leader (80).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Ahmed Yassin
   rotate: false
   xy: 0,0
@@ -1207,7 +1207,7 @@ BuildingIcons/Civilized Leader-Ahmed Yassin
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (81).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Yasser Arafat
   rotate: false
   xy: 0,0
@@ -1216,7 +1216,7 @@ BuildingIcons/Civilized Leader-Yasser Arafat
   offset: 0, 0
   index: -1 
 
-Images/BuildingIcons/Civilized leader (82).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Khomeini
   rotate: false
   xy: 0,0
@@ -1225,7 +1225,7 @@ BuildingIcons/Civilized Leader-Khomeini
   offset: 0, 0
   index: -1   
 
-Images/BuildingIcons/Civilized leader (83).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Pope-Innocent III
   rotate: false
   xy: 0,0
@@ -1234,7 +1234,7 @@ BuildingIcons/Pope-Innocent III
   offset: 0, 0
   index: -1  
 
-Images/BuildingIcons/Civilized leader (84).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Pope-Francis
   rotate: false
   xy: 0,0
@@ -1243,7 +1243,7 @@ BuildingIcons/Pope-Francis
   offset: 0, 0
   index: -1 
 
-Images/BuildingIcons/Civilized leader (85).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Pope-Benedict XVI
   rotate: false
   xy: 0,0
@@ -1252,7 +1252,7 @@ BuildingIcons/Pope-Benedict XVI
   offset: 0, 0
   index: -1   
 
-Images/BuildingIcons/Civilized leader (86).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Boudicca
   rotate: false
   xy: 0,0
@@ -1261,7 +1261,7 @@ BuildingIcons/Civilized Leader-Boudicca
   offset: 0, 0
   index: -1   
 
-Images/BuildingIcons/Civilized leader (87).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Valdemar I
   rotate: false
   xy: 0,0
@@ -1270,7 +1270,7 @@ BuildingIcons/Civilized Leader-Valdemar I
   offset: 0, 0
   index: -1   
 
-Images/BuildingIcons/Civilized leader (88).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Ram khamhaeng
   rotate: false
   xy: 0,0
@@ -1279,7 +1279,7 @@ BuildingIcons/Civilized Leader-Ram khamhaeng
   offset: 0, 0
   index: -1 
 
-Images/BuildingIcons/Civilized leader (89).png
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Lee Kuan Yew
   rotate: false
   xy: 0,0
@@ -1287,6 +1287,38 @@ BuildingIcons/Civilized Leader-Lee Kuan Yew
   orig: 270, 270
   offset: 0, 0
   index: -1 
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Willem Oranje
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1 
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Croesus
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Songtsan Gampo
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+
+
+
+
 
 
 
@@ -1760,11 +1792,61 @@ BuildingIcons/Economic Development Bureau
   offset: 0, 0
   index: -1   
   
+Images/BuildingIcons/Gold.png
+BuildingIcons/Productive Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
   
+Images/BuildingIcons/Science.png
+BuildingIcons/Research Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
   
+Images/BuildingIcons/Culture.png
+BuildingIcons/Entertainment Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
   
+Images/BuildingIcons/Production.png
+BuildingIcons/Infrastructure Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1              
   
+Images/BuildingIcons/Food.png
+BuildingIcons/Grain Investment
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1                  
   
+Images/BuildingIcons/LydiaMint.png
+BuildingIcons/Lydia Mint
+  rotate: false
+  xy: 0,0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1 
+  
+      
   
 
 
@@ -1804,7 +1886,14 @@ ImprovementIcons/Expand Pasture
   offset: 0, 0
   index: -1    
       
-          
+Images/ImprovementIcons/HolyMountainIcon.png
+ImprovementIcons/Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1             
               
   
 Images/NationIcons/Iran.png
@@ -2031,6 +2120,24 @@ NationIcons/Singapore
   orig: 130, 130
   offset: 0, 0
   index: -1      
+  
+Images/NationIcons/Lydia.png
+NationIcons/Lydia
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1  
+  
+Images/NationIcons/Tubo.png
+NationIcons/Tubo
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1    
   
   
   
@@ -2305,9 +2412,50 @@ ResourceIcons/CD
   offset: 0, 0
   index: -1    
   
-    
+Images/ResourceIcons/Gold.png
+ResourceIcons/Productive Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
+  
+Images/ResourceIcons/Science.png
+ResourceIcons/Research Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
+  
+Images/ResourceIcons/Culture.png
+ResourceIcons/Entertainment Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1     
+  
+Images/ResourceIcons/Production.png
+ResourceIcons/Infrastructure Investment
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1                       
       
-          
+Images/ResourceIcons/Food.png
+ResourceIcons/Grain Investment
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1          
   
   
 Images/TechIcons/DrillWoodtoMakeFire.png
@@ -2591,6 +2739,15 @@ TileSets/HexaRealm/Tiles/Mudflat
   offset: 0, 0
   index: -1     
   
+Images/TileSets/HolyMountain.png
+TileSets/HexaRealm/Tiles/Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1       
+  
   
   
   
@@ -2835,7 +2992,25 @@ UnitIcons/Gautama Siddhartha
   offset: 0, 0
   index: -1
   
-    
+Images/UnitIcons/Heavy Spear CavalryIcon.png
+UnitIcons/Heavy Spear Cavalry
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+  
+Images/UnitIcons/FiveFlankHeavyInfantry.png
+UnitIcons/Five Flank Heavy Infantry
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+  
+  
  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png

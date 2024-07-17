@@ -2,17 +2,25 @@
     {
         "name": "Civilian",
         "movementType": "Land"
-        "uniques": ["Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", "May travel on Water tiles without embarking <for [Indonesia]>"]
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", "May travel on Water tiles without embarking <for [Indonesia]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        ]
     },
     {
         "name": "Civilian Water",
         "movementType": "Water"
-        "uniques": ["Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>"]
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>"
+        ]
     },
     {
         "name": "Reconnaissance",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
@@ -25,12 +33,14 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]    
     },
     {
         "name": "Foot Soldier",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
@@ -41,13 +51,15 @@
         "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>"
+        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]
     },
     {
         "name": "Shooter",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
@@ -60,14 +72,16 @@
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "[-10]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
+        "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]    
     },
     {
         "name": "Mobile",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
@@ -81,12 +95,14 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]    
     },
     {
         "name": "Anti-Mobile",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
@@ -98,13 +114,15 @@
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>"
+        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>",
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]    
     },
     {
         "name": "Anti-Air",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
@@ -116,12 +134,14 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]        
     },
     {
         "name": "Helicopter",
         "movementType": "Land",    
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
@@ -130,12 +150,14 @@
         "May enter foreign tiles without open borders <for [Poland]>",       
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]                
     },
     {
         "name": "Siege",
         "movementType": "Land"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         
@@ -148,23 +170,26 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]    
     },
     {
         "name": "Melee Water",
         "movementType": "Water"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
         "Ignores Zone of Control <for [Poland]>",
-        "May enter foreign tiles without open borders <for [Poland]>",        
+        "May enter foreign tiles without open borders <for [Poland]>",    
         ]                
     },
     {
         "name": "Ranged Water",
         "movementType": "Water"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
@@ -177,6 +202,7 @@
         "name": "Submarine",
         "movementType": "Water",
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
@@ -189,6 +215,7 @@
         "name": "Water Carrier",
         "movementType": "Water"
         "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         
         "Ignores Zone of Control <for [Poland]>",
@@ -199,6 +226,7 @@
         "name": "Fighter",
         "movementType": "Air"
         "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
@@ -211,6 +239,7 @@
         "name": "Bomber",
         "movementType": "Air"   
         "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
@@ -223,6 +252,7 @@
         "name": "Bomb",
         "movementType": "Air",
         "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
@@ -234,6 +264,7 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",

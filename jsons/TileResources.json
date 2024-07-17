@@ -601,7 +601,50 @@
 	{
 		"name": "CD",  
 		"resourceType": "Strategic",
-	    "uniques": ["Stockpiled", "Cannot be traded", "Not shown on world screen"
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen"
 	    ]
+	
+	// 荷兰投资
+	},
+	{
+		"name": "Infrastructure Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+15]% Production when constructing [All] buildings [in all cities]",
+		]
+	},
+	{
+		"name": "Productive Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+20]% [Gold]",
+		]
+	},
+	{
+		"name": "Research Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+10]% [Science]",
+		]	
+	},
+	{
+		"name": "Entertainment Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+10]% [Culture]",
+		]		
+	},
+	{
+		"name": "Grain Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+10]% [Food] [in all cities]",
+		]			
 	}
 ]

@@ -592,6 +592,7 @@
         ]
     },
     {
+    
     // 外交政策
         "name": "Patronage",
         "era": "Ancient era",
@@ -611,7 +612,8 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [50]% more Influence"
+                    "Gifts of Gold to City-States generate [50]% more Influence",
+                    "[+20]% spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -619,7 +621,8 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]"
+                    "Resting point for Influence with City-States is increased by [20]",
+                    "New spies start with [2] level(s)"
                 ],
                 "row": 1,
                 "column": 4
@@ -627,7 +630,8 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
+                    "[+20]% spy effectiveness [in all cities]"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -637,7 +641,8 @@
                 "name": "Cultural Diplomacy",
                 "uniques": [
                     "[+100]% resources gifted by City-States",
-                    "[+50]% Happiness from luxury resources gifted by City-States"
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "[+20]% spy effectiveness [in all cities]"    
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,
@@ -647,7 +652,8 @@
                 "name": "Educated Elite",
                 "requires": ["Aesthetics"],
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
+                    "New spies start with [3] level(s)"
                 ],
                 "row": 3,
                 "column": 4
@@ -656,6 +662,7 @@
                 "name": "Patronage Complete",
                 "uniques": [
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Promotes all spies [1] time(s)",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
             }
@@ -822,14 +829,22 @@
         ],
         "policies": [
             {
+                "name": "Military Reclamation System",
+                "uniques": [
+                    "Comment [Military Reclamation can be carried out in cities with a garrison]", 
+                    "Comment [+1 [Culture] for [Farm] with garrison]"
+                ],
+                "row": 1,
+                "column": 1,
+            },
+            {
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [Melee] units [in all cities]",
                     "Free [Great General] appears",
-                    "[Great General] is earned [50]% faster",
                 ],
                 "row": 1,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Discipline",
@@ -838,39 +853,28 @@
                     "[+2] Movement <for [Great General] units>",
                 ],
                 "row": 1,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Military] units>",
+                    "[Great General] is earned [50]% faster",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Military Reclamation System",
-                "uniques": [
-                    "Comment [Military Reclamation can be carried out in cities with a garrison]", 
-                    "Comment [+1 [Culture] for [Farm] with garrison]"
-                ],
-                "requires": ["Discipline"],
-                "row": 2,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Professional Army",
                 "uniques": [
                     "[-50]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Happiness] from every [Walls]",
-                    "[+1 Happiness] from every [Castle]",
-                    "[+1 Happiness] from every [Arsenal]",
-                    "[+1 Happiness] from every [Military Base]"
+                    "[+1 Production, +1 Culture] from every [Walls]",
+                    "[+1 Production, +1 Happiness] from every [Barracks]",
                 ],
                 "requires": ["Military Tradition"],
                 "row": 3,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Honor Complete",

@@ -60,6 +60,22 @@
     "Earn [50]% of killed [Barbarian] unit's [Strength] as [Gold] <on [Barbarian Breakout] game speed>",
     "Earn [50]% of killed [Barbarian] unit's [Strength] as [Science] <on [Barbarian Breakout] game speed>",
     "Earn [50]% of killed [Barbarian] unit's [Strength] as [Faith] <on [Barbarian Breakout] game speed>",
-    "Adopt [Honor] <on [Barbarian Breakout] game speed>"
+    "Adopt [Honor] <on [Barbarian Breakout] game speed>",
+    
+    // 荷兰
+    "[-5 Gold] <with [Infrastructure Investment]>",
+    "[+5 Gold] <with [Infrastructure Investment]> <for [The Netherlands]>",
+    
+    "[-5 Gold] <with [Productive Investment]>",
+    "[+5 Gold] <with [Productive Investment]> <for [The Netherlands]>",
+    
+    "[-5 Gold] <with [Research Investment]>",
+    "[+5 Gold] <with [Research Investment]> <for [The Netherlands]>", 
+       
+    "[-5 Gold] <with [Entertainment Investment]>",
+    "[+5 Gold] <with [Entertainment Investment]> <for [The Netherlands]>",  
+    
+    "[-5 Gold] <with [Grain Investment]>",
+    "[+5 Gold] <with [Grain Investment]> <for [The Netherlands]>",
     ]
 }

@@ -324,24 +324,70 @@
 		"innerColor": [182, 182, 182],
 		"favoredReligion": "Islam",
 		"uniqueName": "Freedom Will",
-		"uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive n basic military units upon turn end, up to a maximum of two.\nThe fewer cities there are, the higher the †Strength of military units.",
+		"uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive 1 basic military units evry 3 turns, up to a maximum of two\nThe fewer cities there are, the higher the †Strength of military units",
 		"uniques": [
-		"[1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <before discovering [Bronze Working]> <upon turn end>",
-		"[1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end>",
-		"[1] free [Spearman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end>",
-		"[1] free [Spearman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end>",
-		"[1] free [Pikeman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end>",
-		"[1] free [Pikeman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end>",
-		"[1] free [Musketman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end>",
-		"[1] free [Musketman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end>",
-		"[1] free [Rifleman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end>",
-		"[1] free [Rifleman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end>",
-		"[1] free [Great War Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end>",
-		"[1] free [Great War Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end>",
+		
+		"[1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Spearman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+	    "[1] free [Spearman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+		"[1] free [Pikeman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Pikeman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+	
+	
+	
+	
+		"[1] free [Musketman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Musketman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
+		"[1] free [Rifleman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Rifleman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+	
+		"[1] free [Great War Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Great War Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
+		
+		
 		"[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Materials Science]> <upon turn end>",
-		"[1] free [Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end>",
+		"[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
 		"[+15]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+13]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+11]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+8]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+6]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+5]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
 					
+					
+		"Provides [-1] [CD] <when number of [CD] is more than [0]>",
+		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ramallah", "Gaza", "Rafah", "Northern Province", "Khan Yunis", "Dair al-Balah", "Hebron", "Bethlehem", "Jenin", "Tulkarm", "Nablus", "Jericho"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
@@ -409,8 +455,73 @@
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Singapore City"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
-                                       
-                                        
+    },
+	{
+		"name": "Lydia",
+		"leaderName": "Leader",
+		"adjective": ["Lydian"],
+		"personality": "base",	
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [158,84,140],
+        "innerColor": [244,191,137],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Land of Plenty",
+		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[[+1 Production] from every [Trading post]]",
+		"uniques": [
+	    "[+1 Gold] from [River] tiles [in all cities]",
+	    "[+1 Production] from every [Trading post]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Tubo",
+		"leaderName": "Leader",
+		"adjective": ["Tibetans"],
+		"startBias": ["Hill"],
+		"personality": "base",	
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,190,198],
+        "innerColor": [114,103,107],
+
+        "favoredReligion": "Buddhism",
+		"uniqueName": "Heart of Mountains",
+		"uniqueText": "[Land units may cross [Mountain] tiles after the first [Worker] is earned]\n[[+2 Food, +1 Production] from every [Mountain]]\nLand unit heal 33 HP upon ending a turn in a [Mountain] tile",
+		"uniques": [
+	    "Land units may cross [Mountain] tiles after the first [Worker] is earned",
+	    "[+2 Food, +1 Production] from every [Mountain]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Lhasa", "Pomo", "Yarlung Valley City", "Su-pi", "Xiaoyangtong", "Amdo", "Khams", "Zedang", "Qiongjie", "Gongbu", "Tabu"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]                                    
                                           
     // 欧洲
     },
@@ -777,8 +888,8 @@
 		"innerColor": [26, 22, 21],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Prussian Spirit",
-		"uniqueText": "+1 [Science] from all [Science] buildings when not at war\n+1 [Production] from all [Production] buildings when at war",
-		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "+1 [Science] from all [Science] buildings when not at war\n-1 [Science] in all cities when not at war\n+1 [Production] from all [Production] buildings when at war\n-1 [Production] in all cities when at war",
+		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[-1 Science] [in all cities] <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-1 Production] [in all cities] <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -811,7 +922,7 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquerors of the New World",
-		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +2[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+1 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Great Improvement]",
+		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +2[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+2 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Great Improvement]",
 		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
@@ -1005,7 +1116,42 @@
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
 			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
 			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
-        "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]   
+        "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
+    },
+	{
+		"name": "The Netherlands",
+		"leaderName": "Leader",
+		"adjective": ["Dutch"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"personality": "base",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [216, 120, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Dutch East India Company",
+		"uniqueText": "Obtain 1 Investment Project in 10 / 20 / 35 / 50 / 75 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+15]% Production when constructing [All] buildings [in all cities]],+2 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+20% [Gold],+10% [Gold] and growth in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+1 [Food] in all cities after purchasing from other civilizations"
+		"uniques": [
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [10]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [20]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [35]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
+        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]    
              
     //美洲
     },
@@ -1194,8 +1340,8 @@
 		"innerColor": [253,213,17],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Caribbean Alligator",
-		"uniqueText": "[All healing effects doubled]\n[May heal outside of friendly territory]",
-		"uniques": ["All healing effects doubled <for [Military] units>", "May heal outside of friendly territory <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[Unit will heal every turn, even if it performs an action]",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
     },

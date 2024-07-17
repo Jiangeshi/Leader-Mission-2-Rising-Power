@@ -36,8 +36,8 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": [
@@ -57,10 +57,11 @@
 	{
 		"name": "Plantation",
 		"turnsToBuild": 7,
-		"gold": 1,
+		"gold": 2,
 		"techRequired": "Agriculture",
 		"uniques": [
 		"[+1 Food] <after discovering [Fertilizer]>",
+		"[+1 Gold] <after discovering [Compass]>",
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
 		],
@@ -68,6 +69,7 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 7,
+		"production": 1,
 		"techRequired": "Mining",
 		"uniques": [
 		"[+1 Production] <after discovering [Chemistry]>",
@@ -87,7 +89,7 @@
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
@@ -224,7 +226,7 @@
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 3,
+		"production": 5,
 		"uniques": ["Great Improvement",
 		"[+1 Production] <after discovering [Chemistry]>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -232,7 +234,7 @@
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 5,
+		"gold": 6,
 		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -264,8 +266,14 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
-			"[+1 Food] <in [Fresh Water] tiles> <in tiles without [Hill]>",
+		"uniques": [
+	    "Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
+		"Ensures a minimum tile yield of [+1 Food, +3 Production] <in [Plains] tiles> <in tiles without [Hill]>",
+		"Ensures a minimum tile yield of [+3 Food, +1 Production] <in [Grassland] tiles> <in tiles without [Hill]>",
+		"Ensures a minimum tile yield of [+3 Food, +1 Production] <in [Desert] tiles> <in [Fresh Water] tiles> <in tiles without [Hill]>",
+		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Gold] <in [Tundra] tiles> <in tiles without [Hill]>",
+		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>",
+		
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -285,7 +293,7 @@
 		"uniqueTo": "Inca",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
-		"turnsToBuild": 12,
+		"turnsToBuild": 10,
 		"uniques": ["Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
 	},
@@ -301,7 +309,7 @@
 	},
 	{
 		"name": "Colony",
-		"gold": 1,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle"],
 		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
 		"Great Improvement",
@@ -344,6 +352,24 @@
 		"food": 1,
 		"turnsToBuild": 3,
 	    "techRequired": "Animal Husbandry",
-		"uniques": ["Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Comment [Each adjacent Expand Pasture +1 Gold]", "Comment [Each adjacent Expand Pasture +1 Gold after discovering Agricultural Improvement]"],
+		"uniques": ["Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Comment [Adjacent Pasture +1 Gold]", "Comment [Adjacent Pasture +1 Gold after discovering Agricultural Improvement]"],
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 2,
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food] <in [Marsh] tiles>", "[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Optics",	
+	},
+	{
+		"name": "Holy Mountain",
+		"uniqueTo": "Tubo",
+		"terrainsCanBeBuiltOn": ["Mountain", "Hill"],
+		"faith": 2,
+		"turnsToBuild": 6,
+	    "techRequired": "Belief Worship",
+		"uniques": ["[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food, -1 Faith] <in [Hill] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	}
 ]

@@ -516,7 +516,7 @@
 		"movementCost": 1,
 		"overrideStats": true,
 		"unbuildable": false,
-		"occursOn": ["Plains","Tundra","Grassland","Snow"],
+		"occursOn": ["Tundra","Grassland","Snow"],
 		"uniques": ["Rare feature","Never receives any resources"]	
     },
 	{
@@ -576,6 +576,7 @@
 		"name": "Mudflat",
 		"type": "TerrainFeature",
 		"food": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Coast"],

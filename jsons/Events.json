@@ -187,6 +187,47 @@
                     ],
                 "conditions": []        
             },
-        ]    
+        ]
+    }
+    {
+        "name": "Obtain Investment Projects",
+        "text": "",
+        "choices": [
+            {
+                "text": "Infrastructure Investment",
+                "triggeredUniques": [
+                    "Provides a [Infrastructure Investment] in your first [1] cities for free"
+                ],
+                "conditions": ["if [Infrastructure Investment] is not constructed"]
+            },
+            {
+                "text": "Productive Investment",
+                "triggeredUniques": [
+                    "Provides a [Productive Investment] in your first [1] cities for free"
+                ],
+                "conditions": ["if [Productive Investment] is not constructed"]
+            },
+            {
+                "text": "Research Investment",
+                "triggeredUniques": [
+                    "Provides a [Research Investment] in your first [1] cities for free"
+                ],
+                "conditions": ["if [Research Investment] is not constructed"]
+            },
+            {
+                "text": "Entertainment Investment",
+                "triggeredUniques": [
+                    "Provides a [Entertainment Investment] in your first [1] cities for free"
+                ],
+                "conditions": ["if [Entertainment Investment] is not constructed"]
+            },
+            {
+                "text": "Grain Investment",
+                "triggeredUniques": [
+                    "Provides a [Grain Investment] in your first [1] cities for free"
+                ],
+                "conditions": ["if [Grain Investment] is not constructed"]    
+            },
+        ]
     }
 ]

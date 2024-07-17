@@ -16,7 +16,9 @@
 	{
         "name": "City Level I",
         "cost": 5000,
-		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",]	
+		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",
+		"Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>"
+		]	
 	},
 	{
 		"name": "Bonfire",
@@ -98,7 +100,7 @@
 	},
 	{
 		"name": "Circus",
-  "requiredNearbyImprovedResources": ["Ivory","Horses"],
+        "requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"gold": 1,
 		"requiredTech": "Art"
@@ -175,8 +177,6 @@
 	{
         "name": "City Level II",
         "cost": 5000,
-        "production": 1,
-        "culture": 1,
 		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
@@ -205,13 +205,13 @@
 	{
 		"name": "Colosseum",
 	    "maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"requiredTech": "Horseback Riding",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 	},
 	{
 		"name": "Amphitheater",
-		"culture": 2,
+		"culture": 3,
 		"science": 1,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
@@ -235,6 +235,7 @@
 	{
 		"name": "Stable",
 		"maintenance": 1,
+		"production": 1,
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Horseback Riding"
@@ -408,13 +409,12 @@
 	{
         "name": "City Level III",
         "cost": 5000,
-        "culture": 2,
-        "science": 2,
 		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [7] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
 	},
 	{
 		"name": "University",
 		"maintenance": 2,
+		"culture": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
@@ -464,6 +464,7 @@
 	{
 		"name": "Forge",
 		"maintenance": 1,
+		"science": 2,
 		"specialistSlots": {"Engineer": 1},
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Machinery",
@@ -554,8 +555,6 @@
 	{
         "name": "City Level IV",
         "cost": 5000,
-        "culture": 3,
-        "science": 3,
 		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [12] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
 	{
@@ -569,7 +568,7 @@
 	{
 		"name": "Printing House",
 		"culture": 3,
-		"science": 2,
+		"science": 3,
 		"maintenance": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Printing Press"
@@ -589,7 +588,7 @@
 	{
 		"name": "Opera House",
 		"science": 2,
-		"culture": 2,
+		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
@@ -598,12 +597,15 @@
 	{
 		"name": "Theatre",
 		"happiness": 3,
+		"culture": 1,
 		"maintenance": 2,
 		"requiredTech": "The Renaissance",
 		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Arsenal",
+		"science": 2,
+		"cost": 256,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metallurgy",
 		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1] Unit Supply per [2] population [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
@@ -707,8 +709,6 @@
 	{
         "name": "City Level V",
         "cost": 5000,
-        "production": 3,
-        "gold": 5,
 		"uniques": [
 		"Only available <starting from the [Industrial era]>", "Only available <when above [16] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
 	},
@@ -744,6 +744,7 @@
         "maintenance": 1,
         "uniques": ["Only available <in cities with a [City Level V]>", "Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
         "requiredTech": "Rifling"
+        
 	// 工业-选建建筑
 	},
 	{
@@ -756,13 +757,15 @@
 	},
 	{
 		"name": "Military Academy",
+		"cost": 348,
+		"production": 3,
 		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level V]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
 		"name": "Stock Exchange",
-		"gold": 3,
+		"gold": 8,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"requiredTech": "Construction"	
@@ -918,7 +921,7 @@
 		"percentStatBonus": {"production": 20, "science": 20, "gold": 20},
 		"happiness": 10,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start",
+		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 		"requiredTech": "Globalization",
 	},
@@ -1097,7 +1100,7 @@
     },
 	{
 		"name": "Military Reclamation",
-		"cost": 20,
+		"cost": 15,
 		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player]>",
@@ -1197,6 +1200,7 @@
 	{
 		"name": "Posthouse",
 		"maintenance": 2,
+		"production": 1,
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Horseback Riding"
@@ -1315,6 +1319,7 @@
 		"replaces": "University",
 		"uniqueTo": "Korea",
 		"science": 3,
+		"culture": 2,
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
@@ -1405,11 +1410,11 @@
 	},
 	{
 		"name": "Wailing Wall",
-		"cost": 60,
-		"faith": 2,
+		"cost": 50,
+		"faith": 3,
 		"isNationalWonder": true,
 	    "uniqueTo": "Palestine",
-		"uniques": ["Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [15] per owned city", "Gain enough Faith for [50]% of a Great Prophet"],
+		"uniques": ["Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [10] per owned city", "Gain enough Faith for [50]% of a Great Prophet"],
 		"requiredTech": "Belief Worship"			
 		
 	// 泰国
@@ -1429,7 +1434,7 @@
 		"maintenance": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"culture": 3,
+		"culture": 5,
 		"uniques": ["Only available <in cities with a [City Level III]>","[+2 Science] from [Jungle] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"
 	
@@ -1441,7 +1446,7 @@
 		"cost":1,
 		"uniqueTo": "Singapore",
 		"replacementTextForUniques": "[for every [10] [turns]][[+1 Science, +2 Gold] [in capital]]\n[[+1 Science, +2 Gold] per [3] population [in capital]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Science, +2 Gold] [in capital] <for every [10] [turns]>", "[+1 Science, +2 Gold] per [3] population [in capital]"]
+		"uniques": ["Can only be built <in [in capital] cities>", "[+1 Science, +2 Gold] [in capital] <for every [10] [turns]>", "[+1 Science, +2 Gold] per [3] population [in capital]"]
 	},
 	{
 		"name": "Economic Development Bureau",
@@ -1452,6 +1457,38 @@
 		"uniques": ["Cost increases by [30] per owned city", "Gain [50] [Gold] <upon declaring friendship> <(modified by game speed)>", "Gain [50] [Gold] <upon discovering [All] technology> <(modified by game speed)>"],
 		"requiredTech": "Currency"
 		
+	//吕底亚
+	},
+	{	
+        "name": "Civilized Leader-Croesus",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Lydia",
+		"replacementTextForUniques": "[[Gold] cost of purchasing items in cities [-10]%]\n[[-33]% Culture cost of natural border growth [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"[Gold] cost of purchasing items in cities [-10]%",
+        "[-33]% Culture cost of natural border growth [in all cities]",
+		]
+	},
+	{
+		"name": "Lydia Mint",
+		"replaces": "Mint",
+        "uniqueTo": "Lydia",
+		"maintenance": 0,
+	    "uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",],
+		"requiredTech": "Currency"		
+		
+	//吐蕃
+	},
+	{	
+        "name": "Civilized Leader-Songtsan Gampo",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Tubo",
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Rough terrain tiles",
+		"uniques": ["Can only be built<in [in capital] cities>",
+		"[+10]% Strength <for [Military] units> <when fighting in [Rough terrain] tiles>",
+		]		
 		
 	// 希腊
 	},
@@ -1793,10 +1830,10 @@
 	{
 		"name": "Santa Claus House",
 		"isNationalWonder": true,
-		"cost":60,
+		"cost":50,
 		"uniqueTo": "Finland",
 		"gold": 2,
-		"culture": 2,
+		"culture": 3,
 		"requiredTech": "Art",
 		"uniques":["Gain [100]-[200] [Gold]", "Gain [30]-[50] [Culture]"]	
 	},
@@ -1853,14 +1890,15 @@
 		"cost":1,
 		"uniqueTo": "Soviet Union",
 		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +4% †Strength\n+10% ⚙Production when constructing Military units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+10]% Production when constructing [Military] units [in all cities]", "[+6]% Strength <for [Military] units>", "Gain a free [Trotsky ability] [in annexed cities] <upon conquering a city>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+10]% Production when constructing [Military] units [in all cities]", "[+6]% Strength <for [Military] units>"]
 	},
 	{
 		"name": "Trotsky ability",
 		"cost": 10000,
 	    "maintenance": 0,
-	    "uniqueTo": "Soviet Union",
-		"uniques":["Cannot be purchased","Unsellable","Unbuildable", "[+4]% Strength <for [Military] units>", "Destroyed when the city is captured"]	
+		"uniques":["Cannot be purchased","Unsellable", "[+4]% Strength <for [Military] units>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable", 
+		"Only available <in [Annexed] cities> <for [Soviet Union]> <if [Civilized Leader-Trotsky] is constructed>"
+		]	
 	},
 	{
 		"name": "Red Square",
@@ -1896,6 +1934,7 @@
 		"maintenance": 1,
 		"replaces": "Stable",
 		"cost": 75,
+		"production": 1,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
@@ -1948,7 +1987,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Celts",
-		"replacementTextForUniques": "-10% †Strength for enemy Military units in adjacent All tiles for shooter units",
+		"replacementTextForUniques": "-15% †Strength for enemy Military units in adjacent All tiles for shooter units",
 		"uniques": ["Can only be built<in [in capital] cities>"]
 	},
 	{
@@ -1956,7 +1995,7 @@
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
 		"science": 2,
-		"culture": 2,
+		"culture": 4,
 		"happiness": 3
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 3,
@@ -1977,13 +2016,86 @@
 		"name": "Grundtvigs Kirke",
 		"replaces": "Amphitheater",
 		"uniqueTo": "Denmark",
-		"culture": 5,
+		"culture": 6,
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"requiredTech": "Drama and Poetry",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 		
-	// 印加	
+	// 荷兰
+	},
+	{	
+        "name": "Civilized Leader-Willem Oranje",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "The Netherlands",
+		"replacementTextForUniques": "[Connects trade routes over water]\n[Retain [50]% of the happiness from a luxury after the last copy has been traded away]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Retain [50]% of the happiness from a luxury after the last copy has been traded away"]
+	},
+	{
+		"name": "Infrastructure Investment",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
+		"Only available <for [The Netherlands]>",
+		"Unbuildable",
+		"Provides [1] [Infrastructure Investment]",
+		"[+5 Gold] <without [Infrastructure Investment]>",
+		"[+2 Production] [in all cities] <without [Infrastructure Investment]>"
+		]
+	},
+	{
+		"name": "Productive Investment",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
+		"Only available <for [The Netherlands]>",
+		"Unbuildable",
+		"Provides [1] [Productive Investment]",
+		"[+5 Gold] <without [Productive Investment]>",
+		"[+10]% [Gold] [in all cities] <without [Productive Investment]>",
+		"[+10]% growth [in all cities] <without [Productive Investment]>",
+		]
+	},
+	{
+		"name": "Research Investment",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
+		"Only available <for [The Netherlands]>",
+		"Unbuildable",
+		"Provides [1] [Research Investment]",
+		"[+5 Gold] <without [Research Investment]>",
+		"[+1 Science] [in all cities connected to capital] <without [Research Investment]>",
+		"[+1 Science] [in all cities] <without [Research Investment]>",
+		"[+1 Science] from every specialist [in capital] <without [Research Investment]>",	
+		]
+	},
+	{
+		"name": "Entertainment Investment",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
+		"Only available <for [The Netherlands]>",
+		"Unbuildable",
+		"Provides [1] [Entertainment Investment]",
+		"[+5 Gold] <without [Entertainment Investment]>",
+		"[+1 Culture, +1 Happiness] [in all cities connected to capital] <without [Entertainment Investment]>",
+		]
+	},
+	{
+		"name": "Grain Investment",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
+		"Only available <for [The Netherlands]>",
+		"Unbuildable",
+		"Provides [1] [Grain Investment]",
+		"[+5 Gold] <without [Grain Investment]>",
+		"[+1 Food] [in all cities] <without [Grain Investment]>",
+		]		
+
+	// 印加
 	},
 	{	
         "name": "Civilized Leader-Pachacutec",
@@ -2102,7 +2214,7 @@
 	},
 	{
 		"name": "Cuban Capitol",
-		"cost":290,
+		"cost":232,
 		"requiredTech": "Architecture"
 		"replaces": "Hermitage",
 		"uniqueTo": "Cuba",
@@ -2234,7 +2346,7 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
-		"maintenance": 1,
+		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 

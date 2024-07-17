@@ -185,7 +185,22 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Five Flank Heavy Infantry",
+		"unitType": "Foot Soldier",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Tubo",
+		"movement": 2,
+		"strength": 23,
+		"cost": 160,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"promotions": ["Drill I"]
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Musketman",
@@ -705,6 +720,21 @@
 		"attackSound": "elephant"
 	},
 	{
+		"name": "Heavy Spear Cavalry",
+		"unitType": "Mobile",
+		"uniqueTo": "Lydia",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 72,
+	    "requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+        "promotions": ["[Heavy Spear Cavalry] ability"],
+		"attackSound": "horse"		
+	},
+	{
 		"name": "Knight",
 		"unitType": "Mobile",
 		"movement": 4,
@@ -971,7 +1001,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"	
 	},   
@@ -1329,6 +1359,20 @@
 		"obsoleteTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"	
+	},
+	{
+		"name": "Sea Beggar",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Netherlands",
+		"movement": 4,
+		"strength": 25,
+		"cost": 225,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"uniques": ["May capture killed [Water] units"],
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Sealift"],
 		"attackSound": "cannon"	
 	},
 	{

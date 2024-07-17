@@ -23,7 +23,12 @@
     {
         "name": "God of Abundance",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Bonus resource]", "[-1 Faith] [in all cities]"],
+        "uniques": ["[+1 Faith] from every [Bonus resource]"],
+    },
+    {
+        "name": "Heart of Fire",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+1 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]", "[-1 Faith] [in all cities]"],    
         
     // 文化
     },
@@ -52,7 +57,7 @@
     {
         "name": "Oral Tradition",
         "type": "Pantheon",
-        "uniques": ["[+2 Gold] from every [Plantation]", "[+2 Gold] from every [Farm]", "[-2 Gold] [in all cities]"]
+        "uniques": ["[+2 Gold] from every [Plantation]", "[+2 Gold] from every [Farm]", "[-1 Gold] [in all cities]"]
     },
     {
         "name": "God of Craftsman",
@@ -81,7 +86,7 @@
     {
         "name": "God of River",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Food] in cities on [River] tiles"]
+        "uniques": ["[+1 Production, +1 Food, +1 Faith] in cities on [River] tiles"]
     },
     {
         "name": "God of Flood",
@@ -91,12 +96,12 @@
     {
         "name": "God of Forging",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] from every [Quarry]"]
+        "uniques": ["[+2 Production, +1 Food] from every [Quarry]"]
     },
     {
         "name": "God of the Tides",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": ["[+1 Production] from every [Fishing Boats]", "[+1 Production] from every [Mudflat]"]
             
     // 战争
     },

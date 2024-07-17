@@ -526,7 +526,8 @@
 		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
 		"unitTypes": ["Siege"]
 		"row": 2,
-        "column": 36,                  
+        "column": 36,        
+                  
     //近程海军晋升
     },	
     {
@@ -716,7 +717,8 @@
 		"uniques": ["[+10]% Strength bonus for [Ranged Water] units within [1] tiles"],
 		"unitTypes": ["Ranged Water"]
 		"row": 2,
-        "column": 48,                  
+        "column": 48,        
+                  
     //航母晋升
     },
 	{
@@ -1341,6 +1343,10 @@
 	{
 		"name": "[Berserker] ability",
 		"uniques": ["Destroys tile improvements when attacking", "Ignores Zone of Control"]		
+	},
+    {
+        "name": "[Heavy Spear Cavalry] ability",
+        "uniques": ["[+25]% Strength <vs [Mobile] units>"]	
 		
 	// 特殊
 	},
