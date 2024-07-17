@@ -1122,7 +1122,7 @@
 		"name": "The Netherlands",
 		"leaderName": "Leader",
 		"adjective": ["Dutch"],
-		"startBias": ["Grassland"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "base",
 

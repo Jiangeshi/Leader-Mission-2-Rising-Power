@@ -1242,8 +1242,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+1 ♪Culture in all cities\n+10% ♪Culture in all cities starting from the Classical era",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities]", "[+10]% [Culture] [in all cities] <starting from the [Classical era]>"]
+		"replacementTextForUniques": "+1 ♪Culture in all cities during the Ancient era\n+10% ♪Culture in all cities starting from the Classical era",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities] <during the [Ancient era]>", "[+10]% [Culture] [in all cities] <starting from the [Classical era]>"]
 	},
 	{
         "name": "Civilized Leader-First Emperor of Qin",
@@ -1266,16 +1266,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+50% Great Person generation in all cities\n[[+2 Culture] from each Trade Route]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]", "[+2 Culture] from each Trade Route"]
+		"replacementTextForUniques": "+50% Great Person generation in all cities\n[[+20]% Golden Age length]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]", "[+20]% Golden Age length"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizu of Song",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Friendly Land tiles\n+10% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]	
+		"replacementTextForUniques": "+10% ⍾Science and ♪Culture in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -1552,8 +1552,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -15%\n+3 ¤Gold per 1 social policies adopted"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-15]%", "[+3 Gold] per [1] social policies adopted"]
+		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -10%\n+4 ¤Gold per 1 social policies adopted"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-10]%", "[+4 Gold] per [1] social policies adopted"]
 	},
 	{	
         "name": "Civilized Leader-Louis XIV",
@@ -1589,8 +1589,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -33%\nMay buy Military units with ☮Faith for 4 times their normal ⚙Production cost"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-33]%", "May buy [Military] units with [Faith] for [4] times their normal Production cost"]	
+		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -20%\nMay buy Military units with ☮Faith for 4 times their normal ⚙Production cost"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-20]%", "May buy [Military] units with [Faith] for [4] times their normal Production cost"]	
 	},
 	{	
         "name": "Civilized Leader-Kemal",

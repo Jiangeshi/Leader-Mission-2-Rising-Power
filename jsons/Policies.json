@@ -699,7 +699,7 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-33]%",
+                    "[Gold] cost of purchasing items in cities [-25]%",
                 ],
                 "row": 1,
                 "column": 3        
@@ -858,8 +858,9 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+50]% XP gained from combat <for [Military] units>",
-                    "[Great General] is earned [50]% faster",
+                    "[+33]% XP gained from combat <for [Military] units>",
+                    "[Great General] is earned [33]% faster",
+                    "[+20]% Production when constructing [Courthouse] buildings [in all cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -869,8 +870,8 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-50]% Gold cost of upgrading <for [Military] units>",
-                    "[+1 Production, +1 Culture] from every [Walls]",
                     "[+1 Production, +1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Courthouse]",
                 ],
                 "requires": ["Military Tradition"],
                 "row": 3,

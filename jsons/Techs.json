@@ -140,13 +140,6 @@
 				"quote": ""
 			},
 			{
-				"name": "Optics",
-				"row": 4,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],	
-				"quote": ""
-			},
-			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
@@ -175,9 +168,16 @@
 				"quote": ""
 			},
 			{
+				"name": "Optics",
+				"row": 4,
+				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"],	
+				"quote": ""	
+			},
+			{
 				"name": "Currency",
 				"row": 5,
-				"prerequisites": ["Optics","Horseback Riding"],
+				"prerequisites": ["Horseback Riding"],
 				"quote": ""
 			},
 			{
@@ -192,7 +192,6 @@
 				"row": 7,
 				"prerequisites": ["Iron Working"],
 				"uniques":["Free [Great General] appears <if no other Civilization has researched this>",
-				"[+33]% XP gained from combat <for [Military] units>"
 				]	
 				"quote": ""
 			}
@@ -224,7 +223,7 @@
 			{
 				"name": "Guilds",
 				"row": 5,
-				"prerequisites": ["Currency","Engineering"],
+				"prerequisites": ["Optics","Currency","Engineering"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": ""
 			},

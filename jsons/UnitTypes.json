@@ -20,6 +20,7 @@
         "name": "Reconnaissance",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -40,6 +41,7 @@
         "name": "Foot Soldier",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
@@ -59,6 +61,7 @@
         "name": "Shooter",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -81,6 +84,7 @@
         "name": "Mobile",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -102,6 +106,7 @@
         "name": "Anti-Mobile",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -122,6 +127,7 @@
         "name": "Anti-Air",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -141,6 +147,7 @@
         "name": "Helicopter",
         "movementType": "Land",    
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
@@ -157,6 +164,7 @@
         "name": "Siege",
         "movementType": "Land"
         "uniques":[
+        "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
