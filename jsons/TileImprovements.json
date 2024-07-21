@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Volcanic Soil", "Black Earth"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
