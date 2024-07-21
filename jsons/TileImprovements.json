@@ -370,6 +370,6 @@
 		"faith": 2,
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
-		"uniques": ["[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food, -1 Faith] <in [Hill] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	}
 ]

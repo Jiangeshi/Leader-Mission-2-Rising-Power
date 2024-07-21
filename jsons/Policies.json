@@ -682,7 +682,7 @@
             "Only available <after discovering [Sailing]>",
             "[Great Admiral] is earned [50]% faster",
             "[+33]% [Gold] [in capital]",
-            "[+2 Culture] from every [Luxury resource]"
+            "[+1 Culture] from every [Luxury resource]"
         ],
         "policies": [
             {
@@ -755,21 +755,21 @@
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
             "[+1 Culture] from every [Shrine]",
-            "[+50]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+75]% Production when constructing [Shrine] buildings [in all cities]",
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith] from every [Temple]",
-                    "[+50]% Production when constructing [Temple] buildings [in all cities]",
+                    "[+75]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[75]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Temple]"],
+                "uniques": ["[75]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Shrine]"],
                 "row": 1,
                 "column": 5
             },

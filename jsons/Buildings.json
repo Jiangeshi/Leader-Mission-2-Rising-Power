@@ -1159,8 +1159,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
-		"replacementTextForUniques": "Earn 66% of killed☠ Military unit's †Strength as ⍾Science"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [66]% of killed [Military] unit's [Strength] as [Science]"]
+		"replacementTextForUniques": "[Earn [75]% of killed [Military] unit's [Strength] as [Science]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [75]% of killed [Military] unit's [Strength] as [Science]"]
 	},
 	{	
         "name": "Civilized Leader-Omar I",
@@ -1465,9 +1465,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Lydia",
-		"replacementTextForUniques": "[[Gold] cost of purchasing items in cities [-10]%]\n[[-33]% Culture cost of natural border growth [in all cities]]",
+		"replacementTextForUniques": "[[Gold] cost of purchasing [All] units [-10]%]\n[[-33]% Culture cost of natural border growth [in all cities]]",
 		"uniques": ["Can only be built<in [in capital] cities>",
-		"[Gold] cost of purchasing items in cities [-10]%",
+		"[Gold] cost of purchasing [All] units [-10]%",
         "[-33]% Culture cost of natural border growth [in all cities]",
 		]
 	},
@@ -1591,8 +1591,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "☮Faith cost of purchasing items in cities -20%\nMay buy Military units with ☮Faith for 4 times their normal ⚙Production cost"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing items in cities [-20]%", "May buy [Military] units with [Faith] for [4] times their normal Production cost"]	
+		"replacementTextForUniques": "[[Faith] cost of purchasing [All] units [-20]%]\n[May buy [Military] units with [Faith] for [4] times their normal Production cost]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Only available <in cities without a [Civilized Leader-Kemal]>", "[Faith] cost of purchasing [All] units [-20]%", "May buy [Military] units with [Faith] for [4] times their normal Production cost"]	
 	},
 	{	
         "name": "Civilized Leader-Kemal",
@@ -1627,8 +1627,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+2 ⍾Science and +3 ¤Gold from each Trade Route"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+2 Science, +3 Gold] from each Trade Route"]
+		"replacementTextForUniques": "[[+2 Science, +2 Gold] [in all cities connected to capital]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+2 Science, +2 Gold] [in all cities connected to capital]"]
 	},
 	{	
         "name": "Civilized Leader-Lenin-Russia",
@@ -2055,7 +2055,7 @@
 		"Unbuildable",
 		"Provides [1] [Productive Investment]",
 		"[+5 Gold] <without [Productive Investment]>",
-		"[+3 Gold] [in all cities] <without [Productive Investment]>",
+		"[+2 Gold] [in all cities] <without [Productive Investment]>",
 		]
 	},
 	{
@@ -2436,8 +2436,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Polynesia",
-		"replacementTextForUniques": "+1 ⁂population in capital\n+1 ⁂Food and +1 [Gold] from every Fishing Boats"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1] population [in capital]", "[+1 Food, +1 Gold] from every [Fishing Boats]"]	  
+		"replacementTextForUniques": "+1 ⁂population in capital\n+1 ⁂Food and +1 [Culture] from every Fishing Boats"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1] population [in capital]", "[+1 Food, +1 Culture] from every [Fishing Boats]"]	  
 		
 	// 印度尼西亚
 	},

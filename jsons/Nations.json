@@ -34,7 +34,7 @@
 		"uniqueText": "+25% ⌣Golden Age length\n+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
 		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
-		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+		"cities": ["Tehran", "Mashhad", "Esfahan", "Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
 			"Dura Europos","Aleppo","Qatna","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
@@ -417,9 +417,14 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniqueText": "+2% Yield from every [Culture] buildings"
+		"uniqueText": "+1% Yield from every City Level\n+2% Yield from every [Culture] buildings"
 		"uniques": [
 		"[+2]% Yield from every [Culture]", 
+		"[+1]% Yield from every [City Level I]", 
+		"[+1]% Yield from every [City Level II]", 
+		"[+1]% Yield from every [City Level III]", 
+		"[+1]% Yield from every [City Level IV]", 
+		"[+1]% Yield from every [City Level V]", 
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
@@ -1141,7 +1146,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+3 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
+		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
 		"uniques": [
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
@@ -1499,10 +1504,10 @@
 		"innerColor": [204, 202, 205],
 		"favoredReligion": "Islam",
 		"uniqueName": "Sacrifice",
-		"uniqueText": "Triggers a Sacrifice event upon every 5 turn end or conquering a city\n-15% ⁂growth in all cities"
+		"uniqueText": "Triggers a Sacrifice event upon every 5 turn end or conquering a city"
 		"uniques": [
 		"Triggers a [Sacrifice I] event <upon turn end> <every [5] turns>", 
-		"Triggers a [Sacrifice II] event <upon conquering a city>", "[-15]% growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"Triggers a [Sacrifice II] event <upon conquering a city>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Porto-Novo","Cotonou","Parakou","Adjara","Adjohoun","Aguegue","Natitingou","Tanguieta","Tchaourou","Bante","Nikki","Perere","Ouesse","Lalo","Toviklin","Bopa","Come","Abomey","Bonou","Djia"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
@@ -1822,19 +1827,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Kuala Lumpur"]
-	},
-	{
-		"name": "Lhasa",
-		"translatedName": "Lhasa",
-		"adjective": ["tibetano"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [204,102,0],
-		"cities": ["Lhasa"]
 	},
 	{
 		"name": "Milan",

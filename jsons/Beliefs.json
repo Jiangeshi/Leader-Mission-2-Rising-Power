@@ -86,7 +86,7 @@
     {
         "name": "God of River",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Food, +1 Faith] in cities on [River] tiles"]
+        "uniques": ["[+1 Production, +1 Faith] in cities on [River] tiles"]
     },
     {
         "name": "God of Flood",
@@ -236,7 +236,7 @@
     {
         "name": "Monumentality",
         "type": "Follower",
-        "uniques": ["May buy [Culture] buildings with [Faith] for [4] times their normal Production cost", "May buy [Happiness] buildings with [Faith] for [4] times their normal Production cost", "May buy [Gold] buildings with [Faith] for [4] times their normal Production cost"]
+        "uniques": ["May buy [Culture] buildings with [Faith] for [3] times their normal Production cost", "May buy [Happiness] buildings with [Faith] for [3] times their normal Production cost", "May buy [Gold] buildings with [Faith] for [3] times their normal Production cost"]
     },
     {
         "name": "Swords into Ploughshares",
@@ -246,7 +246,7 @@
     {
         "name": "Inspiration",
         "type": "Follower",
-        "uniques": ["[+3 Faith] from every [Wonder]"] 
+        "uniques": ["[+2 Faith] from every [Wonder]"] 
     },
     {
         "name": "Baptism",
@@ -311,6 +311,11 @@
     //增强词条
     },
     {
+        "name": "Religious War",
+        "type": "Enhancer",
+        "uniques": ["[+15]% Strength <for [All] units> <when adjacent to a [Religious Unit] unit>"] 
+    },
+    {
         "name": "Defender of the Faith",
         "type": "Enhancer",
         "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
@@ -319,11 +324,6 @@
         "name": "Crusader",
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
-    },
-    {
-        "name": "Religious War",
-        "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <in cities following our religion>"]    
     },
     {
         "name": "Itinerant Preachers",

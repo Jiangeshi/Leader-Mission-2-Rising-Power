@@ -5,22 +5,22 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [25] [Faith] <(modified by game speed)>"],
+                "triggeredUniques": ["Gain [22] [Faith] <(modified by game speed)>"],
                 "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [25] [Culture] <(modified by game speed)>"],
+                "triggeredUniques": ["Gain [22] [Culture] <(modified by game speed)>"],
                 "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [25] [Science] <(modified by game speed)>"],
+                "triggeredUniques": ["Gain [22] [Science] <(modified by game speed)>"],
                 "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [75] [Gold] <(modified by game speed)>"],
+                "triggeredUniques": ["Gain [66] [Gold] <(modified by game speed)>"],
                 "conditions": ["before turn number [50]", "after turn number [4]"]
             },
             {
