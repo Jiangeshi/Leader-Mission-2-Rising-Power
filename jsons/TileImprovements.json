@@ -6,7 +6,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
-		"Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Culture] <after adopting [Military Reclamation System]> <with a garrison>",
+		"Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "[+2 Food] <in [Black Earth] tiles>", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Culture] <after adopting [Military Reclamation System]> <with a garrison>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
 		],
     },

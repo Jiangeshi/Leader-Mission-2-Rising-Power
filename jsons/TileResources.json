@@ -47,13 +47,43 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], 
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert", "Black Earth"], 
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": ["Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
 					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+					"Generated on every [5] tiles <in [Black Earth] tiles>",
+					]
+	},
+	{
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland", "Flood plains", "Lakes"], 
+		"food": 1,
+		"improvement": "Farm",
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles>",
+					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [15] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+					"Generated on every [10] tiles <in [Lakes] tiles>"
+	    ]
+	},
+	{
+		"name": "Potato",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra", "Plains", "Snow", "Hill", "Black Earth"], 
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"production": 1},
+		"uniques": [
+		"Occurs at temperature between [-0.8] and [0.6] and humidity between [0.1] and [0.8]"
+					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
+					"Generated on every [10] tiles <in [Tundra] tiles>",
+					"Generated on every [15] tiles <in [Snow] tiles>",
+					"Generated on every [2] tiles <in [Black Earth] tiles>",
+	    ]    
 	},
 	{
 		"name": "Stone",
@@ -620,7 +650,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Not shown on world screen",
-		"[+20]% [Gold]",
+		"[+15]% [Gold]",
 		]
 	},
 	{

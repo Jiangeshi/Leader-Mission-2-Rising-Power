@@ -517,7 +517,7 @@
 		"overrideStats": true,
 		"unbuildable": false,
 		"occursOn": ["Tundra","Grassland","Snow"],
-		"uniques": ["Rare feature","Never receives any resources"]	
+		"uniques": ["Rare feature", "Never receives any resources"]	
     },
 	{
 		"name": "Volcano",
@@ -581,5 +581,12 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Coast"],
 		"uniques": ["Fresh water", "Rare feature"]
+	},
+	{
+		"name": "Black Earth",
+		"type": "TerrainFeature",
+		"occursOn": ["Tundra", "Snow", "Plains"],
+		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation",
+		]
 	},
 ]

@@ -103,10 +103,10 @@
         
         "priorities": {
             "Tradition": 5,
-            "Feudalism1": 5,
-            "Liberty": 5,
-            "Autocracy": 5,
-            "Freedom": 5,
+            "Feudalism1": 6,
+            "Liberty": 4,
+            "Autocracy": 6,
+            "Freedom": 4,
             "Order": 5,
             
             "Honor": 5,

@@ -2457,6 +2457,26 @@ ResourceIcons/Grain Investment
   offset: 0, 0
   index: -1          
   
+Images/ResourceIcons/Rice.png
+ResourceIcons/Rice
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+  
+Images/ResourceIcons/PotatoIcon.png
+ResourceIcons/Potato
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+  
+  
+  
   
 Images/TechIcons/DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire
@@ -2748,7 +2768,32 @@ TileSets/HexaRealm/Tiles/Holy Mountain
   offset: 0, 0
   index: -1       
   
+Images/TileSets/Rice.png
+TileSets/HexaRealm/Tiles/Rice
+  rotate: false
+  xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1   
   
+Images/TileSets/Potato.png
+TileSets/HexaRealm/Tiles/Potato
+  rotate: false
+  xy: 0, 0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1  
+
+Images/TileSets/BlackEarth.png
+TileSets/HexaRealm/Tiles/Black Earth
+  rotate: false
+  xy: 0, 0
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1  
   
   
 Images/UnitIcons/GreatAdmiralIcon.png

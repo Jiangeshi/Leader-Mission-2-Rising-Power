@@ -313,7 +313,6 @@
             "[+33]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>",
-            "Only available <when above [25] [Happiness]> <(modified by game speed)>"
         ],
         "policies": [
             {

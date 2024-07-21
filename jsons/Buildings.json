@@ -40,7 +40,7 @@
 		"name": "Granary",
 		"food": 2,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Rice] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Potato] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Pottery"	
     },
 	{
@@ -87,7 +87,7 @@
 		"food": 1,
 		"production": 1,
 		"uniques": [
-		"Only available <in cities with a [City Level I]>", "Must be on [River]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"Only available <in cities with a [City Level I]>", "Must be on [River]", "[+1 Production] from [Wheat] tiles [in this city]", "[+1 Production] from [Rice] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Agriculture"	
 	},
 	{
@@ -253,6 +253,7 @@
 		"name": "Mint",
 		"maintenance": 0,
     "requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+    	"specialistSlots": {"Merchant": 1},
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Currency"	
 	},
@@ -1475,6 +1476,7 @@
 		"replaces": "Mint",
         "uniqueTo": "Lydia",
 		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
 	    "uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",],
 		"requiredTech": "Currency"		
 		
@@ -2052,7 +2054,8 @@
 		"Only available <for [The Netherlands]>",
 		"Unbuildable",
 		"Provides [1] [Productive Investment]",
-		"[+8 Gold] <without [Productive Investment]>",
+		"[+5 Gold] <without [Productive Investment]>",
+		"[+3 Gold] [in all cities] <without [Productive Investment]>",
 		]
 	},
 	{
@@ -2318,7 +2321,7 @@
 		"uniqueTo": "Benin",
 		"food": 2,
 		"maintenance": 0,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Rice] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Potato] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable"],
 		"requiredTech": "Pottery"	
 			
 	// 迦太基
@@ -2452,7 +2455,7 @@
 		"maintenance": 0,
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Water] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Rice] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Potato] tiles [in this city]", "[+1 Food] from [Water] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Pottery"	 
 		   
 	// 云冀之庭
