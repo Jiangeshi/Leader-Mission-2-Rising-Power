@@ -152,7 +152,7 @@
 		"uniqueTo": "Rome",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 17,
+		"strength": 16,
 		"cost": 72,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -914,13 +914,25 @@
 		"attackSound": "tankshot"	
 	},
 	{
+		"name": "Panzer",
+	    "unitType": "Mobile",
+		"replaces": "Tank",
+		"uniqueTo": "Germany",
+		"movement": 6,
+		"strength": 80,
+		"cost": 800,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+	    "uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"attackSound": "tankshot"	
+	},
+	{
 		"name": "Modern Armor",
 		"unitType": "Mobile",
 		"movement": 5,
 		"strength": 100,
 		"cost": 770,
 		"requiredTech": "Mobile Tactics",
-		"requiredResource": "Oil",
 		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},

@@ -2285,7 +2285,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "Resting point for Influence with City-States is increased by 25"
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [25]]"
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Sadat]>", "Resting point for Influence with City-States is increased by [25]"]
 	},
 	{	

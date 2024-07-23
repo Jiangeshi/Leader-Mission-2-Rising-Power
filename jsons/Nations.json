@@ -294,8 +294,8 @@
 		"innerColor": [243, 243, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
-		"uniqueText": "[All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.]\n+1 Sight in forest and jungle tiles\n[[+1 Food] from [Forest] tiles without [Hill] [in all cities]]",
-		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", "[+1] Sight <for [Military] units> <in [Forest] tiles>", "[+1] Sight <for [Military] units> <in [Jungle] tiles>", "[+1 Food] from [Forest] tiles without [Hill] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[[+1 Food] from [Forest] tiles without [Hill] [in all cities]]\n[[+1 Production] from [Jungle] tiles without [Hill] [in all cities]]",
+		"uniques": ["[+1 Food] from [Forest] tiles without [Hill] [in all cities]", "[+1 Production] from [Jungle] tiles without [Hill] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
@@ -591,8 +591,8 @@
 		"innerColor": [255,211,57],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Conqueror's Army",
-		"uniqueText": "-33% ¤maintenance costs for Military units\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
-		"uniques": ["[-33]% maintenance costs <for [Military] units>",
+		"uniqueText": "-25% ¤maintenance costs for Military units\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
+		"uniques": ["[-25]% maintenance costs <for [Military] units>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Pella","Skopje","Vergina","Bergama","Ankara","Issus","Antioch","Tyre","Alexandria","Gaugamela","Susa",
@@ -989,8 +989,8 @@
 		"innerColor": [253,209,22],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tide of Revolution",
-		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.]\n[Resting point for Influence with City-States is increased by [50]]",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.", "Resting point for Influence with City-States is increased by [50]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.]\n[Resting point for Influence with City-States is increased by [50]]\n[Gain an extra spy] [upon entering a new era]",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Resting point for Influence with City-States is increased by [50]", "Gain an extra spy <upon entering a new era>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]  
     },
@@ -1080,8 +1080,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith] [in all cities]] [with [1] to [6] neighboring [Forest] tiles]"
-		"uniques": ["[+1 Faith] [in all cities] <with [1] to [6] neighboring [Forest] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Forest] tiles]"
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Forest] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
@@ -1410,8 +1410,8 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Pampas Pasture",
-		"uniqueText": "+1 [Food] from every [Pasture]\n[No Maintenance costs for improvements in [Grassland] tiles]",
-		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[+1 Food] from every [Pasture]]\n[No Maintenance costs for improvements in [Grassland] tiles]\n[[-50]% construction time for [Pasture] improvements]",
+		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-50]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
         

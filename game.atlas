@@ -255,6 +255,30 @@ TileSets/AbsoluteUnits/Units/Belisarius-Industrial era-2
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Vietnam War Elephant
+  rotate: false
+  xy: 859, 443
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Vietnam War Elephant-1
+  rotate: false
+  xy: 1029, 431
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Vietnam War Elephant-2
+  rotate: false
+  xy: 1114, 422
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1  
+  
+  
+  
 
 Images/TileSets/GreatAdmiralLand.png
 size: 400, 400

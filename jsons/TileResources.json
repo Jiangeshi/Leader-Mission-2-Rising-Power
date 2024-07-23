@@ -73,15 +73,15 @@
 	{
 		"name": "Potato",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Tundra", "Plains", "Snow", "Hill", "Black Earth"], 
+		"terrainsCanBeFoundOn": ["Tundra", "Plains", "Snow", "Black Earth"], 
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"production": 1},
 		"uniques": [
 		"Occurs at temperature between [-0.8] and [0.6] and humidity between [0.1] and [0.8]"
-					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
-					"Generated on every [10] tiles <in [Tundra] tiles>",
-					"Generated on every [15] tiles <in [Snow] tiles>",
+					"Generated on every [30] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
+					"Generated on every [10] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
+					"Generated on every [15] tiles <in [Snow] tiles> <in tiles without [Hill]>",
 					"Generated on every [2] tiles <in [Black Earth] tiles>",
 	    ]    
 	},

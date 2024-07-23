@@ -13,14 +13,14 @@
 	},
 	{
 		"name":"Artist",
-		"science":1,
+		"Culture":2,
 		"happiness":1,
 		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
 	},
 	{
 		"name":"Engineer",
-		"production":2,
+		"production":3,
 		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
 	}

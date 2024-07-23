@@ -114,7 +114,7 @@
 			{
 				"name": "Masonry",
 				"row": 6,
-				"prerequisites": ["Animal Husbandry","Pottery"],
+				"prerequisites": ["Pottery"],
 				"quote": ""
 			},
 			{
