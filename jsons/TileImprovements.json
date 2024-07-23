@@ -338,7 +338,7 @@
 	{
 		"name": "Vietnamese City",
 		"uniqueTo": "Vietnam",
-		"terrainsCanBeBuiltOn": ["Vegetation"],
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 7,
