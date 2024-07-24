@@ -43,7 +43,6 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
-		"[+1 Gold] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>", "[+2 Gold] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>",
 		],
 	},
 	{
