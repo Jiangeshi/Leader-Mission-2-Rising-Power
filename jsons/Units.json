@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]> <if [Blizzard Wind] is constructed>"
+		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"cost": 70
 	},

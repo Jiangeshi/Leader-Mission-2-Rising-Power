@@ -959,7 +959,7 @@
 		"innerColor": [0,54,128],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
-		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nNew [Worker] units and [Settler] units receive the [Blizzard Wind Ability] promotion",
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]",
 		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
