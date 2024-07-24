@@ -1330,7 +1330,7 @@
 	},
 	{
 		"name": "[Andean Army] ability",
-		"uniques": ["All tiles cost 1 movement", "Can pass through impassable tiles"]		
+		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles"]		
 	},
 	{
 		"name": "[Templar Knight] ability",
