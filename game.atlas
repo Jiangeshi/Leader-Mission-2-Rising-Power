@@ -1918,6 +1918,22 @@ ImprovementIcons/Holy Mountain
   orig: 210, 210
   offset: 0, 0
   index: -1             
+  
+Images/ImprovementIcons/GeothermalpowerplantIcon.png
+ImprovementIcons/Geothermal Power Plant
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1  
+  
+  
+  
+  
+  
+  
+  
               
   
 Images/NationIcons/Iran.png
@@ -2497,7 +2513,16 @@ ResourceIcons/Potato
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
-  index: -1   
+  index: -1
+  
+Images/ResourceIcons/Saltpeter.png
+ResourceIcons/Saltpeter
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
   
   
   
@@ -2792,6 +2817,51 @@ TileSets/HexaRealm/Tiles/Holy Mountain
   offset: 0, 0
   index: -1       
   
+Images/TileSets/HolyMountainPH.png
+TileSets/HexaRealm/Tiles/Plains+Hill+Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/HolyMountainGH.png
+TileSets/HexaRealm/Tiles/Grassland+Hill+Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/HolyMountainTH.png
+TileSets/HexaRealm/Tiles/Tundra+Hill+Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/HolyMountainSH.png
+TileSets/HexaRealm/Tiles/Snow+Hill+Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/HolyMountainDH.png
+TileSets/HexaRealm/Tiles/Desert+Hill+Holy Mountain
+  rotate: false
+  xy: 0, 0
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+  
 Images/TileSets/Rice.png
 TileSets/HexaRealm/Tiles/Rice
   rotate: false
@@ -2809,6 +2879,33 @@ TileSets/HexaRealm/Tiles/Potato
   orig: 70, 70
   offset: 0, 0
   index: -1  
+  
+Images/TileSets/PotatoF.png
+TileSets/HexaRealm/Tiles/Potato+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+  
+Images/TileSets/WheatF.png
+TileSets/HexaRealm/Tiles/Wheat+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/RiceF.png
+TileSets/HexaRealm/Tiles/Rice+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 Images/TileSets/BlackEarth.png
 TileSets/HexaRealm/Tiles/Black Earth
@@ -2818,6 +2915,54 @@ TileSets/HexaRealm/Tiles/Black Earth
   orig: 70, 70
   offset: 0, 0
   index: -1  
+  
+Images/TileSets/BlackEarthTF.png
+TileSets/HexaRealm/Tiles/Tundra+Black Earth+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/BlackEarthSF.png
+TileSets/HexaRealm/Tiles/Snow+Black Earth+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1    
+  
+Images/TileSets/BlackEarthPF.png
+TileSets/HexaRealm/Tiles/Plains+Black Earth+Farm
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1          
+  
+Images/TileSets/Geothermalpowerplant.png
+TileSets/HexaRealm/Tiles/Geothermal Power Plant
+  rotate: false
+  xy: 0, 0
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1  
+  
+Images/TileSets/Saltpeterore.png
+TileSets/HexaRealm/Tiles/Saltpeter
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1  
+  
+  
+  
   
   
 Images/UnitIcons/GreatAdmiralIcon.png

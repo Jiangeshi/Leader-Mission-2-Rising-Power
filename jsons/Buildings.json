@@ -252,9 +252,9 @@
 	{
 		"name": "Mint",
 		"maintenance": 0,
-    "requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+    "requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper"],
     	"specialistSlots": {"Merchant": 1},
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Copper] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Currency"	
 	},
 	{
@@ -1477,7 +1477,7 @@
         "uniqueTo": "Lydia",
 		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
-	    "uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]",],
+	    "uniques": ["Only available <in cities with a [City Level II]>", "[+2 Gold] from [Luxury resource] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+2 Gold] from [Copper] tiles [in this city]"],
 		"requiredTech": "Currency"		
 		
 	//吐蕃
@@ -1635,8 +1635,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Each city founded increases culture cost of policies [-33]% less than normal", "Free [Worker] appears"]	
+		"replacementTextForUniques": "+1 Happiness from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness] <when number of [[Civilian] Units] is more than [10]>"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -1875,8 +1875,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "[Each city founded increases culture cost of policies [-33]% less than normal]\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Each city founded increases culture cost of policies [-33]% less than normal", "Free [Worker] appears"]
+		"replacementTextForUniques": "+1 Happiness from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness] <when number of [[Civilian] Units] is more than [10]>"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
@@ -2168,9 +2168,10 @@
 	{
 		"name": "Grand Manor",
 	    "production": 2,
+	    "happiness": 1,
 	    "science": 1,
 	    "replaces": "Kiln",
-	    "maintenance": 1,
+	    "maintenance": 0,
 	    "uniqueTo": "Columbia",
 		"requiredTech": "Pottery",
 		"uniques":["Only available <in cities with a [City Level I]>", "[+1 Production] from [Plantation] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
@@ -2183,8 +2184,8 @@
 		"cost":1,
 		"uniqueTo": "Brazil",
 		"greatPersonPoints": {"Great Artist": 1},
-		"replacementTextForUniques": "[[Great Artist] is earned [80]% faster]\n+1 [Great Artist] Point",
-		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [80]% faster"]
+		"replacementTextForUniques": "[[Great Artist] is earned [100]% faster]\n+1 [Great Artist] Point",
+		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [100]% faster"]
 	},
 	{
 		"name": "Street Carnival",
