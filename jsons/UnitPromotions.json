@@ -1381,6 +1381,7 @@
 	{
 		"name": "Blizzard Wind Ability",
 		"uniques": [
+		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Desert] tiles>",
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Grassland] tiles>",
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Plains] tiles>", 
 		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles>"]	

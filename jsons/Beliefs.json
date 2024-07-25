@@ -28,7 +28,7 @@
     {
         "name": "Heart of Fire",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+1 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]", "[-1 Faith] [in all cities]"],    
+        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"],    
         
     // 文化
     },
@@ -86,7 +86,7 @@
     {
         "name": "God of River",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Faith] in cities on [River] tiles"]
+        "uniques": ["[+1 Production, +1 Food] in cities on [River] tiles"]
     },
     {
         "name": "God of Flood",
