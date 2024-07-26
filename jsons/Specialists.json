@@ -13,7 +13,7 @@
 	},
 	{
 		"name":"Artist",
-		"Culture":2,
+		"culture":2,
 		"happiness":1,
 		"greatPersonPoints": {"Great Artist":3},
 		"color": [160,32,240]
