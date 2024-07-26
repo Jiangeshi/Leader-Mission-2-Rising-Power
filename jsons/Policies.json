@@ -689,6 +689,7 @@
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
+                    "[+1] Movement <for [Great Admiral] units>",
                     "Free [Great Admiral] appears",
                     "[+2 Production] [in all coastal cities]",
                 ],

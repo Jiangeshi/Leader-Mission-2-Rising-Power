@@ -589,4 +589,15 @@
 		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation",
 		]
 	},
+	{
+		"name": "Reef",
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean", "Coast"],
+		"movementCost": 4,
+		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation",
+		            "Has an elevation of [1] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+		]	
+	},
 ]

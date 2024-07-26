@@ -2960,8 +2960,15 @@ TileSets/HexaRealm/Tiles/Saltpeter
   orig: 64, 56
   offset: 0, 0
   index: -1  
-  
-  
+
+Images/TileSets/Reef.png
+TileSets/HexaRealm/Tiles/Reef
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1   
   
   
   

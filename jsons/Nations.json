@@ -155,7 +155,7 @@
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
+		"startIntroPart1": "The birds fly and rabbits run in the sky, while people come and go on earth. Meditating and counting the heroes with fingers, how many of them have succeeded or failed? Wealth and honor are often found in singing halls and dancing pavilions, but desolation is also seen in abandoned tombs and ruined platforms. Everything will turn into dust in the end, only the green mountains remain unchanged.",
 		
 		"declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
@@ -307,11 +307,11 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 
-        "startIntroPart1": "",
+        "startIntroPart1": "From the river to  sea, Palestine will be free!",
 
 	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
-		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		"defeated": "Palestine will never surrender!",
 		
 		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
 		

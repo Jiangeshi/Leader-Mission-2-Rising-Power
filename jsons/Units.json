@@ -60,7 +60,9 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>",
+	
+		]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1490,7 +1492,7 @@
 		"cost": 1000,
 		"requiredTech": "Internetwork",
 		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[70]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can carry [4] [Flybomb] units", "[+100]% Strength <vs [Submarine] units>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
-		"promotions": ["Indirect Fire"],
+		"promotions": ["Indirect Fire", "Additional Range"],
 		"attackSound": "shipguns"	
 			
 	//海军运输单位
