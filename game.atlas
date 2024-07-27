@@ -629,6 +629,15 @@ BuildingIcons/Civilized Leader-Kublai
   index: -1  
   
 Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Kublai1
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1    
+  
+Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Sankara
   rotate: false
   xy: 0,0

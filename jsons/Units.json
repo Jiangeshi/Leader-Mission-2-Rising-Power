@@ -1289,7 +1289,7 @@
 		"strength": 10,
 		"cost": 40,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -1303,7 +1303,7 @@
 		"strength": 8,
 		"rangedStrength": 11,
 		"cost": 45,
-		"uniques": ["Cannot enter ocean tiles", "[+33]% Strength <vs [Water] units> <when attacking>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", "[+33]% Strength <vs [Water] units> <when attacking>"],
 		"requiredTech": "Sailing",
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
@@ -1424,7 +1424,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1723,7 +1723,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]"],
 		"movement": 2
 	},
 	{
@@ -1737,7 +1737,7 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Development]"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]"],
 		"movement": 2
 	},
 	{

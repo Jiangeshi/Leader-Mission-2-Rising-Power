@@ -213,8 +213,9 @@
 		"name": "Amphitheater",
 		"culture": 3,
 		"science": 1,
+		"percentStatBonus": {"culture": 10},
 		"specialistSlots": {"Artist": 1},
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredTech": "Drama and Poetry",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 	},
@@ -571,9 +572,9 @@
 		"culture": 3,
 		"science": 3,
 		"maintenance": 2,
-		"specialistSlots": {"Artist": 1},
+		"percentStatBonus": {"culture": 10},
 		"requiredTech": "Printing Press"
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+30]% Natural religion spread [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+33]% Natural religion spread [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 	},
 	{
 		"name": "Ironworks",
@@ -581,16 +582,16 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 1},
 		"requiredTech": "Metal Casting",
-		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 3 Iron and Provides 6 Steels when above 1 Iron"
-	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-3] [Iron] <when above [1] [Iron]>", "Provides [6] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"replacementTextForUniques": "Only available in cities with a City Level IV \n Consumes 2 Iron and Provides 6 Steels when above 1 Iron"
+	    "uniques":["Only available <in cities with a [City Level IV]>", "Provides [-2] [Iron] <when above [1] [Iron]>", "Provides [6] [Steels] <when above [1] [Iron]>", "Provides [1] [Number of Buildings] <in this city>"]
 	    
 	// 复兴-选建建筑
 	},
 	{
 		"name": "Opera House",
-		"science": 2,
+		"happiness": 2,
 		"culture": 4,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 2},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
 		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
@@ -715,7 +716,7 @@
 	},
 	{
 		"name": "Public School",
-		"science": 3,
+		"percentStatBonus": {"science": 25},
 		"specialistSlots": {"Scientist": 2},
 		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "[+1 Science] per [2] population [in this city]"],
@@ -1195,8 +1196,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "+1 ⚙Production from every Posthouse\n-50% ¤maintenance on road & railroads"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "[+1 Production] from every [Posthouse]", "[-50]% maintenance on road & railroads"]
+		"replacementTextForUniques": "[[+1 Production, +1 Happiness] from every [Posthouse]]\n[[-50]% maintenance on road & railroads]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "[+1 Production, +1 Happiness] from every [Posthouse]", "[-50]% maintenance on road & railroads"]
     },
 	{
 		"name": "Posthouse",
@@ -1276,7 +1277,15 @@
 		"cost":1,
 		"uniqueTo": "China",
 		"replacementTextForUniques": "+10% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]
+	},
+	{	
+        "name": "Civilized Leader-Kublai1",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+		"replacementTextForUniques": "[[+1 Production, +1 Happiness] from every [Stable]]\n[[-50]% maintenance on road & railroads]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Production, +1 Happiness] from every [Stable]", "[-50]% maintenance on road & railroads"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -1996,10 +2005,9 @@
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
-		"science": 2,
 		"culture": 4,
-		"happiness": 3
-		"specialistSlots": {"Artist": 1},
+		"happiness": 5,
+		"specialistSlots": {"Artist": 2},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
 		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>"]
@@ -2011,16 +2019,17 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Denmark",
-		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [10] times its [Production] production as [Gold] immediately"]
+		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately"]
 	},
 	{
 		"name": "Grundtvigs Kirke",
 		"replaces": "Amphitheater",
 		"uniqueTo": "Denmark",
 		"culture": 6,
+		"percentStatBonus": {"culture": 10},
 		"specialistSlots": {"Artist": 1},
-		"maintenance": 2,
+		"maintenance": 1,
 		"requiredTech": "Drama and Poetry",
 		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"]	
 		

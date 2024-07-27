@@ -1113,8 +1113,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniqueText": "➡1 Movement point cost to disembark for All units\nNo ➡movement cost to pillage for Military units\nEarn 33% of killed Military unit's †Strength as [Gold] / [Science] / [Culture]"
-		"uniques": ["[1] Movement point cost to disembark <for [All] units>", "No movement cost to pillage <for [Military] units>", "Earn [33]% of killed [Military] unit's [Strength] as [Gold]", "Earn [33]% of killed [Military] unit's [Strength] as [Culture]", "Earn [33]% of killed [Military] unit's [Strength] as [Science]", 
+		"uniqueText": "➡0 Movement point cost to disembark for All units\nNo ➡movement cost to pillage for Military units\nEarn 50% of killed Military unit's †Strength as [Gold] / [Science] / [Culture]"
+		"uniques": ["[0] Movement point cost to disembark <for [All] units>", "No movement cost to pillage <for [Military] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]", "Earn [50]% of killed [Military] unit's [Strength] as [Science]", 
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",

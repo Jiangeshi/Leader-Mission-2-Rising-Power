@@ -246,6 +246,7 @@
 				"name": "Compass",
 				"row": 4,
 				"prerequisites": ["Guilds"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
 				"quote": ""
 			},
 			{
@@ -309,7 +310,7 @@
 				"name": "Astronomy",
 				"row": 4,
 				"prerequisites": ["Education"],
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": ""
 			},
 			{

@@ -233,8 +233,11 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 5,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"culture": 6,
+		"uniques": ["Great Improvement", 
+		"[+2 Culture] <after discovering [Archaeology]>", 
+		"[+2 Culture] <after discovering [Radio]>",
+		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
@@ -242,13 +245,20 @@
 		"production": 5,
 		"uniques": ["Great Improvement",
 		"[+1 Production] <after discovering [Chemistry]>",
+		"[+1 Production] <after discovering [Metal Casting]>",
+		"[+1 Production] <after discovering [Industrialization]>",
+		"[+1 Production] <after discovering [Replaceable Parts]>",
+		"[+1 Production] <after discovering [Materials Science]>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", 
+		"[+2 Gold] <after discovering [Economics]>", 
+		"[+2 Gold] <after discovering [Construction]>", 
+		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",

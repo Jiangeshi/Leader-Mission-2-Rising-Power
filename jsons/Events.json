@@ -157,7 +157,7 @@
                 "text": "Industrial Eevolution",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[+25]% [Production] <for [10] turns>"
+                    "[+15]% [Production] <for [15] turns>"
                     ],
                 "conditions": []
             },
@@ -165,7 +165,7 @@
                 "text": "Technological Innovation",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Provides the cheapest [Science] building in your first [1] cities for free",
+                    "[+15]% [Science] <for [10] turns>"
                     "Free Technology"
                 ],
                 "conditions": []
@@ -182,8 +182,8 @@
                 "text": "Giving the People Peace and Security",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[+1] population [in all cities]",
-                    "[+15]% growth [in all cities] <for [10] turns>"
+                    "[25]% Food is carried over after population increases [in all cities] <for [10] turns>",
+                    "[+3 Happiness] [in capital]"
                     ],
                 "conditions": []        
             },
