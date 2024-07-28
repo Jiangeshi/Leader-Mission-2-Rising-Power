@@ -1,0 +1,2146 @@
+[
+	//看海
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+
+    // 亚洲
+    },
+	{
+		"name": "Iran",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Iranian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+    
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [255, 255, 255],
+		"innerColor": [218, 0, 0],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Achaemenid Legacy",
+		"uniqueText": "+25% ⌣Golden Age length\n+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
+		"uniques": ["[+25]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Tehran", "Mashhad", "Esfahan", "Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+        "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]    
+    },
+	{
+		"name": "Arabia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Arabian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"favoredReligion": "Islam",
+		"uniqueName": "Praise Allah",
+		"uniqueText": "+1/2/3 [Faith] and [Science] while researching [Belief Worship] / [Writing] / [Calendar]\nReceive free ☮Great Prophet when you discover [Calendar]\nEarn 75% of killed☠ Military unit's †Strength as ☮Faith",
+		"uniques": [
+		"[+1 Faith, +1 Science] <while researching [Belief Worship]>",
+		"[+2 Faith, +2 Science] <while researching [Writing]>",
+		"[+3 Faith, +3 Science] <while researching [Calendar]>",
+		"Free [Great Prophet] appears<upon discovering [Calendar] technology>",
+		"Earn [75]% of killed [Military] unit's [Strength] as [Faith] <after discovering [Calendar]>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]    
+    },
+	{
+		"name": "Mongolia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Mongolian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [3,35,235],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniqueText": "+30% †Strength for Military units vs City-States\n+10% †Strength for Military units when attack Major units\n+1 ➡Movement for Mobile units",
+		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <for [Military] units><vs [City-States]>", "[+1] Movement <for [Mobile] units>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"],
+        "spyNames": ["Asashōryū", "Tömöriin", "Zevegiin", "Jigjidiin", "Enkhbat", "Mönkhbayar", "Gündegmaa", "Ssima", "Batachikhan", "Chulunny"]   
+    },
+	{
+		"name": "India",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+	"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Population Growth",
+		"uniqueText": "+50% unhappiness from the number of cities\n-50% Unhappiness from Population in all cities\n+33% ⁂growth in all cities"		
+		"uniques": ["[+50]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[+33]% growth [in all cities]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]        
+    },
+	{
+		"name": "China",
+		"leaderName": "Leader",
+		"personality": "base",
+		"startBias": ["Plains"],
+		"adjective": ["Chinese"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "The birds fly and rabbits run in the sky, while people come and go on earth. Meditating and counting the heroes with fingers, how many of them have succeeded or failed? Wealth and honor are often found in singing halls and dancing pavilions, but desolation is also seen in abandoned tombs and ruined platforms. Everything will turn into dust in the end, only the green mountains remain unchanged.",
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		
+		"outerColor": [222, 41, 16],
+		"innerColor": [255,222,0],
+		"favouredReligion": "Taoism",
+		"uniqueName": "Timeless Personage",
+		"uniqueText": "Can have two Leaders, but War Type Bonus Leaders can only choose one" 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+    },
+	{
+		"name": "Korea",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Korean"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Scholars of the Jade Hall",
+	    "uniqueText": "+2 ⍾Science from every specialist in all cities\n+2 ⍾Science from every Great Improvement\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital",
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+    },
+	{
+		"name": "Babylon",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Babylonian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ingenuity",
+		"uniqueText": "Gain 45% of the required [Production] demand for [Science] upon constructing Buildings in all cities" 
+		"uniques": ["Gain [10] [Science] <(modified by game speed)><upon constructing [Bonfire] [in all cities]>", "Gain [20] [Science] <(modified by game speed)> <upon constructing [Shrine] [in all cities]>", "Gain [20] [Science] <(modified by game speed)> <upon constructing [Water Mill] [in all cities]>", "Gain [27] [Science] <(modified by game speed)> <upon constructing [Kiln] [in all cities]>", "Gain [27] [Science] <(modified by game speed)> <upon constructing [Granary] [in all cities]>", "Gain [27] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]>", "Gain [27] [Science] <(modified by game speed)> <upon constructing [Stone Works] [in all cities]>", "Gain [27] [Science] <(modified by game speed)> <upon constructing [Circus] [in all cities]>", "Gain [34] [Science] <(modified by game speed)> <upon constructing [Walls] [in all cities]>", "Gain [34] [Science] <(modified by game speed)> <upon constructing [Monument] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Courthouse] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Colosseum] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Temple] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Lighthouse] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Stable] [in all cities]>", "Gain [45] [Science] <(modified by game speed)> <upon constructing [Smithy] [in all cities]>", "Gain [47] [Science] <(modified by game speed)> <upon constructing [Aqueduct] [in all cities]>", "Gain [47] [Science] <(modified by game speed)> <upon constructing [Barracks] [in all cities]>", "Gain [47] [Science] <(modified by game speed)> <upon constructing [Mint] [in all cities]>", "Gain [51] [Science] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]>", "Gain [51] [Science] <(modified by game speed)> <upon constructing [Constabulary] [in all cities]>", "Gain [54] [Science] <(modified by game speed)> <upon constructing [Workshop] [in all cities]>", "Gain [54] [Science] <(modified by game speed)> <upon constructing [Armory] [in all cities]>", "Gain [54] [Science] <(modified by game speed)> <upon constructing [Forge] [in all cities]>", "Gain [54] [Science] <(modified by game speed)> <upon constructing [Harbor] [in all cities]>", "Gain [68] [Science] <(modified by game speed)> <upon constructing [Garden] [in all cities]>", "Gain [68] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]>" , "Gain [68] [Science] <(modified by game speed)> <upon constructing [Castle] [in all cities]>", "Gain [68] [Science] <(modified by game speed)> <upon constructing [Windmill] [in all cities]>", "Gain [77] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]>", "Gain [122] [Science] <(modified by game speed)> <upon constructing [Printing House] [in all cities]>", "Gain [122] [Science] <(modified by game speed)> <upon constructing [Theatre] [in all cities]>", "Gain [130] [Science] <(modified by game speed)> <upon constructing [Ironworks] [in all cities]>", "Gain [130] [Science] <(modified by game speed)> <upon constructing [Seaport] [in all cities]>", "Gain [144] [Science] <(modified by game speed)> <upon constructing [Arsenal] [in all cities]>", "Gain [144] [Science] <(modified by game speed)> <upon constructing [Opera House] [in all cities]>", "Gain [144] [Science] <(modified by game speed)> <upon constructing [Bank] [in all cities]>", "Gain [193] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]>", "Gain [193] [Science] <(modified by game speed)> <upon constructing [Military Academy] [in all cities]>", "Gain [193] [Science] <(modified by game speed)> <upon constructing [Shipyard] [in all cities]>",  "Gain [193] [Science] <(modified by game speed)> <upon constructing [Police Station] [in all cities]>", "Gain [231] [Science] <(modified by game speed)> <upon constructing [Factory] [in all cities]>", "Gain [231] [Science] <(modified by game speed)> <upon constructing [Museum] [in all cities]>", "Gain [252] [Science] <(modified by game speed)> <upon constructing [Hospital] [in all cities]>", "Gain [252] [Science] <(modified by game speed)> <upon constructing [Stock Exchange] [in all cities]>", "Gain [293] [Science] <(modified by game speed)> <upon constructing [Hydro Plant] [in all cities]>", "Gain [293] [Science] <(modified by game speed)> <upon constructing [Coal-Fired Power Plant] [in all cities]>", "Gain [293] [Science] <(modified by game speed)> <upon constructing [Military Base] [in all cities]>", "Gain [315] [Science] <(modified by game speed)> <upon constructing [Stadium] [in all cities]>", "Gain [315] [Science] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]>", "Gain [360] [Science] <(modified by game speed)> <upon constructing [Chemical Plant] [in all cities]>", "Gain [405] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]>", "Gain [454] [Science] <(modified by game speed)> <upon constructing [Solar Plant] [in all cities]>", "Gain [454] [Science] <(modified by game speed)> <upon constructing [Recycling Center] [in all cities]>", "Gain [454] [Science] <(modified by game speed)> <upon constructing [Nuclear Plant] [in all cities]>", "Gain [470] [Science] <(modified by game speed)> <upon constructing [Medical Lab] [in all cities]>", "Gain [477] [Science] <(modified by game speed)> <upon constructing [Bomb Shelter] [in all cities]>", "Gain [590] [Science] <(modified by game speed)> <upon constructing [Spaceship Factory] [in all cities]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]                          },
+	{
+		"name": "Afghanistan",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Afghans"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"innerColor": [255, 213, 15],
+		"outerColor": [0,0,0],
+		"favoredReligion": "Islam",
+		"uniqueName": "Graveyard of Empires",
+		"uniqueText": "Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory" 
+		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+    },
+	{
+		"name": "Vietnam",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Vietnamese"],
+		"startBias": ["Vegetation"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [183, 22, 41],
+		"innerColor": [243, 243, 0],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Hidden In The Forest",
+		"uniqueText": "[[+1 Food] from [Forest] tiles without [Hill] [in all cities]]\n[[+1 Production] from [Jungle] tiles without [Hill] [in all cities]]",
+		"uniques": ["[+1 Food] from [Forest] tiles without [Hill] [in all cities]", "[+1 Production] from [Jungle] tiles without [Hill] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
+		"name": "Palestine",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Palestinian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "From the river to  sea, Palestine will be free!",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Palestine will never surrender!",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [60, 110, 38],
+		"innerColor": [182, 182, 182],
+		"favoredReligion": "Islam",
+		"uniqueName": "Freedom Will",
+		"uniqueText": "When you have n cities, if your basic military units are less than n, you will automatically receive 1 basic military units evry 3 turns, up to a maximum of two\nThe fewer cities there are, the higher the †Strength of military units",
+		"uniques": [
+		
+		"[1] free [Warrior] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Warrior] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <before discovering [Bronze Working]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Spearman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+	    "[1] free [Spearman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Bronze Working]> <before discovering [Defensive Fortification]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+		"[1] free [Pikeman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Pikeman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Defensive Fortification]> <before discovering [Gunpowder]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+	
+	
+	
+	
+		"[1] free [Musketman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Musketman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Gunpowder]> <before discovering [Rifling]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
+		"[1] free [Rifleman] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Rifleman] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon turn end> <when number of [CD] is equal to [0]>",
+	
+	
+		"[1] free [Great War Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Great War Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Replaceable Parts]> <before discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
+		
+		
+		"[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is more than [0]> <after discovering [Materials Science]> <upon turn end>",
+		"[1] free [Infantry] units appear <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [1] [Number of Fighters]> <when number of [Cities] is equal to [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		"[1] free [Infantry] units appear <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [3]>",
+		"Instantly provides [4] [CD] <when below [2] [Number of Fighters]> <when number of [Cities] is more than [1]> <after discovering [Materials Science]> <upon turn end> <when number of [CD] is equal to [0]>",
+		
+		
+		
+		"[+15]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+13]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+11]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+8]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+6]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+5]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
+					
+					
+		"Provides [-1] [CD] <when number of [CD] is more than [0]>",
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Ramallah", "Gaza", "Rafah", "Northern Province", "Khan Yunis", "Dair al-Balah", "Hebron", "Bethlehem", "Jenin", "Tulkarm", "Nablus", "Jericho"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+                                     
+    },
+	{
+		"name": "Siam",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Siamese"],
+		"startBias": ["Avoid [Forest]"],
+		"preferredVictoryType":"Diplomatic",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [245, 230, 55],
+		"innerColor": [177, 8, 3],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Father Governs Children",
+		"uniqueText": "+1% Yield from every City Level\n+2% Yield from every [Culture] buildings"
+		"uniques": [
+		"[+2]% Yield from every [Culture]", 
+		"[+1]% Yield from every [City Level I]", 
+		"[+1]% Yield from every [City Level II]", 
+		"[+1]% Yield from every [City Level III]", 
+		"[+1]% Yield from every [City Level IV]", 
+		"[+1]% Yield from every [City Level V]", 
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
+			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
+			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
+			"Ban Phai","Loci","Khon Kaen","Surin"],
+        "spyNames": ["Aran", "Chanarong", "Kiet", "Niran", "Virote", "Kulap", "Mayuree", "Phueng", "Ratana", "Tola"]
+    },
+	{
+		"name": "Singapore",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Singaporean"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [237,40,57],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Buddhism",
+		"uniqueName": "the Lion City",
+		"uniqueText": "+1 [Production] for Non-Great Improvement within 1 tiles of a [City center]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniques": [
+		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Singapore City"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+    },
+	{
+		"name": "Lydia",
+		"leaderName": "Leader",
+		"adjective": ["Lydian"],
+		"personality": "base",	
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [158,84,140],
+        "innerColor": [244,191,137],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Land of Plenty",
+		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[[+1 Production] from every [Trading post]]",
+		"uniques": [
+	    "[+1 Gold] from [River] tiles [in all cities]",
+	    "[+1 Production] from every [Trading post]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Tubo",
+		"leaderName": "Leader",
+		"adjective": ["Tibetans"],
+		"startBias": ["Hill"],
+		"personality": "base",	
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,190,198],
+        "innerColor": [114,103,107],
+
+        "favoredReligion": "Buddhism",
+		"uniqueName": "Heart of Mountains",
+		"uniqueText": "[Land units may cross [Mountain] tiles after the first [Worker] is earned]\n[[+2 Food, +1 Production] from every [Mountain]]\nLand unit heal 33 HP upon ending a turn in a [Mountain] tile",
+		"uniques": [
+	    "Land units may cross [Mountain] tiles after the first [Worker] is earned",
+	    "[+2 Food, +1 Production] from every [Mountain]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Lhasa", "Pomo", "Yarlung Valley City", "Su-pi", "Xiaoyangtong", "Amdo", "Khams", "Zedang", "Qiongjie", "Gongbu", "Tabu"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]                                    
+                                          
+    // 欧洲
+    },
+	{
+		"name": "Greece",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Greek"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"innerColor": [60,120,220],
+		"outerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Enlightenment of Western Philosophy",
+		"uniqueText": "+50 ♪Culture and +100 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 100 [Science] upon gaining a Great Person unit (modified by game speed)" 
+		"uniques": ["Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"] 
+    },
+	{
+		"name": "Macedonia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Macedonian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [57,114,209],
+		"innerColor": [255,211,57],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Conqueror's Army",
+		"uniqueText": "-25% ¤maintenance costs for Military units\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
+		"uniques": ["[-25]% maintenance costs <for [Military] units>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Pella","Skopje","Vergina","Bergama","Ankara","Issus","Antioch","Tyre","Alexandria","Gaugamela","Susa",
+			"Gamesia","Patara","Bucephala","Bactra","Marakanda","Alexandria Eshata","Bitola","Kumanovo","Prilep",
+			"Tetovo","Ohrid","Štip","Gostivar","Bosilovo","Butel","Krivogashtany","Novazi"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]       
+    },
+	{
+		"name": "France",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["French"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [ 38, 98, 255],
+        "innerColor": [239,236,148],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Revolutionary Tradition",
+		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
+		"uniques": [
+		"[+3 Culture] <when above [21] Happiness>",
+		"[+15]% [Culture] <when between [21] and [100000] Happiness>",
+	
+		"[+2 Culture] <when between [15] and [20] Happiness>",
+	    "[+15]% [Culture] <when between [15] and [20] Happiness>",
+	    
+		"[+2 Culture] <when between [9] and [14] Happiness>",
+		"[+10]% [Culture] <when between [9] and [14] Happiness>",
+			
+		"[+1 Culture] <when between [3] and [8] Happiness>",
+	    "[+10]% [Culture] <when between [3] and [8] Happiness>",
+	
+	
+		"[+1 Culture] <when between [-4] and [2] Happiness>",
+		"[+5]% [Culture] <when between [-4] and [2] Happiness>",
+			
+		"[+5]% [Culture] <when between [-10] and [-5] Happiness>",	
+			
+		"[+1]% Strength <for [Military] units> <when between [9] and [10] Happiness>",
+
+		"[+2]% Strength <for [Military] units> <when between [7] and [8] Happiness>",
+		
+		"[+3]% Strength <for [Military] units> <when between [5] and [6] Happiness>",
+
+		"[+4]% Strength <for [Military] units> <when between [3] and [4] Happiness>",
+	
+		"[+5]% Strength <for [Military] units> <when between [1] and [2] Happiness>",
+		
+		"[+7]% Strength <for [Military] units> <when between [-1] and [0] Happiness>",
+		
+		"[+8]% Strength <for [Military] units> <when between [-3] and [-2] Happiness>",
+	
+		"[+10]% Strength <for [Military] units> <when between [-5] and [-4] Happiness>",
+		
+		"[+11]% Strength <for [Military] units> <when between [-7] and [-6] Happiness>",
+		
+		"[+13]% Strength <for [Military] units> <when between [-9] and [-8] Happiness>",
+		
+		"[+14]% Strength <for [Military] units> <when between [-11] and [-10] Happiness>",
+		
+		"[+16]% Strength <for [Military] units> <when between [-13] and [-12] Happiness>",
+		
+		"[+17]% Strength <for [Military] units> <when between [-15] and [-14] Happiness>",
+		
+		"[+19]% Strength <for [Military] units> <when between [-17] and [-16] Happiness>",
+		
+		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>",
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]         
+    },
+	{
+		"name": "Turkey",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Turks"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [245,248,185],
+        "innerColor": [18,84,30],
+		"favoredReligion": "Islam",
+		"uniqueName": "Star And Moon",
+		"uniqueText": "Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale\nCan not sell ☮Faith building" 
+		"uniques": ["Gain enough Faith for [15]% of a Great Prophet <upon constructing [Faith] [in all cities]>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
+			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
+			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
+			"Bitlis","Yalova"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"] 
+    },
+	{
+		"name": "Russia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": ""
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+	    "neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+	    "tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [ 236, 178, 0],
+		"innerColor": [0,0,0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Wealth of Siberia",
+		"uniqueText": "+1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring [Tundra] tiles\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring [Tundra] tiles\n+1 ⚙Production from every Strategic resource and Great Improvement"
+		"uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>", "[+2 Faith, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>", "[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
+    },
+	{
+		"name": "Byzantium",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Byzantine"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [114, 162, 233],
+		"innerColor": [61, 0, 109],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Patriarchate of Constantinople",
+		"uniqueText": "May choose 1 additional ☮belief(s) of any type when founding a ☮religion\nMajor Nation's Military units -5% / -10% †Strength after their Nations founding / enhancing a ☮religion when fighting with Byzantine units",
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion"]
+	    "cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
+			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
+			"Tyana", "Gaza", "Kerkyra", "Phoenice", "Selymbria", "Sillyon", "Chrysopolis", "Vodena", "Caesarea", "Traianoupoli", "Constantia", "Athens",
+			"Patra", "Korinthos"],
+        "spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
+    },
+	{
+		"name": "Rome",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Roman"],
+		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": ""
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [ 53,0,87],
+		"innerColor": [238,201,9],
+		"favoredReligion": "Christianity",
+		"uniqueName": "All Roads Lead To Rome",
+		"uniqueText": "+15% ⚙Production towards any buildings that already exist in the Capital\n+1 ⚙Production in all cities connected to capital",
+		"uniques": ["[+15]% Production towards any buildings that already exist in the Capital", "[+1 Production] [in all cities connected to capital]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
+			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
+			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
+			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"],
+        "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus",]
+    },
+	{
+		"name": "England",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["English"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": ""
+		
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Sun Never Sets",
+		"uniqueText": "[[+2 Gold, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
+		"uniques": ["[+2 Gold, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]           
+    },
+	{
+		"name": "Serbia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Serb"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [199,58,64],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Balkan Tiger",
+		"uniqueText": "Earn 20% of the damage done to Military units as ♪Culture\n+10%/15%/20% †Strength for Military units when below 75/50/25 HP\n[No damage penalty for wounded units]",
+		"uniques": ["No damage penalty for wounded units <for [Military] units>", "Earn [20]% of the damage done to [Military] units as [Culture]", "[+10]% Strength <for [Military] units> <when below [75] HP>", "[+5]% Strength <for [Military] units> <when below [50] HP>", "[+5]% Strength <for [Military] units> <when below [25] HP>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
+			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
+			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]  
+    },
+	{
+		"name": "Germany",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["German"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [250, 255, 255],
+		"innerColor": [26, 22, 21],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Prussian Spirit",
+		"uniqueText": "+1 [Science] from all [Science] buildings when not at war\n-1 [Science] in capital when not at war\n+1 [Production] from all [Production] buildings when at war\n-1 [Production] in capital when at war",
+		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[-1 Science] [in capital] <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-1 Production] [in capital] <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]    
+    },
+	{
+		"name": "Spain",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Spanish"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Conquerors of the New World",
+		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +2[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+2 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Great Improvement]",
+		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
+			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
+			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
+			"San Sebastian","Granada","Mérida","Huelva","Ibiza","Las Palmas","Tenerife"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]    
+    },
+	{
+		"name": "Finland",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Finns"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [200,200,255],
+		"innerColor": [0,54,128],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Snow Ghost",
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nNew [Worker] units and [Settler] units receive the [Blizzard Wind Ability] promotion",
+		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
+        "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
+    },
+	{
+		"name": "Soviet Union",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Soviet"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [188, 0, 0],
+		"innerColor": [253,209,22],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tide of Revolution",
+		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.]\n[Resting point for Influence with City-States is increased by [50]]\n[Gain an extra spy] [upon entering a new era]",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Resting point for Influence with City-States is increased by [50]", "Gain an extra spy <upon entering a new era>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]  
+    },
+	{
+		"name": "Poland",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Polack"],
+		"startBias": ["Plains"],
+	    "preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [153,153,45],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Polish Zionism",
+		"uniqueText": "All units [May enter foreign tiles without open borders]\nAll units [Ignores Zone of Control]",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Warsaw","Krakow","Wroclaw","Gdansk","Poznan","Szczecin","Bydgoszcz","Lodz","Katowice","Gdynia","Czestochowa","Lublin","Bialystok","Torun","Kielce","Rzeszow","Opole","Gliwice","Zielona Gora","Sosnowiec","Tarnow","Bielsko-Biala","Rybnik","Bytom","Olsztyn"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]     
+    },
+	{
+		"name": "Vatican",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Pope"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,222,13],
+        "innerColor": [229,49,49],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Catholic Holy Land",
+		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+30 Faith, +70 Gold] when a city adopts this religion for the first time][(modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniques": [
+		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
+		"[+30 Faith, +70 Gold] when a city adopts this religion for the first time <(modified by game speed)>", 
+		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Vatican City"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Celts",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Celtic"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+	
+        "outerColor": [12,75,25],
+        "innerColor": [157,172,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Druidic Lore",
+		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Forest] tiles]"
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Forest] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
+			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
+			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
+        "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]    
+    },
+	{
+		"name": "Denmark",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Danish"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Viking Fury",
+		"uniqueText": "➡0 Movement point cost to disembark for All units\nNo ➡movement cost to pillage for Military units\nEarn 50% of killed Military unit's †Strength as [Gold] / [Science] / [Culture]"
+		"uniques": ["[0] Movement point cost to disembark <for [All] units>", "No movement cost to pillage <for [Military] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]", "Earn [50]% of killed [Military] unit's [Strength] as [Science]", 
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
+			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
+			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
+			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
+        "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
+    },
+	{
+		"name": "The Netherlands",
+		"leaderName": "Leader",
+		"adjective": ["Dutch"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "base",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [216, 120, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Dutch East India Company",
+		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
+		"uniques": [
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>",
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
+        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]    
+             
+    //美洲
+    },
+	{
+		"name": "Inca",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Incan"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Descendants of the Sun",
+		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Aztecs",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Aztec"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [139,32,23],
+        "innerColor": [134,238,214],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Golden Empire",
+		"uniqueText": "+5 ¤Gold and +3% †Strength for Military units for each kind of ⌣Luxury Resource owned",
+		"uniques": ["[+5 Gold] <when above [0] [Furs]>", "[+3]% Strength <for [Military] units> <when above [0] [Furs]>", "[+5 Gold] <when above [0] [Citrus]>", "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>", "[+5 Gold] <when above [0] [Cocoa]>", "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>", "[+5 Gold] <when above [0] [Copper]>", "[+3]% Strength <for [Military] units> <when above [0] [Copper]>", "[+5 Gold] <when above [0] [Cotton]>", "[+3]% Strength <for [Military] units> <when above [0] [Cotton]>", "[+5 Gold] <when above [0] [Crab]>", "[+3]% Strength <for [Military] units> <when above [0] [Crab]>", "[+5 Gold] <when above [0] [Dyes]>", "[+3]% Strength <for [Military] units> <when above [0] [Dyes]>", "[+5 Gold] <when above [0] [Gems]>", "[+3]% Strength <for [Military] units> <when above [0] [Gems]>", "[+5 Gold] <when above [0] [Gold Ore]>", "[+3]% Strength <for [Military] units> <when above [0] [Gold Ore]>", "[+5 Gold] <when above [0] [Incense]>", "[+3]% Strength <for [Military] units> <when above [0] [Incense]>", "[+5 Gold] <when above [0] [Ivory]>", "[+3]% Strength <for [Military] units> <when above [0] [Ivory]>", "[+5 Gold] <when above [0] [Jewelry]>", "[+3]% Strength <for [Military] units> <when above [0] [Jewelry]>", "[+5 Gold] <when above [0] [Marble]>", "[+3]% Strength <for [Military] units> <when above [0] [Marble]>", "[+5 Gold] <when above [0] [Pearls]>", "[+3]% Strength <for [Military] units> <when above [0] [Pearls]>", "[+5 Gold] <when above [0] [Porcelain]>", "[+3]% Strength <for [Military] units> <when above [0] [Porcelain]>", "[+5 Gold] <when above [0] [Salt]>", "[+3]% Strength <for [Military] units> <when above [0] [Salt]>", "[+5 Gold] <when above [0] [Silk]>", "[+3]% Strength <for [Military] units> <when above [0] [Silk]>", "[+5 Gold] <when above [0] [Silver]>", "[+3]% Strength <for [Military] units> <when above [0] [Silver]>",	"[+5 Gold] <when above [0] [Spices]>", "[+3]% Strength <for [Military] units> <when above [0] [Spices]>", "[+5 Gold] <when above [0] [Sugar]>", "[+3]% Strength <for [Military] units> <when above [0] [Sugar]>", "[+5 Gold] <when above [0] [Truffles]>", "[+3]% Strength <for [Military] units> <when above [0] [Truffles]>", "[+5 Gold] <when above [0] [Whales]>", "[+3]% Strength <for [Military] units> <when above [0] [Whales]>", "[+5 Gold] <when above [0] [Wine]>", "[+3]% Strength <for [Military] units> <when above [0] [Wine]>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"],
+        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
+    },
+	{
+		"name": "The Maya",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["mayan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Long Count",
+	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"],
+        "spyNames": ["Camazotz", "Coyopa", "Gukumatz", "Hunahpu", "Huracan", "Ixchel", "Ixtab", "Kukulkán", "Xbalanque", "Zipacna"]     
+    },
+	{
+		"name": "Columbia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Colombian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"innerColor": [250, 196, 0],
+		"outerColor": [2,1,193],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Liberation Army",
+		"uniqueText": "+10% †Strength within 3 tiles of a [City center] for Military units",
+		"uniques": ["[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Bogota","Medellin","Barranquilla","Cartagena","Cali","Leticia","Arauca","Tunja","Manizales","Florencia","Yopal","Popayan","Valledupar","Quibdo","Monteria","Puerto Inirida","San Jose del Guaviare","Neiva","Riohacha","Santa Marta","Villavicencio","Pasto","Cucuta","Mocoa","Armenia","Pereira","San Andres","Buenaventura","Sincelejo","Quibdo","Itagui","Mitu"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Brazil",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Brazilian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [1, 32, 97],
+		"innerColor": [0,156,59],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Tropical Heritage",
+		"uniqueText": "+1 [Gold] from Jungle tiles in all cities\n+2 [Gold] from Jungle tiles in all cities after discovering [Ecology]\n+1 [Culture] from Fresh Water tiles in all cities\n+2 [Culture] from Fresh Water tiles in all cities after discovering [Ecology]",
+		"uniques": ["[+1 Gold] from [Jungle] tiles [in all cities]", "[+2 Gold] from [Jungle] tiles [in all cities] <after discovering [Ecology]>", "[+1 Culture] from [Fresh Water] tiles [in all cities]", "[+2 Culture] from [Fresh Water] tiles [in all cities] <after discovering [Ecology]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Cuba",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Cubans"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [0,67,171],
+		"innerColor": [253,213,17],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Caribbean Alligator",
+		"uniqueText": "[Unit will heal every turn, even if it performs an action]",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
+    },
+	{
+		"name": "America",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["American"],
+		"preferredVictoryType": "Domination",
+
+"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [28,51,119],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Manifest Destiny",
+		"uniqueText": "[[-66]% Gold cost of acquiring tiles [in all cities]]\n[Earn [66]% of killed [Military] unit's [Cost] as [Gold]]\n[May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])]",
+		"uniques": ["[-66]% Gold cost of acquiring tiles [in all cities]", "Earn [66]% of killed [Military] unit's [Cost] as [Gold]", "May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+	{
+		"name": "Argentina",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Argentine"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [73,105,138],
+        "innerColor": [244,189,39],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Pampas Pasture",
+		"uniqueText": "[[+1 Food] from every [Pasture]]\n[No Maintenance costs for improvements in [Grassland] tiles]\n[[-50]% construction time for [Pasture] improvements]",
+		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-50]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
+        
+    //非洲
+    },
+	{
+		"name": "Burkina Faso",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Burkinabes"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [247, 207, 33],
+		"outerColor": [0,133,61],
+		"favoredReligion": "Islam",
+		"uniqueName": "Country of Upright People",
+		"uniqueText": "-20% ¤maintenance cost for buildings in all cities\n-20% ¤maintenance costs for Military units\n -20 Unhappiness from Population in all cities"
+		"uniques": ["[-20]% maintenance cost for buildings [in all cities]", "[-20]% maintenance costs <for [Military] units>", "[-20]% Unhappiness from [Population] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
+			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "Egypt",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [180, 142, 0],
+		"favoredReligion": "Islam",
+		"uniqueName": "By The Nile",
+		"uniqueText": "+15% ⚙Production when constructing All wonders in all cities\n[[+1 Food] in cities on [River] tiles]"
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", "[+1 Food] in cities on [River] tiles"
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		]
+		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
+		"name": "Benin",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Beninese"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+	    "outerColor": [141, 45, 57],
+		"innerColor": [204, 202, 205],
+		"favoredReligion": "Islam",
+		"uniqueName": "Sacrifice",
+		"uniqueText": "Triggers a Sacrifice event upon every 5 turn end or conquering a city"
+		"uniques": [
+		"Triggers a [Sacrifice I] event <upon turn end> <every [5] turns>", 
+		"Triggers a [Sacrifice II] event <upon conquering a city>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Porto-Novo","Cotonou","Parakou","Adjara","Adjohoun","Aguegue","Natitingou","Tanguieta","Tchaourou","Bante","Nikki","Perere","Ouesse","Lalo","Toviklin","Bopa","Come","Abomey","Bonou","Djia"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+	{
+		"name": "Carthage",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Carthaginian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+        
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Boat Of The Mediterranean",
+	    "uniqueText": "Starts with [Sailing]\nGain a free [Cothon] in all coastal cities",
+		"uniques": ["Starts with [Sailing]",  "Gain a free [Cothon] [in all coastal cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"],
+        "spyNames": ["Hamilcar", "Mago", "Baalhaan", "Sophoniba", "Yzebel", "Similce", "Kandaulo", "Zinnridi", "Gisgo", "Fierelus"]           
+    },
+	{
+		"name": "Ethiopia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["ethiopian"],
+		"startBias": ["Jungle"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [18, 66, 22],
+        "innerColor": [255, 56, 56],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Spirit of Adwa",
+		"uniqueText": "Reveal up to All tiles within a 5 tile radius upon founding a city\nNo ¤Maintenance costs for improvements in Hill tiles\n-50% ♪Culture cost of natural border growth in all cities",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "No Maintenance costs for improvements in [Hill] tiles", "[-50]% Culture cost of natural border growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]     
+    },
+	{
+		"name": "Zulu",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["the Zulu"],
+		"startBias": ["Plains"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [211, 158, 28],
+        "innerColor": [88, 48, 36],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "African Hegemon",
+		"uniqueText": "Land unit gains 2 XP upon ending a turn in a [Land] tile in your cities",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               
+        
+    // 游牧  
+    },
+	{
+		"name": "The Huns",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Hunnic"],
+		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"preferredVictorType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [180, 178, 164],
+		"innerColor": [70, 0, 4],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
+		"uniqueText": "+1 ⚙Production from every [Pasture]\nCities are razed 2 times as fast\nStarts with [Animal Husbandry]\nBorrows city names from other civilizations in the game",
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Attila's Court"],
+        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
+    
+    },
+	{
+		"name": "Scythian",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Skolotoi"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [35,40,116],
+        "innerColor": [198,94,65],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "People of Prairie",
+		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 5 HP and gains 1 XP upon ending a turn in a grassland tile" 
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
+		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
+		],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+    },
+    {
+		"name": "Polynesia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Polynesia"],
+		"startBias": ["Coast"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [217,89,0],
+		"innerColor": [255,255,75],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Wayfinding",
+		"uniqueText": "Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles\n+1 Sight for Embarked units\n+10% †Strength within 3 tiles of a [Moai]",
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [3] tiles of a [Moai]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
+			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
+			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
+			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]     
+    },
+    {
+		"name": "Indonesia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Indonesian"],
+		"startBias": ["Coast"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [245,173,173],
+		"innerColor": [163,71,71],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Land of Thousand Islands",
+		"uniqueText": "[May travel on Water tiles without embarking]\nMilitary units may attack without combat penalty for attacking across a coast when embarked\n[[+10]% Strength][for [Military] units][within [3] tiles of a [River]]\n[[+10]% Strength][for [Military] units][within [3] tiles of a [Coast]]",
+		"uniques": ["[+10]% Strength <for [Military] units> <within [3] tiles of a [River]>", "[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+            
+    // 特殊文明
+    },
+	{
+		"name": "Yun Ji Court",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Yunjiness"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [222, 68, 68],
+		"outerColor": [10,10,10],
+		"favoredReligion": "Taoism",
+		"uniqueName": "War of Hope",
+		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\n+2 [Science] in all cities when at war\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science\nBorrows city names from other civilizations in the game\n\n[More Fight More Brave]:\nEvery loss of 25 HP+10% †Strength\nHeals 10 damage if it kills☠ a unit"
+		"uniques": ["[+2 Science] [in all cities] <when at war>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"cities": ["Titans"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]    
+    },
+	{
+		"name": "Glenn Empire",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Glenness"],
+		"startBias": ["Hill"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"innerColor": [216, 57, 57],
+		"outerColor": [51,243,243],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Unstoppable Expansion",
+		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills\nEarn 100% of killed☠ Military unit's †Strength as ☮Faith\nBorrows city names from other civilizations in the game"
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		]
+		"cities": ["Cerranxi", "Mukuso", "Handanar", "Iverson", "Epson", "Collins", "Bena", "Gandahel", "Blue Bridge Fortress", "Highlander"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]        
+	},
+	//城邦
+	{
+		"name": "Brussels",
+		"adjective": ["Bruxellois"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Brussels"]
+	},
+	{
+		"name": "Florence",
+		"adjective": ["Florentine"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Florence falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Florence"]
+	},
+	{
+		"name": "Kuala Lumpur",
+		"adjective": ["KLite"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Kuala Lumpur"]
+	},
+	{
+		"name": "Milan",
+		"adjective": ["Milanese"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"cities": ["Milan"]
+	},
+	{
+		"name": "Quebec City",
+		"adjective": ["Québécois"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"cities": ["Quebec City"]
+	},
+
+	{
+		"name": "Cape Town",
+		"adjective": ["Cape Town"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Cape Town"]
+	},
+	{
+		"name": "Manila",
+		"adjective": ["Manilan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"cities": ["Manila"]
+	},
+	{
+		"name": "Mogadishu",
+		"adjective": ["Mogadishu"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Mogadishu"]
+	},
+	{
+		"name": "Rio de Janeiro",
+		"adjective": ["Carioca"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Rio de Janeiro"]
+	},
+	{
+		"name": "Sydney",
+		"adjective": ["Sydney"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,204,204],
+		"cities": ["Sydney"]
+	},
+	{
+		"name": "Ur",
+		"adjective": ["Ur"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Ur"]
+	},
+	{
+		"name": "Vancouver",
+		"translatedName": "Vancouver",
+		"adjective": ["Vancouverite"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"cities": ["Vancouver"]
+	},
+	{
+		"name": "Venice",
+		"adjective": ["Venetian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,204,255],
+		"cities": ["Venice"]
+	},
+
+	{
+		"name": "Antwerp",
+		"adjective": ["Antwerp"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Antwerp"]
+	},
+	{
+		"name": "Genoa",
+		"adjective": ["Genoese"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45,255,86],
+		"cities": ["Genoa"]
+	},
+	{
+		"name": "Kathmandu",
+		"adjective": ["Kathmandu"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"cities": ["Kathmandu"]
+	},
+	{
+		"name": "Tyre",
+		"adjective": ["Tyrian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,97,255],
+		"cities": ["Tyre"]
+	},
+	{
+		"name": "Zanzibar",
+		"adjective": ["Zanzibar"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Zanzibar"]
+	},
+
+	{
+		"name": "Almaty",
+		"adjective": ["Almaty"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Almaty"]
+	},
+	{
+		"name": "Dublin",
+		"adjective": ["Dubliner"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Dublin"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+	},
+	{
+		"name": "Edinburgh",
+		"adjective": ["Edinburghensian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Edinburgh"],
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+	},
+	{
+		"name": "M'Banza-Kongo",
+		"adjective": ["M'Banza-Kongo"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["M'Banza-Kongo"]
+	},
+	{
+		"name": "Sidon",
+		"adjective": ["Sidon"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Sidon is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Sidon"]
+	},
+	{
+		"name": "Valletta",
+		"adjective": ["maltese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Valletta"]
+	},
+
+	{
+		"name": "Bratislava",
+		"adjective": ["Bratislava"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Bratislava"]
+	},
+	{
+		"name": "Cahokia",
+		"adjective": ["Cahokia"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"cities": ["Cahokia"]
+	},
+	{
+		"name": "Jerusalem",
+		"adjective": ["Jerusalem"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198,255,192],
+		"cities": ["Jerusalem"]
+	},
+
+
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it", "Enables embarkation for land units <starting from the [Classical era]>", "Enables [All] units to enter ocean tiles <starting from the [Classical era]>", "[-10]% Strength <for [All] units>",
+		"[+43]% Strength <for [All] units><on [Barbarian Breakout] game speed>"
+		
+		]
+	}
+
+]
