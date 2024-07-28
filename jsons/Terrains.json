@@ -546,7 +546,7 @@
 		"production": -1,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": -0.30
+		"defenceBonus": -0.33
 		"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
 		"uniques": ["Base Terrain on this tile is not counted for Region determination",
 			"Units ending their turn on this terrain take [20] damage",
@@ -594,10 +594,22 @@
 		"type": "TerrainFeature",
 		"occursOn": ["Ocean", "Coast"],
 		"movementCost": 4,
-		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation",
+		"uniques": ["Rough terrain", "Rare feature", "Always Fertility [+4] for Map Generation",
 		            "Has an elevation of [1] for visibility calculations",
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [50] damage",
-		]	
+		]
+	},
+	{
+		"name": "Seafall ruins",
+		"type": "TerrainFeature",
+		"occursOn": ["Ocean", "Coast"],
+		"movementCost": 2,
+		"unbuildable": true,
+		"impassable": false,
+		"culture": 2,
+		"gold": 1,
+		"uniques": ["Rough terrain", "Rare feature"]
+	
 	},
 ]

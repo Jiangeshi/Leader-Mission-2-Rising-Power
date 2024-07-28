@@ -149,7 +149,7 @@
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "Free Social Policy"
-                    "[-10]% Culture cost of adopting new Policies",
+                    "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
                 "conditions": []
             },
@@ -165,7 +165,7 @@
                 "text": "Technological Innovation",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[+15]% [Science] <for [10] turns>"
+                    "[+20]% [Science] <for [10] turns>"
                     "Free Technology"
                 ],
                 "conditions": []
@@ -182,8 +182,7 @@
                 "text": "Giving the People Peace and Security",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[25]% Food is carried over after population increases [in all cities] <for [10] turns>",
-                    "[+3 Happiness] [in capital]"
+                    "[25]% Food is carried over after population increases [in all cities] <for [20] turns>",
                     ],
                 "conditions": []        
             },

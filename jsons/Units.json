@@ -61,7 +61,6 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>",
-	
 		]
 		"attackSound": "nonmetalhit"
 	},
@@ -1289,7 +1288,9 @@
 		"strength": 10,
 		"cost": 40,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>"],
+		"uniques": [
+		"Cannot enter ocean tiles <before discovering [Compass]>"
+		],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -1360,7 +1361,22 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
 		"uniques": ["[+1] Sight"]
-		"attackSound": "cannon"		
+		"attackSound": "cannon"	
+	},
+	{
+		"name": "Dragon Boat",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Denmark",
+		"movement": 6,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"promotions": ["Boarding Party I"]
+		"uniques": ["[+1] Sight"]
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Privateer",

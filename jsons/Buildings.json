@@ -1608,8 +1608,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turkey",
-		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +2 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +2 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
+		"replacementTextForUniques": "Nullifies ☮Faith in all cities\n+1 ⚙Production, +1 ⍾Science, +1 [Culture] and +2 [Gold] from all ☮Faith buildings"	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Osman I]>", "Only available <in cities without a [Civilized Leader-Suleiman]>", "Nullifies [Faith] [in all cities]", "[+1 Production, +1 Science, +1 Culture, +2 Gold] from all [Faith] buildings"]	
 	},
 	{
 		"name": "Galata Tower",
@@ -1644,8 +1644,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+1 Happiness from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness] <when number of [[Civilian] Units] is more than [10]>"]	
+		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness, +1 Culture] <when number of [[Civilian] Units] is more than [10]>"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -1884,8 +1884,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+1 Happiness from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness] <when number of [[Civilian] Units] is more than [10]>"]
+		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness, +10 Culture] <when number of [[Civilian] Units] is more than [10]>"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
@@ -1900,14 +1900,14 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +4% †Strength\n+10% ⚙Production when constructing Military units in all cities",
+		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +5% †Strength\n+10% ⚙Production when constructing Military units in all cities",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+10]% Production when constructing [Military] units [in all cities]", "[+6]% Strength <for [Military] units>"]
 	},
 	{
 		"name": "Trotsky ability",
 		"cost": 10000,
 	    "maintenance": 0,
-		"uniques":["Cannot be purchased","Unsellable", "[+4]% Strength <for [Military] units>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable", 
+		"uniques":["Cannot be purchased","Unsellable", "[+5]% Strength <for [Military] units>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable", 
 		"Only available <in [Annexed] cities> <for [Soviet Union]> <if [Civilized Leader-Trotsky] is constructed>"
 		]	
 	},
