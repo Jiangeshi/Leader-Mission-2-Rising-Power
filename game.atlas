@@ -2985,15 +2985,6 @@ TileSets/HexaRealm/Tiles/Seafall ruins
   offset: 0, 0
   index: -1 
 
-Images/TileSets/Sea Wave.png
-TileSets/HexaRealm/Tiles/Sea Wave
-  rotate: false
-  xy: 0, 0
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1   
-  
   
 Images/UnitIcons/GreatAdmiralIcon.png
 UnitIcons/Great Admiral
