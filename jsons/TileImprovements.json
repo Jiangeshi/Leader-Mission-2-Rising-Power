@@ -230,6 +230,7 @@
 		"uniques": ["Great Improvement",
 		"[+2 Science] <after discovering [Scientific Theory]>", 
 		"[+2 Science] <after discovering [Atomic Theory]>",
+		"Will not be replaced by automated units"
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -239,6 +240,7 @@
 		"uniques": ["Great Improvement", 
 		"[+2 Culture] <after discovering [Archaeology]>", 
 		"[+2 Culture] <after discovering [Radio]>",
+		"Will not be replaced by automated units"
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -251,6 +253,7 @@
 		"[+1 Production] <after discovering [Industrialization]>",
 		"[+1 Production] <after discovering [Replaceable Parts]>",
 		"[+1 Production] <after discovering [Materials Science]>",
+		"Will not be replaced by automated units"
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -260,19 +263,20 @@
 		"uniques": ["Great Improvement", 
 		"[+2 Gold] <after discovering [Economics]>", 
 		"[+2 Gold] <after discovering [Construction]>", 
+		"Will not be replaced by automated units"
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 5,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Citadel",
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "Constructing it will take over the tiles around it and assign them to your closest city", "Removes removable features when built"]
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "Gain control over [all] tiles in a [1]-tile radius","Will not be replaced by automated units", "Removes removable features when built"]
 		
     },
     
