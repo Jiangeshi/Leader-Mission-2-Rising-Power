@@ -2546,9 +2546,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[+2 Science, +2 Production] per [4] population [in all cities]]",
+		"replacementTextForUniques": "[[+2 Science, +1 Production] per [4] population [in all cities]]",
 		"uniques": [
-	    "[+2 Science, +2 Production] per [4] population [in all cities]",
+	    "[+2 Science, +1 Production] per [4] population [in all cities]",
 	    
 	    //"Indicates the capital city"
 	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
