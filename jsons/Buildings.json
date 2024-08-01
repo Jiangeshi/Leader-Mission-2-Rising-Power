@@ -526,10 +526,9 @@
 	},
 	{
 		"name": "Angkor Wat",
-		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[+2 Production, +2 Culture] from every [Great Improvement]"],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"	
 	},
@@ -702,7 +701,7 @@
 		"culture": 3,
 		"cityStrength": 12,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings"],
+		"uniques": ["[+33]% Production when constructing [Siege] units [in this city]"],
 		"requiredTech": "Metallurgy",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"	
 			
@@ -716,7 +715,7 @@
 	},
 	{
 		"name": "Public School",
-		"percentStatBonus": {"science": 25},
+		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 2},
 		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "[+1 Science] per [2] population [in this city]"],
@@ -807,9 +806,9 @@
 		"name": "Big Ben",
 		"culture": 1,
 		"gold": 4,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"Great Merchant": 4},
 		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"uniques": ["[Gold] cost of purchasing items in cities [-20]%"],
 		"requiredTech": "Industrialization",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
@@ -898,7 +897,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"uniques": ["[+1 Production, +2 Culture] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
@@ -907,7 +906,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-10]% Culture cost of adopting new Policies"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Free Social Policy"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
@@ -973,7 +972,7 @@
 		"name": "Recycling Center",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Only available <in cities with a [City Level V]>", "Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+		"uniques": ["Only available <in cities with a [City Level V]>", "Provides [5] [Aluminum]","Limited to [7] per Civilization"]
 	},
 	{
 		"name": "Nuclear Plant",
@@ -2270,7 +2269,7 @@
 		"cost":1,
 		"uniqueTo": "Burkina Faso",
 		"replacementTextForUniques": "+1 ⁂Food in all cities\n+10% ⁂Food in capital"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+10]% [Food] [in capital]"]	   
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Food] [in all cities]", "[+10]% [Food] [in capital]"]
 	},
 	{
 		"name": "Ganduo Primary School",
@@ -2417,8 +2416,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
-		"replacementTextForUniques": "+15% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
+		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
 		
 	// 斯基泰
 	},
@@ -2499,15 +2498,73 @@
 	},
 	{
 		"name": "Fane",
-		"cost": 130,
-		"faith": 8,
 		"uniqueTo": "Glenn Empire",
-		"replaces": "Grand Temple",
-		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-		"[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
-		"Gain a free [Pantheon] belief",
-		"[+100]% Natural religion spread [in this city]", "Can only be built<in [in holy cities] cities>"],
+		"replaces": "Temple",
+		"maintenance": 1,
 		"requiredTech": "Theology",
-		"isNationalWonder": true	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+2 Faith] per [3] population [in this city]", "[+1 Culture] per [3] population [in this city] <after enhancing a religion>", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]
+		
+	// 震旦帝国
+	},
+	{	
+        "name": "Civilized Leader-Mainbook",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Khitay Empire",
+		"replacementTextForUniques": "[[+15]% Production when constructing [Mobile] units [in all cities]]\n[[[+1] Movement] [for [Shooter] units]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Production when constructing [Mobile] units [in all cities]", "[+1] Movement <for [Shooter] units>"]
+		
+	//铁血王国
+	},
+	{	
+        "name": "Civilized Leader-HDKL",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Iron Blood Kingdom",
+		"replacementTextForUniques": "[[[+10]% Strength] [<for [Military] units>] [<within [2] tiles of a [Road]>]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <within [2] tiles of a [Road]>"]
+    // 溯源之地
+	},
+	{	
+        "name": "Civilized Leader-Suming",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sumusuming",
+		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion]\n[[+15]% Production when constructing [Military] units [in capital]]",
+		"uniques": [
+	    "All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion",
+	    "[+15]% Production when constructing [Military] units [in capital]",
+	    
+	    //"Indicates the capital city",
+	    "Remove [Civilized Leader-Sumu] [in all cities] <if [Civilized Leader-Sumu] is constructed>",
+	    "Remove [Palace] [in all cities]",
+	    "Gain a free [Palace] [in this city]"
+		]
+    },
+	{	
+        "name": "Civilized Leader-Sumu",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sumusuming",
+		"replacementTextForUniques": "[[+2 Science, +2 Production] per [4] population [in all cities]]",
+		"uniques": [
+	    "[+2 Science, +2 Production] per [4] population [in all cities]",
+	    
+	    //"Indicates the capital city"
+	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
+	    "Remove [Palace] [in all cities]",
+	    "Gain a free [Palace] [in this city]"
+	    ]
+	},
+	{
+		"name": "Record Pavilion",
+		"requiredTech": "Writing",
+		"happiness": 1,
+		"uniqueTo": "Sumusuming",
+		"replaces": "Library",
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [City Level I]>", 
+		"All newly-trained [Military] units [in this city] receive the [Record] promotion", 
+		"Provides [1] [Number of Buildings] <in this city>"],
 	}
 ]

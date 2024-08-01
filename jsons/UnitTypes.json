@@ -20,6 +20,7 @@
         "name": "Reconnaissance",
         "movementType": "Land"
         "uniques":[
+        "Can build [Road] improvements on tiles <for [Iron Blood Kingdom]> <for [Human player]>",
         "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
@@ -41,6 +42,7 @@
         "name": "Foot Soldier",
         "movementType": "Land"
         "uniques":[
+        "Can build [Road] improvements on tiles <for [Iron Blood Kingdom]> <for [Human player]>",
         "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"

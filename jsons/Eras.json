@@ -10,7 +10,9 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
-        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"],
+        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"
+        "May not generate great prophet equivalents naturally <for [Human player]>",
+        ],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
     },
@@ -29,6 +31,7 @@
         "startPercent": 10,
         "citySound": "cityClassical",
         "uniques": [
+        "May not generate great prophet equivalents naturally <for [Human player]>",
         "May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])",
         "May buy [Confucius] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
         "May buy [Gautama Siddhartha] units for [300] [Faith] [in all cities] at an increasing price ([150])", 
@@ -53,7 +56,9 @@
         "embarkDefense": 6,
         "startPercent": 25,
         "citySound": "cityMedieval",
-        "uniques": ["May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])", 
+        "uniques": [
+        "May not generate great prophet equivalents naturally <for [Human player]>",
+        "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])", 
         "May buy [Muhammad] units for [400] [Faith] [in all cities] at an increasing price ([200])",
         "May buy [Lee Sunshin] units for [400] [Faith] [in all cities] at an increasing price ([200])",  
         "May buy [Belisarius] units for [400] [Faith] [in all cities] at an increasing price ([200])",
@@ -78,7 +83,7 @@
         "embarkDefense": 8,
         "startPercent": 37,
         "citySound": "cityRenaissance",
-        "uniques": ["May not generate great prophet equivalents naturally",
+        "uniques": [
         "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])",
         "Every major Civilization gains a spy once a civilization enters this era",
         "[-10]% [Faith]",

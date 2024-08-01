@@ -1278,7 +1278,7 @@
 	},
 	{
 		"name": "[Iron Wall Legion] ability",
-		"uniques": ["[+25]% Strength <when defending>"]			
+		"uniques": ["Can build [Fort] improvements on tiles", "[+20]% Strength <when defending>"]			
 	},
 	{
 		"name": "[Janissary] ability",
@@ -1346,8 +1346,20 @@
 	},
     {
         "name": "[Heavy Spear Cavalry] ability",
-        "uniques": ["[+25]% Strength <vs [Mobile] units>"]	
-		
+        "uniques": ["[+25]% Strength <vs [Mobile] units>"]
+	},
+    {
+        "name": "[Red Mirror Horseman] ability",
+        "uniques": ["[+10]% Strength <when adjacent to a [Shooter] unit>"]
+    },
+    {
+        "name": "[Yin Archer] ability",
+        "uniques": ["[+10]% Strength <when adjacent to a [Mobile] unit>"]
+    },
+    {
+        "name": "[Clan Archer] ability",
+        "uniques": ["[+50]% XP gained from combat"],
+        
 	// 特殊
 	},
 	{     
@@ -1368,7 +1380,7 @@
 	},
 	{
 		"name": "More Fight More Brave",
-		"uniques": ["[+10]% Strength <when below [75] HP>", "[+10]% Strength <when below [50] HP>", "[+10]% Strength <when below [25] HP>", "Heals [10] damage if it kills a unit"]	
+		"uniques": ["Heals [15] damage if it kills a unit", "Can move after attacking"]	
 	},
 	{
 		"name": "TomyrisAbility", // 托米丽司
@@ -1376,7 +1388,7 @@
 	},
 	{
 		"name": "Defend the Motherland",
-		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]	
+		"uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>"]
 	},
 	{
 		"name": "Blizzard Wind Ability",
@@ -1384,7 +1396,22 @@
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Desert] tiles>",
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Grassland] tiles>",
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Plains] tiles>", 
-		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles>"]	
+		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles>"]
+	},
+	{
+		"name": "With One Heart",
+		"uniques": [
+		"[+4]% Strength <when adjacent to a [Foot Soldier] unit>",
+		"[+4]% Strength <when adjacent to a [Shooter] unit>",
+		"[+4]% Strength <when adjacent to a [Anti-Mobile] unit>",
+		"[+4]% Strength <when adjacent to a [Mobile] unit>",
+		]
+	},
+	{
+		"name": "Record",
+		"uniques": [
+		"Earn [50]% of killed [Military] unit's [Strength] as [Science]"
+		]	
 	}
 ]
     

@@ -1348,10 +1348,42 @@ BuildingIcons/Civilized Leader-Songtsan Gampo
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Mainbook
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-HDKL
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Suming
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
-
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Sumu
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 Images/BuildingIcons/City Level I.png
@@ -1875,8 +1907,15 @@ BuildingIcons/Lydia Mint
   orig: 50, 50
   offset: 0, 0
   index: -1 
-  
-      
+
+Images/BuildingIcons/Record Pavilion.png
+BuildingIcons/Record Pavilion
+  rotate: false
+  xy: 0,0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1 
   
 
 
@@ -2184,6 +2223,36 @@ NationIcons/Tubo
   orig: 200, 200
   offset: 0, 0
   index: -1    
+  
+Images/NationIcons/ZhenDan.png
+NationIcons/Khitay Empire
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1    
+  
+Images/NationIcons/Iron Blood Kingdom.png
+NationIcons/Iron Blood Kingdom
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1   
+
+Images/NationIcons/Sumusuming.png
+NationIcons/Sumusuming
+  rotate: false
+  xy: 0, 0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1    
+  
+  
+  
   
   
   
@@ -3254,11 +3323,50 @@ UnitIcons/Dragon Boat
   offset: 0, 0
   index: -1 
   
+Images/UnitIcons/Red Mirror Horseman.png
+UnitIcons/Red Mirror Horseman
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
   
+Images/UnitIcons/YinArcher.png
+UnitIcons/Yin Archer
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
   
+Images/UnitIcons/Guards Horseman.png
+UnitIcons/Guards Horseman
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1 
   
+Images/UnitIcons/Armored Archer.png
+UnitIcons/Armored Archer
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1   
   
-  
+Images/UnitIcons/Clan Archer.png
+UnitIcons/Clan Archer
+  rotate: false
+  xy: 0,0
+  size: 130, 180
+  orig: 130, 180
+  offset: 0, 0
+  index: -1 
  
   
 Images/UnitPromotionIcons/UnitPromotionIcons.png
@@ -3751,4 +3859,13 @@ UnitPromotionIcons/Blizzard Wind Ability
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
-  index: -1             
+  index: -1
+  
+Images/UnitPromotionIcons/Sumusuming.png
+UnitPromotionIcons/Record
+  rotate: false
+  xy: 0,0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1      

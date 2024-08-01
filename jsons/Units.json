@@ -138,8 +138,8 @@
 		"uniqueTo": "Glenn Empire",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 14,
-		"cost": 60,
+		"strength": 15,
+		"cost": 66,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -158,7 +158,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"],
+		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"],
 		"attackSound": "metalhit"	
     },
 	{
@@ -469,7 +469,23 @@
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
-		"attackSound": "arrow"		
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Clan Archer",
+		"unitType": "Shooter",
+		"replaces": "Archer",
+		"uniqueTo": "Sumusuming",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 39,
+		"requiredTech": "Trapping",
+	    "obsoleteTech": "Steel",
+		"upgradesTo": "Crossbowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"promotions": ["[Clan Archer] ability"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Chariot Archer",
@@ -556,6 +572,38 @@
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Crossbowman",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Yin Archer",
+		"unitType": "Shooter",
+		"uniqueTo": "Khitay Empire",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Crossbowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"promotions": ["[Yin Archer] ability"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Armored Archer",
+		"unitType": "Shooter",
+		"uniqueTo": "Iron Blood Kingdom",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 66,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Crossbowman",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"promotions": ["Indirect Fire"],
 		"attackSound": "arrow"
 	},
 	{
@@ -733,7 +781,37 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
         "promotions": ["[Heavy Spear Cavalry] ability"],
-		"attackSound": "horse"		
+		"attackSound": "horse"
+	},
+	{
+		"name": "Red Mirror Horseman",
+		"unitType": "Mobile",
+		"uniqueTo": "Khitay Empire",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 12,
+		"cost": 65,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"promotions": ["[Red Mirror Horseman] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Guards Horseman",
+		"unitType": "Mobile",
+		"uniqueTo": "Iron Blood Kingdom",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 13,
+		"cost": 72,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"promotions": ["Charge I"],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Knight",
@@ -1794,7 +1872,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable"],
 		"movement": 4	
 	},
 	{

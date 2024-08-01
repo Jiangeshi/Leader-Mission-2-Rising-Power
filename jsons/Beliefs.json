@@ -84,11 +84,6 @@
     //产能
     },
     {
-        "name": "God of River",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Food] in cities on [River] tiles"]
-    },
-    {
         "name": "God of Flood",
         "type": "Pantheon",
         "uniques": ["[+2 Production, +2 Food] from every [Marsh]", "[+1 Production] from every [Flood plains]"]
@@ -121,6 +116,11 @@
         "uniques": ["Earn [120]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
         
     //特殊
+    },
+    {
+        "name": "God of River",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness, +1 Gold] in cities on [River] tiles"]
     },
     {
         "name": "Sacred Blaze",
