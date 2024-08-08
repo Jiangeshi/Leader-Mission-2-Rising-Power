@@ -24,27 +24,6 @@ TileSets/AbsoluteUnits/Units/Confucius-2
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Confucius-Industrial era
-  rotate: false
-  xy: 416, 1517
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Confucius-Industrial era-1
-  rotate: false
-  xy: 519, 1606
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Confucius-Industrial era-2
-  rotate: false
-  xy: 622, 1695
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Gautama Siddhartha
   rotate: false
   xy: 107, 1250
@@ -62,27 +41,6 @@ TileSets/AbsoluteUnits/Units/Gautama Siddhartha-1
 TileSets/AbsoluteUnits/Units/Gautama Siddhartha-2
   rotate: false
   xy: 313, 1428
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era
-  rotate: false
-  xy: 416, 1517
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era-1
-  rotate: false
-  xy: 519, 1606
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Gautama Siddhartha-Industrial era-2
-  rotate: false
-  xy: 622, 1695
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -108,27 +66,6 @@ TileSets/AbsoluteUnits/Units/Muhammad-2
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Muhammad-Industrial era
-  rotate: false
-  xy: 416, 1517
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Muhammad-Industrial era-1
-  rotate: false
-  xy: 519, 1606
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Muhammad-Industrial era-2
-  rotate: false
-  xy: 622, 1695
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Jesus
   rotate: false
   xy: 107, 1250
@@ -150,27 +87,27 @@ TileSets/AbsoluteUnits/Units/Jesus-2
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Jesus-Industrial era
+TileSets/AbsoluteUnits/Units/Zoroaster
   rotate: false
-  xy: 416, 1517
+  xy: 107, 1250
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Jesus-Industrial era-1
+TileSets/AbsoluteUnits/Units/Zoroaster-1
   rotate: false
-  xy: 519, 1606
+  xy: 210, 1339
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Jesus-Industrial era-2
+TileSets/AbsoluteUnits/Units/Zoroaster-2
   rotate: false
-  xy: 622, 1695
+  xy: 313, 1428
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
-  index: -1      
+  index: -1
 TileSets/AbsoluteUnits/Units/Henri Philippe Pétain
   rotate: false
   xy: 859, 634
@@ -1917,6 +1854,86 @@ BuildingIcons/Record Pavilion
   offset: 0, 0
   index: -1 
   
+Images/BuildingIcons/GreatProphet.png
+BuildingIcons/Special Great Prophet Project
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+BuildingIcons/Confucius
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Confucius
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Gautama Siddhartha
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Gautama Siddhartha
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Muhammad
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Muhammad
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Jesus
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Jesus
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Zoroaster
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Zoroaster
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1 
+
+
 
 
 Images/ImprovementIcons/ColonyIcon.png
@@ -3295,7 +3312,14 @@ UnitIcons/Gautama Siddhartha
   orig: 100, 100
   offset: 0, 0
   index: -1
-  
+UnitIcons/Zoroaster
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
 Images/UnitIcons/Heavy Spear CavalryIcon.png
 UnitIcons/Heavy Spear Cavalry
   rotate: false

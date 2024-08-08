@@ -1893,45 +1893,39 @@
 		"movement": 2
 	
 	// 特殊伟人
+	
+	// 古典-特殊大先知
 	},
 	{
 		"name": "Confucius",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Free Social Policy <by consuming this unit>",
-		    "Can Spread Religion <for [2] movement> <[4] times>",
-			"Limited to [1] per Civilization",
 			"Unbuildable", "Uncapturable",
-			"Religious Unit"
+			"Comment [Special-Great Prophet]"
 			],
 		"movement": 2,
-		"religiousStrength": 1000
 	},
 	{
 		"name": "Gautama Siddhartha",
 		"unitType": "Civilian",
 		"uniques": [
 			"Gain a free [Pantheon] belief <by consuming this unit>",
-			"Can Spread Religion <for [2] movement> <[4] times>",
-			"Limited to [1] per Civilization",
 			"Unbuildable", "Uncapturable",
-			"Religious Unit"
+			"Comment [Special-Great Prophet]"
 			],
 		"movement": 2,
-		"religiousStrength": 1000
 	},
 	{
 		"name": "Jesus",
 		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit>",
-		    "Limited to [1] per Civilization",
+		"uniques": [
+		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
             "Can Spread Religion <for [2] movement> <[6] times>",
 			"Removes other religions when spreading religion",
-            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			"May enter foreign tiles without open borders", "[-1] Sight",
-			"Unbuildable", "Religious Unit",
-			"Takes your religion over the one in their birth city"
+			"May enter foreign tiles without open borders",
+			"Unbuildable", "Uncapturable", "Religious Unit",
+			"Comment [Special-Great Prophet]"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1940,14 +1934,25 @@
 		"name": "Muhammad",
 		"unitType": "Civilian",
 		"uniques": [
-		    "[+20]% Strength bonus for [Land] units within [2] tiles", 
+		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
-			"Limited to [1] per Civilization",
 			"Unbuildable", "Uncapturable",
-			"Religious Unit"
+			"Comment [Special-Great Prophet]"
 			],
 		"movement": 2,
-		"religiousStrength": 1000	
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Zoroaster",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
+			"Unbuildable", "Uncapturable",
+			"Comment [Special-Great Prophet]"
+			],
+		"movement": 2,
+		
+	// 特殊大军
 	},
 	{
 		"name": "Henri Philippe Pétain",

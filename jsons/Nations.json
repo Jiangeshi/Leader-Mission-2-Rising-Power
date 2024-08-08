@@ -699,8 +699,8 @@
         "innerColor": [18,84,30],
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "Gain enough ☮Faith for 15% of a [Great Prophet] upon constructing ☮Faith building in all cities\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale\nCan not sell ☮Faith building" 
-		"uniques": ["Gain enough Faith for [15]% of a Great Prophet <upon constructing [Faith] [in all cities]>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
+		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale\nCan not sell ☮Faith building" 
+		"uniques": ["Gain [50] [Faith] <upon constructing [Faith] [in all cities]> <(modified by game speed)>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",

@@ -228,5 +228,38 @@
                 "conditions": ["if [Grain Investment] is not constructed"]    
             },
         ]
+        
+    // 特殊伟人事件
+    },
+    {
+        "name": "Special Great Prophet Project",
+        "text": "",
+        "choices": [
+            {
+                "text": "Confucius",
+                "triggeredUniques": ["Provides a [Confucius] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Confucius] is not constructed"]
+            },
+            {
+                "text": "Gautama Siddhartha",
+                "triggeredUniques": ["Provides a [Gautama Siddhartha] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Gautama Siddhartha] is not constructed"]
+            },
+            {
+                "text": "Jesus",
+                "triggeredUniques": ["Provides a [Jesus] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Jesus] is not constructed"]
+            },
+            {
+                "text": "Muhammad",
+                "triggeredUniques": ["Provides a [Muhammad] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Muhammad] is not constructed"]
+            },
+            {
+                "text": "Zoroaster",
+                "triggeredUniques": ["Provides a [Zoroaster] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Zoroaster] is not constructed"]
+            },
+        ]
     }
 ]
