@@ -305,7 +305,7 @@
 		"name": "National Treasury",
 		"cost": 105,
 		"gold": 3,
-		"percentStatBonus": {"science": 50},
+		"percentStatBonus": {"gold": 50},
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"	
