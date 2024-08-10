@@ -716,7 +716,7 @@
 		"name": "Horseman",
 		"unitType": "Mobile",
 		"movement": 4,
-		"strength": 12,
+		"strength": 13,
 		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
@@ -731,7 +731,7 @@
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 13,
-		"cost": 72,
+		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -746,7 +746,7 @@
 		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 15,
-		"cost": 72,
+		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -760,7 +760,7 @@
 		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 14,
-		"cost": 72,
+		"cost": 65,
         "requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -775,7 +775,7 @@
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 13,
-		"cost": 72,
+		"cost": 65,
 	    "requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -789,7 +789,7 @@
 		"uniqueTo": "Khitay Empire",
 		"replaces": "Horseman",
 		"movement": 4,
-		"strength": 12,
+		"strength": 13,
 		"cost": 65,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
@@ -1144,7 +1144,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1159,7 +1159,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Raid I"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1175,7 +1175,7 @@
 		"cost": 248,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["[Hakkapeliitta] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1190,7 +1190,7 @@
 		"strength": 27,
 		"cost": 270,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+50]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["[Winged Hussar] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1265,7 +1265,7 @@
 		"strength": 6,
 		"rangedStrength": 10,
 		"range": 3,
-		"cost": 70,
+		"cost": 72,
 	    "requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
@@ -1953,6 +1953,71 @@
 		"movement": 2,
 		
 	// 特殊大军
+	// 古典-特殊大军
+	},
+	{
+		"name": "Sun Tzu",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		 "All adjacent units heal [+10] HP when healing", 
+		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Gnaeus Pompeius Magnus",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"All adjacent units heal [+10] HP when healing",
+		"[2] free [Swordsman] units appear <by consuming this unit> <during the [Classical era]>",
+		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Spartacus",
+		"unitType": "Civilian",	
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"All adjacent units heal [+10] HP when healing",
+		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit>",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bai Qi",
+		"unitType": "Civilian",	
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"All adjacent units heal [+10] HP when healing",
+		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit>",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Themistocles",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Water] units within [3] tiles",
+		"[+50]% Strength bonus for [{Classical era} {Water}] units within [0] tiles",
+		"[+1] Sight <when [Embarked]>",
+		"Double movement in [Coast]",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great Admiral]"
+		],
+		"movement": 2
+	
+	// 中古-特殊大军
 	},
 	{
 		"name": "Henri Philippe Pétain",
@@ -1961,8 +2026,8 @@
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
 		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>",
-		"Unbuildable", "Uncapturable",
-		"Limited to [1] per Civilization"
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
 		],
 		"movement": 2	
 	},
@@ -1973,7 +2038,7 @@
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles",
 		"Unbuildable", "Uncapturable",
-		"Limited to [1] per Civilization"
+		"Comment [Special-Great General]"
 		],
 		"movement": 2
 	},

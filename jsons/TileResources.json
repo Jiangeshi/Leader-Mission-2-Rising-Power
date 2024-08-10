@@ -687,6 +687,13 @@
 		"uniques": [
 		"Not shown on world screen",
 		"[+10]% [Food] [in all cities]",
-		]			
+		]
+		
+	// 特殊货币
+	},
+	{
+		"name": "Feat",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded"]
 	}
 ]

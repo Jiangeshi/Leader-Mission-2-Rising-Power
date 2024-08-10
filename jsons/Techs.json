@@ -140,6 +140,13 @@
 				"quote": ""
 			},
 			{
+				"name": "Optics",
+				"row": 4,
+				"prerequisites": ["Sailing"],
+				"uniques": ["Enables embarkation for land units"],	
+				"quote": ""	
+			},
+			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
@@ -166,13 +173,6 @@
 				"prerequisites": ["Theology","Calendar"],
 				"uniques":["Enables Research agreements", "Triggers a [Establishing Country] event"],
 				"quote": ""
-			},
-			{
-				"name": "Optics",
-				"row": 4,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],	
-				"quote": ""	
 			},
 			{
 				"name": "Currency",
@@ -221,9 +221,16 @@
 				"quote": ""
 			},
 			{
+				"name": "Compass",
+				"row": 4,
+				"prerequisites": ["Optics", "Currency"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
+				"quote": ""
+			},
+			{
 				"name": "Guilds",
 				"row": 5,
-				"prerequisites": ["Optics","Currency","Engineering"],
+				"prerequisites": ["Currency","Engineering"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": ""
 			},
@@ -242,13 +249,6 @@
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
-			{
-				"name": "Compass",
-				"row": 4,
-				"prerequisites": ["Guilds"],
-				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
-				"quote": ""
-			},
 			{
 				"name": "Machinery",
 				"row": 5,

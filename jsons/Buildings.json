@@ -262,7 +262,15 @@
         "name": "Taxation Bureau",
         "requiredTech": "Currency"	
         "cost": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Gold] per [2] population [in this city]", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Gold] per [2] population [in this city]", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+	},
+	{
+		"name": "Harbor",
+		"greatPersonPoints": {"Great Admiral": 1},
+		"maintenance": 2,
+		"production": 2,
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Compass"
 	
 	// 古典-国家奇观
 	},
@@ -472,14 +480,6 @@
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Machinery",
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+15]% Production when constructing [Spaceship part] units [in this city]", "[+15]% Production when constructing [Land] units [in this city]", "[+1 Production] from [Iron] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
-	},
-	{
-		"name": "Harbor",
-		"greatPersonPoints": {"Great Admiral": 1},
-		"maintenance": 3,
-		"production": 2,
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings] <in this city>"],
-		"requiredTech": "Compass"
 	},
 	{
 		"name": "Observatory",
@@ -2356,7 +2356,7 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
-		"maintenance": 3,
+		"maintenance": 2,
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
@@ -2593,7 +2593,7 @@
 		"Triggers a global alert upon completion"
 		],
 		
-	// 古典特殊伟人
+	// 古典特殊大先知
 	},
 	{
 		"name": "Confucius",
@@ -2674,6 +2674,117 @@
 	},
 	{
 		"name": "No-Zoroaster",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	
+	// 特殊军事伟人项目
+	// 古典特殊军事伟人项目
+	},
+	{
+		"name": "Classical Era Special Military Great Person Project",
+        "maintenance": 0,
+        "cost": 1,
+        "replacementTextForUniques": "Choose a special Military Great Person"
+		"uniques": [
+		"Costs [25] [Feat]",
+		"Provides a [No-Sun Tzu] in your first [1] cities for free <if [Sun Tzu] is constructed by anybody>",
+		"Provides a [No-Gnaeus Pompeius Magnus] in your first [1] cities for free <if [Gnaeus Pompeius Magnus] is constructed by anybody>",
+		"Provides a [No-Spartacus] in your first [1] cities for free <if [Spartacus] is constructed by anybody>",
+		"Provides a [No-Bai Qi] in your first [1] cities for free <if [Bai Qi] is constructed by anybody>",
+		"Provides a [No-Themistocles] in your first [1] cities for free <if [Themistocles] is constructed by anybody>",
+		
+		"Triggers a [Classical Era Special Military Great Person Project] event",
+		
+		"Remove [Classical Era Special Military Great Person Project] [in this city]",
+		
+		"Only available <during the [Classical era]>", "Cannot be purchased",
+		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
+		
+		"Triggers a global alert upon completion"
+		],
+	},
+	{
+		"name": "Sun Tzu",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Sun Tzu] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Sun Tzu",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Gnaeus Pompeius Magnus",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Gnaeus Pompeius Magnus] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Gnaeus Pompeius Magnus",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Spartacus",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Spartacus] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Spartacus",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Bai Qi",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Bai Qi] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Bai Qi",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Themistocles",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Themistocles] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Themistocles",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [

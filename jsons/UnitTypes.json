@@ -26,6 +26,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
@@ -47,7 +49,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
@@ -67,7 +71,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",    
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
@@ -90,7 +96,10 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
@@ -112,7 +121,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
@@ -133,7 +144,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>", 
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
@@ -154,7 +167,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",       
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
@@ -170,7 +184,8 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
@@ -190,7 +205,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
-        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",        
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",  
         ]                
@@ -202,6 +219,8 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
         
         "Ignores Zone of Control <for [Poland]>",
@@ -215,6 +234,8 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
         
         "Ignores Zone of Control <for [Poland]>",
@@ -227,7 +248,8 @@
         "uniques":[
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",        
         ]                
@@ -240,7 +262,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",
         "Aircraft"]
@@ -253,7 +276,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",
         "Aircraft"]   
@@ -266,6 +290,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",
         "Flybomb"]
@@ -278,7 +304,8 @@
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
-        
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",    
         "Flybomb"]

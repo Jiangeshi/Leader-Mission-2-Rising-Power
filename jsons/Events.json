@@ -261,5 +261,70 @@
                 "conditions": ["during the [Classical era]", "if [No-Zoroaster] is not constructed"]
             },
         ]
+    },
+    {
+        "name": "Classical Era Special Military Great Person Project",
+        "text": "",
+        "choices": [
+            {
+                "text": "Sun Tzu",
+                "triggeredUniques": ["Provides a [Sun Tzu] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Sun Tzu] is not constructed"]
+            },
+            {
+                "text": "Gnaeus Pompeius Magnus",
+                "triggeredUniques": ["Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Gnaeus Pompeius Magnus] is not constructed"]
+            },
+            {
+                "text": "Spartacus",
+                "triggeredUniques": ["Provides a [Spartacus] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Spartacus] is not constructed"]
+            },
+            {
+                "text": "Bai Qi",
+                "triggeredUniques": ["Provides a [Bai Qi] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Bai Qi] is not constructed"]
+            },
+            {
+                "text": "Themistocles",
+                "triggeredUniques": ["Provides a [Themistocles] in your first [1] cities for free"],
+                "conditions": ["during the [Classical era]", "if [No-Themistocles] is not constructed"]
+            },
+        ]
+    }
+    {
+        "name": "Sun Tzu's Art of War - Military Conflict",
+        "text": "",
+        "choices": [
+            {
+                "text": "Let rapidity be that of wind",
+                "triggeredUniques": [
+                    "[+1] Movement <for [Military] units> <for [2] turns>"
+                ],
+                "conditions": []
+            },
+            {
+                "text": "Let compactness be that of forest",
+                "triggeredUniques": [
+                    "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit> <for [4] turns>"
+                ],
+                "conditions": []
+            },
+            {
+                "text": "In raiding and plundering be like fire",
+                "triggeredUniques": [
+                    "[+10]% Strength <for [Military] units> <when attacking> <for [10] turns>"
+                ],
+                "conditions": []
+            },
+            {
+                "text": "Immovability like a mountain",
+                "triggeredUniques": [
+                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns>"
+                ],
+                "conditions": []
+            },
+        ]
     }
 ]

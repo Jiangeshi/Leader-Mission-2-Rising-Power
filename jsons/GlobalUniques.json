@@ -46,9 +46,10 @@
     "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
     "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
     
-    // 特殊单位
+    // 大航海家
     "Enables [Great Admiral] units to enter ocean tiles",
-    "Enables [Lee Sunshin] units to enter ocean tiles"
+    "Enables [Lee Sunshin] units to enter ocean tiles",
+    "Enables [Themistocles] units to enter ocean tiles"
     
     // 事件
     "Triggers a [New Era] event <upon entering a new era>"

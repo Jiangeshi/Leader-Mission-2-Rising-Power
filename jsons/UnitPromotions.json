@@ -1359,6 +1359,15 @@
     {
         "name": "[Clan Archer] ability",
         "uniques": ["[+50]% XP gained from combat"],
+    },
+    {
+        "name": "[Spartacus] ability",
+        "uniques": ["May capture killed [Foot Soldier] units <with [20]% chance> <during the [Classical era]>"],
+    },
+    {
+        "name": "[Bai Qi] ability",
+        "uniques": ["[+50]% to Flank Attack bonuses <during the [Classical era]>"],
+        
         
 	// 特殊
 	},

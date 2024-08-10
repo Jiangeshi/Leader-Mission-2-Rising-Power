@@ -137,5 +137,26 @@
             {"yearsPerTurn": 0.25,     "untilTurn": 1344},
             {"yearsPerTurn": 0.083333, "untilTurn": 1500}
         ]
+    },
+    {
+        "name": "Real",
+        "modifier": 5.0,
+        "productionCostModifier": 1.0,
+        "goldCostModifier": 1.0,
+        "scienceCostModifier": 5.0,
+        "cultureCostModifier": 5.0,
+        "faithCostModifier": 5.0,
+        "improvementBuildLengthModifier": 1.0,
+        "barbarianModifier": 1.0,
+        "goldGiftModifier": 0.67,
+        "cityStateTributeScalingInterval": 32.0,
+        "goldenAgeLengthModifier": 3.0,
+        "religiousPressureAdjacentCity": 2,
+        "peaceDealDuration": 30,
+        "dealDuration": 90,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn":   1,     "untilTurn":  10000},
+        ]
     }
 ]

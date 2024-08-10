@@ -832,7 +832,8 @@
                 "name": "Military Reclamation System",
                 "uniques": [
                     "Comment [Military Reclamation can be carried out in cities with a garrison]", 
-                    "Comment [+1 [Culture] for [Farm] with garrison]"
+                    "Comment [+1 [Culture] for [Farm] with garrison]",
+                    "Comment [Provides 1 [Feat] upon military unit defeating a [Barbarian] unit]"
                 ],
                 "row": 1,
                 "column": 1,
