@@ -28,7 +28,12 @@
     {
         "name": "Heart of Fire",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"],    
+        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"],
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Coast]", "[+2 Faith] from every [Ocean]"],
         
     // 文化
     },
@@ -38,7 +43,7 @@
         "uniques": ["[+1 Culture] from every [Pasture]"]
     },
     {
-        "name": "God of the Sea",
+        "name": "God of Fishing",
         "type": "Pantheon",
         "uniques": ["[+2 Culture] from every [Fishing Boats]"]
     },

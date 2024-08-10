@@ -113,21 +113,24 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast", "Atoll"],
+		"terrainsCanBeFoundOn": ["Coast", "Atoll", "Ocean", "Reef"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>",
+		"Generated on every [20] tiles <in [{Featureless} {Ocean}] tiles>",
 		"Generated on every [15] tiles <in [Atoll] tiles>",
+		"Generated on every [15] tiles <in [Reef] tiles>",
 		]
 	},
 	{
 		"name": "Kelp",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast","Mudflat"],
+		"terrainsCanBeFoundOn": ["Coast","Mudflat", "Ocean"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Coast}] tiles>",
+		"Generated on every [30] tiles <in [{Featureless} {Ocean}] tiles>",
 		]
 	},
 	{

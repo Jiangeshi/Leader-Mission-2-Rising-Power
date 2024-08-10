@@ -593,6 +593,7 @@
 		"name": "Reef",
 		"type": "TerrainFeature",
 		"occursOn": ["Ocean", "Coast"],
+		"production": 1,
 		"movementCost": 4,
 		"uniques": ["Rough terrain", "Rare feature", "Always Fertility [+4] for Map Generation",
 		            "Has an elevation of [1] for visibility calculations",

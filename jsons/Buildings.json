@@ -2547,9 +2547,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[+2 Science, +1 Production] per [4] population [in all cities]]",
+		"replacementTextForUniques": "[[[+2 Science, +2 Production] [in all cities]] [in cities with at least [5] [Population]]]",
 		"uniques": [
-	    "[+2 Science, +1 Production] per [4] population [in all cities]",
+	    "[+2 Science, +2 Production] [in all cities] <in cities with at least [5] [Population]>",
 	    
 	    //"Indicates the capital city"
 	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
@@ -2587,7 +2587,7 @@
 		
 		"Remove [Special Great Prophet Project] [in this city]",
 		
-		"Only available <during the [Classical era]>",
+		"Only available <during the [Classical era]> <for [Major]>",
 		"Unavailable <if [Confucius] is constructed by anybody> <if [Gautama Siddhartha] is constructed by anybody> <if [Jesus] is constructed by anybody> <if [Muhammad] is constructed by anybody> <if [Zoroaster] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
@@ -2700,7 +2700,7 @@
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Classical era]>", "Cannot be purchased",
+		"Only available <during the [Classical era]> <for [Major]> <when above [24] [Feat]>", "Cannot be purchased",
 		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
