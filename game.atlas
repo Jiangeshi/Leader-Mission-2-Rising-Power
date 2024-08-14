@@ -1432,6 +1432,24 @@ BuildingIcons/Civilized Leader-Sumu
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Bloom
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+
+
+
+
+
+
+
+
+
 
 Images/BuildingIcons/City Level I.png
 BuildingIcons/City Level I
@@ -1964,6 +1982,15 @@ BuildingIcons/Record Pavilion
   offset: 0, 0
   index: -1 
   
+Images/BuildingIcons/Altar of Prayer.png
+BuildingIcons/Altar of Prayer
+  rotate: false
+  xy: 0,0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1 
+  
 Images/BuildingIcons/GreatGeneral.png
 BuildingIcons/Classical Era Special Military Great Person Project
   rotate: false
@@ -2460,7 +2487,14 @@ NationIcons/Sumusuming
   offset: 0, 0
   index: -1    
   
-  
+Images/NationIcons/LianFang Court.png
+NationIcons/LianFang Court
+  rotate: false
+  xy: 0, 0
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1    
   
   
   

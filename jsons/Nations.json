@@ -1146,10 +1146,10 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+10% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
+		"uniqueText": "Obtain 1 Investment Project in 15 / 30 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+8% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
 		"uniques": [
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
-		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [30]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>",
@@ -1892,6 +1892,36 @@
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		]
 		"cities": ["Sea Sand"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+	{
+		"name": "LianFang Court",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Suming"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [255,255,255],
+		"innerColor": [79,153,165],
+		"favoredReligion": "Confucianism",
+		"uniqueName": "Thriving and Prosperous",
+		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with 2 to 6 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniques": [
+		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		]
+		"cities": ["Zhao Ge"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
 	},
 	//城邦

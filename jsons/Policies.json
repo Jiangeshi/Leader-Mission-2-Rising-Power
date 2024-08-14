@@ -691,7 +691,6 @@
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Movement <for [Great Admiral] units>",
                     "Free [Great Admiral] appears",
-                    "[+2 Production] [in all coastal cities]",
                 ],
                 "row": 1,
                 "column": 1
@@ -708,7 +707,8 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[-33]% maintenance cost for buildings [in all cities]"
+                    "[-25]% maintenance cost for buildings [in all cities]"
+                    "[+2 Production] [in all coastal cities]",
                 ],
                 "row": 1,
                 "column": 5
@@ -734,8 +734,8 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold, +1 Science] from every [Trading post]",
-                    "[+100]% Gold from Great Merchant trade missions",
+                    "[+2 Gold, +2 Science] from every [Trading post]",
+                    "[+33]% [Gold] from Trade Routes",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]

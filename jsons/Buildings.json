@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "Grand Temple",
-		"cost": 130,
+		"cost": 105,
 		"faith": 8,
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 		"Gain a free [Pantheon] belief",
@@ -324,7 +324,7 @@
 		"isNationalWonder": true,
 		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Army Formation"
 		
 	// 古典-世界奇观
 	},
@@ -2568,6 +2568,25 @@
 		"All newly-trained [Military] units [in this city] receive the [Record] promotion", 
 		"Provides [1] [Number of Buildings] <in this city>"],
 	
+	// 敛芳之邑
+	},
+	{	
+        "name": "Civilized Leader-Bloom",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "LianFang Court",
+		"replacementTextForUniques": "[[[+15]% [Science] [in all cities]] [during a Golden Age]]\n[[[+15]% [Culture] [in all cities]] [during a Golden Age]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% [Science] [in all cities] <during a Golden Age>", "[+15]% [Culture] [in all cities] <during a Golden Age>"]
+	},
+	{
+		"name": "Altar of Prayer",
+		"cost": 105,
+		"isNationalWonder": true,
+		"replaces": "National Epic",
+		"uniqueTo": "LianFang Court",
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in all cities]", "[+3 Science] from every specialist [in all cities]", "[+50]% Food consumption by specialists [in all cities]", "[+50]% Unhappiness from [Specialists] [in all cities]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Nation"	
+	
 	// 特殊伟人项目
 	// 特殊大先知项目
 	},
@@ -2686,10 +2705,10 @@
 	{
 		"name": "Classical Era Special Military Great Person Project",
         "maintenance": 0,
-        "cost": 1,
+        "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person"
 		"uniques": [
-		"Costs [25] [Feat]",
+		"Costs [20] [Feat]",
 		"Provides a [No-Sun Tzu] in your first [1] cities for free <if [Sun Tzu] is constructed by anybody>",
 		"Provides a [No-Gnaeus Pompeius Magnus] in your first [1] cities for free <if [Gnaeus Pompeius Magnus] is constructed by anybody>",
 		"Provides a [No-Spartacus] in your first [1] cities for free <if [Spartacus] is constructed by anybody>",
@@ -2700,7 +2719,7 @@
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Classical era]> <for [Major]> <when above [24] [Feat]>", "Cannot be purchased",
+		"Only available <during the [Classical era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
 		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"

@@ -1901,6 +1901,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 		    "Free Social Policy <by consuming this unit>",
+		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
 			"Comment [Special-Great Prophet]"
 			],
@@ -1911,6 +1912,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Gain a free [Pantheon] belief <by consuming this unit>",
+			"Religious Unit",
 			"Unbuildable", "Uncapturable",
 			"Comment [Special-Great Prophet]"
 			],
@@ -1921,6 +1923,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
+		    "Religious Unit",
             "Can Spread Religion <for [2] movement> <[6] times>",
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
@@ -1934,6 +1937,7 @@
 		"name": "Muhammad",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Religious Unit",
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
@@ -1946,6 +1950,7 @@
 		"name": "Zoroaster",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Religious Unit",
 		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
 			"Comment [Special-Great Prophet]"
@@ -1963,7 +1968,7 @@
 		 "All adjacent units heal [+10] HP when healing", 
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
+		"Great General"
 		],
 		"movement": 2
 	},
@@ -1976,7 +1981,7 @@
 		"[2] free [Swordsman] units appear <by consuming this unit> <during the [Classical era]>",
 		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
+		"Great General"
 		],
 		"movement": 2
 	},
@@ -1988,7 +1993,7 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit>",
 	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
+		"Great General"
 		],
 		"movement": 2
 	},
@@ -2000,7 +2005,7 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit>",
 	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
+		"Great General"
 		],
 		"movement": 2
 	},
@@ -2013,7 +2018,7 @@
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great Admiral]"
+		"Great Admiral"
 		],
 		"movement": 2
 	
