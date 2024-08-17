@@ -1903,7 +1903,6 @@
 		    "Free Social Policy <by consuming this unit>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"Great Prophet"
 			],
 		"movement": 2,
 	},
@@ -1914,7 +1913,6 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"Great Prophet"
 			],
 		"movement": 2,
 	},
@@ -1928,7 +1926,6 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"Great Prophet"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1941,7 +1938,6 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"Great Prophet"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1953,7 +1949,6 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"Great Prophet"
 			],
 		"movement": 2,
 		
