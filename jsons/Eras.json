@@ -129,7 +129,6 @@
         "citySound": "cityModern",
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])", 
-            "May buy [Henri Philippe Pétain] units for [1000] [Faith] [in all cities] at an increasing price ([500])",  
             "Every major Civilization gains a spy once a civilization enters this era",
             "[-30]% [Faith]",
             "[+100]% maintenance costs <for [Military] units>"    

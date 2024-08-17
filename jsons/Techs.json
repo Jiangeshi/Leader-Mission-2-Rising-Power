@@ -245,7 +245,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
-		"techCost": 226,
+		"techCost": 248,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -267,7 +267,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Medieval era",
-		"techCost": 318,
+		"techCost": 349,
 		"buildingCost": 150,
 		"wonderCost": 375,
 		"techs": [
@@ -295,7 +295,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Medieval era",
-		"techCost": 412,
+		"techCost": 453,
 		"buildingCost": 170,
 		"wonderCost": 425,
 		"techs": [

@@ -1093,7 +1093,7 @@
 		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
 		"Detection III","Survivalism III",
 		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
 		"unitTypes": ["Foot Soldier",
 		"Reconnaissance",
 		"Siege"],
@@ -1367,6 +1367,48 @@
     {
         "name": "[Bai Qi] ability",
         "uniques": ["[+50]% to Flank Attack bonuses <during the [Classical era]>"],
+    },
+    {
+        "name": "[Li Jing] ability",
+        "uniques": ["This Unit gains [25] XP <during the [Medieval era]>"],
+    },
+    {
+        "name": "[Subedei] ability",
+        "uniques": ["Heals [15] damage if it kills a unit <during the [Medieval era]>"],
+    },
+    {
+        "name": "[Timur] ability",
+        "uniques": [
+        "This Unit gains the [[Timur] ability I] promotion <upon defeating a [Military] unit> <during the [Medieval era]>",
+        "This Unit loses the [[Timur] ability I] promotion <upon turn end>"
+        ],
+    },
+    {
+        "name": "[Timur] ability I",
+        "uniques": ["This Unit gains [1] movement", "[+1] additional attacks per turn"],
+    },
+    {
+        "name": "[Khalid ibn al-Walid] ability",
+        "uniques": ["[+25]% Strength <vs cities> <during the [Medieval era]>"],
+    },
+    {
+        "name": "[Bayezid I] ability",
+        "uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking> <during the [Medieval era]>"],
+    },
+    {
+        "name": "[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability",
+        "uniques": ["[+15]% Strength <when fighting in [Hill] tiles> <during the [Medieval era]>"],
+    },
+    {
+        "name": "[Narses] ability",
+        "uniques": ["[-33]% Gold cost of upgrading <during the [Medieval era]>"],
+    },
+    {
+        "name": "[William Marshal] ability",
+        "uniques": ["Ignores terrain cost <during the [Medieval era]>"],
+        
+        
+        
         
         
 	// 特殊

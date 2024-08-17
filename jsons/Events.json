@@ -300,30 +300,97 @@
             {
                 "text": "Let rapidity be that of wind",
                 "triggeredUniques": [
-                    "[+1] Movement <for [Military] units> <for [2] turns>"
+                    "[+1] Movement <for [Military] units> <for [2] turns> <during the [Classical era]>"
                 ],
                 "conditions": []
             },
             {
                 "text": "Let compactness be that of forest",
                 "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit> <for [4] turns>"
+                    "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit> <for [4] turns> <during the [Classical era]>"
                 ],
                 "conditions": []
             },
             {
                 "text": "In raiding and plundering be like fire",
                 "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when attacking> <for [10] turns>"
+                    "[+10]% Strength <for [Military] units> <when attacking> <for [10] turns> <during the [Classical era]>"
                 ],
                 "conditions": []
             },
             {
                 "text": "Immovability like a mountain",
                 "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns>"
+                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns> <during the [Classical era]>"
                 ],
                 "conditions": []
+            },
+        ]
+    },
+    {
+        "name": "Medieval era Special Military Great Person Project",
+        "text": "",
+        "choices": [
+            {
+                "text": "Belisarius",
+                "triggeredUniques": ["Provides a [Belisarius] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Belisarius] is not constructed"]
+            },
+            {
+                "text": "Han Xin",
+                "triggeredUniques": ["Provides a [Han Xin] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Han Xin] is not constructed"]
+            },
+            {
+                "text": "Xiang Yu",
+                "triggeredUniques": ["Provides a [Xiang Yu] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Xiang Yu] is not constructed"]
+            },
+            {
+                "text": "Li Jing",
+                "triggeredUniques": ["Provides a [Li Jing] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Li Jing] is not constructed"]
+            },
+            {
+                "text": "Subedei",
+                "triggeredUniques": ["Provides a [Subedei] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Subedei] is not constructed"]
+            },
+            {
+                "text": "Timur",
+                "triggeredUniques": ["Provides a [Timur] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Timur] is not constructed"]
+            },
+            {
+                "text": "Jeanne",
+                "triggeredUniques": ["Provides a [Jeanne] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Jeanne] is not constructed"]
+            },
+            {
+                "text": "Khalid ibn al-Walid",
+                "triggeredUniques": ["Provides a [Khalid ibn al-Walid] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Khalid ibn al-Walid] is not constructed"]
+            },
+            {
+                "text": "Bayezid I",
+                "triggeredUniques": ["Provides a [Bayezid I] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Bayezid I] is not constructed"]
+            },
+            {
+                "text": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
+                "triggeredUniques": ["Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is not constructed"]
+            },
+            {
+                "text": "Narses",
+                "triggeredUniques": ["Provides a [Narses] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [Narses] is not constructed"]
+            },
+            {
+                "text": "William Marshal",
+                "triggeredUniques": ["Provides a [William Marshal] in your first [1] cities for free"],
+                "conditions": ["during the [Medieval era]", "if [William Marshal] is not constructed"]
+                
             },
         ]
     }

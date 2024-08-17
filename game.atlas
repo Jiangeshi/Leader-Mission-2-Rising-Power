@@ -213,6 +213,237 @@ TileSets/AbsoluteUnits/Units/Belisarius-2
   orig: 77, 100
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Han Xin
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Han Xin-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Han Xin-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Xiang Yu
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Xiang Yu-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Xiang Yu-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Li Jing
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Li Jing-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Li Jing-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Subedei
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Subedei-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Subedei-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Timur
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Timur-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Timur-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jeanne
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jeanne-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jeanne-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Khalid ibn al-Walid
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Khalid ibn al-Walid-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Khalid ibn al-Walid-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Bayezid I
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Bayezid I-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Bayezid I-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mgar-Blon-Khri-Vbring-Btsan-Brod
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mgar-Blon-Khri-Vbring-Btsan-Brod-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mgar-Blon-Khri-Vbring-Btsan-Brod-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Narses
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Narses-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Narses-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/William Marshal
+  rotate: false
+  xy: 859, 634
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/William Marshal-1
+  rotate: false
+  xy: 859, 526
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/William Marshal-2
+  rotate: false
+  xy: 89, 165
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Henri Philippe Pétain
   rotate: false
   xy: 730, 1873
@@ -507,6 +738,83 @@ UnitIcons/Bai Qi
   offset: 0, 0
   index: -1
 UnitIcons/Belisarius
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Han Xin
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Xiang Yu
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Li Jing
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Subedei
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Timur
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jeanne
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Khalid ibn al-Walid
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bayezid I
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mgar-Blon-Khri-Vbring-Btsan-Brod
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Narses
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/William Marshal
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -1441,9 +1749,23 @@ BuildingIcons/Civilized Leader-Bloom
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Tarjan
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
-
-
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Richard I
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 
@@ -2055,6 +2377,181 @@ BuildingIcons/No-Bai Qi
   orig: 100, 100
   offset: 0, 0
   index: -1 
+BuildingIcons/Medieval era Special Military Great Person Project
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Belisarius
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Belisarius
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Han Xin
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Han Xin
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Xiang Yu
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Xiang Yu
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Li Jing
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Li Jing
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Subedei
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Subedei
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Timur
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Timur
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Jeanne
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Jeanne
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/Khalid ibn al-Walid
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Khalid ibn al-Walid
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+BuildingIcons/Bayezid I
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Bayezid I
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+BuildingIcons/Mgar-Blon-Khri-Vbring-Btsan-Brod
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Mgar-Blon-Khri-Vbring-Btsan-Brod
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+BuildingIcons/Narses
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-Narses
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
+BuildingIcons/William Marshal
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
+BuildingIcons/No-William Marshal
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1   
 
   
 Images/BuildingIcons/GreatAdmiral.png

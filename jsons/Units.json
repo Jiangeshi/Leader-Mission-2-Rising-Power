@@ -1903,7 +1903,7 @@
 		    "Free Social Policy <by consuming this unit>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"Comment [Special-Great Prophet]"
+			"Great Prophet"
 			],
 		"movement": 2,
 	},
@@ -1914,7 +1914,7 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"Comment [Special-Great Prophet]"
+			"Great Prophet"
 			],
 		"movement": 2,
 	},
@@ -1928,7 +1928,7 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"Comment [Special-Great Prophet]"
+			"Great Prophet"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1941,7 +1941,7 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"Comment [Special-Great Prophet]"
+			"Great Prophet"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1953,7 +1953,7 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"Comment [Special-Great Prophet]"
+			"Great Prophet"
 			],
 		"movement": 2,
 		
@@ -1991,7 +1991,7 @@
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
-		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit>",
+		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General"
 		],
@@ -2003,7 +2003,7 @@
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
-		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit>",
+		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General"
 		],
@@ -2014,7 +2014,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Water] units within [3] tiles",
-		"[+50]% Strength bonus for [{Classical era} {Water}] units within [0] tiles",
+		"[+50]% Strength bonus for [Water] units within [0] tiles <during the [Classical era]>",
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
@@ -2025,27 +2025,154 @@
 	// 中古-特殊大军
 	},
 	{
-		"name": "Henri Philippe Pétain",
-		"unitType": "Civilian",
-		"uniques": [
-		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
-		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>",
-	    "Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
-		],
-		"movement": 2	
-	},
-	{
 		"name": "Belisarius",
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
-		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles",
-		"Unbuildable", "Uncapturable",
-		"Comment [Special-Great General]"
+		"All adjacent units heal [+10] HP when healing",
+		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
 		],
 		"movement": 2
+	},
+	{
+		"name": "Han Xin",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles <starting from the [Renaissance era]>",
+		"[+15]% Strength bonus for [Land] units within [4] tiles <during the [Medieval era]>", 
+		"All adjacent units heal [+10] HP when healing",
+		"[+2] Movement <during the [Medieval era]>",
+		"[+2] Sight <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Xiang Yu",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Li Jing",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Subedei",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Timur",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Jeanne",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+25] HP when healing <during the [Medieval era]>",
+		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Khalid ibn al-Walid",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+    },
+	{
+		"name": "Bayezid I",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "Narses",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	},
+	{
+		"name": "William Marshal",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles",
+		"All adjacent units heal [+10] HP when healing",
+		"[Mobile] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
+	    "Unbuildable", "Uncapturable",
+		"Great General"
+		],
+		"movement": 2,
+	
+		
+
+	// 复兴-特殊大军
 	},
 	{
 		"name": "Lee Sunshin",
@@ -2058,6 +2185,20 @@
 		"Limited to [1] per Civilization"
 		],
 		"movement": 2
+	
+	// 电气-特殊大军
+	},
+	{
+		"name": "Henri Philippe Pétain",
+		"unitType": "Civilian",
+		"uniques": [
+		"[+15]% Strength bonus for [Land] units within [2] tiles", 
+		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
+		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>",
+	    "Unbuildable", "Uncapturable",
+		"Comment [Special-Great General]"
+		],
+		"movement": 2	
 		
 	// 宗教单位
     },

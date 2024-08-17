@@ -1690,7 +1690,7 @@
 		"cost":1,
 		"uniqueTo": "Rome",
 		"replacementTextForUniques": "+10% †Strength for Military units when adjacent to a Military unit",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Octavius]>", "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Only available <in cities without a [Civilized Leader-Tarjan]>", "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"]
 	},
 	{	
         "name": "Civilized Leader-Octavius",
@@ -1698,7 +1698,15 @@
 		"cost":1,
 		"uniqueTo": "Rome",
 		"replacementTextForUniques": "+10% ⚙Production when constructing All buildings in capital\n+10 ⚙Production when constructing Military units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "[+10]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Tarjan]>", "[+10]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
+	},
+	{	
+        "name": "Civilized Leader-Tarjan",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Rome",
+		"replacementTextForUniques": "[[Provides a [Column] in your first [2] cities for free] [upon discovering [Burial Custom] technology]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Provides a [Column] in your first [2] cities for free <upon discovering [Burial Custom] technology>"]
 	},
 	{
 		"name": "Column",
@@ -1717,7 +1725,7 @@
 		"cost":1,
 		"uniqueTo": "England",
 		"replacementTextForUniques": "+10% Yield in capital [during a Golden Age]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", 
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Churchill]>", "Only available <in cities without a [Civilized Leader-Richard I]>", 
 		"[+10]% [Gold] [in capital] <during a Golden Age>", 
 		"[+10]% [Science] [in capital] <during a Golden Age>", 
 		"[+10]% [Production] [in capital] <during a Golden Age>", 
@@ -1733,7 +1741,15 @@
 		"cost":1,
 		"uniqueTo": "England",
 		"replacementTextForUniques": "[Warfare Aversion Level] stops natural growth when above 35 [Warfare Aversion Level]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Provides [-1] [Warfare Aversion Level] <when above [35] [Warfare Aversion Level]>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Only available <in cities without a [Civilized Leader-Richard I]>", "Provides [-1] [Warfare Aversion Level] <when above [35] [Warfare Aversion Level]>"]
+	},
+	{	
+        "name": "Civilized Leader-Richard I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "England",
+		"replacementTextForUniques": "[[[+10]% Strength] [during a Golden Age]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Only available <in cities without a [Civilized Leader-Churchill]>", "[+10]% Strength <for [Military] units> <during a Golden Age>"]
 	},
 	{
 		"name": "Royal Navy Dockyard",
@@ -2719,7 +2735,7 @@
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Classical era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
+		"Only available <during the [Classical era]> <for [Major]>", "Cannot be purchased",
 		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
@@ -2804,6 +2820,247 @@
 	},
 	{
 		"name": "No-Themistocles",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	
+	// 中古特殊军事伟人项目
+	},
+	{
+		"name": "Medieval era Special Military Great Person Project",
+        "maintenance": 0,
+        "cost": 60,
+        "replacementTextForUniques": "Choose a special Military Great Person"
+		"uniques": [
+		"Costs [20] [Feat]",
+		"Provides a [No-Belisarius] in your first [1] cities for free <if [Belisarius] is constructed by anybody>",
+		"Provides a [No-Han Xin] in your first [1] cities for free <if [Han Xin] is constructed by anybody>",
+	    "Provides a [No-Bai Qi] in your first [1] cities for free <if [Bai Qi] is constructed by anybody>",
+	    "Provides a [No-Li Jing] in your first [1] cities for free <if [Li Jing] is constructed by anybody>",
+	    "Provides a [No-Subedei] in your first [1] cities for free <if [Subedei] is constructed by anybody>",
+	    "Provides a [No-Timur] in your first [1] cities for free <if [Timur] is constructed by anybody>",
+	    "Provides a [No-Jeanne] in your first [1] cities for free <if [Jeanne] is constructed by anybody>",
+	    "Provides a [No-Khalid ibn al-Walid] in your first [1] cities for free <if [Khalid ibn al-Walid] is constructed by anybody>",
+	    "Provides a [No-Bayezid I] in your first [1] cities for free <if [Bayezid I] is constructed by anybody>",
+	    "Provides a [No-Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody>",
+	    "Provides a [No-Narses] in your first [1] cities for free <if [Narses] is constructed by anybody>",
+	    "Provides a [No-William Marshal] in your first [1] cities for free <if [William Marshal] is constructed by anybody>",
+	    
+	    
+	    
+		
+		"Triggers a [Medieval era Special Military Great Person Project] event",
+		
+		"Remove [Medieval era Special Military Great Person Project] [in this city]",
+		
+		"Only available <during the [Medieval era]> <for [Major]>", "Cannot be purchased",
+		
+		"Unavailable <if [Belisarius] is constructed by anybody> <if [Han Xin] is constructed by anybody> <if [Xiang Yu] is constructed by anybody> <if [Li Jing] is constructed by anybody> <if [Subedei] is constructed by anybody> <if [Timur] is constructed by anybody> <if [Jeanne] is constructed by anybody> <if [Khalid ibn al-Walid] is constructed by anybody> <if [Bayezid I] is constructed by anybody> <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody> <if [Narses] is constructed by anybody> <if [William Marshal] is constructed by anybody>",
+		
+
+		"Triggers a global alert upon completion"
+		],
+	},
+	{
+		"name": "Belisarius",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Belisarius] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Belisarius",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Han Xin",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Han Xin] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Han Xin",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Xiang Yu",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Xiang Yu] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Xiang Yu",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Li Jing",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Li Jing] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Li Jing",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Subedei",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Subedei] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Subedei",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Timur",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Timur] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Timur",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Jeanne",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Jeanne] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Jeanne",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+    },
+	{
+		"name": "Khalid ibn al-Walid",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Khalid ibn al-Walid] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Khalid ibn al-Walid",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Bayezid I",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Bayezid I] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Bayezid I",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Mgar-Blon-Khri-Vbring-Btsan-Brod] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Mgar-Blon-Khri-Vbring-Btsan-Brod",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+    },
+	{
+		"name": "Narses",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [Narses] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-Narses",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Unsellable",
+		],
+	},
+	{
+		"name": "William Marshal",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": [
+		"Free [William Marshal] appears",
+		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		],
+	},
+	{
+		"name": "No-William Marshal",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [

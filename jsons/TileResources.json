@@ -509,10 +509,10 @@
 		"uniques": [
 		"Stockpiled", "Not shown on world screen <when above [500] [Iron]>",
 		"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
-					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
-					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
+					"Generated with weight [50] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [30] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [40] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [30] <in [Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
@@ -522,7 +522,7 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 6, "abundant": 8},
+		"majorDepositAmount": {"sparse": 6, "default": 7, "abundant": 8},
 		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5}	
 	},
 	{

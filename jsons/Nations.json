@@ -1568,8 +1568,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniqueText": "Reveal up to All tiles within a 5 tile radius upon founding a city\nNo ¤Maintenance costs for improvements in Hill tiles\n-50% ♪Culture cost of natural border growth in all cities",
-		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "No Maintenance costs for improvements in [Hill] tiles", "[-50]% Culture cost of natural border growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "Reveal up to All tiles within a 5 tile radius upon founding a city\n-25% ♪Culture cost of natural border growth in all cities",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "[-25]% Culture cost of natural border growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
