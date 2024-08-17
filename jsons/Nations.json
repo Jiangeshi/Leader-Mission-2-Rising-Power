@@ -1917,7 +1917,7 @@
 		"innerColor": [79,153,165],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Thriving and Prosperous",
-		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with 2 to 6 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with 3 to 6 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		]
