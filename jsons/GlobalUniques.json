@@ -49,10 +49,15 @@
     // 大航海家
     "Enables [Great Admiral] units to enter ocean tiles",
     "Enables [Lee Sunshin] units to enter ocean tiles",
-    "Enables [Themistocles] units to enter ocean tiles"
+    "Enables [Themistocles] units to enter ocean tiles",
     
     // 事件
-    "Triggers a [New Era] event <upon entering a new era>"
+    "Triggers a [New Era] event <upon entering a new era>",
+    
+    // 特殊军事伟人项目
+    "Instantly consumes [20] [Feat] <upon constructing [Classical Era Special Military Great Person Project]>",
+    "Instantly consumes [20] [Feat] <upon constructing [Medieval era Special Military Great Person Project]>"
+    
     
     // 宗教
     "[+2]% Yield from every [{non-[Wonder]} {Faith}] <after adopting [Heal the World and Guide the Lost]>"

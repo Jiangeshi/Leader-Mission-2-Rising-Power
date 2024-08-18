@@ -2724,7 +2724,6 @@
         "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person"
 		"uniques": [
-		"Costs [20] [Feat]",
 		"Provides a [No-Sun Tzu] in your first [1] cities for free <if [Sun Tzu] is constructed by anybody>",
 		"Provides a [No-Gnaeus Pompeius Magnus] in your first [1] cities for free <if [Gnaeus Pompeius Magnus] is constructed by anybody>",
 		"Provides a [No-Spartacus] in your first [1] cities for free <if [Spartacus] is constructed by anybody>",
@@ -2735,7 +2734,7 @@
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Classical era]> <for [Major]>", "Cannot be purchased",
+		"Only available <during the [Classical era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
 		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
@@ -2834,7 +2833,6 @@
         "cost": 60,
         "replacementTextForUniques": "Choose a special Military Great Person"
 		"uniques": [
-		"Costs [20] [Feat]",
 		"Provides a [No-Belisarius] in your first [1] cities for free <if [Belisarius] is constructed by anybody>",
 		"Provides a [No-Han Xin] in your first [1] cities for free <if [Han Xin] is constructed by anybody>",
 	    "Provides a [No-Bai Qi] in your first [1] cities for free <if [Bai Qi] is constructed by anybody>",
@@ -2855,7 +2853,7 @@
 		
 		"Remove [Medieval era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Medieval era]> <for [Major]>", "Cannot be purchased",
+		"Only available <during the [Medieval era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
 		
 		"Unavailable <if [Belisarius] is constructed by anybody> <if [Han Xin] is constructed by anybody> <if [Xiang Yu] is constructed by anybody> <if [Li Jing] is constructed by anybody> <if [Subedei] is constructed by anybody> <if [Timur] is constructed by anybody> <if [Jeanne] is constructed by anybody> <if [Khalid ibn al-Walid] is constructed by anybody> <if [Bayezid I] is constructed by anybody> <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody> <if [Narses] is constructed by anybody> <if [William Marshal] is constructed by anybody>",
 		
