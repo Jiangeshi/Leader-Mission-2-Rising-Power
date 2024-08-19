@@ -1705,8 +1705,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"replacementTextForUniques": "[[Provides a [Column] in your first [2] cities for free] [upon discovering [Burial Custom] technology]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Provides a [Column] in your first [2] cities for free <upon discovering [Burial Custom] technology>"]
+		"replacementTextForUniques": "[Gain a free [Column] [in capital]]\n[[+10]% Production when constructing [Culture] buildings [in capital]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Gain a free [Column] [in capital]", "[+10]% Production when constructing [Culture] buildings [in capital]"]
 	},
 	{
 		"name": "Column",

@@ -108,11 +108,11 @@
                 "conditions": ["for [Human player]"]
             },
             {
-                "text": "Gain Worker",
+                "text": "Gain Feat",
                 "triggeredUniques": [
-                "Free [Worker] appears"
+                "Instantly provides [10] [Feat]"
                 ],
-                "conditions": ["for [Human player]"]    
+                "conditions": []    
             },            
             {
                 "text": "Gain Technology",
