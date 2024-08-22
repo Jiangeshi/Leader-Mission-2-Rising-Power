@@ -294,7 +294,7 @@
 		"innerColor": [243, 243, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
-		"uniqueText": "[[+1 Food] from [Forest] tiles without [Hill] [in all cities]]\n[[+1 Production] from [Jungle] tiles without [Hill] [in all cities]]",
+		"uniqueText": "[[+1 Food] from [Forest] tiles without [Hill] [in all cities]]\n[[+1 Production] from [Jungle] tiles without [Hill] [in all cities]]\n[[Double movement in [Vegetation]] [for [Military] units]]",
 		"uniques": ["[+1 Food] from [Forest] tiles without [Hill] [in all cities]", "[+1 Production] from [Jungle] tiles without [Hill] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
@@ -959,7 +959,7 @@
 		"innerColor": [0,54,128],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
-		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nNew [Worker] units and [Settler] units receive the [Blizzard Wind Ability] promotion",
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nNew Land Civilian units receive the [Blizzard Wind Ability] promotion",
 		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
@@ -1315,8 +1315,8 @@
 		"innerColor": [0,156,59],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tropical Heritage",
-		"uniqueText": "+1 [Gold] from Jungle tiles in all cities\n+2 [Gold] from Jungle tiles in all cities after discovering [Ecology]\n+1 [Culture] from Fresh Water tiles in all cities\n+2 [Culture] from Fresh Water tiles in all cities after discovering [Ecology]",
-		"uniques": ["[+1 Gold] from [Jungle] tiles [in all cities]", "[+2 Gold] from [Jungle] tiles [in all cities] <after discovering [Ecology]>", "[+1 Culture] from [Fresh Water] tiles [in all cities]", "[+2 Culture] from [Fresh Water] tiles [in all cities] <after discovering [Ecology]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "+1 [Food] from Jungle tiles in all cities\n+2 [Food] from Jungle tiles in all cities after discovering [Ecology]\n+1 [Culture] from Fresh Water tiles in all cities\n+2 [Culture] from Fresh Water tiles in all cities after discovering [Ecology]",
+		"uniques": ["[+1 Food] from [Jungle] tiles [in all cities]", "[+2 Food] from [Jungle] tiles [in all cities] <after discovering [Ecology]>", "[+1 Culture] from [Fresh Water] tiles [in all cities]", "[+2 Culture] from [Fresh Water] tiles [in all cities] <after discovering [Ecology]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
@@ -1345,8 +1345,8 @@
 		"innerColor": [253,213,17],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Caribbean Alligator",
-		"uniqueText": "[Unit will heal every turn, even if it performs an action]",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[[+5] HP when healing] [for [Military] units]]",
+		"uniques": ["[+5] HP when healing <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
     },

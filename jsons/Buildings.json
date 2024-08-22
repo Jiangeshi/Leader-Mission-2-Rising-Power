@@ -1396,8 +1396,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vietnam",
-		"replacementTextForUniques": "+25% †Strength for Military units when fighting in Forest and Jungle tiles",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+25]% Strength <for [Military] units> <when fighting in [Jungle] tiles>"]
+		"replacementTextForUniques": "+15% †Strength for Military units when fighting in Forest and Jungle tiles",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Jungle] tiles>"]
 		
 	// 巴勒斯坦
 	},
@@ -1861,7 +1861,7 @@
 		"gold": 2,
 		"culture": 3,
 		"requiredTech": "Art",
-		"uniques":["Gain [100]-[200] [Gold]", "Gain [30]-[50] [Culture]"]	
+		"uniques":["Gain [200]-[300] [Gold] <(modified by game speed)>", "Gain [50]-[100] [Culture] <(modified by game speed)>"]	
 	},
 	{
 		"name": "Auspicious Snow",
@@ -1883,13 +1883,14 @@
 		"cost": 1,
 		"uniqueTo": "Finland",
 	    "maintenance": 0,
-	       "replacementTextForUniques": "Remove [Auspicious Snow]\n+1 / +2 [Production] from every [Mine] in [Tundra] / [Snow] tiles\n+1 / +2 [Gold] from every [Lumber mill] in [Tundra] / [Snow] tiles"
+	    "replacementTextForUniques": "Remove [Auspicious Snow]\n+1 / +2 [Production] from [Snow] and [Tundra] tiles\n+1 / +2 [Gold] from every [Lumber mill] in [Tundra] / [Snow] tiles"
 		"uniques":[
 		"Can only be built<in [in capital] cities>", 
 		"Cannot be purchased", "Unsellable",
 		"Destroyed when the city is captured",
 		"Remove [Auspicious Snow] [in all cities]",
-		"Only available <for [Human player]>"
+		"[+2 Production] from [Snow] tiles [in all cities]",
+		"[+1 Production] from [Tundra] tiles [in all cities]",
 		]		
 		
 	// 苏联
@@ -2227,8 +2228,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"replacementTextForUniques": "+3 [Culture] when below 0 [Happiness]\n+15% [Culture] in all cities while the empire is ⌣happy",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Fidel Castro]>", "[+3 Culture] <when below [0] Happiness>", "[+15]% [Culture] [in all cities] <while the empire is happy>"]	
+		"replacementTextForUniques": "[[+2 Culture]]\n[[[+15]% [Culture] [in all cities]] [when below [0] Happiness]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Fidel Castro]>", "[+2 Culture]", "[+15]% [Culture] [in all cities] <when below [0] Happiness>"]	
 	},
 	{	
         "name": "Civilized Leader-Fidel Castro",
@@ -2721,7 +2722,7 @@
 	{
 		"name": "Classical Era Special Military Great Person Project",
         "maintenance": 0,
-        "cost": 40,
+        "cost": 20,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
 		"uniques": [
 		"Provides a [No-Sun Tzu] in your first [1] cities for free <if [Sun Tzu] is constructed by anybody>",
@@ -2830,7 +2831,7 @@
 	{
 		"name": "Medieval era Special Military Great Person Project",
         "maintenance": 0,
-        "cost": 60,
+        "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
 		"uniques": [
 		"Provides a [No-Belisarius] in your first [1] cities for free <if [Belisarius] is constructed by anybody>",

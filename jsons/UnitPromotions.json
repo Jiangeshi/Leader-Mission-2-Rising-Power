@@ -1322,7 +1322,13 @@
 	},
 	{
 		"name": "Start a Concert",
-		"uniques": ["Gain [7] [Culture] <(modified by game speed)>", "Gain [13] [Gold] <(modified by game speed)>", "Doing so will consume this opportunity to choose a Promotion"]			
+		"uniques": [
+		"Gain [8] [Culture] <(modified by game speed)> <in tiles without [Enemy]>", 
+		"Gain [14] [Gold] <(modified by game speed)> <in tiles without [Enemy]>",
+		"Gain [16] [Culture] <(modified by game speed)> <in [Enemy] tiles>", 
+		"Gain [28] [Gold] <(modified by game speed)> <in [Enemy] tiles>", 
+		
+		"Doing so will consume this opportunity to choose a Promotion"]			
 	},
 	{
 		"name": "[Impi] ability",
@@ -1452,10 +1458,10 @@
 	{
 		"name": "With One Heart",
 		"uniques": [
-		"[+4]% Strength <when adjacent to a [Foot Soldier] unit>",
-		"[+4]% Strength <when adjacent to a [Shooter] unit>",
-		"[+4]% Strength <when adjacent to a [Anti-Mobile] unit>",
-		"[+4]% Strength <when adjacent to a [Mobile] unit>",
+		"[+3]% Strength <when adjacent to a [Foot Soldier] unit>",
+		"[+3]% Strength <when adjacent to a [Shooter] unit>",
+		"[+3]% Strength <when adjacent to a [Anti-Mobile] unit>",
+		"[+3]% Strength <when adjacent to a [Mobile] unit>",
 		]
 	},
 	{

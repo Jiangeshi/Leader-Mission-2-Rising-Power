@@ -22,7 +22,6 @@
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [2] tiles of a [Mine]>", 
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [1] tiles of a [City center]>", 
 		"Pillaging this improvement yields approximately [+15 Gold]",
-		"[+1 Production] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>", "[+2 Production] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
 		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]>",
 		],
@@ -392,7 +391,7 @@
 	    "turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": [
-		"Gives a defensive bonus of [20]%", 
+		"Gives a defensive bonus of [15]%", 
 		"Does not need removal of [Vegetation]", 
 		"Improves [Bonus] resource in this tile", 
 		"Improves [Strategic] resource in this tile", 

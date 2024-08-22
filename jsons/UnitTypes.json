@@ -37,7 +37,9 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]    
     },
     {
@@ -60,7 +62,9 @@
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]
     },
     {
@@ -85,7 +89,9 @@
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]    
     },
     {
@@ -110,7 +116,9 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]    
     },
     {
@@ -133,7 +141,9 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>",
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]    
     },
     {
@@ -155,7 +165,9 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]        
     },
     {
@@ -173,7 +185,9 @@
         "May enter foreign tiles without open borders <for [Poland]>",       
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]                
     },
     {
@@ -195,7 +209,9 @@
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
         "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
         ]    
     },
     {
