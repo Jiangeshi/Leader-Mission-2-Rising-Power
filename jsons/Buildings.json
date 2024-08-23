@@ -2257,16 +2257,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
-		"replacementTextForUniques": "+2 [Culture] from every specialist",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Culture] from every specialist [in all cities]"]	
+		"replacementTextForUniques": "[[+2 Culture, +1 Gold] from every specialist [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Culture, +1 Gold] from every specialist [in all cities]"]	
 	},
 	{	
         "name": "Civilized Leader-Franklin Delano Roosevelt",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
-		"replacementTextForUniques": "+1 [Production] and +1 [Gold] from every specialist"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "[+1 Production, +1 Gold] from every specialist [in all cities]"]	
+		"replacementTextForUniques": "[[+1 Production, +1 Science] from every specialist [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "[+1 Production, +1 Science] from every specialist [in all cities]"]	
 	
 	// 阿根廷
 	},
