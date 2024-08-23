@@ -17,7 +17,6 @@
         "name": "City Level I",
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",
-		"Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>"
 		]	
 	},
 	{
@@ -177,7 +176,7 @@
 	{
         "name": "City Level II",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>"]	
 	},
 	{
 		"name": "Market",
@@ -1967,7 +1966,7 @@
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Horseback Riding"
 
-// 梵蒂冈
+    // 梵蒂冈
 	},
 	{	
         "name": "Pope-Innocent III",
@@ -2007,7 +2006,7 @@
 		"replaces": "Palace",
 		"uniques": ["Indicates the capital city", "[+1 Faith] per [3] population [in cities following our religion]"]	
 		
-	// 凯尔特
+	// 爱尔兰
 	},
 	{	
         "name": "Civilized Leader-Boudicca",
@@ -2056,7 +2055,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Netherlands",
-		"replacementTextForUniques": "[Connects trade routes over water]\n[Retain [50]% of the happiness from a luxury after the last copy has been traded away]",
+		"replacementTextForUniques": "[Connects trade routes over water] in II Level City\n[Retain [50]% of the happiness from a luxury after the last copy has been traded away]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Retain [50]% of the happiness from a luxury after the last copy has been traded away"]
 	},
 	{
@@ -2119,8 +2118,55 @@
 		"Provides [1] [Grain Investment]",
 		"[+5 Gold] <without [Grain Investment]>",
 		"[+15]% growth [in all cities] <without [Grain Investment]>",
-		]		
-
+		]
+		
+	// 瑞典
+    },
+	{	
+        "name": "Civilized Leader-Gustavus Adolphus",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sweden",
+		"replacementTextForUniques": "[New [Military] units start with [5] Experience [in this city]]\n[[1] free [Staff] units appear]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kristina Augusta]>", "New [Military] units start with [5] Experience [in this city]", "[1] free [Staff] units appear"]	
+	},
+	{	
+        "name": "Civilized Leader-Kristina Augusta",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sweden",
+		"replacementTextForUniques": "[[+20]% Production when constructing [General Staff] buildings [in all cities]]\n[[+2 Culture] from every [General Staff]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Gustavus Adolphus]>", "[+20]% Production when constructing [General Staff] buildings [in all cities]", "[+2 Culture] from every [General Staff]"]
+	},
+	{
+		"name": "General Staff",
+		"maintenance": 1,
+		"cost": 84,
+		"uniqueTo": "Sweden",
+		"replaces": "Barracks",
+		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Army Formation"
+	
+	//苏格兰
+	},
+	{	
+        "name": "Civilized Leader-Wallace",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Scotland",
+		"replacementTextForUniques": "[When defeating a [Barbarian] unit, earn [-15] Gold and recruit it]",
+		"uniques": ["Can only be built<in [in capital] cities>", "When defeating a [Barbarian] unit, earn [-15] Gold and recruit it"]
+	},
+	{
+		"name": "Ancient Castle",
+		"happiness": 2,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"requiredTech": "Chivalry",
+		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"replaces": "Castle",
+		"uniqueTo": "Scotland",
+		
 	// 印加
 	},
 	{	
@@ -2277,6 +2323,28 @@
 		"uniqueTo": "Argentina",
 		"replacementTextForUniques": "[New [Military] units start with [10] Experience [in all cities]]"
 		"uniques": ["Can only be built<in [in capital] cities>", "New [Military] units start with [10] Experience [in all cities]"]	
+
+    // 易洛魁
+    },
+	{	
+        "name": "Civilized Leader-Hiawatha",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Iroquois",
+		"replacementTextForUniques": "[[Instantly provides [1] [Feat]] [upon gaining a [Foot Soldier] unit]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Instantly provides [1] [Feat] <upon gaining a [Foot Soldier] unit>"]
+    },
+	{
+		"name": "Longhouse",
+		"maintenance": 2,
+		"production": 2,
+		"cost": 100,
+		"uniqueTo": "Iroquois",
+		"replaces": "Workshop",
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 15},
+		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Defensive Fortification"	
 		
 	// 布基纳法索
 	},

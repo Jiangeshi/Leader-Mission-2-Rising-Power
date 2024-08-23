@@ -1766,6 +1766,49 @@ BuildingIcons/Civilized Leader-Richard I
   orig: 270, 270
   offset: 0, 0
   index: -1
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Gustavus Adolphus
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Kristina Augusta
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Hiawatha
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Wallace
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
+
+
+
+
+
+
 
 
 
@@ -2312,6 +2355,25 @@ BuildingIcons/Altar of Prayer
   orig: 140, 140
   offset: 0, 0
   index: -1 
+  
+Images/BuildingIcons/General Staff.png
+BuildingIcons/General Staff
+  rotate: false
+  xy: 0,0
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1 
+  
+Images/BuildingIcons/AncientCastle.png
+BuildingIcons/Ancient Castle
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1       
+  
   
 Images/BuildingIcons/GreatGeneral.png
 BuildingIcons/Classical Era Special Military Great Person Project
@@ -2993,7 +3055,14 @@ NationIcons/LianFang Court
   offset: 0, 0
   index: -1    
   
-  
+Images/NationIcons/Scotland.png
+NationIcons/Scotland
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
   
   
 Images/PolicyIcons/Centralization.png
@@ -4011,6 +4080,15 @@ UnitIcons/Templar Knight
   orig: 110, 110
   offset: 0, 0
   index: -1   
+  
+Images/UnitIcons/BlackWatchIcon.png
+UnitIcons/Black Watch
+  rotate: false
+  xy: 0,0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1 
  
 Images/UnitIcons/GreatProphet.png
 size: 100, 100
@@ -4124,8 +4202,25 @@ UnitIcons/Clan Archer
   orig: 130, 180
   offset: 0, 0
   index: -1 
- 
+   
+Images/UnitIcons/Staff.png
+UnitIcons/Staff
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1 
   
+Images/UnitIcons/Light Cannon.png
+UnitIcons/Light Cannon
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1 
+ 
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
 format: RGBA8888

@@ -1412,7 +1412,14 @@
     {
         "name": "[William Marshal] ability",
         "uniques": ["Ignores terrain cost <during the [Medieval era]>"],
-        
+    },
+    {
+        "name": "[Mohawk Warrior] ability",
+        "uniques": ["[+25]% Strength <when fighting in [Enemy Land] tiles>", "[Great General] is earned [50]% faster"],
+    },
+    {
+        "name": "[Black Watch] ability",
+        "uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"]
         
         
         

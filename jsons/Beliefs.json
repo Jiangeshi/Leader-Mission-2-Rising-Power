@@ -96,7 +96,7 @@
     {
         "name": "God of Forging",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Food] from [Quarry] tiles without [Grassland] [in all cities]", "[+1 Production] from every [Quarry]"]
+        "uniques": ["[+1 Production] from every [Quarry]", "[+1 Production, +1 Food] from [Quarry] tiles without [Grassland] [in all cities]"]
     },
     {
         "name": "God of the Tides",

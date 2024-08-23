@@ -1059,7 +1059,7 @@
 		"name": "Celts",
 		"leaderName": "Leader",
 		"personality": "base",
-		"adjective": ["Celtic"],
+		"adjective": ["Irish"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 
@@ -1082,10 +1082,7 @@
 		"uniqueName": "Druidic Lore",
 		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Forest] tiles]"
 		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Forest] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
-		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
-			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
-			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
-			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"],
+		"cities": ["Dublin", "Cork", "Limerick", "Galway", "Waterford", "Belfast", "Derry", "Newry", "Bangor", "Lisburn", "Killarney", "Kilkenny", "Dundalk", "Sligo", "Wexford", "Tralee", "Navan", "Athlone", "Ennis", "Armagh", "Newtownabbey", "Ballymena", "Antrim", "Coleraine", "Omagh", "Dungannon", "Larne", "Magherafelt", "Carrickfergus"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]    
     },
 	{
@@ -1156,8 +1153,81 @@
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
-        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]    
-             
+        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
+    
+    // 瑞典    
+    },
+	{
+	    "name": "Sweden",
+		"leaderName": "Leader",
+		"adjective": ["Swedish"],
+		"startBias": ["Tundra"],
+		
+		"preferredVictoryType": "Domination",
+		"personality": "base",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [8, 8, 166],
+		"innerColor": [249, 247, 3],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Lion of the North",
+		"uniqueText": "[When declaring friendship, both parties gain a [20]% boost to great person generation]\n[[[+10]% Strength] [when fighting in [Enemy Land] tiles]]",
+		"uniques": ["When declaring friendship, both parties gain a [20]% boost to great person generation", "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
+            "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
+            "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
+            "Södertälje","Mariestad","Östersund","Borås","Sundsvall","Vimmerby","Köping","Mora","Arboga","Växjö","Gränna",
+            "Kiruna","Borgholm","Strängnäs","Sveg"
+        ],
+        "spyNames": ["Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"]
+    },
+	{
+		"name": "Scotland",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Scot"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [253,231,129],
+        "innerColor": [232,76,76],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Lion and Bagpipe",
+		"uniqueText": "[[100]% of excess happiness converted to [Gold]]\n[[[100]% of excess happiness converted to [Culture]] [after discovering [Art]]]\n[[+2] Happiness from each type of luxury resource]"
+		"uniques": [
+		"[100]% of excess happiness converted to [Gold]",
+		"[100]% of excess happiness converted to [Culture] <after discovering [Art]>",
+		"[+2] Happiness from each type of luxury resource",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+			],
+		"cities": ["Edinburgh","Glasgow","Ankara","Lenflewshire","West Dunbartonshire","East Dunbartonshire","East Lenflewshire","North Lanarkshire","Falkirk","West Lothian","Midlothian",
+			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
+			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
     //美洲
     },
 	{
@@ -1414,6 +1484,39 @@
 		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-50]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
+    },
+	{
+		"name": "Iroquois",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Iroquoise"],
+		"startBias": ["Forest"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [54,72,72],
+        "innerColor": [246,205,137],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Six Clan Alliance",
+		"uniqueText": "-35% [Production] cost for [Settler] and [Worker] units",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
         
     //非洲
     },
