@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-35]% production cost <for [Iroquois]>"
+		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>"
 		],
 		"cost": 70
 	},
@@ -19,7 +19,7 @@
 		"cost": 70,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
 		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>",
-		"[-35]% production cost <for [Iroquois]>"
+		"[-25]% production cost <for [Iroquois]>"
 		],
 	},
 	{
@@ -1076,7 +1076,7 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Iran",
 		"movement": 2,
-		"strength": 12,
+		"strength": 11,
 	    "cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
@@ -1092,7 +1092,7 @@
 		"cost": 55,
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 10,
+		"rangedStrength": 9,
 		"upgradesTo": "Pikeman",
 		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal]"],
 		"promotions":["[Persian Immortal] ability"],
@@ -1294,13 +1294,13 @@
 		"uniqueTo": "Rome",
 		"movement": 2,
 		"strength": 6,
-		"rangedStrength": 10,
+		"rangedStrength": 9,
 		"range": 3,
 		"cost": 72,
 	    "requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"attackSound": "throw"	
     },
 	{
@@ -1933,6 +1933,7 @@
 		"[+10]% Strength bonus for [Land] units within [1] tiles", 
 		"[+5]% Strength bonus for [Land] units within [2] tiles", 
 		"Unbuildable",
+		"[-1] Movement <after adopting [Discipline]>"
 		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 3,
 	},

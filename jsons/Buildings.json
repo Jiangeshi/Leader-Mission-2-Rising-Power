@@ -1704,8 +1704,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"replacementTextForUniques": "[Gain a free [Column] [in capital]]\n[[+10]% Production when constructing [Culture] buildings [in capital]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Gain a free [Column] [in capital]", "[+10]% Production when constructing [Culture] buildings [in capital]"]
+		"replacementTextForUniques": "[Gain a free [Column] [in capital]]\n[[+10]% Production when constructing [Culture] buildings [in capital]]\n[[-1 Culture] [in capital]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Gain a free [Column] [in capital]", "[+10]% Production when constructing [Culture] buildings [in capital]", "[-1 Culture] [in capital]"]
 	},
 	{
 		"name": "Column",
@@ -2135,8 +2135,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sweden",
-		"replacementTextForUniques": "[[+20]% Production when constructing [General Staff] buildings [in all cities]]\n[[+2 Culture] from every [General Staff]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Gustavus Adolphus]>", "[+20]% Production when constructing [General Staff] buildings [in all cities]", "[+2 Culture] from every [General Staff]"]
+		"replacementTextForUniques": "[[+25]% Production when constructing [General Staff] buildings [in all cities]]\n[[+2 Culture, +1 Production] from every [General Staff]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Gustavus Adolphus]>", "[+25]% Production when constructing [General Staff] buildings [in all cities]", "[+2 Culture, +1 Production] from every [General Staff]"]
 	},
 	{
 		"name": "General Staff",
@@ -2144,7 +2144,7 @@
 		"cost": 84,
 		"uniqueTo": "Sweden",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Unsellable", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	
 	//苏格兰
