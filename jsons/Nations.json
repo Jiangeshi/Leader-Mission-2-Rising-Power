@@ -420,11 +420,7 @@
 		"uniqueText": "+1% Yield from every City Level\n+2% Yield from every [Culture] buildings"
 		"uniques": [
 		"[+2]% Yield from every [Culture]", 
-		"[+1]% Yield from every [City Level I]", 
-		"[+1]% Yield from every [City Level II]", 
-		"[+1]% Yield from every [City Level III]", 
-		"[+1]% Yield from every [City Level IV]", 
-		"[+1]% Yield from every [City Level V]", 
+		"[+1]% Yield from every [City Level]", 
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
@@ -1707,7 +1703,43 @@
 		"uniqueText": "Land unit gains 2 XP upon ending a turn in a [Land] tile in your cities",
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
-        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]               
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
+    },
+	{
+		"name": "Songhai",
+		"leaderName": "Leader",
+		"adjective": ["Songhai"],
+		"startBias": ["Avoid [Tundra]"],
+		"personality": "base",
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [214, 145, 19],
+		"innerColor": [90, 0, 10],
+		"favoredReligion": "Islam",
+		"uniqueName": "African Warlord",
+		"uniqueText": "[[+1 Culture] from every [City Level]]\n[Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately]\n[May buy [Mud Pyramid Mosque] buildings for [75] [Culture] [in all cities] at an increasing price ([15])]"
+		"uniques": [
+		"[+1 Culture] from every [City Level]", 
+		"Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately", 
+		"May buy [Mud Pyramid Mosque] buildings for [75] [Culture] [in all cities] at an increasing price ([15])"
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
+			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
+			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"],
+        "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
         
     // 游牧  
     },

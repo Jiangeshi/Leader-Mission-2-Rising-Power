@@ -1802,8 +1802,24 @@ BuildingIcons/Civilized Leader-Wallace
   orig: 270, 270
   offset: 0, 0
   index: -1
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Sonni Ali
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
-
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Muhammad Dours
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 

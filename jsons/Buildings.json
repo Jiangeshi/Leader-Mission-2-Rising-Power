@@ -16,7 +16,7 @@
 	{
         "name": "City Level I",
         "cost": 5000,
-		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable",
+		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level"
 		]	
 	},
 	{
@@ -176,7 +176,7 @@
 	{
         "name": "City Level II",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>", "City Level"]	
 	},
 	{
 		"name": "Market",
@@ -419,7 +419,7 @@
 	{
         "name": "City Level III",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [7] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]	
+		"uniques": ["Only available <starting from the [Medieval era]>", "Only available <when above [7] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level"]	
 	},
 	{
 		"name": "University",
@@ -556,7 +556,7 @@
 	{
         "name": "City Level IV",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [12] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"uniques": ["Only available <starting from the [Renaissance era]>", "Only available <when above [12] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level"]
 	},
 	{
 		"name": "Bank",
@@ -711,7 +711,7 @@
         "name": "City Level V",
         "cost": 5000,
 		"uniques": [
-		"Only available <starting from the [Industrial era]>", "Only available <when above [16] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable"]
+		"Only available <starting from the [Industrial era]>", "Only available <when above [16] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level"]
 	},
 	{
 		"name": "Public School",
@@ -2493,7 +2493,33 @@
 		"science": 1,
 		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
-		
+	
+	// 桑海
+	    },
+	{	
+        "name": "Civilized Leader-Sonni Ali",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Songhai",
+		"replacementTextForUniques": "[Defense bonus when embarked]\n[[{Military} {Land}] units gain the [Amphibious] promotion]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Muhammad Dours]>", "Defense bonus when embarked <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"]	
+	},
+	{	
+        "name": "Civilized Leader-Muhammad Dours",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Songhai",
+		"replacementTextForUniques": "[[+1 Culture] from all [Faith] buildings]\n[[-10]% Culture cost of adopting new Policies]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Sonni Ali]>", "[+1 Culture] from all [Faith] buildings", "[-10]% Culture cost of adopting new Policies",]
+	},
+	{
+		"name": "Mud Pyramid Mosque",
+		"maintenance": 1,
+		"requiredTech": "Theology",
+		"replaces": "Temple",
+        "uniqueTo": "Songhai",
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+	
 	// 匈人
 	},
 	{	
