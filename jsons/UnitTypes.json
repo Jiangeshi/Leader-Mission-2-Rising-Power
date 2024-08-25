@@ -5,7 +5,7 @@
         "uniques": [
         "Unit will heal every turn, even if it performs an action <for [Cuba]>",
         "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", "May travel on Water tiles without embarking <for [Indonesia]>"
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
         ]
     },
     {
@@ -35,9 +35,9 @@
         
         "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]    
@@ -59,10 +59,10 @@
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]
@@ -86,10 +86,10 @@
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
         "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]    
@@ -109,14 +109,14 @@
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
         "Cannot attack <in [Marsh] tiles>",
-        "Heal this unit by [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "This Unit gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
+        "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
         
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]    
@@ -139,9 +139,9 @@
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>",
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]    
@@ -163,9 +163,9 @@
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]        
@@ -183,9 +183,9 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>",       
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]                
@@ -207,9 +207,9 @@
         "Ignores Zone of Control <for [Poland]>",
         "May enter foreign tiles without open borders <for [Poland]>", 
         "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
-        "Heal this unit by [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
-        "This Unit gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
-        "Heal this unit by [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
         "Double movement in [Forest] <for [Vietnam]>",
         "Double movement in [Jungle] <for [Vietnam]>",
         ]    

@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>"
+		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>"
 		],
 		"cost": 70
 	},
@@ -18,7 +18,7 @@
 		"replaces": "Worker",
 		"cost": 70,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>",
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>",
 		"[-25]% production cost <for [Iroquois]>"
 		],
 	},
@@ -27,7 +27,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-35]% production cost <for [Iroquois]>"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-35]% production cost <for [Iroquois]>"],
 	},
 	{
 		"name": "Work Boats",
@@ -115,7 +115,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -130,7 +130,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Hypaspist] ability"],
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -145,7 +145,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Iron Wall Legion] ability"],
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"attackSound": "metalhit"
 	},
 	{
@@ -159,7 +159,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"],
+		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"],
 		"attackSound": "metalhit"	
     },
 	{
@@ -186,7 +186,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"attackSound": "metalhit"
 	},
 	{
@@ -200,7 +200,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"promotions": ["Drill I"]
 		"attackSound": "metalhit"
 	},
@@ -215,7 +215,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
@@ -230,7 +230,7 @@
 	    "requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]", "Consumes [1] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [1] movement>"]
 		"promotions": ["[Black Watch] ability"],
 		"attackSound": "metalhit"
 	},
@@ -440,7 +440,7 @@
 		"cost": 720,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Robotics",
-		"uniques":["Costs [5] [Aluminum]", "Consumes [1] [Aluminum]",  "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [5] [Aluminum]", "Consumes [1] [Aluminum]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
 		"attackSound": "tankshot"
 			
 	// 射手
@@ -528,7 +528,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -573,7 +573,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "arrow"		
 	},
 	{
@@ -589,7 +589,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -752,7 +752,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "horse"
 	},
 	{
@@ -767,7 +767,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"promotions": ["[Companion Cavalry] ability"],
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -781,7 +781,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -810,7 +810,7 @@
 	    "requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
         "promotions": ["[Heavy Spear Cavalry] ability"],
 		"attackSound": "horse"
 	},
@@ -825,7 +825,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"promotions": ["[Red Mirror Horseman] ability"],
 		"attackSound": "horse"
 	},
@@ -840,7 +840,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"promotions": ["Charge I"],
 		"attackSound": "horse"
 	},
@@ -853,7 +853,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -868,7 +868,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -884,7 +884,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"	
 	},
@@ -899,7 +899,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"	
 	},
@@ -914,7 +914,7 @@
 	    "requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength <when attacking> <on foreign continents>", "[+2] Sight", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength <when attacking> <on foreign continents>", "[+2] Sight", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"	
 	},
@@ -929,7 +929,7 @@
         "requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"attackSound": "arrow"			
     },
 	{
@@ -943,7 +943,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [200] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [200] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Templar Knight] ability"],
 		"attackSound": "horse"		
 	},
@@ -958,7 +958,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>", "[+33]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
+		"uniques": ["Costs [10] [Iron]", "Consumes [1] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>", "[+33]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
 		"attackSound": "elephant"
 	},
 	{
@@ -972,7 +972,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [100] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [100] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"attackSound": "horse"	
 		
 	},
@@ -985,7 +985,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -999,7 +999,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>"],
 		"attackSound": "shot"   
 	},
 	{
@@ -1011,7 +1011,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "tankshot"
    	},
 	{
@@ -1022,7 +1022,7 @@
 		"cost": 720,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},
 	{
@@ -1035,7 +1035,7 @@
 		"cost": 670,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},
 	{
@@ -1048,7 +1048,7 @@
 		"cost": 800,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-	    "uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+	    "uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},
 	{
@@ -1058,7 +1058,7 @@
 		"strength": 100,
 		"cost": 770,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},
 	{
@@ -1068,7 +1068,7 @@
 		"strength": 150,
 		"cost": 1200,
 		"requiredTech": "Artificial Intelligence",
-		"uniques": ["Costs [20] [Aluminum]", "Consumes [1] [Aluminum]","Costs [20] [Steels]", "Consumes [1] [Steels]", "Costs [30] [Uranium]", "Consumes [1] [Uranium]", "Can move after attacking", "No defensive terrain bonus", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [20] [Aluminum]", "Consumes [1] [Aluminum]","Costs [20] [Steels]", "Consumes [1] [Steels]", "Costs [30] [Uranium]", "Consumes [1] [Uranium]", "Can move after attacking", "No defensive terrain bonus", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "gdrAttack"
 			
 	// 反XX单位
@@ -1190,7 +1190,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1205,7 +1205,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Raid I"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1221,7 +1221,7 @@
 		"cost": 248,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["[Hakkapeliitta] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1236,7 +1236,7 @@
 		"strength": 27,
 		"cost": 270,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [5] [Steels]", "Consumes [1] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["[Winged Hussar] ability", "Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1250,7 +1250,7 @@
 		"cost": 570,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques":["Costs [10] [Steels]", "Consumes [1] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [1] movement>"]
+		"uniques":["Costs [10] [Steels]", "Consumes [1] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [1] movement>"]
 		"attackSound": "machinegun"
 	},
 	{
@@ -1260,7 +1260,7 @@
 		"strength": 65,
 		"cost": 800,
 		"requiredTech": "Computers",
-		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+66]% Strength <vs [Mobile] units> <when attacking>", "Can pass through impassable tiles", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [3] movement>"],
+		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+66]% Strength <vs [Mobile] units> <when attacking>", "Can pass through impassable tiles", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [3] movement>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1273,7 +1273,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mobile SAM",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["Costs [10] [Steels]", "Consumes [1] [Steels]", "[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [1] movement>"],
+		"uniques": ["Costs [10] [Steels]", "Consumes [1] [Steels]", "[70]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [1] movement>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1284,7 +1284,7 @@
 		"strength": 70,
 		"cost": 820,
 		"requiredTech": "Rocketry",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "missile"	
 		
 	// 攻城单位
@@ -1402,7 +1402,7 @@
 		"requiredTech": "Dynamite",
 	    "obsoleteTech": "Rocketry",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>", "Heal this unit by [10] HP <costs [1] [Steels]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"	
 	},
@@ -1415,7 +1415,7 @@
 		"range": 3,
 		"cost": 800,
 		"requiredTech": "Rocketry",
-		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
+		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"	
 		
@@ -1554,7 +1554,7 @@
 		"requiredTech": "Steam Power",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","Costs [15] [Coal]", "Consumes [1] [Coal]","[+33]% Strength <vs cities>","Double movement in [Coast]", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]","Costs [15] [Coal]", "Consumes [1] [Coal]","[+33]% Strength <vs cities>","Double movement in [Coast]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "shipguns"		
 	},
 	{
@@ -1565,7 +1565,7 @@
 		"interceptRange": 2,
 		"cost": 720,
 		"requiredTech": "Combustion",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Coal]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Coal]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "shipguns"	
 
 	// 远程海军
@@ -1618,7 +1618,7 @@
 		"range": 4,
 		"cost": 745,
 		"requiredTech": "Electronics",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1633,7 +1633,7 @@
 		"range": 4,
 		"cost": 700,
 		"requiredTech": "Electronics",
-		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Heal this unit by [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"	
 	},
@@ -1647,7 +1647,7 @@
 		"interceptRange": 3,
 		"cost": 1000,
 		"requiredTech": "Internetwork",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[70]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can carry [4] [Flybomb] units", "[+100]% Strength <vs [Submarine] units>", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[70]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can carry [4] [Flybomb] units", "[+100]% Strength <vs [Submarine] units>", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"promotions": ["Indirect Fire", "Additional Range"],
 		"attackSound": "shipguns"	
 			
@@ -1660,7 +1660,7 @@
 		"strength": 70,
 		"cost": 800,
 		"requiredTech": "Electronics",
-		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [10] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"]
+		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [10] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"]
 		
 	// 潜艇
 	},
@@ -1673,7 +1673,7 @@
 		"cost": 655,
 		"requiredTech": "Radio",
 		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Aluminum]", "Consumes [1] [Aluminum]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can carry [1] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "torpedo"
     },
 	{
@@ -1685,7 +1685,7 @@
 		"rangedStrength": 85,
 		"cost": 850,
 		"requiredTech": "Telecommunications",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [20] [Uranium]", "Consumes [1] [Uranium]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Costs [20] [Uranium]", "Consumes [1] [Uranium]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "torpedo"
 		
 	// 战斗机
@@ -1718,7 +1718,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
+		"uniques": ["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1732,7 +1732,7 @@
 		"cost": 820,
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Oil",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "[90]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>","[+4] Sight", "Can see over obstacles", "Can perform Air Sweep", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "[90]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>","[+4] Sight", "Can see over obstacles", "Can perform Air Sweep", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
 		"attackSound": "jetgun"
 		
 	// 轰炸机
@@ -1761,7 +1761,7 @@
 		"cost": 720,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"uniques":["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
 	},
@@ -1777,7 +1777,7 @@
 		"cost": 720,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"uniques":["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [7] [Aluminum]", "Consumes [1] [Aluminum]", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"]
 		"promotions": ["Pinpoint Bombing I", "Tactical Evasion I"],
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"	
@@ -1792,7 +1792,7 @@
 		"cost": 880,
 		"requiredTech": "Stealth",
 		"requiredResource": "Oil",
-		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Damage taken from interception reduced by [50]%", "Cannot be carried by [Water Carrier] units", "[+4] Sight", "Can see over obstacles", "Heal this unit by [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Aluminum]", "Damage taken from interception reduced by [50]%", "Cannot be carried by [Water Carrier] units", "[+4] Sight", "Can see over obstacles", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [1] movement>"],
 		"attackSound": "bombing"
 		
 	// 核武器、导弹
@@ -1879,7 +1879,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2
 	},
 	{
@@ -1887,26 +1887,26 @@
 		"unitType": "Civilian",
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "This Unit gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2	
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2	
 	},
 	{
@@ -1919,14 +1919,14 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit",
-			"Takes your religion over the one in their birth city", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+			"Takes your religion over the one in their birth city", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2,
 		"religiousStrength": 1000,
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2	
 	},
 	{
@@ -1934,7 +1934,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 4,
 	},
 	{
@@ -1949,7 +1949,7 @@
 		"[+5]% Strength bonus for [Land] units within [2] tiles", 
 		"Unbuildable",
 		"[-1] Movement <after adopting [Discipline]>"
-		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 3,
 	},
 	{
@@ -1966,7 +1966,7 @@
 		"Uncapturable",
 		"Unbuildable",
 		"Is part of Great Person group [Military]",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	
@@ -1981,7 +1981,7 @@
 		    "Free Social Policy <by consuming this unit>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 			],
 		"movement": 2,
 	},
@@ -1992,7 +1992,7 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 			],
 		"movement": 2,
 	},
@@ -2006,7 +2006,7 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2019,7 +2019,7 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2031,7 +2031,7 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 			],
 		"movement": 2,
 		
@@ -2047,7 +2047,7 @@
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	},
@@ -2061,7 +2061,7 @@
 		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	},
@@ -2074,7 +2074,7 @@
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	},
@@ -2087,7 +2087,7 @@
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	},
@@ -2101,7 +2101,7 @@
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
 		"Great Admiral",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	
@@ -2116,7 +2116,7 @@
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2
 	},
@@ -2131,7 +2131,7 @@
 		"[+2] Sight <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2144,7 +2144,7 @@
 		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2157,7 +2157,7 @@
 		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2170,7 +2170,7 @@
 		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2183,7 +2183,7 @@
 		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2196,7 +2196,7 @@
 		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2209,7 +2209,7 @@
 		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
     },
@@ -2222,7 +2222,7 @@
 		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2235,7 +2235,7 @@
 		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2248,7 +2248,7 @@
 		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	},
@@ -2261,7 +2261,7 @@
 		"[Mobile] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
 		],
 		"movement": 2,
 	

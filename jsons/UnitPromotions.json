@@ -1025,7 +1025,7 @@
     },
     {
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Foot Soldier",
 		"Shooter",
 		"Mobile",
@@ -1376,7 +1376,7 @@
     },
     {
         "name": "[Li Jing] ability",
-        "uniques": ["This Unit gains [25] XP <during the [Medieval era]>"],
+        "uniques": ["[This Unit] gains [25] XP <during the [Medieval era]>"],
     },
     {
         "name": "[Subedei] ability",
@@ -1385,13 +1385,13 @@
     {
         "name": "[Timur] ability",
         "uniques": [
-        "This Unit gains the [[Timur] ability I] promotion <upon defeating a [Military] unit> <during the [Medieval era]>",
-        "This Unit loses the [[Timur] ability I] promotion <upon turn end>"
+        "[This Unit] gains the [[Timur] ability I] promotion <upon defeating a [Military] unit> <during the [Medieval era]>",
+        "[This Unit] loses the [[Timur] ability I] promotion <upon turn end>"
         ],
     },
     {
         "name": "[Timur] ability I",
-        "uniques": ["This Unit gains [1] movement", "[+1] additional attacks per turn"],
+        "uniques": ["[This Unit] gains [1] movement", "[+1] additional attacks per turn"],
     },
     {
         "name": "[Khalid ibn al-Walid] ability",
