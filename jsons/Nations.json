@@ -1863,6 +1863,34 @@
 		"uniques": ["[+10]% Strength <for [Military] units> <within [3] tiles of a [River]>", "[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+    },
+    {
+		"name": "Turk",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Turki"],
+		"startBias": ["Grassland"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [217,217,217],
+        "innerColor": [174,107,42],
+		"favoredReligion": "Islam",
+		"uniqueName": "Wolf of the Prairie",
+		"uniqueText": "[[[Target Unit] takes [5] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
+		"uniques": ["[Military] units gain the [Turk ability] promotion", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Qutaghan"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
             
     // 特殊文明
     },

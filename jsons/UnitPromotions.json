@@ -1424,6 +1424,10 @@
     {
         "name": "[Mandekalu Cavalry] ability",
         "uniques": ["[-10]% Strength"],
+    },
+    {
+        "name": "[Elite Cavalry] ability",
+        "uniques": ["[+25]% Strength <when adjacent to a [Great General] unit>"],
         
         
         
@@ -1480,7 +1484,11 @@
 		"name": "Record",
 		"uniques": [
 		"Earn [50]% of killed [Military] unit's [Strength] as [Science]"
-		]	
+		]
+	},
+    {
+        "name": "Turk ability",
+        "uniques":["[Target Unit] takes [5] damage <upon damaging a [Wounded] unit>"]
 	}
 ]
     

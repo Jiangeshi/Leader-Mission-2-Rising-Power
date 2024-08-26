@@ -2576,7 +2576,26 @@
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Rice] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Potato] tiles [in this city]", "[+1 Food] from [Water] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
-		"requiredTech": "Pottery"	 
+		"requiredTech": "Pottery"
+		
+	// 突厥
+	},
+	{	
+        "name": "Civilized Leader-Bumin",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Turk",
+		"replacementTextForUniques": "[[Great General] is earned [50]% faster]\n[[Instantly provides [2] [Feat]] [upon gaining a [Great General] unit]]\n[[Instantly provides [2] [Feat]] [upon founding a city]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ashina Dujishi]>", "[Great General] is earned [50]% faster", "Instantly provides [2] [Feat] <upon gaining a [Great General] unit>", "Instantly provides [2] [Feat] <upon founding a city>"]	
+	},
+	{	
+        "name": "Civilized Leader-Ashina Dujishi",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Turk",
+		"replacementTextForUniques": "[[+1 Production] from every [Camp]]\n[[+1 Science] from [Grassland] tiles [in capital]]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bumin]>", "[+1 Production] from every [Camp]", "[+1 Science] from [Grassland] tiles [in capital]", "[-15]% Culture cost of adopting new Policies",]
+	
 		   
 	// 云冀之庭
 	},

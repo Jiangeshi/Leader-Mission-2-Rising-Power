@@ -1821,9 +1821,23 @@ BuildingIcons/Civilized Leader-Muhammad Dours
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Bumin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
-
-
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Ashina Dujishi
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 
@@ -3080,6 +3094,18 @@ NationIcons/Scotland
   offset: 0, 0
   index: -1
   
+Images/NationIcons/Turk.png
+NationIcons/Turk
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1    
+  
+  
+  
+  
   
 Images/PolicyIcons/Centralization.png
 PolicyIcons/Centralization
@@ -4236,6 +4262,16 @@ UnitIcons/Light Cannon
   orig: 160, 160
   offset: 0, 0
   index: -1 
+  
+Images/UnitIcons/Elite Cavalry.png
+UnitIcons/Elite Cavalry
+  rotate: false
+  xy: 0,0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1 
+ 
  
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
@@ -4736,4 +4772,13 @@ UnitPromotionIcons/Record
   size: 140, 140
   orig: 140, 140
   offset: 0, 0
-  index: -1      
+  index: -1    
+  
+Images/UnitPromotionIcons/Turk.png
+UnitPromotionIcons/Turk ability
+  rotate: false
+  xy: 0, 0
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1    
