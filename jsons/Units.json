@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>"
+		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>",
 		],
 		"cost": 70
 	},
@@ -972,7 +972,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [100] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Costs [10] [Horses]", "Consumes [1] [Horses]", "Costs [10] [Iron]", "Consumes [1] [Iron]", "Can be purchased for [100] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking", "[Target Unit] gains the [[Mandekalu Cavalry] ability] status for [3] turn(s) <upon damaging a [Military] unit>", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Horses]> <for [2] movement>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"attackSound": "horse"	
 		
 	},

@@ -1419,7 +1419,12 @@
     },
     {
         "name": "[Black Watch] ability",
-        "uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"]
+        "uniques": ["[+33]% Strength <when fighting in [Rough terrain] tiles>"],
+    },
+    {
+        "name": "[Mandekalu Cavalry] ability",
+        "uniques": ["[-10]% Strength"],
+        
         
         
         

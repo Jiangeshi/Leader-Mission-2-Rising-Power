@@ -1213,10 +1213,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Lion and Bagpipe",
-		"uniqueText": "[[100]% of excess happiness converted to [Gold]]\n[[[100]% of excess happiness converted to [Culture]] [after discovering [Art]]]\n[[+2] Happiness from each type of luxury resource]"
+		"uniqueText": "[[100]% of excess happiness converted to [Gold]]\n[[[33]% of excess happiness converted to [Culture]]]\n[[+2] Happiness from each type of luxury resource]"
 		"uniques": [
 		"[100]% of excess happiness converted to [Gold]",
-		"[100]% of excess happiness converted to [Culture] <after discovering [Art]>",
+		"[33]% of excess happiness converted to [Culture]",
 		"[+2] Happiness from each type of luxury resource",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 			],
@@ -1729,11 +1729,11 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "African Warlord",
-		"uniqueText": "[[+1 Culture] from every [City Level]]\n[Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately]\n[May buy [Mud Pyramid Mosque] buildings for [75] [Culture] [in all cities] at an increasing price ([15])]"
+		"uniqueText": "[[+1 Culture] from every [City Level]]\n[Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately]\n[[{Military} {Land}] units gain the [Amphibious] promotion]"
 		"uniques": [
 		"[+1 Culture] from every [City Level]", 
 		"Upon capturing a city, receive [20] times its [Culture] production as [Culture] immediately", 
-		"May buy [Mud Pyramid Mosque] buildings for [75] [Culture] [in all cities] at an increasing price ([15])"
+		"[{Military} {Land}] units gain the [Amphibious] promotion"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",

@@ -2163,7 +2163,7 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "[15]% of excess happiness converted to [Culture]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
 		"replaces": "Castle",
 		"uniqueTo": "Scotland",
 		
@@ -2495,22 +2495,22 @@
 		"requiredTech": "Army Formation"
 	
 	// 桑海
-	    },
+	},
 	{	
         "name": "Civilized Leader-Sonni Ali",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Songhai",
-		"replacementTextForUniques": "[Defense bonus when embarked]\n[[{Military} {Land}] units gain the [Amphibious] promotion]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Muhammad Dours]>", "Defense bonus when embarked <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"]	
+		"replacementTextForUniques": "[Defense bonus when embarked]\n[[+1 Happiness, +1 Culture] in cities on [River] tiles]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Muhammad Dours]>", "Defense bonus when embarked <for [All] units>", "[+1 Happiness, +1 Culture] in cities on [River] tiles"]	
 	},
 	{	
         "name": "Civilized Leader-Muhammad Dours",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Songhai",
-		"replacementTextForUniques": "[[+1 Culture] from all [Faith] buildings]\n[[-10]% Culture cost of adopting new Policies]",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Sonni Ali]>", "[+1 Culture] from all [Faith] buildings", "[-10]% Culture cost of adopting new Policies",]
+		"replacementTextForUniques": "[[+1 Culture] from all [Faith] buildings]\n[[-15]% Culture cost of adopting new Policies]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Sonni Ali]>", "[+1 Culture] from all [Faith] buildings", "[-15]% Culture cost of adopting new Policies",]
 	},
 	{
 		"name": "Mud Pyramid Mosque",
@@ -2518,7 +2518,7 @@
 		"requiredTech": "Theology",
 		"replaces": "Temple",
         "uniqueTo": "Songhai",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>", "Can be purchased for [100] [Culture] [in all cities]"]	
 	
 	// 匈人
 	},
