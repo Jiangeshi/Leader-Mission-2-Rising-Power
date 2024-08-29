@@ -466,7 +466,7 @@
         "maintenance": 1,
         "production": 1,
         "happiness": 2,
-        "uniques": ["Only available <in cities with a [City Level III]>", "Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "uniques": ["Only available <in cities with a [City Level III]>", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
         "requiredTech": "Politics"
 			
 	// 中古-特殊建筑
@@ -743,7 +743,7 @@
         "name": "Police Station",
         "happiness": 3,
         "maintenance": 1,
-        "uniques": ["Only available <in cities with a [City Level V]>", "Hidden when espionage is disabled", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+        "uniques": ["Only available <in cities with a [City Level V]>", "[-20]% enemy spy effectiveness [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
         "requiredTech": "Rifling"
         
 	// 工业-选建建筑
@@ -922,6 +922,7 @@
 		"happiness": 10,
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
+		"[+33]% [Culture] [in all cities]"
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 		"requiredTech": "Globalization",
 	},
@@ -2303,7 +2304,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
-		"replacementTextForUniques": "[[+2 Culture, +1 Gold] from every specialist [in all cities]]",
+		"specialistSlots": {"Engineer": 1},
+		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[+2 Culture, +1 Gold] from every specialist [in all cities]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Culture, +1 Gold] from every specialist [in all cities]"]	
 	},
 	{	
@@ -2311,7 +2313,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
-		"replacementTextForUniques": "[[+1 Production, +1 Science] from every specialist [in all cities]]"
+		"specialistSlots": {"Scientist": 1},
+		"replacementTextForUniques": "+1 [[Scientist] slots]\n[[+1 Production, +1 Science] from every specialist [in all cities]]"
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "[+1 Production, +1 Science] from every specialist [in all cities]"]	
 	
 	// 阿根廷
@@ -2596,7 +2599,27 @@
 		"replacementTextForUniques": "[[+1 Production] from every [Camp]]\n[[+1 Science] from [Grassland] tiles [in capital]]",	
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bumin]>", "[+1 Production] from every [Camp]", "[+1 Science] from [Grassland] tiles [in capital]", "[-15]% Culture cost of adopting new Policies",]
 	
-		   
+	// 澳大利亚
+	},
+	{	
+        "name": "Civilized Leader-John Curtin",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Australia",
+		"replacementTextForUniques": "[[upon declaring war with a major Civilization] [[+25]% [Production] [in all cities]] [for [5] turns]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [5] turns> <upon declaring war with a major Civilization>"]
+    },
+	{
+		"name": "Seaside Opera House",
+		"happiness": 2,
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 3,
+		"uniqueTo": "Australia",
+		"replaces": "Opera House",
+		"requiredTech": "Enlightenment",
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "[+1 Culture] from [Coast] tiles [in this city]", "[+15]% [Culture] <in [Coastal] cities>"]
+		
 	// 云冀之庭
 	},
 	{	

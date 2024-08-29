@@ -24,6 +24,7 @@
 		"Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
 		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]>",
+		"Gain control over [Rough terrain] tiles in a [1]-tile radius <for [Australia]>"
 		],
 	},
 	{
@@ -58,6 +59,7 @@
 		"[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] for each adjacent [Expand Pasture]", "[+1 Gold] for each adjacent [Expand Pasture] <after discovering [Agricultural Improvement]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]>", 
 		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]>",
+		"Gain control over [Open terrain] tiles in a [1]-tile radius <for [Australia]>"
 		],
 	},
 	{

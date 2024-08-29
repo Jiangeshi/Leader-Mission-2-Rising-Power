@@ -1839,6 +1839,14 @@ BuildingIcons/Civilized Leader-Ashina Dujishi
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-John Curtin
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 
@@ -2403,6 +2411,16 @@ BuildingIcons/Ancient Castle
   orig: 200, 200
   offset: 0, 0
   index: -1       
+  
+Images/BuildingIcons/Seaside Opera House.png
+BuildingIcons/Seaside Opera House
+  rotate: false
+  xy: 0,0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1 
+  
   
   
 Images/BuildingIcons/GreatGeneral.png
@@ -3104,7 +3122,14 @@ NationIcons/Turk
   offset: 0, 0
   index: -1    
   
-  
+Images/NationIcons/Australia.png
+NationIcons/Australia
+  rotate: false
+  xy: 0, 0
+  size: 190, 190
+  orig: 190, 190
+  offset: 0, 0
+  index: -1    
   
   
   
@@ -4273,6 +4298,14 @@ UnitIcons/Elite Cavalry
   offset: 0, 0
   index: -1 
  
+Images/UnitIcons/Miner Corps.png
+UnitIcons/Miner Corps
+  rotate: false
+  xy: 0,0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1 
  
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128

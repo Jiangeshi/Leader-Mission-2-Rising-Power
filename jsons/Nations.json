@@ -1885,13 +1885,43 @@
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
 		"outerColor": [217,217,217],
         "innerColor": [174,107,42],
-		"favoredReligion": "Islam",
+		"favoredReligion": "Judaism",
 		"uniqueName": "Wolf of the Prairie",
 		"uniqueText": "[[[Target Unit] takes [5] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
 		"uniques": ["[Military] units gain the [Turk ability] promotion", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Qutaghan"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
-            
+    },
+    {
+		"name": "Australia",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Australian"],
+		"startBias": ["Avoid [Tundra]"],
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [177,119,48],
+        "innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Southern Continent",
+		"uniqueText": "[[Gain control over [Open terrain] tiles in a [1]-tile radius] [for [Pasture]]]\n[[Gain control over [Rough terrain] tiles in a [1]-tile radius] [for [Mine]]]\n[Double quantity of [Iron] produced]",
+		"uniques": [
+		"Double quantity of [Iron] produced",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+        
     // 特殊文明
     },
 	{
@@ -2087,6 +2117,7 @@
 		"cities": ["Zhao Ge"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
 	},
+	
 	//城邦
 	{
 		"name": "Brussels",

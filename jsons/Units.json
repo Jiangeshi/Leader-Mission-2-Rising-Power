@@ -384,6 +384,21 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"attackSound": "shot"
+    },
+	{
+		"name": "Miner Corps",
+		"unitType": "Foot Soldier",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Australia",
+		"movement": 2,
+		"strength": 50,
+		"cost": 484,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Materials Science",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"promotions": ["[Miner Corps] ability"],
 		"attackSound": "shot"	
 	},
 	{

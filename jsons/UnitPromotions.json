@@ -1428,7 +1428,10 @@
     {
         "name": "[Elite Cavalry] ability",
         "uniques": ["[+15]% Strength <when adjacent to a [Great General] unit>"],
-        
+    },
+    {
+        "name": "[Miner Corps] ability",
+        "uniques": ["[+20]% Strength <when fighting in [Mine] tiles>"],
         
         
         
