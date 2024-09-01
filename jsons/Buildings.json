@@ -1195,17 +1195,17 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "[[+1 Production, +1 Happiness] from every [Posthouse]]\n[[-50]% maintenance on road & railroads]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "[+1 Production, +1 Happiness] from every [Posthouse]", "[-50]% maintenance on road & railroads"]
+		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[-50]% maintenance on road & railroads]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[-50]% maintenance on road & railroads"]
     },
 	{
 		"name": "Posthouse",
-		"maintenance": 2,
-		"production": 1,
+		"maintenance": 1,
+		"production": 2,
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Horseback Riding"
-			"uniques": ["Only available <in cities with a [City Level II]>", "[+30]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+			"uniques": ["Only available <in cities with a [City Level II]>", "[+33]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+1 Production] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 	
 	
 	// 印度
@@ -1251,8 +1251,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+10% †Strength for Military units before discovering [Nation]\n+33% ⚙Production when constructing National Wonder wonders in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+33]% Production when constructing [National Wonder] wonders [in all cities]"]	
+		"replacementTextForUniques": "[[[[+10]% Strength] [for [Military] units]] [before discovering [Nation]]]\n[[[+15]% Production when constructing [All] wonders [in all cities]] [after discovering [Nation]]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "Only available <in cities without a [Civilized Leader-Chairman Mao]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+15]% Production when constructing [All] wonders [in all cities] <after discovering [Nation]>"]	
 	},
 	{
 	    "name": "Civilized Leader-Emperor Wu of Han",
@@ -1267,8 +1267,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+50% Great Person generation in all cities\n[[+20]% Golden Age length]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+50]% Great Person generation [in all cities]", "[+20]% Golden Age length"]
+		"replacementTextForUniques": "[Empire enters a [15]-turn Golden Age]\n[[+25]% Golden Age length]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Empire enters a [15]-turn Golden Age", "[+25]% Golden Age length"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizu of Song",
@@ -1283,8 +1283,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[+1 Production, +1 Happiness] from every [Stable]]\n[[-50]% maintenance on road & railroads]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Production, +1 Happiness] from every [Stable]", "[-50]% maintenance on road & railroads"]	
+		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[-50]% maintenance on road & railroads]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[-50]% maintenance on road & railroads"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -2504,8 +2504,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Songhai",
-		"replacementTextForUniques": "[Defense bonus when embarked]\n[[+1 Happiness, +1 Culture] in cities on [River] tiles]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Muhammad Dours]>", "Defense bonus when embarked <for [All] units>", "[+1 Happiness, +1 Culture] in cities on [River] tiles"]	
+		"replacementTextForUniques": "[[{Military} {Land}] units gain the [Amphibious] promotion]\n[[+1 Happiness, +1 Culture] in cities on [River] tiles]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Muhammad Dours]>", "[{Military} {Land}] units gain the [Amphibious] promotion", "[+1 Happiness, +1 Culture] in cities on [River] tiles"]	
 	},
 	{	
         "name": "Civilized Leader-Muhammad Dours",

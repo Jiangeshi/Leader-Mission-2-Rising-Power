@@ -166,7 +166,7 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [6] cities for free"
                 ],
                 "row": 1,
                 "column": 1  
@@ -192,7 +192,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+2 Culture, +2 Science] [in all cities connected to capital]",
+                    "[+2 Culture, +2 Science, +2 Production] [in all cities connected to capital]",
                 ],
                 "requires": ["Representation"],
                 "row": 2,
@@ -201,7 +201,7 @@
             {
                 "name": "Imperialism",
                 "uniques": [
-                "[+15]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
+                "[+20]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>"
                 ],
                 "requires": ["Meritocracy"],
                 "row": 3,
@@ -231,7 +231,6 @@
         "uniques": [
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
-            "Only available <after adopting [Imperialism]>",
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
         ],
