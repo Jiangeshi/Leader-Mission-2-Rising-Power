@@ -1224,6 +1224,7 @@
 			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
 			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+        
     //美洲
     },
 	{
@@ -1512,6 +1513,124 @@
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+    },
+	{
+		"name": "Chile",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Chilean"],
+		"startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": ""
+
+		"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "innerColor": [36,78,175],
+        "outerColor": [255,255,255],
+
+        "favoredReligion": "Christianity",
+		"uniqueName": "Frequent Policies of Government Decrees",
+		"uniqueText": "Remove All Policies except Complete Policies and refund 90% of their cost upon entering a new era",
+		"uniques": [
+		"Remove [Tradition] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Aristocracy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Citizenship] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Republic] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Oligarchy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Collective Rule] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Feudalism1] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Monarchy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Lord-Vassal] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Centralization] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Military Caste] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Landed Elite] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Liberty] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Nationalism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Representation] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Urbanization] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Meritocracy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Imperialism] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Autocracy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Police State] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Militarism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Hate Propaganda] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Military Chemical Industry] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Fascism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Total War] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Freedom] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Constitution] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Universal Suffrage] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Civil Society] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Free Speech] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Democracy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Neoliberalism] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Order] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [United Front] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Planned Economy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Populism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Socialism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [The Five-Year Plan] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Communism] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Rationalism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Secularism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Humanism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Free Thought] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Sovereignty] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Scientific Revolution] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Industrial] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Price Scissors] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Industrialism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Agglomeration Planning] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Rural Population Migration] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Sustainable Development] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Patronage] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Philantropy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Aesthetics] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Scholasticism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Cultural Diplomacy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Educated Elite] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Commerce] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Naval Tradition] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Mercantilism] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Trade Unions] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Merchant Navy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Protectionism] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Piety] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Organized Religion] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Mandate Of Heaven] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Theocracy] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Reformation] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Free Religion] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"Remove [Honor] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Military Reclamation System] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Warrior Code] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Discipline] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Military Tradition] and refund [90]% of its cost <upon entering a new era>", 
+		"Remove [Professional Army] and refund [90]% of its cost <upon entering a new era>", 
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Santiago", "La Serena", "Valparaíso", "Concepción", "Temuco", "Valdivia", "Iquique", "Arica", "Calama", "Antofagasta", "Punta Arenas", "Puerto Montt", "Viña del Mar", "Rancagua", "Talca", "Chillán", "La Calera", "San Pedro de Atacama", "Osorno", "Coquimbo", "Ovalle"],
         "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
         
     //非洲

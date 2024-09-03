@@ -57,7 +57,7 @@
 		"faith": 2,
 		"maintenance": 1,
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]> <hidden from users>"]
 	},
 	{
 		"name": "Library",
@@ -176,7 +176,7 @@
 	{
         "name": "City Level II",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed>", "City Level"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed> <hidden from users>", "City Level"]	
 	},
 	{
 		"name": "Market",
@@ -222,7 +222,7 @@
 		"name": "Temple",
 		"maintenance": 1,
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]> <hidden from users>"]	
 		
 	// 古典-特殊建筑
 	},
@@ -1071,14 +1071,14 @@
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>", "Unsellable <for [Turkey]>"]
+		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>", "Unsellable <for [Turkey]> <hidden from users>"]
 	},
 	{
 		"name": "Monastery",
 		"cost": 50,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>", "Unsellable <for [Turkey]>"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>", "Unsellable <for [Turkey]> <hidden from users>"]
 	},
 	{
 		"name": "Mosque",
@@ -1087,7 +1087,7 @@
 		"faith": 3,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>", "Unsellable <for [Turkey]> <hidden from users>"]	
 	},
 	{
 		"name": "Pagoda",
@@ -1095,7 +1095,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "Unsellable <for [Turkey]> <hidden from users>"]	
 		
     // 特殊建筑
     },
@@ -1526,7 +1526,7 @@
 	    "uniqueTo": "Greece",
 		"replaces": "Temple",
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 		
 	//马其顿
     },
@@ -1653,7 +1653,7 @@
 	    "uniqueTo": "Russia",
 		"replaces": "Temple",
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 		
 	// 拜占庭
 	},
@@ -1786,7 +1786,7 @@
 	    "uniqueTo": "Serbia",
 	    "requiredTech": "Theology",
 	    "replaces": "Temple",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 		 		 	
 	// 德意志
 	},
@@ -2185,7 +2185,7 @@
 		"culture": 2,
 		"faith": 1, 
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Unsellable <for [Turkey]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 	
 	// 阿兹特克
 	},
@@ -2225,7 +2225,7 @@
 		"science": 2,
 		"maintenance": 1,
 		"requiredTech": "Belief Worship",
-		"uniques":["Only available <in cities with a [City Level I]>", "Unsellable <for [Turkey]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 大哥伦比亚
 	},
@@ -2347,7 +2347,30 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 15},
 		"uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>"],
-		"requiredTech": "Defensive Fortification"	
+		"requiredTech": "Defensive Fortification"
+		
+	// 智利
+    },
+	{	
+        "name": "Civilized Leader-Salvador Allende Gossens",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Chile",
+		"replacementTextForUniques": "[[+1 Culture] per [1] social policies adopted]\nGain 5 [Culture] upon constructing [Culture] buildings in all cities (modified by game speed)"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Culture] per [1] social policies adopted", "Gain [5] [Culture] <upon constructing [Culture] [in all cities]> <(modified by game speed)>"]
+	},
+	{
+		"name": "San Diego Cathedral",
+		"cost": 105,
+		"faith": 8,
+		"uniqueTo": "Chile",
+		"replaces": "Grand Temple",
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+		"[1] Free Social Policies"
+		"Gain a free [Pantheon] belief",
+		"[+100]% Natural religion spread [in this city]", "Can only be built<in [in holy cities] cities>"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true	
 		
 	// 布基纳法索
 	},
@@ -2399,7 +2422,7 @@
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>"]	
 		"happiness": 2,
 		
 	// 贝宁
@@ -2521,7 +2544,7 @@
 		"requiredTech": "Theology",
 		"replaces": "Temple",
         "uniqueTo": "Songhai",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>", "Can be purchased for [100] [Culture] [in all cities]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Can be purchased for [100] [Culture] [in all cities]"]	
 	
 	// 匈人
 	},
@@ -2655,7 +2678,7 @@
 		"replaces": "Temple",
 		"maintenance": 1,
 		"requiredTech": "Theology",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+2 Faith] per [3] population [in this city]", "[+1 Culture] per [3] population [in this city] <after enhancing a religion>", "Provides [1] [Number of Buildings] <in this city>", "Unsellable <for [Turkey]>"]
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+2 Faith] per [3] population [in this city]", "[+1 Culture] per [3] population [in this city] <after enhancing a religion>", "Provides [1] [Number of Buildings] <in this city>"]
 		
 	// 震旦帝国
 	},

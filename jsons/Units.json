@@ -6,7 +6,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>",
+		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>",
 		],
 		"cost": 70
 	},
@@ -17,17 +17,14 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 70,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>",
-		"[-25]% production cost <for [Iroquois]>"
-		],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>", "[-25]% production cost <for [Iroquois]>"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]> <hidden from users>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>"],
 	},
 	{
 		"name": "Work Boats",
@@ -61,7 +58,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users> <hidden from users>",
 		]
 		"attackSound": "nonmetalhit"
 	},
@@ -75,7 +72,7 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users> <hidden from users>"]
 		"attackSound": "nonmetalhit"	
 	},
 	{
@@ -89,7 +86,7 @@
 		"obsoleteTech": "Army Formation",
 		"upgradesTo": "Swordsman",
 		"promotions": ["[Jaguar] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -102,7 +99,7 @@
 		"cost": 30,
 		"obsoleteTech": "Defensive Fortification",
 		"promotions": ["Haka War Dance"],
-		"uniques":["Can build [Moai] improvements on tiles", "[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]	
+		"uniques":["Can build [Moai] improvements on tiles", "[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]	
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -243,7 +240,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"	
 	},
 	{
@@ -257,7 +254,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"	
 	},
 	{
@@ -271,7 +268,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"		
 	},
 	{
@@ -285,7 +282,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"		
 	},
@@ -300,7 +297,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mounted] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mounted] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -314,7 +311,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "Ignores terrain cost", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "Ignores terrain cost", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"	
 	},
@@ -327,7 +324,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"	
 	},
 	{
@@ -341,7 +338,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"promotions": ["Drill I", "Drill II"],
 		"attackSound": "shot"	
 	},
@@ -357,7 +354,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["[Andean Army] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"		
 	},
 	{
@@ -369,7 +366,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"	
 	},
 	{
@@ -383,7 +380,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"attackSound": "shot"
     },
 	{
@@ -397,7 +394,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"promotions": ["[Miner Corps] ability"],
 		"attackSound": "shot"	
 	},
@@ -409,7 +406,7 @@
 		"cost": 620,
 		"requiredTech": "Materials Science",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"	
 	},
 	{
@@ -422,7 +419,7 @@
 		"cost": 660,
 		"requiredTech": "Materials Science",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "shot"		
 	},
 	{
@@ -432,7 +429,7 @@
 		"strength": 65,
 		"cost": 620,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -444,7 +441,7 @@
 		"strength": 70,
 		"cost": 620,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"attackSound": "shot"			
 	},
 	{
@@ -1111,7 +1108,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]
+		"uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1125,7 +1122,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+50]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"	
 	},
@@ -1153,7 +1150,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-	    "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]	
+	    "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]	
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1167,7 +1164,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"	
 	},   
@@ -1180,7 +1177,7 @@
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]	    
+        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]	    
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1191,7 +1188,7 @@
 		"movement": 2,
 		"strength": 16,
 		"cost": 80,
-		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine]>"],
+		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"],
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
@@ -1209,7 +1206,7 @@
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
 	    "promotions": ["[Impi] ability"],
-        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]>"]	    
+        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine]> <hidden from users>"]	    
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1661,6 +1658,21 @@
 		"rangedStrength": 70,
 		"range": 4,
 		"cost": 700,
+		"requiredTech": "Electronics",
+		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"	
+	},
+	{
+		"name": "Almirante Battleship",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Chile",
+		"movement": 4,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 4,
+		"cost": 745,
 		"requiredTech": "Electronics",
 		"uniques": ["Costs [15] [Steels]", "Consumes [1] [Steels]", "Costs [15] [Oil]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],

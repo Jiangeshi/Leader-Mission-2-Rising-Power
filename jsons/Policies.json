@@ -298,6 +298,7 @@
         ]
     },
     {
+    
     // 自由制度
         "name": "Freedom",
         "era": "Industrial era",
@@ -373,6 +374,7 @@
         ]    
     },
     {
+    
     // 社会制度
         "name": "Order",
         "era": "Modern era",
@@ -449,9 +451,10 @@
                     "[+3 Food, +3 Production, +3 Science, +3 Gold, +3 Culture] [in all cities]"
                 ]
             }
-        ]    
+        ]
     },
     {
+    
     // 理性政策
         "name": "Rationalism",
         "era": "Medieval era",
@@ -519,6 +522,7 @@
         ]
     },
     {
+    
     // 工业政策
         "name": "Industrial",
         "era": "Medieval era",
@@ -667,6 +671,7 @@
         ]        
     },
     {
+    
     // 商业政策
         "name": "Commerce",
         "era": "Ancient era",
@@ -742,6 +747,7 @@
         ]    
     },
     {
+    
     // 宗教政策
         "name": "Piety",
         "era": "Ancient era",

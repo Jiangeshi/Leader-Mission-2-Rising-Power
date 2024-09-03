@@ -1848,6 +1848,15 @@ BuildingIcons/Civilized Leader-John Curtin
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Salvador Allende Gossens
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+
 
 
 
@@ -2418,6 +2427,15 @@ BuildingIcons/Seaside Opera House
   xy: 0,0
   size: 160, 160
   orig: 160, 160
+  offset: 0, 0
+  index: -1 
+  
+Images/BuildingIcons/San Diego Cathedral.png
+BuildingIcons/San Diego Cathedral
+  rotate: false
+  xy: 0,0
+  size: 150, 150
+  orig: 150, 150
   offset: 0, 0
   index: -1 
   
@@ -3131,7 +3149,14 @@ NationIcons/Australia
   offset: 0, 0
   index: -1    
   
-  
+Images/NationIcons/Chile.png
+NationIcons/Chile
+  rotate: false
+  xy: 0, 0
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1      
   
 Images/PolicyIcons/Centralization.png
 PolicyIcons/Centralization
@@ -4306,6 +4331,16 @@ UnitIcons/Miner Corps
   orig: 170, 170
   offset: 0, 0
   index: -1 
+
+Images/UnitIcons/Almirante Battleship.png
+UnitIcons/Almirante Battleship
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1 
+
  
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
