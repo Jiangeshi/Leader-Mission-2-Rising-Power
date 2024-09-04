@@ -2019,7 +2019,7 @@
 		"name": "Confucius",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Free Social Policy <by consuming this unit>",
+		    "Free Social Policy <by consuming this unit> <for [non-[Chile]]>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
 			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"

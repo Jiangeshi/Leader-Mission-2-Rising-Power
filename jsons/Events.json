@@ -148,7 +148,7 @@
                 "text": "Ideological Emancipation",
                 "triggeredUniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Free Social Policy"
+                    "Free Social Policy <for [non-[Chile]]>"
                     "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
                 "conditions": []
@@ -238,7 +238,7 @@
             {
                 "text": "Confucius",
                 "triggeredUniques": ["Provides a [Confucius] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Confucius] is not constructed"]
+                "conditions": ["during the [Classical era]", "if [No-Confucius] is not constructed", "for [non-[Chile]]"]
             },
             {
                 "text": "Gautama Siddhartha",

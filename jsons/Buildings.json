@@ -167,7 +167,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["[1] Free Social Policies"],
+		"uniques": ["[1] Free Social Policies <for [non-[Chile]]>"],
 		"requiredTech": "Calendar",
 	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"	
 	    			
@@ -905,7 +905,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-15]% Culture cost of adopting new Policies", "Free Social Policy"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Free Social Policy <for [non-[Chile]]>"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
@@ -1019,7 +1019,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Free Social Policy","Must be next to [Coast]"],
+		"uniques": ["Free Social Policy <for [non-[Chile]]>","Must be next to [Coast]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
 	},
@@ -2363,10 +2363,10 @@
 		"name": "San Diego Cathedral",
 		"cost": 105,
 		"faith": 8,
+		"culture": 8,
 		"uniqueTo": "Chile",
 		"replaces": "Grand Temple",
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-		"[1] Free Social Policies"
 		"Gain a free [Pantheon] belief",
 		"[+100]% Natural religion spread [in this city]", "Can only be built<in [in holy cities] cities>"],
 		"requiredTech": "Theology",
