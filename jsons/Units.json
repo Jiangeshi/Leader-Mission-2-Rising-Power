@@ -44,7 +44,7 @@
 		"cost": 20,
 		"promotions": ["Off-road"],
 		"uniques": ["Can see invisible [Land] units", 
-		//"Can build [Road] improvements on tiles"
+		"Can build [Road] improvements on tiles <for [human player]>"
 		]
 		"attackSound": "nonmetalhit"
 				

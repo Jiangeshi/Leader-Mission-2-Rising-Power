@@ -377,7 +377,7 @@
     
     // 社会制度
         "name": "Order",
-        "era": "Modern era",
+        "era": "Industrial era",
         "priorities": {
             "Neutral": 50,
             "Cultural": 40,
@@ -722,7 +722,8 @@
                 "uniques": [
                     "[+15]% Production when constructing [Water] units [in all coastal cities]",
                     "[+1 Production] from every [Harbor]",
-                    "[+2 Gold] from [Coast] tiles [in all coastal cities]"
+                    "[+2 Gold] from [Water] tiles [in all coastal cities]",
+
                 ],
                 "requires": ["Naval Tradition"],
                 "row": 2,

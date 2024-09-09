@@ -148,8 +148,10 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>","Must be next to [Coast]",
-			"[+2 Science] from [Coast] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]",
+			"[+2 Science] from [Coast] tiles [in this city]",
+			"[+1 Culture] from [Ocean] tiles [in this city]"
+			],
 		"requiredTech": "Burial Custom",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
@@ -158,7 +160,7 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+25]% Strength <for [All] units> <vs cities>"],
+		"uniques": ["[+25]% Strength <for [All] units> <vs cities>", "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",],
 		"requiredTech": "Bronze Working",
 	    "quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
@@ -229,7 +231,7 @@
 	{
 		"name": "Lighthouse",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Optics"
 	},
 	{
