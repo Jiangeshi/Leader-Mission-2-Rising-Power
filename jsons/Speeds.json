@@ -28,6 +28,34 @@
         ]
     },
     {
+        "name": "Test",
+        "modifier": 0.67,
+        "productionCostModifier": 0.67,
+        "goldCostModifier": 0.67,
+        "scienceCostModifier": 0.67,
+        "cultureCostModifier": 0.67,
+        "faithCostModifier": 0.67,
+        "improvementBuildLengthModifier": 0.67,
+        "barbarianModifier": 1.0,
+        "goldGiftModifier": 1.25,
+        "cityStateTributeScalingInterval": 5.0,
+        "goldenAgeLengthModifier": 0.80,
+        "religiousPressureAdjacentCity": 9,
+        "peaceDealDuration": 5,
+        "dealDuration": 25,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn": 60, "untilTurn":  50},
+            {"yearsPerTurn": 40, "untilTurn":  80},
+            {"yearsPerTurn": 30, "untilTurn": 100},
+            {"yearsPerTurn": 20, "untilTurn": 130},
+            {"yearsPerTurn": 10, "untilTurn": 155},
+            {"yearsPerTurn":  5, "untilTurn": 195},
+            {"yearsPerTurn":  2, "untilTurn": 260},
+            {"yearsPerTurn":  1, "untilTurn": 330}
+        ]
+    },
+    {
         "name": "Barbarian Breakout",
         "modifier": 0.67,
         "productionCostModifier": 0.67,

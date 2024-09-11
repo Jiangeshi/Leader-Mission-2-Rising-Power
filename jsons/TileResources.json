@@ -127,7 +127,6 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Mudflat", "Ocean"],
 		"food": 1,
-		"gold": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Coast}] tiles>",
 		"Generated on every [30] tiles <in [{Featureless} {Ocean}] tiles>",
@@ -334,7 +333,7 @@
 	{
 		"name": "Whales",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast", "Ocean"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
@@ -344,12 +343,13 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated on every [40] tiles <in [{Featureless} {Ocean}] tiles>",
 					"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "Pearls",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast", "Mudflat"],
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
@@ -359,6 +359,7 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated on every [40] tiles <in [{Featureless} {Ocean}] tiles>",
 					"Generated near City States with weight [15]"]
 	},
 	{
@@ -428,7 +429,7 @@
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast", "Mudflat"],
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",

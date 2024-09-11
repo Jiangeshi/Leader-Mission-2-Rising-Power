@@ -40,7 +40,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"
         ]    
     },
     {
@@ -66,6 +66,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"
         ]
     },
     {
@@ -93,7 +94,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"
         ]    
     },
     {
@@ -121,7 +122,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>" 
         ]    
     },
     {
@@ -147,7 +148,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>" 
         ]    
     },
     {
@@ -172,7 +173,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>" 
         ]        
     },
     {
@@ -193,7 +194,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>" 
         ]                
     },
     {
@@ -218,7 +219,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam]> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
-         
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"  
         ]    
     },
     {
@@ -232,7 +233,8 @@
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Ignores Zone of Control <for [Poland]> <hidden from users>",
-        "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",  
+        "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"  
         ]                
     },
     {
@@ -248,6 +250,7 @@
         
         "Ignores Zone of Control <for [Poland]> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>", 
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"
         ]                
     },
     {
@@ -263,6 +266,7 @@
         
         "Ignores Zone of Control <for [Poland]> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",        
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"
         ]                
     },
     {
@@ -274,7 +278,8 @@
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Ignores Zone of Control <for [Poland]> <hidden from users>",
-        "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",        
+        "May enter foreign tiles without open borders <for [Poland]> <hidden from users>", 
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <on [Test] game speed> <in tiles adjacent to [your] tiles>"       
         ]                
     },
     {
