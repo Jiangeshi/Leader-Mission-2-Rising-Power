@@ -1770,15 +1770,15 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"replacementTextForUniques": "Influence of all other civilizations with all city-states degrades 33% faster\n+10% †Strength when fighting units from a Civilization with more Cities than you",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Milosevic]>", "Influence of all other civilizations with all city-states degrades [33]% faster", "[+10]% Strength <when fighting units from a Civilization with more Cities than you>"]	
+		"replacementTextForUniques": "[Influence of all other civilizations with all city-states degrades [33]% faster]\n[[[+15]% Strength] [when fighting units from a Civilization with more Cities than you]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Milosevic]>", "Influence of all other civilizations with all city-states degrades [33]% faster", "[+15]% Strength <when fighting units from a Civilization with more Cities than you>"]	
 	},
 	{	
         "name": "Civilized Leader-Milosevic",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Serbia",
-		"replacementTextForUniques": "-33% ¤Gold cost of upgrading\n+15% City Strength from defensive buildings",
+		"replacementTextForUniques": "[[-50]% Gold cost of upgrading]\n[[+20]% City Strength from defensive buildings]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Tito]>", "[-33]% Gold cost of upgrading", "[+15]% City Strength from defensive buildings"]
 	},
 	{
@@ -2407,16 +2407,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [25]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Sadat]>", "Resting point for Influence with City-States is increased by [25]"]
+		"replacementTextForUniques": "[Resting point for Influence with City-States is increased by [35]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Sadat]>", "Resting point for Influence with City-States is increased by [35]"]
 	},
 	{	
         "name": "Civilized Leader-Sadat",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "All newly-trained Military units in all cities receive the [Amphibious] promotion\nGain 25-50 ¤Gold upon declaring war with a major Civilization"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [25]-[50] [Gold] <upon declaring war with a major Civilization>"]
+		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion]\n[[Gain [125]-[175] [Gold]] [upon declaring war with a major Civilization]] [(modified by game speed)]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [125]-[175] [Gold] <upon declaring war with a major Civilization> <(modified by game speed)>"]
 	},
 	{
 		"name": "Burial Tomb",
