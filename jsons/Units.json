@@ -24,7 +24,9 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]> <hidden from users>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]> <hidden from users>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>"
+		
+		],
 	},
 	{
 		"name": "Work Boats",
@@ -1920,7 +1922,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2
 	},
 	{
@@ -1928,7 +1930,7 @@
 		"unitType": "Civilian",
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
 		"movement": 2	
 	},
 	{
