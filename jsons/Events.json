@@ -55,7 +55,7 @@
             },
             {
                 "text": "Gain Resource",
-                "triggeredUniques": ["Instantly provides [30] [Iron]", "Instantly provides [25] [Coal]"],
+                "triggeredUniques": ["Instantly provides [30] [Iron]", "Instantly provides [20] [Aluminum]"],
                 "conditions": ["after turn number [49]"]
             },
             {

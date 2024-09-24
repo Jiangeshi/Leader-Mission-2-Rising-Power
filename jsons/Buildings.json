@@ -856,7 +856,7 @@
 		"percentStatBonus": {"culture": 33},
 		"maintenance": 3,
 		"requiredTech": "Radio",
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [5] [Aluminum]", "Costs [5] [Steels]"]	
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Aluminum]", "Costs [5] [Steels]"]	
 	},
 	{
 		"name": "Military Base",
@@ -879,8 +879,8 @@
 	    "percentStatBonus": {"production": 25},
 		"maintenance": 5,
 		"requiredTech": "Electricity",
-		"replacementTextForUniques": 	"Only available in cities with a City Level V \n Cost 20 Steels \n Consumes 1 Coal to Provide 25% Production in this city"
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [20] [Steels]", "Provides [-1] [Coal] <when above [1] [Coal]>", "[-25]% [Production] [in this city] <when below [0] [Coal]>"]
+		"replacementTextForUniques": 	"Only available in cities with a City Level V \n Cost 20 Steels \n Consumes 2 Coal to Provide 25% Production in this city"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [20] [Steels]", "Provides [-2] [Coal] <when above [2] [Coal]>", "[-25]% [Production] [in this city] <when below [0] [Coal]>"]
 		
 	// 电气-奇观	
 	},
@@ -979,12 +979,12 @@
 	{
 		"name": "Nuclear Plant",
 		"production": 5,
-		"percentStatBonus": {"production": 15},
+		"percentStatBonus": {"production": 20},
 		"maintenance": 3,
 		"requiredTech": "Nuclear Fission",
 		"replacementTextForUniques": 
-		"Only available in cities with a City Level V \n Cost 10 Steels and 10 Aluminum \n Consumes 1 Uranium to Provide 5 Production and 15% Production in this city"
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [10] [Steels]", "Costs [10] [Aluminum]", "Provides [-1] [Uranium] <when above [1] [Uranium]>", "[-5 Production] [in this city] <when below [0] [Uranium]>", "[-15]% [Production] [in this city] <when below [0] [Uranium]>"]
+		"Only available in cities with a City Level V \n Cost 15 Steels and 15 Aluminum \n Consumes 1 Uranium to Provide 5 Production and 20% Production in this city"
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Steels]", "Costs [15] [Aluminum]", "Provides [-1] [Uranium] <when above [1] [Uranium]>", "[-5 Production] [in this city] <when below [0] [Uranium]>", "[-20]% [Production] [in this city] <when below [0] [Uranium]>"]
 	},
 	{
 		"name": "Bomb Shelter",

@@ -7,5 +7,8 @@
     cityStrengthBase:7.0,
     cityStrengthPerPop:0.7,
     },
-    "uniques": ["Can trade civilization introductions for [100] Gold"]
+    "uniques": [
+        "Can trade civilization introductions for [100] Gold", 
+        "Can be used as permanent audiovisual mod"
+        ]
 }

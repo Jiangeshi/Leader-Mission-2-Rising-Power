@@ -445,5 +445,12 @@
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
 		"uniques": ["[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+	},
+	{
+		"name": "TestTile",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"faith": 2,
+		"turnsToBuild": 1,
+
 	}
 ]

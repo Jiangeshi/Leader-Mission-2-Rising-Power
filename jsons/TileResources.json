@@ -534,7 +534,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
-		"Stockpiled", "Not shown on world screen <when above [1000] [Coal]>",
+		"Not shown on world screen <when above [1000] [Coal]>",
 		"Generated with weight [45] <in [Hill] tiles>",
 					"Generated with weight [35] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [35] <in [Forest] tiles> <in tiles without [Hill]>",
@@ -566,8 +566,7 @@
 		],
 		"improvementStats": {"production": 3},
 		"uniques": [
-		"Stockpiled", 
-		"Deposits in [Coast] tiles always provide [4] resources","Stockpiled", "Not shown on world screen <when above [1000] [Oil]>",
+		"Deposits in [Coast] tiles always provide [4] resources", "Not shown on world screen <when above [1000] [Oil]>",
 		            "Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
@@ -606,7 +605,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>", "Stockpiled", "Not shown on world screen <when above [500] [Uranium]>",
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>", "Not shown on world screen <when above [500] [Uranium]>",
 					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
