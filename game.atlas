@@ -4679,6 +4679,7 @@ UnitPromotionIcons/Bayonet Charge
   offset: 0, 0
   index: -1         
  
+
 Images/UnitPromotionIcons/Apply Poison.png
 UnitPromotionIcons/Apply Poison
   rotate: false
