@@ -5,63 +5,51 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [20] [Faith] <(modified by game speed)>"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]
+                "uniques": ["Only available <before turn number [50]>", "Only available <after turn number [4]>", "Gain [20] [Faith] <(modified by game speed)>"]
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [20] [Culture] <(modified by game speed)>"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]
+                "uniques": ["Gain [20] [Culture] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [20] [Science] <(modified by game speed)>"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]
+                "uniques": ["Gain [20] [Science] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [60] [Gold] <(modified by game speed)>"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]
+                "uniques": ["Gain [60] [Gold] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Resource",
-                "triggeredUniques": ["Instantly provides [15] [Horses]", "Instantly provides [15] [Iron]"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]
+                "uniques": ["Instantly provides [15] [Horses]", "Instantly provides [15] [Iron]", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Power",
-                "triggeredUniques": ["[+10]% Strength <for [Military] units> <for [5] turns>"],
-                "conditions": ["before turn number [50]", "after turn number [4]"]    
+                "uniques": ["[+10]% Strength <for [Military] units> <for [5] turns>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain [75] [Faith] <(modified by game speed)>"],
-                "conditions": ["after turn number [49]"]
+                "uniques": ["Gain [75] [Faith] <(modified by game speed)>", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Culture",
-                "triggeredUniques": ["Gain [100] [Culture] <(modified by game speed)>"],
-                "conditions": ["after turn number [49]"]
+                "uniques": ["Gain [100] [Culture] <(modified by game speed)>", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Science",
-                "triggeredUniques": ["Gain [100] [Science] <(modified by game speed)>"],
-                "conditions": ["after turn number [49]"]
+                "uniques": ["Gain [100] [Science] <(modified by game speed)>", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Gold",
-                "triggeredUniques": ["Gain [150] [Gold] <(modified by game speed)>"],
-                "conditions": ["after turn number [49]"]
+                "uniques": ["Gain [150] [Gold] <(modified by game speed)>", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Resource",
-                "triggeredUniques": ["Instantly provides [30] [Iron]", "Instantly provides [20] [Aluminum]"],
-                "conditions": ["after turn number [49]"]
+                "uniques": ["Instantly provides [30] [Iron]", "Instantly provides [20] [Aluminum]", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Power",
-                "triggeredUniques": ["[+15]% Strength <for [Military] units> <for [5] turns>"],
-                "conditions": ["after turn number [49]"]    
+                "uniques": ["[+15]% Strength <for [Military] units> <for [5] turns>", "Only available<after turn number [49]>"]
             },
         ]
     },
@@ -71,18 +59,15 @@
         "choices": [
             {
                 "text": "Start Golden Age",
-                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
-                "conditions": []
+                "uniques": ["Empire enters a [10]-turn Golden Age"],
             },
             {
                 "text": "Gain Population",
-                "triggeredUniques": ["[+1] population in a random city"],
-                "conditions": []
+                "uniques": ["[+1] population in a random city"],
             },
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain enough Faith for [20]% of a Great Prophet"],
-                "conditions": []
+                "uniques": ["Gain enough Faith for [20]% of a Great Prophet"],
             },
         ]
     },
@@ -92,44 +77,36 @@
         "choices": [
             {
                 "text": "Start Golden Age",
-                "triggeredUniques": ["Empire enters a [10]-turn Golden Age"],
-                "conditions": []
+                "uniques": ["Empire enters a [10]-turn Golden Age"],
             },
             {
                 "text": "Gain Population",
-                "triggeredUniques": ["[+1] population in a random city", "[+1] population in a random city"],
-                "conditions": []
+                "uniques": ["[+1] population in a random city", "[+1] population in a random city"],
             },
             {
                 "text": "Gain Settler",
-                "triggeredUniques": [
-                "Free [Settler] appears"
+                "uniques": [
+                "Free [Settler] appears", "Only available <for [Human player]>"
                 ],
-                "conditions": ["for [Human player]"]
             },
             {
                 "text": "Gain Feat",
-                "triggeredUniques": [
+                "uniques": [
                 "Instantly provides [10] [Feat]"
                 ],
-                "conditions": []    
             },            
             {
                 "text": "Gain Technology",
-                "triggeredUniques": ["Free Technology"],
-                "conditions": []
+                "uniques": ["Free Technology"],
             },
             {
                 "text": "Gain Faith",
-                "triggeredUniques": ["Gain enough Faith for [33]% of a Great Prophet"],
-                "conditions": []
+                "uniques": ["Gain enough Faith for [33]% of a Great Prophet"],
             },
             {
                 "text": "Gain Spy",
-                "triggeredUniques": ["Gain an extra spy"],
-                "conditions": []
+                "uniques": ["Gain an extra spy"],
             },
-            
         ]
     },
     {
@@ -138,53 +115,47 @@
         "choices": [
             {
                 "text": "Cultural Openness",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "Free Great Person"
                 ],
-                "conditions": []
             },
             {
                 "text": "Ideological Emancipation",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "Free Social Policy <for [non-[Chile]]>"
                     "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
-                "conditions": []
             },
             {
                 "text": "Industrial Eevolution",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[+15]% [Production] <for [15] turns>"
                     ],
-                "conditions": []
             },
             {
                 "text": "Technological Innovation",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[+20]% [Science] <for [10] turns>"
                     "Free Technology"
                 ],
-                "conditions": []
             },
             {
                 "text": "Economic Development",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[+50]% [Gold] <for [15] turns>"
                     ],
-                "conditions": []    
             },
             {
                 "text": "Giving the People Peace and Security",
-                "triggeredUniques": [
+                "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[25]% Food is carried over after population increases [in all cities] <for [20] turns>",
                     ],
-                "conditions": []        
             },
         ]
     }
@@ -194,38 +165,25 @@
         "choices": [
             {
                 "text": "Infrastructure Investment",
-                "triggeredUniques": [
-                    "Provides a [Infrastructure Investment] in your first [1] cities for free"
+                "uniques": [
+                    "Only available<if [Infrastructure Investment] is not constructed>", "Provides a [Infrastructure Investment] in your first [1] cities for free"
                 ],
-                "conditions": ["if [Infrastructure Investment] is not constructed"]
             },
             {
                 "text": "Productive Investment",
-                "triggeredUniques": [
-                    "Provides a [Productive Investment] in your first [1] cities for free"
-                ],
-                "conditions": ["if [Productive Investment] is not constructed"]
+                "uniques": ["Only available<if [Productive Investment] is not constructed>", "Provides a [Productive Investment] in your first [1] cities for free"]
             },
             {
                 "text": "Research Investment",
-                "triggeredUniques": [
-                    "Provides a [Research Investment] in your first [1] cities for free"
-                ],
-                "conditions": ["if [Research Investment] is not constructed"]
+                "uniques": ["Only available<if [Research Investment] is not constructed>", "Provides a [Research Investment] in your first [1] cities for free"]
             },
             {
                 "text": "Entertainment Investment",
-                "triggeredUniques": [
-                    "Provides a [Entertainment Investment] in your first [1] cities for free"
-                ],
-                "conditions": ["if [Entertainment Investment] is not constructed"]
+                "uniques": ["Provides a [Entertainment Investment] in your first [1] cities for free", "Only available<if [Entertainment Investment] is not constructed>"]
             },
             {
                 "text": "Grain Investment",
-                "triggeredUniques": [
-                    "Provides a [Grain Investment] in your first [1] cities for free"
-                ],
-                "conditions": ["if [Grain Investment] is not constructed"]    
+                "uniques": ["Provides a [Grain Investment] in your first [1] cities for free", "Only available<if [Grain Investment] is not constructed>"]    
             },
         ]
         
@@ -237,28 +195,28 @@
         "choices": [
             {
                 "text": "Confucius",
-                "triggeredUniques": ["Provides a [Confucius] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Confucius] is not constructed", "for [non-[Chile]]"]
+                 
+                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Confucius] is not constructed>", "Only available<for [non-[Chile]]>", "Provides a [Confucius] in your first [1] cities for free"]
             },
             {
                 "text": "Gautama Siddhartha",
-                "triggeredUniques": ["Provides a [Gautama Siddhartha] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Gautama Siddhartha] is not constructed"]
+                 
+                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Gautama Siddhartha] is not constructed>", "Provides a [Gautama Siddhartha] in your first [1] cities for free"]
             },
             {
                 "text": "Jesus",
-                "triggeredUniques": ["Provides a [Jesus] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Jesus] is not constructed"]
+                 
+                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Jesus] is not constructed>", "Provides a [Jesus] in your first [1] cities for free"]
             },
             {
                 "text": "Muhammad",
-                "triggeredUniques": ["Provides a [Muhammad] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Muhammad] is not constructed"]
+                 
+                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Muhammad] is not constructed>", "Provides a [Muhammad] in your first [1] cities for free"]
             },
             {
                 "text": "Zoroaster",
-                "triggeredUniques": ["Provides a [Zoroaster] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Zoroaster] is not constructed"]
+                 
+                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Zoroaster] is not constructed>", "Provides a [Zoroaster] in your first [1] cities for free"]
             },
         ]
     },
@@ -268,28 +226,28 @@
         "choices": [
             {
                 "text": "Sun Tzu",
-                "triggeredUniques": ["Provides a [Sun Tzu] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Sun Tzu] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Sun Tzu] is not constructed>", "Provides a [Sun Tzu] in your first [1] cities for free"]
             },
             {
                 "text": "Gnaeus Pompeius Magnus",
-                "triggeredUniques": ["Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Gnaeus Pompeius Magnus] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Gnaeus Pompeius Magnus] is not constructed>", "Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"]
             },
             {
                 "text": "Spartacus",
-                "triggeredUniques": ["Provides a [Spartacus] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Spartacus] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Spartacus] is not constructed>", "Provides a [Spartacus] in your first [1] cities for free"]
             },
             {
                 "text": "Bai Qi",
-                "triggeredUniques": ["Provides a [Bai Qi] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Bai Qi] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Bai Qi] is not constructed>", "Provides a [Bai Qi] in your first [1] cities for free"]
             },
             {
                 "text": "Themistocles",
-                "triggeredUniques": ["Provides a [Themistocles] in your first [1] cities for free"],
-                "conditions": ["during the [Classical era]", "if [No-Themistocles] is not constructed"]
+
+                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Themistocles] is not constructed>", "Provides a [Themistocles] in your first [1] cities for free"]
             },
         ]
     }
@@ -299,31 +257,21 @@
         "choices": [
             {
                 "text": "Let rapidity be that of wind",
-                "triggeredUniques": [
-                    "[+1] Movement <for [Military] units> <for [2] turns> <during the [Classical era]>"
-                ],
-                "conditions": []
+                "uniques": [                    "[+1] Movement <for [Military] units> <for [2] turns> <during the [Classical era]>"]
             },
             {
                 "text": "Let compactness be that of forest",
-                "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit> <for [4] turns> <during the [Classical era]>"
-                ],
-                "conditions": []
+                "uniques": ["[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit> <for [4] turns> <during the [Classical era]>"]
             },
             {
                 "text": "In raiding and plundering be like fire",
-                "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when attacking> <for [10] turns> <during the [Classical era]>"
-                ],
-                "conditions": []
+
+                "uniques": ["[+10]% Strength <for [Military] units> <when attacking> <for [10] turns> <during the [Classical era]>"]
             },
             {
                 "text": "Immovability like a mountain",
-                "triggeredUniques": [
-                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns> <during the [Classical era]>"
-                ],
-                "conditions": []
+
+                "uniques": [                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns> <during the [Classical era]>"]
             },
         ]
     },
@@ -333,63 +281,63 @@
         "choices": [
             {
                 "text": "Belisarius",
-                "triggeredUniques": ["Provides a [Belisarius] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Belisarius] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Belisarius] is not constructed>", "Provides a [Belisarius] in your first [1] cities for free"]
             },
             {
                 "text": "Han Xin",
-                "triggeredUniques": ["Provides a [Han Xin] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Han Xin] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Han Xin] is not constructed>", "Provides a [Han Xin] in your first [1] cities for free"]
             },
             {
                 "text": "Xiang Yu",
-                "triggeredUniques": ["Provides a [Xiang Yu] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Xiang Yu] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Xiang Yu] is not constructed>", "Provides a [Xiang Yu] in your first [1] cities for free"]
             },
             {
                 "text": "Li Jing",
-                "triggeredUniques": ["Provides a [Li Jing] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Li Jing] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Li Jing] is not constructed>", "Provides a [Li Jing] in your first [1] cities for free"]
             },
             {
                 "text": "Subedei",
-                "triggeredUniques": ["Provides a [Subedei] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Subedei] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Subedei] is not constructed>", "Provides a [Subedei] in your first [1] cities for free"]
             },
             {
                 "text": "Timur",
-                "triggeredUniques": ["Provides a [Timur] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Timur] is not constructed"]
+
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Timur] is not constructed>", "Provides a [Timur] in your first [1] cities for free"]
             },
             {
                 "text": "Jeanne",
-                "triggeredUniques": ["Provides a [Jeanne] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Jeanne] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Jeanne] is not constructed>", "Provides a [Jeanne] in your first [1] cities for free"]
             },
             {
                 "text": "Khalid ibn al-Walid",
-                "triggeredUniques": ["Provides a [Khalid ibn al-Walid] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Khalid ibn al-Walid] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Khalid ibn al-Walid] is not constructed>", "Provides a [Khalid ibn al-Walid] in your first [1] cities for free"]
             },
             {
                 "text": "Bayezid I",
-                "triggeredUniques": ["Provides a [Bayezid I] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Bayezid I] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Bayezid I] is not constructed>", "Provides a [Bayezid I] in your first [1] cities for free"]
             },
             {
                 "text": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
-                "triggeredUniques": ["Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is not constructed>", "Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"]
             },
             {
                 "text": "Narses",
-                "triggeredUniques": ["Provides a [Narses] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [Narses] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Narses] is not constructed>", "Provides a [Narses] in your first [1] cities for free"]
             },
             {
                 "text": "William Marshal",
-                "triggeredUniques": ["Provides a [William Marshal] in your first [1] cities for free"],
-                "conditions": ["during the [Medieval era]", "if [William Marshal] is not constructed"]
+                 
+                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [William Marshal] is not constructed>", "Provides a [William Marshal] in your first [1] cities for free"]
                 
             },
         ]
