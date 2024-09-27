@@ -25,7 +25,7 @@
             },
             {
                 "text": "Gain Power",
-                "uniques": ["[+10]% Strength <for [Military] units> <for [5] turns>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
+                "uniques": ["[+10]% Strength <for [Military] units> <for [4] turns>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Faith",
@@ -49,7 +49,7 @@
             },
             {
                 "text": "Gain Power",
-                "uniques": ["[+15]% Strength <for [Military] units> <for [5] turns>", "Only available<after turn number [49]>"]
+                "uniques": ["[+15]% Strength <for [Military] units> <for [4] turns>", "Only available<after turn number [49]>"]
             },
         ]
     },

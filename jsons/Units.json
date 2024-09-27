@@ -7,6 +7,7 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
 		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>",
+		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam]> <hidden from users>"
 		],
 		"cost": 70
 	},
@@ -68,8 +69,8 @@
 		"name": "Mossi Warrior",
 		"unitType": "Foot Soldier",
 		"movement": 2,
-		"strength": 10,
-		"cost": 40,
+		"strength": 9,
+		"cost": 30,
 		"uniqueTo": "Burkina Faso",
 		"replaces": "Warrior",
 		"obsoleteTech": "Iron Working",

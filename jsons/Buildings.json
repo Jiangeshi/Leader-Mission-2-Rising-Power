@@ -2434,8 +2434,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Benin",
-		"replacementTextForUniques": "+33% ⚙Production when constructing ⚙Production buildings in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+33]% Production when constructing [Production] buildings [in all cities]"]	
+		"replacementTextForUniques": "[[+25]% Production when constructing [Production] buildings [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% Production when constructing [Production] buildings [in all cities]"]	
 	},
 	{
 		"name": "Tata Somba",

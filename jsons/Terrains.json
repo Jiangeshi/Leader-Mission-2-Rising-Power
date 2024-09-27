@@ -43,8 +43,7 @@
             "Considered [Food] when determining start locations <in [Hill] Regions>",
             "Considered [Food] when determining start locations <in [Grassland] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
-	        "Becomes [Volcanic Soil] when adjacent to [Volcano]",            
-            "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+	        "Becomes [Volcanic Soil] when adjacent to [Volcano]",                        "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
 	{
 		"name": "Plains",
