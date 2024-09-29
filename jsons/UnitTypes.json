@@ -6,7 +6,7 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba]> <hidden from users>",
         "Ignores Zone of Control <for [Poland]> <hidden from users>", "May enter foreign tiles without open borders <for [Poland]> <hidden from users>", "May travel on Water tiles without embarking <for [Indonesia]> <hidden from users>"
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]> <hidden from users>"
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]
     },
@@ -16,7 +16,7 @@
         "uniques": [
         "Unit will heal every turn, even if it performs an action <for [Cuba]> <hidden from users>",
         "Ignores Zone of Control <for [Poland]> <hidden from users>", "May enter foreign tiles without open borders <for [Poland]> <hidden from users>"
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]
     },
@@ -45,7 +45,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]    
     },
@@ -74,7 +74,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]
     },
@@ -105,7 +105,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]    
     },
@@ -136,7 +136,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>", 
         ]    
     },
@@ -165,7 +165,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>", 
         ]    
     },
@@ -193,7 +193,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>", 
         ]        
     },
@@ -217,7 +217,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>", 
         ]                
     },
@@ -245,7 +245,7 @@
         "Double movement in [Jungle] <for [Vietnam]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-1] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",  
         ]    
     },
@@ -263,7 +263,7 @@
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",  
         ]                
     },
@@ -282,7 +282,7 @@
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>", 
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]                
     },
@@ -301,7 +301,7 @@
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>",        
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]                
     },
@@ -317,7 +317,7 @@
         "May enter foreign tiles without open borders <for [Poland]> <hidden from users>", 
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
-        "[-2] Movement <when [Chess-like Battle Mode] Victory is enabled>",
+        
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",       
         ]                
     },
