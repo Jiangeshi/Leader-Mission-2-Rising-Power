@@ -294,7 +294,7 @@
 		"innerColor": [243, 243, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
-		"uniqueText": "[Worker] units can turn a tile into a [Forest] tile once in your cities\n[[Double movement in [Vegetation]] [for [Military] units]]",
+		"uniqueText": "[Worker] units can turn a tile into a [Forest] tile once by free and once by cumsumeing this unit in your cities\n[[Double movement in [Vegetation]] [for [Military] units]]",
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
@@ -695,7 +695,7 @@
         "innerColor": [18,84,30],
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale\nCan not sell ☮Faith building" 
+		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
 		"uniques": ["Gain [50] [Faith] <upon constructing [Faith] [in all cities]> <(modified by game speed)>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
@@ -1848,9 +1848,10 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "African Warlord",
-		"uniqueText": "[Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately]\n+25% †Strength for Military units vs cities when attacking"
+		"uniqueText": "[Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately]\n+25% †Strength for Military units vs cities when attacking\n[Enables conversion of city production to [Culture]]"
 		"uniques": [
 		"Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately", 
+		"Enables conversion of city production to [Culture]"
 		"[+25]% Strength <for [Military] units> <vs cities> <when attacking>", 
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"

@@ -8,6 +8,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
 		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>", "[-25]% production cost <for [Iroquois]> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam]> <hidden from users>"
+		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam]> <by consuming this unit> <hidden from users>"
 		],
 		"cost": 70
 	},
@@ -1917,7 +1918,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2
 	},
 	{
@@ -1925,26 +1926,26 @@
 		"unitType": "Civilian",
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2	
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2	
 	},
 	{
@@ -1957,14 +1958,14 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit",
-			"Takes your religion over the one in their birth city", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+			"Takes your religion over the one in their birth city", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2,
 		"religiousStrength": 1000,
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 2	
 	},
 	{
@@ -1972,7 +1973,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 4,
 	},
 	{
@@ -1987,7 +1988,7 @@
 		"[+5]% Strength bonus for [Land] units within [2] tiles", 
 		"Unbuildable",
 		"[-1] Movement <after adopting [Discipline]>"
-		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"],
+		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"],
 		"movement": 3,
 	},
 	{
@@ -2004,7 +2005,7 @@
 		"Uncapturable",
 		"Unbuildable",
 		"Is part of Great Person group [Military]",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	
@@ -2019,7 +2020,7 @@
 		    "Free Social Policy <by consuming this unit> <for [non-[Chile]]>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 			],
 		"movement": 2,
 	},
@@ -2030,7 +2031,7 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 			],
 		"movement": 2,
 	},
@@ -2044,7 +2045,7 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2057,7 +2058,7 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2069,7 +2070,7 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 			],
 		"movement": 2,
 		
@@ -2085,7 +2086,7 @@
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	},
@@ -2099,7 +2100,7 @@
 		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	},
@@ -2112,7 +2113,7 @@
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	},
@@ -2125,7 +2126,7 @@
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	},
@@ -2139,7 +2140,7 @@
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
 		"Great Admiral",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	
@@ -2154,7 +2155,7 @@
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2
 	},
@@ -2169,7 +2170,7 @@
 		"[+2] Sight <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2182,7 +2183,7 @@
 		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2195,7 +2196,7 @@
 		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2208,7 +2209,7 @@
 		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2221,7 +2222,7 @@
 		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2234,7 +2235,7 @@
 		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2247,7 +2248,7 @@
 		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
     },
@@ -2260,7 +2261,7 @@
 		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2273,7 +2274,7 @@
 		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2286,7 +2287,7 @@
 		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	},
@@ -2299,7 +2300,7 @@
 		"[Mobile] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]>"
+		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland]> <hidden from users>"
 		],
 		"movement": 2,
 	
