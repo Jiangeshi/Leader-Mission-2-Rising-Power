@@ -2070,6 +2070,15 @@ BuildingIcons/Yun Ji Barracks
   offset: 0, 0
   index: -1       
   
+Images/BuildingIcons/Yun Ji Barracks.png
+BuildingIcons/Military City
+  rotate: false
+  xy: 0,0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1 
+  
 Images/BuildingIcons/Fane.png
 BuildingIcons/Fane
   rotate: false
@@ -2150,15 +2159,6 @@ BuildingIcons/Royal Navy Dockyard
   orig: 50, 50
   offset: 0, 0
   index: -1        
-          
-Images/BuildingIcons/RockeryGarden.png
-BuildingIcons/Rockery Garden
-  rotate: false
-  xy: 0,0
-  size: 40, 40
-  orig: 40, 40
-  offset: 0, 0
-  index: -1                
               
 Images/BuildingIcons/StudenicaMonastery.png
 BuildingIcons/Studenica Monastery
@@ -2340,6 +2340,15 @@ BuildingIcons/Productive Investment
   offset: 0, 0
   index: -1     
   
+Images/BuildingIcons/Gold.png
+BuildingIcons/Commercial City
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1    
+  
 Images/BuildingIcons/Science.png
 BuildingIcons/Research Investment
   rotate: false
@@ -2348,6 +2357,15 @@ BuildingIcons/Research Investment
   orig: 80, 80
   offset: 0, 0
   index: -1     
+  
+Images/BuildingIcons/Science.png
+BuildingIcons/Research-Oriented City
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1  
   
 Images/BuildingIcons/Culture.png
 BuildingIcons/Entertainment Investment
@@ -2358,6 +2376,15 @@ BuildingIcons/Entertainment Investment
   offset: 0, 0
   index: -1     
   
+Images/BuildingIcons/Culture.png
+BuildingIcons/Cultural City
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1   
+  
 Images/BuildingIcons/Production.png
 BuildingIcons/Infrastructure Investment
   rotate: false
@@ -2365,7 +2392,16 @@ BuildingIcons/Infrastructure Investment
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
-  index: -1              
+  index: -1           
+
+Images/BuildingIcons/Production.png
+BuildingIcons/Industrial City
+  rotate: false
+  xy: 0,0
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
   
 Images/BuildingIcons/Food.png
 BuildingIcons/Grain Investment
@@ -2374,7 +2410,16 @@ BuildingIcons/Grain Investment
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
-  index: -1                  
+  index: -1
+ 
+Images/BuildingIcons/Food.png
+BuildingIcons/Agricultural City
+  rotate: false
+  xy: 0,0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1             
   
 Images/BuildingIcons/LydiaMint.png
 BuildingIcons/Lydia Mint
@@ -2439,8 +2484,33 @@ BuildingIcons/San Diego Cathedral
   offset: 0, 0
   index: -1 
   
+Images/BuildingIcons/Steel.png
+BuildingIcons/Resource-Based City
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
   
+Images/BuildingIcons/Fortress City.png
+BuildingIcons/Fortress City
+  rotate: false
+  xy: 0, 0
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1 
   
+Images/BuildingIcons/Comprehensive City.png
+BuildingIcons/Comprehensive City
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1  
+    
 Images/BuildingIcons/GreatGeneral.png
 BuildingIcons/Classical Era Special Military Great Person Project
   rotate: false
@@ -2456,21 +2526,7 @@ BuildingIcons/Sun Tzu
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Sun Tzu
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Gnaeus Pompeius Magnus
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Gnaeus Pompeius Magnus
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2484,21 +2540,7 @@ BuildingIcons/Spartacus
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Spartacus
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Bai Qi
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Bai Qi
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2519,21 +2561,7 @@ BuildingIcons/Belisarius
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Belisarius
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Han Xin
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Han Xin
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2547,21 +2575,7 @@ BuildingIcons/Xiang Yu
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Xiang Yu
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Li Jing
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Li Jing
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2575,21 +2589,7 @@ BuildingIcons/Subedei
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Subedei
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Timur
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Timur
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2603,13 +2603,6 @@ BuildingIcons/Jeanne
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Jeanne
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Khalid ibn al-Walid
   rotate: false
   xy: 0,0
@@ -2617,13 +2610,6 @@ BuildingIcons/Khalid ibn al-Walid
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Khalid ibn al-Walid
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
 BuildingIcons/Bayezid I
   rotate: false
   xy: 0,0
@@ -2631,13 +2617,6 @@ BuildingIcons/Bayezid I
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Bayezid I
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
 BuildingIcons/Mgar-Blon-Khri-Vbring-Btsan-Brod
   rotate: false
   xy: 0,0
@@ -2645,13 +2624,6 @@ BuildingIcons/Mgar-Blon-Khri-Vbring-Btsan-Brod
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Mgar-Blon-Khri-Vbring-Btsan-Brod
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
 BuildingIcons/Narses
   rotate: false
   xy: 0,0
@@ -2659,13 +2631,6 @@ BuildingIcons/Narses
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Narses
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
 BuildingIcons/William Marshal
   rotate: false
   xy: 0,0
@@ -2673,24 +2638,11 @@ BuildingIcons/William Marshal
   orig: 100, 100
   offset: 0, 0
   index: -1 
-BuildingIcons/No-William Marshal
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1   
+
 
   
 Images/BuildingIcons/GreatAdmiral.png
 BuildingIcons/Themistocles
-  rotate: false
-  xy: 0,0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Themistocles
   rotate: false
   xy: 0,0
   size: 100, 100
@@ -2713,21 +2665,7 @@ BuildingIcons/Confucius
   orig: 110, 110
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Confucius
-  rotate: false
-  xy: 0,0
-  size: 110, 110
-  orig: 110, 110
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Gautama Siddhartha
-  rotate: false
-  xy: 0,0
-  size: 110, 110
-  orig: 110, 110
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Gautama Siddhartha
   rotate: false
   xy: 0,0
   size: 110, 110
@@ -2741,21 +2679,7 @@ BuildingIcons/Muhammad
   orig: 110, 110
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Muhammad
-  rotate: false
-  xy: 0,0
-  size: 110, 110
-  orig: 110, 110
-  offset: 0, 0
-  index: -1 
 BuildingIcons/Jesus
-  rotate: false
-  xy: 0,0
-  size: 110, 110
-  orig: 110, 110
-  offset: 0, 0
-  index: -1 
-BuildingIcons/No-Jesus
   rotate: false
   xy: 0,0
   size: 110, 110
@@ -2769,14 +2693,13 @@ BuildingIcons/Zoroaster
   orig: 110, 110
   offset: 0, 0
   index: -1 
-BuildingIcons/No-Zoroaster
+BuildingIcons/Religious City
   rotate: false
   xy: 0,0
   size: 110, 110
   orig: 110, 110
   offset: 0, 0
   index: -1 
-
 
 
 
@@ -2835,7 +2758,15 @@ ImprovementIcons/Geothermal Power Plant
   offset: 0, 0
   index: -1  
   
-  
+Images/ImprovementIcons/The Great Wall of China.png
+ImprovementIcons/The Great Wall of China
+  rotate: false
+  xy: 0, 0
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1  
+
   
   
   
@@ -3963,8 +3894,70 @@ TileSets/HexaRealm/Tiles/Seafall ruins
   orig: 70, 70
   offset: 0, 0
   index: -1 
-
   
+Images/TileSets/The Great Wall of China C.png
+TileSets/HexaRealm/Tiles/The Great Wall of China
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWB.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-Bottom
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWBL.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-BottomLeft
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWBR.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-BottomRight
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWT.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-Top
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWTL.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-TopLeft
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+  
+Images/TileSets/TGWTR.png
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-TopRight
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1 
+
 Images/UnitIcons/GreatAdmiralIcon.png
 UnitIcons/Great Admiral
   rotate: false

@@ -195,28 +195,23 @@
         "choices": [
             {
                 "text": "Confucius",
-                 
-                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Confucius] is not constructed>", "Only available<for [non-[Chile]]>", "Provides a [Confucius] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Confucius] is constructed by anybody>", "Only available<for [non-[Chile]]>", "Provides a [Confucius] in your first [1] cities for free"]
             },
             {
                 "text": "Gautama Siddhartha",
-                 
-                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Gautama Siddhartha] is not constructed>", "Provides a [Gautama Siddhartha] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Gautama Siddhartha] is constructed by anybody>", "Provides a [Gautama Siddhartha] in your first [1] cities for free"]
             },
             {
                 "text": "Jesus",
-                 
-                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Jesus] is not constructed>", "Provides a [Jesus] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Jesus] is constructed by anybody>", "Provides a [Jesus] in your first [1] cities for free"]
             },
             {
                 "text": "Muhammad",
-                 
-                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Muhammad] is not constructed>", "Provides a [Muhammad] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Muhammad] is constructed by anybody>", "Provides a [Muhammad] in your first [1] cities for free"]
             },
             {
                 "text": "Zoroaster",
-                 
-                "uniques": ["Only available<during the [Classical era]>", "Only available<if [No-Zoroaster] is not constructed>", "Provides a [Zoroaster] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Zoroaster] is constructed by anybody>", "Provides a [Zoroaster] in your first [1] cities for free"]
             },
         ]
     },
@@ -227,27 +222,27 @@
             {
                 "text": "Sun Tzu",
                  
-                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Sun Tzu] is not constructed>", "Provides a [Sun Tzu] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Sun Tzu] is constructed by anybody>", "Provides a [Sun Tzu] in your first [1] cities for free"]
             },
             {
                 "text": "Gnaeus Pompeius Magnus",
                  
-                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Gnaeus Pompeius Magnus] is not constructed>", "Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Gnaeus Pompeius Magnus] is constructed by anybody>", "Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"]
             },
             {
                 "text": "Spartacus",
                  
-                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Spartacus] is not constructed>", "Provides a [Spartacus] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Spartacus] is constructed by anybody>", "Provides a [Spartacus] in your first [1] cities for free"]
             },
             {
                 "text": "Bai Qi",
                  
-                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Bai Qi] is not constructed>", "Provides a [Bai Qi] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Bai Qi] is constructed by anybody>", "Provides a [Bai Qi] in your first [1] cities for free"]
             },
             {
                 "text": "Themistocles",
 
-                "uniques": ["Only available <during the [Classical era]>", "Only available<if [No-Themistocles] is not constructed>", "Provides a [Themistocles] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Themistocles] is constructed by anybody>", "Provides a [Themistocles] in your first [1] cities for free"]
             },
         ]
     }
@@ -282,63 +277,62 @@
             {
                 "text": "Belisarius",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Belisarius] is not constructed>", "Provides a [Belisarius] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Belisarius] is constructed by anybody>", "Provides a [Belisarius] in your first [1] cities for free"]
             },
             {
                 "text": "Han Xin",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Han Xin] is not constructed>", "Provides a [Han Xin] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Han Xin] is constructed by anybody>", "Provides a [Han Xin] in your first [1] cities for free"]
             },
             {
                 "text": "Xiang Yu",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Xiang Yu] is not constructed>", "Provides a [Xiang Yu] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Xiang Yu] is constructed by anybody>", "Provides a [Xiang Yu] in your first [1] cities for free"]
             },
             {
                 "text": "Li Jing",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Li Jing] is not constructed>", "Provides a [Li Jing] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Li Jing] is constructed by anybody>", "Provides a [Li Jing] in your first [1] cities for free"]
             },
             {
                 "text": "Subedei",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Subedei] is not constructed>", "Provides a [Subedei] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Subedei] is constructed by anybody>", "Provides a [Subedei] in your first [1] cities for free"]
             },
             {
                 "text": "Timur",
 
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Timur] is not constructed>", "Provides a [Timur] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Timur] is constructed by anybody>", "Provides a [Timur] in your first [1] cities for free"]
             },
             {
                 "text": "Jeanne",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Jeanne] is not constructed>", "Provides a [Jeanne] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Jeanne] is constructed by anybody>", "Provides a [Jeanne] in your first [1] cities for free"]
             },
             {
                 "text": "Khalid ibn al-Walid",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Khalid ibn al-Walid] is not constructed>", "Provides a [Khalid ibn al-Walid] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Khalid ibn al-Walid] is constructed by anybody>", "Provides a [Khalid ibn al-Walid] in your first [1] cities for free"]
             },
             {
                 "text": "Bayezid I",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Bayezid I] is not constructed>", "Provides a [Bayezid I] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Bayezid I] is constructed by anybody>", "Provides a [Bayezid I] in your first [1] cities for free"]
             },
             {
                 "text": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is not constructed>", "Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody>", "Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"]
             },
             {
                 "text": "Narses",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [Narses] is not constructed>", "Provides a [Narses] in your first [1] cities for free"]
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Narses] is constructed by anybody>", "Provides a [Narses] in your first [1] cities for free"]
             },
             {
                 "text": "William Marshal",
                  
-                "uniques": ["Only available <during the [Medieval era]>", "Only available <if [William Marshal] is not constructed>", "Provides a [William Marshal] in your first [1] cities for free"]
-                
+                "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [William Marshal] is constructed by anybody>", "Provides a [William Marshal] in your first [1] cities for free"]         
             },
         ]
     }

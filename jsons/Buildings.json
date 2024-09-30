@@ -9,7 +9,157 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]	
+		"uniques": ["Indicates the capital city"]
+	
+	// 专业城市
+	},
+	{
+        "name": "Comprehensive City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>"
+		"Specialized City",
+		
+		"[+25]% growth [in this city]", 
+		
+		"[+25]% growth [in this city] <in cities with a [City Level IV]>"
+		]
+	},
+	{
+        "name": "Agricultural City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Production] [in this city]",
+		"[+1 Food] from [Farm] tiles [in this city]", 
+		
+		"[+1 Food] from [Pasture] tiles [in this city] <in cities with a [City Level IV]>",
+		"[+1 Food] from [Plantation] tiles [in this city] <in cities with a [City Level IV]>"
+		]
+	},
+	{
+        "name": "Resource-Based City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Food] [in this city]",
+		"Provides [5] [Horses] <after discovering [Animal Husbandry]>"
+		"Provides [5] [Iron] <after discovering [Iron Working]>", 	
+		"Provides [5] [Coal] <after discovering [Chemistry]> <in cities with a [City Level IV]>",
+		"Provides [5] [Steels] <after discovering [Metal Casting]> <in cities with a [City Level IV]>",
+		"Provides [5] [Oil] <after discovering [Biology]> <in cities with a [City Level IV]>",
+		"Provides [5] [Aluminum] <after discovering [Electricity]> <in cities with a [City Level V]>",
+		"Provides [5] [Uranium] <after discovering [Atomic Theory]> <in cities with a [City Level V]>",
+		]	
+	},
+	{
+        "name": "Commercial City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Food] [in this city]",
+		"[+10 Gold] from all [Gold] buildings <in this city>", 
+		
+		"[+7 Gold] from [Trading post] tiles [in this city] <in cities with a [City Level IV]>"
+		]	
+	},
+	{
+        "name": "Industrial City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Food] [in this city]",
+		"[+1 Production] from all [Production] buildings <in this city>", 
+		"[+25]% Yield from every [Manufactory] <in this city>",
+		
+		"[+15]% [Production] <in cities with a [Factory]> <in this city>"
+		]
+	},
+	{
+        "name": "Research-Oriented City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[+25]% maintenance cost for buildings [in this city]",
+		"[+1 Science] from all [Science] buildings <in this city>", 
+		"[+25]% Yield from every [Academy] <in this city>",
+		
+		"[+15]% [Science] <in cities with a [Public School]> <in this city>"
+		]
+	},
+	{
+        "name": "Cultural City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[+25]% maintenance cost for buildings [in this city]",
+		"[+1 Culture] from all [Culture] buildings <in this city>", 
+		
+		"[+8]% [Culture] from every [Wonder] <in this city> <in cities with a [City Level IV]>"
+		]
+	},
+	{
+        "name": "Religious City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Science] [in this city]",
+		"[+1 Faith] from all [Faith] buildings <in this city>", 
+		
+		"[+20]% Yield from every [Holy site] <in this city> <in cities with a [City Level IV]>",
+		]
+	},
+	{
+        "name": "Military City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Food] [in this city]",
+		"[+20]% Production when constructing [Military] units [in this city]",
+		"[+1 Production] from every [Barracks] <in this city>"
+		
+		"[+3 Production] from every [Armory] <in this city> <in cities with a [City Level IV]>"
+		"[+5 Science] from every [Military Academy] <in this city> <in cities with a [City Level IV]>"
+		]
+	},
+	{
+        "name": "Fortress City",
+        "cost": 100,
+        "cityStrength": 15,
+		"cityHealth": 200,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-10]% [Food] [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]"
+		
+		"[+25]% City Strength from defensive buildings <in this city> <in cities with a [City Level IV]>"
+		]
 		
 	// 远古时代-必建建筑
 	},
@@ -1295,16 +1445,6 @@
 		"uniqueTo": "China",
 	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units\n+10% ⚙Production when constructing Foot Soldier units in all cities",
 		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Only available <in cities without a [Civilized Leader-First Emperor of Qin]>", "Only available <in cities without a [Civilized Leader-Emperor Wu of Han]>", "[+1] Movement <for [Foot Soldier] units>", "[+10]% Production when constructing [Foot Soldier] units [in all cities]"]
-	},
-	{
-		"name": "Rockery Garden",
-		"food": 2,
-		"culture":3,
-	    "uniques": ["Only available <in cities with a [City Level III]>", "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings] <in this city>"],
-		"maintenance": 2,
-		"requiredTech": "Agricultural Improvement"
-		"uniqueTo": "China",
-		"replaces": "Garden",
 		
 	// 朝鲜
 	},
@@ -2508,7 +2648,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Zulu",
-		"replacementTextForUniques": "+20% [Production] when constructing Military units in all cities",
+		"replacementTextForUniques": "[[+20]% Production when constructing [Military] units [in all cities]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "[+20]% Production when constructing [Military] units [in all cities]"]
 	},
 	{
@@ -2774,12 +2914,6 @@
         "cost": 160,
         "replacementTextForUniques": "Choose a special [Great Prophet]"
 		"uniques": [
-		"Provides a [No-Confucius] in your first [1] cities for free <if [Confucius] is constructed by anybody>",
-		"Provides a [No-Gautama Siddhartha] in your first [1] cities for free <if [Gautama Siddhartha] is constructed by anybody>",
-		"Provides a [No-Jesus] in your first [1] cities for free <if [Jesus] is constructed by anybody>",
-		"Provides a [No-Muhammad] in your first [1] cities for free <if [Muhammad] is constructed by anybody>",
-		"Provides a [No-Zoroaster] in your first [1] cities for free <if [Zoroaster] is constructed by anybody>",
-		
 		"Triggers a [Special Great Prophet Project] event",
 		
 		"Remove [Special Great Prophet Project] [in this city]",
@@ -2802,28 +2936,12 @@
 		],
 	},
 	{
-		"name": "No-Confucius",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Gautama Siddhartha",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Gautama Siddhartha] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Gautama Siddhartha",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	},
 	{
@@ -2836,14 +2954,6 @@
 		],
 	},
 	{
-		"name": "No-Jesus",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Muhammad",
         "maintenance": 0,
         "cost": 10000,
@@ -2853,28 +2963,12 @@
 		],
 	},
 	{
-		"name": "No-Muhammad",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Zoroaster",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Zoroaster] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Zoroaster",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	
 	// 特殊军事伟人项目
@@ -2886,12 +2980,6 @@
         "cost": 20,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
 		"uniques": [
-		"Provides a [No-Sun Tzu] in your first [1] cities for free <if [Sun Tzu] is constructed by anybody>",
-		"Provides a [No-Gnaeus Pompeius Magnus] in your first [1] cities for free <if [Gnaeus Pompeius Magnus] is constructed by anybody>",
-		"Provides a [No-Spartacus] in your first [1] cities for free <if [Spartacus] is constructed by anybody>",
-		"Provides a [No-Bai Qi] in your first [1] cities for free <if [Bai Qi] is constructed by anybody>",
-		"Provides a [No-Themistocles] in your first [1] cities for free <if [Themistocles] is constructed by anybody>",
-		
 		"Triggers a [Classical Era Special Military Great Person Project] event",
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
@@ -2912,28 +3000,12 @@
 		],
 	},
 	{
-		"name": "No-Sun Tzu",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Gnaeus Pompeius Magnus",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Gnaeus Pompeius Magnus] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Gnaeus Pompeius Magnus",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	},
 	{
@@ -2946,28 +3018,12 @@
 		],
 	},
 	{
-		"name": "No-Spartacus",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Bai Qi",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Bai Qi] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Bai Qi",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	},
 	{
@@ -2978,15 +3034,7 @@
 		"Free [Themistocles] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		],
-	},
-	{
-		"name": "No-Themistocles",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	
+
 	// 中古特殊军事伟人项目
 	},
 	{
@@ -2995,23 +3043,7 @@
         "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
 		"uniques": [
-		"Provides a [No-Belisarius] in your first [1] cities for free <if [Belisarius] is constructed by anybody>",
-		"Provides a [No-Han Xin] in your first [1] cities for free <if [Han Xin] is constructed by anybody>",
-	    "Provides a [No-Bai Qi] in your first [1] cities for free <if [Bai Qi] is constructed by anybody>",
-	    "Provides a [No-Li Jing] in your first [1] cities for free <if [Li Jing] is constructed by anybody>",
-	    "Provides a [No-Subedei] in your first [1] cities for free <if [Subedei] is constructed by anybody>",
-	    "Provides a [No-Timur] in your first [1] cities for free <if [Timur] is constructed by anybody>",
-	    "Provides a [No-Jeanne] in your first [1] cities for free <if [Jeanne] is constructed by anybody>",
-	    "Provides a [No-Khalid ibn al-Walid] in your first [1] cities for free <if [Khalid ibn al-Walid] is constructed by anybody>",
-	    "Provides a [No-Bayezid I] in your first [1] cities for free <if [Bayezid I] is constructed by anybody>",
-	    "Provides a [No-Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody>",
-	    "Provides a [No-Narses] in your first [1] cities for free <if [Narses] is constructed by anybody>",
-	    "Provides a [No-William Marshal] in your first [1] cities for free <if [William Marshal] is constructed by anybody>",
-	    
-	    
-	    
-		
-		"Triggers a [Medieval era Special Military Great Person Project] event",
+	    "Triggers a [Medieval era Special Military Great Person Project] event",
 		
 		"Remove [Medieval era Special Military Great Person Project] [in this city]",
 		
@@ -3033,28 +3065,12 @@
 		],
 	},
 	{
-		"name": "No-Belisarius",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Han Xin",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Han Xin] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Han Xin",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	},
 	{
@@ -3067,28 +3083,12 @@
 		],
 	},
 	{
-		"name": "No-Xiang Yu",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Li Jing",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Li Jing] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Li Jing",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	},
 	{
@@ -3101,14 +3101,6 @@
 		],
 	},
 	{
-		"name": "No-Subedei",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Timur",
         "maintenance": 0,
         "cost": 10000,
@@ -3118,28 +3110,12 @@
 		],
 	},
 	{
-		"name": "No-Timur",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Jeanne",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Jeanne] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Jeanne",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
     },
 	{
@@ -3152,14 +3128,6 @@
 		],
 	},
 	{
-		"name": "No-Khalid ibn al-Walid",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Bayezid I",
         "maintenance": 0,
         "cost": 10000,
@@ -3169,28 +3137,12 @@
 		],
 	},
 	{
-		"name": "No-Bayezid I",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [Mgar-Blon-Khri-Vbring-Btsan-Brod] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-Mgar-Blon-Khri-Vbring-Btsan-Brod",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
     },
 	{
@@ -3203,28 +3155,12 @@
 		],
 	},
 	{
-		"name": "No-Narses",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
-		],
-	},
-	{
 		"name": "William Marshal",
         "maintenance": 0,
         "cost": 10000,
 		"uniques": [
 		"Free [William Marshal] appears",
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		],
-	},
-	{
-		"name": "No-William Marshal",
-        "maintenance": 0,
-        "cost": 10000,
-		"uniques": [
-		"Unbuildable", "Cannot be purchased", "Unsellable",
 		],
 	}
 ]

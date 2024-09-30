@@ -42,17 +42,13 @@
   {
     "name": "Culture and Policies",
     "steps": [
-      "Each turn, the culture you gain from all your cities is added to your Civilization's culture.\nWhen you have enough culture, you may pick a Social Policy, each one giving you a certain bonus."	,
-      "The policies are organized into branches, with each branch providing a bonus ability when all policies in the branch have been adopted."    ,
-      "With each policy adopted, and with each city built,\n  the cost of adopting another policy rises - so choose wisely!"
+      "In LM2, cities are classified into five levels, I to V, based on the number of buildings (0, 3, 7, 12, 16) within the city. The city level will limit the number of buildings that can be built in the city, so you need to upgrade the city by building more low-level buildings in order to be able to build high-level buildings.",
     ]
   },
   {
     "name": "City Expansion",
     "steps": [
-	"Once a city has gathered enough Culture, it will expand into a neighboring tile.\nYou have no control over the tile it will expand into, but tiles with resources and higher yields are prioritized.",
-	"Each additional tile will require more culture, but generally your first cities will eventually expand to a wide tile range.",
-	"Although your city will keep expanding forever, your citizens can only work 3 tiles away from city center.\nThis should be taken into account when placing new cities."
+	"When your city reaches Level II and its population reaches 7, you can choose a specialized development direction for the city. Each city can only transform in one direction, and unless the city is conquered, the transformation result is irreversible."
     ]
   },
   {

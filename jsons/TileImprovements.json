@@ -445,6 +445,18 @@
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
 		"uniques": ["[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
-
+	},
+	{
+		"name": "The Great Wall of China",
+		"uniqueTo": "China",
+		"terrainsCanBeBuiltOn": ["Hill", "Plains", "Grassland", "Snow", "Tundra", "Desert"],
+		"production": 1,
+		"turnsToBuild": 1,
+	    "techRequired": "Defensive Fortification",
+		"uniques": ["[+1 Culture] for each adjacent [The Great Wall of China]", 
+		"Unbuildable <with [2] to [6] neighboring [The Great Wall of China] tiles>"
+		"Gives a defensive bonus of [25]%"
+		"Comment [non-China units -1 Movement in this tile]",
+		"Pillaging this improvement yields approximately [+20 Gold]"],
 	}
 ]
