@@ -17,7 +17,7 @@
         "name": "Comprehensive City",
         "cost": 100,
 		"uniques": [
-		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>"
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>"
 		"Specialized City",
 		
 		"[+25]% growth [in this city]", 
@@ -29,7 +29,7 @@
         "name": "Agricultural City",
         "cost": 100,
 		"uniques": [
-		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Production] [in this city]",
@@ -44,7 +44,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Food] [in this city]",
@@ -62,13 +62,13 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Food] [in this city]",
-		"[+10 Gold] from all [Gold] buildings <in this city>", 
+		"[+7 Gold] from all [Gold] buildings <in this city>", 
 		
-		"[+7 Gold] from [Trading post] tiles [in this city] <in cities with a [City Level IV]>"
+		"[+5 Gold] from [Trading post] tiles [in this city] <in cities with a [City Level IV]>"
 		]	
 	},
 	{
@@ -76,7 +76,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Food] [in this city]",
@@ -91,7 +91,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[+25]% maintenance cost for buildings [in this city]",
@@ -106,7 +106,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[+25]% maintenance cost for buildings [in this city]",
@@ -120,7 +120,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Science] [in this city]",
@@ -134,7 +134,7 @@
         "cost": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Food] [in this city]",
@@ -152,7 +152,7 @@
 		"cityHealth": 200,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
-		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [7] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
 		"[-10]% [Food] [in this city]",

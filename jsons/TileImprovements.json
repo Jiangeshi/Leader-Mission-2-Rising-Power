@@ -451,7 +451,7 @@
 		"uniqueTo": "China",
 		"terrainsCanBeBuiltOn": ["Hill", "Plains", "Grassland", "Snow", "Tundra", "Desert"],
 		"production": 1,
-		"turnsToBuild": 1,
+		"turnsToBuild": 5,
 	    "techRequired": "Defensive Fortification",
 		"uniques": ["[+1 Culture] for each adjacent [The Great Wall of China]", 
 		"Unbuildable <with [2] to [6] neighboring [The Great Wall of China] tiles>"
