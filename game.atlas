@@ -4843,3 +4843,12 @@ UnitPromotionIcons/Turk ability
   orig: 180, 180
   offset: 0, 0
   index: -1    
+  
+Images/UnitPromotionIcons/TotalWarMobilization.png
+UnitPromotionIcons/Military City ability
+  rotate: false
+  xy: 0, 0
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1    

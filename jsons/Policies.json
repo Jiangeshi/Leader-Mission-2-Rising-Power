@@ -467,7 +467,7 @@
         },
         "uniques": [
             "Only available <after discovering [Education]>",
-            "[+15]% [Science] <while the empire is happy>",
+            "[+10]% [Science] <while the empire is happy>",
         ],
         "policies": [
             {
@@ -535,7 +535,7 @@
         },
         "uniques": [
             "Only available <after discovering [Machinery]>",
-            "[+33]% Production when constructing [Production] buildings [in all cities]"
+            "[+25]% Production when constructing [Production] buildings [in all cities]"
         ],
         "policies": [
             {

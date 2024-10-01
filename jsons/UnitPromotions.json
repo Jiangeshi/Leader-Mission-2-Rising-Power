@@ -1492,6 +1492,10 @@
     {
         "name": "Turk ability",
         "uniques":["[Target Unit] takes [5] damage <upon damaging a [Wounded] unit>"]
+    },
+	{
+		"name": "Military City ability",
+		"uniques": ["[+10]% Strength"]
 	}
 ]
     

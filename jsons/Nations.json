@@ -2131,9 +2131,9 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Yin-Yang Harmony",
-		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 2 Warfare Aversion Level\n+1% Strength and Production for every 5 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 3 Warfare Aversion Level\n+1% Strength and Production for every 5 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[-1]% growth [in all cities] <for every [2] [Warfare Aversion Level]>",
+		"[-1]% growth [in all cities] <for every [3] [Warfare Aversion Level]>",
 		"[+1]% Strength <for [Military] units> <for every [5] [Warfare Aversion Level]>",
 		"[+1]% [Production] <for every [5] [Warfare Aversion Level]>",
 		"[+1 Culture, +1 Faith] [in capital] <when not at war>",
