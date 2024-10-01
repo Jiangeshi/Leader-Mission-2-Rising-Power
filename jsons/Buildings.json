@@ -130,9 +130,9 @@
 		"Specialized City",
 		
 		"[-10]% [Science] [in this city]",
-		"[+1 Faith] from all [Faith] buildings <in this city> <in cities with a [City Level II]>", 
-		"[Faith] cost of purchasing items in cities [-20]% <in this city> <in cities with a [City Level III]>"
-		"[+100]% Natural religion spread [in this city] <in cities with a [City Level IV]>",
+		"May buy [Military] units with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level II]>", 
+		"May buy [Buildings] buildings with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level III]>",
+		"[Faith] cost of purchasing items in cities [-15]% <in this city> <in cities with a [City Level IV]>"
 		"[+25]% Yield from every [Holy site] <in this city> <in cities with a [City Level V]>",
 		]
 	},
