@@ -169,6 +169,22 @@
 		"[+25]% City Strength from defensive buildings <in this city> <in cities with a [City Level IV]>",
 		"[+33]% Strength for cities <in this city> <in cities with a [City Level V]>"
 		]
+	},
+	{
+        "name": "Port City",
+        "cost": 100,
+		"uniques": [
+		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
+		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
+		"Specialized City",
+		
+		"[-15]% growth [in this city]",
+		"[+1 Production] from [Fishing Boats] tiles [in this city] <in cities with a [City Level II]>"
+		"[+25]% Production when constructing [Seaside Building] buildings [in this city] <in cities with a [City Level III]>",
+		"[+5]% [Gold] from every [Harbor] <in this city> <in cities with a [City Level IV]>"
+		"[+5]% [Production] from every [Harbor] <in this city> <in cities with a [City Level IV]>"
+		"[+50]% [Gold] from Trade Routes <in this city> <in cities with a [City Level V]>"
+		]
 		
 	// 远古时代-必建建筑
 	},
@@ -390,7 +406,7 @@
 	{
 		"name": "Lighthouse",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "Seaside Building", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [{Water} {Bonus resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Optics"
 	},
 	{
@@ -429,7 +445,7 @@
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 2,
 		"production": 2,
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water", "Must be next to [Coast]", "Seaside Building", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Compass"
 	
 	// 古典-国家奇观
@@ -777,7 +793,7 @@
 	{
 		"name": "Seaport",
 		"maintenance": 3,
-		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1 Production] from [Water resource] tiles [in this city]", "Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level IV]>", "[+1 Production] from [Water resource] tiles [in this city]", "Must be next to [Coast]", "Seaside Building", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Navigation"
 		
 	// 复兴-国家奇观
@@ -941,7 +957,7 @@
 		"production": 2,
 		"greatPersonPoints": {"Great Admiral": 2},
 		"maintenance": 4,
-		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]","Must be next to [Coast]","[+33]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]", "Must be next to [Coast]", "Seaside Building", "[+33]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Steam Power"    
 		   
 	// 工业-国家奇观
@@ -1910,7 +1926,7 @@
 		"maintenance": 4,
 		"replaces": "Shipyard",
         "uniqueTo": "England",
-		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]","Must be next to [Coast]", "[+40]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Only available <in cities with a [City Level V]>","Costs [15] [Steels]","Must be next to [Coast]", "Seaside Building", "[+40]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Steam Power" 
 	
 	// 塞尔维亚
@@ -2620,7 +2636,7 @@
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 2,
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Seaside Building", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
     // 埃塞俄比亚

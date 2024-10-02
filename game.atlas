@@ -2649,6 +2649,13 @@ BuildingIcons/Themistocles
   orig: 100, 100
   offset: 0, 0
   index: -1 
+BuildingIcons/Port City
+  rotate: false
+  xy: 0,0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1 
   
 Images/BuildingIcons/GreatProphet.png
 BuildingIcons/Special Great Prophet Project
