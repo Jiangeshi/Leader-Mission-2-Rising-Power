@@ -22,7 +22,7 @@
 		
 		"[+15]% growth [in this city] <in cities with a [City Level II]>", 
 		"[+10]% Production when constructing [All] buildings [in this city] <in cities with a [City Level III]>"
-		"[+10]% growth [in this city] <in cities with a [City Level IV]>"
+		"[+15]% growth [in this city] <in cities with a [City Level IV]>"
 		"[+5]% Yield from every [Comprehensive City] <in this city> <in cities with a [City Level V]>"
 		]
 	},
@@ -34,7 +34,7 @@
 		"Specialized City",
 		
 		"[-10]% [Production] [in this city]",
-		"[+1 Food] from [Bonus resource] tiles [in this city] <in cities with a [City Level II]>"
+		"[+1 Food, +1 Gold] from [Bonus resource] tiles [in this city] <in cities with a [City Level II]>"
 		"[+1 Food, +1 Gold] from [Pasture] tiles [in this city] <in cities with a [City Level III]>",
 		"[+2 Food, +2 Gold] from [Plantation] tiles [in this city] <in cities with a [City Level IV]>"
 		"[+1 Food] from [Farm] tiles [in this city] <in cities with a [City Level V]>", 
@@ -49,7 +49,7 @@
 		"Specialized City",
 		
 		"[-15]% [Food] [in this city]",
-		"[+1 Production] from [Strategic resource] tiles [in this city] <in cities with a [City Level II]>"
+		"[+1 Production, +1 Food] from [Strategic resource] tiles [in this city] <in cities with a [City Level II]>"
 		"Provides [5] [Horses] <after discovering [Animal Husbandry]> <in cities with a [City Level II]>"
 		"Provides [5] [Iron] <after discovering [Iron Working]> <in cities with a [City Level III]>", 	
 		"Provides [5] [Coal] <after discovering [Chemistry]> <in cities with a [City Level III]>",
@@ -71,7 +71,7 @@
 		"[-10]% [Production] [in this city]",
 		"[+3 Gold] from all [Happiness] buildings <in this city> <in cities with a [City Level II]>", 
 		"[+3 Gold] from all [Culture] buildings <in this city> <in cities with a [City Level III]>", 
-		"[+3 Gold] from all [Gold] buildings <in this city> <in cities with a [City Level IV]>", 
+		"[+5]% [Gold] from every [{Gold} {Buildings}] <in this city> <in cities with a [City Level IV]>", 
 		"[+3 Gold, +1 Science] from [Trading post] tiles [in this city] <in cities with a [City Level V]>"
 		]	
 	},
@@ -86,8 +86,8 @@
 		"[-15]% [Food] [in this city]",
 	    "[+5]% [Production] from every [Kiln] <in this city> <in cities with a [City Level II]>", 
 	    "[+5]% [Production] from every [Workshop] <in this city> <in cities with a [City Level III]>", 
-		"[+10]% [Production] from every [Ironworks] <in this city> <in cities with a [City Level IV]>", 
-	    "[+10]% [Production] from every [Factory] <in this city> <in cities with a [City Level V]>", 
+		"[+8]% [Production] from every [Ironworks] <in this city> <in cities with a [City Level IV]>", 
+	    "[+8]% [Production] from every [Factory] <in this city> <in cities with a [City Level V]>", 
 		]
 	},
 	{
@@ -130,9 +130,10 @@
 		"Specialized City",
 		
 		"[-10]% [Science] [in this city]",
-		"May buy [Military] units with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level II]>", 
-		"May buy [Buildings] buildings with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level III]>",
-		"[Faith] cost of purchasing items in cities [-15]% <in this city> <in cities with a [City Level IV]>"
+		"[+5]% [Faith] from every [{Faith} {Buildings}] <in this city> <in cities with a [City Level II]>", 
+		"[Faith] cost of purchasing items in cities [-15]% <in this city> <in cities with a [City Level III]>",
+		"May buy [Buildings] buildings with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level IV]>",
+		"May buy [Military] units with [Faith] for [3] times their normal Production cost <in this city> <in cities with a [City Level IV]>", 
 		"[+25]% Yield from every [Holy site] <in this city> <in cities with a [City Level V]>",
 		]
 	},
@@ -155,15 +156,15 @@
 	{
         "name": "Fortress City",
         "cost": 100,
-        "cityStrength": 10,
-		"cityHealth": 200,
+        "cityStrength": 5,
+		"cityHealth": 100,
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		
-	    "[-15]% [Food] [in this city]",
-		"[-15]% [Gold] [in this city]",
+	    "[-10]% [Food] [in this city]",
+		"[-10]% [Gold] [in this city]",
 		"[+1 Production] from [Fort] tiles [in this city] <in cities with a [City Level III]>",
 		"[+25]% City Strength from defensive buildings <in this city> <in cities with a [City Level IV]>",
 		"[+33]% Strength for cities <in this city> <in cities with a [City Level V]>"
@@ -1083,7 +1084,7 @@
 		"happiness": 10,
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
-		"[+33]% [Culture] [in all cities]"
+		"[+25]% [Culture] [in all cities]"
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 		"requiredTech": "Globalization",
 	},

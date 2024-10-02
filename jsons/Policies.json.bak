@@ -174,7 +174,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "[+50]% Great Person generation [in all cities]",
+                    "Each city founded increases culture cost of policies [33]% less than normal",
                     "Empire enters golden age"
                 ],
                 "row": 1,

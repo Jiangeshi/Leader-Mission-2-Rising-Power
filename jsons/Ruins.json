@@ -12,12 +12,6 @@
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
     },
     {
-        "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-    {
         "name": "your exploring unit receives training",
         "notification": "An ancient tribe trained us in their ways of combat!",
         "uniques": ["[This Unit] gains [15] XP"]
