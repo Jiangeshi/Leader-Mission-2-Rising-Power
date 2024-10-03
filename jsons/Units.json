@@ -1885,7 +1885,7 @@
 		"name": "SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 2000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
 	},
@@ -1893,7 +1893,7 @@
 		"name": "SS Cockpit",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 2000,
 		"requiredTech": "Satellites",
 		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
@@ -1901,7 +1901,7 @@
 		"name": "SS Engine",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 2000,
 		"requiredTech": "Particle Physics",
 		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
@@ -1909,7 +1909,7 @@
 		"name": "SS Stasis Chamber",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 1500,
+		"cost": 2000,
 		"requiredTech": "Nanotechnology",
 		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 				

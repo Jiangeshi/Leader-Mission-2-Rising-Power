@@ -10,7 +10,7 @@
 	{
 		"name": "Iran",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Iran",
 		"adjective": ["Iranian"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
@@ -46,7 +46,7 @@
 	{
 		"name": "Arabia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Arabia",
 		"adjective": ["Arabian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
@@ -83,7 +83,7 @@
 	{
 		"name": "Mongolia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Mongolia",
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
@@ -116,7 +116,7 @@
 	{
 		"name": "India",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "India",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
 	"preferredVictoryType": "Domination",
@@ -150,7 +150,7 @@
 	{
 		"name": "China",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "China",
 		"startBias": ["Plains"],
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Domination",
@@ -184,7 +184,7 @@
 	{
 		"name": "Korea",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Korea",
 		"adjective": ["Korean"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -213,7 +213,7 @@
 	{
 		"name": "Babylon",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Babylon",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
@@ -244,7 +244,7 @@
 	{
 		"name": "Afghanistan",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Afghanistan",
 		"adjective": ["Afghans"],
 		"startBias": ["Hill"],
 		"preferredVictoryType":"Domination",
@@ -273,7 +273,7 @@
 	{
 		"name": "Vietnam",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Vietnam",
 		"adjective": ["Vietnamese"],
 		"startBias": ["Vegetation"],
 		"preferredVictoryType": "Domination",
@@ -397,7 +397,7 @@
 	{
 		"name": "Siam",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Siam",
 		"adjective": ["Siamese"],
 		"startBias": ["Avoid [Forest]"],
 		"preferredVictoryType":"Diplomatic",
@@ -432,7 +432,7 @@
 	{
 		"name": "Singapore",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Singapore",
 		"adjective": ["Singaporean"],
 		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
@@ -462,7 +462,7 @@
 		"name": "Lydia",
 		"leaderName": "Leader",
 		"adjective": ["Lydian"],
-		"personality": "base",	
+		"personality": "Lydia",	
 		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
@@ -496,7 +496,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Tibetans"],
 		"startBias": ["Hill"],
-		"personality": "base",	
+		"personality": "Tubo",	
 		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
@@ -530,7 +530,7 @@
 	{
 		"name": "Greece",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Greece",
 		"adjective": ["Greek"],
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
@@ -566,7 +566,7 @@
 	{
 		"name": "Macedonia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Macedonia",
 		"adjective": ["Macedonian"],
 		"startBias": ["Plains"],
 		"preferredVictoryType":"Domination",
@@ -600,7 +600,7 @@
 	{
 		"name": "France",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "France",
 		"adjective": ["French"],
 		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
@@ -680,7 +680,7 @@
 	{
 		"name": "Turkey",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Turkey",
 		"adjective": ["Turks"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -709,7 +709,7 @@
 	{
 		"name": "Russia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Russia",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
@@ -743,7 +743,7 @@
 	{
 		"name": "Byzantium",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Byzantium",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -773,7 +773,7 @@
 	{
 		"name": "Rome",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Rome",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
@@ -805,7 +805,7 @@
 	{
 		"name": "England",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "England",
 		"adjective": ["English"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -837,7 +837,7 @@
 	{
 		"name": "Serbia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Serbia",
 		"adjective": ["Serb"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
@@ -870,7 +870,7 @@
 	{
 		"name": "Germany",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Germany",
 		"adjective": ["German"],
 		"preferredVictoryType": "Domination",
 
@@ -903,7 +903,7 @@
 	{
 		"name": "Spain",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Spain",
 		"adjective": ["Spanish"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -935,7 +935,7 @@
 	{
 		"name": "Finland",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Finland",
 		"adjective": ["Finns"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
@@ -964,7 +964,7 @@
 	{
 		"name": "Soviet Union",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Soviet Union",
 		"adjective": ["Soviet"],
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType":"Domination",
@@ -994,7 +994,7 @@
 	{
 		"name": "Poland",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Poland",
 		"adjective": ["Polack"],
 		"startBias": ["Plains"],
 	    "preferredVictoryType":"Domination",
@@ -1024,7 +1024,7 @@
 	{
 		"name": "Vatican",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Vatican",
 		"adjective": ["Pope"],
 		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
@@ -1055,7 +1055,7 @@
 	{
 		"name": "Celts",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Celts",
 		"adjective": ["Irish"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
@@ -1085,7 +1085,7 @@
 	{
 		"name": "Denmark",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Denmark",
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -1123,7 +1123,7 @@
 		"adjective": ["Dutch"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"personality": "base",
+		"personality": "The Netherlands",
 
         "startIntroPart1": "",
         "declaringWar": "Your behavior has angered me. I declare a just war against you",
@@ -1161,7 +1161,7 @@
 		"startBias": ["Tundra"],
 		
 		"preferredVictoryType": "Domination",
-		"personality": "base",
+		"personality": "Sweden",
 
         "startIntroPart1": "",
         "declaringWar": "Your behavior has angered me. I declare a just war against you",
@@ -1191,7 +1191,7 @@
 	{
 		"name": "Scotland",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Scotland",
 		"adjective": ["Scot"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -1231,7 +1231,7 @@
 	{
 		"name": "Inca",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Inca",
 		"adjective": ["Incan"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
@@ -1264,7 +1264,7 @@
 	{
 		"name": "Aztecs",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Aztecs",
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
@@ -1299,7 +1299,7 @@
 	{
 		"name": "The Maya",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "The Maya",
 		"adjective": ["mayan"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
@@ -1331,7 +1331,7 @@
 	{
 		"name": "Columbia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Columbia",
 		"adjective": ["Colombian"],
 		"startBias": ["Hill"],
 		"preferredVictoryType":"Domination",
@@ -1361,7 +1361,7 @@
 	{
 		"name": "Brazil",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Brazil",
 		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType":"Domination",
@@ -1391,7 +1391,7 @@
 	{
 		"name": "Cuba",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Cuba",
 		"adjective": ["Cubans"],
 		"startBias": ["Coast"],
 		"preferredVictoryType":"Domination",
@@ -1421,7 +1421,7 @@
 	{
 		"name": "America",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "America",
 		"adjective": ["American"],
 		"preferredVictoryType": "Domination",
 
@@ -1456,7 +1456,7 @@
 	{
 		"name": "Argentina",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Argentina",
 		"adjective": ["Argentine"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
@@ -1486,7 +1486,7 @@
 	{
 		"name": "Iroquois",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Iroquois",
 		"adjective": ["Iroquoise"],
 		"startBias": ["Forest"],
         "preferredVictoryType": "Domination",
@@ -1519,7 +1519,7 @@
 	{
 		"name": "Chile",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Chile",
 		"adjective": ["Chilean"],
 		"startBias": ["Hill"],
         "preferredVictoryType": "Domination",
@@ -1639,7 +1639,7 @@
 	{
 		"name": "Burkina Faso",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Burkina Faso",
 		"adjective": ["Burkinabes"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType":"Domination",
@@ -1669,7 +1669,7 @@
 	{
 		"name": "Egypt",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Egypt",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
@@ -1701,7 +1701,7 @@
 	{
 		"name": "Benin",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Benin",
 		"adjective": ["Beninese"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
@@ -1733,7 +1733,7 @@
 	{
 		"name": "Carthage",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Carthage",
 		"adjective": ["Carthaginian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -1765,7 +1765,7 @@
 	{
 		"name": "Ethiopia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Ethiopia",
 		"adjective": ["ethiopian"],
 		"startBias": ["Jungle"],
 	    "preferredVictoryType": "Domination",
@@ -1798,7 +1798,7 @@
 	{
 		"name": "Zulu",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Zulu",
 		"adjective": ["the Zulu"],
 		"startBias": ["Plains"],
 	    "preferredVictoryType": "Domination",
@@ -1830,7 +1830,7 @@
 		"leaderName": "Leader",
 		"adjective": ["Songhai"],
 		"startBias": ["Avoid [Tundra]"],
-		"personality": "base",
+		"personality": "Songhai",
 	    "preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
@@ -1867,7 +1867,7 @@
 	{
 		"name": "The Huns",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "The Huns",
 		"adjective": ["Hunnic"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictorType": "Domination",
@@ -1897,7 +1897,7 @@
 	{
 		"name": "Scythian",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Scythian",
 		"adjective": ["Skolotoi"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
@@ -1929,7 +1929,7 @@
     {
 		"name": "Polynesia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Polynesia",
 		"adjective": ["Polynesia"],
 		"startBias": ["Coast"],
 	    "preferredVictoryType": "Domination",
@@ -1960,7 +1960,7 @@
     {
 		"name": "Indonesia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Indonesia",
 		"adjective": ["Indonesian"],
 		"startBias": ["Coast"],
 	    "preferredVictoryType": "Domination",
@@ -1988,7 +1988,7 @@
     {
 		"name": "Turk",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Turk",
 		"adjective": ["Turki"],
 		"startBias": ["Grassland"],
 	    "preferredVictoryType": "Domination",
@@ -2016,7 +2016,7 @@
     {
 		"name": "Australia",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Australia",
 		"adjective": ["Australian"],
 		"startBias": ["Avoid [Tundra]"],
 	    "preferredVictoryType": "Domination",

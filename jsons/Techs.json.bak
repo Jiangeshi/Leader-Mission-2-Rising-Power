@@ -420,8 +420,8 @@
 		"columnNumber": 13,
 		"era": "Industrial era",
 		"techCost": 1328,
-		"buildingCost": 455,
-		"wonderCost": 1140,
+		"buildingCost": 435,
+		"wonderCost": 1085,
 		"techs": [
 			{
 				"name": "Scientific Theory",
@@ -454,8 +454,8 @@
 		"columnNumber": 14,
 		"era": "Industrial era",
 		"techCost": 1639,
-		"buildingCost": 535,
-		"wonderCost": 1340,
+		"buildingCost": 510,
+		"wonderCost": 1275,
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -482,8 +482,8 @@
 		"columnNumber": 15,
 		"era": "Industrial era",
 		"techCost":1872,
-		"buildingCost": 590,
-		"wonderCost": 1475,
+		"buildingCost": 560,
+		"wonderCost": 1400,
 		"techs": [
 			{
 				"name": "Biology",
@@ -510,8 +510,8 @@
 		"columnNumber": 16,
 		"era": "Modern era",
 		"techCost": 2645,
-		"buildingCost": 680,
-		"wonderCost": 1700,
+		"buildingCost": 650,
+		"wonderCost": 1625,
 		"techs": [
 			{
 				"name": "Electricity",
@@ -531,8 +531,8 @@
 		"columnNumber": 17,
 		"era": "Modern era",
 		"techCost": 3024,
-		"buildingCost": 735,
-		"wonderCost": 1840,
+		"buildingCost": 700,
+		"wonderCost": 1750,
 		"techs": [
 			{
 				"name": "Radio",
@@ -558,8 +558,8 @@
 		"columnNumber": 18,
 		"era": "Modern era",
 		"techCost": 3400,
-		"buildingCost": 840,
-		"wonderCost": 2100,
+		"buildingCost": 800,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Electronics",
@@ -591,8 +591,8 @@
 		"columnNumber": 19,
 		"era": "Atomic era",
 		"techCost": 4160,
-		"buildingCost": 945,
-		"wonderCost": 2360,
+		"buildingCost": 900,
+		"wonderCost": 2250,
 		"techs": [
 			{
 				"name": "Atomic Theory",
@@ -624,8 +624,8 @@
 		"columnNumber": 20,
 		"era": "Atomic era",
 		"techCost": 5290,
-		"buildingCost": 1050,
-		"wonderCost": 2625,
+		"buildingCost": 1000,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Ecology",
@@ -651,8 +651,8 @@
 		"columnNumber": 21,
 		"era": "Atomic era",
 		"techCost": 5670,
-		"buildingCost": 1100,
-		"wonderCost": 2750,
+		"buildingCost": 1050,
+		"wonderCost": 2625,
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
@@ -678,8 +678,8 @@
 		"columnNumber": 22,
 		"era": "Information era",
 		"techCost": 6425,
-		"buildingCost": 1365,
-		"wonderCost": 3410,
+		"buildingCost": 1300,
+		"wonderCost": 3250,
 		"techs": [
 			{
 				"name": "Advanced Ballistics",
@@ -705,8 +705,8 @@
 		"columnNumber": 23,
 		"era": "Information era",
 		"techCost": 6800,
-		"buildingCost": 1470,
-		"wonderCost": 3675,
+		"buildingCost": 1400,
+		"wonderCost": 3500,
 		"techs": [
 			{
 				"name": "Nanotechnology",
@@ -739,8 +739,8 @@
 		"columnNumber": 24,
 		"era": "Information era",
 		"techCost": 7560,
-		"buildingCost": 1680,
-		"wonderCost": 4200,
+		"buildingCost": 1600,
+		"wonderCost": 4000,
 		"techs": [
 			{
 				"name": "Nuclear Fusion",

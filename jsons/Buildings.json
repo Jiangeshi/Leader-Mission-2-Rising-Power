@@ -19,6 +19,7 @@
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>"
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[+15]% growth [in this city] <in cities with a [City Level II]>", 
 		"[+10]% Production when constructing [All] buildings [in this city] <in cities with a [City Level III]>"
@@ -32,6 +33,7 @@
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-10]% [Production] [in this city]",
 		"[+1 Food, +1 Gold] from [Bonus resource] tiles [in this city] <in cities with a [City Level II]>"
@@ -47,6 +49,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-15]% [Food] [in this city]",
 		"[+1 Production, +1 Food] from [Strategic resource] tiles [in this city] <in cities with a [City Level II]>"
@@ -66,6 +69,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-10]% [Food] [in this city]",
 		"[-10]% [Production] [in this city]",
@@ -82,6 +86,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-15]% [Food] [in this city]",
 	    "[+5]% [Production] from every [Kiln] <in this city> <in cities with a [City Level II]>", 
@@ -97,6 +102,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[+33]% maintenance cost for buildings [in this city]",
 		
@@ -113,6 +119,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[+33]% maintenance cost for buildings [in this city]",
 		"[+1 Culture] from all [Culture] buildings <in this city> <in cities with a [City Level II]>", 
@@ -128,6 +135,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-10]% [Science] [in this city]",
 		"[+5]% [Faith] from every [{Faith} {Buildings}] <in this city> <in cities with a [City Level II]>", 
@@ -144,6 +152,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-10]% [Food] [in this city]",
 		"[-10]% [Gold] [in this city]",
@@ -162,6 +171,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 	    "[-10]% [Food] [in this city]",
 		"[-10]% [Gold] [in this city]",
@@ -177,6 +187,7 @@
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
+		"Cost increases by [25] when built",
 		
 		"[-15]% growth [in this city]",
 		"[+1 Production] from [Fishing Boats] tiles [in this city] <in cities with a [City Level II]>"
@@ -1095,11 +1106,11 @@
 	},
     {
     	"name": "Utopia Project",
-		"cost": 1800,
+		"cost": 2000,
 		"percentStatBonus": {"production": 20, "science": 20, "gold": 20},
 		"happiness": 10,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
+		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start",
 		"[+25]% [Culture] [in all cities]"
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 		"requiredTech": "Globalization",
