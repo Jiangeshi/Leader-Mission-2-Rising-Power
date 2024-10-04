@@ -126,7 +126,7 @@
 	"culture": 4,
 	"happiness": 10,
 	"faith": 4,
-	"military": 7,
+	"military": 6,
 	"aggressive": 6,
 	"declareWar": 6,
 	"commerce": 4,
@@ -141,12 +141,12 @@
 		"Freedom": 2,
 		"Order": 9,
 
-		"Honor": 10,
-		"Piety": 4,
-		"Commerce": 4,
-		"Patronage": 4,
-		"Industrial": 4,
-		"Rationalism": 4
+		"Honor": 6,
+		"Piety": 0,
+		"Commerce": 6,
+		"Patronage": 6,
+		"Industrial": 6,
+		"Rationalism": 0
 	}
 },
 {
@@ -163,7 +163,7 @@
 	"declareWar": 5,
 	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 8,
@@ -173,9 +173,9 @@
 		"Freedom": 4,
 		"Order": 1,
 
-		"Honor": 5,
-		"Piety": 10,
-		"Commerce": 5,
+		"Honor": 2,
+		"Piety": 9,
+		"Commerce": 4,
 		"Patronage": 2,
 		"Industrial": 2,
 		"Rationalism": 5
@@ -192,10 +192,10 @@
 	"faith": 5,
 	"military": 6,
 	"aggressive": 6,
-	"declareWar": 7,
+	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 7,
 	"priorities": {
 		"Tradition": 3,
@@ -205,11 +205,11 @@
 		"Freedom": 3,
 		"Order": 3,
 
-		"Honor": 9,
+		"Honor": 3,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 9,
+		"Industrial": 10,
 		"Rationalism": 3
 	}
 },
@@ -222,13 +222,13 @@
 	"culture": 8,
 	"happiness": 6,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 5,
 	"declareWar": 4,
 	"commerce": 5,
 	"diplomacy": 6,
 	"loyal": 6,
-	"expansion": 4,
+	"expansion": 2,
 	"priorities": {
 		"Tradition": 7,
 		"Feudalism1": 2,
@@ -237,10 +237,10 @@
 		"Freedom": 7,
 		"Order": 7,
 
-		"Honor": 3,
+		"Honor": 0,
 		"Piety": 3,
-		"Commerce": 9,
-		"Patronage": 9,
+		"Commerce": 7,
+		"Patronage": 7,
 		"Industrial": 3,
 		"Rationalism": 3
 	}
@@ -259,8 +259,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 4,
 		"Feudalism1": 4,
@@ -269,10 +269,10 @@
 		"Freedom": 2,
 		"Order": 10,
 
-		"Honor": 6,
-		"Piety": 3,
-		"Commerce": 3,
-		"Patronage": 3,
+		"Honor": 2,
+		"Piety": 2,
+		"Commerce": 2,
+		"Patronage": 2,
 		"Industrial": 9,
 		"Rationalism": 6
 	}
@@ -291,8 +291,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 4,
+	"loyal": 5,
+	"expansion": 3,
 	"priorities": {
 		"Tradition": 5,
 		"Feudalism1": 2,
@@ -301,11 +301,11 @@
 		"Freedom": 2,
 		"Order": 7,
 
-		"Honor": 3,
+		"Honor": 1,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 7,
+		"Industrial": 6,
 		"Rationalism": 9
 	}
 },
@@ -323,7 +323,7 @@
 	"declareWar": 4,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 6,
 	"priorities": {
 		"Tradition": 5,
@@ -333,12 +333,12 @@
 		"Freedom": 2,
 		"Order": 5,
 
-		"Honor": 3,
+		"Honor": 1,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 6,
-		"Rationalism": 10
+		"Industrial": 5,
+		"Rationalism": 9
 	}
 },
 {
@@ -355,8 +355,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 8,
@@ -365,7 +365,7 @@
 		"Freedom": 2,
 		"Order": 5,
 
-		"Honor": 7,
+		"Honor": 1,
 		"Piety": 7,
 		"Commerce": 1,
 		"Patronage": 1,
@@ -397,12 +397,12 @@
 		"Freedom": 1,
 		"Order": 7,
 
-		"Honor": 8,
-		"Piety": 2,
-		"Commerce": 2,
-		"Patronage": 2,
-		"Industrial": 8,
-		"Rationalism": 8
+		"Honor": 3,
+		"Piety": 3,
+		"Commerce": 3,
+		"Patronage": 3,
+		"Industrial": 10,
+		"Rationalism": 3
 	}
 },
 {
@@ -419,8 +419,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 10,
 		"Feudalism1": 6,
@@ -429,11 +429,11 @@
 		"Freedom": 3,
 		"Order": 3,
 
-		"Honor": 4,
-		"Piety": 8,
+		"Honor": 1,
+		"Piety": 7,
 		"Commerce": 4,
 		"Patronage": 1,
-		"Industrial": 8,
+		"Industrial": 7,
 		"Rationalism": 4
 	}
 },
@@ -451,8 +451,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 3,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 4,
@@ -461,11 +461,11 @@
 		"Freedom": 4,
 		"Order": 8,
 
-		"Honor": 9,
+		"Honor": 3,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 9,
+		"Industrial": 10,
 		"Rationalism": 3
 	}
 },
@@ -481,7 +481,7 @@
 	"military": 5,
 	"aggressive": 5,
 	"declareWar": 4,
-	"commerce": 5,
+	"commerce": 7,
 	"diplomacy": 6,
 	"loyal": 6,
 	"expansion": 5,
@@ -493,11 +493,11 @@
 		"Freedom": 9,
 		"Order": 4,
 
-		"Honor": 2,
+		"Honor": 0,
 		"Piety": 2,
-		"Commerce": 8,
-		"Patronage": 5,
-		"Industrial": 5,
+		"Commerce": 6,
+		"Patronage": 4,
+		"Industrial": 4,
 		"Rationalism": 8
 	}
 },
@@ -513,9 +513,9 @@
 	"military": 5,
 	"aggressive": 6,
 	"declareWar": 5,
-	"commerce": 5,
+	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 6,
 	"priorities": {
 		"Tradition": 2,
@@ -525,7 +525,7 @@
 		"Freedom": 9,
 		"Order": 4,
 
-		"Honor": 8,
+		"Honor": 2,
 		"Piety": 2,
 		"Commerce": 8,
 		"Patronage": 2,
@@ -547,8 +547,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 9,
 		"Feudalism1": 7,
@@ -557,12 +557,12 @@
 		"Freedom": 2,
 		"Order": 4,
 
-		"Honor": 6,
+		"Honor": 2,
 		"Piety": 9,
-		"Commerce": 3,
-		"Patronage": 3,
+		"Commerce": 2,
+		"Patronage": 2,
 		"Industrial": 6,
-		"Rationalism": 3
+		"Rationalism": 2
 	}
 },
 {
@@ -574,13 +574,13 @@
 	"culture": 8,
 	"happiness": 6,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 7,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 6,
 	"loyal": 6,
-	"expansion": 5,
+	"expansion": 3,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 2,
@@ -589,12 +589,12 @@
 		"Freedom": 2,
 		"Order": 6,
 
-		"Honor": 8,
+		"Honor": 2,
 		"Piety": 2,
 		"Commerce": 2,
-		"Patronage": 8,
+		"Patronage": 6,
 		"Industrial": 2,
-		"Rationalism": 8
+		"Rationalism": 9
 	}
 },
 {
@@ -606,27 +606,27 @@
 	"culture": 5,
 	"happiness": 5,
 	"faith": 5,
-	"military": 7,
+	"military": 6,
 	"aggressive": 8,
 	"declareWar": 7,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 7,
+	"loyal": 5,
+	"expansion": 9,
 	"priorities": {
 		"Tradition": 4,
-		"Feudalism1": 6,
+		"Feudalism1": 7,
 		"Liberty": 5,
-		"Autocracy": 10,
-		"Freedom": 3,
-		"Order": 3,
+		"Autocracy": 9,
+		"Freedom": 2,
+		"Order": 2,
 
-		"Honor": 9,
-		"Piety": 6,
+		"Honor": 8,
+		"Piety": 5,
 		"Commerce": 2,
 		"Patronage": 2,
-		"Industrial": 6,
-		"Rationalism": 6
+		"Industrial": 5,
+		"Rationalism": 2
 	}
 },
 {
@@ -638,13 +638,13 @@
 	"culture": 8,
 	"happiness": 7,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 6,
 	"declareWar": 6,
-	"commerce": 5,
+	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 8,
+	"loyal": 5,
+	"expansion": 7,
 	"priorities": {
 		"Tradition": 2,
 		"Feudalism1": 7,
@@ -653,12 +653,12 @@
 		"Freedom": 9,
 		"Order": 6,
 
-		"Honor": 8,
-		"Piety": 8,
-		"Commerce": 8,
-		"Patronage": 2,
-		"Industrial": 2,
-		"Rationalism": 2
+		"Honor": 3,
+		"Piety": 3,
+		"Commerce": 10,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 3
 	}
 },
 {
@@ -675,8 +675,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 9,
 		"Feudalism1": 8,
@@ -685,12 +685,12 @@
 		"Freedom": 2,
 		"Order": 4,
 
-		"Honor": 5,
-		"Piety": 10,
-		"Commerce": 3,
-		"Patronage": 3,
+		"Honor": 2,
+		"Piety": 9,
+		"Commerce": 2,
+		"Patronage": 2,
 		"Industrial": 5,
-		"Rationalism": 5
+		"Rationalism": 4
 	}
 },
 {
@@ -702,13 +702,13 @@
 	"culture": 6,
 	"happiness": 6,
 	"faith": 8,
-	"military": 5,
+	"military": 6,
 	"aggressive": 5,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 6,
@@ -717,12 +717,12 @@
 		"Freedom": 3,
 		"Order": 9,
 
-		"Honor": 3,
-		"Piety": 7,
-		"Commerce": 3,
-		"Patronage": 3,
-		"Industrial": 9,
-		"Rationalism": 7
+		"Honor": 0,
+		"Piety": 6,
+		"Commerce": 2,
+		"Patronage": 2,
+		"Industrial": 8,
+		"Rationalism": 6
 	}
 },
 {
@@ -734,12 +734,12 @@
 	"culture": 5,
 	"happiness": 6,
 	"faith": 9,
-	"military": 6,
+	"military": 5,
 	"aggressive": 7,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 9,
@@ -749,12 +749,12 @@
 		"Freedom": 2,
 		"Order": 3,
 
-		"Honor": 5,
+		"Honor": 3,
 		"Piety": 10,
-		"Commerce": 4,
-		"Patronage": 4,
-		"Industrial": 4,
-		"Rationalism": 4
+		"Commerce": 3,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 3
 	}
 },
 {
@@ -771,8 +771,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 7,
+	"loyal": 5,
+	"expansion": 6,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 7,
@@ -781,11 +781,11 @@
 		"Freedom": 2,
 		"Order": 8,
 
-		"Honor": 5,
-		"Piety": 3,
-		"Commerce": 3,
-		"Patronage": 3,
-		"Industrial": 10,
+		"Honor": 2,
+		"Piety": 2,
+		"Commerce": 2,
+		"Patronage": 2,
+		"Industrial": 9,
 		"Rationalism": 5
 	}
 },
@@ -800,10 +800,10 @@
 	"faith": 5,
 	"military": 6,
 	"aggressive": 5,
-	"declareWar": 6,
+	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 7,
 	"priorities": {
 		"Tradition": 4,
@@ -813,11 +813,11 @@
 		"Freedom": 4,
 		"Order": 10,
 
-		"Honor": 9,
+		"Honor": 3,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 9,
+		"Industrial": 10,
 		"Rationalism": 3
 	}
 },
@@ -830,13 +830,13 @@
 	"culture": 6,
 	"happiness": 5,
 	"faith": 5,
-	"military": 7,
+	"military": 6,
 	"aggressive": 7,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 7,
 	"loyal": 6,
-	"expansion": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 4,
@@ -845,12 +845,12 @@
 		"Freedom": 6,
 		"Order": 0,
 
-		"Honor": 6,
-		"Piety": 3,
-		"Commerce": 6,
-		"Patronage": 9,
-		"Industrial": 3,
-		"Rationalism": 3
+		"Honor": 2,
+		"Piety": 2,
+		"Commerce": 8,
+		"Patronage": 8,
+		"Industrial": 2,
+		"Rationalism": 2
 	}
 },
 {
@@ -862,13 +862,13 @@
 	"culture": 6,
 	"happiness": 5,
 	"faith": 5,
-	"military": 6,
+	"military": 7,
 	"aggressive": 7,
 	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 3,
 		"Feudalism1": 4,
@@ -877,12 +877,12 @@
 		"Freedom": 1,
 		"Order": 9,
 
-		"Honor": 5,
-		"Piety": 3,
-		"Commerce": 3,
-		"Patronage": 3,
+		"Honor": 2,
+		"Piety": 2,
+		"Commerce": 2,
+		"Patronage": 2,
 		"Industrial": 8,
-		"Rationalism": 8
+		"Rationalism": 6
 	}
 },
 {
@@ -899,8 +899,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 8,
+	"loyal": 5,
+	"expansion": 9,
 	"priorities": {
 		"Tradition": 4,
 		"Feudalism1": 10,
@@ -909,7 +909,7 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 6,
+		"Honor": 0,
 		"Piety": 6,
 		"Commerce": 6,
 		"Patronage": 0,
@@ -928,11 +928,11 @@
 	"faith": 5,
 	"military": 5,
 	"aggressive": 4,
-	"declareWar": 5,
-	"commerce": 5,
+	"declareWar": 4,
+	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 7,
+	"loyal": 5,
+	"expansion": 6,
 	"priorities": {
 		"Tradition": 3,
 		"Feudalism1": 5,
@@ -941,12 +941,12 @@
 		"Freedom": 9,
 		"Order": 6,
 
-		"Honor": 3,
+		"Honor": 1,
 		"Piety": 3,
-		"Commerce": 9,
+		"Commerce": 7,
 		"Patronage": 3,
-		"Industrial": 6,
-		"Rationalism": 6
+		"Industrial": 7,
+		"Rationalism": 3
 	}
 },
 {
@@ -964,7 +964,7 @@
 	"commerce": 5,
 	"diplomacy": 8,
 	"loyal": 6,
-	"expansion": 6,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 6,
@@ -973,11 +973,11 @@
 		"Freedom": 1,
 		"Order": 8,
 
-		"Honor": 4,
+		"Honor": 1,
 		"Piety": 1,
 		"Commerce": 4,
-		"Patronage": 7,
-		"Industrial": 9,
+		"Patronage": 6,
+		"Industrial": 8,
 		"Rationalism": 4
 	}
 },
@@ -995,7 +995,7 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 8,
 	"priorities": {
 		"Tradition": 6,
@@ -1005,7 +1005,7 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 8,
+		"Honor": 2,
 		"Piety": 8,
 		"Commerce": 2,
 		"Patronage": 2,
@@ -1028,7 +1028,7 @@
 	"commerce": 5,
 	"diplomacy": 7,
 	"loyal": 6,
-	"expansion": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 9,
 		"Feudalism1": 8,
@@ -1037,11 +1037,11 @@
 		"Freedom": 4,
 		"Order": 5,
 
-		"Honor": 3,
-		"Piety": 10,
+		"Honor": 1,
+		"Piety": 9,
 		"Commerce": 3,
-		"Patronage": 6,
-		"Industrial": 5,
+		"Patronage": 4,
+		"Industrial": 4,
 		"Rationalism": 3
 	}
 },
@@ -1056,11 +1056,11 @@
 	"faith": 7,
 	"military": 5,
 	"aggressive": 4,
-	"declareWar": 6,
+	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 8,
@@ -1069,8 +1069,8 @@
 		"Freedom": 4,
 		"Order": 6,
 
-		"Honor": 4,
-		"Piety": 10,
+		"Honor": 0,
+		"Piety": 8,
 		"Commerce": 4,
 		"Patronage": 4,
 		"Industrial": 4,
@@ -1091,8 +1091,8 @@
 	"declareWar": 8,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 3,
 		"Feudalism1": 3,
@@ -1101,11 +1101,11 @@
 		"Freedom": 6,
 		"Order": 3,
 
-		"Honor": 9,
+		"Honor": 6,
 		"Piety": 6,
 		"Commerce": 6,
-		"Patronage": 2,
-		"Industrial": 2,
+		"Patronage": 0,
+		"Industrial": 0,
 		"Rationalism": 6
 	}
 },
@@ -1124,7 +1124,7 @@
 	"commerce": 7,
 	"diplomacy": 8,
 	"loyal": 6,
-	"expansion": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 4,
 		"Feudalism1": 3,
@@ -1133,12 +1133,12 @@
 		"Freedom": 8,
 		"Order": 7,
 
-		"Honor": 2,
+		"Honor": 0,
 		"Piety": 2,
-		"Commerce": 7,
-		"Patronage": 9,
-		"Industrial": 4,
-		"Rationalism": 7
+		"Commerce": 5,
+		"Patronage": 7,
+		"Industrial": 5,
+		"Rationalism": 5
 	}
 },
 {
@@ -1165,12 +1165,12 @@
 		"Freedom": 1,
 		"Order": 7,
 
-		"Honor": 4,
-		"Piety": 4,
-		"Commerce": 1,
-		"Patronage": 8,
-		"Industrial": 8,
-		"Rationalism": 4
+		"Honor": 2,
+		"Piety": 2,
+		"Commerce": 2,
+		"Patronage": 6,
+		"Industrial": 9,
+		"Rationalism": 2
 	}
 },
 {
@@ -1182,13 +1182,13 @@
 	"culture": 7,
 	"happiness": 8,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 5,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 5,
 		"Feudalism1": 5,
@@ -1197,7 +1197,7 @@
 		"Freedom": 5,
 		"Order": 10,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
@@ -1219,8 +1219,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 8,
@@ -1229,7 +1229,7 @@
 		"Freedom": 3,
 		"Order": 5,
 
-		"Honor": 8,
+		"Honor": 2,
 		"Piety": 8,
 		"Commerce": 2,
 		"Patronage": 2,
@@ -1248,11 +1248,11 @@
 	"faith": 5,
 	"military": 5,
 	"aggressive": 8,
-	"declareWar": 5,
+	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 1,
 		"Feudalism1": 3,
@@ -1261,8 +1261,8 @@
 		"Freedom": 5,
 		"Order": 5,
 
-		"Honor": 9,
-		"Piety": 9,
+		"Honor": 3,
+		"Piety": 10,
 		"Commerce": 3,
 		"Patronage": 3,
 		"Industrial": 3,
@@ -1283,8 +1283,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 4,
@@ -1293,12 +1293,12 @@
 		"Freedom": 5,
 		"Order": 8,
 
-		"Honor": 2,
+		"Honor": 0,
 		"Piety": 5,
-		"Commerce": 5,
+		"Commerce": 3,
 		"Patronage": 2,
 		"Industrial": 7,
-		"Rationalism": 9
+		"Rationalism": 7
 	}
 },
 {
@@ -1315,7 +1315,7 @@
 	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 8,
 	"priorities": {
 		"Tradition": 2,
@@ -1325,12 +1325,12 @@
 		"Freedom": 2,
 		"Order": 7,
 
-		"Honor": 9,
-		"Piety": 6,
-		"Commerce": 3,
-		"Patronage": 3,
-		"Industrial": 6,
-		"Rationalism": 3
+		"Honor": 7,
+		"Piety": 7,
+		"Commerce": 1,
+		"Patronage": 1,
+		"Industrial": 7,
+		"Rationalism": 1
 	}
 },
 {
@@ -1342,13 +1342,13 @@
 	"culture": 8,
 	"happiness": 6,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 5,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 6,
+	"loyal": 5,
+	"expansion": 5,
 	"priorities": {
 		"Tradition": 7,
 		"Feudalism1": 6,
@@ -1357,7 +1357,7 @@
 		"Freedom": 7,
 		"Order": 7,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
@@ -1374,13 +1374,13 @@
 	"culture": 7,
 	"happiness": 5,
 	"faith": 5,
-	"military": 7,
+	"military": 6,
 	"aggressive": 3,
-	"declareWar": 5,
+	"declareWar": 4,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 6,
@@ -1389,12 +1389,12 @@
 		"Freedom": 6,
 		"Order": 6,
 
-		"Honor": 3,
-		"Piety": 3,
-		"Commerce": 3,
-		"Patronage": 3,
-		"Industrial": 9,
-		"Rationalism": 9
+		"Honor": 0,
+		"Piety": 4,
+		"Commerce": 4,
+		"Patronage": 4,
+		"Industrial": 8,
+		"Rationalism": 4
 	}
 },
 {
@@ -1409,10 +1409,10 @@
 	"military": 7,
 	"aggressive": 5,
 	"declareWar": 5,
-	"commerce": 5,
+	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 5,
 		"Feudalism1": 2,
@@ -1421,12 +1421,12 @@
 		"Freedom": 9,
 		"Order": 5,
 
-		"Honor": 5,
+		"Honor": 2,
 		"Piety": 2,
-		"Commerce": 5,
+		"Commerce": 4,
 		"Patronage": 2,
-		"Industrial": 8,
-		"Rationalism": 8
+		"Industrial": 7,
+		"Rationalism": 7
 	}
 },
 {
@@ -1438,12 +1438,12 @@
 	"culture": 5,
 	"happiness": 5,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 6,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 7,
@@ -1453,7 +1453,7 @@
 		"Freedom": 2,
 		"Order": 2,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
@@ -1472,10 +1472,10 @@
 	"faith": 5,
 	"military": 7,
 	"aggressive": 5,
-	"declareWar": 6,
+	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 6,
 	"priorities": {
 		"Tradition": 6,
@@ -1485,12 +1485,12 @@
 		"Freedom": 1,
 		"Order": 6,
 
-		"Honor": 6,
+		"Honor": 3,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
-		"Industrial": 9,
-		"Rationalism": 6
+		"Industrial": 10,
+		"Rationalism": 3
 	}
 },
 {
@@ -1507,8 +1507,8 @@
 	"declareWar": 5,
 	"commerce": 6,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 3,
 	"priorities": {
 		"Tradition": 5,
 		"Feudalism1": 3,
@@ -1517,9 +1517,9 @@
 		"Freedom": 10,
 		"Order": 5,
 
-		"Honor": 4,
+		"Honor": 0,
 		"Piety": 4,
-		"Commerce": 10,
+		"Commerce": 8,
 		"Patronage": 4,
 		"Industrial": 4,
 		"Rationalism": 4
@@ -1539,7 +1539,7 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 2,
@@ -1549,12 +1549,12 @@
 		"Freedom": 8,
 		"Order": 5,
 
-		"Honor": 4,
-		"Piety": 4,
-		"Commerce": 8,
-		"Patronage": 4,
-		"Industrial": 1,
-		"Rationalism": 8
+		"Honor": 0,
+		"Piety": 3,
+		"Commerce": 7,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 7
 	}
 },
 {
@@ -1581,7 +1581,7 @@
 		"Freedom": 6,
 		"Order": 6,
 
-		"Honor": 7,
+		"Honor": 1,
 		"Piety": 1,
 		"Commerce": 7,
 		"Patronage": 7,
@@ -1603,8 +1603,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 6,
 		"Feudalism1": 4,
@@ -1613,12 +1613,12 @@
 		"Freedom": 3,
 		"Order": 10,
 
-		"Honor": 7,
-		"Piety": 7,
-		"Commerce": 1,
-		"Patronage": 1,
-		"Industrial": 7,
-		"Rationalism": 7
+		"Honor": 2,
+		"Piety": 5,
+		"Commerce": 2,
+		"Patronage": 2,
+		"Industrial": 8,
+		"Rationalism": 5
 	}
 },
 {
@@ -1635,7 +1635,7 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 7,
 	"priorities": {
 		"Tradition": 2,
@@ -1645,7 +1645,7 @@
 		"Freedom": 6,
 		"Order": 2,
 
-		"Honor": 7,
+		"Honor": 1,
 		"Piety": 1,
 		"Commerce": 7,
 		"Patronage": 1,
@@ -1662,7 +1662,7 @@
 	"culture": 5,
 	"happiness": 5,
 	"faith": 6,
-	"military": 6,
+	"military": 5,
 	"aggressive": 6,
 	"declareWar": 6,
 	"commerce": 5,
@@ -1677,7 +1677,7 @@
 		"Freedom": 2,
 		"Order": 2,
 
-		"Honor": 8,
+		"Honor": 2,
 		"Piety": 8,
 		"Commerce": 2,
 		"Patronage": 8,
@@ -1694,12 +1694,12 @@
 	"culture": 5,
 	"happiness": 5,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 7,
-	"declareWar": 8,
+	"declareWar": 7,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 4,
@@ -1709,12 +1709,12 @@
 		"Freedom": 4,
 		"Order": 2,
 
-		"Honor": 9,
+		"Honor": 3,
 		"Piety": 3,
 		"Commerce": 3,
 		"Patronage": 3,
 		"Industrial": 3,
-		"Rationalism": 9
+		"Rationalism": 10
 	}
 },
 {
@@ -1726,13 +1726,13 @@
 	"culture": 10,
 	"happiness": 5,
 	"faith": 5,
-	"military": 7,
+	"military": 6,
 	"aggressive": 5,
-	"declareWar": 7,
+	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 5,
+	"loyal": 5,
+	"expansion": 3,
 	"priorities": {
 		"Tradition": 8,
 		"Feudalism1": 5,
@@ -1741,7 +1741,7 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
@@ -1751,7 +1751,7 @@
 },
 {
 	"name": "The Huns",
-	"production": 2,
+	"production": 7,
 	"food": 5,
 	"gold": 6,
 	"science": 6,
@@ -1759,26 +1759,26 @@
 	"happiness": 5,
 	"faith": 5,
 	"military": 7,
-	"aggressive": 7,
+	"aggressive": 9,
 	"declareWar": 7,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 7,
 	"priorities": {
-		"Tradition": 5,
-		"Feudalism1": 6,
+		"Tradition": 4,
+		"Feudalism1": 5,
 		"Liberty": 6,
-		"Autocracy": 8,
-		"Freedom": 4,
-		"Order": 0,
+		"Autocracy": 10,
+		"Freedom": 2,
+		"Order": 4,
 
-		"Honor": 9,
-		"Piety": 7,
-		"Commerce": 5,
-		"Patronage": 5,
-		"Industrial": 1,
-		"Rationalism": 5
+		"Honor": 7,
+		"Piety": 4,
+		"Commerce": 1,
+		"Patronage": 1,
+		"Industrial": 7,
+		"Rationalism": 4
 	}
 },
 {
@@ -1790,12 +1790,12 @@
 	"culture": 5,
 	"happiness": 5,
 	"faith": 5,
-	"military": 8,
+	"military": 7,
 	"aggressive": 6,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 8,
@@ -1805,12 +1805,12 @@
 		"Freedom": 2,
 		"Order": 2,
 
-		"Honor": 8,
-		"Piety": 2,
-		"Commerce": 2,
-		"Patronage": 2,
-		"Industrial": 8,
-		"Rationalism": 8
+		"Honor": 3,
+		"Piety": 3,
+		"Commerce": 3,
+		"Patronage": 3,
+		"Industrial": 10,
+		"Rationalism": 3
 	}
 },
 {
@@ -1822,13 +1822,13 @@
 	"culture": 8,
 	"happiness": 5,
 	"faith": 5,
-	"military": 6,
+	"military": 5,
 	"aggressive": 5,
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 7,
+	"loyal": 5,
+	"expansion": 6,
 	"priorities": {
 		"Tradition": 7,
 		"Feudalism1": 9,
@@ -1837,7 +1837,7 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
@@ -1860,7 +1860,7 @@
 	"commerce": 5,
 	"diplomacy": 7,
 	"loyal": 6,
-	"expansion": 5,
+	"expansion": 4,
 	"priorities": {
 		"Tradition": 4,
 		"Feudalism1": 1,
@@ -1869,10 +1869,10 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 4,
+		"Honor": 0,
 		"Piety": 4,
 		"Commerce": 4,
-		"Patronage": 10,
+		"Patronage": 8,
 		"Industrial": 4,
 		"Rationalism": 4
 	}
@@ -1888,10 +1888,10 @@
 	"faith": 5,
 	"military": 5,
 	"aggressive": 9,
-	"declareWar": 5,
+	"declareWar": 6,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
+	"loyal": 5,
 	"expansion": 5,
 	"priorities": {
 		"Tradition": 3,
@@ -1901,7 +1901,7 @@
 		"Freedom": 3,
 		"Order": 5,
 
-		"Honor": 7,
+		"Honor": 1,
 		"Piety": 7,
 		"Commerce": 1,
 		"Patronage": 1,
@@ -1923,8 +1923,8 @@
 	"declareWar": 5,
 	"commerce": 5,
 	"diplomacy": 5,
-	"loyal": 6,
-	"expansion": 9,
+	"loyal": 5,
+	"expansion": 10,
 	"priorities": {
 		"Tradition": 4,
 		"Feudalism1": 10,
@@ -1933,7 +1933,7 @@
 		"Freedom": 4,
 		"Order": 4,
 
-		"Honor": 10,
+		"Honor": 4,
 		"Piety": 4,
 		"Commerce": 4,
 		"Patronage": 4,
