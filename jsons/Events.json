@@ -124,7 +124,7 @@
                 "text": "Ideological Emancipation",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Free Social Policy <for [non-[Chile]]>"
+                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>",
                     "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
             },

@@ -1541,7 +1541,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Frequent Policies of Government Decrees",
-		"uniqueText": "Remove All Policies if their Policy branch is not completed and refund 90% of their cost upon entering a new era\nCan not achieve free social policy",
+		"uniqueText": "Remove All Policies if their Policy branch is not completed and refund 90% of their cost upon entering a new era\n1 free [Great Artist] unit appear instead of free social policy",
 		"uniques": [
 		"Remove [Tradition] and refund [90]% of its cost <upon entering a new era> <after adopting [Tradition]> <before adopting [Tradition Complete]>", 
 		"Remove [Aristocracy] and refund [90]% of its cost <upon entering a new era> <after adopting [Aristocracy]> <before adopting [Tradition Complete]>", 

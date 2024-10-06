@@ -209,7 +209,7 @@
 				"row": 2,
 				"prerequisites": ["Nation"],
 			    "uniques":[
-		"Free Social Policy <for [non-[Chile]]>",	    
+		"Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>",	    
 		"[-10]% Culture cost of adopting new Policies",
 		]
 				"quote": ""
