@@ -2814,7 +2814,7 @@
     },
 	{
 		"name": "Seaside Opera House",
-		"happiness": 2,
+		"happiness": 4,
 		"culture": 4,
 		"specialistSlots": {"Artist": 2},
 		"maintenance": 3,
