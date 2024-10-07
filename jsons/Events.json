@@ -195,22 +195,47 @@
         "choices": [
             {
                 "text": "Confucius",
+                "civilopediaText": [
+            {
+            "text": "Free Social Policy by consuming [Confucius]"
+            }
+                ]
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Confucius] is constructed by anybody>", "Only available<for [non-[Chile]]>", "Provides a [Confucius] in your first [1] cities for free"]
             },
             {
                 "text": "Gautama Siddhartha",
+                "civilopediaText": [
+            {
+            "text": "Gain a free Pantheon belief by consuming [Gautama Siddhartha]"
+            }
+                ]
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Gautama Siddhartha] is constructed by anybody>", "Provides a [Gautama Siddhartha] in your first [1] cities for free"]
             },
             {
                 "text": "Jesus",
+                "civilopediaText": [
+            {
+            "text": "[Jesus] can Spread Religion for 2 movement 6 times and can instantly construct a [Holy site] improvement by consuming [Jesus]"
+            }
+                ]                
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Jesus] is constructed by anybody>", "Provides a [Jesus] in your first [1] cities for free"]
             },
             {
                 "text": "Muhammad",
+                "civilopediaText": [
+            {
+            "text": "[Muhammad] can Spread Religion for 2 movement 4 times and +20% †Strength bonus for Land units within 1 tiles"
+            }
+                ]                
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Muhammad] is constructed by anybody>", "Provides a [Muhammad] in your first [1] cities for free"]
             },
             {
                 "text": "Zoroaster",
+                "civilopediaText": [
+            {
+            "text": "Gain enough [Faith] for 125% of a [Great Prophet] by consuming [Zoroaster]"
+            }
+                ]                
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Zoroaster] is constructed by anybody>", "Provides a [Zoroaster] in your first [1] cities for free"]
             },
         ]
@@ -221,27 +246,47 @@
         "choices": [
             {
                 "text": "Sun Tzu",
-                 
+                "civilopediaText": [
+            {
+            "text": "Triggers a Sun Tzu's Art of War - Military Conflict event by consuming [Sun Tzu] during the Classical era"
+            }
+                ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Sun Tzu] is constructed by anybody>", "Provides a [Sun Tzu] in your first [1] cities for free"]
             },
             {
                 "text": "Gnaeus Pompeius Magnus",
-                 
+                "civilopediaText": [
+            {
+            "text": "2 free [Swordsman] units or 2 free [Catapult] units appear by consuming [Gnaeus Pompeius Magnus] during the Classical era"
+            }
+                ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Gnaeus Pompeius Magnus] is constructed by anybody>", "Provides a [Gnaeus Pompeius Magnus] in your first [1] cities for free"]
             },
             {
                 "text": "Spartacus",
-                 
+                "civilopediaText": [
+            {
+            "text": "Foot Soldier units gain the [[Spartacus] ability] promotion by consuming [Spartacus] during the Classical era\n[[Spartacus] ability]:    May capture killed Foot Soldier units with [20]% chance during the Classical era"
+            }
+                ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Spartacus] is constructed by anybody>", "Provides a [Spartacus] in your first [1] cities for free"]
             },
             {
                 "text": "Bai Qi",
-                 
+                "civilopediaText": [
+            {
+            "text": "Melee units gain the [[Bai Qi] ability] promotion by consuming [Bai Qi] during the Classical era\n[[Bai Qi] ability]:    +50% to Flank Attack bonuses during the Classical era"
+            }
+                ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Bai Qi] is constructed by anybody>", "Provides a [Bai Qi] in your first [1] cities for free"]
             },
             {
                 "text": "Themistocles",
-
+                "civilopediaText": [
+            {
+            "text": "[Themistocles] +50% †Strength bonus for Water units within 0 tiles during the Classical era"
+            }
+                ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Themistocles] is constructed by anybody>", "Provides a [Themistocles] in your first [1] cities for free"]
             },
         ]
@@ -276,62 +321,110 @@
         "choices": [
             {
                 "text": "Belisarius",
-                 
+                "civilopediaText": [
+            {
+            "text": "[Belisarius] -15% †Strength for enemy Land units in adjacent Land tiles during the [Medieval era]"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Belisarius] is constructed by anybody>", "Provides a [Belisarius] in your first [1] cities for free"]
             },
             {
                 "text": "Han Xin",
-                 
+                "civilopediaText": [
+            {
+            "text": "[Han Xin] +2 Sight and Movement, +15% Strength bonus for Land units within 4 tiles during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Han Xin] is constructed by anybody>", "Provides a [Han Xin] in your first [1] cities for free"]
             },
             {
                 "text": "Xiang Yu",
-                 
+                "civilopediaText": [
+            {
+            "text": "[Xiang Yu] +30% Strength bonus for Melee units within 0 tiles during the [Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Xiang Yu] is constructed by anybody>", "Provides a [Xiang Yu] in your first [1] cities for free"]
             },
             {
                 "text": "Li Jing",
-                 
+                "civilopediaText": [
+            {
+            "text": "Medieval era units gain the [[Li Jing] ability] promotion by consuming [Li Jing] during the Medieval era\n[[Li Jing] ability]:    This Unit gains 25 XP during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Li Jing] is constructed by anybody>", "Provides a [Li Jing] in your first [1] cities for free"]
             },
             {
                 "text": "Subedei",
-                 
+                "civilopediaText": [
+            {
+            "text": "Medieval era units gain the [[Subedei] ability] promotion by consuming [Subedei] during the Medieval era\n[[Subedei] ability]:    Heals [15] damage if it kills a unit during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Subedei] is constructed by anybody>", "Provides a [Subedei] in your first [1] cities for free"]
             },
             {
                 "text": "Timur",
-
+                "civilopediaText": [
+            {
+            "text": "Mobile units gain the [[Timur] ability] promotion by consuming [Timur] during the Medieval era\n[[Timur] ability]:    This Unit gains 1 movement and +1 additional attacks upon defeating a Military unit for 1 turn during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Timur] is constructed by anybody>", "Provides a [Timur] in your first [1] cities for free"]
             },
             {
                 "text": "Jeanne",
-                 
+                "civilopediaText": [
+            {
+            "text": "All adjacent units heal +25 HP when healing when adjacent to [Jeanne] during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Jeanne] is constructed by anybody>", "Provides a [Jeanne] in your first [1] cities for free"]
             },
             {
                 "text": "Khalid ibn al-Walid",
-                 
+                "civilopediaText": [
+            {
+            "text": "Melee units gain the [[Khalid ibn al-Walid] ability] promotion by consuming [Khalid ibn al-Walid] during the Medieval era\n[[Khalid ibn al-Walid] ability]:    +25% †Strength vs cities during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Khalid ibn al-Walid] is constructed by anybody>", "Provides a [Khalid ibn al-Walid] in your first [1] cities for free"]
             },
             {
                 "text": "Bayezid I",
-                 
+                "civilopediaText": [
+            {
+            "text": "Ranged units gain the [[Bayezid I] ability] promotion by consuming [Bayezid I] during the Medieval era\n[[Bayezid I] ability]:    +15% †Strength vs Wounded units when attacking during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Bayezid I] is constructed by anybody>", "Provides a [Bayezid I] in your first [1] cities for free"]
             },
             {
                 "text": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
-                 
+                "civilopediaText": [
+            {
+            "text": "Military units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion by consuming [Mgar-Blon-Khri-Vbring-Btsan-Brod] during the Medieval era\n[Mgar-Blon-Khri-Vbring-Btsan-Brod]:    +15% †Strength when fighting in Hill tiles during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody>", "Provides a [Mgar-Blon-Khri-Vbring-Btsan-Brod] in your first [1] cities for free"]
             },
             {
                 "text": "Narses",
-                 
+                "civilopediaText": [
+            {
+            "text": "Military units gain the [[Narses] ability] promotion by consuming [Narses] during the Medieval era\n[[Narses] ability]:    -33% [Gold] cost of upgrading during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Narses] is constructed by anybody>", "Provides a [Narses] in your first [1] cities for free"]
             },
             {
                 "text": "William Marshal",
-                 
+                "civilopediaText": [
+            {
+            "text": "Mobile units gain the [[William Marshal] ability] promotion by consuming [William Marshal] during the Medieval era\n[[William Marshal] ability]:    Ignores terrain cost during the Medieval era"
+            }
+                ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [William Marshal] is constructed by anybody>", "Provides a [William Marshal] in your first [1] cities for free"]         
             },
         ]

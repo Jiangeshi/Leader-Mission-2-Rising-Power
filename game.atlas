@@ -2501,6 +2501,14 @@ BuildingIcons/Fortress City
   orig: 53, 53
   offset: 0, 0
   index: -1 
+BuildingIcons/Fortress City ability
+  rotate: false
+  xy: 0, 0
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1   
+
   
 Images/BuildingIcons/Comprehensive City.png
 BuildingIcons/Comprehensive City
