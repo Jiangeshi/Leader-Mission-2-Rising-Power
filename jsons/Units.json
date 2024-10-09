@@ -1609,6 +1609,20 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Calavera Boat",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 125,
+		"replaces": "Galleass",
+		"uniqueTo": "Portugal",
+		"requiredTech": "Optics",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>"],
 		"attackSound": "arrow"
 	},

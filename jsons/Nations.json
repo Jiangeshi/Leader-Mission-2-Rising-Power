@@ -1225,7 +1225,51 @@
 			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
 			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
-        
+    },
+	{
+		"name": "Portugal",
+		"leaderName": "Leader",
+		"personality": "base",
+		"adjective": ["Portuguese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+
+	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [255,255,255],
+        "innerColor": [139,0,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Maritime Trade",
+		"uniqueText": "[Connects trade routes over water]\n+50% Yield from Trade Routes in Coastal cities\n+50% Yield from Trade Routes in cities following our religion"
+		"uniques": [
+		"[+50]% [Gold] from Trade Routes <in [Coastal] cities>",
+		"[+50]% [Science] from Trade Routes <in [Coastal] cities>",
+		"[+50]% [Culture] from Trade Routes <in [Coastal] cities>",
+		"[+50]% [Faith] from Trade Routes <in [Coastal] cities>",
+		
+		"[+50]% [Gold] from Trade Routes <in [in cities following our religion] cities>",
+		"[+50]% [Science] from Trade Routes <in [in cities following our religion] cities>",
+		"[+50]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
+		"[+50]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
+		
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+			],
+		"cities": ["Edinburgh","Glasgow","Ankara","Lenflewshire","West Dunbartonshire","East Dunbartonshire","East Lenflewshire","North Lanarkshire","Falkirk","West Lothian","Midlothian",
+			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
+			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
+        "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
     //美洲
     },
 	{

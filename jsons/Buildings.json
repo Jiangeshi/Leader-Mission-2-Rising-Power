@@ -283,7 +283,8 @@
 	{
         "name": "City Level I",
         "cost": 5000,
-		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level"
+		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
+		"Connects trade routes over water <for [Portugal]> <hidden from users>"
 		]	
 	},
 	{
@@ -2429,6 +2430,35 @@
 		"replaces": "Castle",
 		"uniqueTo": "Scotland",
 		
+	// 葡萄牙
+	},
+	{	
+        "name": "Civilized Leader-Jo Ao III",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Portugal",
+		"replacementTextForUniques": "[[+3 Faith] from each Trade Route]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Salazar]>", "[+3 Faith] from each Trade Route"]	
+	},
+	{	
+        "name": "Civilized Leader-Salazar",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Portugal",
+		"replacementTextForUniques": "[[+4 Gold] from each Trade Route]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Jo Ao III]>", "[+4 Gold] from each Trade Route"]
+	},
+	{
+		"name": "Navigation College",
+		"replaces": "University",
+		"uniqueTo": "Portugal",
+		"culture": 2,
+		"maintenance": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"greatPersonPoints": {"Great Admiral": 2},
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+2 Science] from [Jungle] tiles [in this city]", "[+1 Science] from each Trade Route <in [Coastal] cities>", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Education"	
 	// 印加
 	},
 	{	

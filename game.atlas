@@ -1721,7 +1721,6 @@ BuildingIcons/Civilized Leader-HDKL
   offset: 0, 0
   index: -1
 
-
 Images/BuildingIcons/Civilized leader.png
 BuildingIcons/Civilized Leader-Suming
   rotate: false
@@ -1857,8 +1856,23 @@ BuildingIcons/Civilized Leader-Salvador Allende Gossens
   offset: 0, 0
   index: -1
 
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Jo Ao III
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
-
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Salazar
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 
 
 
@@ -2518,6 +2532,16 @@ BuildingIcons/Comprehensive City
   orig: 200, 200
   offset: 0, 0
   index: -1  
+
+Images/BuildingIcons/Navigation College.png
+BuildingIcons/Navigation College
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1  
+  
     
 Images/BuildingIcons/GreatGeneral.png
 BuildingIcons/Classical Era Special Military Great Person Project
@@ -3104,6 +3128,18 @@ NationIcons/Chile
   orig: 170, 170
   offset: 0, 0
   index: -1      
+  
+Images/NationIcons/Portugal.png
+NationIcons/Portugal
+  rotate: false
+  xy: 0, 0
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1      
+  
+    
+        
   
 Images/PolicyIcons/Centralization.png
 PolicyIcons/Centralization
@@ -4348,7 +4384,16 @@ UnitIcons/Almirante Battleship
   offset: 0, 0
   index: -1 
 
- 
+Images/UnitIcons/Calavera Boat.png
+UnitIcons/Calavera Boat
+  rotate: false
+  xy: 0,0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1 
+  
+  
 Images/UnitPromotionIcons/UnitPromotionIcons.png
 size: 2048, 128
 format: RGBA8888
