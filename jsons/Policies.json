@@ -615,7 +615,7 @@
                 "name": "Philantropy",
                 "uniques": [
                     "Gifts of Gold to City-States generate [50]% more Influence",
-                    "[+20]% spy effectiveness [in all cities]"
+                    "[+25]% spy effectiveness [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -633,7 +633,7 @@
                 "name": "Scholasticism",
                 "uniques": [
                     "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
-                    "[+20]% spy effectiveness [in all cities]"
+                    "[+25]% spy effectiveness [in all cities]"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -644,7 +644,7 @@
                 "uniques": [
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
-                    "[+20]% spy effectiveness [in all cities]"    
+                    "[+25]% spy effectiveness [in all cities]"    
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,

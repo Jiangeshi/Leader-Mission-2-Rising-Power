@@ -88,5 +88,9 @@
     "[-1] Range <for [{Embarked} {Ranged}] units>"
     
     "[-1] Movement <for [non-[China]] units> <in [The Great Wall of China] tiles>",
+    
+    // 外交胜利
+    "Provides [1] [Diplomatic Point] <when not at war>",
+    
     ]
 }

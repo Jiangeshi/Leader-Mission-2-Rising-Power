@@ -1266,9 +1266,7 @@
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 			],
-		"cities": ["Edinburgh","Glasgow","Ankara","Lenflewshire","West Dunbartonshire","East Dunbartonshire","East Lenflewshire","North Lanarkshire","Falkirk","West Lothian","Midlothian",
-			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
-			"Perth and Kinloss","Stirling","North Ayrshire","East Ayrshire","South Ayrshire","Dumfries and Galloway","South Lanarkshire","Skottish Borders","Orkney Islands","Shetland Islands"],
+		"cities": ["Lisbon","Porto","Coimbra","Braga","Guimarães","Aveiro","Faro","Cascais","Setúbal","Vila Real","Pontevedra","Viana do Castelo","Santarém","Évora","Angra do Heroísmo","Portalegre","Beja","Castelo Branco","Leiria","Bragança","Funchal","Santa Cruz das Flores","Horta","Lagos","Almada","Barreiro","Odivelas","Amadora","Mogadouro","Sintra","Vila Nova de Gaia"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
     //美洲
     },
@@ -2287,7 +2285,7 @@
 	{
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Brussels",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2299,7 +2297,7 @@
 	{
 		"name": "Florence",
 		"adjective": ["Florentine"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Florence",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2311,7 +2309,7 @@
 	{
 		"name": "Kuala Lumpur",
 		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Kuala Lumpur",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2323,7 +2321,7 @@
 	{
 		"name": "Milan",
 		"adjective": ["Milanese"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Milan",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2335,7 +2333,7 @@
 	{
 		"name": "Quebec City",
 		"adjective": ["Québécois"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Quebec City",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2348,7 +2346,7 @@
 	{
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Cape Town",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2360,7 +2358,7 @@
 	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Manila",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2372,7 +2370,7 @@
 	{
 		"name": "Mogadishu",
 		"adjective": ["Mogadishu"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Mogadishu",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2384,7 +2382,7 @@
 	{
 		"name": "Rio de Janeiro",
 		"adjective": ["Carioca"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Rio de Janeiro",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -2397,7 +2395,7 @@
 	{
 		"name": "Sydney",
 		"adjective": ["Sydney"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Sydney",
 
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -2409,7 +2407,7 @@
 	{
 		"name": "Ur",
 		"adjective": ["Ur"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Ur",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
@@ -2423,7 +2421,7 @@
 		"name": "Vancouver",
 		"translatedName": "Vancouver",
 		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Vancouver",
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -2435,7 +2433,7 @@
 	{
 		"name": "Venice",
 		"adjective": ["Venetian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Venice",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
@@ -2445,11 +2443,10 @@
 		"innerColor": [153,204,255],
 		"cities": ["Venice"]
 	},
-
 	{
 		"name": "Antwerp",
 		"adjective": ["Antwerp"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Antwerp",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2462,7 +2459,7 @@
 	{
 		"name": "Genoa",
 		"adjective": ["Genoese"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Genoa",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2475,7 +2472,7 @@
 	{
 		"name": "Kathmandu",
 		"adjective": ["Kathmandu"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Kathmandu",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2487,7 +2484,7 @@
 	{
 		"name": "Tyre",
 		"adjective": ["Tyrian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Tyre",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2500,7 +2497,7 @@
 	{
 		"name": "Zanzibar",
 		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Zanzibar",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2509,11 +2506,10 @@
 		"innerColor": [255,153,255],
 		"cities": ["Zanzibar"]
 	},
-
 	{
 		"name": "Almaty",
 		"adjective": ["Almaty"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Almaty",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2523,35 +2519,9 @@
 		"cities": ["Almaty"]
 	},
 	{
-		"name": "Dublin",
-		"adjective": ["Dubliner"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Dublin"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
-	},
-	{
-		"name": "Edinburgh",
-		"adjective": ["Edinburghensian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Edinburgh"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
-	},
-	{
 		"name": "M'Banza-Kongo",
 		"adjective": ["M'Banza-Kongo"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "M'Banza-Kongo",
 
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -2563,7 +2533,7 @@
 	{
 		"name": "Sidon",
 		"adjective": ["Sidon"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Sidon",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2575,7 +2545,7 @@
 	{
 		"name": "Valletta",
 		"adjective": ["maltese"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Valletta",
 
 		"declaringWar": "We don't like your face. To arms!",
 		"attacked": "You will see you have just bitten off more than you can chew.",
@@ -2588,7 +2558,7 @@
 	{
 		"name": "Bratislava",
 		"adjective": ["Bratislava"],
-		"cityStateType": "Religious",
+		"cityStateType": "Bratislava",
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For god is with me!",
@@ -2600,7 +2570,7 @@
 	{
 		"name": "Cahokia",
 		"adjective": ["Cahokia"],
-		"cityStateType": "Religious",
+		"cityStateType": "Cahokia",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -2612,7 +2582,7 @@
 	{
 		"name": "Jerusalem",
 		"adjective": ["Jerusalem"],
-		"cityStateType": "Religious",
+		"cityStateType": "Jerusalem",
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",

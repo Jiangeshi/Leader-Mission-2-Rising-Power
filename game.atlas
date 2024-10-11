@@ -2542,7 +2542,16 @@ BuildingIcons/Navigation College
   offset: 0, 0
   index: -1  
   
-    
+Images/BuildingIcons/Dock.png
+BuildingIcons/Dock
+  rotate: false
+  xy: 0, 0
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1  
+  
+          
 Images/BuildingIcons/GreatGeneral.png
 BuildingIcons/Classical Era Special Military Great Person Project
   rotate: false
@@ -2740,7 +2749,14 @@ BuildingIcons/Religious City
   orig: 110, 110
   offset: 0, 0
   index: -1 
-
+BuildingIcons/Peace Summit
+  rotate: false
+  xy: 0,0
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1   
+  
 
 
 
@@ -3137,9 +3153,222 @@ NationIcons/Portugal
   orig: 160, 160
   offset: 0, 0
   index: -1      
-  
-    
-        
+
+Images/NationIcons/Icons.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+CityStateIcons/Cultured
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Brussels
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Florence
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Kuala Lumpur
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/Milan
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+CityStateIcons/Quebec City
+  rotate: false
+  xy: 127, 1001
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1        
+CityStateIcons/Maritime
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cape Town
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Manila
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Mogadishu
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Rio de Janeiro
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Sydney
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Ur
+  rotate: false
+  xy: 1819, 1821
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/Mercantile
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Vancouver
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Venice
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Antwerp
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Genoa
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Kathmandu
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/Tyre
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/Zanzibar
+  rotate: false
+  xy: 1015, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+CityStateIcons/Militaristic
+  rotate: false
+  xy: 1015, 1590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Almaty
+  rotate: false
+  xy: 1015, 1590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/M'Banza-Kongo
+  rotate: false
+  xy: 1015, 1590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+CityStateIcons/Sidon
+  rotate: false
+  xy: 1015, 1590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1      
+CityStateIcons/Valletta
+  rotate: false
+  xy: 1015, 1590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+CityStateIcons/Religious
+  rotate: false
+  xy: 574, 1311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Bratislava
+  rotate: false
+  xy: 574, 1311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
+CityStateIcons/Cahokia
+  rotate: false
+  xy: 574, 1311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1    
+CityStateIcons/Jerusalem
+  rotate: false
+  xy: 574, 1311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1            
   
 Images/PolicyIcons/Centralization.png
 PolicyIcons/Centralization
@@ -3493,7 +3722,14 @@ ResourceIcons/Feat
   offset: 0, 0
   index: -1
   
-  
+Images/ResourceIcons/Diplomatic Point.png
+ResourceIcons/Diplomatic Point
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1  
   
 Images/TechIcons/DrillWoodtoMakeFire.png
 TechIcons/Drill Wood to Make Fire

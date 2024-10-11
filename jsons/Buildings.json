@@ -372,6 +372,13 @@
 		"gold": 1,
 		"requiredTech": "Art"
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]		
+    },
+	{
+		"name": "Dock",
+		"maintenance": 1,
+		"production": 1,
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Production] from [Fishing Boats] tiles [in this city]", "Must be next to [Coast]", "Seaside Building", "Provides [1] [Number of Buildings] <in this city>"],
+		"requiredTech": "Sailing"
 	
 	// 远古时代-世界奇观
 	},
@@ -1158,7 +1165,7 @@
 		"happiness": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Culture] per [1] social policies adopted"],
+		"uniques": ["[+1 Culture] per [1] social policies adopted", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -1176,14 +1183,14 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
 	{
 		"name": "League of Nations",
 		"cost": 500,
-		"uniques": ["Can only be built<in [in capital] cities>", "When declaring friendship, both parties gain a [10]% boost to great person generation", "[+25]% [Culture] [in all cities]", "[-15]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers a global alert upon completion", "Obsolete with [Telecommunications]"]
+		"uniques": ["Can only be built<in [in capital] cities>", "When declaring friendship, both parties gain a [10]% boost to great person generation", "[+25]% [Culture] [in all cities]", "[-15]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers a global alert upon completion", "Obsolete with [Telecommunications]", "Provides [2] [Diplomatic Point]"]
 		"requiredTech": "Globalization",
 	},
     {
@@ -1195,6 +1202,16 @@
 		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start",
 		"[+25]% [Culture] [in all cities]"
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+		"requiredTech": "Globalization",
+	},
+    {
+    	"name": "Peace Summit",
+		"cost": 2000,
+		"happiness": 20,
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon build start",
+		"Consumes [20] [Diplomatic Point]",
+		"Hidden when [Diplomatic] Victory is disabled", "Cannot be hurried"]
 		"requiredTech": "Globalization",
 	},
 	{
@@ -1290,7 +1307,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>","Must be next to [Coast]"],
+		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
 	},
@@ -1300,7 +1317,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"percentStatBonus": {"production": 15, "culture": 15, "gold": 15},
 		"requiredTech": "Telecommunications",
-		"uniques": ["Can only be built<in [in capital] cities>", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers voting for the Diplomatic Victory", "Triggers a global alert upon completion"],
+		"uniques": ["Can only be built<in [in capital] cities>", "When declaring friendship, both parties gain a [15]% boost to great person generation", "[-33]% Strength <for [Military] units> <vs [Major] units> <when fighting in [Enemy Land] tiles>", "Triggers a global alert upon completion", "Provides [3] [Diplomatic Point]"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"	
 		
 	// 信息-建筑
@@ -1319,7 +1336,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Internetwork",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},

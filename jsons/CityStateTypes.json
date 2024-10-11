@@ -4,54 +4,413 @@
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "Provides [2] [Diplomatic Point]"
         ],
         "color": [139, 96, 255]
-        
     },
     {
         "name": "Brussels",
         "friendBonusUniques": [
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "[+7]% [Culture] <when not at war>",
+            "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+15]% [Culture] <when not at war>",
+            "Provides [2] [Diplomatic Point]"
         ],
         "color": [139, 96, 255]
     },
     {
+        "name": "Florence",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "[+1 Culture] from [Luxury resource] tiles [in all cities]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+2 Culture] from [Luxury resource] tiles [in all cities]",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [139, 96, 255]
+        
+    },
+    {
+        "name": "Kuala Lumpur",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "[+1 Culture] from [Water resource] tiles [in all cities]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+2 Culture] from [Water resource] tiles [in all cities]",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Milan",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "Gain [5] [Culture] <upon constructing [Buildings] [in all cities]>",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "Gain [10] [Culture] <upon constructing [Buildings] [in all cities]>",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Quebec City",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>",
+            "[+5]% [Culture] from every [Walls]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>",
+            "[+5]% [Culture] from every [Walls]",
+            "[+10]% [Culture] from every [Castle]",
+            "Provides [2] [Diplomatic Point]"
+        ],    
+        "color": [139, 96, 255]
+    },
+    {
         "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Cape Town",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+1 Food] from [Fishing Boats] tiles [in all cities]",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+2 Food] from [Fishing Boats] tiles [in all cities]",
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Manila",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+2]% [Food] from every [Seaside Building]",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+3]% [Food] from every [Seaside Building]",
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Mogadishu",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+1 Food] from [Plantation] tiles [in all cities]",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+2 Food] from [Plantation] tiles [in all cities]",
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Rio de Janeiro",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+1 Food] from every [World Wonder]",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+2 Food] from every [Atoll]",
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Sydney",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+2 Food] from every [Atoll]",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+2 Food] from every [Atoll]",
+        "[+2 Food] from every [Seafall ruins]",
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Ur",
+        "friendBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+1 Food] [in all cities] <when at war>",
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "[+3 Food] [in capital]", 
+        "[+10]% [Food] [in all cities]", 
+        "[+2 Food] [in all cities] <when at war>",
+        "Provides [2] [Diplomatic Point]"
+        ],
         "color": [56, 255, 112]
     },
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>"
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>",
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
             "Provides a unique luxury"
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Vancouver",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "[+1 Gold] from [Water] tiles [in all cities]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "Provides a unique luxury",
+            "[+2 Gold] from [Water] tiles [in all cities]",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Venice",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "[+1 Gold] from [River] tiles [in all cities]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "Provides a unique luxury",
+            "[+2 Gold] from [River] tiles [in all cities]",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Antwerp",
+        "friendBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+7 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+10 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "Provides a unique luxury",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Genoa",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "[+10]% [Gold] <when not at war>",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+15]% [Gold] <when not at war>",
+            "Provides a unique luxury",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Kathmandu",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "[+2]% [Gold] from every [{Gold} {Buildings}]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+4]% [Gold] from every [{Gold} {Buildings}]",
+            "Provides a unique luxury",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Tyre",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "Gifts of Gold to City-States generate [+50]% more Influence",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "Gifts of Gold to City-States generate [+100]% more Influence",
+            "Provides a unique luxury",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Zanzibar",
+        "friendBonusUniques": [
+            "[+2 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
+            "[-15]% maintenance cost for buildings [in all cities]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] from each Trade Route <before the [Medieval era]>",
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[-30]% maintenance cost for buildings [in all cities]",
+            "Provides a unique luxury",
+            "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 216, 0]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[12] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[7] turns"],
+        "friendBonusUniques": [
+        "Provides military units every ≈[10] turns", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "Provides military units every ≈[5] turns", 
+        "Provides [2] [Diplomatic Point]"
+        ],
         "color": [255, 0, 0]
+    },
+    {
+        "name": "Almaty",
+        "friendBonusUniques": [
+        "Provides military units every ≈[10] turns", 
+        "[+10]% Strength <for [Mobile] units>", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "Provides military units every ≈[5] turns", 
+        "[+15]% Strength <for [Mobile] units>", 
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "M'Banza-Kongo",
+        "friendBonusUniques": [
+        "Provides military units every ≈[10] turns", 
+        "[+10]% Strength <for [Foot Soldier] units>", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "Provides military units every ≈[5] turns", 
+        "[+15]% Strength <for [Foot Soldier] units>", 
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Sidon",
+        "friendBonusUniques": [
+        "Provides military units every ≈[10] turns", 
+        "[+10]% Strength <for [Shooter] units>", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "Provides military units every ≈[5] turns", 
+        "[+15]% Strength <for [Shooter] units>", 
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 0, 0]    
+    },
+    {
+        "name": "Valletta",
+        "friendBonusUniques": [
+        "Provides military units every ≈[10] turns", 
+        "[+10]% Strength <for [Anti-Mobile] units>", 
+        "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques": [
+        "Provides military units every ≈[5] turns", 
+        "[+15]% Strength <for [Anti-Mobile] units>", 
+        "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 0, 0]            
+        
     },
     {
         "name": "Religious",
@@ -59,12 +418,69 @@
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Faith] <starting from the [Industrial era]>"
+            "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>"
+            "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]
+    },
+    {
+        "name": "Bratislava",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Faith] <starting from the [Industrial era]>"
+            "[Faith] cost of purchasing items in cities [-3]%"
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>"
+            "[Faith] cost of purchasing items in cities [-7]%"
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 255, 255]   
+    },
+    {
+        "name": "Cahokia",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+50]% Natural religion spread [in all cities]"
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+100]% Natural religion spread [in all cities]"
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Jerusalem",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+4]% [Faith] from every [{Gold} {Buildings}]",
+            "Provides [1] [Diplomatic Point]"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+6]% [Faith] from every [{Gold} {Buildings}]",
+            "Provides [2] [Diplomatic Point]"
+        ],
+        "color": [255, 255, 255]    
+        
     }
 ]
