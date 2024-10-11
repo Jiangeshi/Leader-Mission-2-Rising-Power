@@ -284,7 +284,7 @@
         "name": "City Level I",
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
-		"Connects trade routes over water <for [Portugal]> <hidden from users>"
+		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>"
 		]	
 	},
 	{
@@ -444,7 +444,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>"],
+		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>"],
 		"requiredTech": "Calendar",
 	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"	
 	    			
@@ -453,7 +453,7 @@
 	{
         "name": "City Level II",
         "cost": 5000,
-		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands]> <if [Civilized Leader-Willem Oranje] is constructed> <hidden from users>", "City Level"]	
+		"uniques": ["Only available <starting from the [Classical era]>", "Only available <when above [3] [Number of Buildings]>", "Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "Connects trade routes over water <for [The Netherlands] Civilizations> <if [Civilized Leader-Willem Oranje] is constructed> <hidden from users>", "City Level"]	
 	},
 	{
 		"name": "Market",
@@ -1183,7 +1183,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>", "Provides [1] [Diplomatic Point]"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
@@ -1307,7 +1307,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]"],
+		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
 	},
@@ -1392,7 +1392,7 @@
 		"cost": 15,
 		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
 		"uniques": [
-		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player]>",
+		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human Player] Civilizations>",
 		    "Creates a [Farm] improvement on a specific tile",
 		    "Remove [Military Reclamation] [in this city]"
 		]	
@@ -2202,7 +2202,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "[+5]% Strength <for [Military] units>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable", 
-		"Only available <in [Annexed] cities> <for [Soviet Union]> <if [Civilized Leader-Trotsky] is constructed>"
+		"Only available <in [Annexed] cities> <for [Soviet Union] Civilizations> <if [Civilized Leader-Trotsky] is constructed>"
 		]	
 	},
 	{
@@ -2343,7 +2343,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
-		"Only available <for [The Netherlands]>",
+		"Only available <for [The Netherlands] Civilizations>",
 		"Unbuildable",
 		"Provides [1] [Infrastructure Investment]",
 		"[+5 Gold] <without [Infrastructure Investment]>",
@@ -2355,7 +2355,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
-		"Only available <for [The Netherlands]>",
+		"Only available <for [The Netherlands] Civilizations>",
 		"Unbuildable",
 		"Provides [1] [Productive Investment]",
 		"[+5 Gold] <without [Productive Investment]>",
@@ -2367,7 +2367,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
-		"Only available <for [The Netherlands]>",
+		"Only available <for [The Netherlands] Civilizations>",
 		"Unbuildable",
 		"Provides [1] [Research Investment]",
 		"[+5 Gold] <without [Research Investment]>",
@@ -2381,7 +2381,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
-		"Only available <for [The Netherlands]>",
+		"Only available <for [The Netherlands] Civilizations>",
 		"Unbuildable",
 		"Provides [1] [Entertainment Investment]",
 		"[+5 Gold] <without [Entertainment Investment]>",
@@ -2393,7 +2393,7 @@
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "Destroyed when the city is captured", 
-		"Only available <for [The Netherlands]>",
+		"Only available <for [The Netherlands] Civilizations>",
 		"Unbuildable",
 		"Provides [1] [Grain Investment]",
 		"[+5 Gold] <without [Grain Investment]>",
@@ -2476,6 +2476,29 @@
 		"greatPersonPoints": {"Great Admiral": 2},
 		"uniques": ["Only available <in cities with a [City Level III]>", "[+2 Science] from [Jungle] tiles [in this city]", "[+1 Science] from each Trade Route <in [Coastal] cities>", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Education"	
+	
+	// 奥地利
+	},
+	{	
+        "name": "Civilized Leader-Maria Theresia",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Austria",
+		"replacementTextForUniques": "[[[+1 Science] [in all cities]] [when not at war]]\n[[[+1 Production] [in all cities]] [when at war]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Science] [in all cities] <when not at war>", "[+1 Production] [in all cities] <when at war>"]
+	},
+	{
+		"name": "Coffee House",
+		"replaces": "Windmill",
+		"uniqueTo": "Austria",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"uniques": ["Only available <in cities with a [City Level III]>", "Must not be on [Hill]", "[+25]% Great Person generation [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+	    "requiredTech": "Agricultural Improvement"	
+		
+		
 	// 印加
 	},
 	{	
@@ -3084,7 +3107,7 @@
 		
 		"Remove [Special Great Prophet Project] [in this city]",
 		
-		"Only available <during the [Classical era]> <for [Major]>",
+		"Only available <during the [Classical era]> <for [Major] Civilizations>",
 		"Unavailable <if [Confucius] is constructed by anybody> <if [Gautama Siddhartha] is constructed by anybody> <if [Jesus] is constructed by anybody> <if [Muhammad] is constructed by anybody> <if [Zoroaster] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
@@ -3150,7 +3173,7 @@
 		
 		"Remove [Classical Era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Classical era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
+		"Only available <during the [Classical era]> <for [Major] Civilizations> <when above [19] [Feat]>", "Cannot be purchased",
 		"Unavailable <if [Sun Tzu] is constructed by anybody> <if [Gnaeus Pompeius Magnus] is constructed by anybody> <if [Spartacus] is constructed by anybody> <if [Bai Qi] is constructed by anybody> <if [Themistocles] is constructed by anybody>",
 		
 		"Triggers a global alert upon completion"
@@ -3213,7 +3236,7 @@
 		
 		"Remove [Medieval era Special Military Great Person Project] [in this city]",
 		
-		"Only available <during the [Medieval era]> <for [Major]> <when above [19] [Feat]>", "Cannot be purchased",
+		"Only available <during the [Medieval era]> <for [Major] Civilizations> <when above [19] [Feat]>", "Cannot be purchased",
 		
 		"Unavailable <if [Belisarius] is constructed by anybody> <if [Han Xin] is constructed by anybody> <if [Xiang Yu] is constructed by anybody> <if [Li Jing] is constructed by anybody> <if [Subedei] is constructed by anybody> <if [Timur] is constructed by anybody> <if [Jeanne] is constructed by anybody> <if [Khalid ibn al-Walid] is constructed by anybody> <if [Bayezid I] is constructed by anybody> <if [Mgar-Blon-Khri-Vbring-Btsan-Brod] is constructed by anybody> <if [Narses] is constructed by anybody> <if [William Marshal] is constructed by anybody>",
 		

@@ -1940,5 +1940,69 @@
 		"Industrial": 4,
 		"Rationalism": 4
 	}
+},
+{
+	"name": "Portugal",
+	"production": 5,
+	"food": 5,
+	"gold": 8,
+	"science": 5,
+	"culture": 5,
+	"happiness": 5,
+	"faith": 7,
+	"military": 5,
+	"aggressive": 5,
+	"declareWar": 5,
+	"commerce": 6,
+	"diplomacy": 6,
+	"loyal": 5,
+	"expansion": 5,
+	"priorities": {
+		"Tradition": 7,
+		"Feudalism1": 7,
+		"Liberty": 9,
+		"Autocracy": 4,
+		"Freedom": 8,
+		"Order": 2,
+
+		"Honor": 3,
+		"Piety": 7,
+		"Commerce": 7,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 3
+	}
+},
+{
+	"name": "Austria",
+	"production": 5,
+	"food": 5,
+	"gold": 5,
+	"science": 5,
+	"culture": 7,
+	"happiness": 5,
+	"faith": 5,
+	"military": 7,
+	"aggressive": 6,
+	"declareWar": 6,
+	"commerce": 5,
+	"diplomacy": 8,
+	"loyal": 7,
+	"expansion": 10,
+	"priorities": {
+		"Tradition": 5,
+		"Feudalism1": 10,
+		"Liberty": 4,
+		"Autocracy": 7,
+		"Freedom": 5,
+		"Order": 5,
+
+		"Honor": 6,
+		"Piety": 4,
+		"Commerce": 4,
+		"Patronage": 5,
+		"Industrial": 4,
+		"Rationalism": 4
+	}
 }
 ]

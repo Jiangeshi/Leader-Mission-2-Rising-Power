@@ -7,9 +7,9 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 		"Can also be built on tiles adjacent to fresh water", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+2 Food] <in [Volcanic Soil] tiles>", "[+2 Food] <in [Black Earth] tiles>", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Culture] <after adopting [Military Reclamation System]> <with a garrison>",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
     },
 	{
@@ -23,10 +23,10 @@
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [2] tiles of a [Mine]>", 
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [1] tiles of a [City center]>", 
 		"Pillaging this improvement yields approximately [+15 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"Gain control over [Rough terrain] tiles in a [1]-tile radius <for [Australia]> <hidden from users>"
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"Gain control over [Rough terrain] tiles in a [1]-tile radius <for [Australia] Civilizations> <hidden from users>"
 		],
 	},
 	{
@@ -34,10 +34,10 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": [
-		"[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland]> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland]> <hidden from users>",
-	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-	    "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
+	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+	    "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -48,10 +48,10 @@
 		"techRequired": "Masonry",
 		"uniques": [
 		"[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Gold] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland]> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland]> <hidden from users>",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Gold] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -61,10 +61,10 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Agricultural Improvement]>",
 		"[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Food] for each adjacent [Expand Pasture] <hidden from users>", "[+2 Gold] for each adjacent [Expand Pasture] <after discovering [Agricultural Improvement]> <hidden from users>",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"Gain control over [Open terrain] tiles in a [1]-tile radius <for [Australia]> <hidden from users>"
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"Gain control over [Open terrain] tiles in a [1]-tile radius <for [Australia] Civilizations> <hidden from users>"
 		],
 	},
 	{
@@ -76,9 +76,9 @@
 		"[+1 Food] <after discovering [Fertilizer]>",
 		"[+1 Gold] <after discovering [Compass]>",
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -89,9 +89,9 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Chemistry]>",
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+15 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -102,9 +102,9 @@
 		"uniques": ["[+1 Gold] <after discovering [Compass]>",
 		"Can only be built to improve a resource", 
 		"Pillaging this improvement yields approximately [+10 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -117,9 +117,9 @@
 		"[+1 Gold] <after discovering [Economics]>", 
 		"[+1 Gold] <after discovering [Industrialization]>",
 		"Pillaging this improvement yields approximately [+15 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -130,9 +130,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Drama and Poetry",
 		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		]
 	},
 	{
@@ -143,9 +143,9 @@
 		"turnsToBuild": 10,
 		"techRequired": "Ecology",
 		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", 
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		]	
 	},
 	{
@@ -153,9 +153,9 @@
 		"turnsToBuild": 10,
 		"techRequired": "Biology",
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 	},
 	{
@@ -163,7 +163,7 @@
 		"techRequired": "Electricity",
 		"uniques": [
 		"Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
 		],		
 		
 	// 军事设施
@@ -176,9 +176,9 @@
 		"techRequired": "Defensive Fortification",
 		"uniques": [
 		"Can be built outside your borders", "Gives a defensive bonus of [50]%",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore]> <hidden from users>", 
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		],
 		
 	// 移除
@@ -261,8 +261,8 @@
 		"[+2 Science] <after discovering [Atomic Theory]>",
 		"Will not be replaced by automated units",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		]
 	},
 	{
@@ -273,8 +273,8 @@
 		"[+2 Culture] <after discovering [Archaeology]>", 
 		"[+2 Culture] <after discovering [Radio]>",
 		"Will not be replaced by automated units",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -288,8 +288,8 @@
 		"[+1 Production] <after discovering [Replaceable Parts]>",
 		"[+1 Production] <after discovering [Materials Science]>",
 		"Will not be replaced by automated units",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -300,23 +300,23 @@
 		"[+2 Gold] <after discovering [Economics]>", 
 		"[+2 Gold] <after discovering [Construction]>", 
 		"Will not be replaced by automated units",
-		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
+		"[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 5,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>", "Will not be replaced by automated units"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>", "Will not be replaced by automated units"]
 	},
 	{
 		"name": "Citadel",
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>",
-		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court]> <hidden from users>", "Gain control over [all] tiles in a [1]-tile radius","Will not be replaced by automated units", "Removes removable features when built"]
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders", "[+1 Food] <with [3] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>",
+		"[+1 Production] <with [6] to [6] neighboring [Improvement] tiles> <for [LianFang Court] Civilizations> <hidden from users>", "Gain control over [all] tiles in a [1]-tile radius","Will not be replaced by automated units", "Removes removable features when built"]
 		
     },
     

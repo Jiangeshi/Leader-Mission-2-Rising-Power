@@ -86,7 +86,7 @@
             {
                 "text": "Gain Settler",
                 "uniques": [
-                "Free [Settler] appears", "Only available <for [Human player]>"
+                "Free [Settler] appears", "Only available <for [Human Player] Civilizations>"
                 ],
             },
             {
@@ -124,7 +124,7 @@
                 "text": "Ideological Emancipation",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]]> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile]> <hidden from users>",
+                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>",
                     "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
             },
@@ -200,7 +200,7 @@
             "text": "Free Social Policy by consuming [Confucius]"
             }
                 ]
-                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Confucius] is constructed by anybody>", "Only available<for [non-[Chile]]>", "Provides a [Confucius] in your first [1] cities for free"]
+                "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Confucius] is constructed by anybody>", "Only available<for [non-[Chile]] Civilizations>", "Provides a [Confucius] in your first [1] cities for free"]
             },
             {
                 "text": "Gautama Siddhartha",

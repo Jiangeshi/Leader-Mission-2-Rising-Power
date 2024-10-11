@@ -384,7 +384,7 @@
 		
 		
 		
-		"[+15]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+13]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+11]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+8]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+6]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+5]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
+		"[+20]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+15]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+12]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+9]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+7]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+5]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
 					
 					
 		"Provides [-1] [CD] <when number of [CD] is more than [0]>",
@@ -1229,14 +1229,14 @@
 	{
 		"name": "Portugal",
 		"leaderName": "Leader",
-		"personality": "base",
+		"personality": "Portugal",
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
 
-	"declaringWar": "Your behavior has angered me. I declare a just war against you",
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
 		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
 		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
 		
@@ -1268,6 +1268,47 @@
 			],
 		"cities": ["Lisbon","Porto","Coimbra","Braga","Guimarães","Aveiro","Faro","Cascais","Setúbal","Vila Real","Pontevedra","Viana do Castelo","Santarém","Évora","Angra do Heroísmo","Portalegre","Beja","Castelo Branco","Leiria","Bragança","Funchal","Santa Cruz das Flores","Horta","Lagos","Almada","Barreiro","Odivelas","Amadora","Mogadouro","Sintra","Vila Nova de Gaia"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
+    },
+	{
+		"name": "Austria",
+		"leaderName": "Leader",
+		"adjective": ["Austrian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Austria",
+
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Habsburg Dynasty",
+		"uniqueText": "+1 [Culture] for every 2 Remaining Major Civilizations, up to 10 [Culture]\n+5% Strength for every 2 Remaining Major Civilizations, up to 20% Strength",
+		"uniques": [
+		"[+1 Culture] <for every [2] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [20]>",
+		"[+10 Culture] <when number of [Remaining [Major] Civilizations] is more than [20]>"
+		"[+5]% Strength <for [Military] units> <for every [2] [Remaining [All] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [8]>",
+		"[+20]% Strength <for [Military] units> <when number of [Remaining [Major] Civilizations] is more than [8]>"
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
+			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
+			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
+			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
+		],
+        "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
+        
     //美洲
     },
 	{

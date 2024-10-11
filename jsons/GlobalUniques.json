@@ -70,19 +70,19 @@
     
     // 荷兰
     "[-5 Gold] <with [Infrastructure Investment]>",
-    "[+5 Gold] <with [Infrastructure Investment]> <for [The Netherlands]>",
+    "[+5 Gold] <with [Infrastructure Investment]> <for [The Netherlands] Civilizations>",
     
     "[-5 Gold] <with [Productive Investment]>",
-    "[+5 Gold] <with [Productive Investment]> <for [The Netherlands]>",
+    "[+5 Gold] <with [Productive Investment]> <for [The Netherlands] Civilizations>",
     
     "[-5 Gold] <with [Research Investment]>",
-    "[+5 Gold] <with [Research Investment]> <for [The Netherlands]>", 
+    "[+5 Gold] <with [Research Investment]> <for [The Netherlands] Civilizations>", 
        
     "[-5 Gold] <with [Entertainment Investment]>",
-    "[+5 Gold] <with [Entertainment Investment]> <for [The Netherlands]>",  
+    "[+5 Gold] <with [Entertainment Investment]> <for [The Netherlands] Civilizations>",  
     
     "[-5 Gold] <with [Grain Investment]>",
-    "[+5 Gold] <with [Grain Investment]> <for [The Netherlands]>",
+    "[+5 Gold] <with [Grain Investment]> <for [The Netherlands] Civilizations>",
     
     "[-50]% Strength <for [Embarked] units> <when attacking> <when fighting in [Water] tiles>"
     "[-1] Range <for [{Embarked} {Ranged}] units>"

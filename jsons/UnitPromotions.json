@@ -1432,7 +1432,10 @@
     {
         "name": "[Miner Corps] ability",
         "uniques": ["[+20]% Strength <when fighting in [Mine] tiles>"],
-        
+    },
+	{
+		"name": "[Hussar] ability",
+		"uniques": ["[+50]% to Flank Attack bonuses"]
         
         
         
