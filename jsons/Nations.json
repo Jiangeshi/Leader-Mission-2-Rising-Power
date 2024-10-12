@@ -1298,7 +1298,7 @@
 		"uniques": [
 		"[+1 Culture] <for every [2] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [20]>",
 		"[+10 Culture] <when number of [Remaining [Major] Civilizations] is more than [20]>"
-		"[+5]% Strength <for [Military] units> <for every [2] [Remaining [All] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [8]>",
+		"[+5]% Strength <for [Military] units> <for every [2] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [8]>",
 		"[+20]% Strength <for [Military] units> <when number of [Remaining [Major] Civilizations] is more than [8]>"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
