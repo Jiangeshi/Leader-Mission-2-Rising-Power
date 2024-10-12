@@ -986,7 +986,7 @@
 		"innerColor": [253,209,22],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tide of Revolution",
-		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.]\n[Resting point for Influence with City-States is increased by [50]]\n[Gain an extra spy] [upon entering a new era]",
+		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.]\n[Resting point for Influence with City-States is increased by [50]]\n[City-State Influence recovers at twice the normal rate]",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Resting point for Influence with City-States is increased by [50]", "Gain an extra spy <upon entering a new era>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]  
@@ -1252,17 +1252,17 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Maritime Trade",
-		"uniqueText": "[Connects trade routes over water]\n+50% Yield from Trade Routes in Coastal cities\n+50% Yield from Trade Routes in cities following our religion"
+		"uniqueText": "[Connects trade routes over water]\n+25% Yield from Trade Routes in Coastal cities\n+25% Yield from Trade Routes in cities following our religion"
 		"uniques": [
-		"[+50]% [Gold] from Trade Routes <in [Coastal] cities>",
-		"[+50]% [Science] from Trade Routes <in [Coastal] cities>",
-		"[+50]% [Culture] from Trade Routes <in [Coastal] cities>",
-		"[+50]% [Faith] from Trade Routes <in [Coastal] cities>",
+		"[+25]% [Gold] from Trade Routes <in [Coastal] cities>",
+		"[+25]% [Science] from Trade Routes <in [Coastal] cities>",
+		"[+25]% [Culture] from Trade Routes <in [Coastal] cities>",
+		"[+25]% [Faith] from Trade Routes <in [Coastal] cities>",
 		
-		"[+50]% [Gold] from Trade Routes <in [in cities following our religion] cities>",
-		"[+50]% [Science] from Trade Routes <in [in cities following our religion] cities>",
-		"[+50]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
-		"[+50]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
+		"[+25]% [Gold] from Trade Routes <in [in cities following our religion] cities>",
+		"[+25]% [Science] from Trade Routes <in [in cities following our religion] cities>",
+		"[+25]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
+		"[+25]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 			],
@@ -1294,12 +1294,13 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Habsburg Dynasty",
-		"uniqueText": "+1 [Culture] for every 2 Remaining Major Civilizations, up to 10 [Culture]\n+5% Strength for every 2 Remaining Major Civilizations, up to 20% Strength",
+		"uniqueText": "+1 [Culture] for every 1 Remaining Major Civilizations, up to 30 [Culture]\n+3 [Gold] for every 1 Remaining City-states Civilizations, up to 30 [Gold]\n[Gifts of Gold to City-States generate [50]% more Influence]",
 		"uniques": [
-		"[+1 Culture] <for every [2] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [20]>",
-		"[+10 Culture] <when number of [Remaining [Major] Civilizations] is more than [20]>"
-		"[+5]% Strength <for [Military] units> <for every [2] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [8]>",
-		"[+20]% Strength <for [Military] units> <when number of [Remaining [Major] Civilizations] is more than [8]>"
+		"Gifts of Gold to City-States generate [50]% more Influence",
+		"[+1 Culture] <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [30]>",
+		"[+30 Culture] <when number of [Remaining [Major] Civilizations] is more than [30]>"
+		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [City-states] Civilizations] is between [1] and [10]>",
+		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-states] Civilizations] is more than [10]>"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
@@ -2152,8 +2153,9 @@
 		"outerColor": [10,10,10],
 		"favoredReligion": "Taoism",
 		"uniqueName": "War of Hope",
-		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\n+1 [Science] in all cities when at war\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science\nWhen the HP is below 90%, for every 10% loss of HP, the Strength increases by 5%, up to a maximum of 15%\nBorrows city names from other civilizations in the game"
+		"uniqueText": "This is the championship reward of the second Leader Mission Competition.\n\n+1 [Science] in all cities when at war\nEarn 100% of killed☠ Military unit's †Strength as ⍾Science\nFor every 10% loss of HP, the Strength increases by 5%, up to a maximum of 20%\nBorrows city names from other civilizations in the game"
 		"uniques": ["[+1 Science] [in all cities] <when at war>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]", "\"Borrows\" city names from other civilizations in the game",
+		"[+5]% Strength <when below [90] HP>",
 		"[+5]% Strength <when below [80] HP>",
 		"[+5]% Strength <when below [70] HP>",
 		"[+5]% Strength <when below [60] HP>",
@@ -2214,9 +2216,9 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Yin-Yang Harmony",
-		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 3 Warfare Aversion Level\n+1% Strength and Production for every 5 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 5 Warfare Aversion Level\n+1% Strength and Production for every 5 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[-1]% growth [in all cities] <for every [3] [Warfare Aversion Level]>",
+		"[-1]% growth [in all cities] <for every [5] [Warfare Aversion Level]>",
 		"[+1]% Strength <for [Military] units> <for every [5] [Warfare Aversion Level]>",
 		"[+1]% [Production] <for every [5] [Warfare Aversion Level]>",
 		"[+1 Culture, +1 Faith] [in capital] <when not at war>",
@@ -2249,8 +2251,9 @@
 		"innerColor": [190,44,55],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Go to the End of the World",
-		"uniqueText": "This is the runner-up reward of the third Leader Mission Competition.\n\nFoot Soldier and Reconnaissance units can build [Road] improvements on tiles\n[[-100]% maintenance on road & railroads]\n-50% construction time for [Road] and [Railroad] improvements\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is the runner-up reward of the third Leader Mission Competition.\n\n[[+1 Gold] from [Road] tiles [in all cities]]\n[[-100]% maintenance on road & railroads]\n-50% construction time for [Road] and [Railroad] improvements\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
+		"[+1 Gold] from [Road] tiles [in all cities]",
 		"[-100]% maintenance on road & railroads",
 		"[-50]% construction time for [Road] improvements"
 		"[-50]% construction time for [Railroad] improvements"

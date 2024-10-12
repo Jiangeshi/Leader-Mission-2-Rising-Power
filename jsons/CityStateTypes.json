@@ -58,14 +58,14 @@
             "[+3 Culture] <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Culture] <starting from the [Industrial era]>",
-            "[+1 Culture] from [Water resource] tiles [in all cities]",
+            "[+1 Culture] from [Water resource] tiles [in capital]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+6 Culture] <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Culture] <starting from the [Industrial era]>",
-            "[+2 Culture] from [Water resource] tiles [in all cities]",
+            "[+1 Culture] from [Water resource] tiles [in all cities]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [139, 96, 255]
@@ -115,7 +115,7 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
+        "[+5]% [Food] [in all cities]", 
         "Provides [2] [Diplomatic Point]"
         ],
         "color": [56, 255, 112]
@@ -129,8 +129,9 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
-        "[+2 Food] from [Fishing Boats] tiles [in all cities]",
+        "[+5]% [Food] [in all cities]", 
+        "[+1 Food] from [Fishing Boats] tiles [in all cities]",
+        "[+1 Food] from [Fishing Boats] tiles [in capital]",
         "Provides [2] [Diplomatic Point]"
         ],
         "color": [56, 255, 112]
@@ -144,7 +145,7 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
+        "[+5]% [Food] [in all cities]", 
         "[+3]% [Food] from every [Seaside Building]",
         "Provides [2] [Diplomatic Point]"
         ],
@@ -159,7 +160,7 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
+        "[+5]% [Food] [in all cities]", 
         "[+2 Food] from [Plantation] tiles [in all cities]",
         "Provides [2] [Diplomatic Point]"
         ],
@@ -174,7 +175,7 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
+        "[+5]% [Food] [in all cities]", 
         "[+2 Food] from every [Atoll]",
         "Provides [2] [Diplomatic Point]"
         ],
@@ -189,7 +190,7 @@
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
+        "[+5]% [Food] [in all cities]", 
         "[+2 Food] from every [Atoll]",
         "[+2 Food] from every [Seafall ruins]",
         "Provides [2] [Diplomatic Point]"
@@ -200,13 +201,13 @@
         "name": "Ur",
         "friendBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+1 Food] [in all cities] <when at war>",
+        "[+2 Food] [in all cities] <when at war>",
         "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
         "[+3 Food] [in capital]", 
-        "[+10]% [Food] [in all cities]", 
-        "[+2 Food] [in all cities] <when at war>",
+        "[+5]% [Food] [in all cities]", 
+        "[+3 Food] [in all cities] <when at war>",
         "Provides [2] [Diplomatic Point]"
         ],
         "color": [56, 255, 112]
@@ -248,14 +249,14 @@
         "friendBonusUniques": [
             "[+2 Gold] from each Trade Route <before the [Medieval era]>",
             "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
-            "[+1 Gold] from [River] tiles [in all cities]",
+            "[+1 Gold] from [River] tiles [in capital]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
             "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
             "Provides a unique luxury",
-            "[+2 Gold] from [River] tiles [in all cities]",
+            "[+1 Gold] from [River] tiles [in all cities]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 216, 0]
@@ -331,13 +332,13 @@
         "friendBonusUniques": [
             "[+2 Gold] from each Trade Route <before the [Medieval era]>",
             "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
-            "[-15]% maintenance cost for buildings [in all cities]",
+            "[-25]% maintenance cost for buildings [in all cities]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
             "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
-            "[-30]% maintenance cost for buildings [in all cities]",
+            "[-50]% maintenance cost for buildings [in all cities]",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
         ],

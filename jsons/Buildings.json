@@ -1921,8 +1921,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness, +1 Culture] <when number of [[Civilian] Units] is more than [10]>"]	
+		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -2178,8 +2178,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 10)\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]>", "[+10 Happiness, +10 Culture] <when number of [[Civilian] Units] is more than [10]>"]
+		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)\n[Free [Worker] appears]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
@@ -2894,7 +2894,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman], and one of them -10% †Strength\nDouble quantity of [Horses] produced"
+		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman]\nDouble quantity of [Horses] produced"
 		"uniques": ["Can only be built<in [in capital] cities>","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion", "Double quantity of [Horses] produced"]
 	},
 	{

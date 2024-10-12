@@ -53,7 +53,6 @@
         "name": "Foot Soldier",
         "movementType": "Land"
         "uniques":[
-        "Can build [Road] improvements on tiles <for [Iron Blood Kingdom] Civilizations> <for [Human player] Civilizations> <hidden from users>",
         "May attack when embarked",
         "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"

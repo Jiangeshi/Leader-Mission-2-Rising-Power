@@ -21,7 +21,7 @@
             },
             {
                 "text": "Gain Resource",
-                "uniques": ["Instantly provides [15] [Horses]", "Instantly provides [15] [Iron]", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
+                "uniques": ["Instantly provides [30] [Iron]", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
             },
             {
                 "text": "Gain Power",

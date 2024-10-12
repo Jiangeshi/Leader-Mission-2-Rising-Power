@@ -1463,7 +1463,7 @@
 	},
 	{
 		"name": "TomyrisAbility", // 托米丽司
-		"uniques": ["Free [Horseman] appears", "[-10]% Strength"]
+		"uniques": ["Free [Horseman] appears"]
 	},
 	{
 		"name": "Defend the Motherland",
