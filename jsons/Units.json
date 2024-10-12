@@ -1631,7 +1631,7 @@
 		"unitType": "Ranged Water",
 		"movement": 4,
 		"strength": 16,
-		"rangedStrength": 20,
+		"rangedStrength": 17,
 		"cost": 125,
 		"replaces": "Galleass",
 		"uniqueTo": "Portugal",
