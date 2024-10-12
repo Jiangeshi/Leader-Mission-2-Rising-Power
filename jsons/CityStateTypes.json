@@ -470,14 +470,14 @@
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Faith] <starting from the [Industrial era]>"
-            "[+4]% [Faith] from every [{Gold} {Buildings}]",
+            "[+4]% [Faith] from every [{Faith} {Buildings}]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>"
-            "[+6]% [Faith] from every [{Gold} {Buildings}]",
+            "[+6]% [Faith] from every [{Faith} {Buildings}]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]    
