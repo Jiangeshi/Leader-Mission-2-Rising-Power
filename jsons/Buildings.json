@@ -1392,7 +1392,7 @@
 		"cost": 15,
 		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
 		"uniques": [
-		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human Player] Civilizations>",
+		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
 		    "Creates a [Farm] improvement on a specific tile",
 		    "Remove [Military Reclamation] [in this city]"
 		]	
