@@ -2462,8 +2462,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Portugal",
-		"replacementTextForUniques": "[[+4 Gold] from each Trade Route]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Jo Ao III]>", "[+4 Gold] from each Trade Route"]
+		"replacementTextForUniques": "[[+3 Gold] from each Trade Route]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Jo Ao III]>", "[+3 Gold] from each Trade Route"]
 	},
 	{
 		"name": "Navigation College",

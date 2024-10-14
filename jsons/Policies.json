@@ -702,7 +702,7 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[Gold] cost of purchasing items in cities [-20]%",
                 ],
                 "row": 1,
                 "column": 3        
