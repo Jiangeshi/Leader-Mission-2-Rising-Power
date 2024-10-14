@@ -2798,7 +2798,7 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Carthage",
 		"greatPersonPoints": {"Great Admiral": 1},
-		"maintenance": 2,
+		"maintenance": 4,
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Seaside Building", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
@@ -3100,7 +3100,7 @@
 	{
 		"name": "Special Great Prophet Project",
         "maintenance": 0,
-        "cost": 160,
+        "cost": 200,
         "replacementTextForUniques": "Choose a special [Great Prophet]"
 		"uniques": [
 		"Triggers a [Special Great Prophet Project] event",

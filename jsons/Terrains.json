@@ -3,7 +3,6 @@
 	{
 		"name": "Ocean",
 		"type": "Water",
-		"production": 1,
 		"gold": 2,
 		"movementCost": 1,
 		"RGB": [43, 87, 151]

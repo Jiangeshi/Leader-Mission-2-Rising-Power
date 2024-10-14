@@ -1252,17 +1252,17 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Maritime Trade",
-		"uniqueText": "[Connects trade routes over water]\n+15% Yield from Trade Routes in Coastal cities\n+15% Yield from Trade Routes in cities following our religion"
+		"uniqueText": "[Connects trade routes over water]\n+10% Yield from Trade Routes in Coastal cities\n+10% Yield from Trade Routes in cities following our religion"
 		"uniques": [
-		"[+15]% [Gold] from Trade Routes <in [Coastal] cities>",
-		"[+15]% [Science] from Trade Routes <in [Coastal] cities>",
-		"[+15]% [Culture] from Trade Routes <in [Coastal] cities>",
-		"[+15]% [Faith] from Trade Routes <in [Coastal] cities>",
+		"[+10]% [Gold] from Trade Routes <in [Coastal] cities>",
+		"[+10]% [Science] from Trade Routes <in [Coastal] cities>",
+		"[+10]% [Culture] from Trade Routes <in [Coastal] cities>",
+		"[+10]% [Faith] from Trade Routes <in [Coastal] cities>",
 		
-		"[+15]% [Gold] from Trade Routes <in [in cities following our religion] cities>",
-		"[+15]% [Science] from Trade Routes <in [in cities following our religion] cities>",
-		"[+15]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
-		"[+15]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
+		"[+10]% [Gold] from Trade Routes <in [in cities following our religion] cities>",
+		"[+10]% [Science] from Trade Routes <in [in cities following our religion] cities>",
+		"[+10]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
+		"[+10]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 			],
