@@ -1832,24 +1832,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+15% †Strength for Siege units vs Military units when attacking\n[[+1] Movement] [for [Siege] units]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+15]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
+		"replacementTextForUniques": "+10% †Strength for Siege units vs Military units when attacking\n[[+1] Movement] [for [Siege] units]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+10]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
 	},
 	{	
         "name": "Civilized Leader-De Gaulle",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "¤Gold cost of purchasing items in cities -10%\n+4 ¤Gold per 1 social policies adopted"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-10]%", "[+4 Gold] per [1] social policies adopted"]
+		"replacementTextForUniques": "[[Gold] cost of purchasing items in cities [-10]%]\n[[+3 Gold] per [1] social policies adopted]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-10]%", "[+3 Gold] per [1] social policies adopted"]
 	},
 	{	
         "name": "Civilized Leader-Louis XIV",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+1 ♪Culture, +2 ¤Gold from every ⌣Luxury resource"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+1 Culture, +2 Gold] from every [Luxury resource]"]	
+		"replacementTextForUniques": "[[+1 Culture, +1 Gold] from every [Luxury resource]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+1 Culture, +1 Gold] from every [Luxury resource]"]	
 	},
 	{
 		"name": "French Castle",
@@ -2771,7 +2771,7 @@
 		"replaces": "Granary",
 		"uniqueTo": "Benin",
 		"food": 2,
-		"maintenance": 0,
+		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Bananas] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]", "[+1 Food] from [Rice] tiles [in this city]", "[+1 Food] from [Deer] tiles [in this city]", "[+1 Food] from [Potato] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Unsellable"],
 		"requiredTech": "Pottery"	
 			
@@ -3038,10 +3038,10 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion]\n[[+15]% Production when constructing [Military] units [in capital]]",
+		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion]\n[[+10]% Production when constructing [Military] units [in capital]]",
 		"uniques": [
 	    "All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion",
-	    "[+15]% Production when constructing [Military] units [in capital]",
+	    "[+10]% Production when constructing [Military] units [in capital]",
 	    
 	    //"Indicates the capital city",
 	    "Remove [Civilized Leader-Sumu] [in all cities] <if [Civilized Leader-Sumu] is constructed>",
@@ -3054,9 +3054,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[[+2 Science, +2 Production] [in all cities]] [in cities with at least [5] [Population]]]",
+		"replacementTextForUniques": "[[[+2 Science, +2 Production, -1 Food] [in all cities]] [in cities with at least [5] [Population]]]",
 		"uniques": [
-	    "[+2 Science, +2 Production] [in all cities] <in cities with at least [5] [Population]>",
+	    "[+2 Science, +2 Production, -1 Food] [in all cities] <in cities with at least [5] [Population]>",
 	    
 	    //"Indicates the capital city"
 	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
@@ -3067,12 +3067,11 @@
 	{
 		"name": "Record Pavilion",
 		"requiredTech": "Writing",
-		"happiness": 1,
 		"uniqueTo": "Sumusuming",
 		"replaces": "Library",
 		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level I]>", 
-		"All newly-trained [Military] units [in this city] receive the [Record] promotion", 
+		"All newly-trained [Military] units [in this city] receive the [Record] promotion", "[+1 Science] per [2] population [in this city]",
 		"Provides [1] [Number of Buildings] <in this city>"],
 	
 	// 敛芳之邑
