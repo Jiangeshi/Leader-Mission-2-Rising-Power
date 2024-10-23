@@ -105,7 +105,7 @@
             },
             {
                 "text": "Gain Spy",
-                "uniques": ["Gain an extra spy"],
+                "uniques": ["Gain an extra spy", "Only available <when espionage is enabled>"],
             },
         ]
     },
