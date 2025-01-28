@@ -5157,3 +5157,27 @@ UnitPromotionIcons/Military City ability
   orig: 49, 49
   offset: 0, 0
   index: -1    
+  
+  
+Images/Icons/Industry.png
+CityStateIcons/Johannesburg
+  rotate: false
+  xy: 0, 0
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+CityStateIcons/Auckland
+  rotate: false
+  xy: 0, 0
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cardiff
+  rotate: false
+  xy: 0, 0
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1

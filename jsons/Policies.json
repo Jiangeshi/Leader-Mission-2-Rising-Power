@@ -85,7 +85,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+25]% growth [in all cities]",
+            "[+20]% growth [in all cities]",
             "[+2 Production] [in capital]"
         ],
         "policies": [
@@ -685,7 +685,7 @@
         "uniques": [
             "Only available <after discovering [Sailing]>",
             "[Great Admiral] is earned [50]% faster",
-            "[+33]% [Gold] [in capital]",
+            "[+25]% [Gold] [in capital]",
             "[+1 Culture] from every [Luxury resource]"
         ],
         "policies": [
@@ -783,7 +783,7 @@
                 "name": "Theocracy",
                 "uniques": [
                     "[+15]% [Gold] from every [Temple]",
-                    "[+15]% [Faith] from every [Temple]"
+                    "[+10]% [Faith] from every [Temple]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,

@@ -3,7 +3,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Desert]", "[-1 Faith] [in all cities]"]
+        "uniques": ["[+1 Faith] from every [Desert]"]
     },
     {
         "name": "Dance of the Aurora",
@@ -31,6 +31,11 @@
         "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"],
     },
     {
+        "name": "Baptism",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Lakes]"]   
+    },
+    {
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Coast]", "[+2 Faith] from every [Ocean]"],
@@ -50,7 +55,7 @@
     {
         "name": "Sacred Route",
         "type": "Pantheon",
-        "uniques": ["[+3 Culture] [in all cities connected to capital]"]
+        "uniques": ["[+2 Culture] [in all cities connected to capital]"]
         
     // 金钱
     },
@@ -84,7 +89,7 @@
     {
         "name": "Messenger of God",
         "type": "Pantheon",
-        "uniques": ["[+3 Science] [in all cities connected to capital]"]
+        "uniques": ["[+2 Science] [in all cities connected to capital]"]
         
     //产能
     },
@@ -252,11 +257,6 @@
         "name": "Inspiration",
         "type": "Follower",
         "uniques": ["[+2 Faith] from every [Wonder]"] 
-    },
-    {
-        "name": "Baptism",
-        "type": "Follower",
-        "uniques": ["[+3 Faith] from every [Lakes]"]   
     },
     {
         "name": "Professional Ethics",

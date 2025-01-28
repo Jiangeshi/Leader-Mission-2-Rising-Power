@@ -8,7 +8,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
 		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations> <hidden from users>", "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
-		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>"
+		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		],
 		"cost": 70
 	},
@@ -62,7 +62,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>"
 		]
 		"attackSound": "nonmetalhit"
 	},
@@ -1397,7 +1397,7 @@
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 27,
-		"cost": 140,
+		"cost": 154,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
@@ -1525,7 +1525,7 @@
 		"uniqueTo": "Korea",
 		"movement": 4,
 		"strength": 36,
-		"cost": 150,
+		"cost": 165,
 	    "requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
@@ -2096,7 +2096,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 		    "Religious Unit",
-		    "Gain enough Faith for [125]% of a Great Prophet <by consuming this unit>",
+		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
 			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
 			],
