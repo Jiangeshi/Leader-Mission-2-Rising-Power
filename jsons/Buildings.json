@@ -2817,8 +2817,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ethiopia",
-		"replacementTextForUniques": "+33% †Strength for Military units decreasing with distance from the capital",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Menelik II]>", "[+33]% Strength decreasing with distance from the capital <for [Military] units>"]
+		"replacementTextForUniques": "+25% †Strength for Military units decreasing with distance from the capital",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Menelik II]>", "[+25]% Strength decreasing with distance from the capital <for [Military] units>"]
     },
 	{
 		"name": "Stele",
