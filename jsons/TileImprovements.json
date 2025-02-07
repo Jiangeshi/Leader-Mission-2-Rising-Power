@@ -114,6 +114,8 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
+		"[+1 Gold] <within [1] tiles of a [Road]>",
+		"[+2 Gold] <within [1] tiles of a [Railroad]>",
 		"[+1 Gold] <after discovering [Economics]>", 
 		"[+1 Gold] <after discovering [Industrialization]>",
 		"Pillaging this improvement yields approximately [+15 Gold]",
