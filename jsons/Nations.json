@@ -986,8 +986,8 @@
 		"innerColor": [253,209,22],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tide of Revolution",
-		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.]\n[Resting point for Influence with City-States is increased by [50]]\n[City-State Influence recovers at twice the normal rate]",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "Resting point for Influence with City-States is increased by [50]", "City-State Influence recovers at twice the normal rate", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns]\n[Resting point for Influence with City-States is increased by [50]]\n[City-State Influence recovers at twice the normal rate]",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns", "Resting point for Influence with City-States is increased by [50]", "City-State Influence recovers at twice the normal rate", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]  
     },
@@ -2063,9 +2063,9 @@
 		"outerColor": [245,173,173],
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
-		"uniqueName": "The Land of Thousand Islands",
-		"uniqueText": "[May travel on Water tiles without embarking]\nMilitary units may attack without combat penalty for attacking across a coast when embarked\n[[+10]% Strength][for [Military] units][within [3] tiles of a [River]]\n[[+10]% Strength][for [Military] units][within [3] tiles of a [Coast]]",
-		"uniques": ["[+10]% Strength <for [Military] units> <within [3] tiles of a [River]>", "[+10]% Strength <for [Military] units> <within [3] tiles of a [Coast]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueName": "Oriental Pearl",
+		"uniqueText": "[[Plantation] provides 20 [Golde Age points]]\n[[+2 Gold] from every [Luxury resource]]",
+		"uniques": ["Instantly gain [20] [Golde Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },

@@ -4,7 +4,7 @@
         "movementType": "Land"
         "uniques": [
         "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
-        "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>"
+        "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>"
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>"
         
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
@@ -37,7 +37,7 @@
         "Cannot attack <in [Marsh] tiles>",
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
@@ -66,7 +66,7 @@
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
@@ -95,7 +95,7 @@
         "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts] Civilizations> <if [Civilized Leader-Boudicca] is constructed> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
@@ -127,7 +127,7 @@
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
@@ -156,7 +156,7 @@
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>",
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
@@ -184,7 +184,7 @@
         "Cannot attack <in [Marsh] tiles>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
@@ -236,7 +236,7 @@
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
-        "May travel on Water tiles without embarking <for [Indonesia] Civilizations> <hidden from users>", "Eliminates combat penalty for attacking across a coast <for [Indonesia] Civilizations> <hidden from users>",
+         
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations> <hidden from users>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
