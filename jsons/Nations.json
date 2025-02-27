@@ -2064,8 +2064,8 @@
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
 		"uniqueName": "Oriental Pearl",
-		"uniqueText": "[[Plantation] provides 20 [Golde Age points]]\n[[+2 Gold] from every [Luxury resource]]",
-		"uniques": ["Instantly gain [20] [Golde Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[Plantation] provides 20 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]",
+		"uniques": ["Instantly gain [20] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },

@@ -2018,8 +2018,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[[Warfare Aversion Level] stops natural growth when above 35 [Warfare Aversion Level]]\n[Instantly gain 1 [Golde Age points] for every 2 [Warfare Aversion Level] upon turn end]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Only available <in cities without a [Civilized Leader-Richard I]>", "Provides [-1] [Warfare Aversion Level] <when above [35] [Warfare Aversion Level]>", "Instantly gain [1] [Golde Age points] <for every [2] [Warfare Aversion Level]> <upon turn end>"]
+		"replacementTextForUniques": "[[Warfare Aversion Level] stops natural growth when above 35 [Warfare Aversion Level]]\n[Instantly gain 1 [Golden Age points] for every 2 [Warfare Aversion Level] upon turn end]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Queen Victoria]>", "Only available <in cities without a [Civilized Leader-Richard I]>", "Provides [-1] [Warfare Aversion Level] <when above [35] [Warfare Aversion Level]>", "Instantly gain [1] [Golden Age points] <for every [2] [Warfare Aversion Level]> <upon turn end>"]
 	},
 	{	
         "name": "Civilized Leader-Richard I",
