@@ -202,7 +202,7 @@
 	{
         "name": "Military City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+15]% Production when constructing [Military] units [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level III]:\n    [All newly-trained [Military] units [in this city] receive the [Military City ability] promotion]\n    [[Military City ability]: [[+10]% Strength]]\n    [[-5]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Production] from [Armory]] [in this city]]\n    [[[+10]% [Science] from [Military Academy]] [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level V]:\n    [New [Military] units start with [25] Experience [in this city]]\n    [[-5]% [Gold] [in this city]]",
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+15]% Production when constructing [Military] units [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level III]:\n    [All newly-trained [Military] units [in this city] receive the [Military City ability] promotion]\n    [[Military City ability]: [[+10]% Strength]]\n    [[-5]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Production] from [Armory]] [in this city]]\n    [[[+10]% [Science] from [Military Academy]] [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level V]:\n    [New [Military] units start with [25] XP [in this city]]\n    [[-5]% [Gold] [in this city]]",
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
@@ -220,7 +220,7 @@
 		"[+10]% [Science] [in this city] <in cities with a [City Level IV]> <in cities with a [Military Academy]>", 	
 		
 		"[-5]% [Gold] [in this city] <in cities with a [City Level V]>",
-		"New [Military] units start with [25] Experience [in this city] <in cities with a [City Level V]>"
+		"New [Military] units start with [25] XP [in this city] <in cities with a [City Level V]>"
 		]
 	},
 	{
@@ -475,7 +475,7 @@
 		"name": "Barracks",
 		"maintenance": 1,
 		"cost": 84,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	},
 	{
@@ -735,7 +735,7 @@
 	{
 		"name": "Armory",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level III]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Steel"
 	},
     {
@@ -1039,7 +1039,7 @@
 		"cost": 348,
 		"production": 3,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level V]>","New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["Only available <in cities with a [City Level V]>","New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -1095,7 +1095,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
@@ -1820,7 +1820,7 @@
 		"name": "Military Royal School",
 		"maintenance": 1,
 		"cost": 84,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation",
 		"replaces": "Barracks",
 		"uniqueTo": "Macedonia",	
@@ -1992,7 +1992,7 @@
 		"maintenance": 1,
 	    "uniqueTo": "Rome",
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] Experience [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] XP [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
 		"replaces": "Monument",
 	
 	// 英格兰
@@ -2242,7 +2242,7 @@
 		"production": 1,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] Experience [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Horseback Riding"
 
     // 梵蒂冈
@@ -2407,8 +2407,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sweden",
-		"replacementTextForUniques": "[New [Military] units start with [5] Experience [in this city]]\n[[1] free [Staff] units appear]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kristina Augusta]>", "New [Military] units start with [5] Experience [in this city]", "[1] free [Staff] units appear"]	
+		"replacementTextForUniques": "[New [Military] units start with [5] XP [in this city]]\n[[1] free [Staff] units appear]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kristina Augusta]>", "New [Military] units start with [5] XP [in this city]", "[1] free [Staff] units appear"]	
 	},
 	{	
         "name": "Civilized Leader-Kristina Augusta",
@@ -2424,7 +2424,7 @@
 		"cost": 84,
 		"uniqueTo": "Sweden",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Unsellable", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Unsellable", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	
 	//苏格兰
@@ -2655,8 +2655,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Argentina",
-		"replacementTextForUniques": "[New [Military] units start with [10] Experience [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "New [Military] units start with [10] Experience [in all cities]"]	
+		"replacementTextForUniques": "[New [Military] units start with [10] XP [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "New [Military] units start with [10] XP [in all cities]"]	
 
     // 易洛魁
     },
@@ -2848,7 +2848,7 @@
 		"replaces": "Barracks",
 		"gold": 2,
 		"science": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 	
 	// 桑海
@@ -2990,7 +2990,7 @@
 		"cost": 84,
 		"uniqueTo": "Yun Ji Court",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
 		
 	// 格伦帝国

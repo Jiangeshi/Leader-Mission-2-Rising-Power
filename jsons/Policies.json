@@ -101,7 +101,7 @@
                 "name": "Lord-Vassal",
                 "uniques": [
                     "[-50]% Culture cost of natural border growth [in all cities]",
-                    "New [Military] units start with [10] Experience [in all cities]"
+                    "New [Military] units start with [10] XP [in all cities]"
                 ],
                 "requires": ["Monarchy"],
                 "row": 2,
@@ -283,7 +283,7 @@
                 "name": "Total War",
                 "uniques": [
                     "Instantly consumes [75] [Warfare Aversion Level]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
                 ],
                 "requires": ["Military Chemical Industry"],
                 "row": 3,
