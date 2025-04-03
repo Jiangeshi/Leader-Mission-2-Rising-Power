@@ -1199,7 +1199,7 @@
 		"percentStatBonus": {"production": 20, "science": 20, "gold": 20},
 		"happiness": 10,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [7] social policy branches have been completed", "Triggers a global alert upon build start",
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [7]>", "Triggers a global alert upon build start",
 		"[+25]% [Culture] [in all cities]"
 			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 		"requiredTech": "Globalization",
@@ -1833,7 +1833,7 @@
 		"cost":1,
 		"uniqueTo": "France",
 		"replacementTextForUniques": "+10% †Strength for Siege units vs Military units when attacking\n[[+1] Movement] [for [Siege] units]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+10]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[+10]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
 	},
 	{	
         "name": "Civilized Leader-De Gaulle",
@@ -1841,7 +1841,7 @@
 		"cost":1,
 		"uniqueTo": "France",
 		"replacementTextForUniques": "[[Gold] cost of purchasing items in cities [-10]%]\n[[+3 Gold] per [1] social policies adopted]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[Gold] cost of purchasing items in cities [-10]%", "[+3 Gold] per [1] social policies adopted"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[Gold] cost of purchasing items in cities [-10]%", "[+3 Gold] per [1] social policies adopted"]
 	},
 	{	
         "name": "Civilized Leader-Louis XIV",
@@ -1849,7 +1849,16 @@
 		"cost":1,
 		"uniqueTo": "France",
 		"replacementTextForUniques": "[[+1 Culture, +1 Gold] from every [Luxury resource]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "[+1 Culture, +1 Gold] from every [Luxury resource]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[+1 Culture, +1 Gold] from every [Luxury resource]"]	
+	},
+	{	
+        "name": "Civilized Leader-Commune de Paris",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "France",
+		"replacementTextForUniques": "[[+1 Culture] [in all cities]]\n[[-5]% Culture cost of adopting new Policies]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Napoleon]>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "[+1 Culture] [in all cities]", "[-5]% Culture cost of adopting new Policies",
+		]	
 	},
 	{
 		"name": "French Castle",

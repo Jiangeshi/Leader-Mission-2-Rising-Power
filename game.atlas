@@ -1882,6 +1882,16 @@ BuildingIcons/Civilized Leader-Maria Theresia
   orig: 270, 270
   offset: 0, 0
   index: -1
+  
+Images/BuildingIcons/Civilized leader.png
+BuildingIcons/Civilized Leader-Commune de Paris
+  rotate: false
+  xy: 0,0
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1  
+  
 
 
 
