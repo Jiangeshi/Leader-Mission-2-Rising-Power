@@ -246,7 +246,7 @@
     {
         "name": "Monumentality",
         "type": "Follower",
-        "uniques": ["May buy [Culture] buildings with [Faith] for [3] times their normal Production cost", "May buy [Happiness] buildings with [Faith] for [3] times their normal Production cost", "May buy [Gold] buildings with [Faith] for [3] times their normal Production cost"]
+        "uniques": ["May buy [Culture] buildings with [Faith] for [3] times their normal Production cost", "May buy [Happiness] buildings with [Faith] for [3] times their normal Production cost"]
     },
     {
         "name": "Swords into Ploughshares",
