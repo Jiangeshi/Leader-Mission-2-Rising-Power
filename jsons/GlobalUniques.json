@@ -92,5 +92,50 @@
     // 外交胜利
     "Provides [1] [Diplomatic Point] <when not at war>",
     
+    // 种子获取
+    // 1-5回合
+    "Gain a free [Seed-I] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [1]> <when number of [Seed] is less than [2]>",
+    
+    "Gain a free [Seed-II] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [2]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-II] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [2]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-III] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [3]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-III] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [3]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-IV] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [4]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-IV] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [4]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-V] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [5]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-V] [in capital] <with [100]% chance> <upon turn end> <when number of [turns] is equal to [5]> <when number of [Seed] is equal to [0]>",
+    
+    // 6开始
+    "Gain a free [Seed-I] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [6]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [7]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [8]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [9]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [10]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    
+    "Gain a free [Seed-I] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [11]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [12]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [13]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [14]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [15]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    
+    "Gain a free [Seed-I] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [16]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [17]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [18]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [19]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [20]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    "Gain a free [Seed-I] [in capital] <with [100]% chance> <upon turn end> <when number of [turns] is equal to [21]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    
+    // 种子彩蛋
+    "Gain a free [Seed-EGG] [in capital] <with [1]% chance> <upon turn end> <when number of [Seed] is less than [3]>",
+    
+    // 文明能力事件
+    // 单能力文明第六回合
+    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode] Victory is enabled>",
+    
+    // 跨时代获取词条
+    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode] Victory is enabled>",
     ]
 }

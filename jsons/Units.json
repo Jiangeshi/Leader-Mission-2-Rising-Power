@@ -2043,6 +2043,8 @@
 	{
 		"name": "Confucius",
 		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "",
 		"uniques": [
 		    "Free Social Policy <by consuming this unit> <for [non-[Chile]] Civilizations>",
 		    "[1] free [Great Artist] units appear <by consuming this unit> <for [Chile] Civilizations>"
@@ -2055,6 +2057,8 @@
 	{
 		"name": "Gautama Siddhartha",
 		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "",
 		"uniques": [
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
@@ -2066,6 +2070,8 @@
 	{
 		"name": "Jesus",
 		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "",
 		"uniques": [
 		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
 		    "Religious Unit",
@@ -2081,6 +2087,8 @@
 	{
 		"name": "Muhammad",
 		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "",
 		"uniques": [
 		    "Religious Unit",
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
@@ -2094,6 +2102,8 @@
 	{
 		"name": "Zoroaster",
 		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "",
 		"uniques": [
 		    "Religious Unit",
 		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
@@ -2108,6 +2118,8 @@
 	{
 		"name": "Sun Tzu",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		 "All adjacent units heal [+10] HP when healing", 
@@ -2121,6 +2133,8 @@
 	{
 		"name": "Gnaeus Pompeius Magnus",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2135,6 +2149,8 @@
 	{
 		"name": "Spartacus",
 		"unitType": "Civilian",	
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2148,6 +2164,8 @@
 	{
 		"name": "Bai Qi",
 		"unitType": "Civilian",	
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2161,6 +2179,8 @@
 	{
 		"name": "Themistocles",
 		"unitType": "Civilian",
+		"replaces": "Great Admiral",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Water] units within [3] tiles",
 		"[+50]% Strength bonus for [Water] units within [0] tiles <during the [Classical era]>",
@@ -2177,6 +2197,8 @@
 	{
 		"name": "Belisarius",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2190,6 +2212,8 @@
 	{
 		"name": "Han Xin",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles <starting from the [Renaissance era]>",
 		"[+15]% Strength bonus for [Land] units within [4] tiles <during the [Medieval era]>", 
@@ -2205,6 +2229,8 @@
 	{
 		"name": "Xiang Yu",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2218,6 +2244,8 @@
 	{
 		"name": "Li Jing",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2231,6 +2259,8 @@
 	{
 		"name": "Subedei",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2244,6 +2274,8 @@
 	{
 		"name": "Timur",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2257,6 +2289,8 @@
 	{
 		"name": "Jeanne",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+25] HP when healing <during the [Medieval era]>",
@@ -2270,6 +2304,8 @@
 	{
 		"name": "Khalid ibn al-Walid",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2283,6 +2319,8 @@
 	{
 		"name": "Bayezid I",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2296,6 +2334,8 @@
 	{
 		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2309,6 +2349,8 @@
 	{
 		"name": "Narses",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2322,6 +2364,8 @@
 	{
 		"name": "William Marshal",
 		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2339,6 +2383,8 @@
 	{
 		"name": "Lee Sunshin",
 		"unitType": "Civilian",
+		"replaces": "Great Admiral",
+		"uniqueTo": "",
 		"uniques": [
 		"[+33]% Strength bonus for [Water] units within [3] tiles",
 		"[+1] Sight <when [Embarked]>",
@@ -2352,6 +2398,8 @@
 	},
 	{
 		"name": "Henri Philippe Pétain",
+		"replaces": "Great General",
+		"uniqueTo": "",
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 

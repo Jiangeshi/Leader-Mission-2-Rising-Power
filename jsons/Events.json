@@ -92,7 +92,7 @@
             {
                 "text": "Gain Feat",
                 "uniques": [
-                "Instantly provides [10] [Feat]"
+                "Instantly provides [10] [Feat]",
                 ],
             },            
             {
@@ -428,5 +428,268 @@
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [William Marshal] is constructed by anybody>", "Provides a [William Marshal] in your first [1] cities for free"]         
             },
         ]
-    }
+    },
+    
+    // 事件选择
+    // 种子稀有度：
+    // 2、3：普通
+    // 1：稀有
+    // 4：史诗
+    // 5：传奇
+    {
+        "name": "Choose New Civilization Capability !",
+        "text": "",
+        "choices": [
+        // 种子1
+        // 雄伟壮丽
+            {
+                "text": "Monumentality",
+                "civilopediaText": [
+                {
+                    "text": "[[+15]% Production when constructing [All] wonders [in all cities]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-I] is constructed>",
+                "Unavailable <if [Monumentality] is constructed by anybody>",
+                
+                "Provides a [Monumentality] in your first [1] cities for free <hidden from users>"]
+            },    
+            
+        // 固若金汤
+            {
+                "text": "Ironclad Defense",
+                "civilopediaText": [
+                {
+                    "text": "[[[+8]% Strength] [when defending]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-I] is constructed>",
+                "Unavailable <if [Ironclad Defense] is constructed by anybody>",
+                
+                "Provides a [Ironclad Defense] in your first [1] cities for free <hidden from users>"]
+            },        
+            
+        // 万国来朝
+            {
+                "text": "All Nations Tribute",
+                "civilopediaText": [
+                {
+                    "text": "[[[+2 Gold]] [for every [1] [Remaining [Major] Civilizations]]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-I] is constructed>",
+                "Unavailable <if [All Nations Tribute] is constructed by anybody>",
+                
+                "Provides a [All Nations Tribute] in your first [1] cities for free <hidden from users>"]
+            },  
+                      
+        // 田月桑时
+            {
+                "text": "Farming Season",
+                "civilopediaText": [
+                {
+                    "text": "[[[+1] Movement] [for [Worker] units]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-I] is constructed>",
+                "Unavailable <if [Farming Season] is constructed by anybody>",
+                
+                "Provides a [Farming Season] in your first [1] cities for free <hidden from users>"]
+            },         
+        
+        // 种子2
+            
+        // 开疆扩土
+            {
+                "text": "Wider Domains",
+                "civilopediaText": [
+                {
+                    "text": "[[Empire enters golden age] [upon conquering a city]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-II] is constructed>",
+                "Unavailable <if [Wider Domains] is constructed by anybody>",
+                
+                "Provides a [Wider Domains] in your first [1] cities for free <hidden from users>"]
+            },    
+            
+        // 太平盛世
+            {
+                "text": "Peace and Prosperity",
+                "civilopediaText": [
+                {
+                    "text": "When not at war, Instantly gain [30] [Golden Age points upon turn end"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-II] is constructed>",
+                "Unavailable <if [Peace and Prosperity] is constructed by anybody>",
+                
+                "Provides a [Peace and Prosperity] in your first [1] cities for free <hidden from users>"]
+            },            
+            
+        // 为民请命
+            {
+                "text": "Advocate For Folk",
+                "civilopediaText": [
+                {
+                    "text": "[[-5]% [Gold] [in all cities]]\n[[+1 Happiness] [in all cities]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-II] is constructed>",
+                "Unavailable <if [Advocate For Folk] is constructed by anybody>",
+                
+                "Provides a [Advocate For Folk] in your first [1] cities for free <hidden from users>"]
+                
+            },                            
+            
+            
+        // 种子3
+
+        // 以战止戈
+            {
+                "text": "Stop the War with War",
+                "civilopediaText": [
+                {
+                    "text": "[Earn [150]% of killed [Military] unit's [Strength] as [Golden Age points]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-III] is constructed>",
+                "Unavailable <if [Stop the War with War] is constructed by anybody>",
+                
+                "Provides a [Stop the War with War] in your first [1] cities for free <hidden from users>"]
+            },            
+            
+        // 意外之财
+            {
+                "text": "Windfall",
+                "civilopediaText": [
+                {
+                    "text": "[Gain [300] [Gold]] [(modified by game speed)] [(modified by game progress up to [+500]%)]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-III] is constructed>",
+                "Unavailable <if [Windfall] is constructed by anybody>",
+                
+                "Provides a [Windfall] in your first [1] cities for free <hidden from users>"]
+            },                        
+            
+            
+        // 种子4
+        // 锦绣河山
+            {
+                "text": "The Beautiful Rivers and Mountains",
+                "civilopediaText": [
+                {
+                    "text": "[[+1 Culture] in cities on [River] tiles]\n[+1 [Happiness] for [City center] within 1 tiles of a [Mountain]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
+                "Unavailable <if [The Beautiful Rivers and Mountains] is constructed by anybody>",
+                
+                "Provides a [The Beautiful Rivers and Mountains] in your first [1] cities for free <hidden from users>"]
+            },
+            
+        // 五谷丰登
+            {
+                "text": "Bumper Grain Harvest",
+                "civilopediaText": [
+                {
+                    "text": "[[+1 Food] from [Wheat] tiles [in all cities]]\n[[+1 Food] from [Rice] tiles [in all cities]]\n[[+1 Food] from [Potato] tiles [in all cities]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
+                "Unavailable <if [Bumper Grain Harvest] is constructed by anybody>",
+                
+                "Provides a [Bumper Grain Harvest] in your first [1] cities for free <hidden from users>"]
+            },    
+                    
+        // 精益求精
+            {
+                "text": "Refine Relentlessly",
+                "civilopediaText": [
+                {
+                    "text": "[Each city founded increases culture cost of policies [-10]% less than normal]\n[[-7]% Culture cost of adopting new Policies]\n[Each city founded increases Science cost of Technologies [-10]% less than normal]\n[[-7]% Science cost of researching new Technologies]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
+                "Unavailable <if [Refine Relentlessly] is constructed by anybody>",
+                
+                "Provides a [Refine Relentlessly in your first [1] cities for free <hidden from users>"]
+            },            
+            
+            
+        // 种子5
+        // 穰穰满家
+            {
+                "text": "Abundant Harvest Fills the Home",
+                "civilopediaText": [
+                {
+                    "text": "[[[+1 Food] from [Farm] tiles [in all cities]] [during a Golden Age]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-V] is constructed>",
+                "Unavailable <if [Abundant Harvest Fills the Home] is constructed by anybody>",
+                
+                "Provides a [Abundant Harvest Fills the Home] in your first [1] cities for free <hidden from users>"]
+            },   
+            
+        // 摧枯拉朽
+            {
+                "text": "Crushing Offensive",
+                "civilopediaText": [
+                {
+                    "text": "[[[+7]% Strength] [when attacking]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-V] is constructed>",
+                "Unavailable <if [Crushing Offensive] is constructed by anybody>",
+                
+                "Provides a [Crushing Offensive] in your first [1] cities for free <hidden from users>"]
+            },       
+            
+        // 大兴土木
+            {
+                "text": "Launch Large-scale Construction",
+                "civilopediaText": [
+                {
+                    "text": "[[+10]% Production when constructing [All] buildings [in all cities]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-V] is constructed>",
+                "Unavailable <if [Launch Large-scale Construction] is constructed by anybody>",
+                
+                "Provides a [Launch Large-scale Construction] in your first [1] cities for free <hidden from users>"]
+            },     
+              
+        // 精耕细作
+            {
+                "text": "Intensive and Meticulous Farming",
+                "civilopediaText": [
+                {
+                    "text": "[[+1 Food] from [Farm] tiles [in all cities]]\n[[+100]% construction time for [Farm] improvements]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-V] is constructed>",
+                "Unavailable <if [Intensive and Meticulous Farming] is constructed by anybody>",
+                
+                "Provides a [Intensive and Meticulous Farming] in your first [1] cities for free <hidden from users>"]
+            },               
+        ]
+    },
 ]

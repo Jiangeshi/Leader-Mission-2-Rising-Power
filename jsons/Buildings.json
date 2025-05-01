@@ -3235,7 +3235,7 @@
 	// 中古特殊军事伟人项目
 	},
 	{
-		"name": "Medieval era Special Military Great Person Project",
+		"name": "Medieval Era Special Military Great Person Project",
         "maintenance": 0,
         "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
@@ -3360,4 +3360,244 @@
 		"Unbuildable", "Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		],
 	}
+	
+	// 种子
+    {
+		"name": "Seed-I",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+	{
+		"name": "Seed-II",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+	{
+		"name": "Seed-III",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+    {
+		"name": "Seed-IV",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+	{
+		"name": "Seed-V",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+	{
+		"name": "Seed-EGG",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+	},
+    
+    // 通用文明能力
+	// 锦绣河山
+    {
+		"name": "The Beautiful Rivers and Mountains",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+1 Culture] in cities on [River] tiles]\n[+1 [Happiness] for [City center] within 1 tiles of a [Mountain]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+		"[+1 Culture] in cities on [River] tiles <hidden from users>"
+		],
+	},
+	
+	// 雄伟壮丽
+    {
+		"name": "Monumentality",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+15]% Production when constructing [All] wonders [in all cities]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+		"[+15]% Production when constructing [All] wonders [in all cities]"
+		],
+	},
+	
+	// 开疆扩土
+    {
+		"name": "Wider Domains",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[Empire enters golden age] [upon conquering a city]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+		"Empire enters golden age <upon conquering a city>"
+		],
+	},
+	
+	// 五谷丰登
+    {
+		"name": "Bumper Grain Harvest",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+1 Food] from [Wheat] tiles [in all cities]]\n[[+1 Food] from [Rice] tiles [in all cities]]\n[[+1 Food] from [Potato] tiles [in all cities]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "[+1 Food] from [Wheat] tiles [in all cities]", 
+		"[+1 Food] from [Rice] tiles [in all cities]", 
+		"[+1 Food] from [Potato] tiles [in all cities]"
+		],
+	},
+	
+	// 穰穰满家
+    {
+		"name": "Abundant Harvest Fills the Home",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+1 Food] from [Farm] tiles [in all cities]] [during a Golden Age]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "[+1 Food] from [Farm] tiles [in all cities] <during a Golden Age>", 
+		
+		],
+	},
+	
+	// 固若金汤
+    {
+		"name": "Ironclad Defense",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+8]% Strength] [when defending]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[+8]% Strength <for [Military] units> <when defending>", 
+		
+		],
+	},
+	
+	// 摧枯拉朽
+    {
+		"name": "Crushing Offensive",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+7]% Strength] [when attacking]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "[+7]% Strength <for [Military] units> <when attacking>", 
+		],
+	},	
+	
+	// 太平盛世
+    {
+		"name": "Peace and Prosperity",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "When not at war, Instantly gain [30] [Golden Age points upon turn end",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "Instantly gain [30] [Golden Age points] <when not at war> <upon turn end>", 
+		],
+	},		
+	
+	// 以战止戈
+    {
+		"name": "Stop the War with War",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[Earn [150]% of killed [Military] unit's [Strength] as [Golden Age points]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "Earn [150]% of killed [Military] unit's [Strength] as [Golden Age points]", 
+		],
+	},
+	
+	// 万国来朝
+    {
+		"name": "All Nations Tribute",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+2 Gold]] [for every [1] [Remaining [Major] Civilizations]]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "[+2 Gold] <for every [1] [Remaining [Major] Civilizations]>",
+		],
+	},		
+	
+	// 为民请命
+    {
+		"name": "Advocate For Folk",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[-5]% [Gold] [in all cities]]\n[[+1 Happiness] [in all cities]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "[-5]% [Gold] [in all cities]",
+	    "[+1 Happiness] [in all cities]"
+		],
+	},	
+		
+	// 意外之财
+    {
+		"name": "Windfall",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[Gain [300] [Gold]] [(modified by game speed)] [(modified by game progress up to [+500]%)]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
+		
+	    "Gain [300] [Gold] <(modified by game speed)> <(modified by game progress up to [+500]%)>",
+		],
+	},		
+	
+	// 精益求精
+    {
+		"name": "Refine Relentlessly",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[Each city founded increases culture cost of policies [-10]% less than normal]\n[[-7]% Culture cost of adopting new Policies]\n[Each city founded increases Science cost of Technologies [-10]% less than normal]\n[[-7]% Science cost of researching new Technologies]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "Each city founded increases culture cost of policies [-10]% less than normal",
+        "[-7]% Culture cost of adopting new Policies",
+        "Each city founded increases Science cost of Technologies [-10]% less than normal",
+        "[-7]% Science cost of researching new Technologies"
+		],
+	},		
+	
+	// 大修土木
+    {
+		"name": "Launch Large-scale Construction",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+10]% Production when constructing [All] buildings [in all cities]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes",  "Triggers a global alert upon completion",
+		
+	    "[+10]% Production when constructing [All] buildings [in all cities]"
+		],
+	},		
+	
+	// 田月桑时
+    {
+		"name": "Farming Season",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+1] Movement] [for [Worker] units]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[+1] Movement <for [Worker] units>"
+		],
+	},		
+	
+	// 精耕细作
+    {
+		"name": "Intensive and Meticulous Farming",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+1 Food] from [Farm] tiles [in all cities]]\n[[+100]% construction time for [Farm] improvements]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[+1 Food] from [Farm] tiles [in all cities]",
+	    "[+100]% construction time for [Farm] improvements"
+		],
+	},		
 ]
