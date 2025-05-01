@@ -97,7 +97,8 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"turnsToBuild": 6,
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] <after discovering [Compass]>",

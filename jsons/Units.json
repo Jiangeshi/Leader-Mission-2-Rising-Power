@@ -10,7 +10,7 @@
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		],
-		"cost": 70
+		"cost": 63
 	},
 	{
 		"name": "SovietWorker",
@@ -18,7 +18,7 @@
 		"movement": 3,
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
-		"cost": 70,
+		"cost": 63,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
 	{
@@ -35,8 +35,8 @@
 		"unitType": "Civilian Water",
 		"movement": 3,
 		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "May create improvements on water resources", "Uncapturable"]	
+		//"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "May create improvements on water resources", "Uncapturable", "Can build [Land] improvements on tiles", "Automation is a primary action", ]	
 		
 	//侦查单位
 	},
