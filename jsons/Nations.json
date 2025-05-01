@@ -1299,7 +1299,7 @@
 		"Gifts of Gold to City-States generate [50]% more Influence",
 		"[+1 Culture] <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [30]>",
 		"[+30 Culture] <when number of [Remaining [Major] Civilizations] is more than [30]>"
-		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [City-states] Civilizations] is between [1] and [10]>",
+		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [City-states] Civilizations]> <when number of [Remaining [City-states] Civilizations] is between [1] and [10]>",
 		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-states] Civilizations] is more than [10]>"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
