@@ -63,7 +63,7 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
     {
-        "name": "Roguelike Mode",
+        "name": "Roguelike Mode(Recommended to enable)",
         "victoryScreenHeader": "Destroy all enemies\nto win!",
         "milestones": ["Destroy all players", "Capture all capitals", "Have highest score after max turns"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",

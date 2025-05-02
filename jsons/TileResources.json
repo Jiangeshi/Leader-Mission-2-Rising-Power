@@ -56,14 +56,13 @@
 	{
 		"name": "Rice",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland", "Flood plains", "Lakes"],
+		"terrainsCanBeFoundOn": ["Grassland", "Flood plains"],
 		"improvementStats": {"food": 1},
 		"improvement": "Farm",
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles>",
 					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [15] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles> <in [Hill] Regions>",
 					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
-					"Generated on every [10] tiles <in [Lakes] tiles>"
 	    ]
 	},
 	{
@@ -138,7 +137,7 @@
 	{
 		"name": "Camel",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland", "Desert", "Flood plains","Oasis"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland", "Desert", "Flood plains"],
 		"improvementStats": {"production": 1},
 		"improvement": "Pasture",
 		"uniques": ["Generated on every [70] tiles <in [{Featureless} {Plains}] tiles>",

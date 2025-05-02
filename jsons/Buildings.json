@@ -3366,37 +3366,37 @@
 		"name": "Seed-I",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-II",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-III",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
     {
 		"name": "Seed-IV",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-V",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-EGG",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
     
     // 通用文明能力
@@ -3493,7 +3493,7 @@
 		"name": "Peace and Prosperity",
         "maintenance": 0,
         "cost": 10000,
-        "replacementTextForUniques": "When not at war, Instantly gain [30] [Golden Age points upon turn end",
+        "replacementTextForUniques": "When not at war, Instantly gain [30] [Golden Age points] upon turn end",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion", 
 		
 	    "Instantly gain [30] [Golden Age points] <when not at war> <upon turn end>", 
@@ -3600,4 +3600,70 @@
 	    "[+100]% construction time for [Farm] improvements"
 		],
 	},		
+	
+	// 训练有素
+    {
+		"name": "Well Trained",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[New [Military] units start with [7] XP [in all cities]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "New [Military] units start with [7] XP [in all cities]"
+		],
+	},		
+	
+	// 兵强将勇
+    {
+		"name": "Strong Soldiers and Brave Generals",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[-15]% XP required for promotions]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[-15]% XP required for promotions"
+		],
+	},
+	
+	// 乱世枭雄
+    {
+		"name": "Trouble Times Heroes",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[[+1 Culture] [in all cities]] [when at war]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[+1 Culture] [in all cities] <when at war>"
+		],
+	},
+	
+	// 逐鹿中原
+    {
+		"name": "Fight for the Throne",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[+5% [Culture] in all cities. Starting from the remaining 5 civilizations, For every 1 decrease in the remaining civilizations, an additional 3% [Culture] will be provided]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "[+5]% [Culture] [in all cities]",
+	    "[+3]% [Culture] [in all cities] <when number of [Remaining [Major] Civilizations] is equal to [4]>",
+	    "[+6]% [Culture] [in all cities] <when number of [Remaining [Major] Civilizations] is equal to [3]>",
+	    "[+9]% [Culture] [in all cities] <when number of [Remaining [Major] Civilizations] is equal to [2]>",
+		],
+	},
+	
+	// 封狼居胥
+    {
+		"name": "Supreme Triumph",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[Instantly gain [5] [Feat] [upon conquering a city]]\n[[Instantly gain [200] [Golden Age points]] [upon conquering a city]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "Instantly gain [5] [Feat] <upon conquering a city>",
+	    "Instantly gain [200] [Golden Age points] <upon conquering a city>",
+	    
+		],
+	},
+	
 ]

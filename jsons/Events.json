@@ -499,7 +499,23 @@
                 "Unavailable <if [Farming Season] is constructed by anybody>",
                 
                 "Provides a [Farming Season] in your first [1] cities for free <hidden from users>"]
-            },         
+            },     
+                
+        // 逐鹿中原
+            {
+                "text": "Fight for the Throne",
+                "civilopediaText": [
+                {
+                    "text": "[+5% [Culture] in all cities. Starting from the remaining 5 civilizations, For every 1 decrease in the remaining civilizations, an additional 3% [Culture] will be provided]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-I] is constructed>",
+                "Unavailable <if [Fight for the Throne] is constructed by anybody>",
+                
+                "Provides a [Fight for the Throne] in your first [1] cities for free <hidden from users>"]
+            },
+            
         
         // 种子2
             
@@ -523,7 +539,7 @@
                 "text": "Peace and Prosperity",
                 "civilopediaText": [
                 {
-                    "text": "When not at war, Instantly gain [30] [Golden Age points upon turn end"
+                    "text": "When not at war, Instantly gain [30] [Golden Age points] upon turn end"
                 }
                 ],
                 "uniques": [
@@ -546,9 +562,22 @@
                 "Unavailable <if [Advocate For Folk] is constructed by anybody>",
                 
                 "Provides a [Advocate For Folk] in your first [1] cities for free <hidden from users>"]
+            },             
+             
+        // 兵强将勇
+            {
+                "text": "Strong Soldiers and Brave Generals",
+                "civilopediaText": [
+                {
+                    "text": "[[-15]% XP required for promotions]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-II] is constructed>",
+                "Unavailable <if [Strong Soldiers and Brave Generals] is constructed by anybody>",
                 
-            },                            
-            
+                "Provides a [Strong Soldiers and Brave Generals] in your first [1] cities for free <hidden from users>"]
+            },    
             
         // 种子3
 
@@ -580,9 +609,38 @@
                 "Unavailable <if [Windfall] is constructed by anybody>",
                 
                 "Provides a [Windfall] in your first [1] cities for free <hidden from users>"]
-            },                        
+            },       
+                             
+        // 训练有素
+            {
+                "text": "Well Trained",
+                "civilopediaText": [
+                {
+                    "text": "[New [Military] units start with [7] XP [in all cities]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-III] is constructed>",
+                "Unavailable <if [Well Trained] is constructed by anybody>",
+                
+                "Provides a [Well Trained] in your first [1] cities for free <hidden from users>"]
+            },      
             
-            
+        // 封狼居胥
+            {
+                "text": "Supreme Triumph",
+                "civilopediaText": [
+                {
+                    "text": "[[Instantly gain [5] [Feat] [upon conquering a city]]\n[[Instantly gain [200] [Golden Age points]] [upon conquering a city]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-III] is constructed>",
+                "Unavailable <if [Supreme Triumph] is constructed by anybody>",
+                
+                "Provides a [Supreme Triumph] in your first [1] cities for free <hidden from users>"]
+            },       
+
         // 种子4
         // 锦绣河山
             {
@@ -626,8 +684,25 @@
                 "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
                 "Unavailable <if [Refine Relentlessly] is constructed by anybody>",
                 
-                "Provides a [Refine Relentlessly in your first [1] cities for free <hidden from users>"]
+                "Provides a [Refine Relentlessly] in your first [1] cities for free <hidden from users>"]
+            },        
+            
+        // 乱世枭雄
+            {
+                "text": "Trouble Times Heroes",
+                "civilopediaText": [
+                {
+                    "text": "[[[+1 Culture] [in all cities]] [when at war]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
+                "Unavailable <if [Trouble Times Heroes] is constructed by anybody>",
+                
+                "Provides a [Trouble Times Heroes] in your first [1] cities for free <hidden from users>"]
             },            
+                    
+            
             
             
         // 种子5

@@ -133,9 +133,9 @@
     
     // 文明能力事件
     // 单能力文明第六回合
-    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode] Victory is enabled>",
+    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode(Recommended to enable)] Victory is enabled>",
     
     // 跨时代获取词条
-    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode] Victory is enabled>",
+    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode(Recommended to enable)] Victory is enabled>",
     ]
 }
