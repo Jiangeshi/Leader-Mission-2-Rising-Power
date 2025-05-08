@@ -33,7 +33,7 @@
     {
         "name": "Baptism",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Lakes]"]   
+        "uniques": ["[+1 Faith] from every [Lakes]", "[+1 Faith] from every [Oasis]", "[+1 Faith] from every [Atoll]"]   
     },
     {
         "name": "God of the Sea",

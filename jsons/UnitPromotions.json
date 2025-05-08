@@ -1290,7 +1290,7 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]	
+		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit","Double movement in [Forest]","Double movement in [Jungle]"]	
 	},
     {
         "name": "[Mobile Archer] ability",
@@ -1436,7 +1436,10 @@
 	{
 		"name": "[Hussar] ability",
 		"uniques": ["[+50]% to Flank Attack bonuses"]
-        
+    },
+    {
+        "name": "[Mamluk Cavalry] ability",
+        "uniques": ["[This Unit] heals [20] HP <costs [+20 Gold] stats> <for [1] movement>"],    
         
         
 	// 特殊
@@ -1499,6 +1502,14 @@
 	{
 		"name": "Military City ability",
 		"uniques": ["[+10]% Strength"]
-	}
+	},
+	{
+        "name": "Mamluk ability",
+        "uniques":["[Target Unit] gains the [Movement Damage] status for [2] turn(s) <upon damaging a [Military] unit>"]
+    },
+    {
+        "name": "Movement Damage",
+        "uniques":["[-1] Movement"]
+    },
 ]
     

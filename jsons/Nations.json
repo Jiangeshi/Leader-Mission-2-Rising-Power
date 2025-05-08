@@ -523,8 +523,42 @@
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Lhasa", "Pomo", "Yarlung Valley City", "Su-pi", "Xiaoyangtong", "Amdo", "Khams", "Zedang", "Qiongjie", "Gongbu", "Tabu"],
-        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]                                    
-                                          
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]             
+                        
+    },
+	{
+		"name": "Mamluks",
+		"leaderName": "Leader",
+		"adjective": ["Mamluk"],
+		"startBias": ["Desert"],
+		"personality": "Mamluk",	
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Let's begin!",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [246,204,70],
+        "innerColor": [255,255,255],
+
+        "favoredReligion": "Islam",
+		"uniqueName": "Defenders of Islam",
+		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement]",
+		"uniques": [
+	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
+	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		],
+		"cities": ["Cairo", "Damascus", "Aleppo", "Alexandria", "Jerusalem", "Tripoli", "Hama", "Homs", "Gaza", "Acre", "Tyre", "Beirut", "Hebron", "Nablus", "Safed", "Fustat", "Mansurah", "Rosetta", "Damietta", "Asyut", "Karak", "Bosra", "Medina", "Mecca", "Aqaba"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]                                      
     // 欧洲
     },
 	{
@@ -1299,8 +1333,8 @@
 		"Gifts of Gold to City-States generate [50]% more Influence",
 		"[+1 Culture] <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [30]>",
 		"[+30 Culture] <when number of [Remaining [Major] Civilizations] is more than [30]>"
-		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [City-states] Civilizations]> <when number of [Remaining [City-states] Civilizations] is between [1] and [10]>",
-		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-states] Civilizations] is more than [10]>"
+		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [City-States] Civilizations]> <when number of [Remaining [City-States] Civilizations] is between [1] and [10]>",
+		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-States] Civilizations] is more than [10]>"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",

@@ -2004,5 +2004,37 @@
 		"Industrial": 4,
 		"Rationalism": 4
 	}
+},
+{
+	"name": "Mamluks",
+	"production": 7,
+	"food": 5,
+	"gold": 5,
+	"science": 5,
+	"culture": 5,
+	"happiness": 5,
+	"faith": 7,
+	"military": 7,
+	"aggressive": 7,
+	"declareWar": 7,
+	"commerce": 5,
+	"diplomacy": 5,
+	"loyal": 7,
+	"expansion": 10,
+	"priorities": {
+		"Tradition": 5,
+		"Feudalism1": 10,
+		"Liberty": 4,
+		"Autocracy": 7,
+		"Freedom": 5,
+		"Order": 5,
+
+		"Honor": 7,
+		"Piety": 7,
+		"Commerce": 4,
+		"Patronage": 4,
+		"Industrial": 4,
+		"Rationalism": 4
+	}
 }
 ]

@@ -52,7 +52,7 @@
 		]
 		"attackSound": "nonmetalhit"
 				
-    // 战士
+    // 步兵
 	},
 	{
 		"name": "Warrior",
@@ -90,7 +90,7 @@
 		"obsoleteTech": "Army Formation",
 		"upgradesTo": "Swordsman",
 		"promotions": ["[Jaguar] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Double movement in [Forest]","Double movement in [Jungle]", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>","May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -239,7 +239,7 @@
 		"name": "Musketman",
 		"unitType": "Foot Soldier",
 		"movement": 2,
-		"strength": 25,
+		"strength": 27,
 		"cost": 207,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -253,7 +253,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
-		"strength": 29,
+		"strength": 31,
 		"cost": 207,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -267,7 +267,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "Benin",
 		"movement": 2,
-		"strength": 27,
+		"strength": 29,
 		"cost": 207,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -281,7 +281,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "Turkey",
 		"movement": 2,
-		"strength": 25,
+		"strength": 27,
 		"cost": 207,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -296,12 +296,12 @@
 		"replaces": "Musketman",
 		"uniqueTo": "Spain",
 		"movement": 2,
-		"strength": 27,
+		"strength": 29,
 		"cost": 230,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mounted] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -310,7 +310,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "America",
 		"movement": 2,
-		"strength": 25,
+		"strength": 27,
 		"cost": 186,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -543,7 +543,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -558,7 +558,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
 		"attackSound": "arrow"		
 	},
 	{
@@ -573,7 +573,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
 		"attackSound": "elephant"	
 	},
 	{
@@ -588,7 +588,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
 		"attackSound": "arrow"		
 	},
 	{
@@ -604,7 +604,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>", "Mobile"],
 		"attackSound": "arrow"
 	},
 	{
@@ -719,7 +719,7 @@
 		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
-		"strength": 30,
+		"strength": 28,
 		"rangedStrength": 30,
 		"cost": 320,
 		"requiredTech": "Military Science",
@@ -883,7 +883,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -892,14 +892,14 @@
 		"replaces": "Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
-		"movement": 5,
+		"movement": 4,
 		"strength": 15,
 		"rangedStrength": 15,
 		"cost": 158,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>", "Mobile"],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"	
 	},
@@ -1003,6 +1003,21 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"promotions": ["[Elite Cavalry] ability"],
+		"attackSound": "horse"	
+	},
+	{
+		"name": "Mamluk Cavalry",
+		"unitType": "Mobile",
+		"uniqueTo": "Mamluks",
+		"replaces": "Knight",	
+		"movement": 4,
+		"strength": 20,
+		"cost": 165,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"promotions": ["[Mamluk Cavalry] ability"],
 		"attackSound": "horse"	
 	},
 	{
@@ -1439,7 +1454,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 20,
-		"rangedStrength": 28,
+		"rangedStrength": 30,
 		"range": 3,
 		"cost": 420,
 		"requiredTech": "Dynamite",
@@ -1608,6 +1623,7 @@
 		"interceptRange": 2,
 		"cost": 720,
 		"requiredTech": "Combustion",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"attackSound": "shipguns"	
 
@@ -1675,6 +1691,7 @@
 		"range": 4,
 		"cost": 745,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -1690,6 +1707,7 @@
 		"range": 4,
 		"cost": 700,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"	
@@ -1705,6 +1723,7 @@
 		"range": 4,
 		"cost": 745,
 		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]","Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"	
@@ -1993,7 +2012,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "[+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>", "[+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>"],
 		"movement": 2	
 	},
 	{
@@ -2025,7 +2044,7 @@
 		"Empire enters a [10]-turn Golden Age <by consuming this unit>", 
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
-		"Turn this tile into a [Coast] tile <[3] times> <in [Land] tiles> <in tiles adjacent to [Coast] tiles> <for [2] movement> <in [Your] cities> <for [Human player] Civilizations>", 
+		"Turn this tile into a [Coast] tile <for [Human player] Civilizations> <[3] times> <in [Land] tiles> <for [2] movement> <in [Your] cities> <in tiles adjacent to [Coast] tiles>", 
 		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence", 
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
@@ -2043,8 +2062,6 @@
 	{
 		"name": "Confucius",
 		"unitType": "Civilian",
-		"replaces": "Great Prophet",
-		"uniqueTo": "",
 		"uniques": [
 		    "Free Social Policy <by consuming this unit> <for [non-[Chile]] Civilizations>",
 		    "[1] free [Great Artist] units appear <by consuming this unit> <for [Chile] Civilizations>"
@@ -2057,8 +2074,6 @@
 	{
 		"name": "Gautama Siddhartha",
 		"unitType": "Civilian",
-		"replaces": "Great Prophet",
-		"uniqueTo": "",
 		"uniques": [
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
@@ -2070,8 +2085,6 @@
 	{
 		"name": "Jesus",
 		"unitType": "Civilian",
-		"replaces": "Great Prophet",
-		"uniqueTo": "",
 		"uniques": [
 		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
 		    "Religious Unit",
@@ -2087,8 +2100,6 @@
 	{
 		"name": "Muhammad",
 		"unitType": "Civilian",
-		"replaces": "Great Prophet",
-		"uniqueTo": "",
 		"uniques": [
 		    "Religious Unit",
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
@@ -2102,8 +2113,6 @@
 	{
 		"name": "Zoroaster",
 		"unitType": "Civilian",
-		"replaces": "Great Prophet",
-		"uniqueTo": "",
 		"uniques": [
 		    "Religious Unit",
 		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
@@ -2118,8 +2127,6 @@
 	{
 		"name": "Sun Tzu",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		 "All adjacent units heal [+10] HP when healing", 
@@ -2133,8 +2140,6 @@
 	{
 		"name": "Gnaeus Pompeius Magnus",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2149,8 +2154,6 @@
 	{
 		"name": "Spartacus",
 		"unitType": "Civilian",	
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2164,8 +2167,6 @@
 	{
 		"name": "Bai Qi",
 		"unitType": "Civilian",	
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2179,8 +2180,6 @@
 	{
 		"name": "Themistocles",
 		"unitType": "Civilian",
-		"replaces": "Great Admiral",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Water] units within [3] tiles",
 		"[+50]% Strength bonus for [Water] units within [0] tiles <during the [Classical era]>",
@@ -2197,8 +2196,6 @@
 	{
 		"name": "Belisarius",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2212,8 +2209,6 @@
 	{
 		"name": "Han Xin",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles <starting from the [Renaissance era]>",
 		"[+15]% Strength bonus for [Land] units within [4] tiles <during the [Medieval era]>", 
@@ -2229,8 +2224,6 @@
 	{
 		"name": "Xiang Yu",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2244,8 +2237,6 @@
 	{
 		"name": "Li Jing",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2259,8 +2250,6 @@
 	{
 		"name": "Subedei",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2274,8 +2263,6 @@
 	{
 		"name": "Timur",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2289,8 +2276,6 @@
 	{
 		"name": "Jeanne",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+25] HP when healing <during the [Medieval era]>",
@@ -2304,8 +2289,6 @@
 	{
 		"name": "Khalid ibn al-Walid",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2319,8 +2302,6 @@
 	{
 		"name": "Bayezid I",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2334,8 +2315,6 @@
 	{
 		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2349,8 +2328,6 @@
 	{
 		"name": "Narses",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2364,8 +2341,6 @@
 	{
 		"name": "William Marshal",
 		"unitType": "Civilian",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
@@ -2383,8 +2358,6 @@
 	{
 		"name": "Lee Sunshin",
 		"unitType": "Civilian",
-		"replaces": "Great Admiral",
-		"uniqueTo": "",
 		"uniques": [
 		"[+33]% Strength bonus for [Water] units within [3] tiles",
 		"[+1] Sight <when [Embarked]>",
@@ -2398,8 +2371,6 @@
 	},
 	{
 		"name": "Henri Philippe Pétain",
-		"replaces": "Great General",
-		"uniqueTo": "",
 		"unitType": "Civilian",
 		"uniques": [
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 

@@ -3,6 +3,7 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
+		"food": 1,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
@@ -1778,6 +1779,26 @@
 		"[+10]% Strength <for [Military] units> <when fighting in [Rough terrain] tiles>",
 		]		
 		
+    // 马穆鲁克
+    },
+	{	
+        "name": "Civilized Leader-Baybars",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Mamluks",
+		"replacementTextForUniques": "[Units adjacent to [Great General] +5% [Strength]\nUnits overlapping with [Great General] +15% [Strength]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Qalawun]>"]
+    },
+	{	
+        "name": "Civilized Leader-Qalawun",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Mamluks",
+		"replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Faith]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Baybars]>",
+	"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
+    
+		
 	// 希腊
 	},
 	{	
@@ -3240,9 +3261,9 @@
         "cost": 40,
         "replacementTextForUniques": "Choose a special Military Great Person\nCost 20 [Feat]"
 		"uniques": [
-	    "Triggers a [Medieval era Special Military Great Person Project] event",
+	    "Triggers a [Medieval Era Special Military Great Person Project] event",
 		
-		"Remove [Medieval era Special Military Great Person Project] [in this city]",
+		"Remove [Medieval Era Special Military Great Person Project] [in this city]",
 		
 		"Only available <during the [Medieval era]> <for [Major] Civilizations> <when above [19] [Feat]>", "Cannot be purchased",
 		
