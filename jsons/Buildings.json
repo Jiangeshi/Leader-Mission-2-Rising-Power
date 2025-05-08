@@ -2304,6 +2304,7 @@
 	{
 		"name": "Basilica Di San Pietro In Vaticano",
 		"isNationalWonder": true,
+		"food": 1,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
