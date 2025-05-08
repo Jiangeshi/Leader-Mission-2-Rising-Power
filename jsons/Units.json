@@ -543,7 +543,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
+		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus", "Rough terrain penalty","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", ],
 		"attackSound": "arrow"	
 	},
 	{
@@ -558,7 +558,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", ],
 		"attackSound": "arrow"		
 	},
 	{
@@ -573,7 +573,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
+		"uniques": ["No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", ],
 		"attackSound": "elephant"	
 	},
 	{
@@ -588,7 +588,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
+		"uniques": ["Consumes [1] [Horses]",  "No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", ],
 		"attackSound": "arrow"		
 	},
 	{
@@ -604,7 +604,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>", "Mobile"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty", "[+10]% Strength <vs [Military] units> <when defending>", ],
 		"attackSound": "arrow"
 	},
 	{
@@ -883,7 +883,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Mobile"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus","[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", ],
 		"attackSound": "arrow"	
 	},
 	{
@@ -892,14 +892,14 @@
 		"replaces": "Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
-		"movement": 4,
+		"movement": 5,
 		"strength": 15,
 		"rangedStrength": 15,
 		"cost": 158,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>", "Mobile"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>", ],
 		"promotions": ["[Keshik] ability"],
 		"attackSound": "arrow"	
 	},
