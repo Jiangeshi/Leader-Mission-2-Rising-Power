@@ -10,6 +10,8 @@
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
 		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		
+		
 		],
     },
 	{
@@ -346,7 +348,7 @@
 		"Ensures a minimum tile yield of [+3 Food, +1 Production] <in [Desert] tiles> <in [Fresh Water] tiles> <in tiles without [Hill]>",
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Gold] <in [Tundra] tiles> <in tiles without [Hill]>",
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>",
-		
+			
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -382,30 +384,18 @@
 	},
 	{
 		"name": "Colony",
-		"gold": 2,
+		"gold": 1,
+		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle"],
 		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
 		"Great Improvement",
-		"[+1 Food] <with [1] to [1] neighboring [Bonus resource] tiles>",
-		"[+2 Food] <with [2] to [2] neighboring [Bonus resource] tiles>",
-		"[+3 Food] <with [3] to [3] neighboring [Bonus resource] tiles>",
-		"[+4 Food] <with [4] to [4] neighboring [Bonus resource] tiles>",	
-		"[+5 Food] <with [5] to [5] neighboring [Bonus resource] tiles>",
-		"[+6 Food] <with [6] to [6] neighboring [Bonus resource] tiles>",
+		"[+1 Food] <for every adjacent [{improved} {Bonus resource}]>",
 		
-		"[+2 Gold] <with [1] to [1] neighboring [Luxury resource] tiles>",
-		"[+4 Gold] <with [2] to [2] neighboring [Luxury resource] tiles>",
-		"[+6 Gold] <with [3] to [3] neighboring [Luxury resource] tiles>",
-		"[+8 Gold] <with [4] to [4] neighboring [Luxury resource] tiles>",	
-		"[+10 Gold] <with [5] to [5] neighboring [Luxury resource] tiles>",
-		"[+12 Gold] <with [6] to [6] neighboring [Luxury resource] tiles>",
+		"[+2 Gold] <for every adjacent [{improved} {Luxury resource}]>",
 		
-		"[+1 Production] <with [1] to [1] neighboring [Strategic resource] tiles>",
-		"[+2 Production] <with [2] to [2] neighboring [Strategic resource] tiles>",
-		"[+3 Production] <with [3] to [3] neighboring [Strategic resource] tiles>",
-		"[+4 Production] <with [4] to [4] neighboring [Strategic resource] tiles>",
-		"[+5 Production] <with [5] to [5] neighboring [Strategic resource] tiles>",
-		"[+6 Production] <with [6] to [6] neighboring [Strategic resource] tiles>",
+		"[+1 Production] <for every adjacent [{improved} {Strategic resource}]>",
+		
+	
 	],
 	},
 	{

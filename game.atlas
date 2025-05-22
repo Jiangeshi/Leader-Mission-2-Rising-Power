@@ -458,6 +458,13 @@ BuildingIcons/Civilized Leader-Franklin Delano Roosevelt
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Friedrich II
+  rotate: false
+  xy: 1484, 1772
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Gandhi
   rotate: false
   xy: 1484, 1772
@@ -1668,6 +1675,13 @@ BuildingIcons/Bumper Grain Harvest
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Carved in History
+  rotate: false
+  xy: 1584, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Chengtoushan Ancient Paddy Fields Ability
   rotate: false
   xy: 1584, 920
@@ -1703,6 +1717,13 @@ BuildingIcons/Fight for the Throne
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Fight to the Last
+  rotate: false
+  xy: 1584, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Gnaeus Pompeius Magnus
   rotate: false
   xy: 1584, 920
@@ -1711,6 +1732,13 @@ BuildingIcons/Gnaeus Pompeius Magnus
   offset: 0, 0
   index: -1
 BuildingIcons/Han Xin
+  rotate: false
+  xy: 1584, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heaven's Calling
   rotate: false
   xy: 1584, 920
   size: 100, 100
@@ -1781,6 +1809,13 @@ BuildingIcons/Monumentality
   offset: 0, 0
   index: -1
 BuildingIcons/Narses
+  rotate: false
+  xy: 1584, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/No Regrets
   rotate: false
   xy: 1584, 920
   size: 100, 100
@@ -2186,7 +2221,7 @@ ResourceIcons/Infrastructure Investment
   orig: 80, 80
   offset: 0, 0
   index: -1
-BuildingIcons/JokhangTemple
+BuildingIcons/Jokhang Temple
   rotate: false
   xy: 1249, 915
   size: 105, 105

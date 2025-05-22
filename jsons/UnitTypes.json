@@ -34,7 +34,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
          
@@ -63,7 +63,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
          
@@ -91,7 +91,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
@@ -122,7 +122,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <hidden from users>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <hidden from users>",
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
@@ -154,7 +154,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
@@ -183,7 +183,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
          
@@ -234,7 +234,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
-        "Cannot attack <in [Marsh] tiles>",
+        
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 

@@ -958,7 +958,7 @@
 		"innerColor": [255,168,168],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquerors of the New World",
-		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\nEach ⁂Bonus/ ⌣Luxury/ ⚙Strategic resource within the colony will provide +1[Food]/ +2[Gold]/+1[Production] for the colony\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]\n\n[Colony]:\n+2 Gold\n[Can be built outside your borders]\n[Removes removable features when built]\nCannot be built on [Land] tiles within [3] tiles of a [City center]\nCannot be built on [Land] tiles within [2] tiles of a [Colony]\n[Adjacent enemy units ending their turn take [10] damage]\nTile provides yield without assigned population\n[Great Improvement]",
+		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]",
 		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
@@ -1333,8 +1333,8 @@
 		"Gifts of Gold to City-States generate [50]% more Influence",
 		"[+1 Culture] <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [30]>",
 		"[+30 Culture] <when number of [Remaining [Major] Civilizations] is more than [30]>"
-		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [City-States] Civilizations]> <when number of [Remaining [City-States] Civilizations] is between [1] and [10]>",
-		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-States] Civilizations] is more than [10]>"
+		"[+3 Gold] <for every [1] [Remaining [City-States] Civilizations]> <when number of [Remaining [City-States] Civilizations] is between [1] and [10]>",
+		"[+30 Gold] <when number of [Remaining [City-States] Civilizations] is more than [10]>"
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",

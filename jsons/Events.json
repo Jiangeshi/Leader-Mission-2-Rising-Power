@@ -569,7 +569,7 @@
                 "text": "Strong Soldiers and Brave Generals",
                 "civilopediaText": [
                 {
-                    "text": "[[-15]% XP required for promotions]"
+                    "text": "[[-25]% XP required for promotions]"
                 }
                 ],
                 "uniques": [
@@ -578,6 +578,22 @@
                 
                 "Provides a [Strong Soldiers and Brave Generals] in your first [1] cities for free <hidden from users>"]
             },    
+            
+        // 天降大任
+            {
+                "text": "Heaven's Calling",
+                "civilopediaText": [
+                {
+                    "text": "[Free Great Person upon 70 turn start]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-II] is constructed> <before turn number [30]>",
+                "Unavailable <if [Heaven’s Calling] is constructed by anybody>",
+                
+                "Provides a [Heaven’s Calling] in your first [1] cities for free <hidden from users>"]
+            },    
+            
             
         // 种子3
 
@@ -625,6 +641,21 @@
                 
                 "Provides a [Well Trained] in your first [1] cities for free <hidden from users>"]
             },      
+            
+        // 鞠躬尽瘁
+            {
+                "text": "No Regrets",
+                "civilopediaText": [
+                {
+                    "text": "[Gain 185 [Gold] by consuming [Worker] unit (modified by game speed)]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-III] is constructed>",
+                "Unavailable <if [No Regrets] is constructed by anybody>",
+                
+                "Provides a [No Regrets] in your first [1] cities for free <hidden from users>"]
+            },          
             
         // 封狼居胥
             {
@@ -701,6 +732,22 @@
                 
                 "Provides a [Trouble Times Heroes] in your first [1] cities for free <hidden from users>"]
             },            
+            
+        // 青史留名
+            {
+                "text": "Carved in History",
+                "civilopediaText": [
+                {
+                    "text": "[[+5]% [Culture] [in all cities]]\n[[[+1]% [Culture] [in all cities]] [for every [10] [turns]]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-IV] is constructed>",
+                "Unavailable <if [Carved in History] is constructed by anybody>",
+                
+                "Provides a [Carved in History] in your first [1] cities for free <hidden from users>"]
+            },            
+            
                     
             
             
@@ -764,7 +811,23 @@
                 "Unavailable <if [Intensive and Meticulous Farming] is constructed by anybody>",
                 
                 "Provides a [Intensive and Meticulous Farming] in your first [1] cities for free <hidden from users>"]
-            },               
+            },              
+            
+        // 死战不退
+            {
+                "text": "Fight to the Last",
+                "civilopediaText": [
+                {
+                    "text": "[[No damage penalty for wounded units] [for [Military] units]]\n[[[+3]% Strength] [when below [33] HP]]"
+                }
+                ],
+                "uniques": [
+                "Only available <for [Major] Civilizations> <if [Seed-V] is constructed>",
+                "Unavailable <if [Fight to the Last] is constructed by anybody>",
+                
+                "Provides a [Fight to the Last] in your first [1] cities for free <hidden from users>"]
+            },              
+              
         ]
     },
 ]

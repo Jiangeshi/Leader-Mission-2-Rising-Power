@@ -9,6 +9,7 @@
 		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations> <hidden from users>", "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
+		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"
 		],
 		"cost": 63
 	},
@@ -19,7 +20,7 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 63,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"],
 	},
 	{
 		"name": "Settler",
@@ -34,9 +35,9 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 3,
-		"cost": 30,
-		//"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "May create improvements on water resources", "Uncapturable", "Can build [Land] improvements on tiles", "Automation is a primary action", ]	
+		"cost": 50,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", ]	
 		
 	//侦查单位
 	},

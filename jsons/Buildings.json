@@ -1621,8 +1621,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Babylon",
-		"replacementTextForUniques": "-66% [Culture] cost of natural border growth in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Nebuchadnezzar II]>", "[-66]% Culture cost of natural border growth [in all cities]"]	
+		"replacementTextForUniques": "[[+1 Science] from all [Culture] buildings]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Nebuchadnezzar II]>", "[+1 Science] from all [Culture] buildings"]	
 	},
 	{	
         "name": "Civilized Leader-Nebuchadnezzar II",
@@ -2104,7 +2104,7 @@
 		"cost":1,
 		"uniqueTo": "Germany",
 		"replacementTextForUniques": "Provides a [Barracks] in your first 2 cities for free\n+10% [Culture] in all cities when not at war"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "Provides a [Barracks] in your first [2] cities for free", "[+10]% [Culture] [in all cities] <when not at war>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "Only available <in cities without a [Civilized Leader-Friedrich II]>", "Provides a [Barracks] in your first [2] cities for free", "[+10]% [Culture] [in all cities] <when not at war>"]
 	},
 	{	
         "name": "Civilized Leader-Barbarossa",
@@ -2112,7 +2112,7 @@
 		"cost":1,
 		"uniqueTo": "Germany",
 		"replacementTextForUniques": "When conquering an encampment, earn 100 [Gold] and recruit a [Barbarians] unit"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bismarck]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "When conquering an encampment, earn [100] Gold and recruit a Barbarian unit"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bismarck]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "Only available <in cities without a [Civilized Leader-Friedrich II]>", "When conquering an encampment, earn [100] Gold and recruit a Barbarian unit"]	
 	},
 	{	
         "name": "Civilized Leader-Thaelmann",
@@ -2120,7 +2120,15 @@
 		"cost":1,
 		"uniqueTo": "Germany",
 		"replacementTextForUniques": "+1 [Production] per 3 population in all cities"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bismarck]>", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "[+1 Production] per [3] population [in all cities]"]		
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bismarck]>", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Only available <in cities without a [Civilized Leader-Friedrich II]>", "[+1 Production] per [3] population [in all cities]"]		
+	},
+	{	
+        "name": "Civilized Leader-Friedrich II",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Germany",
+		"replacementTextForUniques": "[[-33]% XP required for promotions]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Bismarck]>", "Only available <in cities without a [Civilized Leader-Barbarossa]>", "Only available <in cities without a [Civilized Leader-Thaelmann]>", "[-33]% XP required for promotions"]		
 	},
 	{
         "name": "Hanse",
@@ -2216,16 +2224,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+10% ⚙Production when constructing All units/buildings in all cities\n+5% ⚙Production when constructing All units/buildings in all cities when at war",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "[+10]% Production when constructing [All] units [in all cities]", "[+5]% Production when constructing [All] units [in all cities] <when at war>", "[+10]% Production when constructing [All] buildings [in all cities]", "[+5]% Production when constructing [All] buildings [in all cities] <when at war>"]
+		"replacementTextForUniques": "+10% ⚙Production when constructing All units/buildings in all cities\n+10% ⚙Production when constructing All units/buildings in all cities when at war",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "[+10]% Production when constructing [All] units [in all cities]", "[+10]% Production when constructing [All] units [in all cities] <when at war>", "[+10]% Production when constructing [All] buildings [in all cities]", "[+10]% Production when constructing [All] buildings [in all cities] <when at war>"]
 	},
 	{	
         "name": "Civilized Leader-Trotsky",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "Initially possessing +6% †Strength, then each annexed city +5% †Strength\n+10% ⚙Production when constructing Military units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+10]% Production when constructing [Military] units [in all cities]", "[+6]% Strength <for [Military] units>"]
+		"replacementTextForUniques": "Initially possessing +8% †Strength, then each annexed city +5% †Strength\n+15% ⚙Production when constructing Military units in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+15]% Production when constructing [Military] units [in all cities]", "[+8]% Strength <for [Military] units>"]
 	},
 	{
 		"name": "Trotsky ability",
@@ -2696,8 +2704,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iroquois",
-		"replacementTextForUniques": "[[Instantly provides [1] [Feat]] [upon gaining a [Foot Soldier] unit]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Instantly provides [1] [Feat] <upon gaining a [Foot Soldier] unit>"]
+		"replacementTextForUniques": "[[Instantly provides [1] [Feat]] [upon gaining a [Foot Soldier] unit]]\n[+1 [Production] for every 5 [Feat], up to 5 [Production]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Instantly provides [1] [Feat] <upon gaining a [Foot Soldier] unit>", "[+1 Production] <for every [5] [Feat]> <when number of [Feat] is between [1] and [25]>", "[+5 Production] <when number of [Feat] is more than [25]>"]
     },
 	{
 		"name": "Longhouse",
@@ -3640,10 +3648,10 @@
 		"name": "Strong Soldiers and Brave Generals",
         "maintenance": 0,
         "cost": 10000,
-        "replacementTextForUniques": "[[-15]% XP required for promotions]",
+        "replacementTextForUniques": "[[-25]% XP required for promotions]",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
 		
-	    "[-15]% XP required for promotions"
+	    "[-25]% XP required for promotions"
 		],
 	},
 	
@@ -3685,6 +3693,53 @@
 	    "Instantly gain [5] [Feat] <upon conquering a city>",
 	    "Instantly gain [200] [Golden Age points] <upon conquering a city>",
 	    
+		],
+	},
+	
+	// 天降大任
+    {
+		"name": "Heaven's Calling",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[Free Great Person upon 70 turn start]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		
+	    "Free Great Person <upon turn start> <before turn number [71]> <after turn number [70]>"
+	    
+		],
+	},
+	
+	// 鞠躬尽瘁
+    {
+		"name": "No Regrets",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[Gain 185 [Gold] by consuming [Worker] unit (modified by game speed)]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		],
+	},
+	
+	// 青史留名
+    {
+		"name": "Carved in History",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[+5]% [Culture] [in all cities]]\n[[[+1]% [Culture] [in all cities]] [for every [10] [turns]]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		"[+5]% [Culture] [in all cities]",
+		"[+1]% [Culture] [in all cities] <for every [10] [turns]>"
+		],
+	},
+	
+	// 死战不退
+    {
+		"name": "Fight to the Last",
+        "maintenance": 0,
+        "cost": 10000,
+        "replacementTextForUniques": "[[No damage penalty for wounded units] [for [Military] units]]\n[[[+3]% Strength] [when below [33] HP]]",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Triggers a global alert upon completion",
+		"No damage penalty for wounded units <for [Military] units>",
+		"[+3]% Strength <for [Military] units> <when below [33] HP>"
 		],
 	},
 	
