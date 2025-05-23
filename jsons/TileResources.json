@@ -459,7 +459,19 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>",
 					"Doesn't generate naturally <in [{Snow} {Forest}] tiles>"
 					]
-					
+    },					
+	{
+		"name": "Panda",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Bamboo", "Plains"],
+		"improvement": "Camp",
+		"improvementStats": {"production": 1, "happiness": 1, "culture": 1},
+		"uniques": [
+		"Generated with weight [25] <in [Bamboo] Regions>",
+		"Generated with weight [5] <in [Plains] Regions>",
+		"Generated on every [5] tiles <in [Bamboo] tiles>"
+		"Generated on every [25] tiles <in [Plains] tiles>"
+		"Generated near City States with weight [15]"]
     // 战略资源	
 	},
 	{

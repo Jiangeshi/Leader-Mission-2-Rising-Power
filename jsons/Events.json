@@ -72,6 +72,24 @@
         ]
     },
     {
+        "name": "Select Final Civilized Leader",
+        "text": "Please select your final Civilized Leader. The unselected leaders will depart, while the chosen one will be enhanced.",
+        "choices": [
+            {
+                "text": "Civilized Leader-Lenin",
+                "uniques": ["Gain a free [Civilized Leader-Lenin] [in capital]"],
+            },
+            {
+                "text": "Civilized Leader-Stalin",
+                "uniques": ["Gain a free [Civilized Leader-Stalin] [in capital]"],
+            },
+            {
+                "text": "Civilized Leader-Trotsky",
+                "uniques": ["Gain a free [Civilized Leader-Trotsky] [in capital]"],
+            },
+        ]
+    },
+    {
         "name": "New Era",
         "text": "Under your wise and powerful leadership, your civilization has flourished and entered a new era.",
         "choices": [

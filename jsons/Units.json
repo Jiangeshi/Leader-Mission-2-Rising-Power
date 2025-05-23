@@ -1974,7 +1974,9 @@
 		"unitType": "Civilian",
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile>", "May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>", 
+		"Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
+		"May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
 		"movement": 2	
 	},
 	{

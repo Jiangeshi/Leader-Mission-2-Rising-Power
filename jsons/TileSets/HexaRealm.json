@@ -16,6 +16,10 @@
         "Snow+Forest": ["Snow","ForestT"],
         "Tundra+Hill+Forest": ["Tundra+Hill","ForestTH"],
         "Snow+Hill+Forest": ["Snow+Hill","ForestTH"],
+                "Plains+Bamboo+Panda": ["Plains", "Panda", "Bamboo"],        
+        "Plains+Bamboo": ["Plains","Bamboo"],
+        "Plains+Hill+Bamboo": ["Plains+Hill","Bamboo"],
+        "Plains+Hill+Bamboo+Panda": ["Plains+Hill","Panda","Bamboo"],
 
 	//Barbarian encampment
 	"Tundra+Forest+Barbarian encampment": ["Tundra","ForestTUp","Barbarian encampmentT", "ForestTLow"],

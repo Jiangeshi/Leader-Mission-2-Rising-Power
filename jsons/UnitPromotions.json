@@ -1325,8 +1325,8 @@
 		"uniques": [
 		"Gain [8] [Culture] <(modified by game speed)> <in tiles without [Enemy]>", 
 		"Gain [14] [Gold] <(modified by game speed)> <in tiles without [Enemy]>",
-		"Gain [16] [Culture] <(modified by game speed)> <in [Enemy] tiles>", 
-		"Gain [28] [Gold] <(modified by game speed)> <in [Enemy] tiles>", 
+		"Gain [24] [Culture] <(modified by game speed)> <in [Enemy] tiles>", 
+		"Gain [42] [Gold] <(modified by game speed)> <in [Enemy] tiles>", 
 		
 		"Doing so will consume this opportunity to choose a Promotion"]			
 	},

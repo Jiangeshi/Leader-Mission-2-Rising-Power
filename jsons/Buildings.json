@@ -2216,31 +2216,48 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Stalin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]
+		"replacementTextForUniques": "[Base Effects]:\n[Each Civilian unit provides +1 [Culture] and +1 [Happiness], up to a maximum of 5]\n\n[Enhanced Effects]:\n[The maximum increases to 10\nFree [Worker] appears at the end of turn 31\nFree Great Person at the end of turn 70]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		"[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [5]> <before turn number [31]>", "[+5 Happiness, +5 Culture] <when number of [[Civilian] Units] is more than [5]> <before turn number [31]>",
+		"[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]> <after turn number [31]>", "[+10 Happiness, +10 Culture] <when number of [[Civilian] Units] is more than [10]> <after turn number [31]>",
+		"Free [Worker] appears <after turn number [31]> <before turn number [32]> <upon turn end>",
+		"Free Great Person <after turn number [70]> <before turn number [71]> <upon turn end>"
+		]
 	},
 	{	
         "name": "Civilized Leader-Stalin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "+10% ⚙Production when constructing All units/buildings in all cities\n+10% ⚙Production when constructing All units/buildings in all cities when at war",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Trotsky]>", "[+10]% Production when constructing [All] units [in all cities]", "[+10]% Production when constructing [All] units [in all cities] <when at war>", "[+10]% Production when constructing [All] buildings [in all cities]", "[+10]% Production when constructing [All] buildings [in all cities] <when at war>"]
+		"replacementTextForUniques": "[[Base Effects]:\n[[+10]% Production when constructing [All] buildings [in all cities]]\n[Gain 1.5× [Production] bonus during war]\n\n[Enhanced Effects]:\n[All unit production now also receives [Production] bonuses\nWar [Production] bonus increases to 3×]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		
+		"[+10]% Production when constructing [All] buildings [in all cities] <before turn number [31]>", "[+5]% Production when constructing [All] buildings [in all cities] <when at war> <before turn number [31]>",
+		
+		"[+10]% Production when constructing [All] buildings [in all cities] <after turn number [31]>", "[+20]% Production when constructing [All] buildings [in all cities] <when at war> <after turn number [31]>",
+		
+		"[+10]% Production when constructing [All] units [in all cities] <after turn number [31]>", "[+20]% Production when constructing [All] units [in all cities] <when at war> <after turn number [31]>", 
+		]
 	},
 	{	
         "name": "Civilized Leader-Trotsky",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "Initially possessing +8% †Strength, then each annexed city +5% †Strength\n+15% ⚙Production when constructing Military units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lenin]>", "Only available <in cities without a [Civilized Leader-Stalin]>", "[+15]% Production when constructing [Military] units [in all cities]", "[+8]% Strength <for [Military] units>"]
+		"replacementTextForUniques": "[[Base Effects]:\n[[+15]% Production when constructing [Military] units [in all cities]]\n\n[Enhanced Effects]:\n[Initially possessing +15% †Strength, then each annexed city +5% †Strength]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		
+		"[+15]% Production when constructing [Military] units [in all cities]",
+		
+		 "[+15]% Strength <for [Military] units> <after turn number [31]>"
+		]
 	},
 	{
 		"name": "Trotsky ability",
 		"cost": 10000,
 	    "maintenance": 0,
 		"uniques":["Cannot be purchased","Unsellable", "[+5]% Strength <for [Military] units>", "Destroyed when the city is captured", "Automatically built in all cities where it is buildable", 
-		"Only available <in [Annexed] cities> <for [Soviet Union] Civilizations> <if [Civilized Leader-Trotsky] is constructed>"
+		"Only available <in [Annexed] cities> <for [Soviet Union] Civilizations> <if [Civilized Leader-Trotsky] is constructed> <after turn number [31]>"
 		]	
 	},
 	{
