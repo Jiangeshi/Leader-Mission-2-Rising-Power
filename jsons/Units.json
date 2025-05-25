@@ -1251,7 +1251,6 @@
 		"cost": 248,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
-		"promotions": ["Raid I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -1266,7 +1265,6 @@
 		"cost": 248,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
-		"promotions": ["Raid I"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -1281,7 +1279,7 @@
 		"cost": 248,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
-		"promotions": ["[Hakkapeliitta] ability", "Raid I"],
+		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"	
@@ -1296,7 +1294,7 @@
 		"cost": 270,
 		"requiredTech": "Metallurgy",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [1] [Steels]> <for [2] movement>"],
-		"promotions": ["[Winged Hussar] ability", "Raid I"],
+		"promotions": ["[Winged Hussar] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"	

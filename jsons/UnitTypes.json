@@ -34,6 +34,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
@@ -43,6 +44,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -63,6 +65,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users>", 
@@ -71,6 +74,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -91,6 +95,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
@@ -102,6 +107,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -122,6 +128,7 @@
         
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <hidden from users>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <hidden from users>",
         
@@ -133,6 +140,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -154,6 +162,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
@@ -164,6 +173,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -183,6 +193,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
         "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>", 
@@ -192,6 +203,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -216,6 +228,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         
@@ -234,6 +247,7 @@
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
         "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
         "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
         
         
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>",
@@ -244,6 +258,7 @@
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>",
         "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
         "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
         "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
         

@@ -36,7 +36,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": [
-		"[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
+		"[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Does not need removal of [Bamboo]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
 	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
 		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle", "Bamboo"],
 		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
@@ -113,7 +113,7 @@
 	},
 	{
 		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Bamboo","Flood plains"],
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
@@ -176,7 +176,7 @@
 	},
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Bamboo"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Defensive Fortification",
@@ -199,6 +199,14 @@
 	},
 	{
 		"name": "Remove Jungle",
+		"turnsToBuild": 5,
+		"techRequired": "Mining",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Bamboo",
 		"turnsToBuild": 5,
 		"techRequired": "Mining",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -386,7 +394,7 @@
 		"name": "Colony",
 		"gold": 1,
 		"uniqueTo": "Spain",
-		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle"],
+		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Bamboo"],
 		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [3] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
 		"Great Improvement",
 		"[+1 Food] <for every adjacent [{improved} {Bonus resource}]>",
@@ -401,7 +409,7 @@
 	{
 		"name": "Vietnamese City",
 		"uniqueTo": "Vietnam",
-		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle", "Bamboo"],
 		"food": 1,
 	    "turnsToBuild": 7,
 		"techRequired": "Masonry",

@@ -1675,8 +1675,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Vietnam",
-		"replacementTextForUniques": "+15% †Strength for Military units when fighting in Forest and Jungle tiles",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Jungle] tiles>"]
+		"replacementTextForUniques": "+15% †Strength for Military units when fighting in Vegetation tiles",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Jungle] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Bamboo] tiles>"]
 		
 	// 巴勒斯坦
 	},
@@ -2005,8 +2005,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"replacementTextForUniques": "+10% ⚙Production when constructing All buildings in capital\n+10 ⚙Production when constructing Military units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Tarjan]>", "[+10]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
+		"replacementTextForUniques": "[[+15]% Production when constructing [All] buildings [in capital]]\n[[+10]% Production when constructing [Military] units [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cesar]>", "Only available <in cities without a [Civilized Leader-Tarjan]>", "[+15]% Production when constructing [All] buildings [in capital]", "[+10]% Production when constructing [Military] units [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Tarjan",

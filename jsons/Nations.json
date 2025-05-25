@@ -551,7 +551,7 @@
 
         "favoredReligion": "Islam",
 		"uniqueName": "Defenders of Islam",
-		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement]",
+		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement for 3 turns]",
 		"uniques": [
 	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
 	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
