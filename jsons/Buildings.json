@@ -2217,7 +2217,7 @@
 		"cost":1,
 		"uniqueTo": "Soviet Union",
 		"replacementTextForUniques": "[Base Effects]:\n[Each Civilian unit provides +1 [Culture] and +1 [Happiness], up to a maximum of 5]\n\n[Enhanced Effects]:\n[The maximum increases to 10\nFree [Worker] appears at the end of turn 31\nFree Great Person at the end of turn 70]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes", "Unbuildable", 
 		"[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [5]> <before turn number [31]>", "[+5 Happiness, +5 Culture] <when number of [[Civilian] Units] is more than [5]> <before turn number [31]>",
 		"[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [10]> <after turn number [31]>", "[+10 Happiness, +10 Culture] <when number of [[Civilian] Units] is more than [10]> <after turn number [31]>",
 		"Free [Worker] appears <after turn number [31]> <before turn number [32]> <upon turn end>",
@@ -2230,7 +2230,7 @@
 		"cost":1,
 		"uniqueTo": "Soviet Union",
 		"replacementTextForUniques": "[[Base Effects]:\n[[+10]% Production when constructing [All] buildings [in all cities]]\n[Gain 1.5× [Production] bonus during war]\n\n[Enhanced Effects]:\n[All unit production now also receives [Production] bonuses\nWar [Production] bonus increases to 3×]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes", "Unbuildable",
 		
 		"[+10]% Production when constructing [All] buildings [in all cities] <before turn number [31]>", "[+5]% Production when constructing [All] buildings [in all cities] <when at war> <before turn number [31]>",
 		
@@ -2245,7 +2245,7 @@
 		"cost":1,
 		"uniqueTo": "Soviet Union",
 		"replacementTextForUniques": "[[Base Effects]:\n[[+15]% Production when constructing [Military] units [in all cities]]\n\n[Enhanced Effects]:\n[Initially possessing +15% †Strength, then each annexed city +5% †Strength]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes",
+		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes", "Unbuildable",
 		
 		"[+15]% Production when constructing [Military] units [in all cities]",
 		
