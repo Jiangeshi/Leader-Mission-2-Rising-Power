@@ -5,7 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1, "food": 1},
+		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
 					"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
 	},
@@ -14,7 +14,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"improvement": "Pasture",
-		"improvementStats": {"food": 2,},
+		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
@@ -23,7 +23,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"improvement": "Camp",
-		"improvementStats": {"production": 1, "food": 1},
+		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
@@ -132,13 +132,12 @@
 		"improvement": "Pasture",
 		"uniques": ["Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
 		"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
-		"improvementStats": {"food": 1}
 	},
 	{
 		"name": "Camel",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland", "Desert", "Flood plains"],
-		"improvementStats": {"production": 1},
+		"improvementStats": {"food": 1},
 		"improvement": "Pasture",
 		"uniques": ["Generated on every [70] tiles <in [{Featureless} {Plains}] tiles>",
 		           "Generated on every [70] tiles <in [{Featureless} {Grassland}] tiles>",
@@ -148,7 +147,6 @@
 					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
 		"Doesn't generate naturally <in [Hill] tiles>",			
 					]
-		"improvementStats": {"food": 1}	
 	},
 	
 	// 奢侈资源
@@ -157,7 +155,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Snow"],
 		"improvement": "Camp",
-		"improvementStats": {"gold": 3},
+		"improvementStats": {"gold": 2},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 		            "Generated with weight [20] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -250,7 +248,6 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 	    "improvementStats": {"gold": 2},
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
@@ -448,7 +445,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"improvement": "Camp",
-		"improvementStats": {"gold": 3},
+		"improvementStats": {"gold": 2},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -465,13 +462,14 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Bamboo", "Plains"],
 		"improvement": "Camp",
-		"improvementStats": {"production": 1, "happiness": 1, "culture": 1},
+		"improvementStats": {"happiness": 1, "culture": 1},
 		"uniques": [
 		"Generated with weight [25] <in [Bamboo] Regions>",
 		"Generated with weight [5] <in [Plains] Regions>",
 		"Generated on every [5] tiles <in [Bamboo] tiles>"
 		"Generated on every [25] tiles <in [Plains] tiles>"
 		"Generated near City States with weight [15]"]
+		
     // 战略资源	
 	},
 	{
@@ -480,7 +478,7 @@
 		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], 
 		"improvement": "Pasture",
-		"improvementStats": {"production": 2},
+		"improvementStats": {"production": 2, "food": -1},
 		"uniques": [
 		"Not shown on world screen <when above [50] [Horses]>",
 		"Guaranteed with Strategic Balance resource option",
