@@ -1030,7 +1030,7 @@
         "Remove [Civilized Leader-Trotsky] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end>",
         
         "Triggers a [Select Final Civilized Leader] event <after turn number [30]> <before turn number [31]> <upon turn end> <for [Human player] Civilizations>",
-        "Gain a free [Civilized Leader-Stalin] [in capital] <after turn number [30]> <before turn number [31]> <upon turn end> <for [AI player] Civilizations>",
+        "Gain a free [Civilized Leader-Stalin] [in capital] <after turn number [31]> <before turn number [32]> <upon turn end> <for [AI player] Civilizations>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
