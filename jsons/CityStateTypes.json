@@ -331,13 +331,13 @@
         "friendBonusUniques": [
             "[+2 Gold] from each Trade Route <before the [Medieval era]>",
             "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
-            "[-15]% maintenance cost for buildings [in all cities]",
+            "[-15]% maintenance cost for [All] buildings [in all cities]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
             "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
-            "[-33]% maintenance cost for buildings [in all cities]",
+            "[-33]% maintenance cost for [All] buildings [in all cities]",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
         ],

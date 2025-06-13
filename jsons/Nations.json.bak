@@ -1802,8 +1802,8 @@
 		"outerColor": [0,133,61],
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
-		"uniqueText": "[[-15]% maintenance cost for [All] buildings [in all cities]]\n[[[-15]% maintenance costs] [for [Military] units]]\n[[-15]% Unhappiness from [Population] [in all cities]]"
-		"uniques": ["[-15]% maintenance cost for [All] buildings [in all cities]", "[-15]% maintenance costs <for [Military] units>", "[-15]% Unhappiness from [Population] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[[-15]% maintenance cost for buildings [in all cities]]\n[[[-15]% maintenance costs] [for [Military] units]]\n[[-15]% Unhappiness from [Population] [in all cities]]"
+		"uniques": ["[-15]% maintenance cost for buildings [in all cities]", "[-15]% maintenance costs <for [Military] units>", "[-15]% Unhappiness from [Population] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]

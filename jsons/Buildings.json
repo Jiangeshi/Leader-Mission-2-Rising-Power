@@ -133,46 +133,46 @@
 	{
         "name": "Research-Oriented City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Science] from all [Science] buildings] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level III]:\n    [[[+7]% [Science] from [University]] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level IV]:\n    [[[+7]% [Science] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level V]:\n    [[[+7]% [Science] from [Public School]] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]"
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Science] from all [Science] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [[[+7]% [Science] from [University]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+7]% [Science] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[[+7]% [Science] from [Public School]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		"Cost increases by [25] when built",
 		
-		"[+10]% maintenance cost for buildings [in this city]",
+		"[+10]% maintenance cost for [All] buildings [in this city]",
 		"[+1 Science] from all [Science] buildings <in this city> <in cities with a [City Level II]>", 
 		
-		"[+10]% maintenance cost for buildings [in this city] <in cities with a [City Level III]>",
+		"[+10]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level III]>",
 		"[+5]% [Science] [in this city] <in cities with a [City Level III]> <in cities with a [University]>", 
 		
-		"[+10]% maintenance cost for buildings [in this city] <in cities with a [City Level IV]>",
+		"[+10]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level IV]>",
 		"[+7]% [Science] [in this city] <in cities with a [City Level IV]> <in cities with a [Printing House]>", 
 		
-		"[+7]% maintenance cost for buildings [in this city] <in cities with a [City Level V]>",
+		"[+7]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level V]>",
 	    "[+7]% [Science] [in this city] <in cities with a [City Level V]> <in cities with a [Public School]>", 
 		]
 	},
 	{
         "name": "Cultural City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Culture] from all [Culture] buildings] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level III]:\n    [+15% [Culture] if has a world wonder in this city]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Culture] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]\n\n[City Level V]:\n    [[Production to [Culture] conversion in cities changed by [100]%] [in this city]]\n    [[+10]% maintenance cost for buildings [in this city]]"
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Culture] from all [Culture] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [+15% [Culture] if has a world wonder in this city]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Culture] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[Production to [Culture] conversion in cities changed by [100]%] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
 		"Cost increases by [25] when built",
 		
-		"[+10]% maintenance cost for buildings [in this city]",
+		"[+10]% maintenance cost for [All] buildings [in this city]",
 		"[+1 Culture] from all [Culture] buildings <in this city> <in cities with a [City Level II]>", 
 		
-		"[+10]% maintenance cost for buildings [in this city] <in cities with a [City Level III]>",
+		"[+10]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level III]>",
 		"[+15]% [Culture] [{in all cities with a world wonder} {in this city}] <in cities with a [City Level III]>"
 		
-		"[+10]% maintenance cost for buildings [in this city] <in cities with a [City Level IV]>",
+		"[+10]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level IV]>",
 		"[+10]% [Culture] <in this city> <in cities with a [City Level IV]> <in cities with a [Printing House]>", 
 		
-		"[+10]% maintenance cost for buildings [in this city] <in cities with a [City Level V]>",
+		"[+10]% maintenance cost for [All] buildings [in this city] <in cities with a [City Level V]>",
 		"Production to [Culture] conversion in cities changed by [100]% <in this city> <in cities with a [City Level V]>"
 		]
 	},

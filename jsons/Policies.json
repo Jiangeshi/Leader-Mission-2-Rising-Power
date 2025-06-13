@@ -420,7 +420,7 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-33]% maintenance cost for buildings [in all cities]"
+                    "[-33]% maintenance cost for [All] buildings [in all cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -711,7 +711,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for buildings [in all cities]"
+                    "[-25]% maintenance cost for [All] buildings [in all cities]"
                     "[+2 Production] [in all coastal cities]",
                 ],
                 "row": 1,
