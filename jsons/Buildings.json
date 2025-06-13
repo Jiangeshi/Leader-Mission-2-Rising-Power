@@ -316,7 +316,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "Remove extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "Removes extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Bronze Working",
 	
 	// 远古时代-选建建筑
