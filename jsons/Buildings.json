@@ -10,7 +10,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city", "May buy [Cathedral] buildings with [Faith] [in all cities]"]
 	
 	// 专业城市
 	},
@@ -1360,14 +1360,15 @@
 		"happiness": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>", ]
+		"uniques": ["Unbuildable", "Only available <after adopting [Cathedrals]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>"]
 	},
 	{
 		"name": "Monastery",
 		"cost": 50,
 		"culture": 2,
 		"faith": 3,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>", ]
+		"happiness": 1,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]", "[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "Unbuildable", "Only available <after adopting [Monasteries]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>" ]
 	},
 	{
 		"name": "Mosque",
@@ -1376,7 +1377,7 @@
 		"faith": 3,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>", ]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Mosques]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>"]	
 	},
 	{
 		"name": "Pagoda",
@@ -1384,7 +1385,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", ]	
+		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>"]	
 		
     // 特殊建筑
     },

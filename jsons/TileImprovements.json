@@ -37,7 +37,7 @@
 		"production": 1,
 		"techRequired": "Trapping",
 		"uniques": [
-		"[+1 Gold] <after discovering [Economics]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Does not need removal of [Bamboo]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
+		"[+2 Gold] <after discovering [Economics]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Does not need removal of [Bamboo]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
 	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
 		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
@@ -50,7 +50,9 @@
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": [
-		"[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]",
+		"[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]", "[+2 Gold] <in [Luxury resource] tiles> <after discovering [Calendar]> <hidden from users>","[+1 Production] <in [Strategic resource] tiles> <after discovering [Calendar]>","[+1 Food] <in [Bonus resource] tiles> <after discovering [Calendar]>",
+		
+		
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
 		"[+1 Gold] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
@@ -403,9 +405,15 @@
 		
 		"[+2 Gold] <for every adjacent [{improved} {Luxury resource}]>",
 		
-		"[+1 Production] <for every adjacent [{improved} {Strategic resource}]>",
+		"Comment [[+1 Production] [for every adjacent [{improved} {Strategic resource}]]]",
 		
-	
+		"[+1 Production] <for every adjacent [{improved} {Horses}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Iron}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Coal}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Oil}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Aluminum}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <hidden from users>",
+		
 	],
 	},
 	{
