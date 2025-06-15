@@ -1512,8 +1512,8 @@
 		"innerColor": [0,156,59],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tropical Heritage",
-		"uniqueText": "[[+2 Culture] from [{unimproved} {Bonus resource}] tiles [in all cities]]\n[[+2 Gold] from [{improved} {Bonus resource}] tiles [in all cities]]",
-		"uniques": ["[+2 Culture] from [{unimproved} {Bonus resource}] tiles [in all cities]", "[+2 Gold] from [{improved} {Bonus resource}] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[[+2 Culture, +1 Gold] from [{unimproved} {Bonus resource}] tiles [in all cities]]\n[[+2 Gold, +1 Culture] from [{improved} {Bonus resource}] tiles [in all cities]]",
+		"uniques": ["[+2 Culture, +1 Gold] from [{unimproved} {Bonus resource}] tiles [in all cities]", "[+2 Gold, +1 Culture] from [{improved} {Bonus resource}] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
@@ -2122,8 +2122,8 @@
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
 		"uniqueName": "Oriental Pearl",
-		"uniqueText": "[[Plantation] provides 20 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]",
-		"uniques": ["Instantly gain [20] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[Plantation] provides 30 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]",
+		"uniques": ["Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },

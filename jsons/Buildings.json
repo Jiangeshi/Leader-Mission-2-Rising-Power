@@ -1952,7 +1952,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)\n[Free [Worker] appears]",
+		"replacementTextForUniques": "[+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)]\n[Free [Worker] appears]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]	
 	},
 	{
@@ -2671,8 +2671,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"replacementTextForUniques": "[[+1 Production] from all [Gold] buildings]\n[[+1 Gold] from all [Production] buildings]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Che Guevara]>", "[+1 Production] from all [Gold] buildings", "[+1 Gold] from all [Production] buildings"]
+		"replacementTextForUniques": "[[+1 Production] from all [Gold] buildings]\n[[+1 Gold, +1 Happiness] from all [Production] buildings]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Che Guevara]>", "[+1 Production] from all [Gold] buildings", "[+1 Gold, +1 Happiness] from all [Production] buildings"]
 	},
 	{
 		"name": "Cuban Capitol",
@@ -2986,6 +2986,7 @@
 	{
 		"name": "Kampung",
 		"food": 2,
+		"cost": 54,
 		"maintenance": 0,
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
