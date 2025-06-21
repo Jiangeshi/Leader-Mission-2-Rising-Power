@@ -45,7 +45,7 @@
 		"name": "Scout",
 		"unitType": "Reconnaissance",
 		"movement": 2,
-		"strength": 500,
+		"strength": 5,
 		"cost": 20,
 		"promotions": ["Off-road"],
 		"uniques": ["Can see invisible [Land] units", 
