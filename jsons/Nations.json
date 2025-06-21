@@ -2181,10 +2181,10 @@
         "innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Southern Continent",
-		"uniqueText": "[Gain control over [Open terrain] / [Rough terrain] tiles in a 1-tile radius for [Pasture] / [Mine]]\n[+1 [Science] / [Culture] for every 20 Owned [Open terrain] / [Rough terrain] Tiles]\n[Double quantity of [Iron] produced]",
+		"uniqueText": "[Gain control over [Open terrain] / [Rough terrain] tiles in a 1-tile radius for [Pasture] / [Mine]]\n[+1 [Science] / [Culture] for every 10 Owned [Open terrain] / [Rough terrain] Tiles]\n[Double quantity of [Iron] produced]",
 		"uniques": [
-		"[+1 Science] <for every [20] [Owned [Open terrain] Tiles]>",
-		"[+1 Culture] <for every [20] [Owned [Rough terrain] Tiles]>", 
+		"[+1 Science] <for every [10] [Owned [Open terrain] Tiles]>",
+		"[+1 Culture] <for every [10] [Owned [Rough terrain] Tiles]>", 
 		"Double quantity of [Iron] produced",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],
