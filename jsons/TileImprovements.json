@@ -401,7 +401,7 @@
 		"gold": 1,
 		"uniqueTo": "Spain",
 		"terrainsCanBeBuiltOn": ["Land", "Forest", "Jungle", "Bamboo"],
-		"uniques": ["Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [2] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
+		"uniques": ["Improves [Strategic] resource in this tile", "Can be built outside your borders", "Removes removable features when built", "Cannot be built on [Land] tiles <within [2] tiles of a [City center]>", "Cannot be built on [Land] tiles <within [2] tiles of a [Colony]>", "Adjacent enemy units ending their turn take [10] damage", "Tile provides yield without assigned population", 
 		"[+1 Food] <for every adjacent [{improved} {Bonus resource}]>",
 		
 		"[+2 Gold] <for every adjacent [{improved} {Luxury resource}]>",
