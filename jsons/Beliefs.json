@@ -261,22 +261,22 @@
     {
         "name": "Professional Ethics",
         "type": "Follower",
-        "uniques": ["[+2 Production] from every [Holy site]"]    
+        "uniques": ["[+2 Production] from every [Great Improvement]"]    
     },
     {
         "name": "Atonement Certificate",
         "type": "Follower",
-        "uniques": ["[+5 Gold] from every [Holy site]"]    
+        "uniques": ["[+4 Gold] from every [Great Improvement]"]    
     },
     {
         "name": "Religious Painting",
         "type": "Follower",
-        "uniques": ["[+4 Culture] from every [Holy site]"]         
+        "uniques": ["[+3 Culture] from every [Great Improvement]"]         
     },
     {
         "name": "Worship",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [Holy site]"]     
+        "uniques": ["[+3 Faith] from every [Great Improvement]"]     
     },
     {
         "name": "Cathedrals",

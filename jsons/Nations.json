@@ -655,53 +655,53 @@
 		"uniqueName": "Revolutionary Tradition",
 		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+3 Culture] <when above [21] Happiness>",
-		"[+15]% [Culture] <when between [21] and [100000] Happiness>",
+		"[+3 Culture] <when above [21] [Happiness]>",
+		"[+15]% [Culture] <when between [21] and [100000] [Happiness]>",
 	
-		"[+2 Culture] <when between [15] and [20] Happiness>",
-	    "[+15]% [Culture] <when between [15] and [20] Happiness>",
+		"[+2 Culture] <when between [15] and [20] [Happiness]>",
+	    "[+15]% [Culture] <when between [15] and [20] [Happiness]>",
 	    
-		"[+2 Culture] <when between [9] and [14] Happiness>",
-		"[+10]% [Culture] <when between [9] and [14] Happiness>",
+		"[+2 Culture] <when between [9] and [14] [Happiness]>",
+		"[+10]% [Culture] <when between [9] and [14] [Happiness]>",
 			
-		"[+1 Culture] <when between [3] and [8] Happiness>",
-	    "[+10]% [Culture] <when between [3] and [8] Happiness>",
+		"[+1 Culture] <when between [3] and [8] [Happiness]>",
+	    "[+10]% [Culture] <when between [3] and [8] [Happiness]>",
 	
 	
-		"[+1 Culture] <when between [-4] and [2] Happiness>",
-		"[+5]% [Culture] <when between [-4] and [2] Happiness>",
+		"[+1 Culture] <when between [-4] and [2] [Happiness]>",
+		"[+5]% [Culture] <when between [-4] and [2] [Happiness]>",
 			
-		"[+5]% [Culture] <when between [-10] and [-5] Happiness>",	
+		"[+5]% [Culture] <when between [-10] and [-5] [Happiness]>",	
 			
-		"[+1]% Strength <for [Military] units> <when between [9] and [10] Happiness>",
+		"[+1]% Strength <for [Military] units> <when between [9] and [10] [Happiness]>",
 
-		"[+2]% Strength <for [Military] units> <when between [7] and [8] Happiness>",
+		"[+2]% Strength <for [Military] units> <when between [7] and [8] [Happiness]>",
 		
-		"[+3]% Strength <for [Military] units> <when between [5] and [6] Happiness>",
+		"[+3]% Strength <for [Military] units> <when between [5] and [6] [Happiness]>",
 
-		"[+4]% Strength <for [Military] units> <when between [3] and [4] Happiness>",
+		"[+4]% Strength <for [Military] units> <when between [3] and [4] [Happiness]>",
 	
-		"[+5]% Strength <for [Military] units> <when between [1] and [2] Happiness>",
+		"[+5]% Strength <for [Military] units> <when between [1] and [2] [Happiness]>",
 		
-		"[+7]% Strength <for [Military] units> <when between [-1] and [0] Happiness>",
+		"[+7]% Strength <for [Military] units> <when between [-1] and [0] [Happiness]>",
 		
-		"[+8]% Strength <for [Military] units> <when between [-3] and [-2] Happiness>",
+		"[+8]% Strength <for [Military] units> <when between [-3] and [-2] [Happiness]>",
 	
-		"[+10]% Strength <for [Military] units> <when between [-5] and [-4] Happiness>",
+		"[+10]% Strength <for [Military] units> <when between [-5] and [-4] [Happiness]>",
 		
-		"[+11]% Strength <for [Military] units> <when between [-7] and [-6] Happiness>",
+		"[+11]% Strength <for [Military] units> <when between [-7] and [-6] [Happiness]>",
 		
-		"[+13]% Strength <for [Military] units> <when between [-9] and [-8] Happiness>",
+		"[+13]% Strength <for [Military] units> <when between [-9] and [-8] [Happiness]>",
 		
-		"[+14]% Strength <for [Military] units> <when between [-11] and [-10] Happiness>",
+		"[+14]% Strength <for [Military] units> <when between [-11] and [-10] [Happiness]>",
 		
-		"[+16]% Strength <for [Military] units> <when between [-13] and [-12] Happiness>",
+		"[+16]% Strength <for [Military] units> <when between [-13] and [-12] [Happiness]>",
 		
-		"[+17]% Strength <for [Military] units> <when between [-15] and [-14] Happiness>",
+		"[+17]% Strength <for [Military] units> <when between [-15] and [-14] [Happiness]>",
 		
-		"[+19]% Strength <for [Military] units> <when between [-17] and [-16] Happiness>",
+		"[+19]% Strength <for [Military] units> <when between [-17] and [-16] [Happiness]>",
 		
-		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] Happiness>",
+		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] [Happiness]>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
@@ -1542,7 +1542,7 @@
 		"innerColor": [253,213,17],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Caribbean Alligator",
-		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[[+5] HP when healing] [for [Military] units]]",
+		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[[+5] HP when healing] [for [Military] units]]\n[[[Unit] heals [5] HP] [upon losing at least [30] HP in a single attack]]",
 		"uniques": ["[+5] HP when healing <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
@@ -1991,10 +1991,11 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "African Warlord",
-		"uniqueText": "[Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately]\n+25% †Strength for Military units vs cities when attacking\n[Enables conversion of city production to [Culture]]"
+		"uniqueText": "[Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately]\n[+25% †Strength for Military units vs cities when attacking]\n[Enables conversion of city [Production] to [Culture] in 3:1 scale]"
 		"uniques": [
 		"Upon capturing a city, receive [25] times its [Culture] production as [Culture] immediately", 
 		"Enables conversion of city production to [Culture]"
+		"Production to [Culture] conversion in cities changed by [50]%",
 		"[+25]% Strength <for [Military] units> <vs cities> <when attacking>", 
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
@@ -2122,8 +2123,10 @@
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
 		"uniqueName": "Oriental Pearl",
-		"uniqueText": "[[Plantation] provides 30 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]",
-		"uniques": ["Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>","[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[Plantation] provides 30 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]\n[[[+1 Faith] from [Fishing Boats] tiles [in all cities]] [for every [2] [[Coastal] Cities]]], [up to 5 [Faith]]",
+		"uniques": ["[+1 Faith] from [Fishing Boats] tiles [in all cities] <for every [2] [[Coastal] Cities]> <when number of [[Coastal] Cities] is less than [11]>", "[+5 Faith] from [Fishing Boats] tiles [in all cities] <when number of [[Coastal] Cities] is more than [10]>", 
+		
+		"Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },
@@ -2178,8 +2181,10 @@
         "innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Southern Continent",
-		"uniqueText": "[[Gain control over [Open terrain] tiles in a [1]-tile radius] [for [Pasture]]]\n[[Gain control over [Rough terrain] tiles in a [1]-tile radius] [for [Mine]]]\n[Double quantity of [Iron] produced]",
+		"uniqueText": "[Gain control over [Open terrain] / [Rough terrain] tiles in a 1-tile radius for [Pasture] / [Mine]]\n[+1 [Science] / [Culture] for every 20 Owned [Open terrain] / [Rough terrain] Tiles]\n[Double quantity of [Iron] produced]",
 		"uniques": [
+		"[+1 Science] <for every [20] [Owned [Open terrain] Tiles]>",
+		"[+1 Culture] <for every [20] [Owned [Rough terrain] Tiles]>", 
 		"Double quantity of [Iron] produced",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],

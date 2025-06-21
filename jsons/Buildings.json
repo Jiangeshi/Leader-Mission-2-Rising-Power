@@ -2664,7 +2664,7 @@
 		"cost":1,
 		"uniqueTo": "Cuba",
 		"replacementTextForUniques": "[[+2 Culture]]\n[[[+15]% [Culture] [in all cities]] [when below [0] Happiness]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Fidel Castro]>", "[+2 Culture]", "[+15]% [Culture] [in all cities] <when below [0] Happiness>"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Fidel Castro]>", "[+2 Culture]", "[+15]% [Culture] [in all cities] <when below [0] [Happiness]>"]	
 	},
 	{	
         "name": "Civilized Leader-Fidel Castro",
@@ -2899,11 +2899,11 @@
 	},
 	{
 		"name": "Ikanda",
-		"maintenance": 0,
+		"maintenance": 1,
 		"cost": 84,
 		"uniqueTo": "Zulu",
 		"replaces": "Barracks",
-		"gold": 2,
+		"production": 2,
 		"science": 1,
 		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Army Formation"
@@ -2932,7 +2932,7 @@
 		"requiredTech": "Theology",
 		"replaces": "Temple",
         "uniqueTo": "Songhai",
-		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Can be purchased for [100] [Culture] [in all cities]"]	
+		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Can be purchased for [80] [Culture] [in all cities]"]	
 	
 	// 匈人
 	},

@@ -105,13 +105,14 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast", "Atoll", "Ocean", "Reef"],
+		"terrainsCanBeFoundOn": ["Coast", "Atoll", "Ocean", "Reef", "Lakes"],
 		"improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>",
 		"Generated on every [10] tiles <in [{Featureless} {Ocean}] tiles>",
 		"Generated on every [15] tiles <in [Atoll] tiles>",
 		"Generated on every [15] tiles <in [Reef] tiles>",
+		"Generated on every [10] tiles <in [Lakes] tiles>",
 		]
 	},
 	{
@@ -147,8 +148,18 @@
 					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
 		"Doesn't generate naturally <in [Hill] tiles>",			
 					]
+	},				
+	{
+		"name": "Bamboo Shoot",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Bamboo"],
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2, "gold": -2},
+		"uniques": [
+		"Generated with weight [25] <in [Bamboo] Regions>",
+		"Generated on every [5] tiles <in [Bamboo] tiles>"
+		]
 	},
-	
 	// 奢侈资源
 	{
 		"name": "Furs",
@@ -413,7 +424,7 @@
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean"],
+		"terrainsCanBeFoundOn": ["Coast", "Mudflat", "Ocean", "Lakes"],
 		"improvementStats": {"gold": 1, "food": 1},
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
@@ -423,6 +434,7 @@
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated on every [15] tiles <in [Lakes] tiles>",
 					"Generated near City States with weight [15]"]
 	},
 	{

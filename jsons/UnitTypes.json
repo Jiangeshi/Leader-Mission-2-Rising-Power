@@ -3,7 +3,7 @@
         "name": "Civilian",
         "movementType": "Land"
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>"
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>"
         
@@ -14,7 +14,7 @@
         "name": "Civilian Water",
         "movementType": "Water"
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>"
         
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
@@ -25,7 +25,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",
@@ -56,7 +56,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",  
@@ -86,7 +86,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",  
@@ -119,7 +119,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",  
@@ -154,7 +154,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",
@@ -185,7 +185,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>", 
@@ -215,7 +215,7 @@
         "movementType": "Land",    
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",   
@@ -240,7 +240,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
@@ -269,7 +269,7 @@
         "name": "Melee Water",
         "movementType": "Water"
         "uniques":[
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",   
@@ -287,7 +287,7 @@
         "name": "Ranged Water",
         "movementType": "Water"
         "uniques":[
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
@@ -306,7 +306,7 @@
         "name": "Submarine",
         "movementType": "Water",
         "uniques":[
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
@@ -325,7 +325,7 @@
         "name": "Water Carrier",
         "movementType": "Water"
         "uniques":[
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
@@ -341,7 +341,7 @@
         "name": "Fighter",
         "movementType": "Air"
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",
@@ -355,7 +355,7 @@
         "name": "Bomber",
         "movementType": "Air"   
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",
@@ -369,7 +369,7 @@
         "name": "Bomb",
         "movementType": "Air",
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",
@@ -383,7 +383,7 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": [
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>",
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",

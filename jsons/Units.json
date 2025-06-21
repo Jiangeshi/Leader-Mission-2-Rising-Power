@@ -32,12 +32,12 @@
 		],
 	},
 	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 3,
-		"cost": 50,
+		"name": "Fisherman",
+		"unitType": "Civilian",
+		"movement": 2,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", ]	
+		"cost": 50,
+		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action"]	
 		
 	//侦查单位
 	},
@@ -45,7 +45,7 @@
 		"name": "Scout",
 		"unitType": "Reconnaissance",
 		"movement": 2,
-		"strength": 5,
+		"strength": 500,
 		"cost": 20,
 		"promotions": ["Off-road"],
 		"uniques": ["Can see invisible [Land] units", 
@@ -988,7 +988,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [100] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking", "[Target Unit] gains the [[Mandekalu Cavalry] ability] status for [3] turn(s) <upon damaging a [Military] unit>", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [80] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking", "[Target Unit] gains the [[Mandekalu Cavalry] ability] status for [3] turn(s) <upon damaging a [Military] unit>", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Iron]> <for [2] movement>"],
 		"attackSound": "horse"	
 	},
 	{
@@ -2046,7 +2046,6 @@
 		"[+15]% Strength bonus for [Water] units within [3] tiles", 
 		"Great Person - [Great Admiral]", 
 		"Turn this tile into a [Coast] tile <for [Human player] Civilizations> <[3] times> <in [Land] tiles> <for [2] movement> <in [Your] cities> <in tiles adjacent to [Coast] tiles>", 
-		"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence", 
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]"
 		"Uncapturable",
