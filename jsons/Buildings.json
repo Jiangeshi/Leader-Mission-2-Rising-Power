@@ -2951,8 +2951,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Scythian",
-		"replacementTextForUniques": "Whenever a [Horseman] is produced in capital, you will gain a free [Horseman]\nDouble quantity of [Horses] produced"
-		"uniques": ["Can only be built<in [in capital] cities>","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion", "Double quantity of [Horses] produced"]
+		"replacementTextForUniques": "[Whenever a [Horseman] is produced in capital, you will gain a free [Horseman]]\n[[+100]% [Horses] resource production]"
+		"uniques": ["Can only be built<in [in capital] cities>","All newly-trained [Horseman] units [in capital] receive the [TomyrisAbility] promotion", "[+100]% [Horses] resource production"]
 	},
 	{
 		"name": "Tomb Mound",

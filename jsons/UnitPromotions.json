@@ -1509,7 +1509,7 @@
     },
     {
         "name": "Movement Damage",
-        "uniques":["[-2] Movement"]
+        "uniques":["[-1] Movement"]
     },
 ]
     

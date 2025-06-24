@@ -273,7 +273,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%"
+                    "[+100]% [Strategic] resource production"
                 ],
                 "requires": ["Hate Propaganda", "Police State"],
                 "row": 3,
