@@ -365,7 +365,7 @@
 			
             "Unpillagable", "Irremovable", "Unbuildable",
             
-            "Gain control over [All] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>"
+            "Gain control over [non-[Major]] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>"
             ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
