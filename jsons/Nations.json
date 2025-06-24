@@ -551,10 +551,10 @@
 
         "favoredReligion": "Islam",
 		"uniqueName": "Defenders of Islam",
-		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement for 3 turns]",
+		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Melee Unit damaging a unit, target unit loses 2 movement for 1 turn]",
 		"uniques": [
 	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
-	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
+	    "All newly-trained [Melee] units [in all cities] receive the [Mamluk ability] promotion",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Cairo", "Damascus", "Aleppo", "Alexandria", "Jerusalem", "Tripoli", "Hama", "Homs", "Gaza", "Acre", "Tyre", "Beirut", "Hebron", "Nablus", "Safed", "Fustat", "Mansurah", "Rosetta", "Damietta", "Asyut", "Karak", "Bosra", "Medina", "Mecca", "Aqaba"],
@@ -764,8 +764,8 @@
 		"innerColor": [0,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wealth of Siberia",
-		"uniqueText": "+1 ☮Faith and +1 ⁂Food in all cities with 1 to 3 neighboring [Tundra] tiles\n+2 ☮Faith and +2 ⁂Food in all cities with 4 to 6 neighboring [Tundra] tiles\n+1 ⚙Production from every Strategic resource and Great Improvement"
-		"uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [3] neighboring [Tundra] tiles>", "[+2 Faith, +2 Food] [in all cities] <with [4] to [6] neighboring [Tundra] tiles>", "[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
+		"uniqueText": "[Gain control over All tiles in a 2-tile radius for City Center]\n[+1 ⚙Production from every Strategic resource and Great Improvement]"
+		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",

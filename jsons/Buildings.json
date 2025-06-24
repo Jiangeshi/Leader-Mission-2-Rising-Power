@@ -117,16 +117,16 @@
 		"Specialized City",
 		"Cost increases by [25] when built",
 		
-		"[-5]% [Food] [in this city]",
+		"[-3]% [Food] [in this city]",
 	    "[+7]% [Production] [in this city] <in cities with a [City Level II]> <in cities with a [Kiln]>", 
 	    
-	    "[-5]% [Food] [in this city] <in cities with a [City Level III]>",
+	    "[-3]% [Food] [in this city] <in cities with a [City Level III]>",
 	    "[+7]% [Production] [in this city] <in cities with a [City Level III]> <in cities with a [Workshop]>", 
 	    
-	    "[-5]% [Food] [in this city] <in cities with a [City Level IV]>",
+	    "[-3]% [Food] [in this city] <in cities with a [City Level IV]>",
 		"[+8]% [Production] [in this city] <in cities with a [City Level IV]> <in cities with a [Ironworks]>", 
 		
-		"[-5]% [Food] [in this city] <in cities with a [City Level V]>",
+		"[-3]% [Food] [in this city] <in cities with a [City Level V]>",
 	    "[+8]% [Production] [in this city] <in cities with a [City Level V]> <in cities with a [Factory]>", 
 		]
 	},
@@ -285,7 +285,7 @@
         "name": "City Level I",
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
-		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>"
+		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
 		]	
 	},
 	{

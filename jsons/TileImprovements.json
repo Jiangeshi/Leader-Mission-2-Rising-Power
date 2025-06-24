@@ -363,7 +363,10 @@
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Gold] <in [Tundra] tiles> <in tiles without [Hill]>",
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>",
 			
-            "Unpillagable", "Irremovable", "Unbuildable"],
+            "Unpillagable", "Irremovable", "Unbuildable",
+            
+            "Gain control over [All] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>"
+            ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}

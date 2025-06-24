@@ -1505,11 +1505,11 @@
 	},
 	{
         "name": "Mamluk ability",
-        "uniques":["[Target Unit] gains the [Movement Damage] status for [4] turn(s) <upon damaging a [Military] unit>"]
+        "uniques":["[Target Unit] gains the [Movement Damage] status for [2] turn(s) <upon damaging a [Military] unit>"]
     },
     {
         "name": "Movement Damage",
-        "uniques":["[-1] Movement"]
+        "uniques":["[-2] Movement"]
     },
 ]
     
