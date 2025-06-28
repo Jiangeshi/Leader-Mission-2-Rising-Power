@@ -588,6 +588,7 @@
 		"uniqueName": "Enlightenment of Western Philosophy",
 		"uniqueText": "+50 ♪Culture and +100 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 100 [Science] upon gaining a Great Person unit (modified by game speed)" 
 		"uniques": ["Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
+		"Gain [50] [Culture] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Special Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Special Great Person] unit>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",

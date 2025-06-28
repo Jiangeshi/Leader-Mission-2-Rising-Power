@@ -110,7 +110,7 @@
 	{
         "name": "Industrial City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+7]% [Production] from [Kiln]] [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-5]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-5]% [Food] [in this city]]"
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+7]% [Production] from [Kiln]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-3]% [Food] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
@@ -286,6 +286,7 @@
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
+		"Instantly gain [30] [Stored Food] <(modified by game speed)> <upon adopting [Tradition Complete]>"
 		]	
 	},
 	{
@@ -1175,7 +1176,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production, +2 Culture] from every specialist [in all cities]"],
+		"uniques": ["[+1 Production, +1 Culture] from every specialist [in all cities]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},

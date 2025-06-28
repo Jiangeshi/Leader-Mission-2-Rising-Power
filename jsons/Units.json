@@ -1011,9 +1011,9 @@
 		"unitType": "Mobile",
 		"uniqueTo": "Mamluks",
 		"replaces": "Knight",	
-		"movement": 4,
+		"movement": 5,
 		"strength": 22,
-		"cost": 173,
+		"cost": 166,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -2067,14 +2067,15 @@
 		    "[1] free [Great Artist] units appear <by consuming this unit> <for [Chile] Civilizations>"
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			"Special Great Person",
 			],
 		"movement": 2,
 	},
 	{
 		"name": "Gautama Siddhartha",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
@@ -2085,7 +2086,7 @@
 	{
 		"name": "Jesus",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
 		    "Religious Unit",
             "Can Spread Religion <for [2] movement> <[6] times>",
@@ -2100,7 +2101,7 @@
 	{
 		"name": "Muhammad",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		    "Religious Unit",
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
@@ -2113,7 +2114,7 @@
 	{
 		"name": "Zoroaster",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		    "Religious Unit",
 		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
@@ -2127,7 +2128,7 @@
 	{
 		"name": "Sun Tzu",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		 "All adjacent units heal [+10] HP when healing", 
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
@@ -2140,7 +2141,7 @@
 	{
 		"name": "Gnaeus Pompeius Magnus",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
 		"[2] free [Swordsman] units appear <by consuming this unit> <during the [Classical era]>",
@@ -2154,7 +2155,7 @@
 	{
 		"name": "Spartacus",
 		"unitType": "Civilian",	
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
@@ -2167,7 +2168,7 @@
 	{
 		"name": "Bai Qi",
 		"unitType": "Civilian",	
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
@@ -2180,7 +2181,7 @@
 	{
 		"name": "Themistocles",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Water] units within [3] tiles",
 		"[+50]% Strength bonus for [Water] units within [0] tiles <during the [Classical era]>",
 		"[+1] Sight <when [Embarked]>",
@@ -2196,7 +2197,7 @@
 	{
 		"name": "Belisarius",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"All adjacent units heal [+10] HP when healing",
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
@@ -2209,7 +2210,7 @@
 	{
 		"name": "Han Xin",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles <starting from the [Renaissance era]>",
 		"[+15]% Strength bonus for [Land] units within [4] tiles <during the [Medieval era]>", 
 		"All adjacent units heal [+10] HP when healing",
@@ -2224,7 +2225,7 @@
 	{
 		"name": "Xiang Yu",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
@@ -2237,7 +2238,7 @@
 	{
 		"name": "Li Jing",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2250,7 +2251,7 @@
 	{
 		"name": "Subedei",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2263,7 +2264,7 @@
 	{
 		"name": "Timur",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2276,7 +2277,7 @@
 	{
 		"name": "Jeanne",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+25] HP when healing <during the [Medieval era]>",
 		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
@@ -2289,7 +2290,7 @@
 	{
 		"name": "Khalid ibn al-Walid",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2302,7 +2303,7 @@
 	{
 		"name": "Bayezid I",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2315,7 +2316,7 @@
 	{
 		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2328,7 +2329,7 @@
 	{
 		"name": "Narses",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2341,7 +2342,7 @@
 	{
 		"name": "William Marshal",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles",
 		"All adjacent units heal [+10] HP when healing",
 		"[Mobile] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
@@ -2358,7 +2359,7 @@
 	{
 		"name": "Lee Sunshin",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+33]% Strength bonus for [Water] units within [3] tiles",
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]",
@@ -2372,7 +2373,7 @@
 	{
 		"name": "Henri Philippe Pétain",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Special Great Person",
 		"[+15]% Strength bonus for [Land] units within [2] tiles", 
 		"Can instantly construct a [Citadel] improvement <for [2] movement> <[1] times>", 
 		"Can instantly construct a [Fort] improvement <for [2] movement> <[3] times>",

@@ -225,7 +225,7 @@
 	{
 		"name": "Bamboo",
 		"type": "TerrainFeature",
-		"culture": 1,
+		"culture": 2,
 		"food": 1,
 		"movementCost": 2,
 		"overrideStats": true,

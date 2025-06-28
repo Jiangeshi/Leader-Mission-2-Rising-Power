@@ -45,7 +45,7 @@
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Pasture]"]
     },
     {
         "name": "God of Fishing",

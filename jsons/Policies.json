@@ -45,9 +45,8 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                    "[+1 Culture] [in all cities]",
-                    "Units in cities cost no Maintenance",
-                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "Each city founded increases culture cost of policies [25]% less than normal",
+                    "[+33]% Strength for cities <with a garrison>",
                 ],
                 "requires": ["Aristocracy"],
                 "row": 3,
@@ -56,8 +55,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
-                    "Provides the cheapest [Production] building in your first [2] cities for free"
+                    "[-25]% construction time for [All] improvements", "Empire enters a [10]-turn Golden Age",
                 ],
                 "requires": ["Republic", "Citizenship"],
                 "row": 3,
@@ -66,8 +64,8 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]",
-                    "Provides a [Aqueduct] in your first [6] cities for free"
+                    "[15]% Food is carried over after population increases [in all cities]",
+                    "Comment [[in all cities] [Instantly gain [30] [Stored Food]] [(modified by game speed)]]"
                 ]
             }
         ]
@@ -877,16 +875,17 @@
                 "uniques": [
                     "[-50]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Production, +1 Happiness] from every [Barracks]",
-                    "[+1 Happiness] from every [Courthouse]",
+                    "[+1 Production, +1 Happiness] from every [Courthouse]",
                 ],
-                "requires": ["Military Tradition"],
+                "requires": ["Military Reclamation System"],
                 "row": 3,
-                "column": 3
+                "column": 1,
             },
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [15]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [33]% of the damage done to [Military] units as [Gold]",
+                    "[-33]% XP required for promotions <for [Military] units>"
                 ]
             }
         ]    

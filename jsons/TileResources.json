@@ -47,9 +47,9 @@
 		"improvementStats": {"food": 1},
 		"improvement": "Farm",
 		"uniques": ["Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
-					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [15] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
 					"Generated on every [5] tiles <in [Black Earth] tiles>",
 					]
 	},
@@ -60,9 +60,9 @@
 		"improvementStats": {"food": 1},
 		"improvement": "Farm",
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles>",
-					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [15] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [15] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
 	    ]
 	},
 	{
@@ -143,9 +143,9 @@
 		"uniques": ["Generated on every [70] tiles <in [{Featureless} {Plains}] tiles>",
 		           "Generated on every [70] tiles <in [{Featureless} {Grassland}] tiles>",
 		           "Generated on every [20] tiles <in [{Featureless} {Desert}] tiles>",
-				   "Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+				   "Generated on every [15] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [40] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
 		"Doesn't generate naturally <in [Hill] tiles>",			
 					]
 	},				
@@ -178,7 +178,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"improvementStats": {"gold": 2},
 		"improvement": "Plantation",
-		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
+		"uniques": ["Generated with weight [20] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
