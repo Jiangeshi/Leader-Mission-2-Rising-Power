@@ -1,16 +1,21 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 地狱模式
+    "Triggers a [Select Hell Difficulty Debuff] event <on [Hell] difficulty> <upon constructing [Palace]>",
+    "[+100]% Strength <for [AI player] Civilizations> <vs [Barbarian] units> <if [Totally isolated] is constructed by anybody>",
+    
+    // 修正
     "[-50]% construction time for [All] improvements <for [AI player] Civilizations>",
     "[+1]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
     // 快乐惩罚
-    "[-50]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
-    "[-75]% growth [in all cities] <when between [-15] and [-11] [Happiness]>",
-    "Nullifies Growth [in all cities] <when below [-15] [Happiness]>",
-    "[-50]% [Production] [in all cities] <when below [-15] [Happiness]>",
-    "[-25]% Strength <for [Military] units>  <when below [-15] [Happiness]>",
-    "Rebel units may spawn <when below [-15] [Happiness]>",
-    "Cannot build [Settler] units <when below [-10] [Happiness]>",
+    "[-50]% growth [in all cities] <when number of [Happiness] is between [-10] and [-1]>",
+    "[-75]% growth [in all cities] <when number of [Happiness] is between [-15] and [-11]>",
+    "Nullifies Growth [in all cities] <when number of [Happiness] is less than [-15]>",
+    "[-50]% [Production] [in all cities] <when number of [Happiness] is less than [-15]>",
+    "[-25]% Strength <for [Military] units>  <when number of [Happiness] is less than [-15]>",
+    "Rebel units may spawn <when number of [Happiness] is less than [-15]>",
+    "Cannot build [Settler] units <when number of [Happiness] is less than [-10]>",
     
     // 厌战度
     "Provides [1] [Warfare Aversion Level] <when at war>",

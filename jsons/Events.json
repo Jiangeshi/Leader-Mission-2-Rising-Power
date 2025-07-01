@@ -1,5 +1,56 @@
 [
     {
+        "name": "Select Hell Difficulty Debuff",
+        "text": "The Debuff you choose will accompany you throughout the entire game. Unselected Debuffs can also be manually activated in buildings.",
+        "choices": [
+            {
+                "text": "Totally Isolated",
+                "civilopediaText": [
+                    {
+                    "text": "[[Rebel units may spawn]\n[[for [AI player] Civilizations] [vs [Barbarian] units] [[+100]% Strength]]]"
+                    }
+                ],
+                "uniques": ["Gain a free [Totally Isolated] [in capital] <hidden from users>", "Only available <if [Totally Isolated] is not constructed>"],
+            },
+            {
+                "text": "Wallowing in Luxury and Pleasure",
+                "civilopediaText": [
+                    {
+                    "text": "[[-1]% Yield from every [Luxury resource]]\n[[-2] Happiness from each type of luxury resource]"
+                    }
+                ],
+                "uniques": ["Gain a free [Wallowing in Luxury and Pleasure] [in capital] <hidden from users>", "Only available <if [Wallowing in Luxury and Pleasure] is not constructed>"],
+            },
+            {
+                "text": "Paralyzed",
+                "civilopediaText": [
+                    {
+                    "text": "[[-1] Movement] [for [Civilian] units]"
+                    }
+                ],
+                "uniques": ["Gain a free [Paralyzed] [in capital] <hidden from users>", "Only available <if [Paralyzed] is not constructed>"],
+            },            
+            {
+                "text": "Tunnel Vision",
+                "civilopediaText": [
+                    {
+                    "text": "[[-25]% [Culture] [in all cities]]\n[[-25]% [Science] [in all cities]]"
+                    }
+                ],
+                "uniques": ["Gain a free [Tunnel Vision] [in capital] <hidden from users>", "Only available <if [Tunnel Vision] is not constructed>"],
+            },                 
+            {
+                "text": "Heavily in Debt",
+                "civilopediaText": [
+                    {
+                    "text": "[Lose twice the amount of Gold currently owned every 10 turns]"
+                    }
+                ],
+                "uniques": ["Gain a free [Heavily in Debt] [in capital] <hidden from users>", "Only available <if [Heavily in Debt] is not constructed>"],
+            },             
+        ]
+    },
+    {
         "name": "Sacrifice I",
         "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
         "choices": [
@@ -679,7 +730,7 @@
                 "text": "Supreme Triumph",
                 "civilopediaText": [
                 {
-                    "text": "[[Instantly gain [5] [Feat] [upon conquering a city]]\n[[Instantly gain [200] [Golden Age points]] [upon conquering a city]]"
+                    "text": "[[Instantly gain [5] [Feat]] [upon conquering a city]]\n[[Instantly gain [200] [Golden Age points]] [upon conquering a city]]"
                 }
                 ],
                 "uniques": [

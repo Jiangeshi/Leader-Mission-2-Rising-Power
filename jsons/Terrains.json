@@ -233,7 +233,7 @@
 		"defenceBonus": 0.15,
 		"occursOn": ["Plains","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
-					"Provides a one-time bonus of [+20 Culture] to the closest city when cut down <(modified by game speed)>",
+					"Provides a one-time bonus of [+25 Culture] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes",
 					"A Region is formed with at least [10]% [Bamboo] tiles, with priority [8]",

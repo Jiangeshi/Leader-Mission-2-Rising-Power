@@ -656,53 +656,53 @@
 		"uniqueName": "Revolutionary Tradition",
 		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+3 Culture] <when above [21] [Happiness]>",
-		"[+15]% [Culture] <when between [21] and [100000] [Happiness]>",
+		"[+3 Culture] <when number of [Happiness] is more than [20]>",
+		"[+15]% [Culture] <when number of [Happiness] is more than [20]>",
 	
-		"[+2 Culture] <when between [15] and [20] [Happiness]>",
-	    "[+15]% [Culture] <when between [15] and [20] [Happiness]>",
+		"[+2 Culture] <when number of [Happiness] is between [15] and [20]>",
+	    "[+15]% [Culture] <when number of [Happiness] is between [15] and [20]>",
 	    
-		"[+2 Culture] <when between [9] and [14] [Happiness]>",
-		"[+10]% [Culture] <when between [9] and [14] [Happiness]>",
+		"[+2 Culture] <when number of [Happiness] is between [9] and [14]>",
+		"[+10]% [Culture] <when number of [Happiness] is between [9] and [14]>",
 			
-		"[+1 Culture] <when between [3] and [8] [Happiness]>",
-	    "[+10]% [Culture] <when between [3] and [8] [Happiness]>",
+		"[+1 Culture] <when number of [Happiness] is between [3] and [8]>",
+	    "[+10]% [Culture] <when number of [Happiness] is between [3] and [8]>",
 	
 	
-		"[+1 Culture] <when between [-4] and [2] [Happiness]>",
-		"[+5]% [Culture] <when between [-4] and [2] [Happiness]>",
+		"[+1 Culture] <when number of [Happiness] is between [-4] and [2]>",
+		"[+5]% [Culture] <when number of [Happiness] is between [-4] and [2]>",
 			
-		"[+5]% [Culture] <when between [-10] and [-5] [Happiness]>",	
+		"[+5]% [Culture] <when number of [Happiness] is between [-10] and [-5]>",	
 			
-		"[+1]% Strength <for [Military] units> <when between [9] and [10] [Happiness]>",
+		"[+1]% Strength <for [Military] units> <when number of [Happiness] is between [9] and [10]>",
 
-		"[+2]% Strength <for [Military] units> <when between [7] and [8] [Happiness]>",
+		"[+2]% Strength <for [Military] units> <when number of [Happiness] is between [7] and [8]>",
 		
-		"[+3]% Strength <for [Military] units> <when between [5] and [6] [Happiness]>",
+		"[+3]% Strength <for [Military] units> <when number of [Happiness] is between [5] and [6]>",
 
-		"[+4]% Strength <for [Military] units> <when between [3] and [4] [Happiness]>",
+		"[+4]% Strength <for [Military] units> <when number of [Happiness] is between [3] and [4]>",
 	
-		"[+5]% Strength <for [Military] units> <when between [1] and [2] [Happiness]>",
+		"[+5]% Strength <for [Military] units> <when number of [Happiness] is between [1] and [2]>",
 		
-		"[+7]% Strength <for [Military] units> <when between [-1] and [0] [Happiness]>",
+		"[+7]% Strength <for [Military] units> <when number of [Happiness] is between [-1] and [0]>",
 		
-		"[+8]% Strength <for [Military] units> <when between [-3] and [-2] [Happiness]>",
+		"[+8]% Strength <for [Military] units> <when number of [Happiness] is between [-3] and [-2]>",
 	
-		"[+10]% Strength <for [Military] units> <when between [-5] and [-4] [Happiness]>",
+		"[+10]% Strength <for [Military] units> <when number of [Happiness] is between [-5] and [-4]>",
 		
-		"[+11]% Strength <for [Military] units> <when between [-7] and [-6] [Happiness]>",
+		"[+11]% Strength <for [Military] units> <when number of [Happiness] is between [-7] and [-6]>",
 		
-		"[+13]% Strength <for [Military] units> <when between [-9] and [-8] [Happiness]>",
+		"[+13]% Strength <for [Military] units> <when number of [Happiness] is between [-9] and [-8]>",
 		
-		"[+14]% Strength <for [Military] units> <when between [-11] and [-10] [Happiness]>",
+		"[+14]% Strength <for [Military] units> <when number of [Happiness] is between [-11] and [-10]>",
 		
-		"[+16]% Strength <for [Military] units> <when between [-13] and [-12] [Happiness]>",
+		"[+16]% Strength <for [Military] units> <when number of [Happiness] is between [-13] and [-12]>",
 		
-		"[+17]% Strength <for [Military] units> <when between [-15] and [-14] [Happiness]>",
+		"[+17]% Strength <for [Military] units> <when number of [Happiness] is between [-15] and [-14]>",
 		
-		"[+19]% Strength <for [Military] units> <when between [-17] and [-16] [Happiness]>",
+		"[+19]% Strength <for [Military] units> <when number of [Happiness] is between [-17] and [-16]>",
 		
-		"[+20]% Strength <for [Military] units> <when between [-100000] and [-18] [Happiness]>",
+		"[+20]% Strength <for [Military] units> <when number of [Happiness] is less than [-17]>",
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
@@ -1123,8 +1123,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Forest] tiles]"
-		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Forest] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Vegetation] tiles]"
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Vegetation] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Dublin", "Cork", "Limerick", "Galway", "Waterford", "Belfast", "Derry", "Newry", "Bangor", "Lisburn", "Killarney", "Kilkenny", "Dundalk", "Sligo", "Wexford", "Tralee", "Navan", "Athlone", "Ennis", "Armagh", "Newtownabbey", "Ballymena", "Antrim", "Coleraine", "Omagh", "Dungannon", "Larne", "Magherafelt", "Carrickfergus"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]    
     },

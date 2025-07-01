@@ -37,7 +37,7 @@
 		"movement": 2,
 		"requiredTech": "Sailing",
 		"cost": 50,
-		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations>"]	
+		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations> <hidden from users>", "Can build [Land] improvements on tiles <for [AI player] Civilizations> <hidden from users>"]	
 		
 	//侦查单位
 	},

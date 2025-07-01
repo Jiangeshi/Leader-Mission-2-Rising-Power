@@ -159,7 +159,12 @@
     {
         "name": "Unification of The State and The Church",
         "type": "Founder",
-        "uniques": ["[+1 Culture] from every [2] global followers [in all cities]"]
+        "uniques": ["[+2 Culture] from every [3] global followers [in all cities]"]
+    },
+    {
+        "name": "Intercultural Communication",
+        "type": "Founder",
+        "uniques": ["[+1 Culture, +1 Science] from every [2] global followers [in all cities]"]
     },
     {
         "name": "Nation Led by God",
@@ -189,7 +194,7 @@
     {
         "name": "Feed the World",
         "type": "Founder",
-        "uniques": ["[+3 Food] from every [Temple]", "[+2 Food] from every [Shrine]"]
+        "uniques": ["[+2 Food] from all [Faith] buildings"]
     },
     {
         "name": "State Religion",

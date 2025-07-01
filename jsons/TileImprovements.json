@@ -213,7 +213,7 @@
 	},
 	{
 		"name": "Remove Bamboo",
-		"turnsToBuild": 5,
+		"turnsToBuild": 4,
 		"techRequired": "Mining",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
