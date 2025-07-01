@@ -4,7 +4,6 @@
     // 地狱模式
     "Triggers a [Select Hell Difficulty Debuff] event <on [Hell] difficulty> <upon constructing [Palace]> <for [Human player] Civilizations>",
     "[+100]% Strength <for [AI player] Civilizations> <vs [Barbarian] units> <if [Totally isolated] is constructed by anybody>",
-    
     "Remove [Totally Isolated] [in all cities] <upon turn start> <for [AI player] Civilizations>",
     "Remove [Wallowing in Luxury and Pleasure] [in all cities] <upon turn start> <for [AI player] Civilizations>",
     "Remove [Paralyzed] [in all cities] <upon turn start> <for [AI player] Civilizations>",
