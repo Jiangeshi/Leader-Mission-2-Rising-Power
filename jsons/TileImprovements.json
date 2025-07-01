@@ -173,6 +173,7 @@
 	{
 		"name": "Offshore Platform",
 		"techRequired": "Electricity",
+		"turnsToBuild": 11,
 		"uniques": [
 		"Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", 
