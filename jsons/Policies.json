@@ -46,7 +46,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Each city founded increases culture cost of policies [25]% less than normal",
-                    "[+33]% Strength for cities <with a garrison>",
+                    "[+25]% Strength for cities <with a garrison>",
                 ],
                 "requires": ["Aristocracy"],
                 "row": 3,

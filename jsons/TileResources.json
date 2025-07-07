@@ -701,6 +701,11 @@
 	    "uniques": ["Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Feat] is equal to [0]>",]
 	},
 	{
+		"name": "Marriage Point",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen"]
+	},
+	{
 		"name": "Diplomatic Point",  
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded"]

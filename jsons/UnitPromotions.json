@@ -1440,7 +1440,10 @@
     {
         "name": "[Mamluk Cavalry] ability",
         "uniques": ["[This Unit] heals [20] HP <costs [+20 Gold] stats> <for [1] movement>"],    
-        
+    },
+    {
+        "name": "[Carolingian Knight] ability",
+        "uniques": ["Earn [20]% of the damage done to [Military] units as [Faith]"],       
         
 	// 特殊
 	},

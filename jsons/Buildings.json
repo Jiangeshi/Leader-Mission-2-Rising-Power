@@ -67,7 +67,15 @@
 		"Gain [-2] [Gold] <upon turn end> <for every [Gold]> <every [10] turns>",
 		],
 	},
-	
+	{
+		"name": "Deliberate Work Slowdown",
+        "maintenance": 0,
+        "cost": 1,
+        "replacementTextForUniques": "[Can build [all] improvements at a [-50]% rate]",
+		"uniques": ["Only available <on [Hell] difficulty>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", 
+		"Can build [all] improvements at a [-50]% rate",
+		],
+	},
 	
 	
 	// 专业城市
@@ -167,7 +175,7 @@
 	{
         "name": "Industrial City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+7]% [Production] from [Kiln]] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-3]% [Food] [in this city]]"
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Production] from all [Production] buildings] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-3]% [Food] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
@@ -175,7 +183,7 @@
 		"Cost increases by [25] when built",
 		
 		"[-2]% [Food] [in this city]",
-	    "[+7]% [Production] [in this city] <in cities with a [City Level II]> <in cities with a [Kiln]>", 
+	    "[+1 Production] from all [Production] buildings <in cities with a [City Level II]>", 
 	    
 	    "[-2]% [Food] [in this city] <in cities with a [City Level III]>",
 	    "[+7]% [Production] [in this city] <in cities with a [City Level III]> <in cities with a [Workshop]>", 
@@ -343,7 +351,9 @@
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
-		"Instantly gain [30] [Stored Food] <(modified by game speed)> <upon adopting [Tradition Complete]>"
+		"Instantly gain [30] [Stored Food] <(modified by game speed)> <upon adopting [Tradition Complete]>",
+		"Instantly gain [5] [Stored Food] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
+		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
 		]	
 	},
 	{
@@ -483,7 +493,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]",
-			"[+2 Science] from [Coast] tiles [in this city]",
+			"[+1 Science] from [Coast] tiles [in this city]",
 			"[+1 Culture] from [Ocean] tiles [in this city]"
 			],
 		"requiredTech": "Burial Custom",
@@ -1857,6 +1867,24 @@
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Baybars]>",
 	"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"]
     
+	// 柬埔寨
+    },
+	{	
+        "name": "Civilized Leader-Jayavarman II",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Cambodia",
+		"replacementTextForUniques": "[[Gain a free [Pantheon] belief] [upon founding a Religion]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Yasovarman I]>", "Gain a free [Pantheon] belief <upon founding a Religion>"]
+    },
+	{	
+        "name": "Civilized Leader-Yasovarman I",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Cambodia",
+		"replacementTextForUniques": "[[+1 Food, +1 Faith, +1 Happiness] [in all cities] [in [Fresh Water] tiles]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Jayavarman II]>",
+	"[+1 Food, +1 Faith, +1 Happiness] [in all cities] <in [Fresh Water] tiles>"]
 		
 	// 希腊
 	},
@@ -1912,8 +1940,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "+15% †Strength for Siege units vs Military units when attacking\n[[+1] Movement] [for [Siege] units]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[+15]% Strength <for [Siege] units> <vs [Military] units> <when attacking>", "[+1] Movement <for [Siege] units>"]	
+		"replacementTextForUniques": "[+1 Movement for Siege and Mobile units]\n[-10% XP required for promotions for Siege and Mobile units]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[+1] Movement <for [Siege] units>", "[+1] Movement <for [Mobile] units>", "[-10]% XP required for promotions <for [Siege] units>", "[-10]% XP required for promotions <for [Mobile] units>"]	
 	},
 	{	
         "name": "Civilized Leader-De Gaulle",
@@ -2601,6 +2629,57 @@
 		"uniqueTo": "Austria",
 		"replacementTextForUniques": "[[[+1 Science] [in all cities]] [when not at war]]\n[[[+1 Production] [in all cities]] [when at war]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Science] [in all cities] <when not at war>", "[+1 Production] [in all cities] <when at war>"]
+	},		
+	{	
+        "name": "Marriage with Austria1",
+		"cost":1,
+		"replacementTextForUniques": "[Unsellable]\n[[+5]% [Culture]]\n[[+5]% [Science]]\n[[+5]% Strength]",
+		"uniques": [
+		"Marriage with Austria",
+		"Can only be built <in [in capital] cities>",
+		"Only available <for [non-[Austria]] Civilizations> <if [Marriage with Austria1] is not constructed by anybody>",
+		"Only available <if [Marriage with Austria] is not constructed> <when number of [Marriage Point] is equal to [1]>",
+		"Automatically built in all cities where it is buildable", "Unsellable",
+		"Remove [Marriage with Austria1] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
+		
+		"[+5]% [Culture]", 
+		"[+5]% [Science]",
+		"[+5]% Strength"
+		]
+	},
+	{	
+        "name": "Marriage with Austria2",
+		"cost":1,
+		"uniques": [
+		"Marriage with Austria",
+		"Can only be built <in [in capital] cities>",
+		"Only available <for [non-[Austria]] Civilizations> <if [Marriage with Austria2] is not constructed by anybody>",
+		"Only available <if [Marriage with Austria] is not constructed> <when number of [Marriage Point] is equal to [1]>",
+		"Only available <if [Marriage with Austria1] is constructed by anybody>",
+		"Automatically built in all cities where it is buildable", "Unsellable",
+		"Remove [Marriage with Austria2] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
+		
+		"[+5]% [Culture]", 
+		"[+5]% [Science]",
+		"[+5]% Strength"
+		]
+	},
+	{	
+        "name": "Marriage with Austria3",
+		"cost":1,
+		"uniques": [
+		"Marriage with Austria",
+		"Can only be built <in [in capital] cities>",
+		"Only available <for [non-[Austria]] Civilizations> <if [Marriage with Austria3] is not constructed by anybody>",
+		"Only available <if [Marriage with Austria] is not constructed> <when number of [Marriage Point] is equal to [1]>",
+		"Only available <if [Marriage with Austria1] is constructed by anybody> <if [Marriage with Austria2] is constructed by anybody>",
+		"Automatically built in all cities where it is buildable", "Unsellable",
+		"Remove [Marriage with Austria3] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
+		
+		"[+5]% [Culture]", 
+		"[+5]% [Science]",
+		"[+5]% Strength"
+		]
 	},
 	{
 		"name": "Coffee House",
@@ -2612,8 +2691,27 @@
 		"maintenance": 2,
 		"uniques": ["Only available <in cities with a [City Level III]>", "Must not be on [Hill]", "[+25]% Great Person generation [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 	    "requiredTech": "Agricultural Improvement"	
-		
-		
+	
+	// 法兰克
+	},
+	{	
+        "name": "Civilized Leader-Carolus Magnus",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Franks",
+		"replacementTextForUniques": "[+10% Strength for Military units when number of Cities is more than or equal to twice the Era number]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when number of [[in all cities] Cities] is more than [2*([Era number]+1)-1]>"]	
+	},
+	{
+		"name": "Royal Manor",
+		"replaces": "Market",
+		"uniqueTo": "Franks",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"	
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Culture] from [{unimproved} {Luxury resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+			
 	// 印加
 	},
 	{	
@@ -2650,7 +2748,7 @@
 		"food": 1,
 		"production": 1,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]", "[+15]% [Food] [in this city]", "[+1 Production] from [Wheat] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]", "[+15]% [Food] [in this city]", "[+1 Production] from [Wheat] tiles [in this city]", "[+1 Production] from [Rice] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Agriculture"	
 	
 	// 玛雅
@@ -2802,8 +2900,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Chile",
-		"replacementTextForUniques": "[[+1 Culture] per [1] social policies adopted]\nGain 7 [Culture] upon constructing [Culture] buildings in all cities (modified by game speed)"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Culture] per [1] social policies adopted", "Gain [7] [Culture] <upon constructing [Culture] [in all cities]> <(modified by game speed)>"]
+		"replacementTextForUniques": "[[+1 Culture] per [1] social policies adopted]\nGain 15 [Culture] upon constructing [Culture] buildings in all cities (modified by game speed)"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Culture] per [1] social policies adopted", "Gain [15] [Culture] <upon constructing [Culture] [in all cities]> <(modified by game speed)>"]
 	},
 	{
 		"name": "San Diego Cathedral",

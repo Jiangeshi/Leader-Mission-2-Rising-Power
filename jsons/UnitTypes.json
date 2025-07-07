@@ -6,7 +6,9 @@
         "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>","[This Unit] heals [5] HP <upon losing at least [30] HP in a single attack> <for [Cuba] Civilizations> <hidden from users>",
         "Ignores Zone of Control <for [Poland] Civilizations> <hidden from users>", "May enter foreign tiles without open borders <for [Poland] Civilizations> <hidden from users>"
         "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations> <hidden from users>"
-        
+        "Double movement in [Forest] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Jungle] <for [Vietnam] Civilizations> <hidden from users>",
+        "Double movement in [Bamboo] <for [Vietnam] Civilizations> <hidden from users>",
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         ]
     },

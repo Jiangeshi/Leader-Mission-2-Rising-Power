@@ -295,7 +295,7 @@
 		"innerColor": [243, 243, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
-		"uniqueText": "[Worker] units can turn a tile into a [Forest] tile once by free and once by cumsumeing this unit in your cities\n[[Double movement in [Vegetation]] [for [Military] units]]",
+		"uniqueText": "[Worker] units can turn a tile into a [Forest] tile once by free and once by cumsumeing this unit in your cities\n[[Double movement in [Vegetation]] [for [Land] units]]",
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
@@ -558,7 +558,36 @@
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Cairo", "Damascus", "Aleppo", "Alexandria", "Jerusalem", "Tripoli", "Hama", "Homs", "Gaza", "Acre", "Tyre", "Beirut", "Hebron", "Nablus", "Safed", "Fustat", "Mansurah", "Rosetta", "Damietta", "Asyut", "Karak", "Bosra", "Medina", "Mecca", "Aqaba"],
-        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]                                      
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+        },
+        {
+        "name": "Cambodia",
+	    "leaderName": "Leader",
+		"adjective": ["Cambodia"],
+        "personality": "Cambodia",
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Let's begin!",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [107, 18, 111],
+		"innerColor": [239, 136, 55],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "King's Monastery",
+		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times]\n[[Holy site] +1 [Food] for every adjacent non-Great Improvements Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
+		"uniques": [
+		"[-50]% Yield from every [Holy site]",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampong Thom", "Kampong Speu", "Kampong Chhnang", "Kampot", "Takeo", "Prey Veng", "Svay Rieng", "Kandal", "Pursat", "Koh Kong", "Stung Treng", "Ratanakiri", "Mondulkiri", "Preah Vihear", "Kratie", "Kep", "Pailin", "Tbong Khmum", "Oddar Meanchey", "Banteay Meanchey"]
+		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        
     // 欧洲
     },
 	{
@@ -731,8 +760,8 @@
         "innerColor": [18,84,30],
 		"favoredReligion": "Islam",
 		"uniqueName": "Star And Moon",
-		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
-		"uniques": ["Gain [50] [Faith] <upon constructing [Faith] [in all cities]> <(modified by game speed)>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
+		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]] [(modified by game progress up to [+300]%)]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
+		"uniques": ["Gain [50] [Faith] <upon constructing [Faith] [in all cities]> <(modified by game speed)> <(modified by game progress up to [+300]%)>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
@@ -861,8 +890,8 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
-		"uniqueText": "[[+2 Gold, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
-		"uniques": ["[+2 Gold, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[+1 Production, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
+		"uniques": ["[+1 Production, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -1340,13 +1369,25 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Habsburg Dynasty",
-		"uniqueText": "+1 [Culture] for every 1 Remaining Major Civilizations, up to 30 [Culture]\n+3 [Gold] for every 1 Remaining City-states Civilizations, up to 30 [Gold]\n[Gifts of Gold to City-States generate [50]% more Influence]",
+		"uniqueText": "[Gain 3 [Marriage Point]\nYou can trade 1 [Marriage Point] to form a marriage alliance with another civilization\nAfter the alliance, both parties gain +6% [Science], [Culture], and [Strength], while Austria additionally gains +6% [Production]]\n[[[+2 Gold, +1 Happiness] [in capital]] [for every [Marriage Point]]]",
 		"uniques": [
-		"Gifts of Gold to City-States generate [50]% more Influence",
-		"[+1 Culture] <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [Major] Civilizations] is between [1] and [30]>",
-		"[+30 Culture] <when number of [Remaining [Major] Civilizations] is more than [30]>"
-		"[+3 Gold] <for every [1] [Remaining [City-States] Civilizations]> <when number of [Remaining [City-States] Civilizations] is between [1] and [10]>",
-		"[+30 Gold] <when number of [Remaining [City-States] Civilizations] is more than [10]>"
+		"Provides [3] [Marriage Point]",
+		"[+6]% [Culture] <if [Marriage with Austria1] is constructed by anybody>",
+		"[+6]% [Science] <if [Marriage with Austria1] is constructed by anybody>",
+		"[+6]% [Production] [in all cities] <if [Marriage with Austria1] is constructed by anybody>",
+		"[+6]% Strength <if [Marriage with Austria1] is constructed by anybody>",
+		
+		"[+6]% [Culture] <if [Marriage with Austria2] is constructed by anybody>",
+		"[+6]% [Science] <if [Marriage with Austria2] is constructed by anybody>",
+		"[+6]% [Production] [in all cities] <if [Marriage with Austria2] is constructed by anybody>",
+		"[+6]% Strength <if [Marriage with Austria2] is constructed by anybody>",
+		
+		"[+6]% [Culture] <if [Marriage with Austria3] is constructed by anybody>",
+		"[+6]% [Science] <if [Marriage with Austria3] is constructed by anybody>",
+		"[+6]% [Production] [in all cities] <if [Marriage with Austria3] is constructed by anybody>",
+		"[+6]% Strength <if [Marriage with Austria3] is constructed by anybody>",
+		
+		"[+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
@@ -1354,6 +1395,40 @@
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
 			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
 		],
+        "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
+    },
+	{
+		"name": "Franks",
+		"leaderName": "Leader",
+		"adjective": ["Franks"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Franks",
+
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [124,10,2],
+        "innerColor": [212,175,55],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Verdun Legacy",
+		"uniqueText": "[+2 [Culture] for every Cities when number of Adopted Policies is less than or equal to twice the Era number\n+1 [Happiness], +2 [Faith] for every Cities when number of Adopted Policies is more than twice the Era number]",
+		"uniques": [
+		"[+2 Culture] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is less than [2*([Era number]+1)+1]>",
+		"[+1 Happiness, +2 Faith] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is more than [2*([Era number]+1)]>",
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Aachen", "Paris", "Tours", "Orléans", "Metz", "Reims", "Soissons", "Trier", "Cologne", "Mainz", "Worms", "Speyer", "Strasbourg", "Verdun", "Liège", "Nantes", "Rouen", "Toulouse", "Lyon", "Marseille", "Narbonne", "Poitiers", "Angers", "Dijon", "Besançon"]
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
         
     //美洲
@@ -1684,94 +1759,94 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Frequent Policies of Government Decrees",
-		"uniqueText": "Remove All Policies if their Policy branch is not completed and refund 95% of their cost upon entering a new era\n1 free [Great Artist] unit appear instead of free social policy",
+		"uniqueText": "Remove All Policies if their Policy branch is not completed and refund 105% of their cost upon entering a new era\n1 free [Great Artist] unit appear instead of free social policy",
 		"uniques": [
-		"Remove [Tradition] and refund [95]% of its cost <upon entering a new era> <after adopting [Tradition]> <before adopting [Tradition Complete]>", 
-		"Remove [Aristocracy] and refund [95]% of its cost <upon entering a new era> <after adopting [Aristocracy]> <before adopting [Tradition Complete]>", 
-		"Remove [Citizenship] and refund [95]% of its cost <upon entering a new era> <after adopting [Citizenship]> <before adopting [Tradition Complete]>", 
-		"Remove [Republic] and refund [95]% of its cost <upon entering a new era> <after adopting [Republic]> <before adopting [Tradition Complete]>", 
-		"Remove [Oligarchy] and refund [95]% of its cost <upon entering a new era> <after adopting [Oligarchy]> <before adopting [Tradition Complete]>", 
-		"Remove [Collective Rule] and refund [95]% of its cost <upon entering a new era> <after adopting [Collective Rule]> <before adopting [Tradition Complete]>", 
+		"Remove [Tradition] and refund [105]% of its cost <upon entering a new era> <after adopting [Tradition]> <before adopting [Tradition Complete]>", 
+		"Remove [Aristocracy] and refund [105]% of its cost <upon entering a new era> <after adopting [Aristocracy]> <before adopting [Tradition Complete]>", 
+		"Remove [Citizenship] and refund [105]% of its cost <upon entering a new era> <after adopting [Citizenship]> <before adopting [Tradition Complete]>", 
+		"Remove [Republic] and refund [105]% of its cost <upon entering a new era> <after adopting [Republic]> <before adopting [Tradition Complete]>", 
+		"Remove [Oligarchy] and refund [105]% of its cost <upon entering a new era> <after adopting [Oligarchy]> <before adopting [Tradition Complete]>", 
+		"Remove [Collective Rule] and refund [105]% of its cost <upon entering a new era> <after adopting [Collective Rule]> <before adopting [Tradition Complete]>", 
 		
-		"Remove [Feudalism1] and refund [95]% of its cost <upon entering a new era> <after adopting [Feudalism1]> <before adopting [Feudalism1 Complete]>", 
-		"Remove [Monarchy] and refund [95]% of its cost <upon entering a new era> <after adopting [Monarchy]> <before adopting [Feudalism1 Complete]>", 
-		"Remove [Lord-Vassal] and refund [95]% of its cost <upon entering a new era> <after adopting [Lord-Vassal]> <before adopting [Feudalism1 Complete]>", 
-		"Remove [Centralization] and refund [95]% of its cost <upon entering a new era> <after adopting [Centralization]> <before adopting [Feudalism1 Complete]>", 
-		"Remove [Military Caste] and refund [95]% of its cost <upon entering a new era> <after adopting [Military Caste]> <before adopting [Feudalism1 Complete]>", 
-		"Remove [Landed Elite] and refund [95]% of its cost <upon entering a new era> <after adopting [Landed Elite]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Feudalism1] and refund [105]% of its cost <upon entering a new era> <after adopting [Feudalism1]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Monarchy] and refund [105]% of its cost <upon entering a new era> <after adopting [Monarchy]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Lord-Vassal] and refund [105]% of its cost <upon entering a new era> <after adopting [Lord-Vassal]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Centralization] and refund [105]% of its cost <upon entering a new era> <after adopting [Centralization]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Military Caste] and refund [105]% of its cost <upon entering a new era> <after adopting [Military Caste]> <before adopting [Feudalism1 Complete]>", 
+		"Remove [Landed Elite] and refund [105]% of its cost <upon entering a new era> <after adopting [Landed Elite]> <before adopting [Feudalism1 Complete]>", 
 		
-		"Remove [Liberty] and refund [95]% of its cost <upon entering a new era> <after adopting [Liberty]> <before adopting [Liberty Complete]>", 
-		"Remove [Nationalism] and refund [95]% of its cost <upon entering a new era> <after adopting [Nationalism]> <before adopting [Liberty Complete]>", 
-		"Remove [Representation] and refund [95]% of its cost <upon entering a new era> <after adopting [Representation]> <before adopting [Liberty Complete]>", 
-		"Remove [Urbanization] and refund [95]% of its cost <upon entering a new era> <after adopting [Urbanization]> <before adopting [Liberty Complete]>", 
-		"Remove [Meritocracy] and refund [95]% of its cost <upon entering a new era> <after adopting [Meritocracy]> <before adopting [Liberty Complete]>", 
-		"Remove [Imperialism] and refund [95]% of its cost <upon entering a new era> <after adopting [Imperialism]> <before adopting [Liberty Complete]>", 
+		"Remove [Liberty] and refund [105]% of its cost <upon entering a new era> <after adopting [Liberty]> <before adopting [Liberty Complete]>", 
+		"Remove [Nationalism] and refund [105]% of its cost <upon entering a new era> <after adopting [Nationalism]> <before adopting [Liberty Complete]>", 
+		"Remove [Representation] and refund [105]% of its cost <upon entering a new era> <after adopting [Representation]> <before adopting [Liberty Complete]>", 
+		"Remove [Urbanization] and refund [105]% of its cost <upon entering a new era> <after adopting [Urbanization]> <before adopting [Liberty Complete]>", 
+		"Remove [Meritocracy] and refund [105]% of its cost <upon entering a new era> <after adopting [Meritocracy]> <before adopting [Liberty Complete]>", 
+		"Remove [Imperialism] and refund [105]% of its cost <upon entering a new era> <after adopting [Imperialism]> <before adopting [Liberty Complete]>", 
 		
-		"Remove [Autocracy] and refund [95]% of its cost <upon entering a new era> <after adopting [Autocracy]> <before adopting [Autocracy Complete]>", 
-		"Remove [Police State] and refund [95]% of its cost <upon entering a new era> <after adopting [Police State]> <before adopting [Autocracy Complete]>", 
-		"Remove [Militarism] and refund [95]% of its cost <upon entering a new era> <after adopting [Militarism]> <before adopting [Autocracy Complete]>", 
-		"Remove [Hate Propaganda] and refund [95]% of its cost <upon entering a new era> <after adopting [Hate Propaganda]> <before adopting [Autocracy Complete]>", 
-		"Remove [Military Chemical Industry] and refund [95]% of its cost <upon entering a new era> <after adopting [Military Chemical Industry]> <before adopting [Autocracy Complete]>", 
-		"Remove [Fascism] and refund [95]% of its cost <upon entering a new era> <after adopting [Fascism]> <before adopting [Autocracy Complete]>", 
-		"Remove [Total War] and refund [95]% of its cost <upon entering a new era> <after adopting [Total War]> <before adopting [Autocracy Complete]>", 
+		"Remove [Autocracy] and refund [105]% of its cost <upon entering a new era> <after adopting [Autocracy]> <before adopting [Autocracy Complete]>", 
+		"Remove [Police State] and refund [105]% of its cost <upon entering a new era> <after adopting [Police State]> <before adopting [Autocracy Complete]>", 
+		"Remove [Militarism] and refund [105]% of its cost <upon entering a new era> <after adopting [Militarism]> <before adopting [Autocracy Complete]>", 
+		"Remove [Hate Propaganda] and refund [105]% of its cost <upon entering a new era> <after adopting [Hate Propaganda]> <before adopting [Autocracy Complete]>", 
+		"Remove [Military Chemical Industry] and refund [105]% of its cost <upon entering a new era> <after adopting [Military Chemical Industry]> <before adopting [Autocracy Complete]>", 
+		"Remove [Fascism] and refund [105]% of its cost <upon entering a new era> <after adopting [Fascism]> <before adopting [Autocracy Complete]>", 
+		"Remove [Total War] and refund [105]% of its cost <upon entering a new era> <after adopting [Total War]> <before adopting [Autocracy Complete]>", 
 		
-		"Remove [Freedom] and refund [95]% of its cost <upon entering a new era> <after adopting [Freedom]> <before adopting [Freedom Complete]>", 
-		"Remove [Constitution] and refund [95]% of its cost <upon entering a new era> <after adopting [Constitution]> <before adopting [Freedom Complete]>", 
-		"Remove [Universal Suffrage] and refund [95]% of its cost <upon entering a new era> <after adopting [Universal Suffrage]> <before adopting [Freedom Complete]>", 
-		"Remove [Civil Society] and refund [95]% of its cost <upon entering a new era> <after adopting [Civil Society]> <before adopting [Freedom Complete]>", 
-		"Remove [Free Speech] and refund [95]% of its cost <upon entering a new era> <after adopting [Free Speech]> <before adopting [Freedom Complete]>", 
-		"Remove [Democracy] and refund [95]% of its cost <upon entering a new era> <after adopting [Democracy]> <before adopting [Freedom Complete]>", 
-		"Remove [Neoliberalism] and refund [95]% of its cost <upon entering a new era> <after adopting [Neoliberalism]> <before adopting [Freedom Complete]>", 
+		"Remove [Freedom] and refund [105]% of its cost <upon entering a new era> <after adopting [Freedom]> <before adopting [Freedom Complete]>", 
+		"Remove [Constitution] and refund [105]% of its cost <upon entering a new era> <after adopting [Constitution]> <before adopting [Freedom Complete]>", 
+		"Remove [Universal Suffrage] and refund [105]% of its cost <upon entering a new era> <after adopting [Universal Suffrage]> <before adopting [Freedom Complete]>", 
+		"Remove [Civil Society] and refund [105]% of its cost <upon entering a new era> <after adopting [Civil Society]> <before adopting [Freedom Complete]>", 
+		"Remove [Free Speech] and refund [105]% of its cost <upon entering a new era> <after adopting [Free Speech]> <before adopting [Freedom Complete]>", 
+		"Remove [Democracy] and refund [105]% of its cost <upon entering a new era> <after adopting [Democracy]> <before adopting [Freedom Complete]>", 
+		"Remove [Neoliberalism] and refund [105]% of its cost <upon entering a new era> <after adopting [Neoliberalism]> <before adopting [Freedom Complete]>", 
 		
-		"Remove [Order] and refund [95]% of its cost <upon entering a new era> <after adopting [Order]> <before adopting [Order Complete]>", 
-		"Remove [United Front] and refund [95]% of its cost <upon entering a new era> <after adopting [United Front]> <before adopting [Order Complete]>", 
-		"Remove [Planned Economy] and refund [95]% of its cost <upon entering a new era> <after adopting [Planned Economy]> <before adopting [Order Complete]>", 
-		"Remove [Populism] and refund [95]% of its cost <upon entering a new era> <after adopting [Populism]> <before adopting [Order Complete]>", 
-		"Remove [Socialism] and refund [95]% of its cost <upon entering a new era> <after adopting [Socialism]> <before adopting [Order Complete]>", 
-		"Remove [The Five-Year Plan] and refund [95]% of its cost <upon entering a new era> <after adopting [The Five-Year Plan]> <before adopting [Order Complete]>", 
-		"Remove [Communism] and refund [95]% of its cost <upon entering a new era> <after adopting [Communism]> <before adopting [Order Complete]>", 
+		"Remove [Order] and refund [105]% of its cost <upon entering a new era> <after adopting [Order]> <before adopting [Order Complete]>", 
+		"Remove [United Front] and refund [105]% of its cost <upon entering a new era> <after adopting [United Front]> <before adopting [Order Complete]>", 
+		"Remove [Planned Economy] and refund [105]% of its cost <upon entering a new era> <after adopting [Planned Economy]> <before adopting [Order Complete]>", 
+		"Remove [Populism] and refund [105]% of its cost <upon entering a new era> <after adopting [Populism]> <before adopting [Order Complete]>", 
+		"Remove [Socialism] and refund [105]% of its cost <upon entering a new era> <after adopting [Socialism]> <before adopting [Order Complete]>", 
+		"Remove [The Five-Year Plan] and refund [105]% of its cost <upon entering a new era> <after adopting [The Five-Year Plan]> <before adopting [Order Complete]>", 
+		"Remove [Communism] and refund [105]% of its cost <upon entering a new era> <after adopting [Communism]> <before adopting [Order Complete]>", 
 		
-		"Remove [Rationalism] and refund [95]% of its cost <upon entering a new era> <after adopting [Rationalism]> <before adopting [Rationalism Complete]>", 
-		"Remove [Secularism] and refund [95]% of its cost <upon entering a new era> <after adopting [Secularism]> <before adopting [Rationalism Complete]>", 
-		"Remove [Humanism] and refund [95]% of its cost <upon entering a new era> <after adopting [Humanism]> <before adopting [Rationalism Complete]>", 
-		"Remove [Free Thought] and refund [95]% of its cost <upon entering a new era> <after adopting [Free Thought]> <before adopting [Rationalism Complete]>", 
-		"Remove [Sovereignty] and refund [95]% of its cost <upon entering a new era> <after adopting [Sovereignty]> <before adopting [Rationalism Complete]>", 
-		"Remove [Scientific Revolution] and refund [95]% of its cost <upon entering a new era> <after adopting [Scientific Revolution]> <before adopting [Rationalism Complete]>", 
+		"Remove [Rationalism] and refund [105]% of its cost <upon entering a new era> <after adopting [Rationalism]> <before adopting [Rationalism Complete]>", 
+		"Remove [Secularism] and refund [105]% of its cost <upon entering a new era> <after adopting [Secularism]> <before adopting [Rationalism Complete]>", 
+		"Remove [Humanism] and refund [105]% of its cost <upon entering a new era> <after adopting [Humanism]> <before adopting [Rationalism Complete]>", 
+		"Remove [Free Thought] and refund [105]% of its cost <upon entering a new era> <after adopting [Free Thought]> <before adopting [Rationalism Complete]>", 
+		"Remove [Sovereignty] and refund [105]% of its cost <upon entering a new era> <after adopting [Sovereignty]> <before adopting [Rationalism Complete]>", 
+		"Remove [Scientific Revolution] and refund [105]% of its cost <upon entering a new era> <after adopting [Scientific Revolution]> <before adopting [Rationalism Complete]>", 
 		
-		"Remove [Industrial] and refund [95]% of its cost <upon entering a new era> <after adopting [Industrial]> <before adopting [Industrial Complete]>", 
-		"Remove [Price Scissors] and refund [95]% of its cost <upon entering a new era> <after adopting [Price Scissors]> <before adopting [Industrial Complete]>", 
-		"Remove [Industrialism] and refund [95]% of its cost <upon entering a new era> <after adopting [Industrialism]> <before adopting [Industrial Complete]>", 
-		"Remove [Agglomeration Planning] and refund [95]% of its cost <upon entering a new era> <after adopting [Agglomeration Planning]> <before adopting [Industrial Complete]>", 
-		"Remove [Rural Population Migration] and refund [95]% of its cost <upon entering a new era> <after adopting [Rural Population Migration]> <before adopting [Industrial Complete]>", 
-		"Remove [Sustainable Development] and refund [95]% of its cost <upon entering a new era> <after adopting [Sustainable Development]> <before adopting [Industrial Complete]>", 
+		"Remove [Industrial] and refund [105]% of its cost <upon entering a new era> <after adopting [Industrial]> <before adopting [Industrial Complete]>", 
+		"Remove [Price Scissors] and refund [105]% of its cost <upon entering a new era> <after adopting [Price Scissors]> <before adopting [Industrial Complete]>", 
+		"Remove [Industrialism] and refund [105]% of its cost <upon entering a new era> <after adopting [Industrialism]> <before adopting [Industrial Complete]>", 
+		"Remove [Agglomeration Planning] and refund [105]% of its cost <upon entering a new era> <after adopting [Agglomeration Planning]> <before adopting [Industrial Complete]>", 
+		"Remove [Rural Population Migration] and refund [105]% of its cost <upon entering a new era> <after adopting [Rural Population Migration]> <before adopting [Industrial Complete]>", 
+		"Remove [Sustainable Development] and refund [105]% of its cost <upon entering a new era> <after adopting [Sustainable Development]> <before adopting [Industrial Complete]>", 
 		
-		"Remove [Patronage] and refund [95]% of its cost <upon entering a new era> <after adopting [Patronage]> <before adopting [Patronage Complete]>", 
-		"Remove [Philantropy] and refund [95]% of its cost <upon entering a new era> <after adopting [Philantropy]> <before adopting [Patronage Complete]>", 
-		"Remove [Aesthetics] and refund [95]% of its cost <upon entering a new era> <after adopting [Aesthetics]> <before adopting [Patronage Complete]>", 
-		"Remove [Scholasticism] and refund [95]% of its cost <upon entering a new era> <after adopting [Scholasticism]> <before adopting [Patronage Complete]>", 
-		"Remove [Cultural Diplomacy] and refund [95]% of its cost <upon entering a new era> <after adopting [Cultural Diplomacy]> <before adopting [Patronage Complete]>", 
-		"Remove [Educated Elite] and refund [95]% of its cost <upon entering a new era> <after adopting [Educated Elite]> <before adopting [Patronage Complete]>", 
+		"Remove [Patronage] and refund [105]% of its cost <upon entering a new era> <after adopting [Patronage]> <before adopting [Patronage Complete]>", 
+		"Remove [Philantropy] and refund [105]% of its cost <upon entering a new era> <after adopting [Philantropy]> <before adopting [Patronage Complete]>", 
+		"Remove [Aesthetics] and refund [105]% of its cost <upon entering a new era> <after adopting [Aesthetics]> <before adopting [Patronage Complete]>", 
+		"Remove [Scholasticism] and refund [105]% of its cost <upon entering a new era> <after adopting [Scholasticism]> <before adopting [Patronage Complete]>", 
+		"Remove [Cultural Diplomacy] and refund [105]% of its cost <upon entering a new era> <after adopting [Cultural Diplomacy]> <before adopting [Patronage Complete]>", 
+		"Remove [Educated Elite] and refund [105]% of its cost <upon entering a new era> <after adopting [Educated Elite]> <before adopting [Patronage Complete]>", 
 		
-		"Remove [Commerce] and refund [95]% of its cost <upon entering a new era> <after adopting [Commerce]> <before adopting [Commerce Complete]>", 
-		"Remove [Naval Tradition] and refund [95]% of its cost <upon entering a new era> <after adopting [Naval Tradition]> <before adopting [Commerce Complete]>", 
-		"Remove [Mercantilism] and refund [95]% of its cost <upon entering a new era> <after adopting [Mercantilism]> <before adopting [Commerce Complete]>", 
-		"Remove [Trade Unions] and refund [95]% of its cost <upon entering a new era> <after adopting [Trade Unions]> <before adopting [Commerce Complete]>", 
-		"Remove [Merchant Navy] and refund [95]% of its cost <upon entering a new era> <after adopting [Merchant Navy]> <before adopting [Commerce Complete]>", 
-		"Remove [Protectionism] and refund [95]% of its cost <upon entering a new era> <after adopting [Protectionism]> <before adopting [Commerce Complete]>", 
+		"Remove [Commerce] and refund [105]% of its cost <upon entering a new era> <after adopting [Commerce]> <before adopting [Commerce Complete]>", 
+		"Remove [Naval Tradition] and refund [105]% of its cost <upon entering a new era> <after adopting [Naval Tradition]> <before adopting [Commerce Complete]>", 
+		"Remove [Mercantilism] and refund [105]% of its cost <upon entering a new era> <after adopting [Mercantilism]> <before adopting [Commerce Complete]>", 
+		"Remove [Trade Unions] and refund [105]% of its cost <upon entering a new era> <after adopting [Trade Unions]> <before adopting [Commerce Complete]>", 
+		"Remove [Merchant Navy] and refund [105]% of its cost <upon entering a new era> <after adopting [Merchant Navy]> <before adopting [Commerce Complete]>", 
+		"Remove [Protectionism] and refund [105]% of its cost <upon entering a new era> <after adopting [Protectionism]> <before adopting [Commerce Complete]>", 
 		
-		"Remove [Piety] and refund [95]% of its cost <upon entering a new era> <after adopting [Piety]> <before adopting [Piety Complete]>", 
-		"Remove [Organized Religion] and refund [95]% of its cost <upon entering a new era> <after adopting [Organized Religion]> <before adopting [Piety Complete]>", 
-		"Remove [Mandate Of Heaven] and refund [95]% of its cost <upon entering a new era> <after adopting [Mandate Of Heaven]> <before adopting [Piety Complete]>", 
-		"Remove [Theocracy] and refund [95]% of its cost <upon entering a new era> <after adopting [Theocracy]> <before adopting [Piety Complete]>", 
-		"Remove [Reformation] and refund [95]% of its cost <upon entering a new era> <after adopting [Reformation]> <before adopting [Piety Complete]>", 
-		"Remove [Free Religion] and refund [95]% of its cost <upon entering a new era> <after adopting [Free Religion]> <before adopting [Piety Complete]>", 
+		"Remove [Piety] and refund [105]% of its cost <upon entering a new era> <after adopting [Piety]> <before adopting [Piety Complete]>", 
+		"Remove [Organized Religion] and refund [105]% of its cost <upon entering a new era> <after adopting [Organized Religion]> <before adopting [Piety Complete]>", 
+		"Remove [Mandate Of Heaven] and refund [105]% of its cost <upon entering a new era> <after adopting [Mandate Of Heaven]> <before adopting [Piety Complete]>", 
+		"Remove [Theocracy] and refund [105]% of its cost <upon entering a new era> <after adopting [Theocracy]> <before adopting [Piety Complete]>", 
+		"Remove [Reformation] and refund [105]% of its cost <upon entering a new era> <after adopting [Reformation]> <before adopting [Piety Complete]>", 
+		"Remove [Free Religion] and refund [105]% of its cost <upon entering a new era> <after adopting [Free Religion]> <before adopting [Piety Complete]>", 
 		
-		"Remove [Honor] and refund [95]% of its cost <upon entering a new era> <after adopting [Honor]> <before adopting [Honor Complete]>", 
-		"Remove [Military Reclamation System] and refund [95]% of its cost <upon entering a new era> <after adopting [Military Reclamation System]> <before adopting [Honor Complete]>", 
-		"Remove [Warrior Code] and refund [95]% of its cost <upon entering a new era> <after adopting [Warrior Code]> <before adopting [Honor Complete]>", 
-		"Remove [Discipline] and refund [95]% of its cost <upon entering a new era> <after adopting [Discipline]> <before adopting [Honor Complete]>", 
-		"Remove [Military Tradition] and refund [95]% of its cost <upon entering a new era> <after adopting [Military Tradition]> <before adopting [Honor Complete]>", 
-		"Remove [Professional Army] and refund [95]% of its cost <upon entering a new era> <after adopting [Professional Army]> <before adopting [Honor Complete]>", 
+		"Remove [Honor] and refund [105]% of its cost <upon entering a new era> <after adopting [Honor]> <before adopting [Honor Complete]>", 
+		"Remove [Military Reclamation System] and refund [105]% of its cost <upon entering a new era> <after adopting [Military Reclamation System]> <before adopting [Honor Complete]>", 
+		"Remove [Warrior Code] and refund [105]% of its cost <upon entering a new era> <after adopting [Warrior Code]> <before adopting [Honor Complete]>", 
+		"Remove [Discipline] and refund [105]% of its cost <upon entering a new era> <after adopting [Discipline]> <before adopting [Honor Complete]>", 
+		"Remove [Military Tradition] and refund [105]% of its cost <upon entering a new era> <after adopting [Military Tradition]> <before adopting [Honor Complete]>", 
+		"Remove [Professional Army] and refund [105]% of its cost <upon entering a new era> <after adopting [Professional Army]> <before adopting [Honor Complete]>", 
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Santiago", "La Serena", "Valparaíso", "Concepción", "Temuco", "Valdivia", "Iquique", "Arica", "Calama", "Antofagasta", "Punta Arenas", "Puerto Montt", "Viña del Mar", "Rancagua", "Talca", "Chillán", "La Calera", "San Pedro de Atacama", "Osorno", "Coquimbo", "Ovalle"],
@@ -1803,8 +1878,8 @@
 		"outerColor": [0,133,61],
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
-		"uniqueText": "[[-15]% maintenance cost for [All] buildings [in all cities]]\n[[[-15]% maintenance costs] [for [Military] units]]\n[[-15]% Unhappiness from [Population] [in all cities]]"
-		"uniques": ["[-15]% maintenance cost for [All] buildings [in all cities]", "[-15]% maintenance costs <for [Military] units>", "[-15]% Unhappiness from [Population] [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[Instantly gain 5 Stored Food and 5 [Gold] upon constructing Buildings for every 1 Era number [(modified by game speed)]]"
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -1834,8 +1909,8 @@
 		"innerColor": [180, 142, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
-		"uniqueText": "[[+20]% Production when constructing [All] wonders [in all cities]]\n[[+1 Food] in cities on [River] tiles]"
-		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", "[+1 Food] in cities on [River] tiles"
+		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 66% for each owned World Wonder building]\n[+2 / +2% [Faith] for every National / World Wonder]"
+		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+66]% <for every [[World Wonder] Buildings]>", "[+2 Faith] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
@@ -2182,11 +2257,11 @@
         "innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Southern Continent",
-		"uniqueText": "[Gain control over [Open terrain] / [Rough terrain] tiles in a 1-tile radius for [Pasture] / [Mine]]\n[+1 [Science] / [Culture] for every 10 Owned [Open terrain] / [Rough terrain] Tiles]\n[[+100]% [Iron] resource production]",
+		"uniqueText": "[Gain control over [Rough terrain] tiles in a 1-tile radius for [Mine]]\n[[-50]% construction time for [Mine] improvements]\n[+1 [Science] / [Culture] for every 8 Owned [Open terrain] / [Rough terrain] Tiles]",
 		"uniques": [
 		"[+1 Science] <for every [10] [Owned [Open terrain] Tiles]>",
 		"[+1 Culture] <for every [10] [Owned [Rough terrain] Tiles]>", 
-		"[+100]% [Iron] resource production",
+		"[-50]% construction time for [Mine] improvements",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]

@@ -2036,5 +2036,69 @@
 		"Industrial": 4,
 		"Rationalism": 4
 	}
+},
+{
+	"name": "Cambodia",
+	"production": 3,
+	"food": 6,
+	"gold": 4,
+	"science": 3,
+	"culture": 6,
+	"happiness": 5,
+	"faith": 9,
+	"military": 5,
+	"aggressive": 5,
+	"declareWar": 5,
+	"commerce": 5,
+	"diplomacy": 5,
+	"loyal": 7,
+	"expansion": 5,
+	"priorities": {
+		"Tradition": 5,
+		"Feudalism1": 8,
+		"Liberty": 4,
+		"Autocracy": 5,
+		"Freedom": 5,
+		"Order": 7,
+
+		"Honor": 5,
+		"Piety": 8,
+		"Commerce": 4,
+		"Patronage": 4,
+		"Industrial": 4,
+		"Rationalism": 4
+	}
+},
+{
+	"name": "Franks",
+	"production": 5,
+	"food": 5,
+	"gold": 5,
+	"science": 3,
+	"culture": 7,
+	"happiness": 6,
+	"faith": 6,
+	"military": 5,
+	"aggressive": 6,
+	"declareWar": 7,
+	"commerce": 5,
+	"diplomacy": 5,
+	"loyal": 7,
+	"expansion": 7,
+	"priorities": {
+		"Tradition": 8,
+		"Feudalism1": 8,
+		"Liberty": 4,
+		"Autocracy": 7,
+		"Freedom": 5,
+		"Order": 3,
+
+		"Honor": 5,
+		"Piety": 5,
+		"Commerce": 5,
+		"Patronage": 5,
+		"Industrial": 5,
+		"Rationalism": 5
+	}
 }
 ]

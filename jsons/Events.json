@@ -48,6 +48,15 @@
                 ],
                 "uniques": ["Gain a free [Heavily in Debt] [in capital] <hidden from users>", "Only available <if [Heavily in Debt] is not constructed>"],
             },             
+            {
+                "text": "Deliberate Work Slowdown",
+                "civilopediaText": [
+                    {
+                    "text": "[Can build [all] improvements at a [-50]% rate]"
+                    }
+                ],
+                "uniques": ["Gain a free [Deliberate Work Slowdown] [in capital] <hidden from users>", "Only available <if [Deliberate Work Slowdown] is not constructed>"],
+            },             
         ]
     },
     {
