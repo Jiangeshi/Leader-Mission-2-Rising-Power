@@ -2710,7 +2710,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Culture] from [{unimproved} {Luxury resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Culture] from [{improved} {Luxury resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 			
 	// 印加
 	},
