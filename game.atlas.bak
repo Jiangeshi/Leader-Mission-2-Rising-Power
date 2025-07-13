@@ -3796,7 +3796,7 @@ UnitIcons/Zoroaster
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Cowboy Cavalry
+UnitIcons/Cowboy Cavalry
   rotate: false
   xy: 1646, 1615
   size: 85, 85

@@ -358,6 +358,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+		"Ensures a minimum tile yield of [+3 Food, +2 Production]<in [in capital] cities>",
 	    "Ensures a minimum tile yield of [+2 Food, +2 Production] <in [Hill] tiles>",
 		"Ensures a minimum tile yield of [+1 Food, +3 Production] <in [Plains] tiles> <in tiles without [Hill]>",
 		"Ensures a minimum tile yield of [+3 Food, +1 Production] <in [Grassland] tiles> <in tiles without [Hill]>",

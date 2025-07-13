@@ -23,7 +23,7 @@
     {
         "name": "God of Abundance",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Bonus resource]"],
+        "uniques": ["[+1 Faith] from every [{Land} {Bonus resource}]"],
     },
     {
         "name": "Heart of Fire",
