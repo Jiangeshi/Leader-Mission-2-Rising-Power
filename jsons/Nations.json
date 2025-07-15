@@ -1618,7 +1618,7 @@
 		"innerColor": [253,213,17],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Caribbean Alligator",
-		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[May Paradrop to [All] tiles up to [2] tiles away] [for [Foot Soldier] units]]",
+		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[May Paradrop to [non-[Enemy]] tiles up to [2] tiles away] [for [Foot Soldier] units]]",
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  

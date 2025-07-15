@@ -759,7 +759,7 @@
         },
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
-            "[+1 Culture] from every [Shrine]",
+            "[+1 Culture, +1 Faith] from every [Shrine]",
             "[+75]% Production when constructing [Shrine] buildings [in all cities]",
         ],
         "policies": [
@@ -775,7 +775,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": ["May buy [Worker] units with [Faith] for [3] times their normal Production cost",
-        "May buy [Settler] units with [Faith] for [3] times their normal Production cost"],
+        "May buy [Settler] units with [Faith] for [3] times their normal Production cost", "[Faith] cost of purchasing items in cities [-10]%"],
                 "row": 1,
                 "column": 5
             },
@@ -809,7 +809,7 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-25]%",
+                    "[Faith] cost of purchasing items in cities [-15]%",
                     "[+3 Gold, +3 Culture] from every [Holy site]",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]

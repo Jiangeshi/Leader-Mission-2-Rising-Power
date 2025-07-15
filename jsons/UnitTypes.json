@@ -58,7 +58,7 @@
         "movementType": "Land"
         "uniques":[
         "May attack when embarked",
-        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>", "May Paradrop to [All] tiles up to [2] tiles away <for [Cuba] Civilizations> <hidden from users>"
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations> <hidden from users>", "May Paradrop to [non-[Enemy]] tiles up to [2] tiles away <for [Cuba] Civilizations> <hidden from users>"
         "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
         "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations> <hidden from users>",  
