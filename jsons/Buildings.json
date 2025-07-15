@@ -12,6 +12,17 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	
+	// 传统关门效果
+	{
+		"name": "Tradition Complete Buff",
+        "maintenance": 0,
+        "cost": 10000,
+		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable",
+		"Instantly gain [30] [Stored Food] <(modified by game speed)>", 
+		"Will not be displayed in Civilopedia"
+		]
+	}
+	
 	// 地狱debuff
 	{
 		"name": "To the Hell",
@@ -350,7 +361,7 @@
         "cost": 5000,
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
-		"Instantly gain [30] [Stored Food] <(modified by game speed)> <upon adopting [Tradition Complete]>",
+		
 		"Instantly gain [5] [Stored Food] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
 		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
 		]	
@@ -2037,8 +2048,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)]\n[Free [Worker] appears]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]	
+		"replacementTextForUniques": "[+1 [Happiness], +1 [Culture] from every Civilian Units(Upper limit: 8)]\n[Free [Worker] appears at the end of turn 8]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Peter]>", "Free [Worker] appears <after turn number [8]> <before turn number [9]> <upon turn end>","[+1 Happiness, +1 Culture] <for every [[Civilian] Units]> <when number of [[Civilian] Units] is between [1] and [8]>", "[+8 Happiness, +8 Culture] <when number of [[Civilian] Units] is more than [8]>"]	
 	},
 	{
 		"name": "Lavra Monastery",
@@ -2415,7 +2426,6 @@
 	{
 		"name": "Basilica Di San Pietro In Vaticano",
 		"isNationalWonder": true,
-		"food": 1,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
@@ -2632,7 +2642,7 @@
 	{	
         "name": "Marriage with Austria1",
 		"cost":1,
-		"replacementTextForUniques": "[Unsellable]\n[[+5]% [Culture]]\n[[+5]% [Science]]\n[[+5]% Strength]",
+		"replacementTextForUniques": "[Unsellable]\n[[+6]% [Culture]]\n[[+6]% [Science]]\n[[+6]% Strength]",
 		"uniques": [
 		"Marriage with Austria",
 		"Can only be built <in [in capital] cities>",
@@ -2641,14 +2651,15 @@
 		"Automatically built in all cities where it is buildable", "Unsellable",
 		"Remove [Marriage with Austria1] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
 		
-		"[+5]% [Culture]", 
-		"[+5]% [Science]",
-		"[+5]% Strength"
+		"[+6]% [Culture]", 
+		"[+6]% [Science]",
+		"[+6]% Strength"
 		]
 	},
 	{	
         "name": "Marriage with Austria2",
 		"cost":1,
+		"replacementTextForUniques": "[Unsellable]\n[[+6]% [Culture]]\n[[+6]% [Science]]\n[[+6]% Strength]",
 		"uniques": [
 		"Marriage with Austria",
 		"Can only be built <in [in capital] cities>",
@@ -2658,14 +2669,15 @@
 		"Automatically built in all cities where it is buildable", "Unsellable",
 		"Remove [Marriage with Austria2] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
 		
-		"[+5]% [Culture]", 
-		"[+5]% [Science]",
-		"[+5]% Strength"
+		"[+6]% [Culture]", 
+		"[+6]% [Science]",
+		"[+6]% Strength"
 		]
 	},
 	{	
         "name": "Marriage with Austria3",
 		"cost":1,
+		"replacementTextForUniques": "[Unsellable]\n[[+6]% [Culture]]\n[[+6]% [Science]]\n[[+6]% Strength]",
 		"uniques": [
 		"Marriage with Austria",
 		"Can only be built <in [in capital] cities>",
@@ -2675,9 +2687,9 @@
 		"Automatically built in all cities where it is buildable", "Unsellable",
 		"Remove [Marriage with Austria3] [in all cities] <upon turn start> <when number of [Marriage Point] is equal to [0]>",
 		
-		"[+5]% [Culture]", 
-		"[+5]% [Science]",
-		"[+5]% Strength"
+		"[+6]% [Culture]", 
+		"[+6]% [Science]",
+		"[+6]% Strength"
 		]
 	},
 	{
@@ -2826,8 +2838,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Cuba",
-		"replacementTextForUniques": "[[+1 Production] from all [Gold] buildings]\n[[+1 Gold, +1 Happiness] from all [Production] buildings]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Che Guevara]>", "[+1 Production] from all [Gold] buildings", "[+1 Gold, +1 Happiness] from all [Production] buildings"]
+		"replacementTextForUniques": "[[+1 Production] from all [Gold] buildings]\n[[+1 Gold] from all [Production] buildings]\n[[[+1 Happiness] from all [Production] buildings] [in this city]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Che Guevara]>", "[+1 Production] from all [Gold] buildings", "[+1 Gold] from all [Production] buildings", "[+1 Happiness] from all [Production] buildings <in this city>"]
 	},
 	{
 		"name": "Cuban Capitol",

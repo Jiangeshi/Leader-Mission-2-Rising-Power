@@ -1815,6 +1815,13 @@ BuildingIcons/Timur
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Tradition Complete Buff
+  rotate: false
+  xy: 140, 310
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Trouble Times Heroes
   rotate: false
   xy: 140, 310
@@ -2957,6 +2964,27 @@ ResourceIcons/Kelp
   offset: 0, 0
   index: -1
 ResourceIcons/Marriage Point
+  rotate: false
+  xy: 260, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Marriage with Austria1
+  rotate: false
+  xy: 260, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Marriage with Austria2
+  rotate: false
+  xy: 260, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Marriage with Austria3
   rotate: false
   xy: 260, 910
   size: 100, 100

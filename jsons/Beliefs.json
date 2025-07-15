@@ -146,13 +146,7 @@
         "name": "Miracle",
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-    },
-    {
-        "name": "Religious Immigrants",
-        "type": "Pantheon",
-        "uniques": [
-        "May buy [Worker] units with [Faith] for [3] times their normal Production cost",
-        "May buy [Settler] units with [Faith] for [3] times their normal Production cost"]
+
         
     //创建者词条
     },

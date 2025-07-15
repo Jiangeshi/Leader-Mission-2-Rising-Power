@@ -413,12 +413,12 @@
 		
 		"Comment [[+1 Production] [for every adjacent [{improved} {Strategic resource}]]]",
 		
-		"[+1 Production] <for every adjacent [{improved} {Horses}]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Iron}]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Coal}]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Oil}]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Aluminum}]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Horses}]> <after discovering [Animal Husbandry]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Iron}]> <after discovering [Iron Working]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Coal}]> <after discovering [Chemistry]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Oil}]> <after discovering [Biology]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Aluminum}]> <after discovering [Electricity]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <after discovering [Atomic Theory]> <hidden from users>",
 		
 	],
 	},

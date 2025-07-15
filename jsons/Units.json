@@ -434,7 +434,7 @@
 		"strength": 65,
 		"cost": 620,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"attackSound": "shot"	
 	},
 	{
@@ -446,7 +446,7 @@
 		"strength": 70,
 		"cost": 620,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"attackSound": "shot"			
 	},
 	{
@@ -1133,6 +1133,7 @@
 		"strength": 100,
 		"cost": 770,
 		"requiredTech": "Mobile Tactics",
+		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Costs [20] [Aluminum]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [1] [Aluminum]> <for [2] movement>"],
 		"attackSound": "tankshot"	
 	},

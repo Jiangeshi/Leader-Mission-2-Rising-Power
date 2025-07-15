@@ -65,7 +65,8 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[15]% Food is carried over after population increases [in all cities]",
-                    "Comment [[in all cities] [Instantly gain [30] [Stored Food]] [(modified by game speed)]]"
+                    "Comment [[in all cities] [Instantly gain [30] [Stored Food]] [(modified by game speed)]]",
+                    "Gain a free [Tradition Complete Buff] [in all cities] <hidden from users>"
                 ]
             }
         ]
@@ -765,7 +766,7 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Temple]",
+                    "[+1 Faith, +1 Happiness] from every [Temple]",
                     "[+75]% Production when constructing [Temple] buildings [in all cities]",
                 ],
                 "row": 1,
@@ -773,7 +774,8 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[75]% of excess happiness converted to [Faith]", "[+1 Happiness] from every [Shrine]"],
+                "uniques": ["May buy [Worker] units with [Faith] for [3] times their normal Production cost",
+        "May buy [Settler] units with [Faith] for [3] times their normal Production cost"],
                 "row": 1,
                 "column": 5
             },
