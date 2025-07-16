@@ -193,7 +193,7 @@
 		"Cost increases by [25] when built",
 		
 		"[-2]% [Food] [in this city]",
-	    "[+1 Production] from all [Production] buildings <in cities with a [City Level II]>", 
+	    "[+1 Production] from all [Production] buildings <in this city> <in cities with a [City Level II]>", 
 	    
 	    "[-2]% [Food] [in this city] <in cities with a [City Level III]>",
 	    "[+7]% [Production] [in this city] <in cities with a [City Level III]> <in cities with a [Workshop]>", 
