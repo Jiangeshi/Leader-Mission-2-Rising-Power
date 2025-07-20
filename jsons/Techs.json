@@ -178,6 +178,7 @@
 				"name": "Currency",
 				"row": 5,
 				"prerequisites": ["Horseback Riding"],
+				"uniques": ["Gain [600] [Gold] <if no other Civilization has researched this> <(modified by game speed)>"],
 				"quote": ""
 			},
 			{

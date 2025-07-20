@@ -138,8 +138,8 @@
 	{
 		"name": "Spa",
 		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
-		"gold": 2,
-		"science": 1,
+		"food": 1,
+		"science": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Drama and Poetry",
 		"uniques": ["Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>",
@@ -331,7 +331,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 5,
 		"uniques": ["Great Improvement", "Improves [all] resource in this tile", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
-		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>", "Will not be replaced by automated units", "[+1 Food] <for every adjacent [{non-[Great Improvements]} {Improvement}]> <for [Cambodia] Civilizations>",]
+		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>", "Will not be replaced by automated units", "[+1 Food] <for every adjacent [Improvement]> <for [Cambodia] Civilizations>",]
 	},
 	{
 		"name": "Citadel",

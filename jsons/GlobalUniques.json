@@ -1,6 +1,12 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 宗教
+    "[-15]% construction time for [All] improvements <after adopting [Miracle]>"
+    "[1] free [Missionary] units appear <after adopting [Religious Expansion]> <upon founding a Religion>",
+    "[1] free [Missionary] units appear <upon adopting [Religious Unity]>",
+    "[+1 Gold] <for every [20] [Faith]> <before turn number [51]><after adopting [Tithes]>", "[+1 Gold] <for every [30] [Faith]> <after turn number [50]><after adopting [Tithes]>"
+    
     // 地狱模式
     "Triggers a [Select Hell Difficulty Debuff] event <on [Hell] difficulty> <upon constructing [Palace]> <for [Human player] Civilizations>",
     "[+100]% Strength <for [AI player] Civilizations> <vs [Barbarian] units> <if [Totally Isolated] is constructed by anybody>", 

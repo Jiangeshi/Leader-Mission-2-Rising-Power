@@ -582,7 +582,7 @@
 		"innerColor": [239, 136, 55],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "King's Monastery",
-		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times]\n[[Holy site] +1 [Food] for every adjacent non-Great Improvements Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
+		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times]\n[[Holy site] +1 [Food] for every adjacent Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
 		"uniques": [
 		"[-50]% Yield from every [Holy site]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],

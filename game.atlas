@@ -1,3 +1,4 @@
+
 game.png
 size: 2048, 2048
 format: RGBA8888
@@ -196,6 +197,13 @@ BuildingIcons/City Level V
   xy: 1156, 1762
   size: 280, 280
   orig: 280, 280
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Abraham Lincoln
+  rotate: false
+  xy: 312, 918
+  size: 270, 270
+  orig: 270, 270
   offset: 0, 0
   index: -1
 BuildingIcons/Civilized Leader-Ahmed Yassin
@@ -913,6 +921,13 @@ BuildingIcons/Civilized Leader-Suming
   offset: 0, 0
   index: -1
 BuildingIcons/Civilized Leader-Sumu
+  rotate: false
+  xy: 312, 918
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+BuildingIcons/Civilized Leader-Sun Yat-sen
   rotate: false
   xy: 312, 918
   size: 270, 270

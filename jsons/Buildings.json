@@ -1653,6 +1653,14 @@
 		"uniqueTo": "China",
 		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[-50]% maintenance on road & railroads]"
 		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[-50]% maintenance on road & railroads"]	
+    },
+    {
+        "name": "Civilized Leader-Sun Yat-sen",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "China",
+	    "replacementTextForUniques": "[[-10]% construction time for [All] improvements]\n[[+15]% Production when constructing [All] buildings [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[-10]% construction time for [All] improvements", "[+15]% Production when constructing [All] buildings [in all cities]"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -2855,13 +2863,22 @@
 	// 美利坚
 	},
 	{	
+        "name": "Civilized Leader-Abraham Lincoln",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "America",
+		"specialistSlots": {"Artist": 1},
+		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+1 Production, +1 Culture] from every specialist [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+1 Production, +1 Culture] from every specialist [in all cities]"]
+	},
+	{	
         "name": "Civilized Leader-Theodore Roosevelt",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Engineer": 1},
 		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[+2 Culture, +1 Gold] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Culture, +1 Gold] from every specialist [in all cities]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+2 Culture, +1 Gold] from every specialist [in all cities]"]	
 	},
 	{	
         "name": "Civilized Leader-Franklin Delano Roosevelt",
@@ -2870,7 +2887,7 @@
 		"uniqueTo": "America",
 		"specialistSlots": {"Scientist": 1},
 		"replacementTextForUniques": "+1 [[Scientist] slots]\n[[+1 Production, +1 Science] from every specialist [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "[+1 Production, +1 Science] from every specialist [in all cities]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+1 Production, +1 Science] from every specialist [in all cities]"]	
 	
 	// 阿根廷
 	},

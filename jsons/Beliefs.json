@@ -140,12 +140,12 @@
     {
         "name": "Religious Expansion",
         "type": "Pantheon",
-        "uniques": ["[-50]% Culture cost of natural border growth [in all cities]"]
+        "uniques": ["[+2 Faith] [in capital]", "Comment [[[[1] free [Missionary] units appear] [upon founding a Religion]]]"]
     },
     {
         "name": "Miracle",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+        "uniques": ["Comment [[-15]% construction time for [All] improvements]"]
 
         
     //创建者词条
@@ -163,7 +163,7 @@
     {
         "name": "Nation Led by God",
         "type": "Founder",
-        "uniques": ["[+15 Faith] from every [Grand Temple]", "[+2 Culture] from every [Temple]"]
+        "uniques": ["[+1 Faith] from [improved] tiles [in holy cities]", "[+1 Culture] from every [Temple]"]
     },
     {
         "name": "Monotheism",
@@ -183,7 +183,7 @@
     {
         "name": "Popular Religion",
         "type": "Founder",
-        "uniques": ["[+1 Faith, +2 Culture] from every [Amphitheater]", "[+1 Food, +1 Gold] from every [Temple]"]
+        "uniques": ["[+1 Happiness] from all [Faith] buildings", "[100]% of excess happiness converted to [Faith]"]
     },
     {
         "name": "Feed the World",
@@ -198,12 +198,12 @@
     {
         "name": "Religious Syncretism",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [25] times the amount of followers of other religions as [Science]"]
+        "uniques": ["[+75 Culture, +75 Science] when a city adopts this religion for the first time <(modified by game speed)>"]
     },
     {
         "name": "Religious Unity",
         "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+40]"]
+        "uniques": ["Gain a free [Grand Temple] [in capital] <upon discovering [Nation] technology>", "Comment [[1] free [Missionary] units appear]"]
         
     //跟随者词条
     },
@@ -220,7 +220,7 @@
     {
         "name": "Tithes",
         "type": "Follower",
-        "uniques": ["[+3 Gold] from all [Faith] buildings"]    
+        "uniques": ["Comment [[+1 Gold] [for every [20] [Faith]] [before turn number [51]]]", "Comment [[+1 Gold] [for every [30] [Faith]] [after turn number [51]]]"]    
     },
     {
         "name": "Religious Community",
@@ -265,7 +265,7 @@
     {
         "name": "Atonement Certificate",
         "type": "Follower",
-        "uniques": ["[+4 Gold] from every [Great Improvement]"]    
+        "uniques": ["[+5 Gold] from every [Great Improvement]"]    
     },
     {
         "name": "Religious Painting",
@@ -300,7 +300,7 @@
     {
         "name": "Wonderland Garden",
         "type": "Follower",
-        "uniques": ["[+1 Food, +3 Faith] from every [Garden]"]    
+        "uniques": ["[+1 Faith] from every [Shrine]", "[+2 Food] from every [Temple]"]    
     },
     {
         "name": "Incense Fire Sacrifice",
@@ -310,7 +310,7 @@
     {
         "name": "Choral Chant",
         "type": "Follower",
-        "uniques": ["[+4 Faith] from every [Opera House]"]  
+        "uniques": ["[+1 Happiness, +1 Culture] from every [Shrine]", "[+1 Happiness, +1 Culture] from every [Temple]"]  
           
     //增强词条
     },
@@ -337,7 +337,7 @@
     {
         "name": "Religious Solidarity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+        "uniques": ["[+25]% Yield from every [Holy site]"]
     },
     {
         "name": "Religious Texts",
@@ -352,12 +352,12 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+        "uniques": ["Gain [150] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+40]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+40]% Spread Religion Strength <for [Missionary] units>", "[+40]% Spread Religion Strength <for [Great Prophet] units>"]
     },
     {
         "name": "Messiah",
