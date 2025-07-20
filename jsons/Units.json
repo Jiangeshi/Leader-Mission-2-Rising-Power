@@ -63,7 +63,6 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
-		"Founds a new puppet city <by consuming this unit>"
 		]
 		"attackSound": "nonmetalhit"
 	},
