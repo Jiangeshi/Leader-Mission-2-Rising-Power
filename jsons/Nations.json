@@ -2257,10 +2257,10 @@
         "innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Southern Continent",
-		"uniqueText": "[Gain control over [Rough terrain] tiles in a 1-tile radius for [Mine]]\n[[-50]% construction time for [Mine] improvements]\n[+1 [Science] / [Culture] for every 8 Owned [Open terrain] / [Rough terrain] Tiles]",
+		"uniqueText": "[Gain control over [Rough terrain] tiles in a 1-tile radius for [Mine]]\n[[-50]% construction time for [Mine] improvements]\n[+1 [Science] / [Culture] for every 5 Owned [Open terrain] / [Rough terrain] Tiles]",
 		"uniques": [
-		"[+1 Science] <for every [10] [Owned [Open terrain] Tiles]>",
-		"[+1 Culture] <for every [10] [Owned [Rough terrain] Tiles]>", 
+		"[+1 Science] <for every [5] [Owned [Open terrain] Tiles]>",
+		"[+1 Culture] <for every [5] [Owned [Rough terrain] Tiles]>", 
 		"[-50]% construction time for [Mine] improvements",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],
