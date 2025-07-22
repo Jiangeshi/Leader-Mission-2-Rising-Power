@@ -220,7 +220,7 @@
     {
         "name": "Tithes",
         "type": "Follower",
-        "uniques": ["Comment [[+1 Gold] [for every [20] [Faith]] [before turn number [51]]]", "Comment [[+1 Gold] [for every [30] [Faith]] [after turn number [51]]]"]    
+        "uniques": ["Comment [[+1 Gold] [for every [20] [Faith]] [before turn number [51]]]", "Comment [[+1 Gold] [for every [30] [Faith]] [after turn number [50]]]"]    
     },
     {
         "name": "Religious Community",

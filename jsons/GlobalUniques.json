@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+    "Requires establishing embassies to conduct advanced diplomacy",
     // 宗教
     "[-15]% construction time for [All] improvements <after adopting [Miracle]>"
     "[1] free [Missionary] units appear <after adopting [Religious Expansion]> <upon founding a Religion>",
@@ -153,5 +154,39 @@
     
     // 跨时代获取词条
     "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode(Recommended to enable)] Victory is enabled>",
+    ],
+    "unitUniques": [
+    // 全体修正
+        "May attack when embarked",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
+        "[This Unit] takes [50] damage <upon ending a turn in a [Mountain] tile>",
+        "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
+        "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
+        "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
+        
+        
+    // 文明修正
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations>",
+        "Ignores Zone of Control <for [Poland] Civilizations>", "May enter foreign tiles without open borders <for [Poland] Civilizations>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations>",
+        "Double movement in [Forest] <for [Vietnam] Civilizations>", "Double movement in [Jungle] <for [Vietnam] Civilizations>", "Double movement in [Bamboo] <for [Vietnam] Civilizations>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users> <for [{Land} {Military}] units>", 
+        "May Paradrop to [non-[Enemy]] tiles up to [2] tiles away <for [Cuba] Civilizations> <for [Foot Soldier] units>"
+        "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <for [Shooter] units>",
+        "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts] Civilizations> <if [Civilized Leader-Boudicca] is constructed> <for [Shooter] units>",
+        "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>",
+    
+    // 其他修正
+        "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
+        "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
+        "May enter foreign tiles without open borders <when [Chess-like Battle Mode] Victory is enabled>",
     ]
 }

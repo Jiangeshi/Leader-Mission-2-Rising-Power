@@ -10,7 +10,7 @@
 				"name": "Drill Wood to Make Fire",
 				"row": 5,
 				"quote": "",
-				"uniques": ["Starting tech","Enables Open Borders agreements", "Enables Defensive Pacts"]
+				"uniques": ["Starting tech","Enables Defensive Pacts", "Enables establishment of embassies", "Enables Open Borders agreements"]
 			}
 		]
 	},

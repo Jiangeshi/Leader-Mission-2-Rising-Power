@@ -65,7 +65,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[15]% Food is carried over after population increases [in all cities]",
-                    "Comment [[in all cities] [Instantly gain [30] [Stored Food]] [(modified by game speed)]]",
+                    "Comment [[Each city starts with 20 Stored Food] [(modified by game speed)]]",
                     "Gain a free [Tradition Complete Buff] [in all cities] <hidden from users>"
                 ]
             }

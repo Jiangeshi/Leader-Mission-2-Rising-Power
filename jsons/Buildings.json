@@ -18,7 +18,7 @@
         "maintenance": 0,
         "cost": 10000,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable",
-		"Instantly gain [30] [Stored Food] <(modified by game speed)>", 
+		"Instantly gain [20] [Stored Food] <(modified by game speed)>", 
 		"Will not be displayed in Civilopedia"
 		]
 	}
@@ -585,6 +585,7 @@
 	{
 		"name": "Lighthouse",
 		"maintenance": 1,
+		"greatPersonPoints": {"Great Admiral": 1},
 		"uniques": ["Only available <in cities with a [City Level II]>", "Must be next to [Coast]", "Seaside Building", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Production] from [Ocean] tiles [in this city]", "[+1 Food] from [{Water} {Bonus resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Optics"
 	},
@@ -687,6 +688,7 @@
 		"name": "The Great Lighthouse",
 		"gold": 2,
 		"isWonder": true,
+		"greatPersonPoints": {"Great Admiral": 2},
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear"
 			],
@@ -3278,42 +3280,55 @@
         "name": "Civilized Leader-Suming",
 		"isNationalWonder": true,
 		"cost":1,
+		"production": 1,
+		"gold": 1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion]\n[[+10]% Production when constructing [Military] units [in capital]]",
+		"replacementTextForUniques": "[[+10]% Production when constructing [Military] units [in all cities]]\n[[[+10]% Strength decreasing with distance from the capital] [for [Military] units]]",
 		"uniques": [
-	    "All newly-trained [Military] units [in all cities] receive the [With One Heart] promotion",
-	    "[+10]% Production when constructing [Military] units [in capital]",
+	    "[+10]% Strength decreasing with distance from the capital <for [Military] units>"
+	    "[+10]% Production when constructing [Military] units [in all cities]",
 	    
 	    //"Indicates the capital city",
 	    "Remove [Civilized Leader-Sumu] [in all cities] <if [Civilized Leader-Sumu] is constructed>",
-	    "Remove [Palace] [in all cities]",
-	    "Gain a free [Palace] [in this city]"
+	    "Remove [Record Pavilion] [in all cities]",
+	    "Gain a free [Record Pavilion] [in this city]"
 		]
     },
 	{	
         "name": "Civilized Leader-Sumu",
 		"isNationalWonder": true,
 		"cost":1,
+		"food": 1,
+		"faith": 1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[[+2 Science, +2 Production, -1 Food] [in all cities]] [in cities with at least [5] [Population]]]",
+		"replacementTextForUniques": "[[+2 Science, -1 Food] per [4] population [in all cities]]",
 		"uniques": [
-	    "[+2 Science, +2 Production, -1 Food] [in all cities] <in cities with at least [5] [Population]>",
+	    "[+2 Science, -1 Food] per [4] population [in all cities]",
 	    
 	    //"Indicates the capital city"
 	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
-	    "Remove [Palace] [in all cities]",
-	    "Gain a free [Palace] [in this city]"
+	    "Remove [Record Pavilion] [in all cities]",
+	    "Gain a free [Record Pavilion] [in this city]"
 	    ]
 	},
 	{
 		"name": "Record Pavilion",
-		"requiredTech": "Writing",
 		"uniqueTo": "Sumusuming",
-		"replaces": "Library",
-		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", 
-		"All newly-trained [Military] units [in this city] receive the [Record] promotion", "[+1 Science] per [2] population [in this city]",
-		"Provides [1] [Number of Buildings] <in this city>"],
+		"replaces": "Palace",
+		"maintenance": 0,
+		"isNationalWonder": true,
+	    "production": 2,
+		"science": 4,
+		"gold": 3,
+		"culture": 3,
+		"cityHealth": 50,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+		
+
+		
+
+	
 	
 	// 敛芳之邑
 	},

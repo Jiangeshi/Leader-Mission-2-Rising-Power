@@ -380,7 +380,7 @@
 		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     
-    // 特色建筑
+    // 特色设施
     },
 	{
 		"name": "Terrace farm",
@@ -488,6 +488,20 @@
 			"[+1 Faith] <in [Fresh Water] tiles>",
 			"[+1 Food] <after discovering [Engineering]>",
 			"[+1 Food] for each adjacent [Farm]"
+		],
+    },
+    {
+		"name": "Ruins",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra", "Snow"],
+		"uniqueTo": "Sumusuming",
+		"uniques": [
+		"Improves [Strategic] resource in this tile", "Can be built just outside your borders", "Gain control over [all] tiles in a [1]-tile radius","Will not be replaced by automated units","Removes removable features when built"
+		"[+1 Science] <for every adjacent [Academy]>",
+		"[+1 Culture] <for every adjacent [Landmark]>",
+		"[+1 Production] <for every adjacent [Manufactory]>",
+		"[+1 Gold] <for every adjacent [Customs house]>",
+		"[+1 Production] <for every adjacent [Citadel]>",
+		"[+1 Faith] <for every adjacent [Holy site]>",
 		],
     },
 ]

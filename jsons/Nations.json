@@ -2005,8 +2005,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniqueText": "Reveal up to All tiles within a 5 tile radius upon founding a city\n-25% ♪Culture cost of natural border growth in all cities",
-		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "[-25]% Culture cost of natural border growth [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[[[+1 Faith]] [for every [60] [Culture]]]\n[[[+1 Culture]] [for every [60] [Faith]]]",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "[+1 Faith] <for every [60] [Culture]>", "[+1 Culture] <for every [60] [Faith]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -2424,10 +2424,9 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Traceability",
-		"uniqueText": "This is the second runner-up reward of the third Leader Mission Competition.\n\nCan relocate the capital and change Civilized Leader\n[[+1 Production] from [Strategic resource] tiles [in capital]]\n[[+1 Faith] from [Luxury resource] tiles [in capital]]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[This is the second runner-up reward of the third Leader Mission Competition.]\n\n[Can relocate the capital and change Civilized Leader]\n[[+1 Food] from [Strategic resource] tiles [in capital]]\n[[Worker] can instantly construct a [Ruins] improvement once for all movement]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[+1 Production] from [Strategic resource] tiles [in capital]",
-		"[+1 Faith] from [Luxury resource] tiles [in capital]",
+		"[+1 Food] from [Strategic resource] tiles [in capital]",
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		]
 		"cities": ["Sea Sand"],

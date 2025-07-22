@@ -127,7 +127,7 @@
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [50] damage",
+            //"Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},
@@ -548,7 +548,7 @@
 		"uniques": ["Rough terrain","Rare feature", 
 		"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Units ending their turn on this terrain take [70] damage",
+			//"Units ending their turn on this terrain take [70] damage",
 			"Blocks line-of-sight from tiles at same elevation",
 				"Has an elevation of [3] for visibility calculations",
 				"Nullifies all other stats this tile provides"],
@@ -566,7 +566,7 @@
 		"defenceBonus": -0.33
 		"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
 		"uniques": ["Base Terrain on this tile is not counted for Region determination",
-			"Units ending their turn on this terrain take [20] damage",
+			//"Units ending their turn on this terrain take [20] damage",
 			"Doesn't generate naturally",
 			"Never receives any resources"
 	]
@@ -615,7 +615,7 @@
 		"uniques": ["Rough terrain", "Rare feature", "Always Fertility [+4] for Map Generation",
 		            "Has an elevation of [1] for visibility calculations",
             "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [50] damage",
+            //"Units ending their turn on this terrain take [50] damage",
 		]
 	},
 	{

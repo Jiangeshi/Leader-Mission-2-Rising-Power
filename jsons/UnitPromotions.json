@@ -1363,10 +1363,6 @@
         "uniques": ["[+10]% Strength <when adjacent to a [Mobile] unit>"]
     },
     {
-        "name": "[Clan Archer] ability",
-        "uniques": ["[+50]% XP gained from combat"],
-    },
-    {
         "name": "[Spartacus] ability",
         "uniques": ["May capture killed [Foot Soldier] units <with [20]% chance> <during the [Classical era]>"],
     },
@@ -1482,15 +1478,6 @@
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Grassland] tiles>",
 		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Plains] tiles>", 
 		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles>"]
-	},
-	{
-		"name": "With One Heart",
-		"uniques": [
-		"[+3]% Strength <when adjacent to a [Foot Soldier] unit>",
-		"[+3]% Strength <when adjacent to a [Shooter] unit>",
-		"[+3]% Strength <when adjacent to a [Anti-Mobile] unit>",
-		"[+3]% Strength <when adjacent to a [Mobile] unit>",
-		]
 	},
 	{
 		"name": "Record",
