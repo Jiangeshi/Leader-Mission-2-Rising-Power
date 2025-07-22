@@ -492,6 +492,7 @@
     },
     {
 		"name": "Ruins",
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra", "Snow"],
 		"uniqueTo": "Sumusuming",
 		"uniques": [
