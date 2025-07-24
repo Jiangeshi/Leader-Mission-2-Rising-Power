@@ -2103,7 +2103,7 @@
 		"name": "Jesus",
 		"unitType": "Civilian",
 		"uniques": ["Special Great Person",
-		    "Can instantly construct a [Holy site] improvement <by consuming this unit>",
+		    "Can instantly construct a [Holy site] improvement <once> <for [2] movement>",
 		    "Religious Unit",
             "Can Spread Religion <for [2] movement> <[6] times>",
 			"Removes other religions when spreading religion",

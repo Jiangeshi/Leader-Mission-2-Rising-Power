@@ -65,19 +65,19 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "uniques": ["Only available <before turn number [50]>", "Only available <after turn number [4]>", "Gain [20] [Faith] <(modified by game speed)>"]
+                "uniques": ["Only available <after turn number [4]>", "Gain [8] [Faith] <(modified by game speed)>", "Gain [1] [Faith] <for every [turns]> <(modified by game speed)>"]
             },
             {
                 "text": "Gain Culture",
-                "uniques": ["Gain [20] [Culture] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
+                "uniques": ["Only available <after turn number [4]>", "Gain [8] [Culture] <(modified by game speed)>", "Gain [1] [Culture] <for every [turns]> <(modified by game speed)>"]
             },
             {
                 "text": "Gain Science",
-                "uniques": ["Gain [20] [Science] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
+                "uniques": ["Only available <after turn number [4]>", "Gain [8] [Science] <(modified by game speed)>", "Gain [1] [Science] <for every [turns]> <(modified by game speed)>"]
             },
             {
                 "text": "Gain Gold",
-                "uniques": ["Gain [60] [Gold] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
+                "uniques": ["Only available <after turn number [4]>", "Gain [24] [Gold] <(modified by game speed)>", "Gain [2] [Gold] <for every [turns]> <(modified by game speed)>"]
             },
             {
                 "text": "Gain Resource",
@@ -86,22 +86,6 @@
             {
                 "text": "Gain Power",
                 "uniques": ["[+10]% Strength <for [Military] units> <for [4] turns>", "Only available <before turn number [50]>", "Only available <after turn number [4]>"]
-            },
-            {
-                "text": "Gain Faith",
-                "uniques": ["Gain [75] [Faith] <(modified by game speed)>", "Only available<after turn number [49]>"]
-            },
-            {
-                "text": "Gain Culture",
-                "uniques": ["Gain [100] [Culture] <(modified by game speed)>", "Only available<after turn number [49]>"]
-            },
-            {
-                "text": "Gain Science",
-                "uniques": ["Gain [100] [Science] <(modified by game speed)>", "Only available<after turn number [49]>"]
-            },
-            {
-                "text": "Gain Gold",
-                "uniques": ["Gain [150] [Gold] <(modified by game speed)>", "Only available<after turn number [49]>"]
             },
             {
                 "text": "Gain Resource",

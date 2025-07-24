@@ -3203,8 +3203,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Australia",
-		"replacementTextForUniques": "[[upon declaring war with a major Civilization] [[+25]% [Production] [in all cities]] [for [5] turns]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [5] turns> <upon declaring war with a major Civilization>"]
+		"replacementTextForUniques": "[[upon declaring war with a major Civilization] [[+25]% [Production] [in all cities]] [for [7] turns]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [7] turns> <upon declaring war with a major Civilization>"]
     },
 	{
 		"name": "Seaside Opera House",

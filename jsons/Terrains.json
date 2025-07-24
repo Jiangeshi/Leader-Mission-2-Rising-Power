@@ -270,11 +270,12 @@
 		"food": 3,
 		"gold": 1,
 		"movementCost": 1,
-		"unbuildable": true,
+		"unbuildable": false,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": ["Fresh water", "Rare feature",
 					"Only [All Road] improvements may be built on this tile",
+					"Only [Trading post] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]

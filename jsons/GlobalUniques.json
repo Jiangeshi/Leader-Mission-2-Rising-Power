@@ -1,6 +1,9 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 大商修正
+    "[+100]% Gold from Great Merchant trade missions",
+    
     "Requires establishing embassies to conduct advanced diplomacy",
     // 宗教
     "[-15]% construction time for [All] improvements <after adopting [Miracle]>"
