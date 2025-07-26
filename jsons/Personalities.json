@@ -2100,5 +2100,38 @@
 		"Industrial": 5,
 		"Rationalism": 5
 	}
+},
+{
+	"name": "Assyrian",
+	"production": 7,
+	"food": 5,
+	"gold": 7,
+	"science": 5,
+	"culture": 5,
+	"happiness": 5,
+	"faith": 5,
+	"military": 7,
+	"aggressive": 8,
+	"declareWar": 8,
+	"commerce": 7,
+	"diplomacy": 3,
+	"loyal": 3,
+	"expansion": 7,
+	"priorities": {
+		"Tradition": 5,
+		"Feudalism1": 6,
+		"Liberty": 4,
+		"Autocracy": 9,
+		"Freedom": 3,
+		"Order": 3,
+
+		"Honor": 9,
+		"Piety": 5,
+		"Commerce": 5,
+		"Patronage": 5,
+		"Industrial": 5,
+		"Rationalism": 5
+	}	
 }
+
 ]

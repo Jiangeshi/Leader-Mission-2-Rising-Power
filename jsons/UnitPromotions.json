@@ -1439,7 +1439,12 @@
     },
     {
         "name": "[Carolingian Knight] ability",
-        "uniques": ["Earn [20]% of the damage done to [Military] units as [Faith]"],       
+        "uniques": ["Earn [20]% of the damage done to [Military] units as [Faith]"], 
+    },
+    {
+        "name": "[Battering Ram Warrior] ability",
+        "uniques": ["[+33]% Strength <vs cities> <when attacking>"],           
+        
         
 	// 特殊
 	},

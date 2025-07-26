@@ -277,7 +277,7 @@
                 "text": "Jesus",
                 "civilopediaText": [
             {
-            "text": "[Jesus] can Spread Religion for 2 movement 6 times and can instantly construct a [Holy site] improvement by consuming [Jesus]"
+            "text": "[Jesus] can Spread Religion for 2 movement 6 times and can instantly construct a [Holy site] improvement once"
             }
                 ]                
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Jesus] is constructed by anybody>", "Provides a [Jesus] in your first [1] cities for free"]

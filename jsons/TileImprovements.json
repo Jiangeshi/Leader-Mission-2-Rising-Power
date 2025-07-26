@@ -180,9 +180,36 @@
 		"Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		],		
+	},
+	{
+		"name": "Tourist Attractions",
+		"terrainsCanBeBuiltOn": ["Seafall ruins"],
+		"culture": 2,
+		"turnsToBuild": 10,
+		"techRequired": "Art",
+		"uniques": ["Does not need removal of [Seafall ruins]", "Pillaging this improvement yields approximately [+15 Gold]", 
+		"[+2 Culture] <after discovering [The Renaissance]>"
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
+		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		]	
+	},	
+	{
+		"name": "Salt Field",
+		"terrainsCanBeBuiltOn": ["Salt Lake"],
+		"food": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Salt Lake]", "Pillaging this improvement yields approximately [+15 Gold]", 
+		"Provides [1] [Salt]",
+		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
+		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		]	
+	},		
 		
 	// 军事设施
-	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Bamboo"],
@@ -497,7 +524,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra", "Snow"],
 		"uniqueTo": "Sumusuming",
 		"uniques": [
-		"Improves [Strategic] resource in this tile", "Can be built just outside your borders", "Gain control over [all] tiles in a [1]-tile radius","Will not be replaced by automated units","Removes removable features when built"
+		"Improves [Strategic] resource in this tile", "Can be built just outside your borders", "Gain control over [non-[Great Improvement]] tiles in a [1]-tile radius","Will not be replaced by automated units","Removes removable features when built"
 		"[+1 Science] <for every adjacent [Academy]>",
 		"[+1 Culture] <for every adjacent [Landmark]>",
 		"[+1 Production] <for every adjacent [Manufactory]>",
