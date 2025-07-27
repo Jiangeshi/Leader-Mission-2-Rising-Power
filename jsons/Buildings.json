@@ -1913,7 +1913,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Assyrian",
-		"replacementTextForUniques": "[Gain 30 [Gold] and [Golden Age points] when Melee units enter combat][(modified by game speed)]",
+		"replacementTextForUniques": "[Gain 15 [Gold] and 30 [Golden Age points] when Melee units enter combat][(modified by game speed)]",
 		"uniques": ["Can only be built<in [in capital] cities>"]
     },
 	{

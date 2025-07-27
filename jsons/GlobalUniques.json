@@ -188,7 +188,7 @@
         "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts] Civilizations> <if [Civilized Leader-Boudicca] is constructed> <for [Shooter] units>",
         "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>",
         "Instantly gain [30] [Golden Age points] <upon entering combat> <for [Melee] units> <for [Assyrian] Civilizations> <if [Civilized Leader-Tiglath Pileser III] is constructed> <(modified by game speed)>",
-        "Gain [30] [Gold] <upon entering combat> <for [Melee] units> <if [Civilized Leader-Tiglath Pileser III] is constructed> <for [Assyrian] Civilizations> <(modified by game speed)>",
+        "Gain [15] [Gold] <upon entering combat> <for [Melee] units> <if [Civilized Leader-Tiglath Pileser III] is constructed> <for [Assyrian] Civilizations> <(modified by game speed)>",
     
     // 其他修正
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
