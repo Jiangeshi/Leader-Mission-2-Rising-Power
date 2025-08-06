@@ -643,7 +643,7 @@
 		"innerColor": [255, 215, 0],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "World Exploration",
-		"uniqueText": "[Gain 2 [Gold] upon Reconnaissance units discovering a tile (modified by game speed). If the tile is a Resource, Mountain, or Rare terrain, gain an additional 3 [Culture] / 5 [Faith] / 5 [Science]]",
+		"uniqueText": "[Gain 2 [Gold] upon Reconnaissance units discovering a tile (modified by game speed). If the tile is a Resource, Mountain, or Rare terrain, gain an additional 2 [Culture] / 5 [Faith] / 5 [Science]]",
 		"uniques": [
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Palembang", "Jambi", "Kedah", "Chaiya", "Ligor", "Tambralinga", "Kota Kapur", "Malayu", "Takuapa", "Pannai", "Barus", "Lamuri", "Srivijaya", "Indrapura", "Gangga Negara", "Kalingga", "Dharmasraya", "Melayu", "Samudera", "Aceh", "Pattani", "Langkasuka", "Temasik", "Kelantan", "Pahang"]
