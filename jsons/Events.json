@@ -412,7 +412,7 @@
                 "text": "Li Jing",
                 "civilopediaText": [
             {
-            "text": "Medieval era units gain the [[Li Jing] ability] promotion by consuming [Li Jing] during the Medieval era\n[[Li Jing] ability]:    This Unit gains 25 XP during the Medieval era"
+            "text": "Medieval era units gain the [[Li Jing] ability] promotion by consuming [Li Jing] during the Medieval era\n[[Li Jing] ability]:    This Unit gains 15 XP during the Medieval era"
             }
                 ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [Li Jing] is constructed by anybody>", "Provides a [Li Jing] in your first [1] cities for free"]
@@ -484,7 +484,7 @@
                 "text": "William Marshal",
                 "civilopediaText": [
             {
-            "text": "Mobile units gain the [[William Marshal] ability] promotion by consuming [William Marshal] during the Medieval era\n[[William Marshal] ability]:    Ignores terrain cost during the Medieval era"
+            "text": "Melee Mobile units gain the [[William Marshal] ability] promotion by consuming [William Marshal] during the Medieval era\n[[William Marshal] ability]:    Ignores terrain cost during the Medieval era"
             }
                 ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [William Marshal] is constructed by anybody>", "Provides a [William Marshal] in your first [1] cities for free"]         

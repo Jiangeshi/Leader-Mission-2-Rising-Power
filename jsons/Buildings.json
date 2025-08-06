@@ -9,7 +9,8 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city",
+		]
 	},
 	
 	// 传统关门效果
@@ -113,7 +114,7 @@
 	{
         "name": "Agricultural City",
         "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+1 Food, +1 Gold] from [Bonus resource] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level III]:\n    [[+1 Food, +3 Gold] from [Plantation] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[+1 Food, +1 Gold] from [Farm] tiles [in this city]]\n    [[-3]% [Production] [in this city]]\n\n[City Level V]:\n    [[+1 Food, +3 Production] from [Pasture] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+1 Food] from [{Land} {Bonus resource}] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level III]:\n    [[+1 Food, +3 Gold] from [Plantation] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[+1 Food, +1 Gold] from [Farm] tiles [in this city]]\n    [[-3]% [Production] [in this city]]\n\n[City Level V]:\n    [[+1 Food, +3 Production] from [Pasture] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
@@ -1924,6 +1925,25 @@
 		"specialistSlots": {"Merchant": 1},
 	    "uniques": ["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+2 Gold] from [Copper] tiles [in this city]", "[+2 Production] from [Gold Ore] tiles [in this city]", "[+2 Production] from [Silver] tiles [in this city]", "[+2 Production] from [Copper] tiles [in this city]"],
 		"requiredTech": "Currency"		
+		
+	// 室利佛逝
+	},
+	{	
+        "name": "Civilized Leader-Dharmasetu",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sri Vijaya",
+		"replacementTextForUniques": "[[+2 Faith] [in all coastal cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Samaratungga]>", "[+2 Faith] [in all coastal cities]"]
+    },
+	{	
+        "name": "Civilized Leader-Samaratungga",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Sri Vijaya",
+		"replacementTextForUniques": "[+5 [Gold] in all land cities]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Dharmasetu]>",
+	"[+5 Gold] [in all cities]", "[-5 Gold] [in all coastal cities]"]
 	
 	// 希腊
 	},

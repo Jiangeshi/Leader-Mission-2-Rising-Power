@@ -2132,6 +2132,39 @@
 		"Industrial": 5,
 		"Rationalism": 5
 	}	
+},
+{
+	"name": "Sri Vijaya",
+	"production": 5,
+	"food": 5,
+	"gold": 7,
+	"science": 5,
+	"culture": 5,
+	"happiness": 5,
+	"faith": 8,
+	"military": 5,
+	"aggressive": 6,
+	"declareWar": 5,
+	"commerce": 7,
+	"diplomacy": 7,
+	"loyal": 6,
+	"expansion": 10,
+	"priorities": {
+		"Tradition": 5,
+		"Feudalism1": 8,
+		"Liberty": 4,
+		"Autocracy": 5,
+		"Freedom": 5,
+		"Order": 5,
+
+		"Honor": 5,
+		"Piety": 9,
+		"Commerce": 7,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 3
+	}	
+	
 }
 
 ]

@@ -620,6 +620,34 @@
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Nineveh", "Nimrud", "Dur-Sharrukin", "Arbela", "Harran", "Kalhu", "Tarbisu", "Apku", "Tushhan", "Kahat", "Shadikanni", "Dur-Katlimmu", "Tell Shemshara", "Tell al-Rimah", "Kar-Tukulti-Ninurta", "Tell Taban", "Tell Mohammed Arab", "Tell Fekheriye", "Tell Brak", "Tell Leilan", "Tell Chuera", "Tell Beydar", "Tell Mozan", "Tell Hamoukar"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        	
+		},
+        {
+        "name": "Sri Vijaya",
+	    "leaderName": "Leader",
+		"adjective": ["Sri Vijaya"],
+        "personality": "Sri Vijaya",
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Let's begin!",
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+		"outerColor": [26, 58, 111],
+		"innerColor": [255, 215, 0],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "World Exploration",
+		"uniqueText": "[Gain 2 [Gold] upon Reconnaissance units discovering a tile (modified by game speed). If the tile is a Resource, Mountain, or Rare terrain, gain an additional 3 [Culture] / 5 [Faith] / 5 [Science]]",
+		"uniques": [
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"cities": ["Palembang", "Jambi", "Kedah", "Chaiya", "Ligor", "Tambralinga", "Kota Kapur", "Malayu", "Takuapa", "Pannai", "Barus", "Lamuri", "Srivijaya", "Indrapura", "Gangga Negara", "Kalingga", "Dharmasraya", "Melayu", "Samudera", "Aceh", "Pattani", "Langkasuka", "Temasik", "Kelantan", "Pahang"]
+		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        		
 		
     // 欧洲
     },
@@ -2236,7 +2264,7 @@
 		"uniques": ["[+1 Faith] from [Fishing Boats] tiles [in all cities] <for every [2] [[Coastal] Cities]> <when number of [[Coastal] Cities] is less than [11]>", "[+5 Faith] from [Fishing Boats] tiles [in all cities] <when number of [[Coastal] Cities] is more than [10]>", 
 		
 		"Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
-		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palembang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
+		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palem-bang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },
     {
