@@ -657,4 +657,63 @@
 		"name": "Infrastructure Investment",
 		"resourceType": "Strategic",
 		"uniques": [
-		"Not shown on wo
+		"Not shown on world screen",
+		"[+10]% Production when constructing [All] buildings [in all cities]",
+		]
+	},
+	{
+		"name": "Productive Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+15]% [Gold]",
+		]
+	},
+	{
+		"name": "Research Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+10]% [Science]",
+		]	
+	},
+	{
+		"name": "Entertainment Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+10]% [Culture]",
+		]		
+	},
+	{
+		"name": "Grain Investment",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Not shown on world screen",
+		"[+8]% [Food] [in all cities]",
+		]
+		
+	// 特殊货币
+	},
+	{
+		"name": "Feat",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", "Not shown on world screen <when number of [Feat] is equal to [0]>",]
+	},
+	{
+		"name": "Marriage Point",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Diplomatic Point",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded"]
+	}
+	// 种子
+    {
+		"name": "Seed",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Not shown on world screen"]
+	}
+]
