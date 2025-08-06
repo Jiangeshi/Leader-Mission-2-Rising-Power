@@ -1290,7 +1290,7 @@
 	},
 	{
 		"name": "[Jaguar] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "[+25]% Strength <when fighting in [Bamboo] tiles>", "Heals [25] damage if it kills a unit","Double movement in [Forest]","Double movement in [Jungle]", "Double movement in [Bamboo]]	
+		"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>", "[+25]% Strength <when fighting in [Bamboo] tiles>", "Heals [25] damage if it kills a unit","Double movement in [Forest]","Double movement in [Jungle]", "Double movement in [Bamboo]"]	
 	},
     {
         "name": "[Mobile Archer] ability",
