@@ -192,9 +192,8 @@
         "Gain [2] [Gold] <upon discovering a [All] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [5] [Faith] <upon discovering a [Mountain] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [5] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
-        "Gain [3] [Culture] <upon discovering a [Resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
-        
-    
+        "Gain [3] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+
     // 其他修正
         "[-1] Sight <when [Chess-like Battle Mode] Victory is enabled>",
         "Gain control over [all] tiles in a [0]-tile radius <upon turn end> <when [Chess-like Battle Mode] Victory is enabled> <in tiles adjacent to [your] tiles>",
