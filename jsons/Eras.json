@@ -11,7 +11,7 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"
-        "May not generate great prophet equivalents naturally <for [Human player] Civilizations>",
+        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
         ],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -31,7 +31,7 @@
         "startPercent": 10,
         "citySound": "cityClassical",
         "uniques": [
-        "May not generate great prophet equivalents naturally <for [Human player] Civilizations>",
+        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
         "May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])",
         "May buy [Special Great Prophet Project] buildings for [335] [Faith] [in all cities] at an increasing price ([50])"
         "[+20]% maintenance costs <for [Military] units>"
@@ -55,7 +55,7 @@
         "startPercent": 25,
         "citySound": "cityMedieval",
         "uniques": [
-        "May not generate great prophet equivalents naturally <for [Human player] Civilizations>",
+        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
         "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])", 
         "Every major Civilization gains a spy once a civilization enters this era",
         "[+40]% maintenance costs <for [Military] units>"
@@ -79,7 +79,7 @@
         "startPercent": 37,
         "citySound": "cityRenaissance",
         "uniques": [
-        "May not generate great prophet equivalents naturally <for [Human player] Civilizations>",
+        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
         "May buy [Great Prophet] units for [200] [Faith] [in all cities] at an increasing price ([50])",
         "Every major Civilization gains a spy once a civilization enters this era",
         "[-10]% [Faith]",
