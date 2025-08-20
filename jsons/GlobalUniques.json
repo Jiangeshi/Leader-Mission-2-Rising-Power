@@ -1,6 +1,54 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 世界会议
+    // 20 回合
+    "Instantly provides [1] [Temp] <for every [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1]> <after turn number [19]> <before turn number [20]> <upon turn start>",
+    "Instantly consumes [1] [Temp] <for every [Temp]> <after turn number [26]> <before turn number [27]> <upon turn start>",
+    "Triggers a [World Conference1] event <when number of [Temp] is equal to [1]> <after turn number [20]> <before turn number [21]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <when number of [Temp] is equal to [1]> <after turn number [25]> <before turn number [26]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", 
+    "Triggers a [World Conference2] event <when number of [Temp] is equal to [2]> <after turn number [20]> <before turn number [21]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <when number of [Temp] is equal to [2]> <after turn number [25]> <before turn number [26]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference3] event <when number of [Temp] is equal to [3]> <after turn number [20]> <before turn number [21]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <when number of [Temp] is equal to [3]> <after turn number [25]> <before turn number [26]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference4] event <when number of [Temp] is equal to [4]> <after turn number [20]> <before turn number [21]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <when number of [Temp] is equal to [4]> <after turn number [25]> <before turn number [26]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference5] event <when number of [Temp] is equal to [5]> <after turn number [20]> <before turn number [21]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <when number of [Temp] is equal to [5]> <after turn number [25]> <before turn number [26]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    
+    // 50 回合
+    "Instantly provides [1] [Temp] <for every [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1]> <after turn number [49]> <before turn number [50]> <upon turn start>",
+    "Instantly consumes [1] [Temp] <for every [Temp]> <after turn number [56]> <before turn number [57]> <upon turn start>",
+    "Triggers a [World Conference1] event <when number of [Temp] is equal to [1]> <after turn number [50]> <before turn number [51]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <when number of [Temp] is equal to [1]> <after turn number [55]> <before turn number [56]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", 
+    "Triggers a [World Conference2] event <when number of [Temp] is equal to [2]> <after turn number [50]> <before turn number [51]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <when number of [Temp] is equal to [2]> <after turn number [55]> <before turn number [56]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference3] event <when number of [Temp] is equal to [3]> <after turn number [50]> <before turn number [51]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <when number of [Temp] is equal to [3]> <after turn number [55]> <before turn number [56]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference4] event <when number of [Temp] is equal to [4]> <after turn number [50]> <before turn number [51]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <when number of [Temp] is equal to [4]> <after turn number [55]> <before turn number [56]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference5] event <when number of [Temp] is equal to [5]> <after turn number [50]> <before turn number [51]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <when number of [Temp] is equal to [5]> <after turn number [55]> <before turn number [56]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",    
+    
+    // 80 回合
+    "Instantly provides [1] [Temp] <for every [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1]> <after turn number [79]> <before turn number [80]> <upon turn start>",
+    "Instantly consumes [1] [Temp] <for every [Temp]> <after turn number [86]> <before turn number [87]> <upon turn start>",
+    "Triggers a [World Conference1] event <when number of [Temp] is equal to [1]> <after turn number [80]> <before turn number [81]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <when number of [Temp] is equal to [1]> <after turn number [85]> <before turn number [86]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", 
+    "Triggers a [World Conference2] event <when number of [Temp] is equal to [2]> <after turn number [80]> <before turn number [81]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <when number of [Temp] is equal to [2]> <after turn number [85]> <before turn number [86]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference3] event <when number of [Temp] is equal to [3]> <after turn number [80]> <before turn number [81]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <when number of [Temp] is equal to [3]> <after turn number [85]> <before turn number [86]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference4] event <when number of [Temp] is equal to [4]> <after turn number [80]> <before turn number [81]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <when number of [Temp] is equal to [4]> <after turn number [85]> <before turn number [86]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference5] event <when number of [Temp] is equal to [5]> <after turn number [80]> <before turn number [81]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <when number of [Temp] is equal to [5]> <after turn number [85]> <before turn number [86]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",     
+    
+    // 110 回合
+    "Instantly provides [1] [Temp] <for every [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1]> <after turn number [109]> <before turn number [110]> <upon turn start>",
+    "Instantly consumes [1] [Temp] <for every [Temp]> <after turn number [116]> <before turn number [117]> <upon turn start>",
+    "Triggers a [World Conference1] event <when number of [Temp] is equal to [1]> <after turn number [110]> <before turn number [111]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <when number of [Temp] is equal to [1]> <after turn number [115]> <before turn number [116]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", 
+    "Triggers a [World Conference2] event <when number of [Temp] is equal to [2]> <after turn number [110]> <before turn number [111]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <when number of [Temp] is equal to [2]> <after turn number [115]> <before turn number [116]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference3] event <when number of [Temp] is equal to [3]> <after turn number [110]> <before turn number [111]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <when number of [Temp] is equal to [3]> <after turn number [115]> <before turn number [116]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference4] event <when number of [Temp] is equal to [4]> <after turn number [110]> <before turn number [111]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <when number of [Temp] is equal to [4]> <after turn number [115]> <before turn number [116]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference5] event <when number of [Temp] is equal to [5]> <after turn number [110]> <before turn number [111]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <when number of [Temp] is equal to [5]> <after turn number [115]> <before turn number [116]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",        
+    
+    // 140 回合
+    "Instantly provides [1] [Temp] <for every [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1]> <after turn number [139]> <before turn number [140]> <upon turn start>",
+    "Instantly consumes [1] [Temp] <for every [Temp]> <after turn number [146]> <before turn number [147]> <upon turn start>",
+    "Triggers a [World Conference1] event <when number of [Temp] is equal to [1]> <after turn number [140]> <before turn number [141]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <when number of [Temp] is equal to [1]> <after turn number [145]> <before turn number [146]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", 
+    "Triggers a [World Conference2] event <when number of [Temp] is equal to [2]> <after turn number [140]> <before turn number [141]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <when number of [Temp] is equal to [2]> <after turn number [145]> <before turn number [146]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference3] event <when number of [Temp] is equal to [3]> <after turn number [140]> <before turn number [141]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <when number of [Temp] is equal to [3]> <after turn number [145]> <before turn number [146]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference4] event <when number of [Temp] is equal to [4]> <after turn number [140]> <before turn number [141]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <when number of [Temp] is equal to [4]> <after turn number [145]> <before turn number [146]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Triggers a [World Conference5] event <when number of [Temp] is equal to [5]> <after turn number [140]> <before turn number [141]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <when number of [Temp] is equal to [5]> <after turn number [145]> <before turn number [146]> <upon turn start> <when [World Conference(Recommended to enable)] Victory is enabled>",  
+    
+    
+    
     // 大商修正
     "[+100]% Gold from Great Merchant trade missions",
     
@@ -20,6 +68,8 @@
     // 修正
     "[-50]% construction time for [All] improvements <for [AI player] Civilizations>",
     "[+1]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
+    
+    
     // 快乐惩罚
     "[-50]% growth [in all cities] <when number of [Happiness] is between [-10] and [-1]>",
     "[-75]% growth [in all cities] <when number of [Happiness] is between [-15] and [-11]>",
@@ -154,10 +204,10 @@
     
     // 文明能力事件
     // 单能力文明第六回合
-    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode(Recommended to enable)] Victory is enabled>",
+    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode] Victory is enabled>",
     
     // 跨时代获取词条
-    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode(Recommended to enable)] Victory is enabled>",
+    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode] Victory is enabled>",
     ],
     "unitUniques": [
     // 全体修正

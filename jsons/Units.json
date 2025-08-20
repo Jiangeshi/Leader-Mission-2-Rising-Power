@@ -11,7 +11,11 @@
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
 		    "Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>",
-		    "Founds a new puppet city <costs [+50 Gold] stats> <by consuming this unit> <for [Assyrian] Civilizations> <hidden from users>"
+		    "Founds a new puppet city <costs [+50 Gold] stats> <by consuming this unit> <for [Assyrian] Civilizations> <hidden from users>",
+		    
+		    "Remove [A Vote for Bill 1] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 1] tiles> <hidden from users>",
+		    "Remove [A Vote for Bill 2] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 2] tiles> <hidden from users>",
+		    "Remove [A Vote for Bill 3] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 3] tiles> <hidden from users>",        
 		],
 		"cost": 63
 	},
@@ -2039,20 +2043,20 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
 		"movement": 2	
 	},
 	{

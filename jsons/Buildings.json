@@ -13,6 +13,48 @@
 		]
 	},
 	
+	// 世界会议
+	{
+		"name": "Vote for the Bill 1",
+        "maintenance": 0,
+        "cost": 1,
+		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
+		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 2]> <hidden from users>","Only available <in cities without a [Vote for the Bill 3]> <hidden from users>",
+		"Creates a [A Vote for Bill 1] improvement on a specific tile", "Remove [Vote for the Bill 1] [in capital]",
+		
+	
+		
+		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations>"
+		]
+	},
+	{
+		"name": "Vote for the Bill 2",
+        "maintenance": 0,
+        "cost": 1,
+		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
+		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 1]> <hidden from users>","Only available <in cities without a [Vote for the Bill 3]> <hidden from users>",
+		"Creates a [A Vote for Bill 2] improvement on a specific tile", "Remove [Vote for the Bill 2] [in capital]",
+		
+		
+		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations>"
+		]
+	},
+	{
+		"name": "Vote for the Bill 3",
+        "maintenance": 0,
+        "cost": 1,
+		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
+		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 1]> <hidden from users>","Only available <in cities without a [Vote for the Bill 2]> <hidden from users>",
+		"Creates a [A Vote for Bill 3] improvement on a specific tile", "Remove [Vote for the Bill 1] [in capital]",
+		
+	
+		
+		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations>"
+		]
+	},
 	// 传统关门效果
 	{
 		"name": "Tradition Complete Buff",
@@ -364,7 +406,7 @@
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
 		
 		"Instantly gain [5] [Stored Food] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
-		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
+		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
 		]	
 	},
 	{
@@ -802,7 +844,7 @@
 	},
 	{
 	    "name": "Garden",
-	    "food": 2,
+	    "percentStatBonus": {"food": 5},
 		"uniques": ["Only available <in cities with a [City Level III]>","[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]", "Provides [1] [Number of Buildings] <in this city>"],
 		"maintenance": 1,
 		"requiredTech": "Agricultural Improvement"
@@ -3026,8 +3068,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion]\n[[Gain [125]-[175] [Gold]] [upon declaring war with a major Civilization]] [(modified by game speed)]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [125]-[175] [Gold] <upon declaring war with a major Civilization> <(modified by game speed)>"]
+		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion]\n[[Gain [125]-[175] [Gold]] [upon entering a war with [Major] Civilizations]] [(modified by game speed)]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [125]-[175] [Gold] <upon entering a war with [Major] Civilizations> <(modified by game speed)>"]
 	},
 	{
 		"name": "Burial Tomb",
@@ -3242,8 +3284,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Australia",
-		"replacementTextForUniques": "[[upon declaring war with a major Civilization] [[+25]% [Production] [in all cities]] [for [7] turns]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [7] turns> <upon declaring war with a major Civilization>"]
+		"replacementTextForUniques": "[[upon entering a war with [Major] Civilizations] [[+25]% [Production] [in all cities]] [for [7] turns]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [7] turns> <upon entering a war with [Major] Civilizations>"]
     },
 	{
 		"name": "Seaside Opera House",
@@ -3652,37 +3694,37 @@
 		"name": "Seed-I",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-II",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-III",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
     {
 		"name": "Seed-IV",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-V",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
 	{
 		"name": "Seed-EGG",
         "maintenance": 0,
         "cost": 10000,
-		"uniques": ["Only available <when [Roguelike Mode(Recommended to enable)] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
+		"uniques": ["Only available <when [Roguelike Mode] Victory is enabled>", "Unbuildable", "Cannot be purchased", "Unsellable", "Moves to new capital when capital changes", "Seed <hidden from users>", "Provides [1] [Seed] <hidden from users>"],
 	},
     
     // 通用文明能力

@@ -533,4 +533,24 @@
 		"[+1 Faith] <for every adjacent [Holy site]>",
 		],
     },
+    
+    // 世界会议设施
+    {
+		"name": "A Vote for Bill 1",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
+		"gold": 1,
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "A Vote for Bill 2",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
+		"gold": 1,
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "A Vote for Bill 3",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
+		"gold": 1,
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+	},
 ]

@@ -596,8 +596,8 @@
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
-		"majorDepositAmount": {"sparse": 7, "default": 9, "abundant": 10},
-		"minorDepositAmount": {"sparse": 5, "default": 6, "abundant": 7}
+		"majorDepositAmount": {"sparse": 10, "default": 12, "abundant": 13},
+		"minorDepositAmount": {"sparse": 7, "default": 9, "abundant": 10}
 	},
 	{
 		"name": "Uranium",
@@ -714,6 +714,13 @@
     {
 		"name": "Seed",  
 		"resourceType": "Strategic",
-	    "uniques": ["Cannot be traded", "Not shown on world screen"]
+	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia"]
+	}
+	
+	// 世界会议临时存储器
+	{
+		"name": "Temp",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
 	}
 ]

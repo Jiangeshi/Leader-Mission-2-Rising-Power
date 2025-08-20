@@ -203,7 +203,7 @@
     {
         "name": "Religious Unity",
         "type": "Founder",
-        "uniques": ["Gain a free [Grand Temple] [in capital] <upon discovering [Nation] technology>", "Comment [[1] free [Missionary] units appear]"]
+        "uniques": ["Gain a free [Grand Temple] [in capital] <after discovering [Nation]>", "Comment [[1] free [Missionary] units appear]"]
         
     //跟随者词条
     },

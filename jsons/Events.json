@@ -1,4 +1,537 @@
 [
+    // 世界会议部分
+    {
+        "name": "World Conference1",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "choices": [
+            {
+                "text": "Conference Introduction",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [To hold an international exposition]",
+                ],
+            },
+            {
+                "text": "Bill 1",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Cultural Competition]:\n[[[+1 Culture] from all [Culture] buildings]]\n[[+1 Culture] from every [World Wonder]]]",
+                ],
+            },
+            {
+                "text": "Bill 2",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Sci-Tech Competition]:\n[[[+1 Science] from all [Science] buildings]]\n[[+1 Science] from every [World Wonder]]]",                
+                ],
+            },
+            {
+                "text": "Bill 3",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Nationwide Participation]:\n[[[+1 Happiness] [in all cities]]]\n[[+1 Happiness] from every [World Wonder]]]",                
+                ],
+            },
+
+        ]
+    },
+    {
+        "name": "Voting Results1",
+        "text": "After five turns of voting, the results are as follows:",
+        "choices": [
+            {
+                "text": "Bill 1 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                
+                "[+1 Culture] from all [Culture] buildings <for [25] turns>",
+                "[+1 Culture] from every [World Wonder] <for [25] turns>"
+                ],
+            },
+            {
+                "text": "Bill 2 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                
+                "[+1 Science] from all [Science] buildings <for [25] turns>"
+                "[+1 Science] from every [World Wonder] <for [25] turns>"
+                
+                ],
+            },
+            {
+                "text": "Bill 3 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
+                "[+1 Happiness] [in all cities] <for [25] turns>"
+                "[+1 Happiness] from every [World Wonder] <for [25] turns>"
+                ],
+            },
+            {
+                "text": "No bill received a majority",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Unavailable <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                "Unavailable <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                "Unavailable <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>"
+                ],
+            },
+        ]
+    },
+    {
+        "name": "World Conference2",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "choices": [
+            {
+                "text": "Conference Introduction",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [Global Trade Regulations]",
+                ],
+            },
+            {
+                "text": "Bill 1",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Building a Common Market]:\n[[+33]% [Gold] from Trade Routes]]",
+                ],
+            },
+            {
+                "text": "Bill 2",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Imposing Protectionist Tariffs]:\n[[[+1 Gold] from every [Luxury resource]][(modified by game progress up to [+300]%)]]]",                
+                ],
+            },
+            {
+                "text": "Bill 3",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Protecting International Trade Routes]:\n[[[+20]% Strength] [vs [Barbarian] units]]\n[Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold]]]",                
+                ],
+            },
+
+        ]
+    },
+    {
+        "name": "Voting Results2",
+        "text": "After five turns of voting, the results are as follows:",
+        "choices": [
+            {
+                "text": "Bill 1 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                
+                "[+33]% [Gold] from Trade Routes <for [25] turns>",
+                ],
+            },
+            {
+                "text": "Bill 2 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                
+                "[+1 Gold] from every [Luxury resource] <(modified by game progress up to [+300]%)> <for [25] turns>"
+                
+                ],
+            },
+            {
+                "text": "Bill 3 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
+                "[+20]% Strength <vs [Barbarian] units> <for [25] turns>",
+            "Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold] <for [25] turns>"
+                ],
+            },
+            {
+                "text": "No bill received a majority",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Unavailable <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                "Unavailable <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                "Unavailable <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>"
+                ],
+            },
+        ]
+    },
+    {
+        "name": "World Conference3",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "choices": [
+            {
+                "text": "Conference Introduction",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [World Military Conference]",
+                ],
+            },
+            {
+                "text": "Bill 1",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Pursuing Arms Expansion and War Preparations]:\n[[+15]% Production when constructing [Military] units [in all cities]]]",
+                ],
+            },
+            {
+                "text": "Bill 2",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Supporting Annexation and Expansion]:\n[[[+10]% Strength] [when fighting in [Enemy Land] tiles]]]",                
+                ],
+            },
+            {
+                "text": "Bill 3",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Promoting Anti-Corruption in the Military]:\n[[[-90]% maintenance costs] [for [Military] units]]]",                
+                ],
+            },
+
+        ]
+    },
+    {
+        "name": "Voting Results3",
+        "text": "After five turns of voting, the results are as follows:",
+        "choices": [
+            {
+                "text": "Bill 1 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                
+                "[+15]% Production when constructing [Military] units [in all cities] <for [25] turns>",
+                ],
+            },
+            {
+                "text": "Bill 2 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                
+                "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <for [25] turns>"
+                
+                ],
+            },
+            {
+                "text": "Bill 3 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
+                "[-90]% maintenance costs <for [Military] units> <for [25] turns>"
+                ],
+            },
+            {
+                "text": "No bill received a majority",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Unavailable <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                "Unavailable <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                "Unavailable <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>"
+                ],
+            },
+        ]
+    },
+    {
+        "name": "World Conference4",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "choices": [
+            {
+                "text": "Conference Introduction",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [Global Religious Assembly]",
+                ],
+            },
+            {
+                "text": "Bill 1",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Advocating for Freedom of Religion]:\n[[+1 Faith] per [3] population [in all cities]]]",
+                ],
+            },
+            {
+                "text": "Bill 2",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Suppressing Heretical Doctrines]:\n[[Faith] cost of purchasing [Inquisitor] units [-50]%]\n[[Faith] cost of purchasing [Great Prophet] units [-20]%]]",                
+                ],
+            },
+            {
+                "text": "Bill 3",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Weakening Religious Influence]:\n[[-10]% [Faith]]\n[[+15]% [Science]]]",                
+                ],
+            },
+
+        ]
+    },
+    {
+        "name": "Voting Results4",
+        "text": "After five turns of voting, the results are as follows:",
+        "choices": [
+            {
+                "text": "Bill 1 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                
+                "[+1 Faith] per [3] population [in all cities] <for [25] turns>",
+                ],
+            },
+            {
+                "text": "Bill 2 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                 "[Faith] cost of purchasing [Inquisitor] units [-50]% <for [25] turns>", "[Faith] cost of purchasing [Great Prophet] units [-20]% <for [25] turns>"
+                ],
+            },
+            {
+                "text": "Bill 3 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
+                "[-10]% [Faith] <for [25] turns>",
+                "[+15]% [Science] <for [25] turns>",                
+                ],
+            },
+            {
+                "text": "No bill received a majority",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Unavailable <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                "Unavailable <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                "Unavailable <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>"
+                ],
+            },
+        ]
+    },
+    {
+        "name": "World Conference5",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "choices": [
+            {
+                "text": "Conference Introduction",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [World Humanitarian Summit]",
+                ],
+            },
+            {
+                "text": "Bill 1",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Promoting Poverty Alleviation Aid]:\n[[[+1 Happiness, -2 Gold] per [3] population [in all cities]] [when number of [Happiness] is less than [0]]]]",
+                ],
+            },
+            {
+                "text": "Bill 2",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Implementing Work-Relief Programs]:\n[[[+1 Food] from all [Production] buildings] [in cities with less than [7] [Population]]]]",                
+                ],
+            },
+            {
+                "text": "Bill 3",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Comment [[Strengthening Infrastructure Development]:\n[[[+1] Movement] [for [Worker] units]]]",                
+                ],
+            },
+
+        ]
+    },
+    {
+        "name": "Voting Results5",
+        "text": "After five turns of voting, the results are as follows:",
+        "choices": [
+            {
+                "text": "Bill 1 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                
+                "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [0]> <for [25] turns>",
+                ],
+            },
+            {
+                "text": "Bill 2 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                 "[+1 Food] from all [Production] buildings <in cities with less than [7] [Population]> <for [25] turns>"
+                ],
+            },
+            {
+                "text": "Bill 3 received the most votes",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
+                "[+1] Movement <for [Worker] units> <for [25] turns>",                
+                ],
+            },
+            {
+                "text": "No bill received a majority",
+                "civilopediaText": [
+                    {
+                    "text": ""
+                    }
+                ],
+                "uniques": [
+                "Unavailable <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
+                "Unavailable <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
+                "Unavailable <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>"
+                ],
+            },
+        ]
+    },
+    // 世界会议部分结束
     {
         "name": "Select Hell Difficulty Debuff",
         "text": "The Debuff you choose will accompany you throughout the entire game. Unselected Debuffs can also be manually activated in buildings.",
