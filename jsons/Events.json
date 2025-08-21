@@ -2,7 +2,7 @@
     // 世界会议部分
     {
         "name": "World Conference1",
-        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next five turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
+        "text": "A World Congress session is now in progress！All surviving major civilizations may cast their votes through constructing a building in their capital over the next three turns. Upon completion, the bill with the most votes will be enacted and remain in effect until the next session begins.",
         "choices": [
             {
                 "text": "Conference Introduction",
@@ -64,8 +64,8 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
                 
-                "[+1 Culture] from all [Culture] buildings <for [25] turns>",
-                "[+1 Culture] from every [World Wonder] <for [25] turns>"
+                "[+1 Culture] from all [Culture] buildings <for [17] turns>",
+                "[+1 Culture] from every [World Wonder] <for [17] turns>"
                 ],
             },
             {
@@ -77,8 +77,8 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
                 
-                "[+1 Science] from all [Science] buildings <for [25] turns>"
-                "[+1 Science] from every [World Wonder] <for [25] turns>"
+                "[+1 Science] from all [Science] buildings <for [17] turns>"
+                "[+1 Science] from every [World Wonder] <for [17] turns>"
                 
                 ],
             },
@@ -90,8 +90,8 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
-                "[+1 Happiness] [in all cities] <for [25] turns>"
-                "[+1 Happiness] from every [World Wonder] <for [25] turns>"
+                "[+1 Happiness] [in all cities] <for [17] turns>"
+                "[+1 Happiness] from every [World Wonder] <for [17] turns>"
                 ],
             },
             {
@@ -173,7 +173,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
                 
-                "[+33]% [Gold] from Trade Routes <for [25] turns>",
+                "[+33]% [Gold] from Trade Routes <for [17] turns>",
                 ],
             },
             {
@@ -185,7 +185,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
                 
-                "[+1 Gold] from every [Luxury resource] <(modified by game progress up to [+300]%)> <for [25] turns>"
+                "[+1 Gold] from every [Luxury resource] <(modified by game progress up to [+300]%)> <for [17] turns>"
                 
                 ],
             },
@@ -197,8 +197,8 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
-                "[+20]% Strength <vs [Barbarian] units> <for [25] turns>",
-            "Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold] <for [25] turns>"
+                "[+20]% Strength <vs [Barbarian] units> <for [17] turns>",
+            "Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold] <for [17] turns>"
                 ],
             },
             {
@@ -280,7 +280,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
                 
-                "[+15]% Production when constructing [Military] units [in all cities] <for [25] turns>",
+                "[+15]% Production when constructing [Military] units [in all cities] <for [17] turns>",
                 ],
             },
             {
@@ -292,7 +292,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
                 
-                "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <for [25] turns>"
+                "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <for [17] turns>"
                 
                 ],
             },
@@ -304,7 +304,7 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
-                "[-90]% maintenance costs <for [Military] units> <for [25] turns>"
+                "[-90]% maintenance costs <for [Military] units> <for [17] turns>"
                 ],
             },
             {
@@ -386,7 +386,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
                 
-                "[+1 Faith] per [3] population [in all cities] <for [25] turns>",
+                "[+1 Faith] per [3] population [in all cities] <for [17] turns>",
                 ],
             },
             {
@@ -397,7 +397,7 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
-                 "[Faith] cost of purchasing [Inquisitor] units [-50]% <for [25] turns>", "[Faith] cost of purchasing [Great Prophet] units [-20]% <for [25] turns>"
+                 "[Faith] cost of purchasing [Inquisitor] units [-50]% <for [17] turns>", "[Faith] cost of purchasing [Great Prophet] units [-20]% <for [17] turns>"
                 ],
             },
             {
@@ -408,8 +408,8 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
-                "[-10]% [Faith] <for [25] turns>",
-                "[+15]% [Science] <for [25] turns>",                
+                "[-10]% [Faith] <for [17] turns>",
+                "[+15]% [Science] <for [17] turns>",                
                 ],
             },
             {
@@ -450,7 +450,7 @@
                     }
                 ],
                 "uniques": [
-                "Comment [[Promoting Poverty Alleviation Aid]:\n[[[+1 Happiness, -2 Gold] per [3] population [in all cities]] [when number of [Happiness] is less than [0]]]]",
+                "Comment [[Promoting Poverty Alleviation Aid]:\n[[[+1 Happiness, -2 Gold] per [3] population [in all cities]] [when number of [Happiness] is less than [5]]]]",
                 ],
             },
             {
@@ -491,7 +491,7 @@
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 2] Tiles]> <when number of [[A Vote for Bill 1] Tiles] is more than [[A Vote for Bill 3] Tiles]>"
                 
-                "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [0]> <for [25] turns>",
+                "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [5]> <for [17] turns>",
                 ],
             },
             {
@@ -502,7 +502,7 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 2] Tiles] is more than [[A Vote for Bill 3] Tiles]>",
-                 "[+1 Food] from all [Production] buildings <in cities with less than [7] [Population]> <for [25] turns>"
+                 "[+1 Food] from all [Production] buildings <in cities with less than [7] [Population]> <for [17] turns>"
                 ],
             },
             {
@@ -513,7 +513,7 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 1] Tiles]> <when number of [[A Vote for Bill 3] Tiles] is more than [[A Vote for Bill 2] Tiles]>",
-                "[+1] Movement <for [Worker] units> <for [25] turns>",                
+                "[+1] Movement <for [Worker] units> <for [17] turns>",                
                 ],
             },
             {

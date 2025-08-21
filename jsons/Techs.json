@@ -171,7 +171,7 @@
 				"name": "Nation",
 				"row": 3,
 				"prerequisites": ["Theology","Calendar"],
-				"uniques":["Enables Research agreements", "Triggers a [Establishing Country] event"],
+				"uniques":["Enables Research agreements", "Triggers a [Establishing Country] event", "Gain a free [Announcing the commencement of the World Congress] [in capital] <if no other Civilization has researched this> <for [Major] Civilizations>"],
 				"quote": ""
 			},
 			{

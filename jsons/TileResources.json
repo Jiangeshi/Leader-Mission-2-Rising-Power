@@ -719,7 +719,12 @@
 	
 	// 世界会议临时存储器
 	{
-		"name": "Temp",  
+		"name": "Temp1",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "Temp2",  
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
 	}

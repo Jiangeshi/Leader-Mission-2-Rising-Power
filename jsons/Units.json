@@ -12,10 +12,7 @@
 		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
 		    "Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>",
 		    "Founds a new puppet city <costs [+50 Gold] stats> <by consuming this unit> <for [Assyrian] Civilizations> <hidden from users>",
-		    
-		    "Remove [A Vote for Bill 1] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 1] tiles> <hidden from users>",
-		    "Remove [A Vote for Bill 2] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 2] tiles> <hidden from users>",
-		    "Remove [A Vote for Bill 3] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill 3] tiles> <hidden from users>",        
+		    "Remove [A Vote for Bill] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill] tiles> <when number of [Temp2] is different than [17]> <hidden from users>",
 		],
 		"cost": 63
 	},
@@ -26,7 +23,7 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 63,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>", "Remove [A Vote for Bill] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill] tiles> <when number of [Temp2] is different than [17]> <hidden from users>",],
 	},
 	{
 		"name": "Settler",

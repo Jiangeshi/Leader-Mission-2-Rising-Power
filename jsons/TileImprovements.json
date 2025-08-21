@@ -539,18 +539,18 @@
 		"name": "A Vote for Bill 1",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
 		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
 	},
 	{
 		"name": "A Vote for Bill 2",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
 		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
 	},
 	{
 		"name": "A Vote for Bill 3",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
 		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia"]
+		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
 	},
 ]

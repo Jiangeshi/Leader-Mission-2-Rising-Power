@@ -15,17 +15,55 @@
 	
 	// 世界会议
 	{
+		"name": "Announcing the commencement of the World Congress",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable",
+		"Triggers the following global alert: [Someone has initiated the World Congress！The first World Congress will begin in 10 turns. Only civilizations that have researched Nation technology can participate in voting！]", "Moves to new capital when capital changes"
+		]	
+	},
+	{
+		"name": "n1",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "nn", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "n2",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "nn", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "n3",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "nn", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "n4",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "nn", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "n5",
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "nn", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
 		"name": "Vote for the Bill 1",
         "maintenance": 0,
         "cost": 1,
 		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 2]> <hidden from users>","Only available <in cities without a [Vote for the Bill 3]> <hidden from users>",
-		"Creates a [A Vote for Bill 1] improvement on a specific tile", "Remove [Vote for the Bill 1] [in capital]",
+		"Only available <if [Vote for the Bill 2] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 3] is not constructed> <hidden from users>",
+		"Creates a [A Vote for Bill 1] improvement on a specific tile", "Remove [Vote for the Bill 1] [in this city]",
 		
 	
 		
-		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations>"
+		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
 		]
 	},
 	{
@@ -33,12 +71,12 @@
         "maintenance": 0,
         "cost": 1,
 		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 1]> <hidden from users>","Only available <in cities without a [Vote for the Bill 3]> <hidden from users>",
+		"Only available <if [Vote for the Bill 1] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 3] is not constructed> <hidden from users>",
 		"Creates a [A Vote for Bill 2] improvement on a specific tile", "Remove [Vote for the Bill 2] [in capital]",
 		
 		
-		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations>"
+		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
 		]
 	},
 	{
@@ -46,13 +84,13 @@
         "maintenance": 0,
         "cost": 1,
 		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Can only be built<in [in capital] cities> <hidden from users>", "Only available <in cities without a [Vote for the Bill 1]> <hidden from users>","Only available <in cities without a [Vote for the Bill 2]> <hidden from users>",
+		"Only available <if [Vote for the Bill 1] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 2] is not constructed> <hidden from users>",
 		"Creates a [A Vote for Bill 3] improvement on a specific tile", "Remove [Vote for the Bill 1] [in capital]",
 		
 	
 		
-		"Only available <when number of [Temp] is more than [0]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations>"
+		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
+		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
 		]
 	},
 	// 传统关门效果
