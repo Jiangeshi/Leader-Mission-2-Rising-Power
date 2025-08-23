@@ -1,0 +1,622 @@
+
+Tileset.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Bai Qi
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Bayezid I
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Belisarius
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gnaeus Pompeius Magnus
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Han Xin
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Henri Philippe Pétain
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jeanne
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Khalid ibn al-Walid
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lee Sunshin
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Li Jing
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mgar-Blon-Khri-Vbring-Btsan-Brod
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Narses
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Spartacus
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Subedei
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Sun Tzu
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Timur
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/William Marshal
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Xiang Yu
+  rotate: false
+  xy: 1220, 612
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Ballista Elephant
+  rotate: false
+  xy: 515, 137
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Confucius
+  rotate: false
+  xy: 4, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Gautama Siddhartha
+  rotate: false
+  xy: 4, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jesus
+  rotate: false
+  xy: 4, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Muhammad
+  rotate: false
+  xy: 4, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Zoroaster
+  rotate: false
+  xy: 4, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
+  rotate: false
+  xy: 1964, 813
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
+  rotate: false
+  xy: 1964, 740
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
+  rotate: false
+  xy: 1964, 740
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
+  rotate: false
+  xy: 1006, 563
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
+  rotate: false
+  xy: 1078, 563
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
+  rotate: false
+  xy: 1078, 563
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Fisherman
+  rotate: false
+  xy: 932, 631
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Fisherman-1
+  rotate: false
+  xy: 412, 131
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Fisherman-2
+  rotate: false
+  xy: 524, 531
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Admiral
+  rotate: false
+  xy: 4, 100
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Themistocles
+  rotate: false
+  xy: 4, 100
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Admiral-1
+  rotate: false
+  xy: 524, 620
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Great Admiral-2
+  rotate: false
+  xy: 524, 620
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mounted Archer
+  rotate: false
+  xy: 210, 22
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mounted Archer-1
+  rotate: false
+  xy: 627, 542
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mounted Archer-2
+  rotate: false
+  xy: 1305, 642
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Persian Immortal(Ranged)
+  rotate: false
+  xy: 107, 11
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Vietnam War Elephant
+  rotate: false
+  xy: 600, 137
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-Bottom
+  rotate: false
+  xy: 1836, 628
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-BottomLeft
+  rotate: false
+  xy: 1540, 612
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-BottomRight
+  rotate: false
+  xy: 1612, 612
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-Top
+  rotate: false
+  xy: 1684, 612
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-TopLeft
+  rotate: false
+  xy: 1756, 607
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Edges/TGW-The Great Wall of China-The Great Wall of China-TopRight
+  rotate: false
+  xy: 1468, 584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bamboo
+  rotate: false
+  xy: 790, 548
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bamboo Shoot
+  rotate: false
+  xy: 1468, 648
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Baray
+  rotate: false
+  xy: 862, 556
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bison
+  rotate: false
+  xy: 934, 559
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Black Earth
+  rotate: false
+  xy: 1972, 950
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Camel
+  rotate: false
+  xy: 1836, 764
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa
+  rotate: false
+  xy: 1972, 886
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Colony
+  rotate: false
+  xy: 1128, 628
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Expand Pasture
+  rotate: false
+  xy: 412, 67
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Geothermal Crevice
+  rotate: false
+  xy: 1548, 740
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Geothermal Power Plant
+  rotate: false
+  xy: 412, 220
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Holy Mountain
+  rotate: false
+  xy: 700, 473
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Holy Mountain
+  rotate: false
+  xy: 700, 401
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HolyMountainDH
+  rotate: false
+  xy: 700, 332
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Kelp
+  rotate: false
+  xy: 1035, 627
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mudflat
+  rotate: false
+  xy: 700, 268
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Panda
+  rotate: false
+  xy: 4, 508
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Black Earth+Farm
+  rotate: false
+  xy: 700, 204
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Holy Mountain
+  rotate: false
+  xy: 685, 135
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Potato
+  rotate: false
+  xy: 295, 22
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Potato+Farm
+  rotate: false
+  xy: 1305, 578
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Reef
+  rotate: false
+  xy: 1377, 578
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rice
+  rotate: false
+  xy: 1836, 692
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rice+Farm
+  rotate: false
+  xy: 484, 67
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ruins
+  rotate: false
+  xy: 1836, 892
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Salt Field
+  rotate: false
+  xy: 556, 73
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Salt Lake
+  rotate: false
+  xy: 1548, 676
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Saltpeter
+  rotate: false
+  xy: 1620, 676
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Seafall ruins
+  rotate: false
+  xy: 712, 542
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Black Earth+Farm
+  rotate: false
+  xy: 1692, 676
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Hill+Holy Mountain
+  rotate: false
+  xy: 1764, 671
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spa
+  rotate: false
+  xy: 1150, 560
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/The Great Wall of China
+  rotate: false
+  xy: 1540, 548
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tourist Attractions
+  rotate: false
+  xy: 1390, 642
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Black Earth+Farm
+  rotate: false
+  xy: 1612, 548
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+Holy Mountain
+  rotate: false
+  xy: 556, 4
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Vietnamese City
+  rotate: false
+  xy: 1756, 539
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Volcanic Soil
+  rotate: false
+  xy: 932, 720
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 1240, 720
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wheat+Farm
+  rotate: false
+  xy: 1684, 548
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
