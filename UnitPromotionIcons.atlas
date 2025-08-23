@@ -1,0 +1,314 @@
+
+UnitPromotionIcons.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+UnitPromotionIcons/Afforestation
+  rotate: false
+  xy: 212, 178
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Aim
+  rotate: false
+  xy: 786, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Apply Poison
+  rotate: false
+  xy: 556, 288
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Armor
+  rotate: false
+  xy: 212, 120
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Armor Piercing
+  rotate: false
+  xy: 212, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bayonet Charge
+  rotate: false
+  xy: 270, 160
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Blizzard Wind Ability
+  rotate: false
+  xy: 390, 238
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Bombard
+  rotate: false
+  xy: 270, 102
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Charge
+  rotate: false
+  xy: 730, 313
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Crossing the Mountain
+  rotate: false
+  xy: 328, 160
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cruise
+  rotate: false
+  xy: 328, 102
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Defend the Motherland
+  rotate: false
+  xy: 894, 406
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Detection
+  rotate: false
+  xy: 786, 348
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dive
+  rotate: false
+  xy: 844, 348
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Escort
+  rotate: false
+  xy: 902, 348
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Queue
+  rotate: false
+  xy: 902, 348
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fire Support
+  rotate: false
+  xy: 960, 348
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Firepower Coverage
+  rotate: false
+  xy: 270, 44
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/First Attack
+  rotate: false
+  xy: 444, 17
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Formation
+  rotate: false
+  xy: 4, 28
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hard
+  rotate: false
+  xy: 328, 44
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hold Ground
+  rotate: false
+  xy: 212, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Indirect Fire
+  rotate: false
+  xy: 282, 218
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Landfall
+  rotate: false
+  xy: 478, 210
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Military City ability
+  rotate: false
+  xy: 444, 65
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/More Fight More Brave
+  rotate: false
+  xy: 444, 65
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Noise Reduction
+  rotate: false
+  xy: 614, 288
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Off-road
+  rotate: false
+  xy: 672, 308
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pass
+  rotate: false
+  xy: 730, 265
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Raid
+  rotate: false
+  xy: 556, 230
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Record
+  rotate: false
+  xy: 638, 366
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rout
+  rotate: false
+  xy: 614, 230
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Rush
+  rotate: false
+  xy: 672, 250
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Salvo
+  rotate: false
+  xy: 390, 180
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shooting Support
+  rotate: false
+  xy: 386, 122
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Shrapnel
+  rotate: false
+  xy: 386, 64
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Start a Concert
+  rotate: false
+  xy: 470, 346
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strategic Deployment
+  rotate: false
+  xy: 672, 192
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Street Battle
+  rotate: false
+  xy: 386, 6
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tactical Evasion
+  rotate: false
+  xy: 444, 122
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/TomyrisAbility
+  rotate: false
+  xy: 4, 236
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Trample
+  rotate: false
+  xy: 478, 268
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Turk ability
+  rotate: false
+  xy: 282, 326
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wear Armor
+  rotate: false
+  xy: 270, 11
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1

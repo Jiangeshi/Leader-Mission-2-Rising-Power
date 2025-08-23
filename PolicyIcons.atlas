@@ -1,0 +1,132 @@
+
+PolicyIcons.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+PolicyBranchIcons/Feudalism
+  rotate: false
+  xy: 340, 92
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Industrial
+  rotate: false
+  xy: 939, 433
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+PolicyIcons/Agglomeration Planning
+  rotate: false
+  xy: 874, 335
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+PolicyIcons/Centralization
+  rotate: false
+  xy: 340, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Colonialism
+  rotate: false
+  xy: 470, 328
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+PolicyIcons/Divine Right of Kings
+  rotate: false
+  xy: 658, 363
+  size: 145, 145
+  orig: 145, 145
+  offset: 0, 0
+  index: -1
+PolicyIcons/Hate Propaganda
+  rotate: false
+  xy: 4, 50
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Imperialism
+  rotate: false
+  xy: 939, 376
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+PolicyIcons/Industrialism
+  rotate: false
+  xy: 212, 12
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+PolicyIcons/Lord-Vassal
+  rotate: false
+  xy: 658, 255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Military Chemical Industry
+  rotate: false
+  xy: 766, 255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Military Reclamation System
+  rotate: false
+  xy: 811, 388
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+PolicyIcons/Neoliberalism
+  rotate: false
+  xy: 262, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Price Scissors
+  rotate: false
+  xy: 330, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+PolicyIcons/Rural Population Migration
+  rotate: false
+  xy: 262, 260
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/Sustainable Development
+  rotate: false
+  xy: 418, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+PolicyIcons/The Five-Year Plan
+  rotate: false
+  xy: 212, 130
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+PolicyIcons/Urbanization
+  rotate: false
+  xy: 4, 258
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1

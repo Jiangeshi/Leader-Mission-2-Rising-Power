@@ -1,0 +1,482 @@
+
+Icons.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+CityStateIcons/Almaty
+  rotate: false
+  xy: 1944, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/M'Banza-Kongo
+  rotate: false
+  xy: 1944, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Sidon
+  rotate: false
+  xy: 1944, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Valletta
+  rotate: false
+  xy: 1944, 732
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Antwerp
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Genoa
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Kathmandu
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Tyre
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Vancouver
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Venice
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Zanzibar
+  rotate: false
+  xy: 1944, 624
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Auckland
+  rotate: false
+  xy: 4, 470
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cardiff
+  rotate: false
+  xy: 4, 470
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+CityStateIcons/Johannesburg
+  rotate: false
+  xy: 4, 470
+  size: 550, 550
+  orig: 550, 550
+  offset: 0, 0
+  index: -1
+CityStateIcons/Bratislava
+  rotate: false
+  xy: 788, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cahokia
+  rotate: false
+  xy: 788, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Jerusalem
+  rotate: false
+  xy: 788, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Brussels
+  rotate: false
+  xy: 896, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Florence
+  rotate: false
+  xy: 896, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Kuala Lumpur
+  rotate: false
+  xy: 896, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Milan
+  rotate: false
+  xy: 896, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Quebec City
+  rotate: false
+  xy: 896, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cape Town
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Manila
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Mogadishu
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Rio de Janeiro
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Sydney
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Ur
+  rotate: false
+  xy: 545, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/A Vote for Bill 1
+  rotate: false
+  xy: 4, 26
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/A Vote for Bill 2
+  rotate: false
+  xy: 140, 26
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/A Vote for Bill 3
+  rotate: false
+  xy: 1636, 516
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Baray
+  rotate: false
+  xy: 680, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Colony
+  rotate: false
+  xy: 1300, 572
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Expand Pasture
+  rotate: false
+  xy: 1112, 414
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Geothermal Power Plant
+  rotate: false
+  xy: 276, 138
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Holy Mountain
+  rotate: false
+  xy: 1082, 522
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Bamboo
+  rotate: false
+  xy: 1436, 356
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ruins
+  rotate: false
+  xy: 562, 508
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Salt Field
+  rotate: false
+  xy: 1648, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Spa
+  rotate: false
+  xy: 1816, 668
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ImprovementIcons/The Great Wall of China
+  rotate: false
+  xy: 4, 162
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Tourist Attractions
+  rotate: false
+  xy: 1772, 516
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Vietnamese City
+  rotate: false
+  xy: 1808, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bamboo Shoot
+  rotate: false
+  xy: 628, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bison
+  rotate: false
+  xy: 562, 390
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+ResourceIcons/CD
+  rotate: false
+  xy: 312, 237
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+ResourceIcons/Camel
+  rotate: false
+  xy: 1856, 840
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cocoa
+  rotate: false
+  xy: 1816, 692
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+ResourceIcons/Diplomatic Point
+  rotate: false
+  xy: 1004, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Entertainment Investment
+  rotate: false
+  xy: 1544, 494
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ResourceIcons/Feat
+  rotate: false
+  xy: 1908, 516
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Grain Investment
+  rotate: false
+  xy: 628, 76
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+ResourceIcons/Infrastructure Investment
+  rotate: false
+  xy: 1544, 406
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ResourceIcons/Kelp
+  rotate: false
+  xy: 545, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Marriage Point
+  rotate: false
+  xy: 520, 66
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Number of Buildings
+  rotate: false
+  xy: 1468, 582
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+ResourceIcons/Number of Cities
+  rotate: false
+  xy: 1082, 740
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1
+ResourceIcons/Number of Fighters
+  rotate: false
+  xy: 1220, 464
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Number of Leaders
+  rotate: false
+  xy: 1370, 750
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+ResourceIcons/Panda
+  rotate: false
+  xy: 1300, 436
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Potato
+  rotate: false
+  xy: 1436, 464
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Productive Investment
+  rotate: false
+  xy: 1632, 428
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ResourceIcons/Research Investment
+  rotate: false
+  xy: 1720, 428
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rice
+  rotate: false
+  xy: 653, 282
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Saltpeter
+  rotate: false
+  xy: 653, 174
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Seed
+  rotate: false
+  xy: 700, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/Steels
+  rotate: false
+  xy: 312, 29
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Warfare Aversion Level
+  rotate: false
+  xy: 1648, 652
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
