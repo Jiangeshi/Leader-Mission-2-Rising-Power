@@ -598,7 +598,8 @@
         "choices": [
             {
                 "text": "Gain Faith",
-                "uniques": ["Only available <after turn number [4]>", "Gain [8] [Faith] <(modified by game speed)>", "Gain [1] [Faith] <for every [turns]> <(modified by game speed)>"]
+                "uniques": ["Only available <after turn number [4]>", "Gain [8] [Faith] <(modified by game speed)>", "Gain [1] [Faith] <for every [turns]> <(modified by game speed)>"
+                ]
             },
             {
                 "text": "Gain Culture",
@@ -719,7 +720,8 @@
                 "text": "Ideological Emancipation",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>",
+                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", 
+                    "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>",
                     "Provides the cheapest [Culture] building in your first [1] cities for free",
                     ],
             },

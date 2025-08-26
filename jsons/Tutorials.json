@@ -3,13 +3,13 @@
 
   {
   // 模组介绍
-    "name": "Introduction",
+    "name": "1.1 Mod Introduction",
     "steps": [
       "Welcome to Leader-Mission-2-Rising-Power!\nAs the second installment of the Leadership Mission series, Leadership Mission 2 has been limited in strength compared to the first generation civilization and optimized for the gaming experience. Having a good trip!"
     ]
   },
   {
-    "name": "New Game",
+    "name": "1.2 Warfare Aversion Level",
     "civilopediaText": [
       {"text":"Excessive military aggression will inevitably lead to the downfall of the country. [Warfare Aversion Level] will gradually increase as the war progresses and bring negative effects. Please closely monitor the changes in the [Warfare Aversion Level] during the war!"}, 
       {},
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "name": "Unhappiness",
+    "name": "1.3 Unhappiness",
     "civilopediaText": [
       {"text":"It seems that your citizens are unhappy!\nWhile unhappy, your civilization will suffer many detrimental effects, increasing in severity as unhappiness gets higher."},
       {"text":"Unhappiness has two main causes: Population and cities.\n  Each city causes 3 unhappiness, and each population, 1"},
@@ -34,50 +34,65 @@
     ]  
   },
   {
-    "name": "Slow Start",
+    "name": "1.4 Barbarian Breakout Mode",
     "steps": [
       "New Mode: Barbarian Breakout\nOpening method: Speed - Barbarian Breakout\nIntroduction:1. The  speed of Barbarian Breakout is based on quick speed.\n2. Under the Barbarian Breakout, the generation rate of the barbarians is 10 times higher than the normal rate.\n3.Under the  Barbarian Breakout, the barbarians no longer suffer negative effects of -10% Strength, but instead become+33% Strength.\n4. In Barbarian Breakout, players unlock the War policy from the beginning.\n5. In Barbarian Breakout, players can obtain 50% of the combat power, [Gold], [Science], and [Faith] of barbarian units by killing them."
     ],
   },
   {
-    "name": "Culture and Policies",
+    "name": "1.5 City Level",
     "steps": [
-      "In LM2, cities are classified into five levels, I to V, based on the number of buildings (0, 3, 7, 12, 16) within the city. The city level will limit the number of buildings that can be built in the city, so you need to upgrade the city by building more low-level buildings in order to be able to build high-level buildings.",
+      "In LM2, cities are classified into five levels, I to V, based on the number of buildings (1, 4, 8, 13, 17) within the city. The city level will limit the number of buildings that can be built in the city, so you need to upgrade the city by building more low-level buildings in order to be able to build high-level buildings.",
     ]
   },
   {
-    "name": "City Expansion",
+    "name": "1.6 Specialized City",
     "steps": [
 	"When your city reaches Level II and its population reaches 7, you can choose a specialized development direction for the city. Each city can only transform in one direction, and unless the city is conquered, the transformation result is irreversible."
     ]
   },
   {
-    "name": "Happiness",
+    "name": "1.7 Cultural Victory",
     "steps": [
-      "As cities grow in size and influence, you have to deal with a happiness mechanic that is no longer tied to each individual city.\nInstead, your entire empire shares the same level of satisfaction.\nAs your cities grow in population you’ll find that it is more and more difficult to keep your empire happy."    ,
-      "In addition, you can’t even build any city improvements that increase happiness until you’ve done the appropriate research.\nIf your empire’s happiness ever goes below zero the growth rate of your cities will be hurt.\nIf your empire becomes severely unhappy (as indicated by the smiley-face icon at the top of the interface)\n  your armies will have a big penalty slapped on to their overall combat effectiveness."    ,
-      "This means that it is very difficult to expand quickly in Unciv.\nIt isn’t impossible, but as a new player you probably shouldn't do it.\nSo what should you do? Chill out, scout, and improve the land that you do have by building Workers.\nOnly build new cities once you have found a spot that you believe is appropriate."
+      "A new victory condition: Cultural Victory! When you enable the Cultural Victory option, certain buildings and all world wonders will provide external cultural influence. Additionally, tourist attractions and landmarks will also contribute to external cultural influence."
+      "If Cultural Victory is enabled, your Great Artists will be able to travel freely to any location without being restricted by borders. When your Great Artist ends their turn in the territory of another civilization, they will provide a significant amount of external cultural influence.",
+      "The higher your culture value, the more external cultural influence you gain per turn. The specific cultural modifier is calculated as the 5th root of your culture per turn (rounded down).",
+      "Note! Tourist attractions and landmarks built by other civilizations will reduce your external cultural influence!",
+      "In addition to external cultural influence, each nation also possesses local cultural influence, which is the sum of all culture acquired throughout the game.",
+      "You achieve a Cultural Victory when your external cultural influence exceeds the cultural defense of all other nations! The cultural defense formula is as follows:\n",
+      "W = [External Cultural Influence.] / [Total Cultural Influence]\n[Cultural Defense] = [Local Cultural Influence.] + W × [External Cultural Influence.]\n", 
+      "May you successfully conquer the world through your culture!",
+      "Note: The original Cultural Victory has been renamed to Ideological Victory."
     ]
   },
   {
-    "name": "Golden Age",
+    "name": "1.8 World Congress",
     "steps": [
-      "You have entered a Golden Age!\nGolden age points are accumulated each turn by the total happiness \n  of your civilization\nWhen in a golden age, culture and production generation increases +20%,\n  and every tile already providing at least one gold will provide an extra gold."
+      "Civilization Invites You to the World Congress! The First World Congress will convene 10 turns after any civilization discovers Nation Tech for the first time.",
+      "At the start of each World Congress, an event will pop up to introduce the topics of the session. Each Congress will feature three bills for voting. Players can construct voting-related buildings to participate in the voting process. The voting period lasts for the first three turns of the Congress.",
+      "On the 4th turn of the Congress, the voting results will be announced. The bill with the highest number of votes will remain active for 17 turns, until the next World Congress. If no bill achieves a clear majority, no effects will be applied for the remainder of the session.",
+      "Voting Improvements can be removed by Workers."
     ]
   },
 
   {
-    "name": "Roads and Railroads",
+    "name": "1.9 Global Adjustment",
     "steps": [
-      "Connecting your cities to the capital by roads\n  will generate gold via the trade route.\nNote that each road costs 1 gold Maintenance per turn, and each Railroad costs 2 gold,\n  so it may be more economical to wait until the cities grow!"
+      "[+100]% Gold from Great Merchant trade missions",
+      "[-50]% construction time for [All] improvements <for [AI player] Civilizations>",
+      "[+1]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>"
     ]
   },
   {
-    "name": "Victory Types",
+    "name": "2.0 Global Unit Adjustment",
     "steps": [
-      "Once you’ve settled your first two or three cities you’re probably 100 to 150 turns into the game.\nNow is a good time to start thinking about how, exactly, you want to win – if you haven’t already.",
-      "There are four ways to win in Unciv. They are:\n - Cultural Victory: Complete 5 Social Policy Trees and build the Utopia Project\n - Domination Victory: Survive as the last civilization\n - Science Victory: Be the first to construct a spaceship to Alpha Centauri\n - Diplomatic Victory: Build the United Nations and win the vote",
-      "So to sum it up, these are the basics of Unciv – Found a prosperous first city, expand slowly to manage happiness, and set yourself up for the victory condition you wish to pursue.\nObviously, there is much more to it than that, but it is important not to jump into the deep end before you know how to swim."
+      "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
+      "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+      "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
+      "[This Unit] takes [50] damage <upon ending a turn in a [Mountain] tile>",
+      "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
+      "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
+      "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
     ]
   },
   {

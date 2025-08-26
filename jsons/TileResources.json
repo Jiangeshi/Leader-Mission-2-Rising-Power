@@ -728,4 +728,15 @@
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
 	}
+	// 文化胜利
+	{
+		"name": "External Cultural Influence", 
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Stockpiled", "Not shown on world screen <when [Cultural] Victory is disabled>"]
+	}
+	{
+		"name": "Local Cultural Influence",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
 ]

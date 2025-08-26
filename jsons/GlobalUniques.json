@@ -1,6 +1,14 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 文化胜利
+    "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled>"
+   
+    "Instantly provides [1] [Local Cultural Influence] <for every [[Culture] Per Turn]> <upon turn end> <when [Cultural] Victory is enabled>"
+    
+    
+    
+    
     // 世界会议
     // 初始化
     "Instantly provides [30] [Temp2] <upon turn end> <if [Announcing the commencement of the World Congress] is constructed by anybody> <when number of [Temp2] is equal to [0]> <when [World Conference(Recommended to enable)] Victory is enabled>",
@@ -20,8 +28,7 @@
     
     
     
-    // 大商修正
-    "[+100]% Gold from Great Merchant trade missions",
+    
     
     "Requires establishing embassies to conduct advanced diplomacy",
     // 宗教
@@ -39,7 +46,7 @@
     // 修正
     "[-50]% construction time for [All] improvements <for [AI player] Civilizations>",
     "[+1]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
-    
+    "[+100]% Gold from Great Merchant trade missions",
     
     // 快乐惩罚
     "[-50]% growth [in all cities] <when number of [Happiness] is between [-10] and [-1]>",

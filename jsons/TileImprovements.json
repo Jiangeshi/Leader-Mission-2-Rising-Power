@@ -192,6 +192,7 @@
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
 		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		"Provides [2] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 		]	
 	},	
 	{
@@ -324,7 +325,8 @@
 		"[+2 Culture] <after discovering [Radio]>",
 		"Will not be replaced by automated units",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [Improvement] tiles> <hidden from users>",
-		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>",
+		"[+1 Production] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [Improvement] tiles> <hidden from users>", 
+		"Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
