@@ -2138,6 +2138,7 @@
 			"Unbuildable", "Uncapturable",
 			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
 			"Special Great Person",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
 	},
@@ -2148,7 +2149,8 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
 	},
@@ -2162,7 +2164,8 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2175,7 +2178,8 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2187,7 +2191,8 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
 		

@@ -667,28 +667,29 @@
             },
         ]
     },
+    // 时代奖励
     {
         "name": "New Era",
         "text": "Under your wise and powerful leadership, your civilization has flourished and entered a new era.",
         "choices": [
             {
                 "text": "Start Golden Age",
-                "uniques": ["Empire enters a [10]-turn Golden Age"],
+                "uniques": ["Empire enters a [8]-turn Golden Age"],
             },
             {
                 "text": "Gain Population",
-                "uniques": ["[+1] population in a random city", "[+1] population in a random city"],
+                "uniques": ["[+1] population in a random city", "[+1] population in a random city", "[+1] population in a random city"],
             },
             {
                 "text": "Gain Settler",
                 "uniques": [
-                "Free [Settler] appears", "Only available <for [Human player] Civilizations>"
+                "Free [Settler] appears", "Free [Scout] appears", "Only available <for [Human player] Civilizations>"
                 ],
             },
             {
                 "text": "Gain Feat",
                 "uniques": [
-                "Instantly provides [10] [Feat]",
+                "Instantly provides [15] [Feat]",
                 ],
             },            
             {
@@ -697,11 +698,15 @@
             },
             {
                 "text": "Gain Faith",
-                "uniques": ["Gain enough Faith for [33]% of a Great Prophet"],
+                "uniques": ["Gain enough Faith for [50]% of a Great Prophet"],
             },
             {
                 "text": "Gain Spy",
                 "uniques": ["Gain an extra spy", "Only available <when espionage is enabled>"],
+            },
+            {
+                "text": "Gain Power",
+                "uniques": ["[+10]% Strength <for [Military] units> <for [10] turns>", "Only available <after adopting [Honor]>"]
             },
         ]
     },

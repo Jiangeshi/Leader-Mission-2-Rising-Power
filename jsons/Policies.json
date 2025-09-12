@@ -46,7 +46,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Each city founded increases culture cost of policies [25]% less than normal",
-                    "[+25]% Strength for cities <with a garrison>",
+                    "[+20]% Strength for cities <with a garrison>",
                 ],
                 "requires": ["Aristocracy"],
                 "row": 3,
@@ -55,7 +55,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements", "Empire enters a [10]-turn Golden Age",
+                    "[-25]% construction time for [All] improvements", "Empire enters a [8]-turn Golden Age",
                 ],
                 "requires": ["Republic", "Citizenship"],
                 "row": 3,
@@ -64,8 +64,8 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[15]% Food is carried over after population increases [in all cities]",
-                    "Comment [[Each city starts with 20 Stored Food] [(modified by game speed)]]",
+                    "[10]% Food is carried over after population increases [in all cities]",
+                    "Comment [[Each city starts with 25 Stored Food] [(modified by game speed)]]",
                     "Gain a free [Tradition Complete Buff] [in all cities] <hidden from users>"
                 ]
             }
@@ -830,7 +830,7 @@
         "uniques": [
             "Notified of new Barbarian encampments",
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "[+1 Culture] <for every [3] [[Military] Units]>",
         ],
         "policies": [
             {

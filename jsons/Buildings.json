@@ -99,7 +99,7 @@
         "maintenance": 0,
         "cost": 10000,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Unsellable",
-		"Instantly gain [20] [Stored Food] <(modified by game speed)>", 
+		"Instantly gain [25] [Stored Food] <(modified by game speed)>", 
 		"Will not be displayed in Civilopedia"
 		]
 	}
