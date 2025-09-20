@@ -50,7 +50,7 @@
 		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
 		
 		// 地块
-		"[This Unit] gains the [Stock Up] status for [3] turn(s) <in [{improved} {resource}] tiles> <for [0] movement> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users>",
+		"[This Unit] gains the [Stock Up] status for [3] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users>",
 		
 		"[This Unit] gains the [Grain Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Bonus resource}] tiles> <hidden from users>", 
 		"[This Unit] gains the [Strategic Resource Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Strategic resource}] tiles> <hidden from users>", 
@@ -59,7 +59,7 @@
 		"[This Unit] loses the [Grain Cargo] promotion <costs [-15 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-30 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-60 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
 		"[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-15 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-30 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-60 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",	
 		"[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-60 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-120 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-240 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
-		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles]"
+		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos]"
 		]
 		"movement": 2
 		

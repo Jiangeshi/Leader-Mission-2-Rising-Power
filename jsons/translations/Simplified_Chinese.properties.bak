@@ -490,7 +490,7 @@ Grain Cargo = 粮食货物
 Strategic Resource Cargo = 战略资源货物
 Luxury Goods Cargo = 奢侈品货物
 Grain = 粮食
-Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos = 可以在改良的资源地块进口货物\n可以在[City center]地块售卖货物\n拥有货物时-1移动力
+Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles = 可以在改良的资源地块进口货物\n可以在[City center]地块售卖货物
 
 # 特殊伟人
 Special Great Prophet Project = 特殊大先知项目
