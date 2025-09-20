@@ -44,11 +44,26 @@
 	{
 		"name": "Itinerant Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Unbuildable",
+		"cost": 65,
+		"promotions": ["Off-road"],
+		"uniques": [
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
 		
-		//"Can instantly construct a [Landmark] improvement <by consuming this unit>",
-		],
+		// 地块
+		"[This Unit] gains the [Stock Up] status for [3] turn(s) <in [{improved} {resource}] tiles> <for [0] movement> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users>",
+		
+		"[This Unit] gains the [Grain Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Bonus resource}] tiles> <hidden from users>", 
+		"[This Unit] gains the [Strategic Resource Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Strategic resource}] tiles> <hidden from users>", 
+		"[This Unit] gains the [Luxury Goods Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Luxury resource}] tiles> <hidden from users>", 
+		
+		"[This Unit] loses the [Grain Cargo] promotion <costs [-15 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-30 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-60 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-15 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-30 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-60 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",	
+		"[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-60 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-120 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-240 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles]"
+		]
 		"movement": 2
+		
 	//侦查单位
 	},
 	{
@@ -87,6 +102,7 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
+		
 		]
 		"attackSound": "nonmetalhit"
 	},
@@ -2042,8 +2058,8 @@
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>", 
-		"Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
-		"May enter foreign tiles without open borders", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "Instantly provides [8] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 8 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
+		"May enter foreign tiles without open borders <when [Cultural] Victory is enabled>", "Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
+	"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
 		"movement": 2	
 	},
 	{

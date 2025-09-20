@@ -1506,5 +1506,32 @@
         "name": "Movement Damage",
         "uniques":["[-1] Movement"]
     },
+    // 行商
+    
+    // 进货
+    {
+        "name": "Stock Up",
+        "uniques":["Cannot move"]
+    },
+    {
+        "name": "Grain",
+        "uniques":["[-1] Movement"]
+    },
+    
+    // 货物
+    {
+        "name": "Grain Cargo",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    },
+
+    {
+        "name": "Strategic Resource Cargo",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    },
+
+    {
+        "name": "Luxury Goods Cargo",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    },
 ]
     

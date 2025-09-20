@@ -15,6 +15,7 @@
         "name": "Cultural",
         "victoryScreenHeader": "Have more External Cultural Influence\n than each player's Cultural Defense Power to win!",
         "milestones": ["Have more [External Cultural Influence] than each player's [[Local Cultural Influence]+[External Cultural Influence]^2/([External Cultural Influence]+[Local Cultural Influence]+1)]"],
+
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"    
     },

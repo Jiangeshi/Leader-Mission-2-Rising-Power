@@ -9,8 +9,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city",
-		]
+		"uniques": ["Indicates the capital city"]
 	},
 	
 	// 世界会议

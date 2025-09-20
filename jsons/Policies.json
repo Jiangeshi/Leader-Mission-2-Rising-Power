@@ -683,7 +683,8 @@
         },
         "uniques": [
             "Only available <after discovering [Sailing]>",
-            "[Great Admiral] is earned [50]% faster",
+            "[Great Admiral] is earned [25]% faster",
+            "Instantly provides [1] [Itinerant Merchant Capacity]", 
             "[+25]% [Gold] [in capital]",
             "[+1 Culture] from every [Luxury resource]"
         ],
@@ -702,6 +703,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-20]%",
+                    "[+1] Movement <for [Itinerant Merchant] units>",
                 ],
                 "row": 1,
                 "column": 3        

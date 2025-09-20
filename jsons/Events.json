@@ -705,6 +705,10 @@
                 "uniques": ["Gain an extra spy", "Only available <when espionage is enabled>"],
             },
             {
+                "text": "Gain Itinerant Merchant Capacity",
+                "uniques": ["Instantly provides [2] [Itinerant Merchant Capacity]"],
+            },
+            {
                 "text": "Gain Power",
                 "uniques": ["[+10]% Strength <for [Military] units> <for [10] turns>", "Only available <after adopting [Honor]>"]
             },

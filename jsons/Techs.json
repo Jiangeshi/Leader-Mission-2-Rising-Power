@@ -178,7 +178,7 @@
 				"name": "Currency",
 				"row": 5,
 				"prerequisites": ["Horseback Riding"],
-				"uniques": ["Gain [400] [Gold] <if no other Civilization has researched this> <(modified by game speed)>"],
+				"uniques": ["Gain [400] [Gold] <if no other Civilization has researched this> <(modified by game speed)>", "Instantly provides [1] [Itinerant Merchant Capacity]"],
 				"quote": ""
 			},
 			{
@@ -401,6 +401,7 @@
 				"name": "Economics",
 				"row": 4,
 				"prerequisites": ["Printing Press","Navigation"],
+				"uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]"],
 				"quote": ""
 			},
 			{
@@ -496,7 +497,7 @@
 				"name": "Construction",
 				"row": 4,
 				"prerequisites": ["Industrialization"],
-				"uniques":["[+1 Production] from all [Production] buildings"]
+				"uniques":["[+1 Production] from all [Production] buildings", "Instantly provides [1] [Itinerant Merchant Capacity]"]
 				"quote": ""
 			},
 			{
@@ -584,6 +585,7 @@
 				"name": "Globalization",
 				"row": 7,
 				"prerequisites": ["Flight","Combustion"],
+				"uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]"]
 				"quote": ""
 			}
 		]					

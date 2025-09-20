@@ -728,6 +728,7 @@
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
 	}
+	
 	// 文化胜利
 	{
 		"name": "External Cultural Influence", 
@@ -738,5 +739,14 @@
 		"name": "Local Cultural Influence",  
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	
+	// 行商
+	{
+		"name": "Itinerant Merchant Capacity",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
 	},
 ]
