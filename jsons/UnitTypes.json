@@ -88,6 +88,11 @@
         "name": "Missile",
         "movementType": "Air",
         "uniques": ["Flybomb"]
+    },
+    {
+        "name": "Support",
+        "movementType": "Air",
+        "uniques": ["Support Unit"]
         
     //判断类型
     },

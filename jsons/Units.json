@@ -5,7 +5,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		    "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations> <hidden from users>", "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
+		     "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
@@ -29,7 +29,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations> <hidden from users>", "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>"
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",  "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>"
 		],
 	},
 	{
@@ -38,7 +38,7 @@
 		"movement": 2,
 		"requiredTech": "Sailing",
 		"cost": 50,
-		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations> <hidden from users>", "Can build [Land] improvements on tiles <for [AI player] Civilizations> <hidden from users>"]	
+		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations> <hidden from users>", "Can build [Land] improvements on tiles <for [AI player] Civilizations> <hidden from users>", "Gain [4] [Gold] <upon ending a turn in a [Fishing Boats] tile> <after adopting [Merchant Navy]> <hidden from users>"]	
 	},		
 	{
 		"name": "Itinerant Merchant",
@@ -49,6 +49,7 @@
 		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
 		
+		
 		// 地块
 		"[This Unit] gains the [Stock Up] status for [3] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users>",
 		
@@ -56,14 +57,47 @@
 		"[This Unit] gains the [Strategic Resource Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Strategic resource}] tiles> <hidden from users>", 
 		"[This Unit] gains the [Luxury Goods Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Luxury resource}] tiles> <hidden from users>", 
 		
-		"[This Unit] loses the [Grain Cargo] promotion <costs [-15 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-30 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-60 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
-		"[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-15 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-30 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-60 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",	
-		"[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-60 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-120 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-240 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
-		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos]"
+		"[This Unit] loses the [Grain Cargo] promotion <costs [-20 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-40 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Grain Cargo] promotion <costs [-80 Food] stats> <for units with [Grain Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-20 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-40 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Strategic Resource Cargo] promotion <costs [-80 Production] stats> <for units with [Strategic Resource Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",	
+		"[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-80 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-160 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-320 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos]",
+		
+		// 额外收益
+		"Gain [25] [Faith] <upon losing the [Grain Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Strategic Resource Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Luxury Goods Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>",
+		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>",
+		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
 		]
 		"movement": 2
 		
-	//侦查单位
+    // 辅助单位
+    },
+	{
+		"name": "Carrier Pigeon",
+		"unitType": "Support",
+		"requiredTech": "Trapping",
+		"movement": 1,
+		"range": 1,
+		"cost": 15,
+		"uniques": ["Comment [Can see invisible Land units for stacking unit]", "Comment [+2 Sight for stacking unit]", "Comment [+1 Sight for stacking reconnaissance unit]"]
+	},
+	{
+		"name": "Medic",
+		"unitType": "Support",
+		"requiredTech": "Archery",
+		"movement": 1,
+		"range": 1,
+		"cost": 85,
+		"uniques": ["Comment [Stacking unit heals 15 HP upon turn end]"]
+	},
+	{
+		"name": "Observation Balloon",
+		"unitType": "Support",
+		"requiredTech": "Military Science",
+		"movement": 1,
+		"range": 1,
+		"cost": 230,
+		"uniques": ["Comment [+2 Sight for stacking unit]", "Comment [+1 Range for stacking unit]",]
+	// 侦查单位
 	},
 	{
 		"name": "Scout",
@@ -1208,7 +1242,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1222,7 +1256,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"	
 	},
@@ -1235,7 +1269,7 @@
 		"strength": 8,
 		"rangedStrength": 9,
 		"upgradesTo": "Pikeman",
-		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [Mobile] units>","Can transform to [Persian Immortal]"],
+		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal]"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"		
 	},
@@ -1250,7 +1284,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-	    "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
+	    "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1264,7 +1298,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"	
 	},   
@@ -1277,7 +1311,7 @@
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
+        "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1288,7 +1322,7 @@
 		"movement": 2,
 		"strength": 17,
 		"cost": 76,
-		"uniques": ["[+50]% Strength <vs [Mobile] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
@@ -1306,7 +1340,7 @@
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
 	    "promotions": ["[Impi] ability"],
-        "uniques":["[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
+        "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1316,7 +1350,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -1330,7 +1364,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 	    "upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -1344,7 +1378,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]",  "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1359,7 +1393,7 @@
 		"strength": 27,
 		"cost": 270,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"promotions": ["[Winged Hussar] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
@@ -1373,7 +1407,7 @@
 		"cost": 570,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques":["Costs [15] [Steels]", "[+100]% Strength <vs [Mobile] units> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [1] movement>"]
+		"uniques":["Costs [15] [Steels]", "[+100]% Strength <vs [{Melee} {Mobile}] units> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [1] movement>"]
 		"attackSound": "machinegun"
 	},
 	{
@@ -1383,7 +1417,7 @@
 		"strength": 65,
 		"cost": 800,
 		"requiredTech": "Computers",
-		"uniques": ["Costs [15] [Aluminum]", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+66]% Strength <vs [Mobile] units> <when attacking>", "Can pass through impassable tiles", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [3] movement>"],
+		"uniques": ["Costs [15] [Aluminum]", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities","[+66]% Strength <vs [{Melee} {Mobile}] units> <when attacking>", "Can pass through impassable tiles", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [3] movement>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2048,7 +2082,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "Instantly provides [8] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 8 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]", "May enter foreign tiles without open borders <when [Cultural] Victory is enabled>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]",  "Instantly provides [8] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 8 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]", "May enter foreign tiles without open borders <when [Cultural] Victory is enabled>"],
 		"movement": 2
 	},
 	{
@@ -2058,26 +2092,26 @@
 		"uniqueTo": "America",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>", 
 		"May enter foreign tiles without open borders <when [Cultural] Victory is enabled>", "Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
-	"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
+	 "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
 		"movement": 2	
 	},
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", ],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", ],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", ],
 		"movement": 2	
 	},
 	{
@@ -2090,14 +2124,14 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit",
-			"Takes your religion over the one in their birth city", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "Can instantly construct a [Holy site] improvement <for [2] movement> <[1] times> <for [Cambodia] Civilizations> <hidden from users>"],
+			"Takes your religion over the one in their birth city",  "Can instantly construct a [Holy site] improvement <for [2] movement> <[1] times> <for [Cambodia] Civilizations> <hidden from users>"],
 		"movement": 2,
 		"religiousStrength": 1000,
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>", "[+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>", "[+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat",  "[+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>", "[+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>"],
 		"movement": 2	
 	},
 	{
@@ -2105,7 +2139,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", ],
 		"movement": 4,
 	},
 	{
@@ -2119,7 +2153,7 @@
 		"[+5]% Strength bonus for [Land] units within [1] tiles", 
 		"Unbuildable",
 		"[-1] Movement <after adopting [Discipline]>"
-		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", "[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"],
+		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", ],
 		"movement": 3,
 	},
 	{
@@ -2135,7 +2169,7 @@
 		"Uncapturable",
 		"Unbuildable",
 		"Is part of Great Person group [Military]",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	
@@ -2151,7 +2185,7 @@
 		    "[1] free [Great Artist] units appear <by consuming this unit> <for [Chile] Civilizations>"
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			
 			"Special Great Person",
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
@@ -2164,7 +2198,7 @@
 			"Gain a free [Pantheon] belief <by consuming this unit>",
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
@@ -2179,7 +2213,7 @@
 			"Removes other religions when spreading religion",
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
@@ -2193,7 +2227,7 @@
 		    "[+20]% Strength bonus for [Land] units within [1] tiles", 
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
@@ -2206,7 +2240,7 @@
 		    "Religious Unit",
 		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
-			"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>",
+			
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
 			],
 		"movement": 2,
@@ -2223,7 +2257,7 @@
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	},
@@ -2237,7 +2271,7 @@
 		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	},
@@ -2250,7 +2284,7 @@
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	},
@@ -2263,7 +2297,7 @@
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	},
@@ -2277,7 +2311,7 @@
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
 		"Great Admiral",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	
@@ -2292,7 +2326,7 @@
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2
 	},
@@ -2307,7 +2341,7 @@
 		"[+2] Sight <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2320,7 +2354,7 @@
 		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2333,7 +2367,7 @@
 		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2346,7 +2380,7 @@
 		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2359,7 +2393,7 @@
 		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2372,7 +2406,7 @@
 		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2385,7 +2419,7 @@
 		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
     },
@@ -2398,7 +2432,7 @@
 		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2411,7 +2445,7 @@
 		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2424,7 +2458,7 @@
 		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	},
@@ -2437,7 +2471,7 @@
 		"[{Melee} {Mobile}] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
 		"Great General",
-		"[This Unit] gains the [Blizzard Wind Ability] promotion <for [Finland] Civilizations>  <hidden from users>"
+		
 		],
 		"movement": 2,
 	

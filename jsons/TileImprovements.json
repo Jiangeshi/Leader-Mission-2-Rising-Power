@@ -397,7 +397,7 @@
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>",
 			 "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
             "Unpillagable", "Irremovable", "Unbuildable",
-            "Gain control over [non-[Major]] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>"
+            "Gain control over [non-[Major]] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>",
             ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},

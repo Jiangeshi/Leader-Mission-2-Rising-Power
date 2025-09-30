@@ -442,8 +442,10 @@
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
 		
-		"Instantly gain [5] [Stored Food] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
+		"Instantly gain [4] [Stored Food] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
 		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {Buildings}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"[20]% of [Faith] from every [Faith] in the city added to [External Cultural Influence] <after adopting [Religious Appeal]> <hidden from users>"
+		"[200]% of [Culture] from every [All] in the city added to [Local Cultural Influence] <hidden from users> <(modified by game speed)>"
 		]	
 	},
 	{
@@ -716,7 +718,9 @@
 		"happiness": 6,
 	    "gold": 6,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled>"],
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
+		"Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+		],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -829,7 +833,7 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Comment [Gain extra [25]% [Gold] when selling cargo]","Must have an owned [Mountain] within [2] tiles", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"	
 	},
@@ -1031,15 +1035,15 @@
 		"specialistSlots": {"Artist": 2},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]", "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"]
 	},
 	{
 		"name": "Theatre",
 		"happiness": 3,
-		"culture": 1,
 		"maintenance": 2,
+		"percentStatBonus": {"culture": 10},
 		"requiredTech": "The Renaissance",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]", "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"]
 	},
 	{
 		"name": "Arsenal",
@@ -1065,7 +1069,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled>"],
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Architecture"
 		
 	// 复兴-世界奇观
@@ -1257,7 +1261,7 @@
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
-		"requiredTech": "Military Science",
+		"requiredTech": "Rifling",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	{
@@ -2213,7 +2217,7 @@
 	    "uniqueTo": "Byzantium",
 		"replaces": "Colosseum",
 	    "requiredTech": "Horseback Riding"
-		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [Horses]", "[1] free [Cataphract] units appear", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],	
+		"uniques":["Only available <in cities with a [City Level II]>", "Provides [1] [Number of Buildings] <in this city>", "[1] free [Cataphract] units appear", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],	
 	
 	// 罗马
 	},
@@ -2939,8 +2943,8 @@
 		"cost":1,
 		"uniqueTo": "Brazil",
 		"greatPersonPoints": {"Great Artist": 1},
-		"replacementTextForUniques": "[[Great Artist] is earned [100]% faster]\n+1 [Great Artist] Point",
-		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [100]% faster"]
+		"replacementTextForUniques": "[[Great Artist] is earned [75]% faster]\n+1 [Great Artist] Point",
+		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [75]% faster"]
 	},
 	{
 		"name": "Street Carnival",
@@ -2997,8 +3001,8 @@
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Engineer": 1},
-		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[+2 Culture, +1 Gold] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+2 Culture, +1 Gold] from every specialist [in all cities]"]	
+		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[+2 Culture] from every specialist [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+2 Culture] from every specialist [in all cities]"]	
 	},
 	{	
         "name": "Civilized Leader-Franklin Delano Roosevelt",
@@ -3151,8 +3155,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Carthage",
-		"replacementTextForUniques": "+75% to †Flank Attack bonuses for Military units",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Dido]>", "[+75]% to Flank Attack bonuses <for [Military] units>"]
+		"replacementTextForUniques": "[+66% to †Flank Attack bonuses for Military units]\n[Land units may cross [Mountain] tiles after the first [Great General] is earned]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Dido]>", "[+66]% to Flank Attack bonuses <for [Military] units>", "Land units may cross [Mountain] tiles after the first [Great General] is earned"]
     },
 	{
 		"name": "Cothon",
@@ -3416,7 +3420,7 @@
         "name": "Civilized Leader-Sumu",
 		"isNationalWonder": true,
 		"cost":1,
-		"food": 1,
+		"gold": 1,
 		"faith": 1,
 		"uniqueTo": "Sumusuming",
 		"replacementTextForUniques": "[[+2 Science, -1 Food] per [4] population [in all cities]]",

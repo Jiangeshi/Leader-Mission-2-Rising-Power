@@ -240,7 +240,8 @@
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]                          },
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+    },
 	{
 		"name": "Afghanistan",
 		"leaderName": "Leader",
@@ -265,8 +266,9 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Graveyard of Empires",
-		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[Gain control over [2] tiles [in all cities]] [upon declaring war with a major Civilization]]" 
-		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", "Gain control over [2] tiles [in all cities] <upon entering a war with [Major] Civilizations>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [upon declaring war on [Major] Civilizations]] [for [5] turns]\n[[[+3 Gold] [in all cities]] [upon being declared war on by [Major] Civilizations]] [for [10] turns]" 
+		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", 
+		"[+1 Production] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -676,8 +678,8 @@
 		"outerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Enlightenment of Western Philosophy",
-		"uniqueText": "+50 ♪Culture and +100 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 100 [Science] upon gaining a Great Person unit (modified by game speed)" 
-		"uniques": ["Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
+		"uniqueText": "+50 ♪Culture and +80 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 80 [Science] upon gaining a Great Person unit (modified by game speed)" 
+		"uniques": ["Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [80] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>", "Gain [80] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
 		"Gain [50] [Culture] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Special Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Special Great Person] unit>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
@@ -1081,8 +1083,8 @@
 		"innerColor": [0,54,128],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
-		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nNew Land Civilian units receive the [Blizzard Wind Ability] promotion",
-		"uniques": ["[+1] Movement <for [All] units> <in [Tundra] tiles>", "[+2] Movement <for [All] units> <in [Snow] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "+1/+2 ➡[Movement] for All units in Tundra/Snow tiles\nCan switch between [Auspicious Snow] and [Blizzard Wind]\nLand Civilian units can turn [Grassland] / [Plains] / [Desert] tile into a [Tundra] tile and turn [Tundra] tile into a [Snow] tile once in Your cities",
+		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
     },
@@ -1709,8 +1711,8 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniqueText": "[Earn [75]% of killed [Military] unit's [Cost] as [Gold]]\n[May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])]\n[Get [Strength] affected by deposits [Gold]]",
-		"uniques": ["Earn [75]% of killed [Military] unit's [Cost] as [Gold]", "May buy [Rock Band] units for [115] [Culture] [in all cities] at an increasing price ([35])",
+		"uniqueText": "[Earn [75]% of killed [Military] unit's [Cost] as [Gold]]\n[May buy [Rock Band] units for [120] [Culture] [in all cities] at an increasing price ([40])]\n[Get [Strength] affected by deposits [Gold]]",
+		"uniques": ["Earn [75]% of killed [Military] unit's [Cost] as [Gold]", "May buy [Rock Band] units for [120] [Culture] [in all cities] at an increasing price ([50])",
 		
 		"[+1]% Strength <for every [50] [Gold]> <when number of [Gold] is between [0] and [500]>",
 		
@@ -1757,8 +1759,8 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Pampas Pasture",
-		"uniqueText": "[[+1 Food] from every [Pasture]]\n[No Maintenance costs for improvements in [Grassland] tiles]\n[[-50]% construction time for [Pasture] improvements]",
-		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-50]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[[+1 Food] from every [Pasture]]\n[No Maintenance costs for improvements in [Grassland] tiles]\n[[-33]% construction time for [Pasture] improvements]",
+		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-33]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
     },
@@ -1939,7 +1941,7 @@
 		"outerColor": [0,133,61],
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
-		"uniqueText": "[Instantly gain 5 Stored Food and 5 [Gold] upon constructing Buildings for every 1 Era number [(modified by game speed)]]"
+		"uniqueText": "[Instantly gain 4 Stored Food and 5 [Gold] upon constructing Buildings for every 1 Era number [(modified by game speed)]]"
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],

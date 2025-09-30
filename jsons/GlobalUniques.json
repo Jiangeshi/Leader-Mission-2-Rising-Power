@@ -5,10 +5,8 @@
     "Instantly provides [1] [Itinerant Merchant Capacity] <upon entering a new era>",
     
     // 文化胜利
-    "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled>"
-   
-    "Instantly provides [1] [Local Cultural Influence] <for every [[Culture] Per Turn]> <upon turn end> <for [Human player] Civilizations> <when [Cultural] Victory is enabled>",
-    "Instantly provides [2] [Local Cultural Influence] <for every [[Culture] Per Turn]> <upon turn end> <for [AI player] Civilizations> <when [Cultural] Victory is enabled>",
+    "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled> <when number of [External Cultural Influence] is more than [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]>",
+  
     
     
     
@@ -206,7 +204,13 @@
         "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
         "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
         "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
-        
+        "Can carry [1] [Support] units",
+        "Can see invisible [Land] units <when stacked with a [Carrier Pigeon] unit>",
+        "[+2] Sight <when stacked with a [Carrier Pigeon] unit>",
+        "[+1] Sight <when stacked with a [Carrier Pigeon] unit> <for [Reconnaissance] units>",
+        "[+2] Sight <when stacked with a [Observation Balloon] unit>",
+        "[+1] Range <when stacked with a [Observation Balloon] unit>"
+        "[This Unit] heals [15] HP <upon turn end> <when stacked with a [Medic] unit>",
         
     // 文明修正
         "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations>",
@@ -226,6 +230,7 @@
         "Gain [5] [Faith] <upon discovering a [Mountain] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [3] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [2] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "[This Unit] gains the [Blizzard Wind Ability] promotion <for [{Land} {Civilian}] units> <for [Finland] Civilizations>"
 
     // 其他修正
     ]

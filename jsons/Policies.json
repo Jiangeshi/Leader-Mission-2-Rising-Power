@@ -238,8 +238,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+2 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
-                    "[-50]% enemy spy effectiveness [in capital]"
+                    "[+100]% Production when constructing [Happiness] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 1    
@@ -272,7 +271,8 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[+100]% [Strategic] resource production"
+                    "[+100]% [Strategic] resource production",
+                    "[+5 Happiness, +5 Culture] [in all cities] <when at war>"
                 ],
                 "requires": ["Hate Propaganda", "Police State"],
                 "row": 3,
@@ -282,7 +282,7 @@
                 "name": "Total War",
                 "uniques": [
                     "Instantly consumes [75] [Warfare Aversion Level]",
-                    "New [Military] units start with [15] XP [in all cities]"
+                    "New [Military] units start with [20] XP [in all cities]"
                 ],
                 "requires": ["Military Chemical Industry"],
                 "row": 3,
@@ -316,20 +316,20 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+3]% [Culture] from every [Wonder]"],
+                "uniques": ["[+5]% [Culture] from every [Wonder]"],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>"],
+                "uniques": ["[+25]% Strength for cities <when defending>", "[+2 Culture] from every specialist [in all cities]"],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-25]% Unhappiness from [Population] [in all cities]"
+                    "[-25]% Unhappiness from [Population] [in all cities]", "Empire enters golden age"
                 ],
                 "row": 1,
                 "column": 5
@@ -346,8 +346,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[+2 Culture] from every specialist [in all cities]",
-                    "Empire enters golden age"
+                    "Free Great Person",
                 ],
                 "requires": ["Civil Society", "Universal Suffrage"],
                 "row": 2,
@@ -643,7 +642,7 @@
                 "uniques": [
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
-                    "[+25]% spy effectiveness [in all cities]"    
+                    "[+5]% [External Cultural Influence] resource production <for every [Remaining [Open Borders] Civilizations]>"    
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,
@@ -722,7 +721,7 @@
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+15]% Production when constructing [Water] units [in all coastal cities]",
-                    "[+1 Gold] from [Water] tiles [in all coastal cities]",
+                    "Comment [Gain 4 [Gold] when a [Fisherman] ends their turn on a [Fishing Boats] tile]",
 
                 ],
                 "requires": ["Naval Tradition"],
@@ -731,7 +730,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["[+1 Gold] from all [Production] buildings", "[+2] Happiness from each type of luxury resource",],
+                "uniques": ["Comment [Gain extra [14]% [Gold] of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3

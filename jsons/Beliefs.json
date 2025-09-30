@@ -39,6 +39,11 @@
         "name": "God of the Sea",
         "type": "Pantheon",
         "uniques": ["[+1 Faith] from every [Coast]", "[+2 Faith] from every [Ocean]"],
+    },
+    {
+        "name": "Oracle Bells",
+        "type": "Pantheon",
+        "uniques": ["Comment [[Gain extra [25] [Faith] when selling cargo] [(modified by game speed)]]"],    
         
     // 文化
     },
@@ -373,5 +378,15 @@
         "name": "Devout Palmer",
         "type": "Enhancer",
         "uniques": ["[Faith] cost of purchasing items in cities [-15]%"]
+    }
+    {
+        "name": "Justification by Faith",
+        "type": "Enhancer",
+        "uniques": ["Gain [75] [Faith] <upon expending a [Religious Unit] unit> <(modified by game speed)>", "Instantly provides [75] [Local Cultural Influence] <upon expending a [Religious Unit] unit> <(modified by game speed)>"]
+    }
+    {
+        "name": "Religious Appeal",
+        "type": "Enhancer",
+        "uniques": ["Comment [[20]% of [Faith] from every [Faith] in the city added to [External Cultural Influence]]"]
     }
 ]
