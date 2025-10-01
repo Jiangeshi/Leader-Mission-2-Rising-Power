@@ -707,7 +707,7 @@
 		"greatPersonPoints": {"Great Admiral": 1},
 		"maintenance": 2,
 		"production": 2,
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water", "Must be next to [Coast]", "Seaside Building", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+3]% [Gold] from Trade Routes", "Connects trade routes over water", "Must be next to [Coast]", "Seaside Building", "Provides [1] [Number of Buildings] <in this city>"],
 		"requiredTech": "Compass"
 	
 	// 古典-国家奇观
@@ -2024,9 +2024,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sri Vijaya",
-		"replacementTextForUniques": "[+5 [Gold] in all land cities]",
+		"replacementTextForUniques": "[+4 [Gold] in all land cities]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Dharmasetu]>",
-	"[+5 Gold] [in all cities]", "[-5 Gold] [in all coastal cities]"]
+	"[+4 Gold] [in all cities]", "[-4 Gold] [in all coastal cities]"]
 	
 	// 希腊
 	},
@@ -3163,7 +3163,7 @@
 		"replaces": "Harbor",
 		"uniqueTo": "Carthage",
 		"maintenance": 4,
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+5]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Seaside Building", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+1 Production] from [Water resource] tiles [in this city]", "[+3]% [Gold] from Trade Routes", "Connects trade routes over water","Must be next to [Coast]", "Seaside Building", "[Water] Units adjacent to this city heal [+15] HP per turn when healing", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "Provides [1] [Number of Buildings] <in this city>", "Comment [No Production Produce]"],
 		"requiredTech": "Compass"
 
     // 埃塞俄比亚

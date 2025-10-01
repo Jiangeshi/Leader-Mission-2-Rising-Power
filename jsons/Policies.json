@@ -730,7 +730,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["Comment [Gain extra [14]% [Gold] of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
+                "uniques": ["Comment [Gain extra [10]% [Gold] of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3

@@ -43,7 +43,7 @@
 	{
 		"name": "Itinerant Merchant",
 		"unitType": "Civilian",
-		"cost": 65,
+		"cost": 75,
 		"promotions": ["Off-road"],
 		"uniques": [
 		"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -65,7 +65,7 @@
 		// 额外收益
 		"Gain [25] [Faith] <upon losing the [Grain Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Strategic Resource Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Luxury Goods Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>",
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>",
-		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [7] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
+		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
 		]
 		"movement": 2
 		
@@ -2238,7 +2238,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Special Great Person",
 		    "Religious Unit",
-		    "Gain enough Faith for [115]% of a Great Prophet <by consuming this unit>",
+		    "Gain enough Faith for [100]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
 			
 			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",

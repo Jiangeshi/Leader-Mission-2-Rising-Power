@@ -226,7 +226,7 @@
         "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>",
         "Instantly gain [30] [Golden Age points] <upon entering combat> <for [Melee] units> <for [Assyrian] Civilizations> <if [Civilized Leader-Tiglath Pileser III] is constructed> <(modified by game speed)>",
         "Gain [15] [Gold] <upon entering combat> <for [Melee] units> <if [Civilized Leader-Tiglath Pileser III] is constructed> <for [Assyrian] Civilizations> <(modified by game speed)>",
-        "Gain [3] [Gold] <upon discovering a [All] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "Gain [2] [Gold] <upon discovering a [All] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [5] [Faith] <upon discovering a [Mountain] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [3] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [2] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
