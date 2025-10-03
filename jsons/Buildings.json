@@ -548,7 +548,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"requiredTech": "Belief Worship",
-		"uniques": ["[1] free [Great Prophet] units appear", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["[1] free [Great Prophet] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
 	{
@@ -558,7 +558,7 @@
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Writing",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"		
 	},
 	{
@@ -566,7 +566,7 @@
 		"food": 2,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Calendar",
 	    "quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
@@ -575,7 +575,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-20]% construction time for [All] improvements","[2] free [Worker] units appear", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-20]% construction time for [All] improvements","[2] free [Worker] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Burial Custom",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -586,7 +586,7 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]",
 			"[+1 Science] from [Coast] tiles [in this city]",
-			"[+1 Culture] from [Ocean] tiles [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+			"[+1 Culture] from [Ocean] tiles [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 			],
 		"requiredTech": "Burial Custom",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -596,7 +596,7 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+25]% Strength <for [All] units> <vs cities>", "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+25]% Strength <for [All] units> <vs cities>", "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Bronze Working",
 	    "quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 	},
@@ -605,7 +605,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Calendar",
 	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"	
 	    			
@@ -718,8 +718,8 @@
 		"happiness": 6,
 	    "gold": 6,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>",
-		"Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>",
+		"Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 		],
 		"requiredTech": "Engineering"
 	},
@@ -774,7 +774,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Admiral": 2},
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]","[1] free [Great Admiral] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 			],
 		"requiredTech": "Optics",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
@@ -786,7 +786,7 @@
 	    "greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Engineering",
 		"uniques":[
-		"[2] free [Spearman] units appear","[3] free [Composite Bowman] units appear", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+		"[2] free [Spearman] units appear","[3] free [Composite Bowman] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
 		]
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -796,7 +796,7 @@
 		"food": 5,
 		"isWonder": true,
 		"requiredTech": "Engineering",
-		"uniques": ["[+2] population [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+2] population [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"	
 	},
 	{
@@ -805,7 +805,7 @@
 		"gold": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Defensive Fortification",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"	
 	},
@@ -814,7 +814,7 @@
 		"culture": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Drama and Poetry",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"	
 	},
@@ -824,7 +824,7 @@
 		"faith": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+2 Gold] from [Water] tiles [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Must be next to [Coast]", "[+2 Gold] from [Water] tiles [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Guilds",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
@@ -833,7 +833,7 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Comment [Gain extra [25]% [Gold] when selling cargo]","Must have an owned [Mountain] within [2] tiles", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Comment [Gain extra [25]% [Gold] when selling cargo]","Must have an owned [Mountain] within [2] tiles", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"	
 	},
@@ -841,7 +841,7 @@
 		"name": "Hagia Sophia",
 		"faith": 3,
 		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -852,7 +852,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Temple] [in this city]", 
-		"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 		
@@ -962,7 +962,7 @@
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+50]% Golden Age length", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Civil Service",
 		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
 	},
@@ -970,7 +970,7 @@
 		"name": "Angkor Wat",
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+2 Production, +2 Culture] from every [Great Improvement]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+2 Production, +2 Culture] from every [Great Improvement]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"	
 	},
@@ -979,7 +979,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 25},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "Gain a free [Castle] [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "Gain a free [Castle] [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"	
 	},
@@ -990,7 +990,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Politics",
-		"uniques": ["Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 		
 	// 复兴-必建建筑
@@ -1069,7 +1069,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Architecture"
 		
 	// 复兴-世界奇观
@@ -1079,7 +1079,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+25]% [Culture] [in all cities]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+25]% [Culture] [in all cities]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "The Renaissance",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
@@ -1088,7 +1088,7 @@
 		"culture": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Architecture",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
@@ -1097,7 +1097,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Printing Press",
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
 	},
@@ -1105,7 +1105,7 @@
 		"name": "Jokhang Temple",
 		"culture": 3,
 		"isWonder": true,
-		"uniques":["[+2 Food] from [Snow] tiles [in this city]","[+2 Faith] from [Hill] tiles [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques":["[+2 Food] from [Snow] tiles [in this city]","[+2 Faith] from [Hill] tiles [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
 		"requiredTech": "Printing Press",
 	    "quote": "'But according to the original heart, there is no need to seek the Dharma, the heart is also the Dharma.' - The Essential Techniques for Communicating Minds"
 	},
@@ -1115,7 +1115,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
-			"Gain a free [Castle] [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+			"Gain a free [Castle] [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Gunpowder",
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"	
 	},
@@ -1125,7 +1125,7 @@
 		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Empire enters golden age", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Architecture",
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
@@ -1134,7 +1134,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Enlightenment",
 		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"	
 	},
@@ -1143,7 +1143,7 @@
 		"culture": 3,
 		"cityStrength": 12,
 		"isWonder": true,
-		"uniques": ["[+33]% Production when constructing [Siege] units [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+33]% Production when constructing [Siege] units [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Metallurgy",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"	
 			
@@ -1241,7 +1241,7 @@
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[2] free [Great Artist] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
@@ -1251,7 +1251,7 @@
 		"gold": 4,
 		"greatPersonPoints": {"Great Merchant": 4},
 		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-20]%", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[Gold] cost of purchasing items in cities [-20]%", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Industrialization",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
@@ -1260,7 +1260,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Rifling",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
@@ -1272,7 +1272,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
-			"Must have an owned [Mountain] within [2] tiles", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+			"Must have an owned [Mountain] within [2] tiles", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 		
@@ -1330,7 +1330,7 @@
 		"happiness": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Culture] per [1] social policies adopted", "Provides [1] [Diplomatic Point]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+1 Culture] per [1] social policies adopted", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -1339,7 +1339,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production, +1 Culture] from every specialist [in all cities]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+1 Production, +1 Culture] from every specialist [in all cities]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
@@ -1348,7 +1348,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [1] [Diplomatic Point]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
@@ -1463,7 +1463,7 @@
 		"name": "Pentagon",
 		"isWonder": true,
 		"culture": 3,
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"		
 	},
@@ -1472,7 +1472,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
 	},
@@ -1501,7 +1501,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]", "Provides [1] [Diplomatic Point]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Internetwork",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
@@ -1509,7 +1509,7 @@
 		"name": "Hubble Space Telescope",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["[2] free [Great Scientist] units appear", "[+25]% Production when constructing [Spaceship part] units [in this city]", "Gain a free [Spaceship Factory] [in this city]", "Provides [3] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[2] free [Great Scientist] units appear", "[+25]% Production when constructing [Spaceship part] units [in this city]", "Gain a free [Spaceship Factory] [in this city]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Satellites",
 		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"	
 
@@ -2199,8 +2199,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "[[Faith] cost of purchasing [Great Prophet] units [-50]%]",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[Faith] cost of purchasing [Great Prophet] units [-50]%"]
+		"replacementTextForUniques": "[[Faith] cost of purchasing [Great Prophet] units [-33]%]\n[[+1 Faith] [in capital]]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Justinian I]>", "[Faith] cost of purchasing [Great Prophet] units [-33]%", "[+1 Faith] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Justinian I",
@@ -2992,8 +2992,8 @@
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Artist": 1},
-		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+1 Production, +1 Culture] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+1 Production, +1 Culture] from every specialist [in all cities]"]
+		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+2 Production] from every specialist [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Production] from every specialist [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Theodore Roosevelt",

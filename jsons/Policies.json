@@ -271,7 +271,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[+100]% [Strategic] resource production",
+                    "Comment [[+100]% [Strategic] resource production]", "[+100]% [Horses] resource production <hidden from users>", "[+100]% [Iron] resource production <hidden from users>", "[+100]% [Coal] resource production <hidden from users>", "[+100]% [Oil] resource production <hidden from users>", "[+100]% [Aluminum] resource production <hidden from users>", "[+100]% [Uranium] resource production <hidden from users>", "[+100]% [Uranium] resource production <hidden from users>", "[+100]% [Steels] resource production <hidden from users>",
                     "[+5 Happiness, +5 Culture] [in all cities] <when at war>"
                 ],
                 "requires": ["Hate Propaganda", "Police State"],
@@ -775,8 +775,8 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["May buy [Worker] units with [Faith] for [3] times their normal Production cost",
-        "May buy [Settler] units with [Faith] for [3] times their normal Production cost", "[Faith] cost of purchasing items in cities [-10]%"],
+                "uniques": ["May buy [Worker] units for [90] [Faith] [in all cities] at an increasing price ([140])",
+        "May buy [Settler] units for [140] [Faith] [in all cities] at an increasing price ([160])", "[Faith] cost of purchasing items in cities [-10]%"],
                 "row": 1,
                 "column": 5
             },

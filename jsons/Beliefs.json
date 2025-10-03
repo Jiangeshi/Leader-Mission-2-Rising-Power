@@ -8,7 +8,7 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Tundra]", "[-1 Faith] [in all cities]"]
+        "uniques": ["[+2 Faith] from every [Tundra]", "[+2 Faith] from every [Snow]", "[-1 Faith] [in all cities]"]
     },
     {
         "name": "Sacred Path",

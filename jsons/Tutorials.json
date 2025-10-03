@@ -56,9 +56,9 @@
     "steps": [
       "A new victory condition: Cultural Victory! When you enable the Cultural Victory option, certain buildings and all world wonders will provide external cultural influence. Additionally, tourist attractions and landmarks will also contribute to external cultural influence."
       "If Cultural Victory is enabled, your Great Artists will be able to travel freely to any location without being restricted by borders. When your Great Artist ends their turn in the territory of another civilization, they will provide a significant amount of external cultural influence.",
-      "The higher your culture value, the more external cultural influence you gain per turn. The specific cultural modifier is calculated as the 5th root of your culture per turn (rounded down).",
+      "The higher your culture value, the more external cultural influence you gain per turn. The specific cultural modifier is calculated as the 6th root of your culture per turn (rounded down).",
       "Note! Tourist attractions and landmarks built by other civilizations will reduce your external cultural influence!",
-      "In addition to external cultural influence, each nation also possesses local cultural influence, which is the sum of all culture acquired throughout the game.",
+      "In addition to external cultural influence, each nation also possesses local cultural influence, which is 200% of all culture acquired throughout the game(modified by game speed).",
       "You achieve a Cultural Victory when your external cultural influence exceeds the cultural defense of all other nations! The cultural defense formula is as follows:\n",
       "W = [External Cultural Influence.] / [Total Cultural Influence]\n[Cultural Defense] = [Local Cultural Influence.] + W × [External Cultural Influence.]\n", 
       "May you successfully conquer the world through your culture!",

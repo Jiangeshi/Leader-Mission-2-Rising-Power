@@ -6,6 +6,7 @@
     
     // 文化胜利
     "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled> <when number of [External Cultural Influence] is more than [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]>",
+    "[+100]% [External Cultural Influence] resource production <for every [floor(([[Culture] Per Turn])^(1/6))]> <when [Cultural] Victory is enabled>",
   
     
     
