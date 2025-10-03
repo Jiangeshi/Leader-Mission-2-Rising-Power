@@ -775,8 +775,8 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["May buy [Worker] units for [90] [Faith] [in all cities] at an increasing price ([140])",
-        "May buy [Settler] units for [140] [Faith] [in all cities] at an increasing price ([160])", "[Faith] cost of purchasing items in cities [-10]%"],
+                "uniques": ["May buy [Worker] units for [140] [Faith] [in all cities] at an increasing price ([140])",
+        "May buy [Settler] units for [180] [Faith] [in all cities] at an increasing price ([180])", "[Faith] cost of purchasing items in cities [-10]%"],
                 "row": 1,
                 "column": 5
             },

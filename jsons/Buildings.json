@@ -2992,8 +2992,8 @@
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Artist": 1},
-		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+2 Production] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+2 Production] from every specialist [in all cities]"]
+		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+1 Food, +1 Culture] from every specialist [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+1 Food, +1 Culture] from every specialist [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Theodore Roosevelt",
@@ -3173,7 +3173,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ethiopia",
-		"replacementTextForUniques": "+20% †Strength for Military units when fighting units from a Civilization with more Cities than you",
+		"replacementTextForUniques": "[[[+20]% Strength] [when fighting units from a Civilization with more Cities than you]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Haile Selassie]>", "[+20]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"]	
 	},
 	{	
@@ -3181,7 +3181,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Ethiopia",
-		"replacementTextForUniques": "+25% †Strength for Military units decreasing with distance from the capital",	
+		"replacementTextForUniques": "[[+25]% Strength decreasing with distance from the capital]",	
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Menelik II]>", "[+25]% Strength decreasing with distance from the capital <for [Military] units>"]
     },
 	{
@@ -3405,9 +3405,9 @@
 		"production": 1,
 		"gold": 1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[+10]% Production when constructing [Military] units [in all cities]]\n[[[+10]% Strength decreasing with distance from the capital] [for [Military] units]]",
+		"replacementTextForUniques": "[[+10]% Production when constructing [Military] units [in all cities]]\n[[[+15]% Strength decreasing with distance from the capital]]",
 		"uniques": [
-	    "[+10]% Strength decreasing with distance from the capital <for [Military] units>"
+	    "[+15]% Strength decreasing with distance from the capital <for [Military] units>"
 	    "[+10]% Production when constructing [Military] units [in all cities]",
 	    
 	    //"Indicates the capital city",
@@ -3442,7 +3442,7 @@
 	    "production": 2,
 		"science": 4,
 		"gold": 3,
-		"culture": 3,
+		"culture": 2,
 		"cityHealth": 50,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]

@@ -2082,7 +2082,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]",  "Instantly provides [8] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 8 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]", "May enter foreign tiles without open borders <when [Cultural] Victory is enabled>"],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Great Person - [Culture]", "Unbuildable", "Uncapturable","Is part of Great Person group [Culture]",  "Instantly provides [8] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/6))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 8 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]", "May enter foreign tiles without open borders <when [Cultural] Victory is enabled>"],
 		"movement": 2
 	},
 	{
@@ -2092,7 +2092,7 @@
 		"uniqueTo": "America",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>", 
 		"May enter foreign tiles without open borders <when [Cultural] Victory is enabled>", "Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
-	 "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
+	 "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/6))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
 		"movement": 2	
 	},
 	{
