@@ -1555,7 +1555,7 @@
     },
 	{
 		"name": "Military Reclamation(Farm)",
-		"cost": 60,
+		"cost": 50,
 		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]\n[Each [Foot Soldier] or [Shooter] unit reduces production cost, with at least 7 units providing a -70% reduction]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
@@ -1566,7 +1566,7 @@
 	},
 	{
 		"name": "Military Reclamation(Mine)",
-		"cost": 60,
+		"cost": 50,
 		"replacementTextForUniques": "[Creates a [Mine] improvement on a specific tile]\n[Each [Foot Soldier] or [Shooter] unit reduces production cost, with at least 7 units providing a -70% reduction]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
