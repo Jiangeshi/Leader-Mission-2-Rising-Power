@@ -1,0 +1,240 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+    // 行商
+    "Instantly provides [1] [Itinerant Merchant Capacity] <upon entering a new era>",
+    
+    // 文化胜利
+    "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled> <when number of [External Cultural Influence] is more than [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]>",
+    "[+100]% [External Cultural Influence] resource production <for every [floor(([[Culture] Per Turn])^(1/6))]> <when [Cultural] Victory is enabled>",
+  
+    
+    
+    
+    
+    
+    // 世界会议
+    // 初始化
+    "Instantly provides [30] [Temp2] <upon turn end> <if [Announcing the commencement of the World Congress] is constructed by anybody> <when number of [Temp2] is equal to [0]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    
+        "Gain a free [n1] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [1]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n2] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [2]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n4] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [4]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n5] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [5]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    // 循环
+    "Instantly consumes [1] [Temp2] <upon turn end> <when number of [Temp2] is more than [1]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Instantly provides [19] [Temp2] <upon turn end> <when number of [Temp2] is equal to [1]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    // 随机
+    "Gain a free [n1] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [1]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n2] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [2]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n4] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [4]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n5] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [5]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Remove [nn] [in all cities] <if [Announcing the commencement of the World Congress] is constructed> <when number of [Temp2] is equal to [15]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    
+    // 事件
+    "Triggers a [World Conference1] event <if [n1] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [20]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [World Conference2] event <if [n2] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [20]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [World Conference3] event <if [n3] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [20]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [World Conference4] event <if [n4] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [20]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [World Conference5] event <if [n5] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [20]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results1] event <if [n1] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [17]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results2] event <if [n2] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [17]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results3] event <if [n3] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [17]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results4] event <if [n4] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [17]> <when [World Conference(Recommended to enable)] Victory is enabled>", "Triggers a [Voting Results5] event <if [n5] is constructed by anybody> <upon turn start> <when number of [Temp2] is equal to [17]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    
+
+    
+    
+    
+    
+    
+    "Requires establishing embassies to conduct advanced diplomacy",
+    // 宗教
+    "[-15]% construction time for [All] improvements <after adopting [Miracle]>"
+    "[1] free [Missionary] units appear <after adopting [Religious Expansion]> <upon founding a Religion>",
+    "[1] free [Missionary] units appear <upon adopting [Religious Unity]>",
+    "[+1 Gold] <for every [20] [Faith]> <before turn number [51]><after adopting [Tithes]>", "[+1 Gold] <for every [30] [Faith]> <after turn number [50]><after adopting [Tithes]>"
+    
+    
+    // 地狱模式
+    "Triggers a [Select Hell Difficulty Debuff] event <on [Hell] difficulty> <upon constructing [Palace]> <for [Human player] Civilizations>",
+    "[+100]% Strength <for [AI player] Civilizations> <vs [Barbarian] units> <if [Totally Isolated] is constructed by anybody>", 
+    
+    
+    // 修正
+    "[-50]% construction time for [All] improvements <for [AI player] Civilizations>",
+    "[+1]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
+    "[+100]% Gold from Great Merchant trade missions",
+    
+    // 快乐惩罚
+    "[-50]% growth [in all cities] <when number of [Happiness] is between [-10] and [-1]>",
+    "[-75]% growth [in all cities] <when number of [Happiness] is between [-15] and [-11]>",
+    "Nullifies Growth [in all cities] <when number of [Happiness] is less than [-15]>",
+    "[-50]% [Production] [in all cities] <when number of [Happiness] is less than [-15]>",
+    "[-25]% Strength <for [Military] units>  <when number of [Happiness] is less than [-15]>",
+    "Rebel units may spawn <when number of [Happiness] is less than [-15]>",
+    "Cannot build [Settler] units <when number of [Happiness] is less than [-10]>",
+    
+    // 厌战度
+    "Provides [1] [Warfare Aversion Level] <when at war>",
+    "Provides [1] [Warfare Aversion Level]  <when below [0] [Warfare Aversion Level]>",
+    "Instantly consumes [10] [Warfare Aversion Level] <upon conquering a city> <when above [10] [Warfare Aversion Level]>",
+    
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [0] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [10] [Warfare Aversion Level]>",  
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [30] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [50] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [70] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>",
+    
+    //厌战度（10，30）
+    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [Warfare Aversion Level]> <(modified by game speed)>",
+   
+    //厌战度（30，50）
+    "[-15]% [Gold] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    
+    //厌战度（50，70）
+    "[-5]% [Gold] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-20]% [Production] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",    
+    
+    //厌战度（70，100）
+    "[-5]% [Gold] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "[-5]% [Production] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "Rebel units may spawn <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",     
+    
+    //厌战度（100，+∞）
+    "[-5]% [Gold] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-5]% [Production] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
+    
+    // 大航海家
+    "Enables [Great Admiral] units to enter ocean tiles",
+    "Enables [Lee Sunshin] units to enter ocean tiles",
+    "Enables [Themistocles] units to enter ocean tiles",
+    
+
+    
+    // 事件
+    "Triggers a [New Era] event <upon entering a new era> <after turn number [5]>",
+    
+    // 特殊军事伟人项目
+    "Instantly consumes [20] [Feat] <upon constructing [Classical Era Special Military Great Person Project]>",
+    "Instantly consumes [20] [Feat] <upon constructing [Medieval Era Special Military Great Person Project]>"
+    
+    
+    // 宗教
+    "[+2]% Yield from every [{non-[Wonder]} {Faith}] <after adopting [Heal the World and Guide the Lost]>"
+    
+    // 南蛮入侵
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Gold] <on [Barbarian Breakout] game speed>",
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Science] <on [Barbarian Breakout] game speed>",
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Faith] <on [Barbarian Breakout] game speed>",
+    "Adopt [Honor] <on [Barbarian Breakout] game speed>",
+    
+    // 荷兰
+    "[-5 Gold] <with [Infrastructure Investment]>",
+    "[+5 Gold] <with [Infrastructure Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-5 Gold] <with [Productive Investment]>",
+    "[+5 Gold] <with [Productive Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-5 Gold] <with [Research Investment]>",
+    "[+5 Gold] <with [Research Investment]> <for [The Netherlands] Civilizations>", 
+       
+    "[-5 Gold] <with [Entertainment Investment]>",
+    "[+5 Gold] <with [Entertainment Investment]> <for [The Netherlands] Civilizations>",  
+    
+    "[-5 Gold] <with [Grain Investment]>",
+    "[+5 Gold] <with [Grain Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-50]% Strength <for [Embarked] units> <when attacking> <when fighting in [Water] tiles>"
+    "[-1] Range <for [{Embarked} {Ranged}] units>"
+    
+    "[-1] Movement <for [non-[China]] units> <in [The Great Wall of China] tiles>",
+    
+    // 外交胜利
+    "Provides [1] [Diplomatic Point] <when not at war>",
+    
+    // 种子获取
+    // 1-5回合
+    "Gain a free [Seed-I] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [1]> <when number of [Seed] is less than [2]>",
+    
+    "Gain a free [Seed-II] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [2]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-II] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [2]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-III] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [3]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-III] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [3]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-IV] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [4]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-IV] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [4]> <when number of [Seed] is equal to [0]>",
+    
+    "Gain a free [Seed-V] [in capital] <with [20]% chance> <upon turn end> <when number of [turns] is equal to [5]> <when number of [Seed] is more than [0]><when number of [Seed] is less than [2]>",
+    "Gain a free [Seed-V] [in capital] <with [100]% chance> <upon turn end> <when number of [turns] is equal to [5]> <when number of [Seed] is equal to [0]>",
+    
+    // 6开始
+    "Gain a free [Seed-I] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [6]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [7]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [8]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [9]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [40]% chance> <upon turn end> <when number of [turns] is equal to [10]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    
+    "Gain a free [Seed-I] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [11]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [12]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [13]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [14]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [60]% chance> <upon turn end> <when number of [turns] is equal to [15]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    
+    "Gain a free [Seed-I] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [16]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    "Gain a free [Seed-II] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [17]> <when number of [Seed] is less than [2]> <if [Seed-II] is not constructed>",
+    "Gain a free [Seed-III] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [18]> <when number of [Seed] is less than [2]> <if [Seed-III] is not constructed>",
+    "Gain a free [Seed-IV] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [19]> <when number of [Seed] is less than [2]> <if [Seed-IV] is not constructed>",
+    "Gain a free [Seed-V] [in capital] <with [80]% chance> <upon turn end> <when number of [turns] is equal to [20]> <when number of [Seed] is less than [2]> <if [Seed-V] is not constructed>",
+    "Gain a free [Seed-I] [in capital] <with [100]% chance> <upon turn end> <when number of [turns] is equal to [21]> <when number of [Seed] is less than [2]> <if [Seed-I] is not constructed>",
+    
+    // 种子彩蛋
+    "Gain a free [Seed-EGG] [in capital] <with [1]% chance> <upon turn end> <when number of [Seed] is less than [3]>",
+    
+    // 文明能力事件
+    // 单能力文明第六回合
+    "Triggers a [Choose New Civilization Capability !] event <upon turn end> <when number of [turns] is equal to [6]> <when [Roguelike Mode] Victory is enabled>",
+    
+    // 跨时代获取词条
+    "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode] Victory is enabled>",
+    ],
+    "unitUniques": [
+    // 全体修正
+        "May attack when embarked",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [2] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major] Civilizations>",
+        "Invisible to non-adjacent units<in [Bamboo] tiles> <for [Major] Civilizations>",
+        "[This Unit] takes [50] damage <upon ending a turn in a [Mountain] tile>",
+        "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
+        "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
+        "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
+        "Can carry [1] [Support] units",
+        "Can see invisible [Land] units <when stacked with a [Carrier Pigeon] unit>",
+        "[+2] Sight <when stacked with a [Carrier Pigeon] unit>",
+        "[+1] Sight <when stacked with a [Carrier Pigeon] unit> <for [Reconnaissance] units>",
+        "[+2] Sight <when stacked with a [Observation Balloon] unit>",
+        "[+1] Range <when stacked with a [Observation Balloon] unit>"
+        "[This Unit] heals [15] HP <upon turn end> <when stacked with a [Medic] unit>",
+        
+    // 文明修正
+        "Unit will heal every turn, even if it performs an action <for [Cuba] Civilizations>",
+        "Ignores Zone of Control <for [Poland] Civilizations>", "May enter foreign tiles without open borders <for [Poland] Civilizations>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo] Civilizations>",
+        "Double movement in [Forest] <for [Vietnam] Civilizations>", "Double movement in [Jungle] <for [Vietnam] Civilizations>", "Double movement in [Bamboo] <for [Vietnam] Civilizations>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia] Civilizations>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users> <for [{Land} {Military}] units>", 
+        "May Paradrop to [non-[Enemy]] tiles up to [2] tiles away <for [Cuba] Civilizations> <for [Foot Soldier] units>"
+        "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <for [Shooter] units>",
+        "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts] Civilizations> <if [Civilized Leader-Boudicca] is constructed> <for [Shooter] units>",
+        "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>",
+        "Instantly gain [30] [Golden Age points] <upon entering combat> <for [Melee] units> <for [Assyrian] Civilizations> <if [Civilized Leader-Tiglath Pileser III] is constructed> <(modified by game speed)>",
+        "Gain [15] [Gold] <upon entering combat> <for [Melee] units> <if [Civilized Leader-Tiglath Pileser III] is constructed> <for [Assyrian] Civilizations> <(modified by game speed)>",
+        "Gain [2] [Gold] <upon discovering a [All] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "Gain [5] [Faith] <upon discovering a [Mountain] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "Gain [3] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "Gain [2] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
+        "[This Unit] gains the [Blizzard Wind Ability] promotion <for [{Land} {Civilian}] units> <for [Finland] Civilizations>"
+        "Gain [1] [Science] <upon ending a turn in a [Road] tile> <for [Iron Blood Kingdom] Civilizations>",
+        "Gain [2] [Science] <upon ending a turn in a [Railroad] tile> <for [Iron Blood Kingdom] Civilizations>",
+        "[-15]% production cost <if [Civilized Leader-HDKL] is constructed> <for [Iron Blood Kingdom] Civilizations>"
+    // 其他修正
+    ]
+}
