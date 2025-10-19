@@ -759,6 +759,7 @@
 	{
 		"name": "Horseman",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 13,
 		"cost": 65,
@@ -771,6 +772,7 @@
 	{
 		"name": "Companion Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Macedonia",
 		"replaces": "Horseman",
 		"movement": 4,
@@ -786,6 +788,7 @@
 	{
 		"name": "Cataphract",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Byzantium",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -800,6 +803,7 @@
 	{
 		"name": "African Forest Elephant",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Carthage",
 		"replaces": "Horseman",
 		"movement": 3,
@@ -815,6 +819,7 @@
 	{
 		"name": "Heavy Spear Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Lydia",
 		"replaces": "Horseman",
 		"movement": 4,
@@ -830,6 +835,7 @@
 	{
 		"name": "Red Mirror Horseman",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Khitay Empire",
 		"replaces": "Horseman",
 		"movement": 4,
@@ -845,24 +851,26 @@
 	{
 		"name": "Guards Horseman",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Iron Blood Kingdom",
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 13,
-		"cost": 65,
+		"cost": 72,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[+1] Movement <in [Road] tiles>"],
 		"promotions": ["Charge I"],
 		"attackSound": "horse"
 	},
 	{
 		"name": "Chariot Archer",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 7,
-		"rangedStrength": 9,
+		"rangedStrength": 8,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -873,11 +881,12 @@
 	{
 		"name": "War Chariot",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 7,
-		"rangedStrength": 9,
+		"rangedStrength": 8,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -888,11 +897,12 @@
 	{
 		"name": "War Elephant",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 10,
-		"rangedStrength": 10,
+		"rangedStrength": 9,
 		"cost": 75,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -903,11 +913,12 @@
 	{
 		"name": "Horse Archer",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
 		"strength": 8,
-		"rangedStrength": 9,
+		"rangedStrength": 8,
 		"cost": 60,
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -923,7 +934,7 @@
 		"range": 1,
 		"movement": 4,
 		"strength": 10,
-		"rangedStrength": 11,
+		"rangedStrength": 10,
 		"cost": 60,
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -934,6 +945,7 @@
 	{
 		"name": "Knight",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 22,
 		"cost": 158,
@@ -946,6 +958,7 @@
 	{
 		"name": "Cossack",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Knight",
 		"uniqueTo": "Russia",
 		"movement": 4,
@@ -961,6 +974,7 @@
 	{
 		"name": "Conquistador",
 	    "unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
@@ -976,6 +990,7 @@
 	{
 		"name": "Vietnam War Elephant",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Knight",
 		"uniqueTo": "Vietnam",
 		"movement": 3,
@@ -990,6 +1005,7 @@
 	{
 		"name": "Templar Knight",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Knight",
 		"uniqueTo": "Vatican",
 		"movement": 4,
@@ -1005,6 +1021,7 @@
 	{
 		"name": "Naresuan's Elephant",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
@@ -1019,6 +1036,7 @@
 	{
 		"name": "Mandekalu Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Songhai",
 		"replaces": "Knight",	
 		"movement": 4,
@@ -1033,6 +1051,7 @@
 	{
 		"name": "Elite Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Turk",
 		"replaces": "Knight",	
 		"movement": 5,
@@ -1048,6 +1067,7 @@
 	{
 		"name": "Mamluk Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Mamluks",
 		"replaces": "Knight",	
 		"movement": 5,
@@ -1063,6 +1083,7 @@
 	{
 		"name": "Carolingian Knight",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 22,
 		"cost": 166,
@@ -1078,6 +1099,7 @@
 	{
 		"name": "Mounted Archer",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 15,
 		"rangedStrength": 15,
@@ -1091,6 +1113,7 @@
 	{
 		"name": "Camel Archer",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Mounted Archer",
 		"uniqueTo": "Arabia",
 		"movement": 4,
@@ -1106,6 +1129,7 @@
 	{
 		"name": "Keshik",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Mounted Archer",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -1123,6 +1147,7 @@
 	{
 		"name": "Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 34,
 		"cost": 325,
@@ -1135,6 +1160,7 @@
 	{
 		"name": "Cowboy Cavalry",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Columbia",
 		"replaces": "Cavalry",	
 		"movement": 5,
@@ -1151,6 +1177,7 @@
 		"replaces": "Cavalry",
 		"uniqueTo": "Austria",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"strength": 34,
 		"cost": 325,
 		"movement": 5,
@@ -1164,6 +1191,7 @@
 	{
 		"name": "Landship",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 4,
 		"strength": 65,
 		"cost": 650,
@@ -1176,6 +1204,7 @@
 	{
 		"name": "Tank",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 5,
 		"strength": 75,
 		"cost": 720,
@@ -1187,6 +1216,7 @@
 	{
 		"name": "T-34",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Tank",
 		"uniqueTo": "Soviet Union",
 		"movement": 5,
@@ -1200,6 +1230,7 @@
 	{
 		"name": "Panzer",
 	    "unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"replaces": "Tank",
 		"uniqueTo": "Germany",
 		"movement": 6,
@@ -1213,6 +1244,7 @@
 	{
 		"name": "Modern Armor",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 5,
 		"strength": 100,
 		"cost": 770,
@@ -1224,6 +1256,7 @@
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Mobile",
+		"hurryCostModifier": 15,
 		"movement": 5,
 		"strength": 150,
 		"cost": 1200,
@@ -1449,6 +1482,7 @@
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 11,
@@ -1462,6 +1496,7 @@
 	{
 		"name": "Ballista",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"replaces": "Catapult",
 		"uniqueTo": "Rome",
 		"movement": 2,
@@ -1478,6 +1513,7 @@
 	{
 		"name": "Battering Ram",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"replaces": "Catapult",
 		"uniqueTo": "The Huns",
 		"movement": 2,
@@ -1492,6 +1528,7 @@
 	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 16,
@@ -1506,6 +1543,7 @@
 	{
 		"name": "Hwach'a",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"replaces": "Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
@@ -1521,6 +1559,7 @@
 	{
 		"name": "Ballista Elephant",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"uniqueTo": "Cambodia",
 		"replaces": "Trebuchet",
 		"movement": 3,
@@ -1537,6 +1576,7 @@
 	{
 		"name": "Cannon",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 2,
 		"range": 3,
 		"strength": 16,
@@ -1551,6 +1591,7 @@
 	{
 		"name": "Light Cannon",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 3,
 		"range": 3,
 		"strength": 14,
@@ -1567,6 +1608,7 @@
 	{
 		"name": "Artillery",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 30,
@@ -1582,6 +1624,7 @@
 	{
 		"name": "Rocket Artillery",
 		"unitType": "Siege",
+		"hurryCostModifier": 15,
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
@@ -2091,7 +2134,7 @@
 		"replaces": "Great Artist",
 		"uniqueTo": "America",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can generate a large amount of culture", "Great Person - [Culture]", "Can instantly construct a [Landmark] improvement <by consuming this unit>", "Unbuildable", "Uncapturable", "Is part of Great Person group [Culture]", "[This Unit] gains the [Start a Concert] promotion <upon ending a turn in a [Land] tile> <hidden from users>", 
-		"May enter foreign tiles without open borders <when [Cultural] Victory is enabled>", "Comment [[Gain 8 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
+		"May enter foreign tiles without open borders <when [Cultural] Victory is enabled>", "Comment [[Gain 7 [Culture] and 14 [Gold] in non-Enemy tiles, or triple the amount of [Culture] and [Gold] if in Enemy tiles instead(modified by game speed)]]",
 	 "Instantly provides [5] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/6))]> <upon turn end> <in [{Major} {Foreign Land}] tiles> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [Instantly provides 5 [External Cultural Influence] in Major Foreign Land tiles upon turn end when Cultural Victory is enabled]"],
 		"movement": 2	
 	},

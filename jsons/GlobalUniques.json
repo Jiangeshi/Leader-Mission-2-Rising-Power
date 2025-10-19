@@ -232,7 +232,9 @@
         "Gain [3] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [2] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "[This Unit] gains the [Blizzard Wind Ability] promotion <for [{Land} {Civilian}] units> <for [Finland] Civilizations>"
-
+        "Gain [1] [Science] <upon ending a turn in a [Road] tile> <for [Iron Blood Kingdom] Civilizations>",
+        "Gain [2] [Science] <upon ending a turn in a [Railroad] tile> <for [Iron Blood Kingdom] Civilizations>",
+        "[-10]% production cost <if [Civilized Leader-HDKL] is constructed> <for [Iron Blood Kingdom] Civilizations>"
     // 其他修正
     ]
 }

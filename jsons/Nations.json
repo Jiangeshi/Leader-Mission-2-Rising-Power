@@ -2453,10 +2453,9 @@
 		"innerColor": [190,44,55],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Go to the End of the World",
-		"uniqueText": "This is the runner-up reward of the third Leader Mission Competition.\n\n[[+1 Gold] from [Road] tiles [in all cities]]\n[[-100]% maintenance on road & railroads]\n-50% construction time for [Road] and [Railroad] improvements\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[This is the runner-up reward of the third Leader Mission Competition.]\n\n[[+2 Science] [before discovering [The Wheel]]]\n[-50% construction time for [Road] and [Railroad] improvements]\n[Gain 1 / 2 [Science] upon Units ending a turn in a [Road] / [Railroad] tile]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[+1 Gold] from [Road] tiles [in all cities]",
-		"[-100]% maintenance on road & railroads",
+		"[+2 Science] <before discovering [The Wheel]>",
 		"[-50]% construction time for [Road] improvements"
 		"[-50]% construction time for [Railroad] improvements"
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
@@ -2518,7 +2517,7 @@
 		"innerColor": [79,153,165],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Thriving and Prosperous",
-		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with 3 to 6 neighboring Improvement tiles\n+1 [Production] for every Improvement with 6 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with every 2 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		]

@@ -689,7 +689,7 @@
             {
                 "text": "Gain Feat",
                 "uniques": [
-                "Instantly provides [15] [Feat]",
+                "Instantly provides [18] [Feat]",
                 ],
             },            
             {
@@ -698,7 +698,7 @@
             },
             {
                 "text": "Gain Faith",
-                "uniques": ["Gain enough Faith for [50]% of a Great Prophet"],
+                "uniques": ["Gain enough Faith for [66]% of a Great Prophet"],
             },
             {
                 "text": "Gain Spy",
@@ -706,11 +706,11 @@
             },
             {
                 "text": "Gain Itinerant Merchant Capacity",
-                "uniques": ["Instantly provides [2] [Itinerant Merchant Capacity]"],
+                "uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]", "Free [Itinerant Merchant] appears"],
             },
             {
                 "text": "Gain Power",
-                "uniques": ["[+10]% Strength <for [Military] units> <for [10] turns>", "Only available <after adopting [Honor]>"]
+                "uniques": ["[+12]% Strength <for [Military] units> <for [15] turns>", "Only available <after adopting [Honor]>"]
             },
         ]
     },

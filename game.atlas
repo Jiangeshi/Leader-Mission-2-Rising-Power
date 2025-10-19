@@ -2130,9 +2130,16 @@ BuildingIcons/Yun Ji Barracks
   orig: 49, 49
   offset: 0, 0
   index: -1
-BuildingIcons/Military Reclamation
+BuildingIcons/Military Reclamation(Farm)
   rotate: false
-  xy: 1110, 1464
+  xy: 1238, 1467
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+BuildingIcons/Military Reclamation(Mine)
+  rotate: false
+  xy: 1238, 1467
   size: 120, 120
   orig: 120, 120
   offset: 0, 0
@@ -2923,7 +2930,7 @@ PolicyIcons/Military Chemical Industry
   index: -1
 PolicyIcons/Military Reclamation System
   rotate: false
-  xy: 1238, 1467
+  xy: 1110, 1464
   size: 120, 120
   orig: 120, 120
   offset: 0, 0

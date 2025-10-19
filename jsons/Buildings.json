@@ -1551,16 +1551,26 @@
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>"]	
 		
-    // 特殊建筑
+    // 军垦
     },
 	{
-		"name": "Military Reclamation",
+		"name": "Military Reclamation(Farm)",
 		"cost": 15,
 		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
 		    "Creates a [Farm] improvement on a specific tile",
-		    "Remove [Military Reclamation] [in this city]"
+		    "Remove [Military Reclamation(Farm)] [in this city]"
+		]	
+	},
+	{
+		"name": "Military Reclamation(Mine)",
+		"cost": 20,
+		"replacementTextForUniques": "[Creates a [Mine] improvement on a specific tile]",
+		"uniques": [
+		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
+		    "Creates a [Mine] improvement on a specific tile",
+		    "Remove [Military Reclamation(Mine)] [in this city]"
 		]	
 		
 	// 国家/文明
@@ -2522,7 +2532,7 @@
 		"name": "Ducal Stable",
 		"maintenance": 1,
 		"replaces": "Stable",
-		"cost": 75,
+		"cost": 71,
 		"production": 1,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
@@ -2589,7 +2599,7 @@
 		"percentStatBonus": {"culture": 10, "faith": 10},
 		"maintenance": 3,
 		"requiredTech": "Enlightenment",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]", "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"]
 		
 	// 丹麦
 	},
@@ -3337,7 +3347,7 @@
 		"uniqueTo": "Australia",
 		"replaces": "Opera House",
 		"requiredTech": "Enlightenment",
-		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "[+1 Culture] from [Coast] tiles [in this city]", "[+15]% [Culture] <in [Coastal] cities>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"]
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "[+1 Culture] from [Coast] tiles [in this city]", "[+15]% [Culture] <in [Coastal] cities>", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]", "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]"]
 		
 	// 云冀之庭
 	},
@@ -3393,8 +3403,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iron Blood Kingdom",
-		"replacementTextForUniques": "[[[+10]% Strength] [<for [Military] units>] [<within [2] tiles of a [Road]>]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <within [2] tiles of a [Road]>"]
+		"replacementTextForUniques": "[[[-10]% production cost] [for [all] units]]"
+		"uniques": ["Can only be built<in [in capital] cities>"]
 		
     // 溯源之地
 	},
@@ -3459,18 +3469,19 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "LianFang Court",
-		"replacementTextForUniques": "[[[+15]% [Science] [in all cities]] [during a Golden Age]]\n[[[+15]% [Culture] [in all cities]] [during a Golden Age]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+15]% [Science] [in all cities] <during a Golden Age>", "[+15]% [Culture] [in all cities] <during a Golden Age>"]
+		"replacementTextForUniques": "[[+1 Gold] from every [Mine]]\n[[+1 Gold] from every [Farm]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+1 Gold] from every [Mine]", "[+1 Gold] from every [Farm]"]
 	},
 	{
 		"name": "Altar of Prayer",
 		"cost": 105,
+		"science": 3,
+		"replaces": "National College",
 		"isNationalWonder": true,
-		"replaces": "National Epic",
 		"uniqueTo": "LianFang Court",
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in all cities]", "[+3 Science] from every specialist [in all cities]", "[+50]% Food consumption by specialists [in all cities]", "[+50]% Unhappiness from [Specialists] [in all cities]", "Cost increases by [30] per owned city"],
-		"requiredTech": "Nation"	
-	
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "[+2 Science] from every specialist [in all cities]", "[+33]% Food consumption by specialists [in all cities]", "[+25]% Unhappiness from [Specialists] [in all cities]"],
+		"requiredTech": "Nation"
 	// 特殊伟人项目
 	// 特殊大先知项目
 	},
