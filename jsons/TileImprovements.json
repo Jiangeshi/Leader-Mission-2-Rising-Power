@@ -405,7 +405,7 @@
 		"faith": 5,
 		"uniques": ["IMPROVEMENT", "Great Improvement", "Improves [all] resource in this tile", "Only available <for [Major] Civilizations>","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]", "[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [4] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		"[+1 Food] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>", "Will not be replaced by automated units", "[+1 Food] <for every adjacent [IMPROVEMENT]> <for [Cambodia] Civilizations>",]
+		"[+1 Food] <for [LianFang Court] Civilizations> <with [6] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>", "Will not be replaced by automated units", "[+1 Food] <for every adjacent [IMPROVEMENT]> <for [Cambodia] Civilizations>"]
 	},
 	{
 		"name": "Citadel",
@@ -538,7 +538,7 @@
 		"faith": 2,
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
-		"uniques": ["IMPROVEMENT", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "[+1 Food] <in [Sheep] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["IMPROVEMENT", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "[+1 Food] <in [Sheep] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "The Great Wall of China",
@@ -558,12 +558,13 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains","Tundra"],
 		"turnsToBuild": 7,
 		"food": 1,
-		"techRequired": "Masonry",
+		"techRequired": "Calendar",
 		"uniqueTo": "Cambodia",
 		"uniques": ["IMPROVEMENT",
-			"[+1 Faith] <in [Fresh Water] tiles>",
+			"[+2 Faith] <in [Fresh Water] tiles>",
 			"[+1 Food] <after discovering [Engineering]>",
 			"[+1 Food] for each adjacent [Farm]"
+			"[+2 Faith] <for every adjacent [Holy site]>"
 		],
     },
     {

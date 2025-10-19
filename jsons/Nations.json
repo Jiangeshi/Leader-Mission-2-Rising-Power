@@ -484,10 +484,9 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Land of Plenty",
-		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[[+1 Production] from every [Trading post]]",
+		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[Gain extra [25]% [Gold] per turn of [Gold] when selling cargo]\n[Gain extra [15]% [Gold] per turn of [Culture] when selling cargo]",
 		"uniques": [
 	    "[+1 Gold] from [River] tiles [in all cities]",
-	    "[+1 Production] from every [Trading post]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
@@ -584,7 +583,7 @@
 		"innerColor": [239, 136, 55],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "King's Monastery",
-		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times]\n[[Holy site] +1 [Food] for every adjacent Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
+		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times by or consuming the unit itself]\n[[Holy site] +1 [Food] for every adjacent Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
 		"uniques": [
 		"[-50]% Yield from every [Holy site]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
@@ -2068,8 +2067,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[[[+1 Faith]] [for every [60] [Culture]]]\n[[[+1 Culture]] [for every [60] [Faith]]]",
-		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "[+1 Faith] <for every [60] [Culture]>", "[+1 Culture] <for every [60] [Faith]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[Gain 1 [Faith] for every [3] [Culture] Per Turn upon turn end]",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "Gain [1] [Faith] <for every [3] [[Culture] Per Turn]> <upon turn end>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",

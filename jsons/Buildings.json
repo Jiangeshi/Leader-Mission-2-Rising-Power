@@ -476,7 +476,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level I]>", "Removes extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level I]>", "Removes extra unhappiness from annexed cities", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Bronze Working",
 	
 	// 远古时代-选建建筑
@@ -499,7 +499,7 @@
 		"cityStrength": 3,
 		"cityHealth": 50,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 	},
 	{
 		"name": "Monument",
@@ -636,7 +636,7 @@
 		"name": "Barracks",
 		"maintenance": 1,
 		"cost": 84,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Army Formation"
 	},
 	{
@@ -833,7 +833,7 @@
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Comment [Gain extra [25]% [Gold] when selling cargo]","Must have an owned [Mountain] within [2] tiles", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Comment [Gain extra [25]% [Gold] per turn of [Gold] when selling cargo]","Must have an owned [Mountain] within [2] tiles", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"	
 	},
@@ -895,12 +895,12 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level III]>","Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 	},
 	{
 		"name": "Armory",
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level III]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level III]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Steel"
 	},
     {
@@ -1204,7 +1204,7 @@
 		"cost": 348,
 		"production": 3,
 		"maintenance": 1,
-		"uniques": ["Only available <in cities with a [City Level V]>","New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["Only available <in cities with a [City Level V]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "MILITARY"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -1304,7 +1304,7 @@
 		"cityStrength": 12,
 		"cityHealth": 25,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Steels]"]	
+		"uniques": ["Only available <in cities with a [City Level V]>", "Costs [15] [Steels]", "MILITARY"]	
 	},
 	{
 		"name": "Chemical Plant",
@@ -1555,22 +1555,24 @@
     },
 	{
 		"name": "Military Reclamation(Farm)",
-		"cost": 15,
-		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]",
+		"cost": 60,
+		"replacementTextForUniques": "[Creates a [Farm] improvement on a specific tile]\n[Each [Foot Soldier] or [Shooter] unit reduces production cost, with at least 7 units providing a -70% reduction]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
 		    "Creates a [Farm] improvement on a specific tile",
-		    "Remove [Military Reclamation(Farm)] [in this city]"
+		    "Remove [Military Reclamation(Farm)] [in this city]", "City Level",
+		    "[-12]% production cost <for every [[[Foot Soldier] Units]+[[Shooter] Units]]> <when number of [[[Foot Soldier] Units]+[[Shooter] Units]] is less than [7]>", "[-70]% production cost <when number of [[[Foot Soldier] Units]+[[Shooter] Units]] is more than [6]>", "Cannot be purchased", "Unavailable <in [Puppeted] cities>"
 		]	
 	},
 	{
 		"name": "Military Reclamation(Mine)",
-		"cost": 20,
-		"replacementTextForUniques": "[Creates a [Mine] improvement on a specific tile]",
+		"cost": 60,
+		"replacementTextForUniques": "[Creates a [Mine] improvement on a specific tile]\n[Each [Foot Soldier] or [Shooter] unit reduces production cost, with at least 7 units providing a -70% reduction]",
 		"uniques": [
 		    "Only available <after adopting [Military Reclamation System]> <with a garrison> <for [Human player] Civilizations>",
 		    "Creates a [Mine] improvement on a specific tile",
-		    "Remove [Military Reclamation(Mine)] [in this city]"
+		    "Remove [Military Reclamation(Mine)] [in this city]", "City Level",
+		    "[-12]% production cost <for every [[[Foot Soldier] Units]+[[Shooter] Units]]> <when number of [[[Foot Soldier] Units]+[[Shooter] Units]] is less than [7]>", "[-70]% production cost <when number of [[[Foot Soldier] Units]+[[Shooter] Units]] is more than [6]>", "Cannot be purchased", "Unavailable <in [Puppeted] cities>"
 		]	
 		
 	// 国家/文明
@@ -1698,7 +1700,7 @@
 		"cityHealth": 25,
 		"culture": 2,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "[+1 Gold] [in this city] <after discovering [Flight]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		
 	// 中华
 	},
@@ -1822,7 +1824,7 @@
 		"cityStrength": 4,
 		"cityHealth": 100,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		
 	// 阿富汗
 	},
@@ -2080,7 +2082,7 @@
 		"name": "Military Royal School",
 		"maintenance": 1,
 		"cost": 84,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Horses]", "Provides [1] [Iron]", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Army Formation",
 		"replaces": "Barracks",
 		"uniqueTo": "Macedonia",	
@@ -2129,7 +2131,7 @@
 		"maintenance": 2,
 		"cityHealth": 50,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		
 	// 土耳其
 	},
@@ -2163,7 +2165,7 @@
 		"cityStrength": 5,
 		"cityHealth": 25,
 		"requiredTech": "Masonry",
-		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		"replaces": "Walls",
 		"uniqueTo": "Turkey",	
 		
@@ -2261,7 +2263,7 @@
 		"maintenance": 1,
 	    "uniqueTo": "Rome",
 		"requiredTech": "Burial Custom",
-		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] XP [in this city]", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques":["Only available <in cities with a [City Level I]>", "New [Military] units start with [7] XP [in this city]", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		"replaces": "Monument",
 	
 	// 英格兰
@@ -2536,7 +2538,7 @@
 		"production": 1,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+1 Production] from [Cattle] tiles [in this city]", "[+2 Production, +2 Gold] from [Horses] tiles [in this city]", "[+1 Production] from [Camel] tiles [in this city]", "[+1 Production] from [Bison] tiles [in this city]", "[+1 Production] from [Sheep] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Horseback Riding"
 
     // 梵蒂冈
@@ -2718,7 +2720,7 @@
 		"cost": 84,
 		"uniqueTo": "Sweden",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Unsellable", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[1] free [Staff] units appear", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Unsellable", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Army Formation"
 	
 	//苏格兰
@@ -2737,7 +2739,7 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"requiredTech": "Chivalry",
-		"uniques": ["Only available <in cities with a [City Level III]>", "[15]% of excess happiness converted to [Culture]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"]
+		"uniques": ["Only available <in cities with a [City Level III]>", "[15]% of excess happiness converted to [Culture]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"]
 		"replaces": "Castle",
 		"uniqueTo": "Scotland",
 		
@@ -3222,7 +3224,7 @@
 		"replaces": "Barracks",
 		"production": 2,
 		"science": 1,
-		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Army Formation"
 	
 	// 桑海
@@ -3365,7 +3367,7 @@
 		"cost": 84,
 		"uniqueTo": "Yun Ji Court",
 		"replaces": "Barracks",
-		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "All newly-trained [Military] units [in this city] receive the [More Fight More Brave] promotion", "New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured", "Provides [1] [Number of Buildings] <in this city>", "MILITARY"],
 		"requiredTech": "Army Formation"
 		
 	// 格伦帝国
@@ -3403,7 +3405,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iron Blood Kingdom",
-		"replacementTextForUniques": "[[[-10]% production cost] [for [all] units]]"
+		"replacementTextForUniques": "[[[-15]% production cost] [for [all] units]]"
 		"uniques": ["Can only be built<in [in capital] cities>"]
 		
     // 溯源之地

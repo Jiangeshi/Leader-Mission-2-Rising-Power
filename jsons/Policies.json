@@ -730,7 +730,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["Comment [Gain extra [10]% [Gold] of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
+                "uniques": ["Comment [Gain extra [10]% [Gold] per turn of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3
@@ -847,7 +847,7 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "[+15]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears",
                 ],
                 "row": 1,
@@ -867,7 +867,7 @@
                 "uniques": [
                     "[+33]% XP gained from combat <for [Military] units>",
                     "[Great General] is earned [33]% faster",
-                    "[+20]% Production when constructing [Courthouse] buildings [in all cities]"
+                    "[+20]% Production when constructing [MILITARY] buildings [in all cities]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
