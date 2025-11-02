@@ -831,7 +831,7 @@
         "uniques": [
             "Notified of new Barbarian encampments",
             "[+33]% Strength <vs [Barbarian] units>",
-            "[+1 Culture] <for every [3] [[Military] Units]>",
+            "[+1 Culture] <for every [2] [[Military] Units]>",
         ],
         "policies": [
             {

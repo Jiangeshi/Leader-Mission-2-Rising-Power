@@ -1780,46 +1780,11 @@ BuildingIcons/Bonfire
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Chemical Plant
+BuildingIcons/Build Holy site
   rotate: false
-  xy: 1751, 715
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-BuildingIcons/Coal-Fired Power Plant
-  rotate: false
-  xy: 1751, 657
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-BuildingIcons/Column
-  rotate: false
-  xy: 2004, 1065
-  size: 40, 54
-  orig: 40, 54
-  offset: 0, 0
-  index: -1
-BuildingIcons/Commercial City
-  rotate: false
-  xy: 1151, 954
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-BuildingIcons/Productive Investment
-  rotate: false
-  xy: 1151, 954
-  size: 80, 80
-  orig: 80, 80
-  offset: 0, 0
-  index: -1
-ResourceIcons/Productive Investment
-  rotate: false
-  xy: 1151, 954
-  size: 80, 80
-  orig: 80, 80
+  xy: 1660, 1630
+  size: 110, 110
+  orig: 110, 110
   offset: 0, 0
   index: -1
 BuildingIcons/Confucius
@@ -1876,6 +1841,48 @@ BuildingIcons/Zoroaster
   xy: 1660, 1630
   size: 110, 110
   orig: 110, 110
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chemical Plant
+  rotate: false
+  xy: 1751, 715
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Coal-Fired Power Plant
+  rotate: false
+  xy: 1751, 657
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Column
+  rotate: false
+  xy: 2004, 1065
+  size: 40, 54
+  orig: 40, 54
+  offset: 0, 0
+  index: -1
+BuildingIcons/Commercial City
+  rotate: false
+  xy: 1151, 954
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Productive Investment
+  rotate: false
+  xy: 1151, 954
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+ResourceIcons/Productive Investment
+  rotate: false
+  xy: 1151, 954
+  size: 80, 80
+  orig: 80, 80
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon

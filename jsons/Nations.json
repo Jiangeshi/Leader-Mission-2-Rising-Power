@@ -484,7 +484,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Land of Plenty",
-		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[Gain extra [25]% [Gold] per turn of [Gold] when selling cargo]\n[Gain extra [15]% [Gold] per turn of [Culture] when selling cargo]",
+		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[Gain extra [33]% [Gold] per turn of [Gold] when selling cargo]\n[Gain extra [20]% [Gold] per turn of [Culture] when selling cargo]",
 		"uniques": [
 	    "[+1 Gold] from [River] tiles [in all cities]",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
@@ -583,9 +583,10 @@
 		"innerColor": [239, 136, 55],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "King's Monastery",
-		"uniqueText": "[[-50]% Yield from every [Holy site]]\n[[Great Prophet] can instantly construct a [Holy site] improvement for 2 movement 1 times by or consuming the unit itself]\n[[Holy site] +1 [Food] for every adjacent Improvement]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
+		"uniqueText": "[May buy [Holy site] for 160 [Faith] in capital or holy city at an increasing price (160)]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]\n[+1 [Culture] for [Holy site] with every 2 neighboring Improvement tiles]",
 		"uniques": [
-		"[-50]% Yield from every [Holy site]",
+		"May buy [Build Holy site] buildings for [160] [Faith] [in capital] at an increasing price ([160])",
+		"May buy [Build Holy site] buildings for [160] [Faith] [in holy cities] at an increasing price ([160])",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampong Thom", "Kampong Speu", "Kampong Chhnang", "Kampot", "Takeo", "Prey Veng", "Svay Rieng", "Kandal", "Pursat", "Koh Kong", "Stung Treng", "Ratanakiri", "Mondulkiri", "Preah Vihear", "Kratie", "Kep", "Pailin", "Tbong Khmum", "Oddar Meanchey", "Banteay Meanchey"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        
@@ -745,25 +746,25 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Revolutionary Tradition",
-		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 6 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
+		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
 		"uniques": [
-		"[+3 Culture] <when number of [Happiness] is more than [20]>",
-		"[+15]% [Culture] <when number of [Happiness] is more than [20]>",
+		"[+3 Culture] <when number of [Happiness] is more than [15]>",
+		"[+15]% [Culture] <when number of [Happiness] is more than [15]>",
 	
-		"[+2 Culture] <when number of [Happiness] is between [15] and [20]>",
-	    "[+15]% [Culture] <when number of [Happiness] is between [15] and [20]>",
+		"[+2 Culture] <when number of [Happiness] is between [10] and [14]>",
+	    "[+15]% [Culture] <when number of [Happiness] is between [10] and [14]>",
 	    
-		"[+2 Culture] <when number of [Happiness] is between [9] and [14]>",
-		"[+10]% [Culture] <when number of [Happiness] is between [9] and [14]>",
+		"[+2 Culture] <when number of [Happiness] is between [5] and [9]>",
+		"[+10]% [Culture] <when number of [Happiness] is between [5] and [9]>",
 			
-		"[+1 Culture] <when number of [Happiness] is between [3] and [8]>",
-	    "[+10]% [Culture] <when number of [Happiness] is between [3] and [8]>",
+		"[+1 Culture] <when number of [Happiness] is between [0] and [4]>",
+	    "[+10]% [Culture] <when number of [Happiness] is between [0] and [4]>",
 	
 	
-		"[+1 Culture] <when number of [Happiness] is between [-4] and [2]>",
-		"[+5]% [Culture] <when number of [Happiness] is between [-4] and [2]>",
+		"[+1 Culture] <when number of [Happiness] is between [-5] and [-1]>",
+		"[+5]% [Culture] <when number of [Happiness] is between [-5] and [-1]>",
 			
-		"[+5]% [Culture] <when number of [Happiness] is between [-10] and [-5]>",	
+		"[+5]% [Culture] <when number of [Happiness] is between [-10] and [-6]>",	
 			
 		"[+1]% Strength <for [Military] units> <when number of [Happiness] is between [9] and [10]>",
 
@@ -1971,8 +1972,8 @@
 		"innerColor": [180, 142, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
-		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 66% for each owned World Wonder building]\n[+2 / +2% [Faith] for every National / World Wonder]"
-		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+66]% <for every [[World Wonder] Buildings]>", "[+2 Faith] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
+		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+2 / +2% [Faith] for every National / World Wonder]"
+		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[[World Wonder] Buildings]-1]>", "[+2 Faith] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],

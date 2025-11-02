@@ -66,8 +66,8 @@
 		"Gain [25] [Faith] <upon losing the [Grain Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Strategic Resource Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Luxury Goods Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>",
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>",
 		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [10] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
-		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
-		"Gain [1] [Culture] <upon losing the [Grain Cargo] promotion> <for every [7] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Strategic Resource Cargo] promotion> <for every [7] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Luxury Goods Cargo] promotion> <for every [7] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
+		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
+		"Gain [1] [Culture] <upon losing the [Grain Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Strategic Resource Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Luxury Goods Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
 		]
 		"movement": 2
 		
@@ -2169,7 +2169,7 @@
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit",
-			"Takes your religion over the one in their birth city",  "Can instantly construct a [Holy site] improvement <for [2] movement> <[1] times> <for [Cambodia] Civilizations> <hidden from users>", "Can instantly construct a [Holy site] improvement <for [2] movement> <by consuming this unit> <for [Cambodia] Civilizations> <hidden from users>"],
+			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000,
 	},
