@@ -1083,7 +1083,7 @@
 		"innerColor": [0,54,128],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
-		"uniqueText": "Can switch between [Auspicious Snow] and [Blizzard Wind]\nLand Civilian units can turn [Grassland] / [Plains] / [Desert] tile into a [Tundra] tile and turn [Tundra] tile into a [Snow] tile once in Your cities",
+		"uniqueText": "Can switch between [Auspicious Snow] and [Blizzard Wind]\nLand Civilian units can turn [Grassland] / [Plains] / [Desert] tile into a [Tundra] tile or turn [Tundra] tile into a [Snow] tile once in Your cities/n+1 Movement for all units in [Tundra] / [Snow] tiles",
 		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
@@ -1973,7 +1973,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
 		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+2 / +2% [Faith] for every National / World Wonder]"
-		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[[World Wonder] Buildings]-1]>", "[+2 Faith] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
+		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[[World Wonder] Buildings]-1]>", "[+2 Faith] [in capital] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
@@ -2068,8 +2068,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
-		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[Gain 1 [Faith] for every [3] [Culture] Per Turn upon turn end]",
-		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "Gain [1] [Faith] <for every [3] [[Culture] Per Turn]> <upon turn end>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[[+1 Faith] [in capital] [for every [3] [[Culture] Per Turn]]]",
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "[+1 Faith] [in capital]<for every [3] [[Culture] Per Turn]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -2142,6 +2142,37 @@
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
 			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"],
+        "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
+    },
+    {
+		"name": "Mali",
+		"leaderName": "Leader",
+		"adjective": ["Mari"],
+		"startBias": ["Desert"],
+		"personality": "Mali",
+	    "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Let's begin!",
+        
+	    "declaringWar": "Your behavior has angered me. I declare a just war against you",
+		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+		
+	    "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+        "outerColor": [193, 84, 24],
+        "innerColor": [218, 165, 32]
+		"favoredReligion": "Islam",
+		"uniqueName": "African Warlord",
+		"uniqueText": ""
+		"uniques": [
+		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		],
+		"cities": ["Bamako", "Ségou", "Kayes", "Mopti", "Gao", "Tombouctou", "Djenné", "Koulikoro", "Sikasso", "Kidal", "Ménaka", "Taoudenni", "Bandiagara", "San", "Kati", "Bougouni", "Niono", "Diré", "Goundam", "Tessalit"]
         "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
         
     // 游牧  

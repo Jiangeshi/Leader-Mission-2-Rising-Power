@@ -2166,5 +2166,37 @@
 	}	
 	
 }
+{
+	"name": "Mali",
+	"production": 7,
+	"food": 5,
+	"gold": 7,
+	"science": 5,
+	"culture": 5,
+	"happiness": 5,
+	"faith": 5,
+	"military": 5,
+	"aggressive": 5,
+	"declareWar": 7,
+	"commerce": 8,
+	"diplomacy": 8,
+	"loyal": 6,
+	"expansion": 10,
+	"priorities": {
+		"Tradition": 7,
+		"Feudalism1": 8,
+		"Liberty": 4,
+		"Autocracy": 5,
+		"Freedom": 7,
+		"Order": 5,
 
+		"Honor": 5,
+		"Piety": 5,
+		"Commerce": 9,
+		"Patronage": 3,
+		"Industrial": 3,
+		"Rationalism": 3
+	}	
+	
+}
 ]

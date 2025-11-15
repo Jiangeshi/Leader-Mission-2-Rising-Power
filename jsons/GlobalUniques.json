@@ -190,6 +190,16 @@
     
     // 跨时代获取词条
     "Triggers a [Choose New Civilization Capability !] event <upon entering a new era> <when [Roguelike Mode] Victory is enabled>",
+    
+    // 马里
+        /*
+        "Instantly provides [1] [Number of Production] <for every [[Production] Per Turn]> <upon turn end> <when number of [[turns]%2] is equal to [0]>",
+        "Instantly consumes [1] [Number of Production] <for every [Number of Production]> <upon turn end> <when number of [[turns]%2] is equal to [1]>",
+		"[+100 Gold] [in capital] <for every [Number of Production]> <for [Mali] Civilizations>",
+		"Instantly provides [1] [Number of Production (Temp1)] <for every [[Production] Per Turn]> <upon turn end> <when number of [[turns]%2] is equal to [1]>",
+        "Instantly consumes [1] [Number of Production (Temp1)] <for every [Number of Production (Temp1)]> <upon turn end> <when number of [[turns]%2] is equal to [0]>",
+		"[+100 Gold] [in capital] <for every [Number of Production (Temp1)]> <for [Mali] Civilizations>"
+		*/
     ],
     "unitUniques": [
     // 全体修正
@@ -231,7 +241,9 @@
         "Gain [5] [Faith] <upon discovering a [Mountain] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [3] [Science] <upon discovering a [Rare feature] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
         "Gain [2] [Culture] <upon discovering a [resource] tile> <for [Reconnaissance] units> <for [Sri Vijaya] Civilizations> <(modified by game speed)>",
-        "[This Unit] gains the [Blizzard Wind Ability] promotion <for [{Land} {Civilian}] units> <for [Finland] Civilizations>"
+        "[This Unit] gains the [Blizzard Wind Ability] promotion <for [{Land} {Civilian}] units> <for [Finland] Civilizations>",
+        "[+1] Movement <in [Snow] tiles> <for [Finland] Civilizations>",
+        "[+1] Movement <in [Tundra] tiles> <for [Finland] Civilizations>",
         "Gain [1] [Science] <upon ending a turn in a [Road] tile> <for [Iron Blood Kingdom] Civilizations>",
         "Gain [2] [Science] <upon ending a turn in a [Railroad] tile> <for [Iron Blood Kingdom] Civilizations>",
         "[-15]% production cost <if [Civilized Leader-HDKL] is constructed> <for [Iron Blood Kingdom] Civilizations>"

@@ -7,7 +7,7 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
-					"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
+					"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>", "Livestock"]
 	},
 	{
 		"name": "Sheep",
@@ -16,20 +16,20 @@
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+					"Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>", "Livestock"]
 	},
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"improvement": "Camp",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 1, "Gold": 2},
 		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
-					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
-					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
-					"Generated on every [30] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+					"Generated on every [30] tiles <in [Forest] tiles> <in [Hill] Regions>", "Livestock"]
 	},
 	{
 		"name": "Bananas",
@@ -38,7 +38,7 @@
 		"improvement": "Plantation",
 		"improvementStats": {"food": 3,"production": -1,"gold": -1},
 		"uniques": ["Generated on every [15] tiles <in [Jungle] tiles>",
-					"Generated on every [20] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
+					"Generated on every [20] tiles <in [Jungle] tiles> <in [Hill] Regions>", "Grains"]
 	},
 	{
 		"name": "Wheat",
@@ -50,7 +50,7 @@
 					"Generated on every [15] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
 					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
-					"Generated on every [5] tiles <in [Black Earth] tiles>",
+					"Generated on every [5] tiles <in [Black Earth] tiles>", "Grains"
 					]
 	},
 	{
@@ -62,7 +62,7 @@
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles>",
 					"Generated on every [15] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [15] tiles <in [{Featureless} {Fresh Water} {Grassland}] tiles> <in [Hill] Regions>",
-					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
+					"Generated on every [25] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>", "Grains"
 	    ]
 	},
 	{
@@ -76,7 +76,7 @@
 					"Generated on every [30] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",
 					"Generated on every [10] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
 					"Generated on every [15] tiles <in [Snow] tiles> <in tiles without [Hill]>",
-					"Generated on every [2] tiles <in [Black Earth] tiles>",
+					"Generated on every [2] tiles <in [Black Earth] tiles>", "Grains"
 	    ]    
 	},
 	{
@@ -85,9 +85,9 @@
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
 		"improvement": "Quarry",
 		"improvementStats": {"production": 2},
-		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+		"uniques": ["Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
-					"Generated on every [20] tiles <in [{Featureless} {Desert}] tiles>"]
+					"Generated on every [20] tiles <in [{Featureless} {Desert}] tiles>", "Stone materials"]
     },
 	{
 		"name": "Saltpeter",
@@ -98,8 +98,8 @@
 		"uniques": [
 					"Generated on every [25] tiles <in [{Featureless} {Tundra}] tiles> <in tiles without [Hill]>",
 					"Generated on every [25] tiles <in [{Featureless} {Desert}] tiles> <in tiles without [Hill]>",
-					"Generated on every [30] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",	
-					"Generated on every [20] tiles <in [{Featureless} {Snow}] tiles> <in tiles without [Hill]>"
+					"Generated on every [35] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Hill]>",	
+					"Generated on every [20] tiles <in [{Featureless} {Snow}] tiles> <in tiles without [Hill]>", "Stone materials"
 					]
 	},
 	{
@@ -132,7 +132,7 @@
 		"improvementStats": {"production": 1},
 		"improvement": "Pasture",
 		"uniques": ["Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
-		"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
+		"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>", "Livestock"]
 	},
 	{
 		"name": "Camel",
@@ -146,18 +146,27 @@
 				   "Generated on every [20] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 					"Generated on every [50] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
 					"Generated on every [30] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>",
-		"Doesn't generate naturally <in [Hill] tiles>",			
-					]
+		"Doesn't generate naturally <in [Hill] tiles>", "Livestock"]
 	},				
 	{
 		"name": "Bamboo Shoot",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Bamboo"],
 		"improvement": "Plantation",
-		"improvementStats": {"food": 2, "gold": -2},
+		"improvementStats": {"food": 2, "gold": -1},
 		"uniques": [
 		"Generated with weight [25] <in [Bamboo] Regions>",
-		"Generated on every [5] tiles <in [Bamboo] tiles>"
+		"Generated on every [5] tiles <in [Bamboo] tiles>", "Grains"
+		]
+	},
+	{
+		"name": "Baobab",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"improvement": "Plantation",
+		"improvementStats": {"food": 3},
+		"uniques": [
+		"Generated on every [20] tiles <in [Desert] tiles> <in tiles without [Hill]> <in tiles without [Flood plains]>", "Grains"
 		]
 	},
 	// 奢侈资源
@@ -166,7 +175,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest", "Tundra", "Snow"],
 		"improvement": "Camp",
-		"improvementStats": {"gold": 2},
+		"improvementStats": {"gold": 4},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 		            "Generated with weight [20] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
@@ -257,7 +266,7 @@
 		"name": "Ivory",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-	    "improvementStats": {"gold": 2},
+	    "improvementStats": {"gold": 4},
 		"improvement": "Camp",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -326,7 +335,7 @@
 		"improvementStats": {"production": 1, "gold": 2},
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
 					"Special placement during map generation",
-					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>", "Stone materials"]
 	},
 	{
 		"name": "Whales",
@@ -457,7 +466,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"improvement": "Camp",
-		"improvementStats": {"gold": 2},
+		"improvementStats": {"gold": 4},
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
@@ -474,7 +483,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Bamboo", "Plains"],
 		"improvement": "Camp",
-		"improvementStats": {"happiness": 1, "culture": 1},
+		"improvementStats": {"happiness": 1, "culture": 1, "gold": 2},
 		"uniques": [
 		"Generated with weight [25] <in [Bamboo] Regions>",
 		"Generated with weight [5] <in [Plains] Regions>",
@@ -500,7 +509,7 @@
 					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>", "Livestock"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 5, "default": 5, "abundant": 6}
 	},
@@ -641,9 +650,26 @@
 		"name": "Number of Fighters",  
 		"resourceType": "Bonus",
 	    "uniques": ["Not shown on world screen", "Cannot be traded"]
-	    
-    // 冷却
 	},
+	/*
+	{
+		"name": "Number of Production",  
+		"resourceType": "Strategic",
+	    "uniques": [
+	        "Stockpiled",
+            "Cannot be traded", 
+	    ]	
+    },
+    {
+		"name": "Number of Production (Temp1)",  
+		"resourceType": "Strategic",
+	    "uniques": [
+	        "Stockpiled",
+            "Cannot be traded", 
+	    ]	
+    },
+    */
+    // 冷却
 	{
 		"name": "CD",  
 		"resourceType": "Strategic",

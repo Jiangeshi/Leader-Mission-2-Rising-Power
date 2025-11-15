@@ -294,14 +294,14 @@
     },	
     {
 		"name": "Formation I",
-		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"uniques": ["[+20]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+20]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+20]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 19,
     },	
     {
 		"name": "Raid I",
-		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 20,
@@ -309,7 +309,7 @@
     {
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"uniques": ["[+20]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+20]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+20]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 21,
@@ -317,7 +317,7 @@
     {
 		"name": "Raid II",
 		"prerequisites": ["Raid I"],
-		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 22,    
@@ -325,7 +325,7 @@
     {
 		"name": "Formation III",
 		"prerequisites": ["Formation II"],
-		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"uniques": ["[+20]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+20]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+20]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 23,
@@ -333,7 +333,7 @@
     {
 		"name": "Raid III",
 		"prerequisites": ["Raid II"],
-		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Melee] units> <when attacking>"],
 		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air"]
 		"row": 1,
         "column": 24,  
@@ -1479,10 +1479,10 @@
 	{
 		"name": "Blizzard Wind Ability",
 		"uniques": [
-		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Desert] tiles>",
-		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Grassland] tiles>",
-		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Plains] tiles>", 
-		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles>"]
+		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Desert] tiles> <removing the [Blizzard Wind Ability] promotion/status>",
+		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Grassland] tiles> <removing the [Blizzard Wind Ability] promotion/status>",
+		"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Plains] tiles> <removing the [Blizzard Wind Ability] promotion/status>", 
+		"Turn this tile into a [Snow] tile <once> <in [Your] cities> <in [Tundra] tiles> <removing the [Blizzard Wind Ability] promotion/status>"]
 	},
 	{
 		"name": "Record",

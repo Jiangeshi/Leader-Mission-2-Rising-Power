@@ -12,8 +12,7 @@
 		
 		
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		
-		
+	
 		
 		
 		],
@@ -32,8 +31,6 @@
 		"Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		
-		
 		"Gain control over [Rough terrain] tiles in a [1]-tile radius <for [Australia] Civilizations> <hidden from users>"
 		],
 	},
@@ -47,8 +44,6 @@
 		"[+2 Gold] <after discovering [Economics]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Does not need removal of [Bamboo]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
 	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		
-		
 		],
 	},
 	{
@@ -130,6 +125,7 @@
 		"Can only be built to improve a resource <in [Ocean] tiles>", 
 		"Pillaging this improvement yields approximately [+10 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		
 		
@@ -474,7 +470,7 @@
 		"culture": 1,
 		"faith": 1,
 		"turnsToBuild": 3,
-		"uniques": ["IMPROVEMENT", "Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
+		"uniques": ["IMPROVEMENT", "Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture, +1 Faith] <in [Bonus resource] tiles> <hidden from users>", "[+1 Culture, +1 Faith] <in [Strategic resource] tiles> <hidden from users>", "[+1 Culture, +1 Faith] <in [Luxury resource] tiles> <hidden from users>", "Comment [[+1 Culture, +1 Faith] [in [Resource] tiles]]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
 		"techRequired": "Belief Worship",
 	},
 	{
@@ -507,11 +503,13 @@
 		"techRequired": "Masonry",
 		"uniques": [
 		"IMPROVEMENT",
-		"Gives a defensive bonus of [15]%", 
+		"Can only be built on [Vegetation] tiles",
 		"Does not need removal of [Vegetation]", 
 		"Improves [Bonus] resource in this tile", 
 		"Improves [Strategic] resource in this tile", 
-		"Can only be built on [Vegetation] tiles",
+		"[+1 Production] <in [Forest] tiles>", "[+1 Food] <in [Jungle] tiles>", "[+1 Culture] <in [Bamboo] tiles>",
+		"[+1 Food] <after discovering [Agricultural Improvement]>",
+		"Gives a defensive bonus of [15]%", 
 		"Pillaging this improvement yields approximately [+30 Gold]", "[+1 Food] <after discovering [Engineering]>", "[+1 Production] <after discovering [Industrialization]>"],	
 	},
 	{
@@ -527,9 +525,9 @@
 		"name": "Polder",
 		"uniqueTo": "The Netherlands",
 		"food": 2,
-		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Lakes"],
 		"turnsToBuild": 7,
-		"uniques": ["IMPROVEMENT", "[+1 Food] <in [Marsh] tiles>", "[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["IMPROVEMENT", "[+1 Food] <in [Marsh] tiles>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Optics",	
 	},
 	{

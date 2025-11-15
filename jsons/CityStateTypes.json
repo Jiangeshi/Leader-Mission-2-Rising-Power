@@ -297,13 +297,13 @@
         "friendBonusUniques": [
             "[+2 Gold] from each Trade Route <before the [Medieval era]>",
             "[+3 Gold] from each Trade Route<starting from the [Medieval era]>",
-            "[+1]% [Gold] from every [{Gold} {Buildings}]",
+            "[+1]% [Gold] from every [{Gold} {BUILDING}]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
             "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
-            "[+3]% [Gold] from every [{Gold} {Buildings}]",
+            "[+3]% [Gold] from every [{Gold} {BUILDING}]",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
         ],
@@ -470,14 +470,14 @@
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Faith] <starting from the [Industrial era]>"
-            "[+4]% [Faith] from every [{Faith} {Buildings}]",
+            "[+4]% [Faith] from every [{Faith} {BUILDING}]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Faith] <starting from the [Industrial era]>"
-            "[+6]% [Faith] from every [{Faith} {Buildings}]",
+            "[+6]% [Faith] from every [{Faith} {BUILDING}]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]    
