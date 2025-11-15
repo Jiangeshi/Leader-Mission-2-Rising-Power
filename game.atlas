@@ -4557,7 +4557,7 @@ TileSets/HexaRealm/Tiles/Baobab
   offset: 0, 0
   index: -1
   
-Images\ResourceIcons\Baobab<.png
+\Images\ResourceIcons\Baobab.png
 ResourceIcons/Baobab
   rotate: false
   xy: 0, 0
