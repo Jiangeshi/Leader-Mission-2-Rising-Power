@@ -4556,3 +4556,12 @@ TileSets/HexaRealm/Tiles/Baobab
   orig: 100, 100
   offset: 0, 0
   index: -1
+  
+Images\ResourceIcons\BaobabIcon.png
+ResourceIcons/Baobab
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1    
