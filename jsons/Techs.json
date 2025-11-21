@@ -79,9 +79,9 @@
 				"quote": ""
 			},
 			{
-				"name": "Pottery",
-				"row": 7,
-				"prerequisites": ["Mining","Trapping"],
+				"name": "Masonry",
+				"row": 6,
+				"prerequisites": ["Mining"],
 				"quote": ""	
 			}
 		]	
@@ -112,15 +112,9 @@
 				"quote": ""
 			},
 			{
-				"name": "Masonry",
-				"row": 6,
-				"prerequisites": ["Pottery"],
-				"quote": ""
-			},
-			{
 				"name": "Bronze Working",
 				"row": 7,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Masonry","Trapping"],
 				"quote": ""	
 			}
 		]		

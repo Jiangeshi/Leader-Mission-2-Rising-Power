@@ -462,7 +462,7 @@
 		"production": 1,
 		"science": 1,
 		"happiness": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "Masonry",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"]
 	},
 	{
@@ -470,7 +470,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Grains] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
-		"requiredTech": "Pottery"	
+		"requiredTech": "Masonry"	
     },
 	{
 		"name": "Courthouse",
@@ -499,7 +499,7 @@
 		"name": "Walls",
 		"cityStrength": 3,
 		"cityHealth": 50,
-		"requiredTech": "Masonry",
+		"requiredTech": "Bronze Working",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"]
 	},
 	{
@@ -756,7 +756,7 @@
 		"gold": 3,
 		"percentStatBonus": {"gold": 50},
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "[+1 Gold] [in this city] <for every [25] [Gold]>", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "[+1 Gold] [in this city] <for every [25] [Gold]> <when number of [Gold] is less than [1500]>", "[+60 Gold] [in this city] <when number of [Gold] is more than [1499]>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"	
 	},
 	{
@@ -1628,8 +1628,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Arabia",
-		"replacementTextForUniques": "[Earn [75]% of killed [Military] unit's [Strength] as [Science]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [75]% of killed [Military] unit's [Strength] as [Science]"]
+		"replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Science]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]"]
 	},
 	{	
         "name": "Civilized Leader-Omar I",
@@ -1656,16 +1656,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "+1 ⁂population in capital and gain a Free ⍾Technology upon conquering a city"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kublai]>", "[+1] population [in capital] <upon conquering a city>", "Free Technology <upon conquering a city>"]	
+		"replacementTextForUniques": "[+1 ⁂population in capital and gain a Free ⍾Technology upon conquering a city]\n[[+1 Production] from [Horses] tiles [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kublai]>", "[+1] population [in capital] <upon conquering a city>", "Free Technology <upon conquering a city>", "[+1 Production] from [Horses] tiles [in all cities]"]	
 	},
 	{	
         "name": "Civilized Leader-Kublai",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[-50]% maintenance on road & railroads]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[-50]% maintenance on road & railroads"]
+		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from all [Posthouse] buildings]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from all [Posthouse] buildings"]
     },
 	{
 		"name": "Posthouse",
@@ -1752,8 +1752,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[-50]% maintenance on road & railroads]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[-50]% maintenance on road & railroads"]	
+		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from all [Stable] buildings]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from all [Stable] buildings"]	
     },
     {
         "name": "Civilized Leader-Sun Yat-sen",
@@ -1778,8 +1778,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Korea",
-	    "replacementTextForUniques": "Earn 75% of killed Military unit's †Strength as ♪Culture",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "Earn [75]% of killed [Military] unit's [Strength] as [Culture]"]	
+	    "replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Culture]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]	
 	},
 	{	
         "name": "Civilized Leader-Kim Il-sung",
@@ -1826,7 +1826,7 @@
 		"uniqueTo": "Babylon",
 		"cityStrength": 4,
 		"cityHealth": 100,
-		"requiredTech": "Masonry",
+		"requiredTech": "Bronze Working",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"]
 		
 	// 阿富汗
@@ -2177,7 +2177,7 @@
 		"faith": 2,
 		"cityStrength": 5,
 		"cityHealth": 25,
-		"requiredTech": "Masonry",
+		"requiredTech": "Bronze Working",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"]
 		"replaces": "Walls",
 		"uniqueTo": "Turkey",	
@@ -2189,16 +2189,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[[+1 Production] from all [Faith] buildings]"	
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Peter]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>","[+1 Production] from all [Faith] buildings"]
+		"replacementTextForUniques": "[[+1 Production, +1 Faith] from all [Faith] buildings]"	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Peter]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+1 Production, +1 Faith] from all [Faith] buildings"]
 	},
 	{	
         "name": "Civilized Leader-Peter",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Russia",
-		"replacementTextForUniques": "[[+2 Science, +2 Gold] [in all cities connected to capital]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+2 Science, +2 Gold] [in all cities connected to capital]"]
+		"replacementTextForUniques": "[[+3 Science, +2 Gold] [in all cities connected to capital]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Catherine]>", "Only available <in cities without a [Civilized Leader-Lenin-Russia]>", "[+3 Science, +2 Gold] [in all cities connected to capital]"]
 	},
 	{	
         "name": "Civilized Leader-Lenin-Russia",
@@ -2906,8 +2906,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Aztecs",
-		"replacementTextForUniques": "Earn 75% of killed☠ Military unit's †Strength as ♪Culture",
-		"uniques": ["Can only be built<in [in capital] cities>", "Earn [75]% of killed [Military] unit's [Strength] as [Culture]"]
+		"replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Culture]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
 	},
 	{
 		"name": "Floating Gardens",
@@ -2957,7 +2957,7 @@
 	    "replaces": "Kiln",
 	    "maintenance": 0,
 	    "uniqueTo": "Columbia",
-		"requiredTech": "Pottery",
+		"requiredTech": "Masonry",
 		"uniques":["Only available <in cities with a [City Level I]>", "[+1 Production] from [Plantation] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"]
 		
 	// 巴西
@@ -3163,7 +3163,7 @@
 		"food": 2,
 		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1] population [in this city]", "[+1 Food] from [Grains] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "Unsellable"],
-		"requiredTech": "Pottery"	
+		"requiredTech": "Masonry"	
 			
 	// 迦太基
 	},
@@ -3323,7 +3323,7 @@
 		"replaces": "Granary",
         "uniqueTo": "Indonesia",
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Grains] tiles [in this city]", "[+1 Food] from [Water] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
-		"requiredTech": "Pottery"
+		"requiredTech": "Masonry"
 		
 	// 突厥
 	},
@@ -3445,7 +3445,8 @@
         "name": "Civilized Leader-Sumu",
 		"isNationalWonder": true,
 		"cost":1,
-		"gold": 1,
+		"gold": -1,
+		"culture": 1,
 		"faith": 1,
 		"uniqueTo": "Sumusuming",
 		"replacementTextForUniques": "[[+2 Science, -1 Food] per [4] population [in all cities]]",

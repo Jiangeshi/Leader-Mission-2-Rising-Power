@@ -205,8 +205,8 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
-	    "uniqueText": "+2 ⍾Science from every specialist in all cities\n+2 ⍾Science from every Great Improvement\nReceive a tech boost when ⍾scientific buildings/wonders are built in capital",
-        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+	    "uniqueText": "[[+2 Science] from every specialist [in all cities]]\n[[+1 Science, +1 Production] from all [Wonder] buildings]\n[Receive a tech boost when scientific buildings/wonders are built in capital]",
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+1 Science, +1 Production] from all [Wonder] buildings", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -552,10 +552,10 @@
 
         "favoredReligion": "Islam",
 		"uniqueName": "Defenders of Islam",
-		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Melee Unit damaging a unit, target unit loses 1 movement for 1 turn]",
+		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement for 1 turn]",
 		"uniques": [
 	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
-	    "All newly-trained [Melee] units [in all cities] receive the [Mamluk ability] promotion",
+	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
 		],
 		"cities": ["Cairo", "Damascus", "Aleppo", "Alexandria", "Jerusalem", "Tripoli", "Hama", "Homs", "Gaza", "Acre", "Tyre", "Beirut", "Hebron", "Nablus", "Safed", "Fustat", "Mansurah", "Rosetta", "Damietta", "Asyut", "Karak", "Bosra", "Medina", "Mecca", "Aqaba"],
@@ -1182,10 +1182,10 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Catholic Holy Land",
-		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+30 Faith, +70 Gold] when a city adopts this religion for the first time][(modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[Free [Missionary] appears] [<upon declaring friendship>] [<after founding a religion>]\n[[+20 Faith, +70 Gold] when a city adopts this religion for the first time][(modified by game speed)]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
-		"[+30 Faith, +70 Gold] when a city adopts this religion for the first time <(modified by game speed)>", 
+		"[+20 Faith, +70 Gold] when a city adopts this religion for the first time <(modified by game speed)>", 
 		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Vatican City"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
@@ -1278,10 +1278,10 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniqueText": "Obtain 1 Investment Project in 15 / 30 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+8% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
+		"uniqueText": "Obtain 1 Investment Project in 15 / 25 / 50 / 75 / 100 turn until all Investment Projects are obtained\nInvestment Projects can be sold to other civilizations for 5 [Gold] through transactions\nInfrastructure investment:[[+10]% Production when constructing [All] buildings [in all cities]],+1 [Production] in all cities after purchasing from other civilizations\nProductive Investment:+15% [Gold],+2 [Gold] in all cities after purchasing from other civilizations\nResearch Investment:+10% [Science],+1 [Science] in all cities, +1 [Science] from every specialist in capital and +1 [Science] in all cities connected to capital after purchasing from other civilizations\nEntertainment Investment:+10% [Culture],[+1 Culture, +1 Happiness] [in all cities connected to capital] after purchasing from other civilizations\nGrain Investment:+8% [Food] in all cities,+15% growth in all cities after purchasing from other civilizations"
 		"uniques": [
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [15]>",
-		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [30]>",
+		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [25]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [50]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>",
@@ -1723,7 +1723,7 @@
 		"[+1]% Strength <for every [750] [[Gold]-2000]> <when number of [Gold] is between [2001] and [9500]>",
 		
 		"[+30]% Strength <when number of [Gold] is more than [9500]>",
-		"[+1]% Strength <for every [2000] [[Gold]-9500]> <when number of [Gold] is more than [9500]>",
+		
 		
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -1972,8 +1972,8 @@
 		"innerColor": [180, 142, 0],
 		"favoredReligion": "Islam",
 		"uniqueName": "By The Nile",
-		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+2 / +2% [Faith] for every National / World Wonder]"
-		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[[World Wonder] Buildings]-1]>", "[+2 Faith] [in capital] <for every [[National Wonder] Buildings]>", "[+2]% [Faith] <for every [[World Wonder] Buildings]>",
+		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+1 / +3% [Faith] for every National / World Wonder]"
+		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[[World Wonder] Buildings]-1]>", "[+1 Faith] [in capital] <for every [[National Wonder] Buildings]>", "[+3]% [Faith] <for every [[World Wonder] Buildings]>",
 		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],

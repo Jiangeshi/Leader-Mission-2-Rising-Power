@@ -216,9 +216,7 @@
         "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
         "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
         "Can carry [1] [Support] units",
-        "Can see invisible [Land] units <when stacked with a [Carrier Pigeon] unit>",
         "[+2] Sight <when stacked with a [Carrier Pigeon] unit>",
-        "[+1] Sight <when stacked with a [Carrier Pigeon] unit> <for [Reconnaissance] units>",
         "[+2] Sight <when stacked with a [Observation Balloon] unit>",
         "[+1] Range <when stacked with a [Observation Balloon] unit>"
         "[This Unit] heals [15] HP <upon turn end> <when stacked with a [Medic] unit>",

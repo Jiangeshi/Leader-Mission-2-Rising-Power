@@ -36,7 +36,6 @@
 		"name": "Fisherman",
 		"unitType": "Civilian",
 		"movement": 2,
-		"requiredTech": "Sailing",
 		"cost": 50,
 		"uniques": ["May travel on Water tiles without embarking", "Cannot enter ocean tiles <before discovering [Optics]>", "Uncapturable", "Can build [Water] improvements on tiles", "Automation is a primary action", "Unavailable <for [AI player] Civilizations> <hidden from users>", "Can build [Land] improvements on tiles <for [AI player] Civilizations> <hidden from users>", "Gain [4] [Gold] <upon ending a turn in a [Fishing Boats] tile> <after adopting [Merchant Navy]> <hidden from users>"]	
 	},		
@@ -45,6 +44,7 @@
 		"unitType": "Civilian",
 		"cost": 75,
 		"promotions": ["Off-road"],
+		"requiredTech": "Animal Husbandry",
 		"uniques": [
 		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
@@ -79,7 +79,7 @@
 		"requiredTech": "Trapping",
 		"movement": 1,
 		"range": 1,
-		"cost": 15,
+		"cost": 13,
 		"uniques": ["Comment [Can see invisible Land units for stacking unit]", "Comment [+2 Sight for stacking unit]", "Comment [+1 Sight for stacking reconnaissance unit]"]
 	},
 	{
@@ -99,6 +99,7 @@
 		"range": 1,
 		"cost": 230,
 		"uniques": ["Comment [+2 Sight for stacking unit]", "Comment [+1 Range for stacking unit]",]
+		
 	// 侦查单位
 	},
 	{
@@ -137,7 +138,6 @@
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
-		
 		]
 		"attackSound": "nonmetalhit"
 	},
@@ -560,7 +560,8 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>",
+		]
 		"attackSound": "arrow"
 	},
 	{
@@ -965,7 +966,7 @@
 		"uniqueTo": "Russia",
 		"movement": 4,
 		"strength": 23,
-		"cost": 170,
+		"cost": 166,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
@@ -1016,7 +1017,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [200] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [250] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Templar Knight] ability"],
 		"attackSound": "horse"		
 	},
@@ -1272,12 +1273,12 @@
 		"name": "Spearman",
 		"unitType": "Anti-Mobile",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1286,12 +1287,12 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Iran",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 	    "cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"	
 	},
@@ -1301,7 +1302,7 @@
 		"uniqueTo": "Iran",
 		"cost": 55,
 		"movement": 2,
-		"strength": 8,
+		"strength": 9,
 		"rangedStrength": 9,
 		"upgradesTo": "Pikeman",
 		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal]"],
@@ -1314,12 +1315,12 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Greece",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 55,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-	    "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
+	    "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1328,12 +1329,12 @@
 		"replaces": "Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
-		"strength": 11,
+		"strength": 12,
 		"cost": 50,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"	
 	},   
@@ -1341,12 +1342,12 @@
 		"name": "Pikeman",
 		"unitType": "Anti-Mobile",
 		"movement": 2,
-		"strength": 17,
+		"strength": 19,
 		"cost": 124,
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
 		"attackSound": "metalhit"	
 	},
 	{
@@ -1355,9 +1356,9 @@
 		"replaces": "Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
-		"strength": 17,
+		"strength": 19,
 		"cost": 76,
-		"uniques": ["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
@@ -1369,13 +1370,13 @@
 		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
 		"movement": 2,
-		"strength": 17,
+		"strength": 19,
 		"cost": 117,
 		"requiredTech": "Army Formation",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
 	    "promotions": ["[Impi] ability"],
-        "uniques":["[+50]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
 		"attackSound": "metalhit"		
 	},
 	{
@@ -1385,7 +1386,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -2200,6 +2201,14 @@
 		"[-1] Movement <after adopting [Discipline]>"
 		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", ],
 		"movement": 3,
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Mongolia",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat",  "[+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>", "[+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>"],
+		"movement": 5,
 	},
 	{
 		"name": "Great Admiral",

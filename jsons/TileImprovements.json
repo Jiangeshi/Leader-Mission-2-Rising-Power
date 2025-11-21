@@ -54,7 +54,7 @@
 		"techRequired": "Masonry",
 		"uniques": [
 		"IMPROVEMENT",
-		"[+1 Production] <after discovering [Construction]>","Pillaging this improvement yields approximately [+10 Gold]", "[+2 Gold] <in [Luxury resource] tiles> <after discovering [Calendar]>", "[+1 Production] <in [Strategic resource] tiles> <after discovering [Calendar]>","[+1 Food] <in [Bonus resource] tiles> <after discovering [Calendar]>",
+		"[+1 Production] <after discovering [Machinery]>", "[+1 Production] <after discovering [Fertilizer]>", "[+1 Production] <after discovering [Construction]>", "[+2 Gold] <in [Luxury resource] tiles> <after discovering [Calendar]>", "[+1 Production] <in [Strategic resource] tiles> <after discovering [Calendar]>", "[+1 Food] <in [Bonus resource] tiles> <after discovering [Calendar]>", "Pillaging this improvement yields approximately [+10 Gold]",
 		
 		
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
@@ -228,7 +228,7 @@
 		"terrainsCanBeBuiltOn": ["Salt Lake"],
 		"food": 1,
 		"turnsToBuild": 8,
-		"techRequired": "Trapping",
+		"techRequired": "Bronze Working",
 		"uniques": [
 		"IMPROVEMENT",
 		"Does not need removal of [Salt Lake]", "Pillaging this improvement yields approximately [+15 Gold]", 
@@ -292,7 +292,7 @@
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"techRequired": "Masonry",
+		"techRequired": "Trapping",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 	},
@@ -460,7 +460,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 10,
-		"uniques": ["IMPROVEMENT", "Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["IMPROVEMENT", "Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
 	},
 	{
@@ -528,7 +528,7 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": ["IMPROVEMENT", "[+1 Food] <in [Marsh] tiles>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Optics",	
+		"techRequired": "Sailing",	
 	},
 	{
 		"name": "Holy Mountain",

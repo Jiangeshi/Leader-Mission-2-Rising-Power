@@ -831,7 +831,7 @@
         "uniques": [
             "Notified of new Barbarian encampments",
             "[+33]% Strength <vs [Barbarian] units>",
-            "[+1 Culture] <for every [2] [[Military] Units]>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]"
         ],
         "policies": [
             {
@@ -849,6 +849,7 @@
                 "uniques": [
                     "[+15]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears",
+                    "[+1 Culture] [in capital] <for every [2] [[Military] Units]>",
                 ],
                 "row": 1,
                 "column": 3
@@ -887,7 +888,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [33]% of the damage done to [Military] units as [Gold]",
+                    "[+2] Strength <for [Military] units>",
                     "[-33]% XP required for promotions <for [Military] units>"
                 ]
             }

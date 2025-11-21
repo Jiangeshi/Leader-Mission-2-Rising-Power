@@ -23,7 +23,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"improvement": "Camp",
-		"improvementStats": {"food": 1, "Gold": 2},
+		"improvementStats": {"food": 1, "gold": 2},
 		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [20] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
