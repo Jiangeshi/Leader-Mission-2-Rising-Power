@@ -215,7 +215,7 @@
         "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
         "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
         "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
-        "Can carry [1] [Support] units",
+        "Can carry [1] [Support] units <for [Human player] Civilizations>",
         "[+2] Sight <when stacked with a [Carrier Pigeon] unit>",
         "[+2] Sight <when stacked with a [Observation Balloon] unit>",
         "[+1] Range <when stacked with a [Observation Balloon] unit>"
