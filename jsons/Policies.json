@@ -64,7 +64,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[10]% Food is carried over after population increases [in all cities]",
+                    "[15]% Food is carried over after population increases [in all cities]",
                     "Comment [[Each city starts with 25 Stored Food] [(modified by game speed)]]",
                     "Gain a free [Tradition Complete Buff] [in all cities] <hidden from users>"
                 ]
@@ -84,7 +84,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+20]% growth [in all cities]",
+            "[+15]% growth [in all cities]",
             "[+2 Production] [in capital]"
         ],
         "policies": [
@@ -888,7 +888,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "[+2] Strength <for [Military] units>",
+                    "Comment [[[+2] Strength] [for [Military] units]]",
                     "[-33]% XP required for promotions <for [Military] units>"
                 ]
             }

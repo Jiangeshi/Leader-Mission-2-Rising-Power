@@ -55,42 +55,25 @@
 		"name": "Vote for the Bill 1",
         "maintenance": 0,
         "cost": 1,
-		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Only available <if [Vote for the Bill 2] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 3] is not constructed> <hidden from users>",
-		"Creates a [A Vote for Bill 1] improvement on a specific tile", "Remove [Vote for the Bill 1] [in this city]",
-		
-	
-		
-		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
+		"uniques": ["Unsellable <hidden from users>", "Automatically built in all cities where it is buildable", "Only available <with [B1]> <after discovering [Nation]>", "Cannot be purchased <hidden from users>", "Will not be displayed in Civilopedia", "Remove [Remove util] [in all cities]",
 		]
 	},
 	{
 		"name": "Vote for the Bill 2",
         "maintenance": 0,
         "cost": 1,
-		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Only available <if [Vote for the Bill 1] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 3] is not constructed> <hidden from users>",
-		"Creates a [A Vote for Bill 2] improvement on a specific tile", "Remove [Vote for the Bill 2] [in capital]",
-		
-		
-		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
-		]
+		"uniques": ["Unsellable <hidden from users>", "Automatically built in all cities where it is buildable", "Only available <with [B2]> <after discovering [Nation]>", "Cannot be purchased <hidden from users>", "Will not be displayed in Civilopedia", "Remove [Remove util] [in all cities]",]
 	},
 	{
 		"name": "Vote for the Bill 3",
         "maintenance": 0,
         "cost": 1,
-		"uniques": ["Unsellable <hidden from users>", "Only available <for [Major] Civilizations> <when [World Conference(Recommended to enable)] Victory is enabled> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 1] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 2] Tiles] is more than [0]> <hidden from users>", "Unavailable <when number of [Owned [A Vote for Bill 3] Tiles] is more than [0]> <hidden from users>",
-		"Only available <if [Vote for the Bill 1] is not constructed> <hidden from users>", "Only available <if [Vote for the Bill 2] is not constructed> <hidden from users>",
-		"Creates a [A Vote for Bill 3] improvement on a specific tile", "Remove [Vote for the Bill 1] [in capital]",
-		
-	
-		
-		"Only available <when number of [Temp2] is between [18] and [20]> <after discovering [Nation]> <hidden from users>", 
-		"Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
-		]
+		"uniques": ["Unsellable <hidden from users>", "Automatically built in all cities where it is buildable", "Only available <with [B3]> <after discovering [Nation]>", "Cannot be purchased <hidden from users>", "Will not be displayed in Civilopedia", "Remove [Remove util] [in all cities]",]
+	},
+	{
+		"name": "Remove util",
+	    "maintenance": 0,
+		"uniques":["Unsellable <hidden from users>", "Automatically built in all cities where it is buildable", "Only available <with [BR]> <after discovering [Nation]>", "Cannot be purchased <hidden from users>", "Remove [Vote for the Bill 1] [in all cities]", "Remove [Vote for the Bill 2] [in all cities]", "Remove [Vote for the Bill 3] [in this city]", "Will not be displayed in Civilopedia"]	
 	},
 	// 传统关门效果
 	{
@@ -171,12 +154,12 @@
 	// 专业城市
 	{
         "name": "Comprehensive City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+15]% growth [in this city]]\n\n[City Level III]:\n    [[+10]% Production when constructing [All] buildings [in this city]]\n\n[City Level IV]:\n    [[+15]% growth [in this city]]\n\n[City Level V]:\n    [+5% Yield in this city]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[+15]% growth [in this city]]\n\n[City Level III]:\n    [[+10]% Production when constructing [All] buildings [in this city]]\n\n[City Level IV]:\n    [[+15]% growth [in this city]]\n\n[City Level V]:\n    [+5% Yield in this city]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>"
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[+15]% growth [in this city] <in cities with a [City Level II]>", 
 		"[+10]% Production when constructing [All] buildings [in this city] <in cities with a [City Level III]>",
@@ -192,12 +175,12 @@
 	},
 	{
         "name": "Agricultural City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+1 Food] from [{Land} {Bonus resource}] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level III]:\n    [[+1 Food, +3 Gold] from [Plantation] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[+1 Food, +1 Gold] from [Farm] tiles [in this city]]\n    [[-3]% [Production] [in this city]]\n\n[City Level V]:\n    [[+1 Food, +3 Production] from [Pasture] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[+1 Food] from [{Land} {Bonus resource}] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level III]:\n    [[+1 Food, +3 Gold] from [Plantation] tiles [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[+1 Food, +1 Gold] from [Farm] tiles [in this city]]\n    [[-3]% [Production] [in this city]]\n\n[City Level V]:\n    [[+1 Food, +3 Production] from [Pasture] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", "Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Production] [in this city]",
 		"[+1 Food] from [{Land} {Bonus resource}] tiles [in this city] <in cities with a [City Level II]>",
@@ -214,13 +197,13 @@
 	},
 	{
         "name": "Resource-Based City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+1 Production, +1 Food] from [Strategic resource] tiles [in this city]]\n    [[Provides [5] [Horses]] [after discovering [Animal Husbandry]]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[Provides [5] [Iron]] [after discovering [Iron Working]]]\n    [[Provides [5] [Coal]] [after discovering [Chemistry]]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]\n    [[Provides [5] [Steels]] [after discovering [Metal Casting]]]\n    [[Provides [5] [Oil]] [after discovering [Biology]]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[Provides [3] [Aluminum]] [after discovering [Electricity]]]\n    [[Provides [3] [Uranium]] [after discovering [Atomic Theory]]]\n    [[-3]% [Food] [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[+1 Production, +1 Food] from [Strategic resource] tiles [in this city]]\n    [[Provides [5] [Horses]] [after discovering [Animal Husbandry]]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[Provides [5] [Iron]] [after discovering [Iron Working]]]\n    [[Provides [5] [Coal]] [after discovering [Chemistry]]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]\n    [[Provides [5] [Steels]] [after discovering [Metal Casting]]]\n    [[Provides [5] [Oil]] [after discovering [Biology]]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[Provides [3] [Aluminum]] [after discovering [Electricity]]]\n    [[Provides [3] [Uranium]] [after discovering [Atomic Theory]]]\n    [[-3]% [Food] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Food] [in this city]",
 		"[+1 Production, +1 Food] from [Strategic resource] tiles [in this city] <in cities with a [City Level II]>",
@@ -241,13 +224,13 @@
 	},
 	{
         "name": "Commercial City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+3 Gold] from all [Production] buildings] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+5 Gold] from all [Culture] buildings] [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[[+25]% [Gold] from every [Bank]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[+3 Gold, +3 Science] from [Trading post] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[[+3 Gold] from all [Production] buildings] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+5 Gold] from all [Culture] buildings] [in this city]]\n    [[-2]% [Production] [in this city]]\n\n[City Level IV]:\n    [[[+25]% [Gold] from every [Bank]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[+3 Gold, +3 Science] from [Trading post] tiles [in this city]]\n    [[-3]% [Production] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Food] [in this city]",
 		"[+3 Gold] from all [Production] buildings <in this city> <in cities with a [City Level II]>", 
@@ -264,13 +247,13 @@
 	},
 	{
         "name": "Industrial City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Production] from all [Production] buildings] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-3]% [Food] [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[[+1 Production] from all [Production] buildings] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[[+7]% [Production] from [Workshop]] [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level IV]:\n    [[[+8]% [Production] from [Ironworks]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+8]% [Production] from [Factory]] [in this city]]\n    [[-3]% [Food] [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Food] [in this city]",
 	    "[+1 Production] from all [Production] buildings <in this city> <in cities with a [City Level II]>", 
@@ -287,13 +270,13 @@
 	},
 	{
         "name": "Research-Oriented City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Science] from all [Science] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [[[+7]% [Science] from [University]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+7]% [Science] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[[+7]% [Science] from [Public School]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[[+1 Science] from all [Science] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [[[+7]% [Science] from [University]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+7]% [Science] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[[+7]% [Science] from [Public School]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[+10]% maintenance cost for [All] buildings [in this city]",
 		"[+1 Science] from all [Science] buildings <in this city> <in cities with a [City Level II]>", 
@@ -310,13 +293,13 @@
 	},
 	{
         "name": "Cultural City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+1 Culture] from all [Culture] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [+15% [Culture] if has a world wonder in this city]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Culture] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[Production to [Culture] conversion in cities changed by [100]%] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[[+1 Culture] from all [Culture] buildings] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level III]:\n    [+15% [Culture] if has a world wonder in this city]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Culture] from [Printing House]] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]\n\n[City Level V]:\n    [[Production to [Culture] conversion in cities changed by [100]%] [in this city]]\n    [[+10]% maintenance cost for [All] buildings [in this city]]"
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[+10]% maintenance cost for [All] buildings [in this city]",
 		"[+1 Culture] from all [Culture] buildings <in this city> <in cities with a [City Level II]>", 
@@ -333,13 +316,13 @@
 	},
 	{
         "name": "Religious City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[[+10]% [Faith] from [Temple]] [in this city]]\n    [[-2]% [Science] [in this city]]\n\n[City Level III]:\n    [[May buy [BUILDING] buildings with [Faith] for [3] times their normal Production cost] [in this city]]\n    [[May buy [Military] units with [Faith] for [3] times their normal Production cost] [in this city]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[Faith] cost of purchasing items in cities [-10]%] [in this city]]\n    [[-3]% [Science] [in this city]]\n\n[City Level V]:\n    [[[+25]% Yield from every [Holy site]] [in this city]]\n    [[-3]% [Gold] [in this city]]"        
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[[+10]% [Faith] from [Temple]] [in this city]]\n    [[-2]% [Science] [in this city]]\n\n[City Level III]:\n    [[May buy [BUILDING] buildings with [Faith] for [3] times their normal Production cost] [in this city]]\n    [[May buy [Military] units with [Faith] for [3] times their normal Production cost] [in this city]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[Faith] cost of purchasing items in cities [-10]%] [in this city]]\n    [[-3]% [Science] [in this city]]\n\n[City Level V]:\n    [[[+25]% Yield from every [Holy site]] [in this city]]\n    [[-3]% [Gold] [in this city]]"        
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Science] [in this city]",
 		"[+10]% [Faith] [in this city] <in cities with a [City Level II]> <in cities with a [Temple]>", 
@@ -358,13 +341,13 @@
 	},
 	{
         "name": "Military City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+15]% Production when constructing [Military] units [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [All newly-trained [Military] units [in this city] receive the [Military City ability] promotion]\n    [[Military City ability]: [[+10]% Strength]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Production] from [Armory]] [in this city]]\n    [[[+10]% [Science] from [Military Academy]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [New [Military] units start with [25] XP [in this city]]\n    [[-3]% [Gold] [in this city]]",
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[+15]% Production when constructing [Military] units [in this city]]\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [All newly-trained [Military] units [in this city] receive the [Military City ability] promotion]\n    [[Military City ability]: [[+10]% Strength]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+10]% [Production] from [Armory]] [in this city]]\n    [[[+10]% [Science] from [Military Academy]] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [New [Military] units start with [25] XP [in this city]]\n    [[-3]% [Gold] [in this city]]",
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% [Food] [in this city]",
 		"[+20]% Production when constructing [Military] units [in this city] <in cities with a [City Level II]>",
@@ -383,13 +366,13 @@
 	{
 
         "name": "Fortress City",
-        "cost": 100,
-		"replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [City strength]+5\n    [City health]+100\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[+1 Production] from [Fort] tiles [in this city]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+25]% City Strength from defensive buildings] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+25]% Strength for cities] [in this city]]\n    [[-3]% [Gold] [in this city]]",
+        "cost": 85,
+		"replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [City strength]+5\n    [City health]+100\n    [[-2]% [Food] [in this city]]\n\n[City Level III]:\n    [[+1 Production] from [Fort] tiles [in this city]]\n    [[-2]% [Gold] [in this city]]\n\n[City Level IV]:\n    [[[+25]% City Strength from defensive buildings] [in this city]]\n    [[-3]% [Food] [in this city]]\n\n[City Level V]:\n    [[[+25]% Strength for cities] [in this city]]\n    [[-3]% [Gold] [in this city]]",
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>" 
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 	    "[-2]% [Food] [in this city]",
 	    "Gain a free [Fortress City ability] [in this city]"
@@ -414,13 +397,13 @@
 	},
 	{
         "name": "Port City",
-        "cost": 100,
-        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n[Must be next to [Coast]]\n\n[Cost increases by [25] when built]\n\n\n[City Level II]:\n    [[+1 Production] from [Fishing Boats] tiles [in this city]]\n    [[-2]% growth [in this city]]\n\n[City Level III]:\n    [[+20]% Production when constructing [Seaside Building] buildings [in this city]]\n    [[-2]% growth [in this city]]\n\n[City Level IV]:\n    [[[+5]% [Production] from [Harbor]] [in this city]]\n    [[[+10]% [Gold] from [Harbor]] [in this city]]\n    [[-3]% growth [in this city]]\n\n[City Level V]:\n    [[[+100]% [Gold] from Trade Routes] [in this city]]\n    [[-3]% growth [in this city]]",
+        "cost": 85,
+        "replacementTextForUniques": "[Only available in cities with at least 5 Population and at least II Level]\n[Must be next to [Coast]]\n\n[Cost increases by [40] when built]\n\n\n[City Level II]:\n    [[+1 Production] from [Fishing Boats] tiles [in this city]]\n    [[-2]% growth [in this city]]\n\n[City Level III]:\n    [[+20]% Production when constructing [Seaside Building] buildings [in this city]]\n    [[-2]% growth [in this city]]\n\n[City Level IV]:\n    [[[+5]% [Production] from [Harbor]] [in this city]]\n    [[[+10]% [Gold] from [Harbor]] [in this city]]\n    [[-3]% growth [in this city]]\n\n[City Level V]:\n    [[[+100]% [Gold] from Trade Routes] [in this city]]\n    [[-3]% growth [in this city]]",
 		"uniques": [
 		"Cannot be purchased", "Unsellable", "Destroyed when the city is captured", 
 		"Only available <in cities with a [City Level II]>", "Only available <in cities with at least [5] [Population]>", "Only available <in cities without a [Specialized City]>", "Must be next to [Coast]",
 		"Specialized City",
-		"Cost increases by [25] when built",
+		"Cost increases by [40] when built",
 		
 		"[-2]% growth [in this city]",
 		"[+1 Production] from [Fishing Boats] tiles [in this city] <in cities with a [City Level II]>"
@@ -1586,8 +1569,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iran",
-		"replacementTextForUniques": "Empire enters ⌣Golden Age upon conquering a city",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Darius I]>", "Only available <in cities without a [Civilized Leader-Khomeini]>", "Empire enters golden age <upon conquering a city>"]
+		"replacementTextForUniques": "[[Empire enters golden age] [upon conquering a city]]\n[[Empire enters a [5]-turn Golden Age] [(modified by game speed)]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Darius I]>", "Only available <in cities without a [Civilized Leader-Khomeini]>", "Empire enters a [5]-turn Golden Age <(modified by game speed)>", "Empire enters golden age <upon conquering a city>"]
 	},
 	{	
         "name": "Civilized Leader-Darius I",
@@ -1602,13 +1585,13 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Iran",
-		"replacementTextForUniques": "[Empire enters golden age] [<upon declaring a defensive pact>] (CD: 30)\n[Creates a [Citadel] improvement on a specific tile]",
+		"replacementTextForUniques": "[Empire enters golden age] [<upon declaring a defensive pact>] (CD: 30)\n[[[Instantly provides [2] [Feat]] [upon turn end]] [during a Golden Age]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Cyrus]>", "Only available <in cities without a [Civilized Leader-Darius I]>",
 		 "Empire enters golden age <upon declaring a defensive pact> <when number of [CD] is equal to [30]>", 
 		 
 		 "Instantly provides [30] [CD] <upon declaring a defensive pact> <when number of [CD] is equal to [0]>",
 		 "Provides [-1] [CD] <when number of [CD] is more than [0]>"
-		 "Creates a [Citadel] improvement on a specific tile"]
+		 "Instantly provides [2] [Feat] <upon turn end> <during a Golden Age>"]
     },
 	{
 		"name": "Satrap's Court"
@@ -2107,7 +2090,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "France",
-		"replacementTextForUniques": "[+1 Movement for Siege and Mobile units]\n[-10% XP required for promotions for Siege and Mobile units]",
+		"replacementTextForUniques": "[+1 Movement for Siege and Mobile units]\n[[-10]% XP required for promotions]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-De Gaulle]>", "Only available <in cities without a [Civilized Leader-Louis XIV]>", "Only available <in cities without a [Civilized Leader-Commune de Paris]>", "[+1] Movement <for [Siege] units>", "[+1] Movement <for [Mobile] units>", "[-10]% XP required for promotions"]	
 	},
 	{	
@@ -2551,7 +2534,7 @@
 		"production": 1,
         "uniqueTo": "Poland",
 	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison", "Deer"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+1 Production] from [Livestock] tiles [in this city]", "[+1 Production, +1 Gold] from [Horses] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+2 Production, +1 Gold] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"],
 		"requiredTech": "Horseback Riding"
 
     // 梵蒂冈
@@ -2623,8 +2606,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Denmark",
-		"replacementTextForUniques": "[Receive triple Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Receive triple Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately"]
+		"replacementTextForUniques": "[Receive [+200]% Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Receive [+200]% Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately"]
 	},
 	{
 		"name": "Grundtvigs Kirke",
@@ -3273,8 +3256,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "The Huns",
-		"replacementTextForUniques": "+10% †Strength for Military units when fighting in Foreign Land tiles\nReceive triple ¤Gold from [Barbarian encampment] and pillaging Cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive triple Gold from Barbarian encampments and pillaging Cities"]
+		"replacementTextForUniques": "[[[[+10]% Strength] [for [Military] units]] [when fighting in [Foreign Land] tiles]]\n[Receive [+200]% Gold from Barbarian encampments and pillaging Cities]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when fighting in [Foreign Land] tiles>", "Receive [+200]% Gold from Barbarian encampments and pillaging Cities"]
 		
 	// 斯基泰
 	},
@@ -3292,7 +3275,7 @@
         "uniqueTo": "Scythian",
 		"culture": 2,
 		"production": 2,
-		"requiredTech": "Burial Custom",
+		"requiredTech": "Belief Worship",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"]
         
     // 波利尼西亚

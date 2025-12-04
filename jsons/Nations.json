@@ -613,7 +613,7 @@
 		"innerColor": [86, 123, 161],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Golden Slavery",
-		"uniqueText": "[May buy items in puppet cities]\n[May not annex cities]\n[+6 [Gold] in all non-puppet cities for every puppet cities]\n[[Worker] can found a new puppet city at a cost of 50 [Gold] by consuming himself]",
+		"uniqueText": "[May buy items in puppet cities]\n[May not annex cities]\n[+6 [Gold] in all non-puppet cities for every puppet cities]\n[[Itinerant Merchant] can found a new puppet city at a cost of 35 [Gold] by consuming himself]",
 		"uniques": [
 	    "May buy items in puppet cities",
 	    "May not annex cities",

@@ -25,7 +25,8 @@
 		"techRequired": "Mining",
 		"uniques": [
 		"IMPROVEMENT",
-		"[+1 Production] <after discovering [Chemistry]>", 
+		"[+1 Production] <after discovering [Chemistry]>", "[+1 Production] <after discovering [Dynamite]>", 
+		
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [2] tiles of a [Mine]>", 
 		"[+1 Production] <after adopting [Agglomeration Planning]> <within [1] tiles of a [City center]>", 
 		"Pillaging this improvement yields approximately [+15 Gold]",
@@ -92,9 +93,6 @@
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		
-		
-		
 		],
 	},
 	{
@@ -104,7 +102,7 @@
 		"techRequired": "Mining",
 		"uniques": [
 		"IMPROVEMENT",
-		"[+1 Production] <after discovering [Chemistry]>",
+		"[+1 Production] <after discovering [Chemistry]>", "[+1 Production] <after discovering [Dynamite]>", 
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
@@ -144,6 +142,7 @@
 		"[+2 Production, -2 Gold] <in [Oasis] tiles>",
 		"[+1 Gold] <after discovering [Economics]>", 
 		"[+1 Gold] <after discovering [Industrialization]>",
+		"[+1 Science] <after discovering [Scientific Theory]>",
 		"Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
@@ -154,13 +153,13 @@
 	{
 		"name": "Spa",
 		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
-		"food": 1,
+		"happiness": 1,
 		"science": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Drama and Poetry",
 		"uniques": [
 		"IMPROVEMENT",
-		"Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Gold] <after discovering [Architecture]>", "[+1 Gold] <after discovering [Archaeology]>",
+		"Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Happiness] <after discovering [Architecture]>", "[+1 Happiness] <after discovering [Archaeology]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		
@@ -170,8 +169,8 @@
 	{
 		"name": "Geothermal Power Plant",
 		"terrainsCanBeBuiltOn": ["Geothermal Crevice"],
-		"science": 3,
-		"production": 3,
+		"science": 4,
+		"production": 4,
 		"turnsToBuild": 10,
 		"techRequired": "Ecology",
 		"uniques": [
@@ -215,7 +214,7 @@
 		"uniques": [
 		"IMPROVEMENT",
 		"Does not need removal of [Seafall ruins]", "Pillaging this improvement yields approximately [+15 Gold]", 
-		"[+2 Culture] <after discovering [The Renaissance]>"
+		"[+2 Culture] <after discovering [The Renaissance]>", "[+2 Culture] <after discovering [Enlightenment]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		
@@ -460,7 +459,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 10,
-		"uniques": ["IMPROVEMENT", "Cannot be built on [Bonus resource] tiles", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["IMPROVEMENT", "[+1 Food] <in [Bonus resource] tiles>", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
 	},
 	{
@@ -537,7 +536,7 @@
 		"faith": 2,
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
-		"uniques": ["IMPROVEMENT", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Faith] <after discovering [Theology]>", "[+1 Food] <in [Hill] tiles>", "[+1 Food] <in [Sheep] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["IMPROVEMENT", "Comment [Can built by Foot Soldier]", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Faith] <after discovering [Theology]>", "[+2 Food] <in [Hill] tiles>", "[+1 Food] <in [Bonus resource] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
 	},
 	{
 		"name": "The Great Wall of China",
@@ -581,24 +580,4 @@
 		"[+1 Faith] <for every adjacent [Holy site]>",
 		],
     },
-    
-    // 世界会议设施
-    {
-		"name": "A Vote for Bill 1",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
-		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
-	},
-	{
-		"name": "A Vote for Bill 2",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
-		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
-	},
-	{
-		"name": "A Vote for Bill 3",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland", "Desert", "Hill", "Tundra", "Snow", "Forest", "Jungle", "Bamboo", "Volcanic Soil", "Black Earth", "Ocean", "Coast", "Lakes", "Oasis"],
-		"gold": 1,
-		"uniques": ["Does not need removal of [Vegetation]", "Will not be displayed in Civilopedia" ,"Unpillagable", "Irremovable <for [Human player] Civilizations>", "A Vote for Bill"]
-	},
 ]

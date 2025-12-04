@@ -4,14 +4,13 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Can build [Polder] improvements on tiles <for [The Netherlands] Civilizations> <hidden from users>",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		"Can build [Polder] improvements on tiles <for [The Netherlands] Civilizations> <hidden from users>",
 		     "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
 		    "Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>",
-		    "Founds a new puppet city <costs [+50 Gold] stats> <by consuming this unit> <for [Assyrian] Civilizations> <hidden from users>",
-		    "Remove [A Vote for Bill] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill] tiles> <when number of [Temp2] is different than [17]> <hidden from users>",
 		],
 		"cost": 63
 	},
@@ -22,7 +21,7 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 63,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>", "Remove [A Vote for Bill] improvements from this tile <for [1] movement> <when [World Conference(Recommended to enable)] Victory is enabled> <in [A Vote for Bill] tiles> <when number of [Temp2] is different than [17]> <hidden from users>",],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"],
 	},
 	{
 		"name": "Settler",
@@ -46,6 +45,7 @@
 		"promotions": ["Off-road"],
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
+		"Founds a new puppet city <costs [+35 Gold] stats> <by consuming this unit> <for [Assyrian] Civilizations> <hidden from users>",
 		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
 		
@@ -126,7 +126,6 @@
 		"Can build [Road] improvements on tiles <for [Human player] Civilizations>"
 		]
 		"attackSound": "nonmetalhit"
-		
     // 步兵
 	},
 	{
@@ -872,7 +871,7 @@
 		"unitType": "Mobile",
 		"hurryCostModifier": 15,
 		"movement": 4,
-		"strength": 7,
+		"strength": 6,
 		"rangedStrength": 8,
 		"cost": 60,
 		"requiredTech": "The Wheel",
@@ -888,7 +887,7 @@
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
-		"strength": 7,
+		"strength": 6,
 		"rangedStrength": 8,
 		"cost": 60,
 		"requiredTech": "The Wheel",
@@ -904,7 +903,7 @@
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
-		"strength": 10,
+		"strength": 9,
 		"rangedStrength": 9,
 		"cost": 75,
 		"requiredTech": "The Wheel",
@@ -920,7 +919,7 @@
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
-		"strength": 8,
+		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 60,
 	    "requiredTech": "The Wheel",
@@ -936,7 +935,7 @@
 		"replaces": "Chariot Archer",
 		"range": 1,
 		"movement": 4,
-		"strength": 10,
+		"strength": 9,
 		"rangedStrength": 10,
 		"cost": 60,
 	    "requiredTech": "The Wheel",
@@ -1104,7 +1103,7 @@
 		"unitType": "Mobile",
 		"hurryCostModifier": 15,
 		"movement": 4,
-		"strength": 15,
+		"strength": 14,
 		"rangedStrength": 15,
 		"cost": 158,
 		"requiredTech": "Chivalry",
@@ -1120,7 +1119,7 @@
 		"replaces": "Mounted Archer",
 		"uniqueTo": "Arabia",
 		"movement": 4,
-		"strength": 18,
+		"strength": 17,
 		"rangedStrength": 19,
 		"cost": 173,
 		"requiredTech": "Chivalry",
@@ -1137,7 +1136,7 @@
 		"uniqueTo": "Mongolia",
 		"range": 2,
 		"movement": 4,
-		"strength": 16,
+		"strength": 15,
 		"rangedStrength": 16,
 		"cost": 166,
 		"requiredTech": "Chivalry",
@@ -1357,7 +1356,7 @@
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 19,
-		"cost": 76,
+		"cost": 87,
 		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Can move immediately once bought", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",

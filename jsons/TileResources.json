@@ -10,6 +10,15 @@
 					"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>", "Livestock"]
 	},
 	{
+		"name": "Cow",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland", "Hill"],
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [25] tiles <in [{Hill} {Grassland}] tiles> <in [Hill] Regions>", "Livestock"]
+	},
+	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
@@ -128,11 +137,11 @@
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
-		"improvementStats": {"production": 1},
+		"terrainsCanBeFoundOn": ["Plains", "Hill"],
+		"improvementStats": {"production": 2, "food": -1},
 		"improvement": "Pasture",
 		"uniques": ["Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
-		"Generated on every [35] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>", "Livestock"]
+		"Generated on every [25] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>", "Livestock"]
 	},
 	{
 		"name": "Camel",
@@ -747,14 +756,45 @@
 	{
 		"name": "Temp1",  
 		"resourceType": "Strategic",
-	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
 	},
 	{
 		"name": "Temp2",  
 		"resourceType": "Strategic",
-	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia", "Stockpiled"]
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
 	}
-	
+	{
+		"name": "B1",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "B2",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "B3",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "BR",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
 	// 文化胜利
 	{
 		"name": "External Cultural Influence", 
