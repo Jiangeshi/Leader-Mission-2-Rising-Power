@@ -118,7 +118,7 @@
 		"improvementStats": {"food": 1},
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>",
-		"Generated on every [10] tiles <in [{Featureless} {Ocean}] tiles>",
+		"Generated on every [13] tiles <in [{Featureless} {Ocean}] tiles>",
 		"Generated on every [15] tiles <in [Atoll] tiles>",
 		"Generated on every [15] tiles <in [Reef] tiles>",
 		"Generated on every [10] tiles <in [Lakes] tiles>",
@@ -130,7 +130,7 @@
 		"terrainsCanBeFoundOn": ["Coast","Mudflat", "Ocean"],
 		"improvementStats": {"production": 1},
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>",
+		"uniques": ["Generated on every [13] tiles <in [{Featureless} {Coast}] tiles>",
 		"Generated on every [20] tiles <in [{Featureless} {Ocean}] tiles>",
 		]
 	},

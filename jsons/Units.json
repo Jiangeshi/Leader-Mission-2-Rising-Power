@@ -136,8 +136,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
-		]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -870,14 +869,15 @@
 		"name": "Chariot Archer",
 		"unitType": "Mobile",
 		"hurryCostModifier": 15,
+		"range": 1,
 		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 8,
+		"strength": 7,
+		"rangedStrength": 9,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "arrow"	
 	},
 	{
@@ -886,14 +886,15 @@
 		"hurryCostModifier": 15,
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
+		"range": 1,
 		"movement": 5,
-		"strength": 6,
-		"rangedStrength": 8,
+		"strength": 7,
+		"rangedStrength": 9,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "arrow"		
 	},
 	{
@@ -902,9 +903,10 @@
 		"hurryCostModifier": 15,
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
+		"range": 1,
 		"movement": 3,
-		"strength": 9,
-		"rangedStrength": 9,
+		"strength": 10,
+		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -918,9 +920,10 @@
 		"hurryCostModifier": 15,
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
+		"range": 1,
 		"movement": 4,
-		"strength": 7,
-		"rangedStrength": 8,
+		"strength": 8,
+		"rangedStrength": 9,
 		"cost": 60,
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
@@ -941,7 +944,7 @@
 	    "requiredTech": "The Wheel",
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1102,9 +1105,10 @@
 		"name": "Mounted Archer",
 		"unitType": "Mobile",
 		"hurryCostModifier": 15,
+		"range": 1,
 		"movement": 4,
-		"strength": 14,
-		"rangedStrength": 15,
+		"strength": 15,
+		"rangedStrength": 16,
 		"cost": 158,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -1118,9 +1122,10 @@
 		"hurryCostModifier": 15,
 		"replaces": "Mounted Archer",
 		"uniqueTo": "Arabia",
+		"range": 1,
 		"movement": 4,
-		"strength": 17,
-		"rangedStrength": 19,
+		"strength": 18,
+		"rangedStrength": 20,
 		"cost": 173,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -1385,7 +1390,7 @@
 		"strength": 25,
 		"cost": 248,
 		"requiredTech": "Metallurgy",
-		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Mobile] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
+		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Steels]", "Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [{Melee} {Mobile}] units>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "metalhit"
@@ -2234,8 +2239,7 @@
 		"name": "Confucius",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Free Social Policy <by consuming this unit> <for [non-[Chile]] Civilizations>",
-		    "[1] free [Great Artist] units appear <by consuming this unit> <for [Chile] Civilizations>"
+		    "Free Social Policy"
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
 			

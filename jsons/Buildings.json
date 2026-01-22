@@ -426,8 +426,30 @@
 		"uniques": ["Never destroyed when the city is captured", "Cannot be purchased", "Unsellable", "Automatically built in all cities where it is buildable", "City Level",
 		"Connects trade routes over water <for [Portugal] Civilizations> <hidden from users>",
 		
-		"Instantly gain [4] [Stored Food] <upon constructing [{non-[City Level]} {BUILDING}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>"
-		"Gain [5] [Gold] <upon constructing [{non-[City Level]} {BUILDING}] [in this city]> <for every [1] [[Era number]+1]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Instantly gain [6] [Stored Food] <upon constructing [{Ancient era} {BUILDING}] [in this city]> <during the [Ancient era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [6] [Gold] <upon constructing [{Ancient era} {BUILDING}] [in this city]> <during the [Ancient era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [12] [Stored Food] <upon constructing [{Classical era} {BUILDING}] [in this city]> <during the [Classical era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [12] [Gold] <upon constructing [{Classical era} {BUILDING}] [in this city]> <during the [Classical era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [18] [Stored Food] <upon constructing [{Medieval era} {BUILDING}] [in this city]> <during the [Medieval era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [18] [Gold] <upon constructing [{Medieval era} {BUILDING}] [in this city]> <during the [Medieval era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [24] [Stored Food] <upon constructing [{Renaissance era} {BUILDING}] [in this city]> <during the [Renaissance era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [24] [Gold] <upon constructing [{Renaissance era} {BUILDING}] [in this city]> <during the [Renaissance era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [30] [Stored Food] <upon constructing [{Industrial era} {BUILDING}] [in this city]> <during the [Industrial era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [30] [Gold] <upon constructing [{Industrial era} {BUILDING}] [in this city]> <during the [Industrial era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [36] [Stored Food] <upon constructing [{Modern era} {BUILDING}] [in this city]> <during the [Modern era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [36] [Gold] <upon constructing [{Modern era} {BUILDING}] [in this city]> <during the [Modern era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [42] [Stored Food] <upon constructing [{Atomic era} {BUILDING}] [in this city]> <during the [Atomic era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [42] [Gold] <upon constructing [{Atomic era} {BUILDING}] [in this city]> <during the [Atomic era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
+		"Instantly gain [48] [Stored Food] <upon constructing [{Information era} {BUILDING}] [in this city]> <during the [Information era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		"Gain [48] [Gold] <upon constructing [{Information era} {BUILDING}] [in this city]> <during the [Information era]> <for [Burkina Faso] Civilizations> <(modified by game speed)> <hidden from users>",
+		
 		"[20]% of [Faith] from every [Faith] in the city added to [External Cultural Influence] <after adopting [Religious Appeal]> <hidden from users>"
 		"[200]% of [Culture] from every [All] in the city added to [Local Cultural Influence] <hidden from users> <(modified by game speed)>",
 		]	
@@ -589,7 +611,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Free Social Policy", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Calendar",
 	    "quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"	
 	    			
@@ -659,7 +681,7 @@
 		"name": "Stable",
 		"maintenance": 1,
 		"production": 1,
-	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison", "Deer"],
+	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison", "Deer", "Cow"],
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
 		"requiredTech": "Horseback Riding"
 	},
@@ -789,7 +811,7 @@
 		"gold": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Enemy [{pre-[Industrial era]} {Land}] units must spend [1] extra movement points when inside your territory", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Defensive Fortification",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"	
 	},
@@ -1332,7 +1354,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-15]% Culture cost of adopting new Policies", "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-15]% Culture cost of adopting new Policies", "Free Social Policy", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"	
 	},
@@ -1456,7 +1478,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>","Must be next to [Coast]", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["Free Social Policy","Must be next to [Coast]", "Provides [1] [Diplomatic Point]", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Pharmaceuticals",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"	
 	},
@@ -1612,7 +1634,7 @@
 		"cost":1,
 		"uniqueTo": "Arabia",
 		"replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Science]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Omar I]>", "Only available <in cities without a [Civilized Leader-Harun Rashid]>", "Earn [100]% of killed [Military] unit's [Strength] as [Science]"]
 	},
 	{	
         "name": "Civilized Leader-Omar I",
@@ -1620,7 +1642,19 @@
 		"cost":1,
 		"uniqueTo": "Arabia",
 		"replacementTextForUniques": "+10% †Strength for Military units after enhancing a religion"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Saladin]>", "[+10]% Strength <for [Military] units> <after enhancing a religion>"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Saladin]>", "Only available <in cities without a [Civilized Leader-Harun Rashid]>", "[+10]% Strength <for [Military] units> <after enhancing a religion>"]	
+	},
+	{	
+        "name": "Civilized Leader-Harun Rashid",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Arabia",
+		"replacementTextForUniques": "[[[Empire enters a [7]-turn Golden Age] [upon founding a Pantheon]] [(modified by game speed)]]\n[[[Empire enters a [7]-turn Golden Age] [upon founding a Religion]] [(modified by game speed)]]\n[[[Empire enters a [7]-turn Golden Age] [upon enhancing a Religion]] [(modified by game speed)]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Saladin]>", "Only available <in cities without a [Civilized Leader-Omar I]>", 
+		"Empire enters a [7]-turn Golden Age <upon founding a Pantheon><(modified by game speed)>",
+		"Empire enters a [9]-turn Golden Age <upon founding a Religion><(modified by game speed)>",
+		"Empire enters a [11]-turn Golden Age <upon enhancing a Religion><(modified by game speed)>",
+		]	
 	},
 	{
 		"name": "Bazaar",
@@ -1639,16 +1673,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "[+1 ⁂population in capital and gain a Free ⍾Technology upon conquering a city]\n[[+1 Production] from [Horses] tiles [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kublai]>", "[+1] population [in capital] <upon conquering a city>", "Free Technology <upon conquering a city>", "[+1 Production] from [Horses] tiles [in all cities]"]	
+		"replacementTextForUniques": "[+1 ⁂population in capital and gain a Free ⍾Technology upon conquering a city]\n[[+1 Production] from all [Posthouse] buildings]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kublai]>", "[+1] population [in capital] <upon conquering a city>", "Free Technology <upon conquering a city>", "[+1 Production] from all [Posthouse] buildings"]	
 	},
 	{	
         "name": "Civilized Leader-Kublai",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from all [Posthouse] buildings]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from all [Posthouse] buildings"]
+		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]
     },
 	{
 		"name": "Posthouse",
@@ -1657,7 +1691,7 @@
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
 		"requiredTech": "Horseback Riding"
-			"uniques": ["Only available <in cities with a [City Level II]>", "[+33]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
+			"uniques": ["Only available <in cities with a [City Level II]>", "[+25]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
 	
 	
 	// 印度
@@ -1735,8 +1769,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from all [Stable] buildings]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from all [Stable] buildings"]	
+		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]	
     },
     {
         "name": "Civilized Leader-Sun Yat-sen",
@@ -1762,7 +1796,7 @@
 		"cost":1,
 		"uniqueTo": "Korea",
 	    "replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Culture]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "Only available <in cities without a [Civilized Leader-Park Chung-hee]>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]	
 	},
 	{	
         "name": "Civilized Leader-Kim Il-sung",
@@ -1770,7 +1804,16 @@
 		"cost":1,
 		"uniqueTo": "Korea",
 		"replacementTextForUniques": "+1 [Science] and +1 [Gold] from all [Production] buildings"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Yi Song-gye]>", "[+1 Science, +1 Gold] from all [Production] buildings",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Yi Song-gye]>", "Only available <in cities without a [Civilized Leader-Park Chung-hee]>", "[+1 Science, +1 Gold] from all [Production] buildings",
+		]
+	},
+	{	
+        "name": "Civilized Leader-Park Chung-hee",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Korea",
+		"replacementTextForUniques": "[[+1 Production, +1 Gold] from all [Happiness] buildings]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Yi Song-gye]>", "Only available <in cities without a [Civilized Leader-Kim Il-sung]>", "[+1 Production, +1 Gold] from all [Happiness] buildings",
 		]
 	},
 	{
@@ -2404,7 +2447,15 @@
 		"cost":1,
 		"uniqueTo": "Finland",
 		"replacementTextForUniques": "+10% †Strength for Military units when fighting units from a Civilization with more Cities than you\n+10% †Strength for Military units when fighting in Friendly Land tiles",
-		"uniques": ["Can only be built<in [in capital] cities>", "[+10]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>","[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Mikael Agricola]>", "[+10]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>","[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"]
+	},
+		{	
+        "name": "Civilized Leader-Mikael Agricola",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Finland",
+		"replacementTextForUniques": "+1 [Faith] / [Culture] in all cities if [Auspicious Snow] / [Blizzard Wind] is constructed, doubles in the capital",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Mannerheim]>", "[+1 Faith] [in all cities] <if [Auspicious Snow] is constructed>", "[+1 Faith] [in capital] <if [Auspicious Snow] is constructed>", "[+1 Culture] [in all cities] <if [Blizzard Wind] is constructed>", "[+1 Culture] [in capital] <if [Blizzard Wind] is constructed>"]
 	},
 	{
 		"name": "Santa Claus House",
@@ -2533,8 +2584,8 @@
 		"cost": 71,
 		"production": 1,
         "uniqueTo": "Poland",
-	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison", "Deer"],
-		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+2 Production, +1 Gold] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"],
+	"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camel","Bison", "Deer", "Cow"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "[+15]% Production when constructing [Mobile] units [in this city]", "New [Military] units start with [10] XP [in this city]", "[+2 Production] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "MILITARY"],
 		"requiredTech": "Horseback Riding"
 
     // 梵蒂冈
@@ -2570,7 +2621,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"faith": 2,
+		"faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniqueTo": "Vatican",
@@ -2607,7 +2658,15 @@
 		"cost":1,
 		"uniqueTo": "Denmark",
 		"replacementTextForUniques": "[Receive [+200]% Gold from Barbarian encampments and pillaging Cities]\n[Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Receive [+200]% Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Harald Bluetooth]>", "Receive [+200]% Gold from Barbarian encampments and pillaging Cities", "Upon capturing a city, receive [12] times its [Production] production as [Gold] immediately"]
+	},
+	{	
+        "name": "Civilized Leader-Harald Bluetooth",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Denmark",
+		"replacementTextForUniques": "[[Gain a free [Shrine] [in capital]] [upon discovering [Belief Worship] technology]]\n[Upon capturing a city, receive [12] times its [Production] production as [Faith] immediately]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Valdemar I]>", "Gain a free [Shrine] [in capital] <upon discovering [Belief Worship] technology>", "Upon capturing a city, receive [12] times its [Production] production as [Faith] immediately"]
 	},
 	{
 		"name": "Grundtvigs Kirke",
@@ -2890,7 +2949,15 @@
 		"cost":1,
 		"uniqueTo": "Aztecs",
 		"replacementTextForUniques": "[Earn [100]% of killed [Military] unit's [Strength] as [Culture]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Tlacaelel]>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"]
+	},
+	{	
+        "name": "Civilized Leader-Tlacaelel",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Aztecs",
+		"replacementTextForUniques": "[[+1 Production, +2 Gold] from every [Luxury resource]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Montezuma I]>", "[+1 Production, +2 Gold] from every [Luxury resource]"]
 	},
 	{
 		"name": "Floating Gardens",
@@ -2999,9 +3066,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "America",
-		"specialistSlots": {"Artist": 1},
-		"replacementTextForUniques": "+1 [[Artist] slots]\n[[+1 Food, +1 Culture] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "[+1 Food, +1 Culture] from every specialist [in all cities]"]
+		"greatPersonPoints": {"Great Artist": 3},
+		"replacementTextForUniques": "[+3 [Great Artist] Point]\n[Gain 6 [Culture] when [Rock Band] stacked with a Military unit upon turn end (modified by game speed)]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>"]
 	},
 	{	
         "name": "Civilized Leader-Theodore Roosevelt",
@@ -3009,8 +3076,8 @@
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Engineer": 1},
-		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[+2 Culture] from every specialist [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+2 Culture] from every specialist [in all cities]"]	
+		"replacementTextForUniques": "+1 [[Engineer] slots]\n[[[+2 Culture] from every specialist [in all cities]] [after discovering [Machinery]]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Franklin Delano Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+2 Culture] from every specialist [in all cities] <after discovering [Machinery]>"]	
 	},
 	{	
         "name": "Civilized Leader-Franklin Delano Roosevelt",
@@ -3018,8 +3085,8 @@
 		"cost":1,
 		"uniqueTo": "America",
 		"specialistSlots": {"Scientist": 1},
-		"replacementTextForUniques": "+1 [[Scientist] slots]\n[[+1 Production, +1 Science] from every specialist [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+1 Production, +1 Science] from every specialist [in all cities]"]	
+		"replacementTextForUniques": "+1 [[Scientist] slots]\n[[[+1 Production, +1 Science] from every specialist [in all cities]] [after discovering [Education]]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Theodore Roosevelt]>", "Only available <in cities without a [Civilized Leader-Abraham Lincoln]>", "[+1 Production, +1 Science] from every specialist [in all cities] <after discovering [Education]>"]	
 	
 	// 阿根廷
 	},
@@ -3285,8 +3352,17 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Polynesia",
-		"replacementTextForUniques": "+1 ⁂population in capital\n+1 ⁂Food and +1 [Culture] from every Fishing Boats"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+1] population [in capital]", "[+1 Food, +1 Culture] from every [Fishing Boats]"]	  
+		"replacementTextForUniques": "[[+1] population [in capital]]\n[[+1 Food, +1 Culture] from every [Fishing Boats]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kupe]>", "[+1] population [in capital]", "[+1 Food, +1 Culture] from every [Fishing Boats]"]
+	},
+	{	
+        "name": "Civilized Leader-Kupe",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Polynesia",
+		"replacementTextForUniques": "[[[+1] Movement] [for [Civilian] units]]\n[[+1 Production] from every [Fishing Boats]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Kamehameha I]>", "[+1] Movement <for [Civilian] units>", "[+1 Production] from every [Fishing Boats]"]
+		
 		
 	// 印度尼西亚
 	},

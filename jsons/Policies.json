@@ -210,7 +210,7 @@
                 "name": "Liberty Complete",
                 "uniques": [
                     "Free Great Person",
-                    "Comment [Free Social Policy]", "Free Social Policy <for [non-[Chile]] Civilizations> <hidden from users>", "[1] free [Great Artist] units appear <for [Chile] Civilizations> <hidden from users>"
+                    "Free Social Policy"
                     ]
             }
         ]
@@ -889,7 +889,7 @@
                 "name": "Honor Complete",
                 "uniques": [
                     "Comment [[[+2] Strength] [for [Military] units]]",
-                    "[-33]% XP required for promotions <for [Military] units>"
+                    "[-33]% XP required for promotions"
                 ]
             }
         ]    
