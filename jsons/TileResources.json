@@ -660,6 +660,11 @@
 		"resourceType": "Bonus",
 	    "uniques": ["Not shown on world screen", "Cannot be traded"]
 	},
+	{
+		"name": "Number of Constructed Wonder",  
+		"resourceType": "Bonus",
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Stockpiled"]
+	},
 	/*
 	{
 		"name": "Number of Production",  

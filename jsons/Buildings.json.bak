@@ -1664,7 +1664,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
-		"uniques": ["Only available <in cities with a [City Level II]>", "Provides 1 extra copy of each improved luxury resource near this City", "[+3 Gold] from [Oasis] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "[+3 Faith] from [Camel] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
+		"uniques": ["Only available <in cities with a [City Level II]>", "Provides 1 extra copy of each improved luxury resource near this City", "[+2 Gold, +2 Faith] from [Oasis] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
 	
 	//蒙古
 	},
@@ -1681,8 +1681,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Mongolia",
-		"replacementTextForUniques": "[[Gain a free [Posthouse] [in capital]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in capital] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]
+		"replacementTextForUniques": "[[Gain a free [Posthouse] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Genghis Khan]>", "Gain a free [Posthouse] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]
     },
 	{
 		"name": "Posthouse",
@@ -1690,7 +1690,6 @@
 		"production": 2,
 		"replaces": "Stable",
 		"uniqueTo": "Mongolia",
-		"cost": 72,
 		"requiredTech": "Horseback Riding"
 			"uniques": ["Only available <in cities with a [City Level II]>", "[+25]% Production when constructing [Mobile] units [in this city]", "[+1 Production] from [Livestock] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
 	
@@ -1754,24 +1753,24 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[Empire enters a [15]-turn Golden Age] [(modified by game speed)]]\n[[+25]% Golden Age length]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Empire enters a [15]-turn Golden Age <(modified by game speed)>", "[+25]% Golden Age length"]
+		"replacementTextForUniques": "[Empire enters a [15]-turn Golden Age]\n[[+25]% Golden Age length]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Empire enters a [15]-turn Golden Age", "[+25]% Golden Age length"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizu of Song",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+13% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+13]% [Science] [in all cities]", "[+13]% [Culture] [in all cities]"]
+		"replacementTextForUniques": "+10% ⍾Science and ♪Culture in all cities",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% [Science] [in all cities]", "[+10]% [Culture] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Kublai1",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[Gain a free [Stable] [in capital]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in capital] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]	
+		"replacementTextForUniques": "[[Gain a free [Stable] [in all cities]] [after discovering [Horseback Riding]]]\n[[+1 Production] from [Horses] tiles [in all cities]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Gain a free [Stable] [in all cities] <after discovering [Horseback Riding]>", "[+1 Production] from [Horses] tiles [in all cities]"]	
     },
     {
         "name": "Civilized Leader-Sun Yat-sen",
@@ -2278,8 +2277,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Rome",
-		"replacementTextForUniques": "[[[[+1] Strength] [when adjacent to a [Military] unit]] [for [Military] units]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Only available <in cities without a [Civilized Leader-Tarjan]>"]
+		"replacementTextForUniques": "+10% †Strength for Military units when adjacent to a Military unit",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Octavius]>", "Only available <in cities without a [Civilized Leader-Tarjan]>", "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"]
 	},
 	{	
         "name": "Civilized Leader-Octavius",
@@ -2518,14 +2517,14 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Soviet Union",
-		"replacementTextForUniques": "[[Base Effects]:\n[[+10]% Production when constructing [All] buildings [in all cities]]\n[Gain 1.5× [Production] bonus during war]\n\n[Enhanced Effects]:\n[All unit production now also receives [Production] bonuses\nWar [Production] bonus increases to 2.0×]]",
+		"replacementTextForUniques": "[[Base Effects]:\n[[+10]% Production when constructing [All] buildings [in all cities]]\n[Gain 1.5× [Production] bonus during war]\n\n[Enhanced Effects]:\n[All unit production now also receives [Production] bonuses\nWar [Production] bonus increases to 3×]]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Moves to new capital when capital changes", "Unbuildable",
 		
 		"[+10]% Production when constructing [All] buildings [in all cities] <before turn number [31]>", "[+5]% Production when constructing [All] buildings [in all cities] <when at war> <before turn number [31]>",
 		
-		"[+10]% Production when constructing [All] buildings [in all cities] <after turn number [31]>", "[+10]% Production when constructing [All] buildings [in all cities] <when at war> <after turn number [31]>",
+		"[+10]% Production when constructing [All] buildings [in all cities] <after turn number [31]>", "[+20]% Production when constructing [All] buildings [in all cities] <when at war> <after turn number [31]>",
 		
-		"[+10]% Production when constructing [All] units [in all cities] <after turn number [31]>", "[+10]% Production when constructing [All] units [in all cities] <when at war> <after turn number [31]>", 
+		"[+10]% Production when constructing [All] units [in all cities] <after turn number [31]>", "[+20]% Production when constructing [All] units [in all cities] <when at war> <after turn number [31]>", 
 		]
 	},
 	{	
@@ -3019,8 +3018,8 @@
 		"cost":1,
 		"uniqueTo": "Brazil",
 		"greatPersonPoints": {"Great Artist": 1},
-		"replacementTextForUniques": "[[Great Artist] is earned [100]% faster]\n+1 [Great Artist] Point",
-		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [100]% faster"]
+		"replacementTextForUniques": "[[Great Artist] is earned [75]% faster]\n+1 [Great Artist] Point",
+		"uniques": ["Can only be built<in [in capital] cities>", "[Great Artist] is earned [75]% faster"]
 	},
 	{
 		"name": "Street Carnival",
@@ -3185,8 +3184,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Egypt",
-		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion]\n[[Gain [75]-[150] [Gold]] [upon entering a war with [Major] Civilizations]] [(modified by game speed)]"
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [75]-[150] [Gold] <upon entering a war with [Major] Civilizations> <(modified by game speed)>"]
+		"replacementTextForUniques": "[All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion]\n[[Gain [125]-[175] [Gold]] [upon entering a war with [Major] Civilizations]] [(modified by game speed)]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Ramesses II]>", "Only available <in cities without a [Civilized Leader-Nasser]>", "All newly-trained [Military] units [in all cities] receive the [Amphibious] promotion", "Gain [125]-[175] [Gold] <upon entering a war with [Major] Civilizations> <(modified by game speed)>"]
 	},
 	{
 		"name": "Burial Tomb",
@@ -3410,8 +3409,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Australia",
-		"replacementTextForUniques": "[[upon entering a war with [Major] Civilizations] [[+25]% [Production] [in all cities]] [for [10] turns]]"
-		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [10] turns> <upon entering a war with [Major] Civilizations>"]
+		"replacementTextForUniques": "[[upon entering a war with [Major] Civilizations] [[+25]% [Production] [in all cities]] [for [7] turns]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "[+25]% [Production] <for [7] turns> <upon entering a war with [Major] Civilizations>"]
     },
 	{
 		"name": "Seaside Opera House",
@@ -3556,7 +3555,7 @@
 		"isNationalWonder": true,
 		"uniqueTo": "LianFang Court",
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "[+2 Science] from every specialist [in all cities]", "[+33]% Food consumption by [Specialists] [in all cities]", "[+25]% Unhappiness from [Specialists] [in all cities]"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "[+2 Science] from every specialist [in all cities]", "[+33]% Food consumption by specialists [in all cities]", "[+25]% Unhappiness from [Specialists] [in all cities]"],
 		"requiredTech": "Nation"
 	// 特殊伟人项目
 	// 特殊大先知项目

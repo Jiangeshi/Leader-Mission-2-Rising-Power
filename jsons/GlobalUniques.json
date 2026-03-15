@@ -6,7 +6,11 @@
     
     // 文化胜利
     "Provides [-1] [External Cultural Influence] <for every [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]> <when [Cultural] Victory is enabled> <when number of [External Cultural Influence] is more than [2*([[Tourist Attractions] Tiles]-[Owned [Tourist Attractions] Tiles])+5*([[Landmark] Tiles]-[Owned [Landmark] Tiles])]>",
-    "[+100]% [External Cultural Influence] resource production <for every [floor(([[Culture] Per Turn])^(1/6))]> <when [Cultural] Victory is enabled>",
+    "[+0]% [External Cultural Influence] resource production <when number of [[Culture] Per Turn] is between [1] and [63]> <when [Cultural] Victory is enabled>",
+    "[+100]% [External Cultural Influence] resource production <when number of [[Culture] Per Turn] is between [64] and [728]> <when [Cultural] Victory is enabled>",
+    "[+200]% [External Cultural Influence] resource production <when number of [[Culture] Per Turn] is between [729] and [4095]> <when [Cultural] Victory is enabled>",
+    "[+300]% [External Cultural Influence] resource production <when number of [[Culture] Per Turn] is between [4096] and [15624]> <when [Cultural] Victory is enabled>",
+    "[+400]% [External Cultural Influence] resource production <when number of [[Culture] Per Turn] is more than [15624]> <when [Cultural] Victory is enabled>",
   
     
     
@@ -249,7 +253,8 @@
         "[+1] Movement <in [Tundra] tiles> <for [Finland] Civilizations>",
         "Gain [1] [Science] <upon ending a turn in a [Road] tile> <for [Iron Blood Kingdom] Civilizations>",
         "Gain [2] [Science] <upon ending a turn in a [Railroad] tile> <for [Iron Blood Kingdom] Civilizations>",
-        "[-15]% production cost <if [Civilized Leader-HDKL] is constructed> <for [Iron Blood Kingdom] Civilizations>"
+        "[-15]% production cost <if [Civilized Leader-HDKL] is constructed> <for [Iron Blood Kingdom] Civilizations>",
+         "[+1] Strength <for [Military] units> <when adjacent to a [Military] unit> <if [Civilized Leader-Cesar] is constructed> <for [Rome] Civilizations>",
     // 其他修正
     ]
 }
