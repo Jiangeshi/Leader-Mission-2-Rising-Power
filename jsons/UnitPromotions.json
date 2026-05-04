@@ -1445,7 +1445,11 @@
     },
     {
         "name": "[Battering Ram Warrior] ability",
-        "uniques": ["[+33]% Strength <vs cities> <when attacking>"],           
+        "uniques": ["[+33]% Strength <vs cities> <when attacking>"],    
+    },
+    {
+        "name": "[Redshirts] ability",
+        "uniques": ["[+15]% Strength <when fighting in [Hill] tiles>"],                
         
         
 	// 特殊
@@ -1507,6 +1511,10 @@
     {
         "name": "Movement Damage",
         "uniques":["[-1] Movement"]
+    },
+    {
+        "name": "Gain 2 Movement",
+        "uniques":["[+2] Movement"]
     },
     // 行商
     

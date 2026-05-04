@@ -647,48 +647,49 @@
 		"resourceType": "Bonus",
 	    "uniques": [
 	        "City-level resource", 
-            "Cannot be traded", 
+            "Cannot be traded", "Will not be displayed in Civilopedia"
 	    ]	
     },
 	{
 		"name": "Number of Leaders",  
 		"resourceType": "Bonus",
-	    "uniques": ["Not shown on world screen", "Cannot be traded"]
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Number of Fighters",  
 		"resourceType": "Bonus",
-	    "uniques": ["Not shown on world screen", "Cannot be traded"]
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Number of Constructed Wonder",  
 		"resourceType": "Bonus",
-	    "uniques": ["Not shown on world screen", "Cannot be traded", "Stockpiled"]
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Stockpiled", "Will not be displayed in Civilopedia"]
 	},
-	/*
 	{
 		"name": "Number of Production",  
 		"resourceType": "Strategic",
 	    "uniques": [
+	        "Not shown on world screen",
 	        "Stockpiled",
             "Cannot be traded", 
+            "Will not be displayed in Civilopedia"
 	    ]	
     },
     {
 		"name": "Number of Production (Temp1)",  
 		"resourceType": "Strategic",
 	    "uniques": [
+	        "Not shown on world screen",
 	        "Stockpiled",
             "Cannot be traded", 
+            "Will not be displayed in Civilopedia"
 	    ]	
     },
-    */
     // 冷却
 	{
 		"name": "CD",  
 		"resourceType": "Strategic",
-	    "uniques": ["Stockpiled", "Cannot be traded", 
-	    "Not shown on world screen"
+	    "uniques": ["Stockpiled", "Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia"
 	    ]
 	
 	// 荷兰投资
@@ -815,6 +816,50 @@
 	// 行商
 	{
 		"name": "Itinerant Merchant Capacity",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	
+	// 意大利计数器
+	{
+		"name": "AR",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "SC",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "ME",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "EN",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "GE",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", 
+	    "Not shown on world screen", 
+	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	{
+		"name": "AD",  
 		"resourceType": "Strategic",
 	    "uniques": ["Cannot be traded", 
 	    "Not shown on world screen", 

@@ -13,8 +13,6 @@
 		
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 	
-		
-		
 		],
     },
 	{
@@ -132,7 +130,7 @@
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Bamboo","Flood plains", "Oasis"],
-		"gold": 2,
+		"gold": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
@@ -207,9 +205,9 @@
 	},
 	{
 		"name": "Tourist Attractions",
-		"terrainsCanBeBuiltOn": ["Seafall ruins"],
-		"culture": 2,
-		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Seafall ruins", "Oasis", "Famed Mountain"],
+		"culture": 3,
+		"turnsToBuild": 8,
 		"techRequired": "Art",
 		"uniques": [
 		"IMPROVEMENT",

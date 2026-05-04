@@ -276,6 +276,7 @@
 		"uniques": ["Fresh water", "Rare feature",
 					"Only [All Road] improvements may be built on this tile",
 					"Only [Trading post] improvements may be built on this tile",
+					"Only [Tourist Attractions] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
@@ -631,6 +632,18 @@
 		"culture": 2,
 		"gold": 1,
 		"uniques": ["Rough terrain", "Rare feature"]
-	
+	},
+	{
+		"name": "Famed Mountain",
+		"type": "TerrainFeature",
+		"occursOn": ["Grassland", "Plains"],
+		"movementCost": 2,
+		"impassable": false,
+		"culture": 2,
+		"defenceBonus": 0.15,
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Must be adjacent to [1] [Hill] tiles", "Must be adjacent to [0] [Coast] tiles", "Rough terrain", "Rare feature", "Only [Tourist Attractions] improvements may be built on this tile",
+            ]
 	},
 ]

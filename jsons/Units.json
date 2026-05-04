@@ -136,7 +136,8 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
+		]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -448,6 +449,21 @@
 		"promotions": ["[Andean Army] ability"],
 		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
 		"attackSound": "shot"		
+	},
+	{
+		"name": "Redshirts",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 34,
+		"cost": 320,
+		"requiredTech": "Rifling",
+		"replaces": "Rifleman",
+		"uniqueTo": "Italy",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["[Redshirts] ability"],
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "May capture killed [Military] units <with [50]% chance>"]
+		"attackSound": "shot"	
 	},
 	{
 		"name": "Great War Infantry",
@@ -1381,6 +1397,20 @@
 	    "obsoleteTech": "Metallurgy",
 	    "promotions": ["[Impi] ability"],
         "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
+		"attackSound": "metalhit"		
+	},
+	{
+		"name": "Palace Guard",
+		"unitType": "Anti-Mobile",
+		"replaces": "Pikeman",
+		"uniqueTo": "Mali",
+		"movement": 2,
+		"strength": 20,
+		"cost": 124,
+		"requiredTech": "Army Formation",
+		"upgradesTo": "Lancer",
+	    "obsoleteTech": "Metallurgy",
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "Comment [[Gold] cost of purchasing [Palace Guard] units [-33]%]", "[This Unit] heals [25] HP <costs [+50 Gold] stats>"]	    
 		"attackSound": "metalhit"		
 	},
 	{

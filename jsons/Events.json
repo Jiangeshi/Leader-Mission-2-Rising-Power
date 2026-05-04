@@ -477,6 +477,7 @@
         ]
     },
     // 世界会议部分结束
+    // 地狱模式
     {
         "name": "Select Hell Difficulty Debuff",
         "text": "The Debuff you choose will accompany you throughout the entire game. Unselected Debuffs can also be manually activated in buildings.",
@@ -537,6 +538,7 @@
             },             
         ]
     },
+    // 贝宁
     {
         "name": "Sacrifice I",
         "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
@@ -659,6 +661,7 @@
             },
         ]
     },
+    // 国家奖励
     {
         "name": "Establishing Country",
         "text": "Under your wise and powerful leadership, your civilization has established its own country and will shine brightly in the world.",
@@ -709,6 +712,7 @@
             },
         ]
     }
+    // 荷兰
     {
         "name": "Obtain Investment Projects",
         "text": "",
@@ -737,6 +741,39 @@
             },
         ]
         
+    // 意大利
+    },
+    {
+        "name": "Choose 3 free Great Person points",
+        "text": "[Choose 3 free Great Person points]\n[Each type of Great Person point can only be chosen once]",
+        "choices": [
+            {
+                "text": "Great Artist Point",
+                "uniques": [
+                    "Only available <if [Great Artist Point] is not constructed>", "Provides a [Great Artist Point] in your first [1] cities for free <hidden from users>"
+                ],
+            },
+            {
+                "text": "Great Scientist Point",
+                "uniques": ["Only available<if [Great Scientist Point] is not constructed>", "Provides a [Great Scientist Point] in your first [1] cities for free<hidden from users>"]
+            },
+            {
+                "text": "Great Merchant Point",
+                "uniques": ["Only available<if [Great Merchant Point] is not constructed>", "Provides a [Great Merchant Point] in your first [1] cities for free<hidden from users>"]
+            },
+            {
+                "text": "Great Engineer Point",
+                "uniques": ["Provides a [Great Engineer Point] in your first [1] cities for free<hidden from users>", "Only available<if [Great Engineer Point] is not constructed>"]
+            },
+            {
+                "text": "Great General Point",
+                "uniques": ["Provides a [Great General Point] in your first [1] cities for free<hidden from users>", "Only available<if [Great General Point] is not constructed>"]    
+            },
+            {
+                "text": "Great Admiral Point",
+                "uniques": ["Provides a [Great Admiral Point] in your first [1] cities for free<hidden from users>", "Only available<if [Great Admiral Point] is not constructed>"]    
+            },
+        ]
     // 特殊伟人事件
     },
     {

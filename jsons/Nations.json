@@ -33,7 +33,7 @@
 		"uniqueName": "Achaemenid Legacy",
 		"uniqueText": "+1 ➡Movement and +10% †Strength for All units during a ⌣Golden Age", 
 		"uniques": ["[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Tehran", "Mashhad", "Esfahan", "Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -74,7 +74,7 @@
 		"[+3 Faith, +3 Science] <while researching [Calendar]>",
 		"Free [Great Prophet] appears<upon discovering [Calendar] technology>",
 		"Earn [75]% of killed [Military] unit's [Strength] as [Faith] <after discovering [Calendar]>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
@@ -106,7 +106,7 @@
 		"uniqueName": "Mongol Terror",
 		"uniqueText": "+30% †Strength for Military units vs City-States\n+10% †Strength for Military units when attack Major units\n+1 ➡Movement for Mobile units",
 		"uniques": ["[+10]% Strength <vs [Major] units> <for [Military] units> <when attacking>", "[+30]% Strength <for [Military] units><vs [City-States]>", "[+1] Movement <for [Mobile] units>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
@@ -141,7 +141,7 @@
 		"uniqueName": "Population Growth",
 		"uniqueText": "[[+50]% unhappiness from the number of cities]\n[[-50]% Unhappiness from [Population] [in all cities]]\n[[+50]% growth [in all cities]]"		
 		"uniques": ["[+50]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[+50]% growth [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -174,7 +174,7 @@
 		"uniqueName": "Timeless Personage",
 		"uniqueText": "Can have two Leaders, but War Type Bonus Leaders can only choose one" 
 		"uniques": [
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		]
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -206,7 +206,7 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
 	    "uniqueText": "[[+2 Science] from every specialist [in all cities]]\n[[+1 Science, +1 Production] from all [Wonder] buildings]\n[[-1 Science, -1 Production] [in capital]]\n[Receive a tech boost when scientific buildings/wonders are built in capital]",
-        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+1 Science, +1 Production] from every [Wonder]", "[-1 Science, -1 Production] [in capital]", "Receive a tech boost when scientific buildings/wonders are built in capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+1 Science, +1 Production] from every [Wonder]", "[-1 Science, -1 Production] [in capital]", "Receive a tech boost when scientific buildings/wonders are built in capital", ],
 		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -235,7 +235,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniqueText": "Gain 50% of the required [Production] demand for [Science] upon constructing Buildings in all cities" 
-		"uniques": ["Gain [11] [Science] <(modified by game speed)><upon constructing [Bonfire] [in all cities]>", "Gain [23] [Science] <(modified by game speed)> <upon constructing [Shrine] [in all cities]>", "Gain [23] [Science] <(modified by game speed)> <upon constructing [Water Mill] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Kiln] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Granary] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Stone Works] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Circus] [in all cities]>", "Gain [38] [Science] <(modified by game speed)> <upon constructing [Walls] [in all cities]>", "Gain [38] [Science] <(modified by game speed)> <upon constructing [Monument] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Courthouse] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Colosseum] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Temple] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Lighthouse] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Stable] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Smithy] [in all cities]>", "Gain [53] [Science] <(modified by game speed)> <upon constructing [Aqueduct] [in all cities]>", "Gain [42] [Science] <(modified by game speed)> <upon constructing [Barracks] [in all cities]>", "Gain [53] [Science] <(modified by game speed)> <upon constructing [Mint] [in all cities]>", "Gain [58] [Science] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]>", "Gain [58] [Science] <(modified by game speed)> <upon constructing [Constabulary] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Workshop] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Armory] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Forge] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Harbor] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [Garden] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]>" , "Gain [75] [Science] <(modified by game speed)> <upon constructing [Castle] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [Windmill] [in all cities]>", "Gain [85] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]>", "Gain [135] [Science] <(modified by game speed)> <upon constructing [Printing House] [in all cities]>", "Gain [135] [Science] <(modified by game speed)> <upon constructing [Theatre] [in all cities]>", "Gain [145] [Science] <(modified by game speed)> <upon constructing [Ironworks] [in all cities]>", "Gain [145] [Science] <(modified by game speed)> <upon constructing [Seaport] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Arsenal] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Opera House] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Bank] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Military Academy] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Shipyard] [in all cities]>",  "Gain [218] [Science] <(modified by game speed)> <upon constructing [Police Station] [in all cities]>", "Gain [255] [Science] <(modified by game speed)> <upon constructing [Factory] [in all cities]>", "Gain [255] [Science] <(modified by game speed)> <upon constructing [Museum] [in all cities]>", "Gain [280] [Science] <(modified by game speed)> <upon constructing [Hospital] [in all cities]>", "Gain [280] [Science] <(modified by game speed)> <upon constructing [Stock Exchange] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Hydro Plant] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Coal-Fired Power Plant] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Military Base] [in all cities]>", "Gain [350] [Science] <(modified by game speed)> <upon constructing [Stadium] [in all cities]>", "Gain [350] [Science] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]>", "Gain [400] [Science] <(modified by game speed)> <upon constructing [Chemical Plant] [in all cities]>", "Gain [450] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Solar Plant] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Recycling Center] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Nuclear Plant] [in all cities]>", "Gain [525] [Science] <(modified by game speed)> <upon constructing [Medical Lab] [in all cities]>", "Gain [650] [Science] <(modified by game speed)> <upon constructing [Bomb Shelter] [in all cities]>", "Gain [700] [Science] <(modified by game speed)> <upon constructing [Spaceship Factory] [in all cities]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["Gain [11] [Science] <(modified by game speed)><upon constructing [Bonfire] [in all cities]>", "Gain [23] [Science] <(modified by game speed)> <upon constructing [Shrine] [in all cities]>", "Gain [23] [Science] <(modified by game speed)> <upon constructing [Water Mill] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Kiln] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Granary] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Library] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Stone Works] [in all cities]>", "Gain [30] [Science] <(modified by game speed)> <upon constructing [Circus] [in all cities]>", "Gain [38] [Science] <(modified by game speed)> <upon constructing [Walls] [in all cities]>", "Gain [38] [Science] <(modified by game speed)> <upon constructing [Monument] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Courthouse] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Colosseum] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Temple] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Lighthouse] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Stable] [in all cities]>", "Gain [50] [Science] <(modified by game speed)> <upon constructing [Smithy] [in all cities]>", "Gain [53] [Science] <(modified by game speed)> <upon constructing [Aqueduct] [in all cities]>", "Gain [42] [Science] <(modified by game speed)> <upon constructing [Barracks] [in all cities]>", "Gain [53] [Science] <(modified by game speed)> <upon constructing [Mint] [in all cities]>", "Gain [58] [Science] <(modified by game speed)> <upon constructing [Amphitheater] [in all cities]>", "Gain [58] [Science] <(modified by game speed)> <upon constructing [Constabulary] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Workshop] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Armory] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Forge] [in all cities]>", "Gain [60] [Science] <(modified by game speed)> <upon constructing [Harbor] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [Garden] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [University] [in all cities]>" , "Gain [75] [Science] <(modified by game speed)> <upon constructing [Castle] [in all cities]>", "Gain [75] [Science] <(modified by game speed)> <upon constructing [Windmill] [in all cities]>", "Gain [85] [Science] <(modified by game speed)> <upon constructing [Observatory] [in all cities]>", "Gain [135] [Science] <(modified by game speed)> <upon constructing [Printing House] [in all cities]>", "Gain [135] [Science] <(modified by game speed)> <upon constructing [Theatre] [in all cities]>", "Gain [145] [Science] <(modified by game speed)> <upon constructing [Ironworks] [in all cities]>", "Gain [145] [Science] <(modified by game speed)> <upon constructing [Seaport] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Arsenal] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Opera House] [in all cities]>", "Gain [160] [Science] <(modified by game speed)> <upon constructing [Bank] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Public School] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Military Academy] [in all cities]>", "Gain [218] [Science] <(modified by game speed)> <upon constructing [Shipyard] [in all cities]>",  "Gain [218] [Science] <(modified by game speed)> <upon constructing [Police Station] [in all cities]>", "Gain [255] [Science] <(modified by game speed)> <upon constructing [Factory] [in all cities]>", "Gain [255] [Science] <(modified by game speed)> <upon constructing [Museum] [in all cities]>", "Gain [280] [Science] <(modified by game speed)> <upon constructing [Hospital] [in all cities]>", "Gain [280] [Science] <(modified by game speed)> <upon constructing [Stock Exchange] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Hydro Plant] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Coal-Fired Power Plant] [in all cities]>", "Gain [325] [Science] <(modified by game speed)> <upon constructing [Military Base] [in all cities]>", "Gain [350] [Science] <(modified by game speed)> <upon constructing [Stadium] [in all cities]>", "Gain [350] [Science] <(modified by game speed)> <upon constructing [Broadcast Tower] [in all cities]>", "Gain [400] [Science] <(modified by game speed)> <upon constructing [Chemical Plant] [in all cities]>", "Gain [450] [Science] <(modified by game speed)> <upon constructing [Research Lab] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Solar Plant] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Recycling Center] [in all cities]>", "Gain [500] [Science] <(modified by game speed)> <upon constructing [Nuclear Plant] [in all cities]>", "Gain [525] [Science] <(modified by game speed)> <upon constructing [Medical Lab] [in all cities]>", "Gain [650] [Science] <(modified by game speed)> <upon constructing [Bomb Shelter] [in all cities]>", "Gain [700] [Science] <(modified by game speed)> <upon constructing [Spaceship Factory] [in all cities]>", ],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
@@ -268,7 +268,7 @@
 		"uniqueName": "Graveyard of Empires",
 		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [upon declaring war on [Major] Civilizations]] [for [5] turns]\n[[[+3 Gold] [in all cities]] [upon being declared war on by [Major] Civilizations]] [for [10] turns]" 
 		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", 
-		"[+1 Production] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"[+1 Production] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", ]
 		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -298,7 +298,7 @@
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Hidden In The Forest",
 		"uniqueText": "[Worker] units can turn a tile into a [Forest] tile once by free and once by cumsumeing this unit in your cities\n[[Double movement in [Vegetation]] [for [Land] units]]",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": []
 		"cities": ["Hanoi", "Ho Chi Minh City", "Hai Phong", "Da Nang", "Can Tho", "Halong", "Vung Tau", "Nam Dinh", "Hue", "Hoa Binh", "Da Lat", "Nha Trang", "Bac Ninh", "Phu Ly", "Thai Binh", "Ninh Binh", "Hoang Mai", "Lao Cai", "Lang Son", "Vung Tau", "Tuyen Quang", "Yen Bai", "Lai Chau", "Dien Bien Phu", "Siem Reap", "Quang Tri", "San Qig", "Tra Vinh", "Nha Trang", "Kunming", "Play Ku", "Buon Me Thuot", "Thu Dau Mot"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
@@ -391,7 +391,7 @@
 					
 		"Provides [-1] [CD] <when number of [CD] is more than [0]>",
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		]
 		"cities": ["Ramallah", "Gaza", "Rafah", "Northern Province", "Khan Yunis", "Dair al-Balah", "Hebron", "Bethlehem", "Jenin", "Tulkarm", "Nablus", "Jericho"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
                                      
@@ -424,7 +424,7 @@
 		"uniques": [
 		"[+2]% Yield from every [Culture]", 
 	
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
@@ -456,7 +456,7 @@
 		"uniqueName": "the Lion City",
 		"uniqueText": "+1 [Production] for Non-Great Improvement within 1 tiles of a [City center]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"\"Borrows\" city names from other civilizations in the game", ],
 		"cities": ["Singapore City"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
     },
@@ -487,7 +487,7 @@
 		"uniqueText": "[[+1 Gold] from [River] tiles [in all cities]]\n[Gain extra [33]% [Gold] per turn of [Gold] when selling cargo]\n[Gain extra [20]% [Gold] per turn of [Culture] when selling cargo]",
 		"uniques": [
 	    "[+1 Gold] from [River] tiles [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Sardis","Samos","Chios","Miletos","Magnesia","Blaundos","Ephesus","Lebedos","Smyrna","Nymphaion","Phokaia","Kymi","Aigai","Hierokaisareia","Hyrkanis","Kasaba","Parsa","Larisa","Salihli","Koloe","Dios Hieron","Bacis","Aktas","Tabala","Nais"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
@@ -521,7 +521,7 @@
 		"uniques": [
 	    "Land units may cross [Mountain] tiles after the first [Worker] is earned",
 	    "[+2 Food, +1 Production] from every [Mountain]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Lhasa", "Pomo", "Yarlung Valley City", "Su-pi", "Xiaoyangtong", "Amdo", "Khams", "Zedang", "Qiongjie", "Gongbu", "Tabu"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]             
@@ -556,7 +556,7 @@
 		"uniques": [
 	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
 	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Cairo", "Damascus", "Aleppo", "Alexandria", "Jerusalem", "Tripoli", "Hama", "Homs", "Gaza", "Acre", "Tyre", "Beirut", "Hebron", "Nablus", "Safed", "Fustat", "Mansurah", "Rosetta", "Damietta", "Asyut", "Karak", "Bosra", "Medina", "Mecca", "Aqaba"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
@@ -587,7 +587,7 @@
 		"uniques": [
 		"May buy [Build Holy site] buildings for [160] [Faith] [in capital] at an increasing price ([160])",
 		"May buy [Build Holy site] buildings for [160] [Faith] [in holy cities] at an increasing price ([160])",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampong Thom", "Kampong Speu", "Kampong Chhnang", "Kampot", "Takeo", "Prey Veng", "Svay Rieng", "Kandal", "Pursat", "Koh Kong", "Stung Treng", "Ratanakiri", "Mondulkiri", "Preah Vihear", "Kratie", "Kep", "Pailin", "Tbong Khmum", "Oddar Meanchey", "Banteay Meanchey"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        
 	    },
@@ -613,13 +613,13 @@
 		"innerColor": [86, 123, 161],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Golden Slavery",
-		"uniqueText": "[May buy items in puppet cities]\n[May not annex cities]\n[+6 [Gold] in all non-puppet cities for every puppet cities]\n[[Itinerant Merchant] can found a new puppet city at a cost of 35 [Gold] by consuming himself]",
+		"uniqueText": "[May buy items in puppet cities]\n[May not annex cities]\n[+5 [Gold] in all non-puppet cities for every puppet cities]\n[[Itinerant Merchant] can found a new puppet city at a cost of 35 [Gold] by consuming himself]",
 		"uniques": [
 	    "May buy items in puppet cities",
 	    "May not annex cities",
-	    "[+6 Gold] [in all cities] <for every [[Puppeted] Cities]>",
-	    "[-6 Gold] [in puppeted cities] <for every [[Puppeted] Cities]>"
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+	    "[+5 Gold] [in all cities] <for every [[Puppeted] Cities]>",
+	    "[-5 Gold] [in puppeted cities] <for every [[Puppeted] Cities]>"
+		],
 		"cities": ["Nineveh", "Nimrud", "Dur-Sharrukin", "Arbela", "Harran", "Kalhu", "Tarbisu", "Apku", "Tushhan", "Kahat", "Shadikanni", "Dur-Katlimmu", "Tell Shemshara", "Tell al-Rimah", "Kar-Tukulti-Ninurta", "Tell Taban", "Tell Mohammed Arab", "Tell Fekheriye", "Tell Brak", "Tell Leilan", "Tell Chuera", "Tell Beydar", "Tell Mozan", "Tell Hamoukar"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        	
 		},
@@ -647,7 +647,7 @@
 		"uniqueName": "World Exploration",
 		"uniqueText": "[Gain 2 [Gold] upon Reconnaissance units discovering a tile (modified by game speed). If the tile is a Resource, Mountain, or Rare terrain, gain an additional 2 [Culture] / 5 [Faith] / 3 [Science]]",
 		"uniques": [
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Palembang", "Jambi", "Kedah", "Chaiya", "Ligor", "Tambralinga", "Kota Kapur", "Malayu", "Takuapa", "Pannai", "Barus", "Lamuri", "Srivijaya", "Indrapura", "Gangga Negara", "Kalingga", "Dharmasraya", "Melayu", "Samudera", "Aceh", "Pattani", "Langkasuka", "Temasik", "Kelantan", "Pahang"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        		
 		
@@ -681,7 +681,7 @@
 		"uniqueText": "+50 ♪Culture and +80 ⍾Science whenever a Great Person is expended\nGain 50 [Culture] and 80 [Science] upon gaining a Great Person unit (modified by game speed)" 
 		"uniques": ["Gain [50] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [80] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Great Person] unit>", "Gain [80] [Science] <(modified by game speed)> <upon gaining a [Great Person] unit>",
 		"Gain [50] [Culture] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [100] [Science] <upon expending a [Special Great Person] unit> <(modified by game speed)>", "Gain [50] [Culture] <(modified by game speed)> <upon gaining a [Special Great Person] unit>", "Gain [100] [Science] <(modified by game speed)> <upon gaining a [Special Great Person] unit>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
@@ -717,7 +717,7 @@
 		"uniqueName": "The Conqueror's Army",
 		"uniqueText": "-25% ¤maintenance costs for Military units\nInstantly consumes 1 [Warfare Aversion Level] upon a Military unit ☠defeats an Major unit"
 		"uniques": ["[-25]% maintenance costs <for [Military] units>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Pella","Skopje","Vergina","Bergama","Ankara","Issus","Antioch","Tyre","Alexandria","Gaugamela","Susa",
 			"Gamesia","Patara","Bucephala","Bactra","Marakanda","Alexandria Eshata","Bitola","Kumanovo","Prilep",
@@ -796,7 +796,7 @@
 		
 		"[+20]% Strength <for [Military] units> <when number of [Happiness] is less than [-17]>",
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -825,7 +825,7 @@
 		"uniqueName": "Star And Moon",
 		"uniqueText": "[[Gain [50] [Faith]] [upon constructing [Faith] [in all cities]] [(modified by game speed)]] [(modified by game progress up to [+300]%)]\nEnables conversion of city ⚙production to ☮Faith in 1:1 scale" 
 		"uniques": ["Gain [50] [Faith] <upon constructing [Faith] [in all cities]> <(modified by game speed)> <(modified by game progress up to [+300]%)>", "Enables conversion of city production to [Faith]", "Production to [Faith] conversion in cities changed by [300]%",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Ankara","Istanbul","Edirne","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -859,7 +859,7 @@
 		"uniqueName": "Wealth of Siberia",
 		"uniqueText": "[Gain control over All tiles in a 2-tile radius for City Center]\n[+1 ⚙Production from every Strategic resource and Great Improvement]"
 		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+			
 		],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -922,7 +922,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "All Roads Lead To Rome",
 		"uniqueText": "[[+15]% Production towards any buildings that already exist in the Capital]\n[[[+1 Production] [in capital]] [for every [[in all cities connected to capital] Cities]]]",
-		"uniques": ["[+1 Production] [in capital] <for every [[in all cities connected to capital] Cities]>", "[+15]% Production towards any buildings that already exist in the Capital", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Production] [in capital] <for every [[in all cities connected to capital] Cities]>", "[+15]% Production towards any buildings that already exist in the Capital", ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -954,7 +954,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
 		"uniqueText": "[[+1 Production, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
-		"uniques": ["[+1 Production, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Production, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", ],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -988,7 +988,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Balkan Tiger",
 		"uniqueText": "Earn 20% of the damage done to Military units as ♪Culture\n+10%/15%/20% †Strength for Military units when below 75/50/25 HP\n[No damage penalty for wounded units]",
-		"uniques": ["No damage penalty for wounded units <for [Military] units>", "Earn [20]% of the damage done to [Military] units as [Culture]", "[+10]% Strength <for [Military] units> <when below [75] HP>", "[+5]% Strength <for [Military] units> <when below [50] HP>", "[+5]% Strength <for [Military] units> <when below [25] HP>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["No damage penalty for wounded units <for [Military] units>", "Earn [20]% of the damage done to [Military] units as [Culture]", "[+10]% Strength <for [Military] units> <when below [75] HP>", "[+5]% Strength <for [Military] units> <when below [50] HP>", "[+5]% Strength <for [Military] units> <when below [25] HP>", ],
 		"cities": ["Belgrade","Novisad","Nais","Kragujevac","Kosovo State","Podunavski","Toplički","Kolubarski","Mitrovica","Sremski","Rasinski",
 			"Pomoravski","Zaječar","Severnobanatski","Južnobanatski","Srednjebanatski","Pirotski","Jablanički","Zlatiborski","Severnobački","Južnobački","Zapadnobački",
 			"Pčinjski","Nišavski","Mačvanski","Prizren","Raški","Borski","Toplički"],
@@ -1018,7 +1018,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Prussian Spirit",
 		"uniqueText": "[[[[+1 Science] from all [Science] buildings] [when not at war]]\n[[[+1 Production] from all [Production] buildings] [when at war]]]",
-		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Science] from all [Science] buildings <when not at war>", "[+1 Production] from all [Production] buildings <when at war>", ],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -1052,7 +1052,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Conquerors of the New World",
 		"uniqueText": "[Settler] can instantly construct a [Colony] improvement one time\n+50% Yield from every Natural Wonder within 1 tiles of a [Colony]",
-		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+50]% Yield from every [Natural Wonder] <within [1] tiles of a [Colony]>", ],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
@@ -1084,7 +1084,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Snow Ghost",
 		"uniqueText": "Can switch between [Auspicious Snow] and [Blizzard Wind]\nLand Civilian units can turn [Grassland] / [Plains] / [Desert] tile into a [Tundra] tile or turn [Tundra] tile into a [Snow] tile once in Your cities/n+1 Movement for all units in [Tundra] / [Snow] tiles",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": [],
 		"cities": ["Helsinki", "Espoo", "Tampere", "Vantaa", "Oulu", "Turku", "Jyväskylä", "Lahti", "Kuopio", "Pori", "Kouvola", "Joensuu", "Lappeenranta", "Hämeenlinna", "Vaasa", "Seinäjoki", "Rovaniemi", "Kotka", "Kajaani", "Kokkola"],
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]        
     },
@@ -1125,7 +1125,7 @@
         "Triggers a [Select Final Civilized Leader] event <after turn number [30]> <before turn number [31]> <upon turn end> <for [Human player] Civilizations>",
         "Gain a free [Civilized Leader-Stalin] [in capital] <after turn number [31]> <before turn number [32]> <upon turn end> <for [AI player] Civilizations>",
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		]
 		"cities": ["Leningrad", "Stalingrad", "Kaliningrad", "Kiev", "Minsk", "Tbilisi", "Smolensk", "Murmansk", "Sevastopol", "Tula", "Ketchikan", "Novosibirsk", "Tashkent", "Kharkiv", "Novosibirsk", "Molotovsk", "Kirov", "Novorossiysk", "Gubkin", "Taganrog", "Nizhny Novgorod", "Gusev", "Pionerskiy", "Chernyakhovsk", "Yoshkar", "Mikhaylovsk", "Urumqi", "Engels", "Krasnodar", "Kruppattkin", "Bryansk", "Cherkessk", "Sverdlovsk", "Krasnoturinsk", "Kizlyar", "Ulan", "Svobodny", "Belgorod", "Kholmsk", "Dalnegorsk", "Anadyr"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]  
     },
@@ -1155,7 +1155,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Polish Zionism",
 		"uniqueText": "All units [May enter foreign tiles without open borders]\nAll units [Ignores Zone of Control]",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": []
 		"cities": ["Warsaw","Krakow","Wroclaw","Gdansk","Poznan","Szczecin","Bydgoszcz","Lodz","Katowice","Gdynia","Czestochowa","Lublin","Bialystok","Torun","Kielce","Rzeszow","Opole","Gliwice","Zielona Gora","Sosnowiec","Tarnow","Bielsko-Biala","Rybnik","Bytom","Olsztyn"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]     
     },
@@ -1186,7 +1186,7 @@
 		"uniques": [
 		"Free [Missionary] appears <upon declaring friendship> <after founding a religion>", 
 		"[+30 Faith] when a city adopts this religion for the first time <(modified by game speed)>", 
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"\"Borrows\" city names from other civilizations in the game", ],
 		"cities": ["Vatican City"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
     },
@@ -1216,7 +1216,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
 		"uniqueText": "Military Land units heal 15 HP upon ending a turn in a Vegetation tile\n[[+1 Faith, +1 Culture] [in all cities]] [with [1] to [6] neighboring [Vegetation] tiles]"
-		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Vegetation] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [6] neighboring [Vegetation] tiles>", ],
 		"cities": ["Dublin", "Cork", "Limerick", "Galway", "Waterford", "Belfast", "Derry", "Newry", "Bangor", "Lisburn", "Killarney", "Kilkenny", "Dundalk", "Sligo", "Wexford", "Tralee", "Navan", "Athlone", "Ennis", "Armagh", "Newtownabbey", "Ballymena", "Antrim", "Coleraine", "Omagh", "Dungannon", "Larne", "Magherafelt", "Carrickfergus"],
         "spyNames": ["Crìsdean", "Siobhán", "Seamus", "Ffion", "Pádraig", "Deirdre", "Mr. Quinn", "Éadaoin", "Alwyn", "Col Ceathar"]    
     },
@@ -1247,7 +1247,7 @@
 		"uniqueName": "Viking Fury",
 		"uniqueText": "➡0 Movement point cost to disembark for All units\nNo ➡movement cost to pillage for Military units\nEarn 50% of killed Military unit's †Strength as [Gold] / [Science] / [Culture]"
 		"uniques": ["[0] Movement point cost to disembark <for [All] units>", "No movement cost to pillage <for [Military] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Gold]", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]", "Earn [50]% of killed [Military] unit's [Strength] as [Science]", 
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -1286,7 +1286,7 @@
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [75]>",
 		"Triggers a [Obtain Investment Projects] event <upon turn end> <when number of [turns] is equal to [100]>",
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
     
@@ -1317,7 +1317,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Lion of the North",
 		"uniqueText": "[When declaring friendship, both parties gain a [20]% boost to great person generation]\n[[[+10]% Strength] [when fighting in [Enemy Land] tiles]]",
-		"uniques": ["When declaring friendship, both parties gain a [20]% boost to great person generation", "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["When declaring friendship, both parties gain a [20]% boost to great person generation", "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", ],
 		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
             "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
@@ -1357,7 +1357,7 @@
 		"[100]% of excess happiness converted to [Gold]",
 		"[33]% of excess happiness converted to [Culture]",
 		"[+2] Happiness from each type of luxury resource",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 			],
 		"cities": ["Edinburgh","Glasgow","Ankara","Lenflewshire","West Dunbartonshire","East Dunbartonshire","East Lenflewshire","North Lanarkshire","Falkirk","West Lothian","Midlothian",
 			"East Lothian","Klackmannanshire","Fife","Dundee","Angus","Aberdeenshire","Aberdeen","Moray","Highland","h-Eileanan Siar","Argyll and Bute",
@@ -1402,7 +1402,7 @@
 		"[+10]% [Culture] from Trade Routes <in [in cities following our religion] cities>",
 		"[+10]% [Faith] from Trade Routes <in [in cities following our religion] cities>",
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 			],
 		"cities": ["Lisbon","Porto","Coimbra","Braga","Guimarães","Aveiro","Faro","Cascais","Setúbal","Vila Real","Pontevedra","Viana do Castelo","Santarém","Évora","Angra do Heroísmo","Portalegre","Beja","Castelo Branco","Leiria","Bragança","Funchal","Santa Cruz das Flores","Horta","Lagos","Almada","Barreiro","Odivelas","Amadora","Mogadouro","Sintra","Vila Nova de Gaia"],
         "spyNames": ["Ibrahim", "Bayezid", "Sokollu", "Mahmut", "Uveys", "Roxelana", "Safiye", "Hafsa", "Kosem", "Nurbanu"]
@@ -1451,7 +1451,7 @@
 		"[+6]% Strength <if [Marriage with Austria3] is constructed by anybody>",
 		
 		"[+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
@@ -1489,11 +1489,62 @@
 		"uniques": [
 		"[+2 Culture] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is less than [2*([Era number]+1)+1]>",
 		"[+1 Happiness, +2 Faith] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is more than [2*([Era number]+1)]>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Aachen", "Paris", "Tours", "Orléans", "Metz", "Reims", "Soissons", "Trier", "Cologne", "Mainz", "Worms", "Speyer", "Strasbourg", "Verdun", "Liège", "Nantes", "Rouen", "Toulouse", "Lyon", "Marseille", "Narbonne", "Poitiers", "Angers", "Dijon", "Besançon"]
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
-        
+    },
+    {
+        "name": "Italy",
+        "leaderName": "Leader",
+        "personality": "Italy",
+        "adjective": ["Italian"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "Let's begin!",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+        "attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+        "defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+    
+        "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+    
+        "neutralHello": "Greetings!",
+        "hateHello": "What?",
+    
+        "tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [139, 58, 58],
+        "innerColor": [253, 230, 200],
+
+        "favoredReligion": "Christianity",
+        "uniqueName": "Renaissance Legacy",
+        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+20% generation rate for that type of Great Person when earned]",
+        "uniques": [
+    "Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>",
+    "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>",
+    "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Special Great Person] unit>",
+    "Instantly provides [1] [AR] <upon gaining a [Great Artist] unit>",
+    "Instantly provides [1] [SC] <upon gaining a [Great Scientist] unit>",
+    "Instantly provides [1] [ME] <upon gaining a [Great Merchant] unit>",
+    "Instantly provides [1] [EN] <upon gaining a [Great Engineer] unit>",
+    "Instantly provides [1] [GE] <upon gaining a [Great General] unit>",
+    "Instantly provides [1] [AD] <upon gaining a [Great Admiral] unit>",
+    "[Great Artist] is earned [20]% faster <for every [1] [AR]>",
+    "[Great Scientist] is earned [20]% faster <for every [1] [SC]>",
+    "[Great Merchant] is earned [20]% faster <for every [1] [ME]>",
+    "[Great Engineer] is earned [20]% faster <for every [1] [EN]>",
+    "[Great General] is earned [20]% faster <for every [1] [GE]>",
+    "[Great Admiral] is earned [20]% faster <for every [1] [AD]>"
+]
+
+        "cities": ["Rome", "Florence", "Venice", "Milan", "Naples", "Turin", "Bologna", "Genoa", "Palermo", "Verona",
+        "Pisa", "Siena", "Padua", "Trieste", "Taranto", "Brescia", "Ravenna", "Ferrara", "Livorno", "Parma",
+        "Modena", "Perugia", "Lucca", "Cagliari", "Bergamo", "Vicenza", "Urbino", "Mantua", "Arezzo", "Pistoia",
+        "Cremona", "Lecce", "Barletta", "Brindisi", "Ancona", "Messina", "Catania", "Syracuse", "Catanzaro", "Bari"],
+
+        "spyNames": ["Leonardo", "Galileo", "Dante", "Machiavelli", "Petrarch", "Boccaccio", "Raphael", "Michelangelo", "Donatello", "Brunelleschi"]
     //美洲
     },
 	{
@@ -1522,7 +1573,7 @@
 		"uniqueName": "Descendants of the Sun",
 		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities",
 		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
@@ -1556,7 +1607,7 @@
 		"uniqueName": "Golden Empire",
 		"uniqueText": "+5 ¤Gold and +3% †Strength for Military units for each kind of ⌣Luxury Resource owned",
 		"uniques": ["[+5 Gold] <when above [0] [Furs]>", "[+3]% Strength <for [Military] units> <when above [0] [Furs]>", "[+5 Gold] <when above [0] [Citrus]>", "[+3]% Strength <for [Military] units> <when above [0] [Citrus]>", "[+5 Gold] <when above [0] [Cocoa]>", "[+3]% Strength <for [Military] units> <when above [0] [Cocoa]>", "[+5 Gold] <when above [0] [Copper]>", "[+3]% Strength <for [Military] units> <when above [0] [Copper]>", "[+5 Gold] <when above [0] [Cotton]>", "[+3]% Strength <for [Military] units> <when above [0] [Cotton]>", "[+5 Gold] <when above [0] [Crab]>", "[+3]% Strength <for [Military] units> <when above [0] [Crab]>", "[+5 Gold] <when above [0] [Dyes]>", "[+3]% Strength <for [Military] units> <when above [0] [Dyes]>", "[+5 Gold] <when above [0] [Gems]>", "[+3]% Strength <for [Military] units> <when above [0] [Gems]>", "[+5 Gold] <when above [0] [Gold Ore]>", "[+3]% Strength <for [Military] units> <when above [0] [Gold Ore]>", "[+5 Gold] <when above [0] [Incense]>", "[+3]% Strength <for [Military] units> <when above [0] [Incense]>", "[+5 Gold] <when above [0] [Ivory]>", "[+3]% Strength <for [Military] units> <when above [0] [Ivory]>", "[+5 Gold] <when above [0] [Jewelry]>", "[+3]% Strength <for [Military] units> <when above [0] [Jewelry]>", "[+5 Gold] <when above [0] [Marble]>", "[+3]% Strength <for [Military] units> <when above [0] [Marble]>", "[+5 Gold] <when above [0] [Pearls]>", "[+3]% Strength <for [Military] units> <when above [0] [Pearls]>", "[+5 Gold] <when above [0] [Porcelain]>", "[+3]% Strength <for [Military] units> <when above [0] [Porcelain]>", "[+5 Gold] <when above [0] [Salt]>", "[+3]% Strength <for [Military] units> <when above [0] [Salt]>", "[+5 Gold] <when above [0] [Silk]>", "[+3]% Strength <for [Military] units> <when above [0] [Silk]>", "[+5 Gold] <when above [0] [Silver]>", "[+3]% Strength <for [Military] units> <when above [0] [Silver]>",	"[+5 Gold] <when above [0] [Spices]>", "[+3]% Strength <for [Military] units> <when above [0] [Spices]>", "[+5 Gold] <when above [0] [Sugar]>", "[+3]% Strength <for [Military] units> <when above [0] [Sugar]>", "[+5 Gold] <when above [0] [Truffles]>", "[+3]% Strength <for [Military] units> <when above [0] [Truffles]>", "[+5 Gold] <when above [0] [Whales]>", "[+3]% Strength <for [Military] units> <when above [0] [Whales]>", "[+5 Gold] <when above [0] [Wine]>", "[+3]% Strength <for [Military] units> <when above [0] [Wine]>", "[+5 Gold] <when above [0] [Panda]>", "[+3]% Strength <for [Military] units> <when above [0] [Panda]>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
 			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
 			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
@@ -1589,7 +1640,7 @@
 		"uniqueName": "The Long Count",
 	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
@@ -1622,7 +1673,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Liberation Army",
 		"uniqueText": "+10% †Strength within 3 tiles of a [City center] for Military units",
-		"uniques": ["[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": ["[+10]% Strength <within [3] tiles of a [City center]> <for [Military] units>", ]
 		"cities": ["Bogota","Medellin","Barranquilla","Cartagena","Cali","Leticia","Arauca","Tunja","Manizales","Florencia","Yopal","Popayan","Valledupar","Quibdo","Monteria","Puerto Inirida","San Jose del Guaviare","Neiva","Riohacha","Santa Marta","Villavicencio","Pasto","Cucuta","Mocoa","Armenia","Pereira","San Andres","Buenaventura","Sincelejo","Quibdo","Itagui","Mitu"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
@@ -1652,7 +1703,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Tropical Heritage",
 		"uniqueText": "[[+2 Culture, +1 Gold] from [{unimproved} {Bonus resource}] tiles [in all cities]]\n[[+2 Gold, +1 Culture] from [{improved} {Bonus resource}] tiles [in all cities]]",
-		"uniques": ["[+2 Culture, +1 Gold] from [{unimproved} {Bonus resource}] tiles [in all cities]", "[+2 Gold, +1 Culture] from [{improved} {Bonus resource}] tiles [in all cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": ["[+2 Culture, +1 Gold] from [{unimproved} {Bonus resource}] tiles [in all cities]", "[+2 Gold, +1 Culture] from [{improved} {Bonus resource}] tiles [in all cities]", ]
 		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
@@ -1682,7 +1733,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Caribbean Alligator",
 		"uniqueText": "[[Unit will heal every turn, even if it performs an action] [for [Military] units]]\n[[May Paradrop to [non-[Enemy]] tiles up to [2] tiles away] [for [Foot Soldier] units]]",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": []
 		"cities": ["Havana","Santiago de Cuba","Camagüey","Holguín","Santa Clara","Guantánamo","Bayamo","Cienfuegos","Pinar del Río","Matanzas","Las Tunas","Ciego de Ávila","Sancti Spíritus","Manzanillo","Morón","Palma Soriano","Remedios","Nueva Gerona","Baracoa","Gibara","Nuevitas","Trinidad","Mayarí","Artemisa","Contramaestre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]  
     },
@@ -1725,7 +1776,7 @@
 		"[+30]% Strength <when number of [Gold] is more than [9500]>",
 		
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -1760,7 +1811,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Pampas Pasture",
 		"uniqueText": "[[+1 Food] from every [Pasture]]\n[No Maintenance costs for improvements in [Grassland] tiles]\n[[-33]% construction time for [Pasture] improvements]",
-		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-33]% construction time for [Pasture] improvements", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Food] from every [Pasture]", "No Maintenance costs for improvements in [Grassland] tiles", "[-33]% construction time for [Pasture] improvements", ],
 		"cities": ["Buenos Aires","Córdoba","Rosario","Mendoza","San Miguel de Tucumán","La Plata","Mar del Plata","Salta","Santa Fe","San Juan","Resistencia","Neuquén","Posadas","Bahía Blanca","Paraná","Formosa","San Salvador de Jujuy","Santiago del Estero","Corrientes","Quilmes","Moreno","Lomas de Zamora","Avellaneda","Lanús","Quilmes"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]  
     },
@@ -1790,7 +1841,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "Six Clan Alliance",
 		"uniqueText": "-25% [Production] cost for [Settler] and [Worker] units",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": [],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
@@ -1911,7 +1962,7 @@
 		"Remove [Military Tradition] and refund [100]% of its cost <upon entering a new era> <after adopting [Military Tradition]> <before adopting [Honor Complete]>", 
 		"Remove [Professional Army] and refund [100]% of its cost <upon entering a new era> <after adopting [Professional Army]> <before adopting [Honor Complete]>", 
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Santiago", "La Serena", "Valparaíso", "Concepción", "Temuco", "Valdivia", "Iquique", "Arica", "Calama", "Antofagasta", "Punta Arenas", "Puerto Montt", "Viña del Mar", "Rancagua", "Talca", "Chillán", "La Calera", "San Pedro de Atacama", "Osorno", "Coquimbo", "Ovalle"],
         "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
         
@@ -1942,7 +1993,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
 		"uniqueText": "[Instantly gain 6 Stored Food and 6 [Gold] upon constructing Buildings of current Era for every 1 Era number [(modified by game speed)]]"
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"uniques": []
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -1974,7 +2025,7 @@
 		"uniqueName": "By The Nile",
 		"uniqueText": "[May buy Wonder with [Faith] for 1 times their normal Production cost, with the [Faith] cost increasing by 70% for each owned World Wonder building]\n[+1 / +3% [Faith] for every National / World Wonder]"
 		"uniques": ["May buy [Wonder] buildings with [Faith] for [1] times their normal Production cost", "[Faith] cost of purchasing [Wonder] buildings [+70]% <for every [[Number of Constructed Wonder]-1]>", "[+1 Faith] [in capital] <for every [[National Wonder] Buildings]>", "[+3]% [Faith] <for every [[World Wonder] Buildings]>", "Instantly provides [1] [Number of Constructed Wonder] <upon constructing [World Wonder]>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		]
 		"cities": ["Cairo","Alexandria","Port Said","Sharm El Sheikh","Giza","Aswan","Suez","Luxor","Mansurah","Tanta","Kafr El Sheikh","Beni Suef","Faiyum","Minia","Sohag","Qena","Benha","Damietta","Assiut","Hurghada","Damanhur","Arish","Cantara","Ismailia","Shibin Kom","Zagazig","Marsa Matruh","Kom Ombo"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
@@ -2007,7 +2058,7 @@
 		"uniqueText": "Triggers a Sacrifice event upon every 5 turn end or conquering a city"
 		"uniques": [
 		"Triggers a [Sacrifice I] event <upon turn end> <every [5] turns>", 
-		"Triggers a [Sacrifice II] event <upon conquering a city>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		"Triggers a [Sacrifice II] event <upon conquering a city>", ]
 		"cities": ["Porto-Novo","Cotonou","Parakou","Adjara","Adjohoun","Aguegue","Natitingou","Tanguieta","Tchaourou","Bante","Nikki","Perere","Ouesse","Lalo","Toviklin","Bopa","Come","Abomey","Bonou","Djia"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
@@ -2036,7 +2087,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "The Boat Of The Mediterranean",
 	    "uniqueText": "Starts with [Sailing]\nGain a free [Cothon] in all coastal cities",
-		"uniques": ["Starts with [Sailing]",  "Gain a free [Cothon] [in all coastal cities]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["Starts with [Sailing]",  "Gain a free [Cothon] [in all coastal cities]", ],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
 			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
@@ -2069,7 +2120,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Spirit of Adwa",
 		"uniqueText": "[Reveal up to All tiles within a 5 tile radius upon founding a city]\n[[Gain [1] [Faith]] [for every [3] [[Culture] Per Turn]]]",
-		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "Gain [1] [Faith] <for every [3] [[Culture] Per Turn]> <upon turn end>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["Reveal up to [All] [All] within a [5] tile radius <upon founding a city>", "Gain [1] [Faith] <for every [3] [[Culture] Per Turn]> <upon turn end>", ],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -2102,7 +2153,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "African Hegemon",
 		"uniqueText": "Land unit gains 2 XP upon ending a turn in a [Land] tile in your cities",
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": [],
 		"cities": ["Ulundi","Durban","Pietermaritzburg","Richards Bay","Ladysmith","Newcastle","Dundee","Vryheid","Eshowe","Hluhluwe","Empangeni","Stanger","Melmoth","Port Shepstone","Margate","Howick","Kokstad","Mtubatuba","Ixopo","Mahlabatini"],
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
     },
@@ -2137,7 +2188,7 @@
 		"Production to [Culture] conversion in cities changed by [50]%",
 		"[+25]% Strength <for [Military] units> <vs cities> <when attacking>", 
 		
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
@@ -2164,13 +2215,13 @@
 		"hateHello": "What?",
 
 		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-        "outerColor": [193, 84, 24],
-        "innerColor": [218, 165, 32]
+        "outerColor": [0, 100, 0],
+        "innerColor": [255, 215, 0]
 		"favoredReligion": "Islam",
-		"uniqueName": "African Warlord",
-		"uniqueText": ""
+		"uniqueName": "Golden River",
+		"uniqueText": "[Convert 25% [Production] to [Gold] (1:3) each turn, granted to Capital next turn]\n[Units can spend 30 [Gold] to instantly gain 2 Movement for 1 turn (once per Military unit)]"
 		"uniques": [
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"
+		
 		],
 		"cities": ["Bamako", "Ségou", "Kayes", "Mopti", "Gao", "Tombouctou", "Djenné", "Koulikoro", "Sikasso", "Kidal", "Ménaka", "Taoudenni", "Bandiagara", "San", "Kati", "Bougouni", "Niono", "Diré", "Goundam", "Tessalit"]
         "spyNames": ["Ahmadou", "Ayub", "Badru", "Bokhari", "Guedado", "Adhiambo", "Chinaka", "Laila", "Mariama", "Oni"]
@@ -2202,7 +2253,7 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
 		"uniqueText": "+1 ⚙Production from every [Pasture]\nCities are razed 2 times as fast\nStarts with [Animal Husbandry]\nBorrows city names from other civilizations in the game",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game", ],
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     
@@ -2233,7 +2284,7 @@
         "favoredReligion": "Christianity",
 		"uniqueName": "People of Prairie",
 		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 5 HP and gains 1 XP upon ending a turn in a grassland tile" 
-		"uniques": ["[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": [],
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
 		],
@@ -2263,7 +2314,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wayfinding",
 		"uniqueText": "Starting from the Ancient era, enables embarkation for land units and enables All units to enter ocean tiles\n+1 Sight for Embarked units\n+10% †Strength within 3 tiles of a [Moai]",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [3] tiles of a [Moai]>", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [3] tiles of a [Moai]>", ],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
 			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
@@ -2296,7 +2347,7 @@
 		"uniqueText": "[[Plantation] provides 30 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]\n[[[+1 Faith] from [Fishing Boats] tiles [in all cities]] [for every [2] [[Coastal] Cities]]], [up to 5 [Faith]]",
 		"uniques": ["[+1 Faith] from [Fishing Boats] tiles [in all cities] <for every [2] [[Coastal] Cities]> <when number of [[Coastal] Cities] is less than [11]>", "[+5 Faith] from [Fishing Boats] tiles [in all cities] <when number of [[Coastal] Cities] is more than [10]>", 
 		
-		"Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", ],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palem-bang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },
@@ -2324,7 +2375,7 @@
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wolf of the Prairie",
 		"uniqueText": "[[[Target Unit] takes [5] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
-		"uniques": ["[Military] units gain the [Turk ability] promotion", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		"uniques": ["[Military] units gain the [Turk ability] promotion", "\"Borrows\" city names from other civilizations in the game", ],
 		"cities": ["Qutaghan"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },
@@ -2356,7 +2407,7 @@
 		"[+1 Science] <for every [5] [Owned [Open terrain] Tiles]>",
 		"[+1 Culture] <for every [5] [Owned [Rough terrain] Tiles]>", 
 		"[-50]% construction time for [Mine] improvements",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"],
+		],
 		"cities": ["Canberra", "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Newcastle", "Geelong", "Hobart", "Cairns", "Sunshine Coast", "Wollongong", "Townsville", "Launceston", "Ballarat", "Bendigo", "Albury-Wodonga", "Toowoomba", "Darwin", "Alice Springs", "Port Macquarie", "Central Coast", "Mandurah", "Rockhampton"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
         
@@ -2392,7 +2443,7 @@
 		"[+5]% Strength <when below [80] HP>",
 		"[+5]% Strength <when below [70] HP>",
 		"[+5]% Strength <when below [60] HP>",
-		"[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"]
+		]
 		"cities": ["Titans"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]    
     },
@@ -2421,7 +2472,7 @@
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Unstoppable Expansion",
 		"uniqueText": "This is the runner-up reward of the second Leader Mission Competition.\n\nUnits ignore terrain costs when moving into any tile with Hills\n[All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalism I] promotion]\nBorrows city names from other civilizations in the game"
-		"uniques": ["All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalism I] promotion", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"uniques": ["All newly-trained [Reconnaissance] units [in all cities] receive the [Survivalism I] promotion", "Units ignore terrain costs when moving into any tile with Hills", "\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Cerranxi", "Mukuso", "Handanar", "Iverson", "Epson", "Collins", "Bena", "Gandahel", "Blue Bridge Fortress", "Highlander"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -2456,7 +2507,7 @@
 		"[+1]% [Production] <for every [5] [Warfare Aversion Level]>",
 		"[+1 Culture, +1 Faith] [in capital] <when not at war>",
 		"[+1 Science, +1 Gold] [in all cities] <when at war>",
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Weijing"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -2489,7 +2540,7 @@
 		"[+2 Science] <before discovering [The Wheel]>",
 		"[-50]% construction time for [Road] improvements"
 		"[-50]% construction time for [Railroad] improvements"
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Rhine"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -2520,7 +2571,7 @@
 		"uniqueText": "[This is the second runner-up reward of the third Leader Mission Competition.]\n\n[Can relocate the capital and change Civilized Leader]\n[[+1 Food] from [Strategic resource] tiles [in capital]]\n[[Worker] can instantly construct a [Ruins] improvement once for all movement]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"[+1 Food] from [Strategic resource] tiles [in capital]",
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Sea Sand"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
@@ -2550,7 +2601,7 @@
 		"uniqueName": "Thriving and Prosperous",
 		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with every 2 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"\"Borrows\" city names from other civilizations in the game", "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>"	
+		"\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Zhao Ge"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]

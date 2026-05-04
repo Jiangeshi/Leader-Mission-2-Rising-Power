@@ -11,7 +11,6 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
-	
 	// 世界会议
 	{
 		"name": "Announcing the commencement of the World Congress",
@@ -210,15 +209,15 @@
 		"Provides [5] [Horses] <after discovering [Animal Husbandry]> <in this city> <in cities with a [City Level II]>",
 		
 		"[-2]% [Food] [in this city] <in cities with a [City Level III]>",
-		"Provides [5] [Iron] <after discovering [Iron Working]> <in this city> <in cities with a [City Level III]>",
+		"Provides [7] [Iron] <after discovering [Iron Working]> <in this city> <in cities with a [City Level III]>",
 		"Provides [5] [Coal] <after discovering [Chemistry]> <in this city> <in cities with a [City Level III]>",
 		
 		"[-3]% [Food] [in this city] <in cities with a [City Level IV]>",
-		"Provides [5] [Steels] <after discovering [Metal Casting]> <in this city> <in cities with a [City Level IV]>",
+		"Provides [7] [Steels] <after discovering [Metal Casting]> <in this city> <in cities with a [City Level IV]>",
 		"Provides [5] [Oil] <after discovering [Biology]> <in this city> <in cities with a [City Level IV]>",
 		
 		"[-3]% [Food] [in this city] <in cities with a [City Level V]>",
-		"Provides [3] [Aluminum] <after discovering [Electricity]> <in this city> <in cities with a [City Level V]>",
+		"Provides [5] [Aluminum] <after discovering [Electricity]> <in this city> <in cities with a [City Level V]>",
 		"Provides [3] [Uranium] <after discovering [Atomic Theory]> <in this city> <in cities with a [City Level V]>",
 		]	
 	},
@@ -2922,7 +2921,78 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"	
 		"uniques": ["Only available <in cities with a [City Level II]>", "[+2 Culture] from [{improved} {Luxury resource}] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
-			
+		
+	// 意大利
+	},
+	{	
+        "name": "Civilized Leader-Giuseppe Garibaldi",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Italy",
+		"replacementTextForUniques": "[[[+12]% Strength] [when fighting in [Unowned] tiles]]\n[[[+13]% Strength] [when stacked with a [Great General] unit]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lorenzo de' Medici]>", "[+12]% Strength <for [Military] units> <when fighting in [Unowned] tiles>", "[+13]% Strength <for [Military] units> <when stacked with a [Great General] unit>"]
+	},
+	{	
+        "name": "Civilized Leader-Lorenzo de' Medici",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Italy",
+		"replacementTextForUniques": "[[[Empire enters a [6]-turn Golden Age] [upon gaining a [Great Person] unit]]] [(modified by game speed)]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Giuseppe Garibaldi]>", "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",  "Empire enters a [6]-turn Golden Age <upon gaining a [Special Great Person] unit> <(modified by game speed)>"]
+	},
+	{
+		"name": "Italian Opera House",
+		"happiness": 4,
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"maintenance": 3,
+		"replaces": "Opera House",
+		"uniqueTo": "Italy",
+		"requiredTech": "Enlightenment",
+		"uniques": ["Only available <in cities with a [City Level IV]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "Provides [1] [External Cultural Influence] <for every [floor(([[Culture] Per Turn])^(1/5))]> <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [1] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]", "[10]% of [Culture] from every [Culture] in the city added to [External Cultural Influence]", "[+2 Culture] from every specialist [in this city]"]
+	},
+	{
+		"name": "Great Artist Point",
+		"greatPersonPoints": {"Great Artist": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "Great Scientist Point",
+		"greatPersonPoints": {"Great Scientist": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "Great Merchant Point",
+		"greatPersonPoints": {"Great Merchant": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "Great Engineer Point",
+		"greatPersonPoints": {"Great Engineer": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "Great General Point",
+		"greatPersonPoints": {"Great General": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]	
+	},
+	{
+		"name": "Great Admiral Point",
+		"greatPersonPoints": {"Great Admiral": 3},
+		"cost": 10000,
+	    "maintenance": 0,
+		"uniques":["Unbuildable", "Cannot be purchased", "Unsellable", "Will not be displayed in Civilopedia", "Moves to new capital when capital changes"]
+		
 	// 印加
 	},
 	{	
@@ -3317,6 +3387,34 @@
         "uniqueTo": "Songhai",
 		"uniques": ["Only available <in cities with a [City Level II]>", "Destroyed when the city is captured", "[+1 Faith] per [2] population [in this city]", "[+1 Culture] per [2] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING", "Can be purchased for [80] [Culture] [in all cities]"]	
 	
+	// 马里
+	},
+	{	
+        "name": "Civilized Leader-Mansa Musa",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Mali",
+		"replacementTextForUniques": "[[+2 Production] from every [Trading post]]\n[[+2 Production] from every [Tourist Attractions]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Sundiata Keita]>", "[+2 Production] from every [Trading post]", "[+2 Production] from every [Tourist Attractions]"]
+	},
+	{	
+        "name": "Civilized Leader-Sundiata Keita",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Mali",
+		"replacementTextForUniques": "[[+2 Gold] from every [Mine]]\n[[+2 Gold] from every [Quarry]]"
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Mansa Musa]>", "[+2 Gold] from every [Mine]", "[+2 Gold] from every [Quarry]"]
+	},
+    {
+		"name": "Sugarloaf House",
+		"food": 2,
+		"happiness": 1,
+		"replaces": "Granary",
+        "uniqueTo": "Mali",
+		"maintenance": 0,
+		"uniques": ["Only available <in cities with a [City Level I]>", "[+1 Food] from [Grains] tiles [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
+		"requiredTech": "Masonry"	
+		
 	// 匈人
 	},
 	{	
@@ -3505,13 +3603,10 @@
         "name": "Civilized Leader-Sumu",
 		"isNationalWonder": true,
 		"cost":1,
-		"gold": -1,
-		"culture": 1,
-		"faith": 1,
 		"uniqueTo": "Sumusuming",
-		"replacementTextForUniques": "[[+2 Science, -1 Food] per [4] population [in all cities]]",
+		"replacementTextForUniques": "[[+1 Science, +1 Culture] per [2] population [in this city]]",
 		"uniques": [
-	    "[+2 Science, -1 Food] per [4] population [in all cities]",
+	    "[+1 Science, +1 Culture] per [2] population [in this city]",
 	    
 	    //"Indicates the capital city"
 	    "Remove [Civilized Leader-Suming] [in all cities] <if [Civilized Leader-Suming] is constructed>",
