@@ -1520,7 +1520,7 @@
 
         "favoredReligion": "Christianity",
         "uniqueName": "Renaissance Legacy",
-        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+20% generation rate for that type of Great Person when earned]",
+        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+34% generation rate for that type of Great Person when earned]",
         "uniques": [
     "Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>",
     "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>",
@@ -1531,12 +1531,12 @@
     "Instantly provides [1] [EN] <upon gaining a [Great Engineer] unit>",
     "Instantly provides [1] [GE] <upon gaining a [Great General] unit>",
     "Instantly provides [1] [AD] <upon gaining a [Great Admiral] unit>",
-    "[Great Artist] is earned [20]% faster <for every [1] [AR]>",
-    "[Great Scientist] is earned [20]% faster <for every [1] [SC]>",
-    "[Great Merchant] is earned [20]% faster <for every [1] [ME]>",
-    "[Great Engineer] is earned [20]% faster <for every [1] [EN]>",
-    "[Great General] is earned [20]% faster <for every [1] [GE]>",
-    "[Great Admiral] is earned [20]% faster <for every [1] [AD]>"
+    "[Great Artist] is earned [34]% faster <for every [1] [AR]>",
+    "[Great Scientist] is earned [34]% faster <for every [1] [SC]>",
+    "[Great Merchant] is earned [34]% faster <for every [1] [ME]>",
+    "[Great Engineer] is earned [34]% faster <for every [1] [EN]>",
+    "[Great General] is earned [34]% faster <for every [1] [GE]>",
+    "[Great Admiral] is earned [34]% faster <for every [1] [AD]>"
 ]
 
         "cities": ["Rome", "Florence", "Venice", "Milan", "Naples", "Turin", "Bologna", "Genoa", "Palermo", "Verona",
@@ -2219,7 +2219,7 @@
         "innerColor": [255, 215, 0]
 		"favoredReligion": "Islam",
 		"uniqueName": "Golden River",
-		"uniqueText": "[Convert 25% [Production] to [Gold] (1:3) each turn, granted to Capital next turn]\n[Units can spend 30 [Gold] to instantly gain 2 Movement for 1 turn (once per Military unit)]"
+		"uniqueText": "[Convert 20% [Production] to [Gold] (1:5) each turn, granted to Capital next turn]\n[Units can spend 30 [Gold] to instantly gain 2 Movement for 1 turn (once per Military unit)]"
 		"uniques": [
 		
 		],
