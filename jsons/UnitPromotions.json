@@ -253,7 +253,7 @@
     },
     {
     	"name": "Storm Fortification I",
-    	"prerequisites": ["Trample II","Charge II"],
+    	"prerequisites": ["Trample I","Charge I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Mobile"]
 		"row": 2,

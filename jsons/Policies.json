@@ -537,9 +537,10 @@
         ],
         "policies": [
             {
-                "name": "Price Scissors",
+                "name": "Agglomeration Planning",
                 "uniques": [
-                    "[-50]% Food consumption by [Specialists] [in all cities]"
+                    "Comment [+1 [Production] from every [Mine] within 2 tiles of a [Mine]]",
+                    "Comment [+1 [Production] from every [Mine] within 1 tiles of a [City center]]"
                 ],
                 "row": 1,
                 "column": 2
@@ -553,12 +554,11 @@
                 "column": 4
             },
             {
-                "name": "Agglomeration Planning",
+                "name": "Price Scissors",
                 "uniques": [
-                    "Comment [+1 [Production] from every [Mine] within 2 tiles of a [Mine]]",
-                    "Comment [+1 [Production] from every [Mine] within 1 tiles of a [City center]]"
+                    "[-50]% Food consumption by [Specialists] [in all cities]"
                 ],
-                "requires": ["Price Scissors"],
+                "requires": ["Agglomeration Planning"],
                 "row": 2,
                 "column": 2
             },
@@ -578,7 +578,7 @@
                     "[+15]% [Science] [in all cities] <in cities with a [Factory]>",
                     "[+1 Production] from every specialist [in all cities]"
                 ],
-                "requires": ["Agglomeration Planning"],
+                "requires": ["Price Scissors"],
                 "row": 3,
                 "column": 2
             },

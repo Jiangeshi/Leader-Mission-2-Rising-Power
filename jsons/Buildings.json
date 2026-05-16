@@ -2930,7 +2930,15 @@
 		"cost":1,
 		"uniqueTo": "Italy",
 		"replacementTextForUniques": "[[[+12]% Strength] [when fighting in [Unowned] tiles]]\n[[[+13]% Strength] [when stacked with a [Great General] unit]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lorenzo de' Medici]>", "[+12]% Strength <for [Military] units> <when fighting in [Unowned] tiles>", "[+13]% Strength <for [Military] units> <when stacked with a [Great General] unit>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lorenzo de' Medici]>", "Only available <in cities without a [Civilized Leader-Giuseppe Mazzini]>", "[+12]% Strength <for [Military] units> <when fighting in [Unowned] tiles>", "[+13]% Strength <for [Military] units> <when stacked with a [Great General] unit>"]
+	},
+	{	
+        "name": "Civilized Leader-Giuseppe Mazzini",
+		"isNationalWonder": true,
+		"cost":1,
+		"uniqueTo": "Italy",
+		"replacementTextForUniques": "[[+25]% Great Person generation [in all cities]]\n[[[Triggers a [Choose 3 free Great Person points] event] [upon turn start]] [when number of [turns] is equal to [15]]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Lorenzo de' Medici]>", "Only available <in cities without a [Civilized Leader-Giuseppe Mazzini]>", "[+25]% Great Person generation [in all cities]", "Triggers a [Choose 3 free Great Person points] event <upon turn start> <when number of [turns] is equal to [15]>"]
 	},
 	{	
         "name": "Civilized Leader-Lorenzo de' Medici",
@@ -2938,7 +2946,7 @@
 		"cost":1,
 		"uniqueTo": "Italy",
 		"replacementTextForUniques": "[[[Empire enters a [6]-turn Golden Age] [upon gaining a [Great Person] unit]]] [(modified by game speed)]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Giuseppe Garibaldi]>", "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",  "Empire enters a [6]-turn Golden Age <upon gaining a [Special Great Person] unit> <(modified by game speed)>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Only available <in cities without a [Civilized Leader-Giuseppe Garibaldi]>", "Only available <in cities without a [Civilized Leader-Giuseppe Mazzini]>", "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",  "Empire enters a [6]-turn Golden Age <upon gaining a [Special Great Person] unit> <(modified by game speed)>"],
 	},
 	{
 		"name": "Italian Opera House",

@@ -857,8 +857,8 @@
 		"innerColor": [0,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Wealth of Siberia",
-		"uniqueText": "[Gain control over All tiles in a 2-tile radius for City Center]\n[+1 ⚙Production from every Strategic resource and Great Improvement]"
-		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]",
+		"uniqueText": "[Gain control over All tiles in a 2-tile radius for City Center]\n[+1 ⚙Production from every Strategic resource and Great Improvement]\n[[+150]% Culture cost of natural border growth [in all cities]]"
+		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Production] from every [Great Improvement]", "[+150]% Culture cost of natural border growth [in all cities]",
 			
 		],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
@@ -1520,7 +1520,7 @@
 
         "favoredReligion": "Christianity",
         "uniqueName": "Renaissance Legacy",
-        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+34% generation rate for that type of Great Person when earned]",
+        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+25% generation rate for that type of Great Person when earned]",
         "uniques": [
     "Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>",
     "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>",
@@ -1531,12 +1531,12 @@
     "Instantly provides [1] [EN] <upon gaining a [Great Engineer] unit>",
     "Instantly provides [1] [GE] <upon gaining a [Great General] unit>",
     "Instantly provides [1] [AD] <upon gaining a [Great Admiral] unit>",
-    "[Great Artist] is earned [34]% faster <for every [1] [AR]>",
-    "[Great Scientist] is earned [34]% faster <for every [1] [SC]>",
-    "[Great Merchant] is earned [34]% faster <for every [1] [ME]>",
-    "[Great Engineer] is earned [34]% faster <for every [1] [EN]>",
-    "[Great General] is earned [34]% faster <for every [1] [GE]>",
-    "[Great Admiral] is earned [34]% faster <for every [1] [AD]>"
+    "[Great Artist] is earned [25]% faster <for every [1] [AR]>",
+    "[Great Scientist] is earned [25]% faster <for every [1] [SC]>",
+    "[Great Merchant] is earned [25]% faster <for every [1] [ME]>",
+    "[Great Engineer] is earned [25]% faster <for every [1] [EN]>",
+    "[Great General] is earned [25]% faster <for every [1] [GE]>",
+    "[Great Admiral] is earned [25]% faster <for every [1] [AD]>"
 ]
 
         "cities": ["Rome", "Florence", "Venice", "Milan", "Naples", "Turin", "Bologna", "Genoa", "Palermo", "Verona",

@@ -458,6 +458,13 @@ BuildingIcons/Civilized Leader-Giuseppe Garibaldi
   orig: 270, 270
   offset: 0, 0
   index: -1
+BuildingIcons/Civilized Leader-Giuseppe Mazzini
+  rotate: false
+  xy: 1235, 6
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
 BuildingIcons/Civilized Leader-Gustavus Adolphus
   rotate: false
   xy: 1235, 6
