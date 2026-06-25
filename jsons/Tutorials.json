@@ -20,7 +20,7 @@
       {"text":"When not in war, reduce the [Warfare Aversion Level] per turn. When the [Warfare Aversion Level] is greater than 0/10/30/50/70/100, the reduced [Warfare Aversion Level] corresponds to 1/2/3/4/5/6.\nWhen defeating enemy military units reduce 2 [Warfare Aversion Level].\nWhen the [Warfare Aversion Level] is greater than 20 and conquering a city reduce 20 [Warfare Aversion Level]."},
       {},
       {"text":"The impact of Warfare Aversion Level:","header":4,"color": "#DB9370"},
-      {"text":"10~30 [Warfare Aversion Level]: \n[[+10]% Unhappiness from [Population] [in all cities]]\n\n30~50 [Warfare Aversion Level]: \n[[-15]% [Gold]]\n[[+15]% Unhappiness from [Population] [in all cities]]\n\n50~70 [Warfare Aversion Level]: \n[[-20]% [Gold]]\n[[-20]% [Production] [in all cities]]\n[[+20]% Unhappiness from [Population] [in all cities]]\n\n70~100 [Warfare Aversion Level]: \n[[-25]% [Gold]]\n[[-25]% [Production] [in all cities]]\n[[+25]% Unhappiness from [Population] [in all cities]]\n[Rebel units may spawn]\n\n100~∞ [Warfare Aversion Level]: \n[[-30]% [Gold]]\n[[-30]% [Production] [in all cities]]\n[[+30]% Unhappiness from [Population] [in all cities]]\n[[-30]% Strength]"}
+      {"text":"10+ [Warfare Aversion Level]: \n-1% [Gold] for every 3 [Warfare Aversion Level]\n\n30+ [Warfare Aversion Level]: \n+1% Unhappiness from Population in all cities for every 3 [Warfare Aversion Level]\n\n50+ [Warfare Aversion Level]: \n-1% [Production] for every 3 [Warfare Aversion Level]\n\n70+ [Warfare Aversion Level]: \n-1% [Faith] for every 3 [Warfare Aversion Level]\nRebel units may spawn\n\n100+ [Warfare Aversion Level]: \n-1% [Culture] for every 3 [Warfare Aversion Level]\n-1% [Science] for every 3 [Warfare Aversion Level]\n-1% Strength for every 3 [Warfare Aversion Level]"}
     ]
   },
   {
@@ -96,9 +96,13 @@
     ]
   },
   {
-    "name": "Enemy City",
+    "name": "2.1 Price Index System",
     "steps": [
-      "Cities can be conquered by reducing their health to 1, and entering the city with a melee unit.\nSince cities heal each turn, it is best to attack with ranged units and use your melee units to defend them until the city has been defeated!"
+    "The [Price Index] system simulates the phenomenon of 'money losing value' in a civilization's economic activities. When a civilization produces excessive Gold, its domestic price level rises accordingly, reducing its actual purchasing power. Conversely, civilizations with lower Gold output enjoy price discounts. The core purpose of this system is to punish excessive Gold hoarding and reward balanced economic development.",
+    "The [Price Index] is a percentage value representing the current price level relative to the baseline: [Price Index] 100 means normal prices, a 100 Gold item costs 100 Gold; [Price Index] 150 means prices have risen by 50%, a 100 Gold item costs 150 Gold; [Price Index] 50 means prices have fallen by 50%, a 100 Gold item costs 50 Gold.",
+    "The [Price Index] is capped between -50% and 200% (i.e., 50% to 300%) to prevent extreme values from disrupting gameplay.",
+    "The formula for the [Price Index] is Global Tone + Domestic Offset.",
+    "The final [Price Index] is clamped within the range of -50 to 200."
     ]
   },
   {

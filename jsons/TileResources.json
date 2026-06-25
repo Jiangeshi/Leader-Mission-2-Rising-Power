@@ -640,7 +640,7 @@
 		"resourceType": "Strategic",
 	    "uniques": ["Stockpiled", "Cannot be traded"]	
 
-	// 数量
+	// 数量 计数
 	},
 	{
 		"name": "Number of Buildings",  
@@ -664,6 +664,9 @@
 		"name": "Number of Constructed Wonder",  
 		"resourceType": "Bonus",
 	    "uniques": ["Not shown on world screen", "Cannot be traded", "Stockpiled", "Will not be displayed in Civilopedia"]
+	
+	    
+	// 马里
 	},
 	{
 		"name": "Number of Production",  
@@ -685,6 +688,7 @@
             "Will not be displayed in Civilopedia"
 	    ]	
     },
+    
     // 冷却
 	{
 		"name": "CD",  
@@ -801,6 +805,7 @@
 	    "Not shown on world screen", 
 	    "Will not be displayed in Civilopedia", "Stockpiled"]
 	},
+	
 	// 文化胜利
 	{
 		"name": "External Cultural Influence", 
@@ -864,5 +869,43 @@
 	    "uniques": ["Cannot be traded", 
 	    "Not shown on world screen", 
 	    "Will not be displayed in Civilopedia", "Stockpiled"]
+	},
+	// 经济热度系统
+	{
+		"name": "P1",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	{
+		"name": "P2",  
+		"resourceType": "Strategic",
+        "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	{
+		"name": "P3",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	{
+		"name": "P4",  
+		"resourceType": "Strategic",
+        "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	{
+		"name": "P0",  
+		"resourceType": "Strategic",
+        "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},	
+	{
+		"name": "TG",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	{
+		"name": "Price Index",  
+		"resourceType": "Strategic",
+	    "uniques": [
+	    //"Not shown on world screen",
+	     "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
 	},
 ]

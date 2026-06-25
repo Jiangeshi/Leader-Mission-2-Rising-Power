@@ -1,7 +1,24 @@
 {
     "name": "Global uniques",
     "uniques": [
-
+    // 经济热度系统
+    // 5回合历史移动平均存储
+    "Set [TG] to [[Gold] Per Turn] <upon turn end>",
+    "Set [P0] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [0]>",
+    "Set [P1] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [1]>",
+    "Set [P2] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [2]>",
+    "Set [P3] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [3]>",
+    "Set [P4] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [4]>", 
+      
+    // 计算
+    "Set [Price Index] to [min(max((57.14*[[TG] resource of [Major] Civilizations]/([P0]+[P1]+[P2]+[P3]+[P4])-32+[TG]*[Remaining [Major] Civilizations]/[[TG] resource of [Major] Civilizations]*20), -50), 200)] <upon turn end>"
+    
+    
+    
+    // 影响
+    "[Gold] cost of purchasing items in cities [+1]% <for every [Price Index]> <when number of [Price Index] is more than [0]>",
+    "[Gold] cost of purchasing items in cities [-1]% <for every [abs([Price Index])]> <when number of [Price Index] is less than [0]>",
+    
     // 行商
     "Instantly provides [1] [Itinerant Merchant Capacity] <upon entering a new era>",
     
@@ -81,29 +98,23 @@
     "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>",
     
     //厌战度（10，30）
-    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-1]% [Gold] <for every [3] [Warfare Aversion Level]> <when above [10] [Warfare Aversion Level]>",
    
     //厌战度（30，50）
-    "[-15]% [Gold] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+1]% Unhappiness from [Population] [in all cities] <for every [3] [Warfare Aversion Level]> <when above [30] [Warfare Aversion Level]>",
     
     //厌战度（50，70）
-    "[-5]% [Gold] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
-    "[-20]% [Production] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[-1]% [Production] [in all cities] <for every [3] [Warfare Aversion Level]> <when above [50] [Warfare Aversion Level]>",
     
     //厌战度（70，100）
-    "[-5]% [Gold] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
-    "[-5]% [Production] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",    
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
-    "Rebel units may spawn <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",     
+    "Rebel units may spawn <when above [70] [Warfare Aversion Level]>",    
+    "[-1]% [Faith] [in all cities] <for every [3] [Warfare Aversion Level]> <when above [70] [Warfare Aversion Level]>",
     
     //厌战度（100，+∞）
-    "[-5]% [Gold] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
-    "[-5]% [Production] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
-    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
-    "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
-    
+    "[-1]% [Culture] [in all cities] <for every [3] [Warfare Aversion Level]> <when above [100] [Warfare Aversion Level]>",
+    "[-1]% [Science] [in all cities] <for every [3] [Warfare Aversion Level]> <when above [100] [Warfare Aversion Level]>",
+    "[-1]% Strength <for [Military] units> <for every [3] [Warfare Aversion Level]> <when above [100] [Warfare Aversion Level]>",
+        
     // 大航海家
     "Enables [Great Admiral] units to enter ocean tiles",
     "Enables [Lee Sunshin] units to enter ocean tiles",

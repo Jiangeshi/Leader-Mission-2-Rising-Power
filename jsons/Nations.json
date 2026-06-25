@@ -386,7 +386,7 @@
 		
 		
 		
-		"[+20]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+15]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+12]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+9]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+7]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+5]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
+		"[+25]% Strength <for [Military] units> <when number of [Cities] is equal to [1]>", "[+21]% Strength <for [Military] units> <when number of [Cities] is equal to [2]>", "[+17]% Strength <for [Military] units> <when number of [Cities] is equal to [3]>", "[+13]% Strength <for [Military] units> <when number of [Cities] is equal to [4]>", "[+9]% Strength <for [Military] units> <when number of [Cities] is equal to [5]>", "[+7]% Strength <for [Military] units> <when number of [Cities] is more than [5]>",				
 					
 					
 		"Provides [-1] [CD] <when number of [CD] is more than [0]>",
@@ -746,57 +746,13 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Revolutionary Tradition",
-		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +3 ♪Culture and +15% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +20% †combat Strength" 
+		"uniqueText": "Greater than or equal to -10 ⌣Happiness\nevery increase of 5 ⌣Happiness +1 ♪Culture or +5% ♪Culture\nup to +4 ♪Culture and +20% ♪Culture\n\nLess than or equal to 10 ⌣Happiness\nas ⌣Happiness decreases\n†combat Strength for Military units gradually increases\nup to +25% †combat Strength" 
 		"uniques": [
-		"[+3 Culture] <when number of [Happiness] is more than [15]>",
-		"[+15]% [Culture] <when number of [Happiness] is more than [15]>",
-	
-		"[+2 Culture] <when number of [Happiness] is between [10] and [14]>",
-	    "[+15]% [Culture] <when number of [Happiness] is between [10] and [14]>",
-	    
-		"[+2 Culture] <when number of [Happiness] is between [5] and [9]>",
-		"[+10]% [Culture] <when number of [Happiness] is between [5] and [9]>",
-			
-		"[+1 Culture] <when number of [Happiness] is between [0] and [4]>",
-	    "[+10]% [Culture] <when number of [Happiness] is between [0] and [4]>",
-	
-	
-		"[+1 Culture] <when number of [Happiness] is between [-5] and [-1]>",
-		"[+5]% [Culture] <when number of [Happiness] is between [-5] and [-1]>",
-			
-		"[+5]% [Culture] <when number of [Happiness] is between [-10] and [-6]>",	
-			
-		"[+1]% Strength <for [Military] units> <when number of [Happiness] is between [9] and [10]>",
-
-		"[+2]% Strength <for [Military] units> <when number of [Happiness] is between [7] and [8]>",
+	    "[+1 Culture] <when number of [Happiness] is more than [-11]> <for every [10] [min(([Happiness]+15), 40)]>",
+        "[+5]% [Culture] <when number of [Happiness] is more than [-11]> <for every [10] [min(([Happiness]+20), 40)]>",
 		
-		"[+3]% Strength <for [Military] units> <when number of [Happiness] is between [5] and [6]>",
-
-		"[+4]% Strength <for [Military] units> <when number of [Happiness] is between [3] and [4]>",
-	
-		"[+5]% Strength <for [Military] units> <when number of [Happiness] is between [1] and [2]>",
-		
-		"[+7]% Strength <for [Military] units> <when number of [Happiness] is between [-1] and [0]>",
-		
-		"[+8]% Strength <for [Military] units> <when number of [Happiness] is between [-3] and [-2]>",
-	
-		"[+10]% Strength <for [Military] units> <when number of [Happiness] is between [-5] and [-4]>",
-		
-		"[+11]% Strength <for [Military] units> <when number of [Happiness] is between [-7] and [-6]>",
-		
-		"[+13]% Strength <for [Military] units> <when number of [Happiness] is between [-9] and [-8]>",
-		
-		"[+14]% Strength <for [Military] units> <when number of [Happiness] is between [-11] and [-10]>",
-		
-		"[+16]% Strength <for [Military] units> <when number of [Happiness] is between [-13] and [-12]>",
-		
-		"[+17]% Strength <for [Military] units> <when number of [Happiness] is between [-15] and [-14]>",
-		
-		"[+19]% Strength <for [Military] units> <when number of [Happiness] is between [-17] and [-16]>",
-		
-		"[+20]% Strength <for [Military] units> <when number of [Happiness] is less than [-17]>",
-		
-		
+		"[+1]% Strength <for [Military] units> <when number of [Happiness] is less than [11]> <for every [2] [min((11-[Happiness]), 10)]>",
+		"[+1]% Strength <for [Military] units> <when number of [Happiness] is less than [0]> <for every [min((-[Happiness]), 20)]>",
 		],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -1992,7 +1948,7 @@
 		"outerColor": [0,133,61],
 		"favoredReligion": "Islam",
 		"uniqueName": "Country of Upright People",
-		"uniqueText": "[Instantly gain 6 Stored Food and 6 [Gold] upon constructing Buildings of current Era for every 1 Era number [(modified by game speed)]]"
+		"uniqueText": "[Instantly gain Stored Food equal to 6 × the Building's Era Number upon constructing it [(modified by game speed)]]"
 		"uniques": []
 		"cities": ["Ougadougou","Bobo-Dioulasso","Boromo","Bogande","Kongoussi","Solenzo","Koudougou","Nouna","Fada N'Gourma","Ouargaye","Koupela","Ziniare","Yako",
 			"Dedougou","Tougan","Toma","Banfora","Sindou","Tenkodogo","Boulsa","Reo","Leo","Sapouy","Kombissiri","Po","Manga","Gayeri","Tambaga"],
@@ -2500,11 +2456,11 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Yin-Yang Harmony",
-		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 5 Warfare Aversion Level\n+1% Strength and Production for every 5 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is the championship reward of the third Leader Mission Competition.\n\n-1% growth in all cities for every 3 Warfare Aversion Level\n+1% Strength and Production for every 3 Warfare Aversion Level\n+1 Culture and +1 Faith in capital when not at war\n+1 Science and +1 Gold in all cities when at war\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[-1]% growth [in all cities] <for every [5] [Warfare Aversion Level]>",
-		"[+1]% Strength <for [Military] units> <for every [5] [Warfare Aversion Level]>",
-		"[+1]% [Production] <for every [5] [Warfare Aversion Level]>",
+		"[-1]% growth [in all cities] <for every [3] [Warfare Aversion Level]>",
+		"[+1]% Strength <for [Military] units> <for every [3] [Warfare Aversion Level]>",
+		"[+1]% [Production] <for every [3] [Warfare Aversion Level]>",
 		"[+1 Culture, +1 Faith] [in capital] <when not at war>",
 		"[+1 Science, +1 Gold] [in all cities] <when at war>",
 		"\"Borrows\" city names from other civilizations in the game", 	
@@ -2599,7 +2555,7 @@
 		"innerColor": [79,153,165],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Thriving and Prosperous",
-		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with every 2 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "This is a reward for the first player to win Scientific Vectory with real speed and legend difficulty\n\n+1 [Food] for every Improvement with every 2/3 neighboring Improvement tiles\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
 		"\"Borrows\" city names from other civilizations in the game", 	
 		]

@@ -51,7 +51,7 @@
 		
 		
 		// 地块
-		"[This Unit] gains the [Stock Up] status for [4] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users>",
+		"[This Unit] gains the [Stock Up] status for [4] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users> <when number of [[Itinerant Merchant] Units] is less than [[Itinerant Merchant Capacity]+1]>",
 		
 		"[This Unit] gains the [Grain Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Bonus resource}] tiles> <hidden from users>", 
 		"[This Unit] gains the [Strategic Resource Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Strategic resource}] tiles> <hidden from users>", 
