@@ -11,7 +11,7 @@
     "Set [P4] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [4]>", 
       
     // 计算
-    "Set [Price Index] to [min(max((57.14*[[TG] resource of [Major] Civilizations]/([P0]+[P1]+[P2]+[P3]+[P4])-32+[TG]*[Remaining [Major] Civilizations]/[[TG] resource of [Major] Civilizations]*20), -50), 200)] <upon turn end>"
+    "Set [Price Index] to [min(max((47.6*[[TG] resource of [Major] Civilizations]/([P0]+[P1]+[P2]+[P3]+[P4])-20+[TG]*[Remaining [Major] Civilizations]/[[TG] resource of [Major] Civilizations]*10), -50), 200)] <upon turn end>"
     
     
     
