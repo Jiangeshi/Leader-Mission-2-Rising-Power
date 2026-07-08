@@ -55,7 +55,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements", "Empire enters a [8]-turn Golden Age",
+                    "[-25]% construction time for [All] improvements <for [Civilian] units>", "Empire enters a [8]-turn Golden Age",
                 ],
                 "requires": ["Republic", "Citizenship"],
                 "row": 3,
@@ -548,7 +548,7 @@
             {
                 "name": "Industrialism",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements"
+                    "[-25]% construction time for [All] improvements <for [Civilian] units>"
                 ],
                 "row": 1,
                 "column": 4
@@ -701,7 +701,7 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-20]%",
+                    "[Gold] cost of purchasing items in cities [-25]%",
                     "[+1] Movement <for [Itinerant Merchant] units>",
                 ],
                 "row": 1,
@@ -730,7 +730,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["Comment [Gain extra [10]% [Gold] per turn of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
+                "uniques": ["Comment [Gain extra [5]% [Gold] per turn of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3
@@ -837,7 +837,8 @@
             {
                 "name": "Military Reclamation System",
                 "uniques": [
-                    "Comment [Military Reclamation can be carried out in cities with a garrison]", 
+                    //"Comment [Military Reclamation can be carried out in cities with a garrison]", 
+                    "Comment [Foot soldier can build [Farm] / [Mine] improvements on tiles]",
                     "Comment [+1 [Culture] for [Farm] with garrison]",
                     "Comment [Provides 1 [Feat] upon military unit defeating a [Barbarian] unit]"
                 ],

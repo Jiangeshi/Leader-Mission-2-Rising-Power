@@ -572,7 +572,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-20]% construction time for [All] improvements","[2] free [Worker] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
+		"uniques": ["[-20]% construction time for [All] improvements <for [Civilian] units>","[2] free [Worker] units appear", "Provides [2] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [2] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"],
 		"requiredTech": "Burial Custom",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -752,7 +752,7 @@
 		"gold": 3,
 		"percentStatBonus": {"gold": 50},
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "[+1 Gold] [in this city] <for every [25] [Gold]> <when number of [Gold] is less than [1500]>", "[+60 Gold] [in this city] <when number of [Gold] is more than [1499]>", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Comment [+1 [Gold] in this city for every 25 [Gold], up to +60]", "[+1 Gold] [in this city] <for every [25] [Gold]> <when number of [Gold] is less than [1500]> <hidden from users>", "[+60 Gold] [in this city] <when number of [Gold] is more than [1499]> <hidden from users>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"	
 	},
 	{
@@ -1549,6 +1549,7 @@
 		"uniques": ["Unbuildable", "Only available <after adopting [Pagodas]>", "[+100]% production cost <after adopting [Monumentality]> <hidden from users>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"]	
 		
     // 军垦
+    /*
     },
 	{
 		"name": "Military Reclamation(Farm)",
@@ -1573,7 +1574,7 @@
 		    "Remove [Military Reclamation(Mine)] [in this city]", "City Level",
 		    "[-15]% production cost <for every [[[Foot Soldier] Units]+[[Shooter] Units]+[[Anti-Mobile] Units]+[[Mobile] Units]]> <when number of [[[Foot Soldier] Units]+[[Shooter] Units]+[[Anti-Mobile] Units]+[[Mobile] Units]] is less than [7]>", "[-85]% production cost <when number of [[[Foot Soldier] Units]+[[Shooter] Units]+[[Anti-Mobile] Units]+[[Mobile] Units]] is more than [6]>", "Unavailable <in [Puppeted] cities>"
 		]	
-		
+	*/
 	// 国家/文明
 	// 伊朗
 	},
@@ -1770,7 +1771,7 @@
 		"cost":1,
 		"uniqueTo": "China",
 	    "replacementTextForUniques": "[[-10]% construction time for [All] improvements]\n[[+15]% Production when constructing [All] buildings [in all cities]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[-10]% construction time for [All] improvements", "[+15]% Production when constructing [All] buildings [in all cities]"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[-10]% construction time for [All] improvements <for [Civilian] units>", "[+15]% Production when constructing [All] buildings [in all cities]"]	
 	},
     {
         "name": "Civilized Leader-Chairman Mao",
@@ -1835,8 +1836,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Babylon",
-		"replacementTextForUniques": "[+25]% [Science] [in all cities with a world wonder]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+25]% [Science] [in all cities with a world wonder]"]
+		"replacementTextForUniques": "[+33]% [Science] [in all cities with a world wonder]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+33]% [Science] [in all cities with a world wonder]"]
 	},
 	{
 		"name": "Walls of Babylon",
@@ -1854,8 +1855,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Afghanistan",
-		"replacementTextForUniques": "+15% [Science] and [Culture] in all cities when at war",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+15]% [Science] [in all cities] <when at war>", "[+15]% [Culture] [in all cities] <when at war>"]
+		"replacementTextForUniques": "[[[+1 Production] [in all cities]] [when not at war]]\n[+15% [Science] and [Culture] in all cities when at war]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+15]% [Science] [in all cities] <when at war>", "[+15]% [Culture] [in all cities] <when at war>", "[+1 Production] [in all cities] <when not at war>"]
     },
 	{	
         "name": "Civilized Leader-Daoud Khan",
@@ -2026,12 +2027,11 @@
 	},
 	{
 		"name": "Build Holy site",
-		"cost": "10000",
+		"cost": 1,
 		"replacementTextForUniques": "[Creates a [Holy site] improvement on a specific tile]",
 		"uniques": [
-		    "Only available <for [Cambodia] Civilizations>", "Unbuildable", 
+		    "Only available <for [Cambodia] Civilizations> <in cities with a [Temple]>",
 		    "Creates a [Holy site] improvement on a specific tile",
-		    "Remove [Build Holy site] [in this city]"
 		]	
 	// 亚述
     },
@@ -2304,15 +2304,15 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "+10% Yield in capital [during a Golden Age]",
+		"replacementTextForUniques": "+15% Yield in capital [during a Golden Age]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", 
-		"[+10]% [Gold] [in capital] <during a Golden Age>", 
-		"[+10]% [Science] [in capital] <during a Golden Age>", 
-		"[+10]% [Production] [in capital] <during a Golden Age>", 
-		"[+10]% [Culture] [in capital] <during a Golden Age>",
-		"[+10]% [Faith] [in capital] <during a Golden Age>",
-		"[+10]% [Happiness] [in capital] <during a Golden Age>",
-		"[+10]% [Food] [in capital] <during a Golden Age>",
+		"[+15]% [Gold] [in capital] <during a Golden Age>", 
+		"[+15]% [Science] [in capital] <during a Golden Age>", 
+		"[+15]% [Production] [in capital] <during a Golden Age>", 
+		"[+15]% [Culture] [in capital] <during a Golden Age>",
+		"[+15]% [Faith] [in capital] <during a Golden Age>",
+		"[+15]% [Happiness] [in capital] <during a Golden Age>",
+		"[+15]% [Food] [in capital] <during a Golden Age>",
 		]
 	},
 	{	
@@ -2328,8 +2328,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "England",
-		"replacementTextForUniques": "[[[+10]% Strength] [during a Golden Age]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <during a Golden Age>"]
+		"replacementTextForUniques": "[[[+15]% Strength] [during a Golden Age]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+15]% Strength <for [Military] units> <during a Golden Age>"]
 	},
 	{
 		"name": "Royal Navy Dockyard",
@@ -2937,8 +2937,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Italy",
-		"replacementTextForUniques": "[[[Empire enters a [6]-turn Golden Age] [upon gaining a [Great Person] unit]]] [(modified by game speed)]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Empire enters a [6]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",  "Empire enters a [6]-turn Golden Age <upon gaining a [Special Great Person] unit> <(modified by game speed)>"],
+		"replacementTextForUniques": "[[[Empire enters a [4]-turn Golden Age] [upon gaining a [Great Person] unit]]] [(modified by game speed)]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Empire enters a [4]-turn Golden Age <upon gaining a [Great Person] unit> <(modified by game speed)>",  "Empire enters a [6]-turn Golden Age <upon gaining a [Special Great Person] unit> <(modified by game speed)>"],
 	},
 	{
 		"name": "Italian Opera House",
@@ -3000,8 +3000,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Inca",
-		"replacementTextForUniques": "-15% ⏳construction time for All improvements",
-		"uniques": ["Can only be built<in [in capital] cities>", "[-15]% construction time for [All] improvements"]
+		"replacementTextForUniques": "[[[-15]% construction time for [All] improvements] [for [Civilian] units]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "[-15]% construction time for [All] improvements <for [Civilian] units>"]
 	},
 	{
 		"name": "Inca Pyramid",
@@ -3229,7 +3229,8 @@
 		"requiredTech": "Writing"	
 		"uniqueTo": "Burkina Faso",
 		"replaces": "Library",
-		"maintenance": 0,
+		"happiness": 1,
+		"maintenance": 1,
 		"uniques": ["Only available <in cities with a [City Level I]>", "[+2 Science] per [3] population [in this city]", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"],
 		
 	// 埃及

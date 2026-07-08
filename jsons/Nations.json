@@ -266,9 +266,9 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Graveyard of Empires",
-		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [upon declaring war on [Major] Civilizations]] [for [5] turns]\n[[[+3 Gold] [in all cities]] [upon being declared war on by [Major] Civilizations]] [for [10] turns]" 
+		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [upon declaring war on [Major] Civilizations]] [for [10] turns]\n[[[+3 Gold] [in all cities]] [upon being declared war on by [Major] Civilizations]] [for [10] turns]" 
 		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", 
-		"[+1 Production] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", ]
+		"[+1 Production] [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", ]
 		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -583,10 +583,8 @@
 		"innerColor": [239, 136, 55],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "King's Monastery",
-		"uniqueText": "[May buy [Holy site] for 160 [Faith] in capital or holy city at an increasing price (160)]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]\n[+1 [Culture] for [Holy site] with every 2 neighboring Improvement tiles]",
+		"uniqueText": "[May build [Holy site] in cities with [Temple] once]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]\n[+1 [Culture] for [Holy site] with every 2 neighboring Improvement tiles]",
 		"uniques": [
-		"May buy [Build Holy site] buildings for [160] [Faith] [in capital] at an increasing price ([160])",
-		"May buy [Build Holy site] buildings for [160] [Faith] [in holy cities] at an increasing price ([160])",
 		],
 		"cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampong Thom", "Kampong Speu", "Kampong Chhnang", "Kampot", "Takeo", "Prey Veng", "Svay Rieng", "Kandal", "Pursat", "Koh Kong", "Stung Treng", "Ratanakiri", "Mondulkiri", "Preah Vihear", "Kratie", "Kep", "Pailin", "Tbong Khmum", "Oddar Meanchey", "Banteay Meanchey"]
 		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]        
@@ -909,8 +907,8 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
-		"uniqueText": "[[+1 Production, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [4]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
-		"uniques": ["[+1 Production, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [4]-turn Golden Age <upon founding a city> <(modified by game speed)>", ],
+		"uniqueText": "[[+1 Production, +1 Culture] [in all cities]] [during a Golden Age]\n[Empire enters a [6]-turn Golden Age] [upon founding a city] [(modified by game speed)]",
+		"uniques": ["[+1 Production, +1 Culture] [in all cities] <during a Golden Age>", "Empire enters a [6]-turn Golden Age <upon founding a city> <(modified by game speed)>", ],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -2524,9 +2522,9 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Traceability",
-		"uniqueText": "[This is the second runner-up reward of the third Leader Mission Competition.]\n\n[Can relocate the capital and change Civilized Leader]\n[[+1 Food] from [Strategic resource] tiles [in capital]]\n[[Worker] can instantly construct a [Ruins] improvement once for all movement]\n[\"Borrows\" city names from other civilizations in the game]"
+		"uniqueText": "[This is the second runner-up reward of the third Leader Mission Competition.]\n\n[Can relocate the capital and change Civilized Leader]\n[[+1 Production] from [Strategic resource] tiles [in capital]]\n[[Worker] can instantly construct a [Ruins] improvement once for all movement]\n[\"Borrows\" city names from other civilizations in the game]"
 		"uniques": [
-		"[+1 Food] from [Strategic resource] tiles [in capital]",
+		"[+1 Production] from [Strategic resource] tiles [in capital]",
 		"\"Borrows\" city names from other civilizations in the game", 	
 		]
 		"cities": ["Sea Sand"],

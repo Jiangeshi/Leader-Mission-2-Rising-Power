@@ -51,7 +51,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+1 Culture] from all [Culture] buildings <for [17] turns>",
                 "[+1 Culture] from every [World Wonder] <for [17] turns>"
@@ -64,7 +64,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+1 Science] from all [Science] buildings <for [17] turns>"
                 "[+1 Science] from every [World Wonder] <for [17] turns>"
@@ -78,7 +78,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 "[+1 Happiness] [in all cities] <for [17] turns>"
                 "[+1 Happiness] from every [World Wonder] <for [17] turns>"
                 ],
@@ -91,9 +91,9 @@
                     }
                 ],
                 "uniques": [
-                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
-                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 ],
             },
         ]
@@ -149,7 +149,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+33]% [Gold] from Trade Routes <for [17] turns>",
                 ],
@@ -161,7 +161,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
                 "[+1 Gold] from every [Luxury resource] <(modified by game progress up to [+300]%)> <for [17] turns>"
                 
@@ -174,7 +174,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[+20]% Strength <vs [Barbarian] units> <for [17] turns>",
             "Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold] <for [17] turns>"
                 ],
@@ -187,9 +187,9 @@
                     }
                 ],
                 "uniques": [
-                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
-                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 ],
             },
         ]
@@ -245,7 +245,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+15]% Production when constructing [Military] units [in all cities] <for [17] turns>",
                 ],
@@ -257,7 +257,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
                 "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <for [17] turns>"
                 
@@ -270,7 +270,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[-90]% maintenance costs <for [Military] units> <for [17] turns>"
                 ],
             },
@@ -282,9 +282,9 @@
                     }
                 ],
                 "uniques": [
-                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
-                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 ],
             },
         ]
@@ -340,7 +340,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+1 Faith] per [3] population [in all cities] <for [17] turns>",
                 ],
@@ -352,7 +352,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                  "[Faith] cost of purchasing [Inquisitor] units [-50]% <for [17] turns>", "[Faith] cost of purchasing [Great Prophet] units [-20]% <for [17] turns>"
                 ],
             },
@@ -363,7 +363,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[-10]% [Faith] <for [17] turns>",
                 "[+15]% [Science] <for [17] turns>",                
                 ],
@@ -376,9 +376,9 @@
                     }
                 ],
                 "uniques": [
-                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
-                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 ],
             },
         ]
@@ -434,7 +434,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
                 
                 "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [5]> <for [17] turns>",
                 ],
@@ -446,7 +446,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                  "[+1 Food] from all [Production] buildings <in cities with less than [7] [Population]> <for [17] turns>"
                 ],
             },
@@ -457,7 +457,7 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>",
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[+1] Movement <for [Worker] units> <for [17] turns>",                
                 ],
             },
@@ -469,9 +469,9 @@
                     }
                 ],
                 "uniques": [
-                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]>"
-                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]>"
+                "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
                 ],
             },
         ]

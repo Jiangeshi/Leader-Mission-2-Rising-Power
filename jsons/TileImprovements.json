@@ -216,14 +216,14 @@
 	},
 	{
 		"name": "Tourist Attractions",
-		"terrainsCanBeBuiltOn": ["Seafall ruins", "Oasis", "Famed Mountain"],
-		"culture": 3,
+		"terrainsCanBeBuiltOn": ["Seafall ruins", "Oasis", "Famed Mountain", "Reef"],
+		"happiness": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Art",
 		"uniques": [
 		"IMPROVEMENT",
 		"Does not need removal of [Seafall ruins]", "Pillaging this improvement yields approximately [+15 Gold]", 
-		"[+2 Culture] <after discovering [The Renaissance]>", "[+2 Culture] <after discovering [Enlightenment]>",
+		"[+2 Happiness] <after discovering [The Renaissance]>", "[+2 Happiness] <after discovering [Enlightenment]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",

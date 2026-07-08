@@ -278,6 +278,8 @@
         "[This Unit] gains [2] movement <upon gaining the [Gain 2 Movement] status> <for [Military] units> <for [Mali] Civilizations>",
         "[This Unit] loses [2] movement <upon losing the [Gain 2 Movement] status> <for [Military] units> <for [Mali] Civilizations>",
         "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+        
     // 其他修正
+    "Can build [Farm] improvements on tiles <for [Human player] Civilizations> <for [Foot Soldier] units> <after adopting [Military Reclamation System]>", "Can build [Mine] improvements on tiles <for [Human player] Civilizations> <for [Foot Soldier] units> <after adopting [Military Reclamation System]>"
     ]
 }
