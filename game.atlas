@@ -1915,21 +1915,21 @@ BuildingIcons/Zoroaster
   index: -1
 BuildingIcons/Chemical Plant
   rotate: false
-  xy: 1492, 738
+  xy: 1650, 893
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Coal-Fired Power Plant
   rotate: false
-  xy: 1487, 680
+  xy: 1650, 835
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Column
   rotate: false
-  xy: 1710, 236
+  xy: 558, 1386
   size: 40, 54
   orig: 40, 54
   offset: 0, 0
@@ -1957,7 +1957,7 @@ ResourceIcons/Productive Investment
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 1487, 622
+  xy: 1650, 777
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2083,7 +2083,7 @@ BuildingIcons/Fortress City ability
   index: -1
 BuildingIcons/French Castle
   rotate: false
-  xy: 1874, 932
+  xy: 1766, 783
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2104,7 +2104,7 @@ BuildingIcons/General Staff
   index: -1
 BuildingIcons/Grand Manor
   rotate: false
-  xy: 1536, 506
+  xy: 1824, 888
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2118,7 +2118,7 @@ BuildingIcons/Grundtvigs Kirke
   index: -1
 BuildingIcons/Ikanda
   rotate: false
-  xy: 1536, 332
+  xy: 1882, 830
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2167,14 +2167,14 @@ BuildingIcons/Kiln
   index: -1
 BuildingIcons/Korean Academy
   rotate: false
-  xy: 1536, 274
+  xy: 1824, 772
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Lavra Monastery
   rotate: false
-  xy: 1545, 630
+  xy: 1766, 725
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2195,21 +2195,21 @@ BuildingIcons/Loot Warehouse
   index: -1
 BuildingIcons/Lydia Mint
   rotate: false
-  xy: 1545, 572
+  xy: 1708, 689
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Military City
   rotate: false
-  xy: 1710, 353
+  xy: 1564, 681
   size: 49, 49
   orig: 49, 49
   offset: 0, 0
   index: -1
 BuildingIcons/Yun Ji Barracks
   rotate: false
-  xy: 1710, 353
+  xy: 1564, 681
   size: 49, 49
   orig: 49, 49
   offset: 0, 0
@@ -2230,7 +2230,7 @@ BuildingIcons/Military Reclamation(Mine)
   index: -1
 BuildingIcons/Military Royal School
   rotate: false
-  xy: 1608, 699
+  xy: 1824, 714
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2279,7 +2279,7 @@ BuildingIcons/Posthouse
   index: -1
 BuildingIcons/Printing House
   rotate: false
-  xy: 1708, 1047
+  xy: 1640, 1009
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -2342,7 +2342,7 @@ ResourceIcons/Steels
   index: -1
 BuildingIcons/Rockery Garden
   rotate: false
-  xy: 558, 1352
+  xy: 200, 6
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -2356,7 +2356,7 @@ BuildingIcons/Royal Manor
   index: -1
 BuildingIcons/Royal Navy Dockyard
   rotate: false
-  xy: 1603, 525
+  xy: 1478, 424
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2377,7 +2377,7 @@ BuildingIcons/San Diego Cathedral
   index: -1
 BuildingIcons/Santa Claus House
   rotate: false
-  xy: 1594, 409
+  xy: 1478, 250
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2391,56 +2391,56 @@ BuildingIcons/Seaside Opera House
   index: -1
 BuildingIcons/Seed
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-EGG
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-I
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-II
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-III
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-IV
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Seed-V
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/Seed
   rotate: false
-  xy: 1362, 787
+  xy: 1334, 459
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -2468,14 +2468,14 @@ BuildingIcons/Street Carnival
   index: -1
 BuildingIcons/Studenica Monastery
   rotate: false
-  xy: 1652, 351
+  xy: 1940, 772
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sugarloaf House
   rotate: false
-  xy: 200, 6
+  xy: 1667, 618
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -2496,14 +2496,14 @@ BuildingIcons/Tomb Mound
   index: -1
 BuildingIcons/Tunnel
   rotate: false
-  xy: 1594, 235
+  xy: 1940, 656
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Wailing Wall
   rotate: false
-  xy: 1710, 467
+  xy: 1501, 624
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2783,7 +2783,7 @@ ImprovementIcons/Tourist Attractions
   index: -1
 ImprovementIcons/Vietnamese City
   rotate: false
-  xy: 1652, 235
+  xy: 1506, 682
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2965,7 +2965,7 @@ PolicyBranchIcons/Industrial
   index: -1
 PolicyIcons/Agglomeration Planning
   rotate: false
-  xy: 1999, 1200
+  xy: 1621, 666
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
@@ -2993,21 +2993,21 @@ PolicyIcons/Divine Right of Kings
   index: -1
 PolicyIcons/Imperialism
   rotate: false
-  xy: 1710, 410
+  xy: 1501, 567
   size: 49, 49
   orig: 49, 49
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Military City ability
   rotate: false
-  xy: 1710, 410
+  xy: 1501, 567
   size: 49, 49
   orig: 49, 49
   offset: 0, 0
   index: -1
 UnitPromotionIcons/More Fight More Brave
   rotate: false
-  xy: 1710, 410
+  xy: 1501, 567
   size: 49, 49
   orig: 49, 49
   offset: 0, 0
@@ -3056,7 +3056,7 @@ PolicyIcons/Price Scissors
   index: -1
 PolicyIcons/Rural Population Migration
   rotate: false
-  xy: 152, 6
+  xy: 248, 6
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -3196,7 +3196,7 @@ ResourceIcons/Number of Buildings
   index: -1
 ResourceIcons/Number of Fighters
   rotate: false
-  xy: 1608, 641
+  xy: 1766, 667
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -3217,7 +3217,7 @@ ResourceIcons/Potato
   index: -1
 ResourceIcons/Price Index
   rotate: false
-  xy: 1618, 949
+  xy: 1578, 802
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -3259,7 +3259,7 @@ TechIcons/Belief Worship
   index: -1
 TechIcons/Burial Custom
   rotate: false
-  xy: 1429, 564
+  xy: 1892, 946
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -3511,42 +3511,42 @@ TileSets/AbsoluteUnits/Units/Zoroaster
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral
   rotate: false
-  xy: 1895, 1467
+  xy: 1895, 1403
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-1
   rotate: false
-  xy: 1895, 1394
+  xy: 1967, 1472
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-2
   rotate: false
-  xy: 1895, 1394
+  xy: 1967, 1472
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era
   rotate: false
-  xy: 1967, 1481
+  xy: 1967, 1408
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-1
   rotate: false
-  xy: 1967, 1417
+  xy: 1817, 1350
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Great Admiral-Industrial era-2
   rotate: false
-  xy: 1967, 1417
+  xy: 1817, 1350
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3651,84 +3651,84 @@ TileSets/AbsoluteUnits/Units/Vietnam War Elephant
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-Bottom
   rotate: false
-  xy: 1334, 321
+  xy: 1406, 262
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-Bottom
   rotate: false
-  xy: 1334, 321
+  xy: 1406, 262
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-BottomLeft
   rotate: false
-  xy: 1334, 257
+  xy: 1506, 740
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-BottomLeft
   rotate: false
-  xy: 1334, 257
+  xy: 1506, 740
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-BottomRight
   rotate: false
-  xy: 1406, 462
+  xy: 1434, 732
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-BottomRight
   rotate: false
-  xy: 1406, 462
+  xy: 1434, 732
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-Top
   rotate: false
-  xy: 1406, 398
+  xy: 1578, 738
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-Top
   rotate: false
-  xy: 1406, 398
+  xy: 1578, 738
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-TopLeft
   rotate: false
-  xy: 1406, 334
+  xy: 1429, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-TopLeft
   rotate: false
-  xy: 1406, 334
+  xy: 1429, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall-The Great Wall of China-The Great Wall of China-TopRight
   rotate: false
-  xy: 1406, 270
+  xy: 1429, 604
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Edges/Wall/Wall-The Great Wall of China-The Great Wall of China-TopRight
   rotate: false
-  xy: 1406, 270
+  xy: 1429, 604
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3782,9 +3782,16 @@ TileSets/HexaRealm/Tiles/Camel
   orig: 120, 120
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Cocoa
+TileSets/HexaRealm/Tiles/Coast+Reef+Tourist Attractions
   rotate: false
   xy: 1709, 1115
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cocoa
+  rotate: false
+  xy: 1546, 946
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3798,63 +3805,63 @@ TileSets/HexaRealm/Tiles/Colony
   index: -1
 TileSets/HexaRealm/Tiles/Cow
   rotate: false
-  xy: 1546, 938
+  xy: 1578, 874
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Desert+Oasis+Tourist Attractions
   rotate: false
-  xy: 1578, 874
+  xy: 1895, 1476
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Expand Pasture
   rotate: false
-  xy: 1967, 1353
+  xy: 1889, 1339
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Famed Mountain
   rotate: false
-  xy: 1783, 1179
+  xy: 1794, 1278
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Famed Mountain+Tourist Attractions
   rotate: false
-  xy: 1781, 1107
+  xy: 1866, 1267
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Famed Mountain+Tourist Attractions
   rotate: false
-  xy: 1781, 1107
+  xy: 1866, 1267
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Holy Mountain
   rotate: false
-  xy: 1817, 1345
+  xy: 1794, 1209
   size: 64, 61
   orig: 64, 61
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy Mountain
   rotate: false
-  xy: 1794, 1273
+  xy: 1866, 1195
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/HolyMountainDH
   rotate: false
-  xy: 1889, 1325
+  xy: 1938, 1270
   size: 64, 61
   orig: 64, 61
   offset: 0, 0
@@ -3868,28 +3875,35 @@ TileSets/HexaRealm/Tiles/Kelp
   index: -1
 TileSets/HexaRealm/Tiles/Mudflat
   rotate: false
-  xy: 1855, 1189
+  xy: 1961, 1339
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Oasis+Tourist Attractions
   rotate: false
-  xy: 1938, 1253
+  xy: 1783, 1137
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Ocean+Reef+Tourist Attractions
+  rotate: false
+  xy: 1855, 1131
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Plains+Black Earth+Farm
   rotate: false
-  xy: 1927, 1189
+  xy: 1781, 1073
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Holy Mountain
   rotate: false
-  xy: 1855, 1120
+  xy: 1853, 1062
   size: 64, 61
   orig: 64, 61
   offset: 0, 0
@@ -3903,28 +3917,28 @@ TileSets/HexaRealm/Tiles/Potato
   index: -1
 TileSets/HexaRealm/Tiles/Potato+Farm
   rotate: false
-  xy: 1927, 1125
+  xy: 1506, 804
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Reef
   rotate: false
-  xy: 1650, 885
+  xy: 1434, 796
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rice
   rotate: false
-  xy: 1853, 1048
+  xy: 1362, 787
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rice+Farm
   rotate: false
-  xy: 1650, 821
+  xy: 1357, 723
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3938,21 +3952,21 @@ TileSets/HexaRealm/Tiles/Ruins
   index: -1
 TileSets/HexaRealm/Tiles/Salt Field
   rotate: false
-  xy: 1578, 810
+  xy: 1357, 659
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Salt Lake
   rotate: false
-  xy: 1506, 804
+  xy: 1357, 595
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Saltpeter
   rotate: false
-  xy: 1434, 796
+  xy: 1357, 531
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -3966,28 +3980,28 @@ TileSets/HexaRealm/Tiles/Seafall ruins
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Black Earth+Farm
   rotate: false
-  xy: 1357, 723
+  xy: 1334, 395
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Snow+Hill+Holy Mountain
   rotate: false
-  xy: 1357, 654
+  xy: 1334, 326
   size: 64, 61
   orig: 64, 61
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Spa
   rotate: false
-  xy: 1776, 1039
+  xy: 1708, 1047
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/The Great Wall of China
   rotate: false
-  xy: 1357, 590
+  xy: 1334, 262
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4001,28 +4015,28 @@ TileSets/HexaRealm/Tiles/Tourist Attractions
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Black Earth+Farm
   rotate: false
-  xy: 1357, 526
+  xy: 1406, 467
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tundra+Hill+Holy Mountain
   rotate: false
-  xy: 1334, 457
+  xy: 1406, 398
   size: 64, 61
   orig: 64, 61
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Vietnamese City
   rotate: false
-  xy: 1690, 979
+  xy: 1708, 979
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Wheat+Farm
   rotate: false
-  xy: 1650, 757
+  xy: 1429, 540
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4330,7 +4344,7 @@ UnitIcons/Impi
   index: -1
 UnitIcons/Iron Wall Legion
   rotate: false
-  xy: 1710, 298
+  xy: 1559, 626
   size: 47, 47
   orig: 47, 47
   offset: 0, 0
@@ -4351,7 +4365,7 @@ UnitIcons/Light Cannon
   index: -1
 UnitIcons/Medic
   rotate: false
-  xy: 1866, 1253
+  xy: 1938, 1198
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4463,7 +4477,7 @@ UnitIcons/Templar Knight
   index: -1
 UnitIcons/Vietnam War Elephant
   rotate: false
-  xy: 1334, 385
+  xy: 1406, 326
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4491,7 +4505,7 @@ UnitIcons/Yun Ji Commander
   index: -1
 UnitPromotionIcons/Afforestation
   rotate: false
-  xy: 1758, 981
+  xy: 1776, 1015
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4505,28 +4519,28 @@ UnitPromotionIcons/Aim
   index: -1
 UnitPromotionIcons/Apply Poison
   rotate: false
-  xy: 1816, 981
+  xy: 1618, 951
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armor
   rotate: false
-  xy: 1874, 990
+  xy: 1776, 957
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armor Piercing
   rotate: false
-  xy: 1434, 738
+  xy: 1834, 1004
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bayonet Charge
   rotate: false
-  xy: 1429, 680
+  xy: 1834, 946
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4540,28 +4554,28 @@ UnitPromotionIcons/Blizzard Wind Ability
   index: -1
 UnitPromotionIcons/Bombard
   rotate: false
-  xy: 1429, 622
+  xy: 1892, 1004
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Charge
   rotate: false
-  xy: 1999, 1147
+  xy: 1614, 613
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crossing the Mountain
   rotate: false
-  xy: 1487, 564
+  xy: 1650, 719
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cruise
   rotate: false
-  xy: 1478, 506
+  xy: 1708, 921
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4575,49 +4589,49 @@ UnitPromotionIcons/Defend the Motherland
   index: -1
 UnitPromotionIcons/Detection
   rotate: false
-  xy: 1478, 448
+  xy: 1708, 863
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dive
   rotate: false
-  xy: 1478, 390
+  xy: 1708, 805
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Escort
   rotate: false
-  xy: 1478, 332
+  xy: 1708, 747
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Queue
   rotate: false
-  xy: 1478, 332
+  xy: 1708, 747
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fire Support
   rotate: false
-  xy: 1478, 274
+  xy: 1766, 899
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Firepower Coverage
   rotate: false
-  xy: 1550, 746
+  xy: 1766, 841
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/First Attack
   rotate: false
-  xy: 1640, 1029
+  xy: 558, 1338
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
@@ -4631,14 +4645,14 @@ UnitPromotionIcons/Grain Cargo
   index: -1
 UnitPromotionIcons/Hard
   rotate: false
-  xy: 1536, 448
+  xy: 1824, 830
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hold Ground
   rotate: false
-  xy: 1536, 390
+  xy: 1882, 888
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4652,7 +4666,7 @@ UnitPromotionIcons/Indirect Fire
   index: -1
 UnitPromotionIcons/Landfall
   rotate: false
-  xy: 1550, 688
+  xy: 1882, 772
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4666,28 +4680,28 @@ UnitPromotionIcons/Luxury Goods Cargo
   index: -1
 UnitPromotionIcons/Noise Reduction
   rotate: false
-  xy: 1666, 699
+  xy: 1882, 714
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Off-road
   rotate: false
-  xy: 1666, 641
+  xy: 1824, 656
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pass
   rotate: false
-  xy: 558, 1400
+  xy: 152, 6
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Raid
   rotate: false
-  xy: 1603, 583
+  xy: 1882, 656
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -4708,56 +4722,56 @@ NationIcons/Sumusuming
   index: -1
 UnitPromotionIcons/Rout
   rotate: false
-  xy: 1661, 583
+  xy: 1478, 482
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rush
   rotate: false
-  xy: 1661, 525
+  xy: 1478, 366
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Salvo
   rotate: false
-  xy: 1594, 467
+  xy: 1478, 308
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shooting Support
   rotate: false
-  xy: 1652, 467
+  xy: 1927, 1137
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shrapnel
   rotate: false
-  xy: 1594, 351
+  xy: 1985, 1140
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strategic Deployment
   rotate: false
-  xy: 1652, 409
+  xy: 1940, 888
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Street Battle
   rotate: false
-  xy: 1594, 293
+  xy: 1940, 830
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tactical Evasion
   rotate: false
-  xy: 1652, 293
+  xy: 1940, 714
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
