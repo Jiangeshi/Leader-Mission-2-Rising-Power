@@ -1731,7 +1731,7 @@
 		"cost":1,
 		"uniqueTo": "China",
 		"replacementTextForUniques": "[[[[+10]% Strength] [for [Military] units]] [before discovering [Nation]]]\n[[[+15]% Production when constructing [All] wonders [in all cities]] [after discovering [Nation]]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+15]% Production when constructing [All] wonders [in all cities] <after discovering [Nation]>"]	
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Chinese Military Leader", "Only available <in cities without a [Chinese Military Leader]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+15]% Production when constructing [All] wonders [in all cities] <after discovering [Nation]>"]	
 	},
 	{
 	    "name": "Civilized Leader-Emperor Wu of Han",
@@ -1739,7 +1739,7 @@
 		"cost":1,
 		"uniqueTo": "China",
 		"replacementTextForUniques": "⛤Great General provides double †combat bonus\n+25% ¤maintenance costs for Military units",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Great General provides double combat bonus", "[+25]% maintenance costs <for [Military] units>"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Chinese Military Leader", "Only available <in cities without a [Chinese Military Leader]>", "Great General provides double combat bonus", "[+25]% maintenance costs <for [Military] units>"]
 	},
 	{
 	    "name": "Civilized Leader-Emperor Taizong of Tang",
@@ -1779,7 +1779,7 @@
 		"cost":1,
 		"uniqueTo": "China",
 	    "replacementTextForUniques": "+1 ➡Movement for Foot Soldier units\n+10% ⚙Production when constructing Foot Soldier units in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+1] Movement <for [Foot Soldier] units>", "[+10]% Production when constructing [Foot Soldier] units [in all cities]"]
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Chinese Military Leader", "Only available <in cities without a [Chinese Military Leader]>", "[+1] Movement <for [Foot Soldier] units>", "[+10]% Production when constructing [Foot Soldier] units [in all cities]"]
 		
 	// 朝鲜
 	},
