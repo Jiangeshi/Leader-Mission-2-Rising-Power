@@ -2269,7 +2269,7 @@
 		"name": "Confucius",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Free Social Policy"
+		    "Free Social Policy <by consuming this unit>"
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
 			
