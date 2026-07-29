@@ -420,10 +420,10 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniqueText": "[[+2]% Yield from every [Culture] buildings]\n[[+1]% Yield from every [City Level] buildings]"
+		"uniqueText": "[[+2]% Yield from every [Culture] buildings]\n[[+2]% Yield from every [City Level] buildings]"
 		"uniques": [
 		"[+2]% Yield from every [Culture]", 
-		"[+1]% Yield from every [City Level]", 
+		"[+2]% Yield from every [City Level]", 
 	
 		]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",

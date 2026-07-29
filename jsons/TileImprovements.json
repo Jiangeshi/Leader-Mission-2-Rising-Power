@@ -474,7 +474,7 @@
 		"uniqueTo": "Inca",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
-		"turnsToBuild": 10,
+		"turnsToBuild": 8,
 		"uniques": ["IMPROVEMENT", "[+2 Food] <in [Bonus resource] tiles>", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"techRequired": "The Wheel",	
 	},
