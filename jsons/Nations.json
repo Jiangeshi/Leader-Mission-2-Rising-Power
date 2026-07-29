@@ -1390,10 +1390,10 @@
 		"uniqueText": "[Gain 1 [Marriage Point] for every remaining major Civilizations\nYou can trade 1 [Marriage Point] to form a marriage alliance with another civilization\nAfter the alliance, both parties gain +6% [Science], [Culture], and [Strength], while Austria additionally gains +6% [Production]]\n[[[+2 Gold, +1 Happiness] [in capital]] [for every [Marriage Point]]]",
 		"uniques": [
 		"Provides [1] [Marriage Point] <for every [Remaining [Major] Civilizations]>",
-		"[+6]% [Culture] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
-		"[+6]% [Science] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
-		"[+6]% [Production] [in all cities] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
-		"[+6]% Strength <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
+		"[+6]% [Culture] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
+		"[+6]% [Science] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
+		"[+600]% [Production] [in all cities] <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
+		"[+6]% Strength <for every [[Marriage with Austria] Buildings by [Major] Civilizations]>",
 		
 		"[+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>",
 		

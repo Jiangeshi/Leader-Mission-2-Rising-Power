@@ -2836,7 +2836,6 @@
 		"cost":1,
 		"replacementTextForUniques": "[Unsellable]\n[[+6]% [Culture]]\n[[+6]% [Science]]\n[[+6]% Strength]",
 		"uniques": [
-		"Provides [1] [Marriage with Austria R]", 
 		"Can only be built <in [in capital] cities>",
 		"Only available <for [non-[Austria]] Civilizations>",
 		"Only available <if [Marriage with Austria] is not constructed> <when number of [Marriage Point] is more than [0]>",
