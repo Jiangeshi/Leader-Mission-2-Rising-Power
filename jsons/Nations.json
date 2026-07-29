@@ -1463,7 +1463,7 @@
 
         "favoredReligion": "Christianity",
         "uniqueName": "Renaissance Legacy",
-        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+25% generation rate for that type of Great Person when earned]",
+        "uniqueText": "[Upon founding the capital and each time a Great Person is earned, instantly choose +3 Great Person points of any type (each type unique once)]\n[+20% generation rate for that type of Great Person when earned]",
         "uniques": [
     "Triggers a [Choose 3 free Great Person points] event <upon constructing [Palace]>",
     "Triggers a [Choose 3 free Great Person points] event <upon gaining a [Great Person] unit>",
