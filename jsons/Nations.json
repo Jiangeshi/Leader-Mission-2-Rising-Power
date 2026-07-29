@@ -266,9 +266,9 @@
 		"outerColor": [0,0,0],
 		"favoredReligion": "Islam",
 		"uniqueName": "Graveyard of Empires",
-		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [upon declaring war on [Major] Civilizations]] [for [10] turns]\n[[[+3 Gold] [in all cities]] [upon being declared war on by [Major] Civilizations]] [for [10] turns]" 
+		"uniqueText": "[Enemy military units must spend 2 extra ➡movement points when inside your territory\nEnemy Mobile units must spend 1 extra ➡movement points when inside your territory]\n[[[+1 Production] [in all cities]] [when not at war]]" 
 		"uniques": ["Enemy [Military] units must spend [2] extra movement points when inside your territory", "Enemy [Mobile] units must spend [1] extra movement points when inside your territory", 
-		"[+1 Production] [in all cities] <for [10] turns> <upon declaring war on [Major] Civilizations>", "[+3 Gold] [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations>", ]
+		"[+1 Production] [in all cities] <when not at war>", ]
 		"cities": ["Kabul", "Kandahar", "Talukan", "Kunduz", "Nawab", "Baghlan", "Mazar-i-Sharif", "Chaghcharan", "Mahmoud-Eraqi", "Salpul", "Bamiyan", "Kad", "Maimana", "Ghazni", "Herat", "Host", "Lashkargah", "Sheberghan", "Fazabad", "Maidan", "Meydaram", "Pul-e Alam", "Jalalabad", "Zaranj", "Talinkot", "Gardez", "Sharana", "Charikar", "Bazarak"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
@@ -420,9 +420,10 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniqueText": "+2% Yield from every [Culture] buildings"
+		"uniqueText": "[[+2]% Yield from every [Culture] buildings]\n[[+1]% Yield from every [City Level] buildings]"
 		"uniques": [
 		"[+2]% Yield from every [Culture]", 
+		"[+1]% Yield from every [City Level]", 
 	
 		]
 		"cities": ["Bangkok", "Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
@@ -552,9 +553,9 @@
 
         "favoredReligion": "Islam",
 		"uniqueName": "Defenders of Islam",
-		"uniqueText": "[+25% Strength for Mobile units vs Mobile units]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement for 1 turn]",
+		"uniqueText": "[[+1 Science, +1 Production] [in cities following our religion]]\n[Upon Mobile Unit damaging a unit, target unit loses 1 movement and -15% Strength for 1 turn]",
 		"uniques": [
-	    "[+25]% Strength <for [Mobile] units> <vs [Mobile] units>",
+	    "[+1 Science, +1 Production] [in cities following our religion]",
 	    "All newly-trained [Mobile] units [in all cities] receive the [Mamluk ability] promotion",
 			
 		],
@@ -583,7 +584,7 @@
 		"innerColor": [239, 136, 55],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "King's Monastery",
-		"uniqueText": "[May build [Holy site] in cities with [Temple] once]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]\n[+1 [Culture] for [Holy site] with every 2 neighboring Improvement tiles]",
+		"uniqueText": "[May build [Holy site] in cities with [Temple] once]\n[+1 [Faith] for Non-Great Improvement within 1 tiles of a [Holy site]]",
 		"uniques": [
 		],
 		"cities": ["Phnom Penh", "Siem Reap", "Battambang", "Sihanoukville", "Kampong Cham", "Kampong Thom", "Kampong Speu", "Kampong Chhnang", "Kampot", "Takeo", "Prey Veng", "Svay Rieng", "Kandal", "Pursat", "Koh Kong", "Stung Treng", "Ratanakiri", "Mondulkiri", "Preah Vihear", "Kratie", "Kep", "Pailin", "Tbong Khmum", "Oddar Meanchey", "Banteay Meanchey"]
@@ -1386,23 +1387,13 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Habsburg Dynasty",
-		"uniqueText": "[Gain 3 [Marriage Point]\nYou can trade 1 [Marriage Point] to form a marriage alliance with another civilization\nAfter the alliance, both parties gain +6% [Science], [Culture], and [Strength], while Austria additionally gains +6% [Production]]\n[[[+2 Gold, +1 Happiness] [in capital]] [for every [Marriage Point]]]",
+		"uniqueText": "[Gain 1 [Marriage Point] for every remaining major Civilizations\nYou can trade 1 [Marriage Point] to form a marriage alliance with another civilization\nAfter the alliance, both parties gain +6% [Science], [Culture], and [Strength], while Austria additionally gains +6% [Production]]\n[[[+2 Gold, +1 Happiness] [in capital]] [for every [Marriage Point]]]",
 		"uniques": [
-		"Provides [3] [Marriage Point]",
-		"[+6]% [Culture] <if [Marriage with Austria1] is constructed by anybody>",
-		"[+6]% [Science] <if [Marriage with Austria1] is constructed by anybody>",
-		"[+6]% [Production] [in all cities] <if [Marriage with Austria1] is constructed by anybody>",
-		"[+6]% Strength <if [Marriage with Austria1] is constructed by anybody>",
-		
-		"[+6]% [Culture] <if [Marriage with Austria2] is constructed by anybody>",
-		"[+6]% [Science] <if [Marriage with Austria2] is constructed by anybody>",
-		"[+6]% [Production] [in all cities] <if [Marriage with Austria2] is constructed by anybody>",
-		"[+6]% Strength <if [Marriage with Austria2] is constructed by anybody>",
-		
-		"[+6]% [Culture] <if [Marriage with Austria3] is constructed by anybody>",
-		"[+6]% [Science] <if [Marriage with Austria3] is constructed by anybody>",
-		"[+6]% [Production] [in all cities] <if [Marriage with Austria3] is constructed by anybody>",
-		"[+6]% Strength <if [Marriage with Austria3] is constructed by anybody>",
+		"Provides [1] [Marriage Point] <for every [Remaining [Major] Civilizations]>",
+		"[+6]% [Culture] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
+		"[+6]% [Science] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
+		"[+6]% [Production] [in all cities] <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
+		"[+6]% Strength <for every [[Marriage with Austria R] resource of [Major] Civilizations]>",
 		
 		"[+2 Gold, +1 Happiness] [in capital] <for every [Marriage Point]>",
 		
@@ -1439,11 +1430,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Verdun Legacy",
-		"uniqueText": "[+2 [Culture] for every Cities when number of Adopted Policies is less than or equal to twice the Era number\n+1 [Happiness], +2 [Faith] for every Cities when number of Adopted Policies is more than twice the Era number]",
+		"uniqueText": "[[Scout] can instantly construct a [Barbarian encampment] by consuming itself, accumulated once every 10 turns]\n[[Barbarians] [Cannot attack] [Franks]]\n[[When defeating a [Barbarian] unit, earn [30] Gold and recruit it] [with [40]% chance]]",
 		"uniques": [
-		"[+2 Culture] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is less than [2*([Era number]+1)+1]>",
-		"[+1 Happiness, +2 Faith] <for every [[in all cities] Cities]> <when number of [Adopted [All] Policies] is more than [2*([Era number]+1)]>",
-		
+		"When defeating a [Barbarian] unit, earn [30] Gold and recruit it <with [40]% chance>"
 		],
 		"cities": ["Aachen", "Paris", "Tours", "Orléans", "Metz", "Reims", "Soissons", "Trier", "Cologne", "Mainz", "Worms", "Speyer", "Strasbourg", "Verdun", "Liège", "Nantes", "Rouen", "Toulouse", "Lyon", "Marseille", "Narbonne", "Poitiers", "Angers", "Dijon", "Besançon"]
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
@@ -1485,13 +1474,12 @@
     "Instantly provides [1] [EN] <upon gaining a [Great Engineer] unit>",
     "Instantly provides [1] [GE] <upon gaining a [Great General] unit>",
     "Instantly provides [1] [AD] <upon gaining a [Great Admiral] unit>",
-    "[Great Artist] is earned [25]% faster <for every [1] [AR]>",
-    "[Great Scientist] is earned [25]% faster <for every [1] [SC]>",
-    "[Great Merchant] is earned [25]% faster <for every [1] [ME]>",
-    "[Great Engineer] is earned [25]% faster <for every [1] [EN]>",
-    "[Great General] is earned [25]% faster <for every [1] [GE]>",
-    "[Great Admiral] is earned [25]% faster <for every [1] [AD]>"
-]
+    "[Great Artist] is earned [20]% faster <for every [1] [AR]>",
+    "[Great Scientist] is earned [20]% faster <for every [1] [SC]>",
+    "[Great Merchant] is earned [20]% faster <for every [1] [ME]>",
+    "[Great Engineer] is earned [20]% faster <for every [1] [EN]>",
+    "[Great General] is earned [20]% faster <for every [1] [GE]>",
+    "[Great Admiral] is earned [20]% faster <for every [1] [AD]>"]
 
         "cities": ["Rome", "Florence", "Venice", "Milan", "Naples", "Turin", "Bologna", "Genoa", "Palermo", "Verona",
         "Pisa", "Siena", "Padua", "Trieste", "Taranto", "Brescia", "Ravenna", "Ferrara", "Livorno", "Parma",
@@ -1499,6 +1487,43 @@
         "Cremona", "Lecce", "Barletta", "Brindisi", "Ancona", "Messina", "Catania", "Syracuse", "Catanzaro", "Bari"],
 
         "spyNames": ["Leonardo", "Galileo", "Dante", "Machiavelli", "Petrarch", "Boccaccio", "Raphael", "Michelangelo", "Donatello", "Brunelleschi"]
+    },
+    {
+        "name": "Norway",
+        "leaderName": "Leader",
+        "personality": "Norway",
+        "adjective": ["Norwegian"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Let's begin!",
+
+        "declaringWar": "Your behavior has angered me. I declare a just war against you",
+        "attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
+        "defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
+    
+        "introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
+    
+        "neutralHello": "Greetings!",
+        "hateHello": "What?",
+    
+        "tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
+
+        "outerColor": [199, 60, 88],
+        "innerColor": [3, 29, 76],
+
+        "favoredReligion": "Christianity",
+        "uniqueName": "North Sea Silver Pact",
+        "uniqueText": "[Provides [1] [Silver Coin], gain 1 / 5 [Silver Coin] when Military units damage / kill enemy units, doubled in Golden Age]\n[[Itinerant Merchant] convert [Silver Coin] to [Production] at 1:1.5 rate in [City center]]\n[Spend 60 [Silver Coin] to upgrade a military unit to [Great General]]",
+        "uniques": [
+        "Provides [1] [Silver Coin]",
+        "Provides [1] [Silver Coin] <during a Golden Age>",
+        
+        ]
+
+        "cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Tromso", "Kristiansand", "Drammen", "Alesund", "Fredrikstad", "Sarpsborg", "Sandnes", "Bodo", "Haugesund", "Skien", "Molde", "Lillehammer", "Gjovik", "Hamar", "Arendal", "Tonsberg", "Narvik", "Svolvaer", "Voss", "Alta", "Roros"],
+
+        "spyNames": ["Leonardo", "Galileo", "Dante", "Machiavelli", "Petrarch", "Boccaccio", "Raphael", "Michelangelo", "Donatello", "Brunelleschi"]    
     //美洲
     },
 	{
@@ -1592,8 +1617,8 @@
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Calendar]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Calendar]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
 		],
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
@@ -2173,7 +2198,7 @@
         "innerColor": [255, 215, 0]
 		"favoredReligion": "Islam",
 		"uniqueName": "Golden River",
-		"uniqueText": "[Convert 20% [Production] to [Gold] (1:5) each turn, granted to Capital next turn]\n[Units can spend 30 [Gold] to instantly gain 2 Movement for 1 turn (once per Military unit)]"
+		"uniqueText": "[Convert 20% [Production] to [Gold] (1:5) each turn, granted to Capital next turn]\n[Units can spend 30 [Gold] to instantly gain 2 Movement for 1 turn (once per Military unit)]\n[Ignore the impact of the Price Index]"
 		"uniques": [
 		
 		],
@@ -2298,10 +2323,10 @@
 		"innerColor": [163,71,71],
 		"favoredReligion": "Islam",
 		"uniqueName": "Oriental Pearl",
-		"uniqueText": "[[Plantation] provides 30 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]\n[[[+1 Faith] from [Fishing Boats] tiles [in all cities]] [for every [2] [[Coastal] Cities]]], [up to 5 [Faith]]",
+		"uniqueText": "[[Plantation] provides 25 [Golden Age points]]\n[[+2 Gold] from every [Luxury resource]]\n[[[+1 Faith] from [Fishing Boats] tiles [in all cities]] [for every [2] [[Coastal] Cities]]], [up to 5 [Faith]]",
 		"uniques": ["[+1 Faith] from [Fishing Boats] tiles [in all cities] <for every [2] [[Coastal] Cities]> <when number of [[Coastal] Cities] is less than [11]>", "[+5 Faith] from [Fishing Boats] tiles [in all cities] <when number of [[Coastal] Cities] is more than [10]>", 
 		
-		"Instantly gain [30] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", ],
+		"Instantly gain [25] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>", "[+2 Gold] from every [Luxury resource]", ],
 		"cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Bekasi", "Tangerang", "Depok", "Palem-bang", "South Tangerang", "Makassar", "Bogor", "Batam", "Pekanbaru", "Padang", "Denpasar", "Malang", "Samarinda", "Bandar Lampung", "Jambi", "Pontianak", "Manado", "Balikpapan", "Yogyakarta", "Surakarta"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
     },

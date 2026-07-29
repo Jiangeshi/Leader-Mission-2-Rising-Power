@@ -1,6 +1,16 @@
 {
     "name": "Global uniques",
     "uniques": [
+    // 战争修正
+    "[-10]% [Culture] <upon losing a city> <for [10] turns>",
+    "[-10]% [Science] <upon losing a city> <for [10] turns>",
+    "[-10]% [Gold] <upon losing a city> <for [10] turns>",
+    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+    "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
+    "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
+    
+    // 法兰克
+    "Instantly provides [1] [Buildable Barbarian encampment] <upon turn end> <when number of [[turns]%10] is equal to [0]> <for [Franks] Civilizations> <when number of [turns] is more than [0]>"
     // 经济热度系统
     // 5回合历史移动平均存储
     "Set [TG] to [[Gold] Per Turn] <upon turn end>",
@@ -11,13 +21,17 @@
     "Set [P4] to [[TG] resource of [Major] Civilizations] <upon turn start> <when number of [[turns]%5] is equal to [4]>", 
       
     // 计算
-    "Set [Price Index] to [min(max((47.6*[[TG] resource of [Major] Civilizations]/([P0]+[P1]+[P2]+[P3]+[P4])-20+[TG]*[Remaining [Major] Civilizations]/[[TG] resource of [Major] Civilizations]*10), -50), 200)] <upon turn end>"
+    "Set [Price Index] to [min(max((47.6*[[TG] resource of [Major] Civilizations]/([P0]+[P1]+[P2]+[P3]+[P4])-20+[TG]*[Remaining [Major] Civilizations]/[[TG] resource of [Major] Civilizations]*10), -50), 200)] <upon turn end>",
     
     
     
     // 影响
     "[Gold] cost of purchasing items in cities [+1]% <for every [Price Index]> <when number of [Price Index] is more than [0]>",
     "[Gold] cost of purchasing items in cities [-1]% <for every [abs([Price Index])]> <when number of [Price Index] is less than [0]>",
+    
+    // 马里物价指数修正
+    "[Gold] cost of purchasing items in cities [-1]% <for every [Price Index]> <when number of [Price Index] is more than [0]> <for [Mali] Civilizations>",
+    "[Gold] cost of purchasing items in cities [+1]% <for every [abs([Price Index])]> <when number of [Price Index] is less than [0]> <for [Mali] Civilizations>",
     
     // 行商
     "Instantly provides [1] [Itinerant Merchant Capacity] <upon entering a new era>",
@@ -37,12 +51,12 @@
     
     // 世界会议
     // 初始化
-    "Instantly provides [30] [Temp2] <upon turn end> <if [Announcing the commencement of the World Congress] is constructed by anybody> <when number of [Temp2] is equal to [0]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Set [Temp2] to [30] <upon turn end> <if [Announcing the commencement of the World Congress] is constructed by anybody> <when number of [Temp2] is equal to [0]> <when [World Conference(Recommended to enable)] Victory is enabled>",
     
         "Gain a free [n1] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [1]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n2] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [2]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n4] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [4]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n5] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [5]> <when number of [Temp2] is equal to [23]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
     // 循环
     "Instantly consumes [1] [Temp2] <upon turn end> <when number of [Temp2] is more than [1]> <when [World Conference(Recommended to enable)] Victory is enabled>",
-    "Instantly provides [19] [Temp2] <upon turn end> <when number of [Temp2] is equal to [1]> <when [World Conference(Recommended to enable)] Victory is enabled>",
+    "Set [Temp2] to [21] <upon turn end> <when number of [Temp2] is equal to [1]> <when [World Conference(Recommended to enable)] Victory is enabled>",
     // 随机
     "Gain a free [n1] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [1]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n2] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [2]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n3] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [3]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n4] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [4]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>", "Gain a free [n5] [in capital] <if [Announcing the commencement of the World Congress] is constructed> <when number of [abs([turns]*[[improved] Tiles]-[[Forest] Tiles])%5+1] is equal to [5]> <when number of [Temp2] is equal to [3]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
     "Remove [nn] [in all cities] <if [Announcing the commencement of the World Congress] is constructed> <when number of [Temp2] is equal to [15]> <upon turn end> <when [World Conference(Recommended to enable)] Victory is enabled>",
@@ -226,7 +240,7 @@
     "unitUniques": [
     // 全体修正
         "May attack when embarked",
-        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly provides [2] [Warfare Aversion Level] <upon being defeated>"
         "Instantly consumes [2] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
         "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
         "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]> <hidden from users>",
@@ -278,6 +292,14 @@
         "[This Unit] gains [2] movement <upon gaining the [Gain 2 Movement] status> <for [Military] units> <for [Mali] Civilizations>",
         "[This Unit] loses [2] movement <upon losing the [Gain 2 Movement] status> <for [Military] units> <for [Mali] Civilizations>",
         "[-5]% Strength <for [Military] units> <vs [Byzantium] units> <after founding a religion> <before enhancing a religion>", "[-10]% Strength <for [Military] units> <vs [Byzantium] units> <after enhancing a religion>",
+        "Can instantly construct a [Barbarian encampment] improvement <by consuming this unit> <for [Franks] Civilizations> <for [Scout] units> <costs [1] [Buildable Barbarian encampment]>",
+        "Cannot attack <for [Barbarians] units> <vs [Franks]>",
+        "Instantly provides [1] [Silver Coin] <upon damaging a [Military] unit> <for [Norway] Civilizations> <when not in a Golden Age>",
+        "Instantly provides [5] [Silver Coin] <upon defeating a [Military] unit> <for [Norway] Civilizations> <when not in a Golden Age>"
+        "Instantly provides [2] [Silver Coin] <upon damaging a [Military] unit> <during a Golden Age> <for [Norway] Civilizations>",
+        "Instantly provides [10] [Silver Coin] <upon defeating a [Military] unit> <during a Golden Age> <for [Norway] Civilizations>",
+        "Instantly consumes [20] [Silver Coin] <costs [-30 Production] stats> <for [Norway] Civilizations> <for [Itinerant Merchant] units> <in [City center] tiles> <when number of [Silver Coin] is more than [19]> <for [0] movement>",
+        "Can transform to [Great General] <costs [60] [Silver Coin]> <for [Military] units> <when number of [Silver Coin] is more than [49]>",
         
     // 其他修正
     "Can build [Farm] improvements on tiles <for [Human player] Civilizations> <for [Foot Soldier] units> <after adopting [Military Reclamation System]>", "Can build [Mine] improvements on tiles <for [Human player] Civilizations> <for [Foot Soldier] units> <after adopting [Military Reclamation System]>"

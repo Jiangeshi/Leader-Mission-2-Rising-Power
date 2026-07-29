@@ -614,8 +614,8 @@
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
-		"majorDepositAmount": {"sparse": 10, "default": 12, "abundant": 13},
-		"minorDepositAmount": {"sparse": 7, "default": 9, "abundant": 10}
+		"majorDepositAmount": {"sparse": 12, "default": 13, "abundant": 14},
+		"minorDepositAmount": {"sparse": 9, "default": 10, "abundant": 11}
 	},
 	{
 		"name": "Uranium",
@@ -749,6 +749,11 @@
 		"name": "Marriage Point",  
 		"resourceType": "Strategic",
 	    "uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Marriage with Austria R",  
+		"resourceType": "Strategic",
+	    "uniques": ["Cannot be traded", "Not shown on world screen", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Diplomatic Point",  
@@ -907,5 +912,19 @@
 	    "uniques": [
 	    //"Not shown on world screen",
 	     "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	
+	// 法兰克文明能力
+	{
+		"name": "Buildable Barbarian encampment",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
+	},
+	
+	// 挪威文明能力
+	{
+		"name": "Silver Coin",  
+		"resourceType": "Strategic",
+	    "uniques": ["Not shown on world screen <for [non-[Norway]] Civilizations>", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
 	},
 ]

@@ -1450,8 +1450,10 @@
     {
         "name": "[Redshirts] ability",
         "uniques": ["[+15]% Strength <when fighting in [Hill] tiles>"],                
-        
-        
+    },
+    {
+        "name": "[Fjelljeger] ability",
+        "uniques": ["[+1] Movement <in [Hill] tiles>"],   
 	// 特殊
 	},
 	{     
@@ -1510,7 +1512,7 @@
     },
     {
         "name": "Movement Damage",
-        "uniques":["[-1] Movement"]
+        "uniques":["[-1] Movement", "[-15]% Strength"]
     },
     {
         "name": "Gain 2 Movement",

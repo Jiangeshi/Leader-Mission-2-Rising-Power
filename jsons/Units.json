@@ -67,7 +67,12 @@
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>",
 		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
+		
+		// 吕底亚
 		"Gain [1] [Culture] <upon losing the [Grain Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Strategic Resource Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Luxury Goods Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
+		
+		// 挪威
+		"Instantly provides [4] [Silver Coin] <upon losing the [Grain Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [4] [Silver Coin] <upon losing the [Strategic Resource Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [4] [Silver Coin] <upon losing the [Luxury Goods Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", 
 		]
 		"movement": 2
 		
@@ -126,6 +131,7 @@
 		"Can build [Road] improvements on tiles <for [Human player] Civilizations>"
 		]
 		"attackSound": "nonmetalhit"
+		
     // 步兵
 	},
 	{
@@ -727,6 +733,22 @@
 		"obsoleteTech": "Military Science",
 		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
 		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"	
+	},
+	{
+		"name": "Fjelljeger",
+		"unitType": "Shooter",
+		"uniqueTo": "Norway",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "Crossbowman",
+		"cost": 145,
+	    "requiredTech": "Steel",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Military Science",
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Invisible to non-adjacent units <in [Hill] tiles>"]
+		"promotions": ["[Fjelljeger] ability"],
 		"attackSound": "crossbow"	
 	},
 	{

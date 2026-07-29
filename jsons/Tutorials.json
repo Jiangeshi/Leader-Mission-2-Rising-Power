@@ -14,7 +14,7 @@
       {"text":"Excessive military aggression will inevitably lead to the downfall of the country. [Warfare Aversion Level] will gradually increase as the war progresses and bring negative effects. Please closely monitor the changes in the [Warfare Aversion Level] during the war!"}, 
       {},
       {"text":"The increase in Warfare Aversion Level:","header":4,"color": "#ff0000"},
-      {"text":"When in war, each turn will increase 1 [Warfare Aversion Level]. \nWhen one's own military unit is defeated, increase 1 [Warfare Aversion Level]."}
+      {"text":"When in war, each turn will increase 1 [Warfare Aversion Level]. \nWhen one's own military unit is defeated, increase 2 [Warfare Aversion Level]."}
       {},
       {"text":"The decrease in Warfare Aversion Level:","header":4,"color": "#90ee90"},
       {"text":"When not in war, reduce the [Warfare Aversion Level] per turn. When the [Warfare Aversion Level] is greater than 0/10/30/50/70/100, the reduced [Warfare Aversion Level] corresponds to 1/2/3/4/5/6.\nWhen defeating enemy military units reduce 2 [Warfare Aversion Level].\nWhen the [Warfare Aversion Level] is greater than 20 and conquering a city reduce 20 [Warfare Aversion Level]."},

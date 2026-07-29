@@ -183,7 +183,7 @@
     {
         "name": "Liberation Theology",
         "type": "Founder",
-        "uniques": ["[+3 Production] [in all cities] <with a garrison> <after discovering [Theology]>"]
+        "uniques": ["[+2 Production] [in all cities] <with a garrison> <after discovering [Theology]>"]
     },
     {
         "name": "Popular Religion",
@@ -193,7 +193,7 @@
     {
         "name": "Feed the World",
         "type": "Founder",
-        "uniques": ["[+2 Food] from all [Faith] buildings"]
+        "uniques": ["[+2 Food] from all [Faith] buildings", "[-1 Food] from all [Worship Building] buildings"]
     },
     {
         "name": "State Religion",
