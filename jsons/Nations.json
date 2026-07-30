@@ -6,7 +6,7 @@
 //		"innerColor": [255,255,255]
 
     // 亚洲
-    },
+    }
 	{
 		"name": "Iran",
 		"leaderName": "Leader",
@@ -1514,7 +1514,7 @@
 
         "favoredReligion": "Christianity",
         "uniqueName": "North Sea Silver Pact",
-        "uniqueText": "[Provides [1] [Silver Coin], gain 1 / 5 [Silver Coin] when Military units damage / kill enemy units, doubled in Golden Age]\n[[Itinerant Merchant] convert [Silver Coin] to [Production] at 1:1.5 rate in [City center]]\n[Spend 60 [Silver Coin] to upgrade a military unit to [Great General]]",
+        "uniqueText": "[Provides [1] [Silver Coin], gain 1 / 5 [Silver Coin] when Military units damage / kill enemy units, doubled in Golden Age]\n[[Itinerant Merchant] convert [Silver Coin] to [Production] at 1:2 rate in [City center]]\n[Spend 60 [Silver Coin] to upgrade a military unit to [Great General]]",
         "uniques": [
         "Provides [1] [Silver Coin]",
         "Provides [1] [Silver Coin] <during a Golden Age>",
@@ -1550,8 +1550,8 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Descendants of the Sun",
-		"uniqueText": "Units ignore terrain costs when moving into any tile with Hills, \n+1 ☮Faith from Hill tiles without ⁂Bonus resource in all cities",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles without [Bonus resource] [in all cities]",
+		"uniqueText": "[Units ignore terrain costs when moving into any tile with Hills]\n[[+1 Faith] from [Hill] tiles [in all cities]]",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills", "[+1 Faith] from [Hill] tiles [in all cities]",
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -1617,8 +1617,9 @@
 		"innerColor": [24, 63, 66],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
-	    "uniqueText": "Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Calendar]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count",
-		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Calendar]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+	    "uniqueText": "[Receive a free Great Person at the end of every Maya Long Count calendar cycle (every 394 years) after researching [Theology]. Each bonus person can only be chosen once\nOnce The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count]\n[Research [25]% of [Theology]]",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.", "Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+		"Research [25]% of [Theology] <upon discovering [Drill Wood to Make Fire] technology>"
 		],
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
@@ -2262,7 +2263,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "People of Prairie",
-		"uniqueText": "Gain 35 ¤Gold upon shooter units being defeated☠\nMobile unit heals 5 HP and gains 1 XP upon ending a turn in a grassland tile" 
+		"uniqueText": "Shooter units +10% Strength in [Grassland] tiles\nMobile unit heals 5 HP and gains 1 XP upon ending a turn in a grassland tile" 
 		"uniques": [],
 		"cities": ["Massagetae","Scythian Neapolis","Samarkand","Bukhara","Yotgan","Khujand","Talas","Bactra","Chach","Sigal","Parni","Kesh","Khwarazm","Ishtikhan","Ushrusana","Kabutana","Bitik","Tanais","Aksikent","Kabdiyn","Maymurgh","Kushanika","Barbarikon","Osh","Xanthii",
 		"Pissuri","Kapisa","Alay","Erkeshtam","Barda","Min","Palacenti","Minnagara","Chigu","Alexanderia Prophthasia","Agathyrsi","Sindica","Iškuza","Maeotae","Panticapaeum","Pontic Olbia","Phanagoria","Hermonassa","Kallatis","Dionysupolis"
@@ -2353,7 +2354,7 @@
         "innerColor": [174,107,42],
 		"favoredReligion": "Judaism",
 		"uniqueName": "Wolf of the Prairie",
-		"uniqueText": "[[[Target Unit] takes [5] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
+		"uniqueText": "[[[Target Unit] takes [6] damage] [upon damaging a [Wounded] unit]]\n[\"Borrows\" city names from other civilizations in the game]",
 		"uniques": ["[Military] units gain the [Turk ability] promotion", "\"Borrows\" city names from other civilizations in the game", ],
 		"cities": ["Qutaghan"],
         "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]

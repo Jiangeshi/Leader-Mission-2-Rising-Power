@@ -2,9 +2,8 @@
     "name": "Global uniques",
     "uniques": [
     // 战争修正
-    "[-10]% [Culture] <upon losing a city> <for [10] turns>",
-    "[-10]% [Science] <upon losing a city> <for [10] turns>",
-    "[-10]% [Gold] <upon losing a city> <for [10] turns>",
+    "Set [City loss penalty] to [10] <upon losing a city>", "Provides [-1] [City loss penalty] <when above [0] [City loss penalty]>",
+    
     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
     "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
     "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
@@ -269,7 +268,7 @@
         "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts] Civilizations>",
         "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu] Civilizations> <in [Your] cities> <hidden from users> <for [{Land} {Military}] units>", 
         "May Paradrop to [non-[Enemy]] tiles up to [2] tiles away <for [Cuba] Civilizations> <for [Foot Soldier] units>"
-        "Gain [35] [Gold] <upon being defeated> <for [Scythian] Civilizations> <for [Shooter] units>",
+        "[+10]% Strength <in [Grassland] tiles> <for [Scythian] Civilizations> <for [Shooter] units>",
         "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts] Civilizations> <if [Civilized Leader-Boudicca] is constructed> <for [Shooter] units>",
         "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian] Civilizations> <for [Mobile] units>",
         "Instantly gain [30] [Golden Age points] <upon entering combat> <for [Melee] units> <for [Assyrian] Civilizations> <if [Civilized Leader-Tiglath Pileser III] is constructed> <(modified by game speed)>",
@@ -298,7 +297,7 @@
         "Instantly provides [5] [Silver Coin] <upon defeating a [Military] unit> <for [Norway] Civilizations> <when not in a Golden Age>"
         "Instantly provides [2] [Silver Coin] <upon damaging a [Military] unit> <during a Golden Age> <for [Norway] Civilizations>",
         "Instantly provides [10] [Silver Coin] <upon defeating a [Military] unit> <during a Golden Age> <for [Norway] Civilizations>",
-        "Instantly consumes [20] [Silver Coin] <costs [-30 Production] stats> <for [Norway] Civilizations> <for [Itinerant Merchant] units> <in [City center] tiles> <when number of [Silver Coin] is more than [19]> <for [0] movement>",
+        "Instantly consumes [10] [Silver Coin] <costs [-20 Production] stats> <for [Norway] Civilizations> <for [Itinerant Merchant] units> <in [City center] tiles> <when number of [Silver Coin] is more than [9]> <for [0] movement>",
         "Can transform to [Great General] <costs [60] [Silver Coin]> <for [Military] units> <when number of [Silver Coin] is more than [49]>",
         
     // 其他修正

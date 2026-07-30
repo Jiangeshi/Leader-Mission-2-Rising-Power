@@ -72,7 +72,7 @@
 		"Gain [1] [Culture] <upon losing the [Grain Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Strategic Resource Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Luxury Goods Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
 		
 		// 挪威
-		"Instantly provides [4] [Silver Coin] <upon losing the [Grain Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [4] [Silver Coin] <upon losing the [Strategic Resource Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [4] [Silver Coin] <upon losing the [Luxury Goods Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", 
+		"Instantly provides [6] [Silver Coin] <upon losing the [Grain Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Strategic Resource Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Luxury Goods Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", 
 		]
 		"movement": 2
 		
@@ -1068,7 +1068,7 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 26,
+		"strength": 25,
 		"cost": 170,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",

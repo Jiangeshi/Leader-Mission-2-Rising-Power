@@ -1722,16 +1722,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+1 ♪Culture in all cities during the Ancient era\n+10% ♪Culture in all cities starting from the Classical era",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities] <during the [Ancient era]>", "[+10]% [Culture] [in all cities] <starting from the [Classical era]>"]
+		"replacementTextForUniques": "[[[+1 Culture] [in all cities]] [during the [Ancient era]]]\n[[[+15]% [Culture] [in all cities]] [starting from the [Classical era]]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+1 Culture] [in all cities] <during the [Ancient era]>", "[+15]% [Culture] [in all cities] <starting from the [Classical era]>"]
 	},
 	{
         "name": "Civilized Leader-First Emperor of Qin",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "[[[[+10]% Strength] [for [Military] units]] [before discovering [Nation]]]\n[[[+15]% Production when constructing [All] wonders [in all cities]] [after discovering [Nation]]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Chinese Military Leader", "Only available <in cities without a [Chinese Military Leader]>", "[+10]% Strength <for [Military] units> <before discovering [Nation]>", "[+15]% Production when constructing [All] wonders [in all cities] <after discovering [Nation]>"]	
+		"replacementTextForUniques": "[[[[+13]% Strength] [for [Military] units]] [before discovering [Nation]]]\n[[[+15]% Production when constructing [All] wonders [in all cities]] [after discovering [Nation]]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "Chinese Military Leader", "Only available <in cities without a [Chinese Military Leader]>", "[+13]% Strength <for [Military] units> <before discovering [Nation]>", "[+15]% Production when constructing [All] wonders [in all cities] <after discovering [Nation]>"]	
 	},
 	{
 	    "name": "Civilized Leader-Emperor Wu of Han",
@@ -1754,8 +1754,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "China",
-		"replacementTextForUniques": "+13% ⍾Science and ♪Culture in all cities",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+13]% [Science] [in all cities]", "[+13]% [Culture] [in all cities]"]
+		"replacementTextForUniques": "[[+15]% [Science] [in all cities]]\n[[+15]% [Culture] [in all cities]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [2] [Number of Leaders]>", "[+15]% [Science] [in all cities]", "[+15]% [Culture] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Kublai1",
@@ -2068,9 +2068,9 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Sri Vijaya",
-		"replacementTextForUniques": "[+4 [Gold] in all land cities]",
+		"replacementTextForUniques": "[+3 [Gold] in all land cities]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>",
-	"[+4 Gold] [in all cities]", "[-4 Gold] [in all coastal cities]"]
+	"[+3 Gold] [in all cities]", "[-3 Gold] [in all coastal cities]"]
 	
 	// 希腊
 	},
@@ -2243,16 +2243,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "[[Faith] cost of purchasing [Great Prophet] units [-33]%]\n[[+1 Faith] [in capital]]",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[Faith] cost of purchasing [Great Prophet] units [-33]%", "[+1 Faith] [in all cities]"]
+		"replacementTextForUniques": "[[Faith] cost of purchasing [Great Prophet] units [-25]%]\n[[+1 Faith] [in capital]]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[Faith] cost of purchasing [Great Prophet] units [-25]%", "[+1 Faith] [in all cities]"]
 	},
 	{	
         "name": "Civilized Leader-Justinian I",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Byzantium",
-		"replacementTextForUniques": "+1 ☮Faith in all cities\n+2 ☮Faith in capital",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+1 Faith] [in all cities]", "[+2 Faith] [in capital]"]
+		"replacementTextForUniques": "[[+1 Faith] [in all cities]]\n[[+1 Faith] [in capital]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+1 Faith] [in all cities]", "[+1 Faith] [in capital]"]
 	},
 	{
 		"name": "Racetrack",
@@ -2964,7 +2964,7 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Norway",
-		"replacementTextForUniques": "[[Free [Itinerant Merchant] appears] [upon discovering [The Wheel] technology]]\n[Gain extra [4] [Silver Coin] when selling cargo][(modified by Era number)]",
+		"replacementTextForUniques": "[[Free [Itinerant Merchant] appears] [upon discovering [The Wheel] technology]]\n[Gain extra [6] [Silver Coin] when selling cargo][(modified by Era number)]",
 		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Free [Itinerant Merchant] appears <upon discovering [The Wheel] technology>"]
 	},
 	{	
@@ -2972,8 +2972,8 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Norway",
-		"replacementTextForUniques": "[[Instantly provides [8] [Silver Coin]] [upon discovering [All] technology]][(modified by Era number)]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Instantly provides [8] [Silver Coin] <upon discovering [Ancient era] technology>", "Instantly provides [16] [Silver Coin] <upon discovering [Classical era] technology>", "Instantly provides [24] [Silver Coin] <upon discovering [Medieval era] technology>", "Instantly provides [32] [Silver Coin] <upon discovering [Renaissance era] technology>", "Instantly provides [50] [Silver Coin] <upon discovering [Industrial era] technology>", "Instantly provides [48] [Silver Coin] <upon discovering [Modern era] technology>", "Instantly provides [56] [Silver Coin] <upon discovering [Atomic era] technology>", "Instantly provides [64] [Silver Coin] <upon discovering [Information era] technology>"]
+		"replacementTextForUniques": "[[Instantly provides [10] [Silver Coin]] [upon discovering [All] technology]][(modified by Era number)]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "Instantly provides [10] [Silver Coin] <upon discovering [Ancient era] technology>", "Instantly provides [20] [Silver Coin] <upon discovering [Classical era] technology>", "Instantly provides [30] [Silver Coin] <upon discovering [Medieval era] technology>", "Instantly provides [40] [Silver Coin] <upon discovering [Renaissance era] technology>", "Instantly provides [50] [Silver Coin] <upon discovering [Industrial era] technology>", "Instantly provides [60] [Silver Coin] <upon discovering [Modern era] technology>", "Instantly provides [70] [Silver Coin] <upon discovering [Atomic era] technology>", "Instantly provides [80] [Silver Coin] <upon discovering [Information era] technology>"]
 	},
 	{
 		"name": "Stave Lodge",
@@ -3001,7 +3001,7 @@
 		"replaces": "Shrine",
         "uniqueTo": "Inca",
 		"culture": 2,
-		"faith": 1, 
+		"faith": 0, 
 		"requiredTech": "Belief Worship",
 		"uniques":["Only available <in cities with a [City Level I]>", "Provides [1] [Number of Buildings] <in this city>", "BUILDING"]
 	
@@ -3484,16 +3484,16 @@
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turk",
-		"replacementTextForUniques": "[[Great General] is earned [50]% faster]\n[[Instantly provides [2] [Feat]] [upon gaining a [Great General] unit]]\n[[Instantly provides [2] [Feat]] [upon founding a city]]",
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[Great General] is earned [50]% faster", "Instantly provides [2] [Feat] <upon gaining a [Great General] unit>", "Instantly provides [2] [Feat] <upon founding a city>"]	
+		"replacementTextForUniques": "[[Great General] is earned [50]% faster]\n[[Instantly provides [6] [Feat]] [upon founding a city]]",
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[Great General] is earned [50]% faster","Instantly provides [6] [Feat] <upon founding a city>"]	
 	},
 	{	
         "name": "Civilized Leader-Ashina Dujishi",
 		"isNationalWonder": true,
 		"cost":1,
 		"uniqueTo": "Turk",
-		"replacementTextForUniques": "[[+1 Production] from every [Camp]]\n[[+1 Science] from [Grassland] tiles [in capital]]",	
-		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+1 Production] from every [Camp]", "[+1 Science] from [Grassland] tiles [in capital]", "[-15]% Culture cost of adopting new Policies",]
+		"replacementTextForUniques": "[[+1 Production] from every [Camp]]\n[+1 [Science] from [Grassland] and [Plains] tiles in capital]",	
+		"uniques": ["Can only be built<in [in capital] cities>", "Provides [1] [Number of Leaders]", "Only available <when below [1] [Number of Leaders]>", "[+1 Production] from every [Camp]", "[+1 Science] from [Grassland] tiles [in capital]", "[+1 Science] from [Plains] tiles [in capital]"]
 	
 	// 澳大利亚
 	},

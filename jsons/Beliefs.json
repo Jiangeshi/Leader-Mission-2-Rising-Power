@@ -327,17 +327,17 @@
     {
         "name": "Religious War",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when adjacent to a [Religious Unit] unit>"] 
+        "uniques": ["[+15]% Strength <for [All] units> <when adjacent to a [Religious Unit] unit>", "Only available <before adopting [Defender of the Faith]> <hidden from users>", "Only available <before adopting [Crusader]> <hidden from users>"]
     },
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>", "Only available <before adopting [Religious War]> <hidden from users>", "Only available <before adopting [Crusader]> <hidden from users>"]
     },
     {
         "name": "Crusader",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>", "Only available <before adopting [Defender of the Faith]> <hidden from users>", "Only available <before adopting [Religious War]> <hidden from users>"]
     },
     {
         "name": "Itinerant Preachers",

@@ -1500,7 +1500,7 @@
 	},
     {
         "name": "Turk ability",
-        "uniques":["[Target Unit] takes [5] damage <upon damaging a [Wounded] unit>"]
+        "uniques":["[Target Unit] takes [6] damage <upon damaging a [Wounded] unit>"]
     },
 	{
 		"name": "Military City ability",
