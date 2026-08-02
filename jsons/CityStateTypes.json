@@ -517,44 +517,4 @@
             "[+5]% Production when constructing [All] buildings [in all cities]"
             "Provides [2] [Diplomatic Point]"
         ],
-        "color": [196, 129, 41]
-    },
-    {
-        "name": "Cardiff",
-        "friendBonusUniques":  [
-            "[+1 Production] [in all cities] <before the [Medieval era]>",
-            "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>"
-            "[-7]% construction time for [All] improvements <for [Civilian] units>"
-            "Provides [1] [Diplomatic Point]"
-        ],
-        "allyBonusUniques":  [
-            "[+1 Production] [in all cities] <before the [Medieval era]>",
-            "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
-            "[+3]% [Production] [in all cities]",
-            "[-12]% construction time for [All] improvements <for [Civilian] units>"
-            "Provides [2] [Diplomatic Point]"
-        ],
-        "color": [196, 129, 41]
-    },
-    {
-        "name": "Johannesburg",
-        "friendBonusUniques":  [
-            "[+1 Production] [in all cities] <before the [Medieval era]>",
-            "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
-            "[+10]% Production when constructing [All] wonders [in all cities]",
-            "Provides [1] [Diplomatic Point]"
-        ],
-        "allyBonusUniques":  [
-            "[+1 Production] [in all cities] <before the [Medieval era]>",
-            "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
-            "[+3]% [Production] [in all cities]",
-            "[+15]% Production when constructing [All] wonders [in all cities]",
-            "Provides [2] [Diplomatic Point]"
-        ],
-        "color": [196, 129, 41]
-    }
-]
+        "color": 

@@ -926,6 +926,6 @@
 	{
 		"name": "City loss penalty",  
 		"resourceType": "Strategic",
-	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled", "[-10]% [Culture] [in all cities]", "[-10]% [Science] [in all cities]", "[-10]% [Gold] [in all cities]"]    
+	    "uniques": ["Not shown on world screen", "Cannot be traded", "Will not be displayed in Civilopedia", "Stockpiled"]    
 	},
 ]

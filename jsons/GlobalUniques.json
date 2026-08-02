@@ -2,8 +2,9 @@
     "name": "Global uniques",
     "uniques": [
     // 战争修正
-    "Set [City loss penalty] to [10] <upon losing a city>", "Provides [-1] [City loss penalty] <when above [0] [City loss penalty]>",
-    
+    "Set [City loss penalty] to [11] <upon losing a city>", "Provides [-1] [City loss penalty] <when above [0] [City loss penalty]>",
+     "[-10]% [Culture] [in all cities] <when above [0] [City loss penalty]>", "[-10]% [Science] [in all cities] <when above [0] [City loss penalty]>", "[-10]% [Gold] [in all cities] <when above [0] [City loss penalty]>"
+     
     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
     "Upon capturing a city, receive [10] times its [Science] production as [Science] immediately",
     "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
