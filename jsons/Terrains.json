@@ -1,5 +1,5 @@
 [
-	// Base terrains
+	
 	{
 		"name": "Ocean",
 		"type": "Water",
@@ -127,7 +127,7 @@
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            //"Units ending their turn on this terrain take [50] damage",
+            
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},
@@ -135,7 +135,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 2,
-		"RGB": [230, 238, 255], //Darker229, 229, 255
+		"RGB": [230, 238, 255], 
 		"uniques": [
 		    "Has an elevation of [1] for visibility calculations",
             "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
@@ -149,7 +149,7 @@
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 
-	// Terrain features
+	
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
@@ -240,7 +240,7 @@
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Bamboo] Regions>",
-					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Marsh",
@@ -251,7 +251,7 @@
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"[-2] to Fertility for Map Generation",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
+					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Fallout",
@@ -259,9 +259,9 @@
 		"movementCost": 2,
 		"unbuildable": true,
 		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		// For map editor only - the generator won't place it without code or enabling uniques
-		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
+		
+		
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
 		"defenceBonus": -0.15
 	},
 	{
@@ -312,7 +312,7 @@
 		"uniques": ["Rare feature"]
 	},
 
-	// Natural Wonders
+	
 	{
 		"name": "Great Barrier Reef",
 		"type": "NaturalWonder",
@@ -360,7 +360,7 @@
 			"Grants [+500 Gold] to the first civilization to discover it"],
 		"weight": 2
 	},
-	{ // This will count as "Fresh water" in civ 6
+	{ 
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
@@ -462,7 +462,7 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	// G&K Wonders
+	
 	{
 		"name": "Mount Kailash",
 		"type": "NaturalWonder",
@@ -525,7 +525,7 @@
 		"unbuildable": true,
 		"weight": 10
 		
-	//模组新地形
+	
 	},
 	{
 		"name": "Geothermal Crevice",
@@ -550,7 +550,7 @@
 		"uniques": ["Rough terrain","Rare feature", 
 		"Never receives any resources",
 			"Tile provides yield without assigned population",
-			//"Units ending their turn on this terrain take [70] damage",
+			
 			"Blocks line-of-sight from tiles at same elevation",
 				"Has an elevation of [3] for visibility calculations",
 				"Nullifies all other stats this tile provides"],
@@ -565,13 +565,13 @@
 		"production": -1,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": -0.33
+		"defenceBonus": -0.33,
 		"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
 		"uniques": ["Base Terrain on this tile is not counted for Region determination",
-			//"Units ending their turn on this terrain take [20] damage",
+			
 			"Doesn't generate naturally",
 			"Never receives any resources"
-	]
+	],
 		"civilopediaText": [
 		{"text":"Only generated around the volcano", "link":"Terrain/Volcano"}]	
 	},
@@ -607,7 +607,7 @@
 		"name": "Black Earth",
 		"type": "TerrainFeature",
 		"occursOn": ["Tundra", "Snow", "Plains"],
-		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation",
+		"uniques": ["Rare feature", "Always Fertility [+4] for Map Generation"
 		]
 	},
 	{
@@ -618,8 +618,8 @@
 		"movementCost": 4,
 		"uniques": ["Rough terrain", "Rare feature", "Always Fertility [+4] for Map Generation",
 		            "Has an elevation of [1] for visibility calculations",
-            "Occurs in chains at high elevations",
-            //"Units ending their turn on this terrain take [50] damage",
+            "Occurs in chains at high elevations"
+            
 		]
 	},
 	{
@@ -643,7 +643,7 @@
 		"defenceBonus": 0.15,
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
-            "Must be adjacent to [1] [Hill] tiles", "Must be adjacent to [0] [Coast] tiles", "Rough terrain", "Rare feature", "Only [Tourist Attractions] improvements may be built on this tile",
+            "Must be adjacent to [1] [Hill] tiles", "Must be adjacent to [0] [Coast] tiles", "Rough terrain", "Rare feature", "Only [Tourist Attractions] improvements may be built on this tile"
             ]
-	},
+	}
 ]

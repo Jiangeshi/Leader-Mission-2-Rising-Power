@@ -215,13 +215,13 @@
         "name": "Mercantile",
         "friendBonusUniques": [
             "[+2 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+3 Gold] from each Trade Route <starting from the [Medieval era]>"
+            "[+3 Gold] from each Trade Route <starting from the [Medieval era]>",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route <starting from the [Medieval era]>"
-            "Provides a unique luxury"
+            "[+5 Gold] from each Trade Route <starting from the [Medieval era]>",
+            "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 216, 0]
@@ -236,7 +236,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "Provides a unique luxury",
             "[+1 Gold] from [Water] tiles [in all cities]",
             "Provides [2] [Diplomatic Point]"
@@ -253,7 +253,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "Provides a unique luxury",
             "[+2 Gold] from [River] tiles [in capital]",
             "Provides [2] [Diplomatic Point]"
@@ -269,7 +269,7 @@
         ],
         "allyBonusUniques": [
             "[+7 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+10 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+10 Gold] from each Trade Route<starting from the [Medieval era]>",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
         ],
@@ -285,7 +285,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "[+12]% [Gold] <when not at war>",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
@@ -302,7 +302,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "[+3]% [Gold] from every [{Gold} {BUILDING}]",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
@@ -319,7 +319,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "Gifts of Gold to City-States generate [+50]% more Influence",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
@@ -336,7 +336,7 @@
         ],
         "allyBonusUniques": [
             "[+3 Gold] from each Trade Route <before the [Medieval era]>",
-            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>"
+            "[+5 Gold] from each Trade Route<starting from the [Medieval era]>",
             "[-33]% maintenance cost for [All] buildings [in all cities]",
             "Provides a unique luxury",
             "Provides [2] [Diplomatic Point]"
@@ -417,13 +417,13 @@
         "friendBonusUniques":  [
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+13 Faith] <starting from the [Industrial era]>",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+26 Faith] <starting from the [Industrial era]>",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]
@@ -433,15 +433,15 @@
         "friendBonusUniques":  [
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
-            "[Faith] cost of purchasing items in cities [-3]%"
+            "[+13 Faith] <starting from the [Industrial era]>",
+            "[Faith] cost of purchasing items in cities [-3]%",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
-            "[Faith] cost of purchasing items in cities [-7]%"
+            "[+26 Faith] <starting from the [Industrial era]>",
+            "[Faith] cost of purchasing items in cities [-7]%",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]   
@@ -451,15 +451,15 @@
         "friendBonusUniques":  [
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
-            "[+25]% Natural religion spread [in all cities]"
+            "[+13 Faith] <starting from the [Industrial era]>",
+            "[+25]% Natural religion spread [in all cities]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
-            "[+50]% Natural religion spread [in all cities]"
+            "[+26 Faith] <starting from the [Industrial era]>",
+            "[+50]% Natural religion spread [in all cities]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]
@@ -469,26 +469,26 @@
         "friendBonusUniques":  [
             "[+3 Faith] <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+13 Faith] <starting from the [Industrial era]>",
             "[+4]% [Faith] from every [{Faith} {BUILDING}]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+26 Faith] <starting from the [Industrial era]>",
             "[+6]% [Faith] from every [{Faith} {BUILDING}]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [255, 255, 255]    
         
-    }
+    },
     {
         "name": "Industry",
         "friendBonusUniques":  [
             "[+1 Production] [in all cities] <before the [Medieval era]>",
             "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>"
+            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
@@ -505,8 +505,8 @@
         "friendBonusUniques":  [
             "[+1 Production] [in all cities] <before the [Medieval era]>",
             "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>"
-            "[+5]% Production when constructing [All] buildings [in capital]"
+            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
+            "[+5]% Production when constructing [All] buildings [in capital]",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
@@ -514,7 +514,7 @@
             "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+3 Production] [in all cities] <starting from the [Industrial era]>",
             "[+3]% [Production] [in all cities]",
-            "[+5]% Production when constructing [All] buildings [in all cities]"
+            "[+5]% Production when constructing [All] buildings [in all cities]",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [196, 129, 41]
@@ -524,8 +524,8 @@
         "friendBonusUniques":  [
             "[+1 Production] [in all cities] <before the [Medieval era]>",
             "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+3 Production] [in all cities] <starting from the [Industrial era]>"
-            "[-7]% construction time for [All] improvements <for [Civilian] units>"
+            "[+3 Production] [in all cities] <starting from the [Industrial era]>",
+            "[-7]% construction time for [All] improvements <for [Civilian] units>",
             "Provides [1] [Diplomatic Point]"
         ],
         "allyBonusUniques":  [
@@ -533,7 +533,7 @@
             "[+2 Production] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+3 Production] [in all cities] <starting from the [Industrial era]>",
             "[+3]% [Production] [in all cities]",
-            "[-12]% construction time for [All] improvements <for [Civilian] units>"
+            "[-12]% construction time for [All] improvements <for [Civilian] units>",
             "Provides [2] [Diplomatic Point]"
         ],
         "color": [196, 129, 41]

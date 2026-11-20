@@ -73,7 +73,7 @@
           "Militaristic": 0.5
       }
   },
-  /* G&K */
+  
   {
     "name": "Give Gold",
     "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
@@ -178,11 +178,6 @@
           "Religious": 3
       }
   }
-  /* BNW */
-  /*
-  {
-    "name": "Trade Route",
-    "description": ""
-  }
-  */
+  
+  
 ]

@@ -1,8 +1,8 @@
 [
-  // Each entry is a tutorial, but the tutorial may be spread over separate paragraphs.
+  
 
   {
-  // 模组介绍
+  
     "name": "1.1 Mod Introduction",
     "steps": [
       "Welcome to Leader-Mission-2-Rising-Power!\nAs the second installment of the Leadership Mission series, Leadership Mission 2 has been limited in strength compared to the first generation civilization and optimized for the gaming experience. Having a good trip!"
@@ -14,7 +14,7 @@
       {"text":"Excessive military aggression will inevitably lead to the downfall of the country. [Warfare Aversion Level] will gradually increase as the war progresses and bring negative effects. Please closely monitor the changes in the [Warfare Aversion Level] during the war!"}, 
       {},
       {"text":"The increase in Warfare Aversion Level:","header":4,"color": "#ff0000"},
-      {"text":"When in war, each turn will increase 1 [Warfare Aversion Level]. \nWhen one's own military unit is defeated, increase 2 [Warfare Aversion Level]."}
+      {"text":"When in war, each turn will increase 1 [Warfare Aversion Level]. \nWhen one's own military unit is defeated, increase 2 [Warfare Aversion Level]."},
       {},
       {"text":"The decrease in Warfare Aversion Level:","header":4,"color": "#90ee90"},
       {"text":"When not in war, reduce the [Warfare Aversion Level] per turn. When the [Warfare Aversion Level] is greater than 0/10/30/50/70/100, the reduced [Warfare Aversion Level] corresponds to 1/2/3/4/5/6.\nWhen defeating enemy military units reduce 2 [Warfare Aversion Level].\nWhen the [Warfare Aversion Level] is greater than 20 and conquering a city reduce 20 [Warfare Aversion Level]."},
@@ -28,7 +28,7 @@
     "civilopediaText": [
       {"text":"It seems that your citizens are unhappy!\nWhile unhappy, your civilization will suffer many detrimental effects, increasing in severity as unhappiness gets higher."},
       {"text":"Unhappiness has two main causes: Population and cities.\n  Each city causes 3 unhappiness, and each population, 1"},
-      {"text":"There are 2 main ways to combat unhappiness:\n  by building happiness buildings for your population\n  or by having improved luxury resources within your borders."}
+      {"text":"There are 2 main ways to combat unhappiness:\n  by building happiness buildings for your population\n  or by having improved luxury resources within your borders."},
       {"text":"The impact of Unhappiness:","header":4,"color": "#ff0000"},
       {"text":"-10~-1 [Happiness]:\n[[-50]% growth [in all cities]]\n\n-15~-10 [Happiness]:\n[[-75]% growth [in all cities]]\n\n-∞~-10 [Happiness]:\n[Cannot build [Settler] units]\n\n-∞~-15 [Happiness]:\n[Nullifies Growth [in all cities]]\n[[-50]% [Production] [in all cities]]\n[Rebel units may spawn]\n[[-25]% Strength]"}
     ]  
@@ -37,12 +37,12 @@
     "name": "1.4 Barbarian Breakout Mode",
     "steps": [
       "New Mode: Barbarian Breakout\nOpening method: Speed - Barbarian Breakout\nIntroduction:1. The  speed of Barbarian Breakout is based on quick speed.\n2. Under the Barbarian Breakout, the generation rate of the barbarians is 10 times higher than the normal rate.\n3.Under the  Barbarian Breakout, the barbarians no longer suffer negative effects of -10% Strength, but instead become+33% Strength.\n4. In Barbarian Breakout, players unlock the War policy from the beginning.\n5. In Barbarian Breakout, players can obtain 50% of the combat power, [Gold], [Science], and [Faith] of barbarian units by killing them."
-    ],
+    ]
   },
   {
     "name": "1.5 City Level",
     "steps": [
-      "In LM2, cities are classified into five levels, I to V, based on the number of buildings (1, 4, 8, 13, 17) within the city. The city level will limit the number of buildings that can be built in the city, so you need to upgrade the city by building more low-level buildings in order to be able to build high-level buildings.",
+      "In LM2, cities are classified into five levels, I to V, based on the number of buildings (1, 4, 8, 13, 17) within the city. The city level will limit the number of buildings that can be built in the city, so you need to upgrade the city by building more low-level buildings in order to be able to build high-level buildings."
     ]
   },
   {
@@ -54,7 +54,7 @@
   {
     "name": "1.7 Cultural Victory",
     "steps": [
-      "A new victory condition: Cultural Victory! When you enable the Cultural Victory option, certain buildings and all world wonders will provide external cultural influence. Additionally, tourist attractions and landmarks will also contribute to external cultural influence."
+      "A new victory condition: Cultural Victory! When you enable the Cultural Victory option, certain buildings and all world wonders will provide external cultural influence. Additionally, tourist attractions and landmarks will also contribute to external cultural influence.",
       "If Cultural Victory is enabled, your Great Artists will be able to travel freely to any location without being restricted by borders. When your Great Artist ends their turn in the territory of another civilization, they will provide a significant amount of external cultural influence.",
       "The higher your culture value, the more external cultural influence you gain per turn. The specific cultural modifier is calculated as the 6th root of your culture per turn (rounded down).",
       "Note! Tourist attractions and landmarks built by other civilizations will reduce your external cultural influence!",
@@ -92,7 +92,7 @@
       "[This Unit] takes [50] damage <upon ending a turn in a [Mountain] tile>",
       "[This Unit] takes [70] damage <upon ending a turn in a [Volcano] tile>",
       "[This Unit] takes [20] damage <upon ending a turn in a [Volcanic Soil] tile>",
-      "[This Unit] takes [50] damage <upon entering a [Reef] tile>",
+      "[This Unit] takes [50] damage <upon entering a [Reef] tile>"
     ]
   },
   {

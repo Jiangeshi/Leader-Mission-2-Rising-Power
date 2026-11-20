@@ -12,8 +12,8 @@
 		
 		
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		],
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
+		]
     },
 	{
 		"name": "Mine",
@@ -32,7 +32,7 @@
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		"Gain control over [Rough terrain] tiles in a [1]-tile radius <for [Australia] Civilizations> <hidden from users>"
-		],
+		]
 	},
 	{
 		"name": "Camp",
@@ -44,8 +44,8 @@
 		"[+2 Gold] <after discovering [Economics]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Does not need removal of [Bamboo]", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Gold] <in [Tundra] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Auspicious Snow] is constructed> <for [Finland] Civilizations> <hidden from users>",
 	    "[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		],
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Lumber mill",
@@ -60,10 +60,10 @@
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Gold] <in [Tundra] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>", "[+2 Gold] <in [Snow] tiles> <if [Blizzard Wind] is constructed> <for [Finland] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Pasture",
@@ -76,10 +76,10 @@
 		"[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]", "[+1 Food] for each adjacent [Expand Pasture] <hidden from users>", "[+2 Gold] for each adjacent [Expand Pasture] <after discovering [Agricultural Improvement]> <hidden from users>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Plantation",
@@ -90,12 +90,12 @@
 		"IMPROVEMENT",
 		"[+1 Food] <after discovering [Fertilizer]>",
 		"[+1 Gold] <after discovering [Compass]>",
-		"Does not need removal of [Bamboo]"
+		"Does not need removal of [Bamboo]",
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-		],
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Quarry",
@@ -108,10 +108,10 @@
 		"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Fishing Boats",
@@ -128,10 +128,10 @@
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Trading post",
@@ -150,10 +150,10 @@
 		"Pillaging this improvement yields approximately [+15 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Spa",
@@ -167,7 +167,7 @@
 		"Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", "[+1 Happiness] <after discovering [Architecture]>", "[+1 Happiness] <after discovering [Archaeology]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
 		]
@@ -184,7 +184,7 @@
 		"Does not need removal of [Geothermal Crevice]", "Pillaging this improvement yields approximately [+15 Gold]", 
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
 		]	
@@ -198,10 +198,10 @@
 		"Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 	},
 	{
 		"name": "Offshore Platform",
@@ -210,8 +210,8 @@
 		"uniques": [
 		"IMPROVEMENT",
 		"Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]",
-		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
-		],		
+		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>"
+		]		
 	},
 	{
 		"name": "Tourist Attractions",
@@ -244,13 +244,13 @@
 		"[+1 Food] <after discovering [Agricultural Improvement]>",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
 		]	
 	},		
 		
-	// 军事设施
+	
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Bamboo"],
@@ -262,12 +262,12 @@
 		"Can be built outside your borders", "Gives a defensive bonus of [50]%",
 		"[+1 Production] <within [1] tiles of a [City center]> <for [Singapore] Civilizations> <hidden from users>", "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
-		],
+		]
 		
-	// 移除
+	
 	},
 	{
 		"name": "Remove Forest",
@@ -297,14 +297,14 @@
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Land"],	
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"techRequired": "Trapping",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Road",
@@ -328,7 +328,7 @@
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
         
-	//道路
+	
 	},
 	{
 		"name": "Road",
@@ -342,9 +342,9 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 6,
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"],
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn when in your territory"]
 		
-	// 伟人建筑
+	
     },
     {
 		"name": "Academy",
@@ -358,7 +358,7 @@
 		"Will not be replaced by automated units",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>"
 		
 		
 		]
@@ -375,7 +375,7 @@
 	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
 		
 		 
-		"Provides [3] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]"
+		"Provides [3] [External Cultural Influence] <when [Cultural] Victory is enabled> <hidden from users>", "Comment [[[Provides [3] [External Cultural Influence]] [when [Cultural] Victory is enabled]]]",
 		"Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -415,7 +415,7 @@
 		"faith": 5,
 		"uniques": ["IMPROVEMENT", "Great Improvement", "Improves [all] resource in this tile", "Only available <for [Major] Civilizations>","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]",
 		"[+1 Food] <for [LianFang Court] Civilizations> <with [2] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",
-	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",   "Will not be replaced by automated units",
+	    "[+1 Food] <for [LianFang Court] Civilizations> <with [3] to [6] neighboring [IMPROVEMENT] tiles> <hidden from users>",   "Will not be replaced by automated units"
 		]
 	},
 	{
@@ -429,7 +429,7 @@
 		
     },
     
-	// 不可建造设施
+	
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -454,7 +454,7 @@
 		"Ensures a minimum tile yield of [+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>",
 			 "[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
             "Unpillagable", "Irremovable", "Unbuildable",
-            "Gain control over [non-[Major]] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>",
+            "Gain control over [non-[Major]] tiles in a [2]-tile radius <for [Russia] Civilizations> <hidden from users>"
             ],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -467,7 +467,7 @@
 		"uniques": ["Unpillagable", "Unbuildable <for [non-[Franks]] Civilizations>", "Can be built outside your borders <for [Franks] Civilizations>", "Marks a barbarian camp"],
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
     
-    // 特色设施
+    
     },
 	{
 		"name": "Terrace farm",
@@ -476,7 +476,7 @@
 		"food": 1,
 		"turnsToBuild": 8,
 		"uniques": ["IMPROVEMENT", "[+2 Food] <in [Bonus resource] tiles>", "[+1 Food] for each adjacent [Mountain]", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"techRequired": "The Wheel",	
+		"techRequired": "The Wheel"
 	},
 	{
 		"name": "Moai",
@@ -486,7 +486,7 @@
 		"faith": 1,
 		"turnsToBuild": 3,
 		"uniques": ["IMPROVEMENT", "Can only be built on [Coastal] tiles", "[+1 Culture, +1 Faith] for each adjacent [Moai]", "[+1 Culture, +1 Faith] <in [Bonus resource] tiles> <hidden from users>", "[+1 Culture, +1 Faith] <in [Strategic resource] tiles> <hidden from users>", "[+1 Culture, +1 Faith] <in [Luxury resource] tiles> <hidden from users>", "Comment [[+1 Culture, +1 Faith] [in [Resource] tiles]]", "[+1 Culture] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+15 Gold]"],
-		"techRequired": "Belief Worship",
+		"techRequired": "Belief Worship"
 	},
 	{
 		"name": "Colony",
@@ -505,9 +505,9 @@
 		"[+1 Production] <for every adjacent [{improved} {Coal}]> <after discovering [Chemistry]> <hidden from users>",
 		"[+1 Production] <for every adjacent [{improved} {Oil}]> <after discovering [Biology]> <hidden from users>",
 		"[+1 Production] <for every adjacent [{improved} {Aluminum}]> <after discovering [Electricity]> <hidden from users>",
-		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <after discovering [Atomic Theory]> <hidden from users>",
+		"[+1 Production] <for every adjacent [{improved} {Uranium}]> <after discovering [Atomic Theory]> <hidden from users>"
 		
-	],
+	]
 	},
 	{
 		"name": "Vietnamese City",
@@ -526,8 +526,8 @@
 		"Improves [Strategic] resource in this tile", 
 		"[+1 Production] <in [Forest] tiles>", "[+1 Food] <in [Jungle] tiles>", "[+1 Culture] <in [Bamboo] tiles>",
 		"[+1 Food] <after discovering [Agricultural Improvement]>",
-		"Gives a defensive bonus of [15]%", 
-		"Pillaging this improvement yields approximately [+30 Gold]", "[+1 Food] <after discovering [Engineering]>", "[+1 Production] <after discovering [Industrialization]>"],	
+		"Gives a defensive bonus of [15]%",
+		"Pillaging this improvement yields approximately [+30 Gold]", "[+1 Food] <after discovering [Engineering]>", "[+1 Production] <after discovering [Industrialization]>"]	
 	},
 	{
 		"name": "Expand Pasture",
@@ -536,7 +536,7 @@
 		"food": 1,
 		"turnsToBuild": 3,
 	    "techRequired": "Animal Husbandry",
-		"uniques": ["IMPROVEMENT", "Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Comment [Adjacent Pasture +1 Food]", "Comment [Adjacent Pasture +2 Gold after discovering Agricultural Improvement]"],
+		"uniques": ["IMPROVEMENT", "Only available <within [1] tiles of a [Pasture]>", "[+1 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+10 Gold]", "Comment [Adjacent Pasture +1 Food]", "Comment [Adjacent Pasture +2 Gold after discovering Agricultural Improvement]"]
 	},
 	{
 		"name": "Polder",
@@ -545,7 +545,7 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains", "Lakes"],
 		"turnsToBuild": 7,
 		"uniques": ["IMPROVEMENT", "[+1 Food] <in [Marsh] tiles>", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Production, +2 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Sailing",	
+		"techRequired": "Sailing"
 	},
 	{
 		"name": "Holy Mountain",
@@ -554,7 +554,7 @@
 		"faith": 2,
 		"turnsToBuild": 6,
 	    "techRequired": "Belief Worship",
-		"uniques": ["IMPROVEMENT", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Faith] <after discovering [Theology]>", "[+2 Food] <in [Hill] tiles>", "[+1 Food] <in [Bonus resource] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["IMPROVEMENT", "[+1 Culture] for each adjacent [Mountain]", "[+1 Food] <after discovering [Agricultural Improvement]>", "[+1 Food] <after discovering [Fertilizer]>", "[+1 Faith] <after discovering [Theology]>", "[+2 Food] <in [Hill] tiles>", "[+1 Food] <in [Bonus resource] tiles>", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "The Great Wall of China",
@@ -568,10 +568,10 @@
 		"[+1 Culture] for each adjacent [The Great Wall of China]", 
 		"[+1 Culture] for each adjacent [The Great Wall of China] <after discovering [Archaeology]>", 
 	    "[+1 Production] <after discovering [Archery]>",		
-		"Unbuildable <with [2] to [6] neighboring [The Great Wall of China] tiles>"
-		"Gives a defensive bonus of [15]%"
+		"Unbuildable <with [2] to [6] neighboring [The Great Wall of China] tiles>",
+		"Gives a defensive bonus of [15]%",
 		"Comment [non-China units -1 Movement in this tile]",
-		"Pillaging this improvement yields approximately [+20 Gold]"],
+		"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Baray",
@@ -582,10 +582,10 @@
 		"uniques": ["IMPROVEMENT",
 			"[+1 Food] <in [Fresh Water] tiles>",
 			"[+1 Food] <after discovering [Agricultural Improvement]>",
-			"[+1 Food] for each adjacent [Farm]"
-			"[+1 Faith] <for every adjacent [Holy site]>"
-			"[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>", 
-		],
+			"[+1 Food] for each adjacent [Farm]",
+			"[+1 Faith] <for every adjacent [Holy site]>",
+			"[+1 Faith] <within [1] tiles of a [Holy site]> <for [Cambodia] Civilizations> <hidden from users>"
+		]
     },
     {
 		"name": "Ruins",
@@ -593,23 +593,14 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra", "Snow"],
 		"uniqueTo": "Sumusuming",
 		"uniques": ["IMPROVEMENT",
-		"Improves [Strategic] resource in this tile", "Can be built just outside your borders", "Gain control over [non-[Great Improvement]] tiles in a [1]-tile radius","Will not be replaced by automated units","Removes removable features when built"
+		"Improves [Strategic] resource in this tile", "Can be built just outside your borders", "Gain control over [non-[Great Improvement]] tiles in a [1]-tile radius","Will not be replaced by automated units","Removes removable features when built",
 		"[+1 Science] <for every adjacent [Academy]>",
 		"[+1 Culture] <for every adjacent [Landmark]>",
 		"[+1 Production] <for every adjacent [Manufactory]>",
 		"[+1 Gold] <for every adjacent [Customs house]>",
 		"[+1 Production] <for every adjacent [Citadel]>",
-		"[+1 Faith] <for every adjacent [Holy site]>",
-		],
-	},
-	/*
-	{
-		"name": "Franks Barbarian encampment",
-		"uniqueTo": "Franks",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", 
-		"Can be built outside your borders", 
-		"Marks a barbarian camp <for [Franks] Civilizations>"],
-    },
-    */
+		"[+1 Faith] <for every adjacent [Holy site]>"
+		]
+	}
+	
 ]

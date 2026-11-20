@@ -1,5 +1,5 @@
 [
-	// 公民单位
+	
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -7,10 +7,10 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
 		"Can build [Polder] improvements on tiles <for [The Netherlands] Civilizations> <hidden from users>",
 		     "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>",
-		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>"
+		    "Turn this tile into a [Forest] tile <once> <in [Your] cities> <for [Vietnam] Civilizations> <hidden from users>",
 		    "Turn this tile into a [Forest] tile <in [Your] cities> <for [Vietnam] Civilizations> <by consuming this unit> <hidden from users>",
 		    "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>",
-		    "Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>",
+		    "Can instantly construct a [Ruins] improvement <once> <for all movement> <for [Sumusuming] Civilizations> <hidden from users>"
 		],
 		"cost": 63
 	},
@@ -21,7 +21,7 @@
 		"uniqueTo": "Soviet Union",
 		"replaces": "Worker",
 		"cost": 63,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Gain [185] [Gold] <(modified by game speed)> <by consuming this unit> <for [Human player] Civilizations> <if [No Regrets] is constructed> <hidden from users>"]
 	},
 	{
 		"name": "Settler",
@@ -29,7 +29,7 @@
 		"movement": 2,
 		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain] Civilizations> <hidden from users>",  "[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>"
-		],
+		]
 	},
 	{
 		"name": "Fisherman",
@@ -50,7 +50,7 @@
 		"Only available <when number of [[Itinerant Merchant] Units] is less than [Itinerant Merchant Capacity]>",
 		
 		
-		// 地块
+		
 		"[This Unit] gains the [Stock Up] status for [4] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [Stock Up]> <for units without [Grain Cargo]> <for units without [Strategic Resource Cargo]> <for units without [Luxury Goods Cargo]> <hidden from users> <when number of [[Itinerant Merchant] Units] is less than [[Itinerant Merchant Capacity]+1]>",
 		
 		"[This Unit] gains the [Grain Cargo] promotion <upon losing the [Stock Up] status> <in [{improved} {Bonus resource}] tiles> <hidden from users>", 
@@ -62,21 +62,21 @@
 		"[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-70 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-140 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [Luxury Goods Cargo] promotion <costs [-280 Gold] stats> <for units with [Luxury Goods Cargo]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
 		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos]",
 		
-		// 额外收益
+		
 		"Gain [25] [Faith] <upon losing the [Grain Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Strategic Resource Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>", "Gain [25] [Faith] <upon losing the [Luxury Goods Cargo] promotion> <after adopting [Oracle Bells]> <(modified by game speed)> <hidden from users>",
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [4] [[Gold] Per Turn]> <if [Machu Picchu] is constructed> <hidden from users>",
 		"Gain [1] [Science] <upon losing the [Grain Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Strategic Resource Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>", "Gain [1] [Science] <upon losing the [Luxury Goods Cargo] promotion> <for every [20] [[Gold] Per Turn]> <after adopting [Protectionism]> <hidden from users>",
 		"Gain [1] [Gold] <upon losing the [Grain Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Strategic Resource Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Gold] <upon losing the [Luxury Goods Cargo] promotion> <for every [3] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
 		
-		// 吕底亚
+		
 		"Gain [1] [Culture] <upon losing the [Grain Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Strategic Resource Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>", "Gain [1] [Culture] <upon losing the [Luxury Goods Cargo] promotion> <for every [5] [[Gold] Per Turn]> <for [Lydia] Civilizations> <hidden from users>",
 		
-		// 挪威
-		"Instantly provides [6] [Silver Coin] <upon losing the [Grain Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Strategic Resource Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Luxury Goods Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", 
-		]
+		
+		"Instantly provides [6] [Silver Coin] <upon losing the [Grain Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Strategic Resource Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>", "Instantly provides [6] [Silver Coin] <upon losing the [Luxury Goods Cargo] promotion> <for [Norway] Civilizations> <for every [[Era number]+1]> <if [Civilized Leader-Harald Fairhair] is constructed> <hidden from users>"
+		],
 		"movement": 2
 		
-    // 辅助单位
+    
     },
 	{
 		"name": "Carrier Pigeon",
@@ -103,9 +103,9 @@
 		"movement": 1,
 		"range": 1,
 		"cost": 230,
-		"uniques": ["Comment [+2 Sight for stacking unit]", "Comment [+1 Range for stacking unit]",]
+		"uniques": ["Comment [+2 Sight for stacking unit]", "Comment [+1 Range for stacking unit]"]
 		
-	// 侦查单位
+	
 	},
 	{
 		"name": "Scout",
@@ -116,7 +116,7 @@
 		"promotions": ["Off-road"],
 		"uniques": ["Can see invisible [Land] units", 
 		"Can build [Road] improvements on tiles <for [Human player] Civilizations>"
-		]
+		],
 		"attackSound": "nonmetalhit"
     },
 	{
@@ -127,12 +127,12 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 20,
-		"uniques": ["Can see invisible [Land] units", "May travel on Water tiles without embarking"
+		"uniques": ["Can see invisible [Land] units", "May travel on Water tiles without embarking",
 		"Can build [Road] improvements on tiles <for [Human player] Civilizations>"
-		]
+		],
 		"attackSound": "nonmetalhit"
 		
-    // 步兵
+    
 	},
 	{
 		"name": "Warrior",
@@ -142,8 +142,7 @@
 		"cost": 30,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>",
-		]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations> <hidden from users> <hidden from users>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -156,8 +155,8 @@
 		"replaces": "Warrior",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Swordsman",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users> <hidden from users>"]
-		"attackSound": "nonmetalhit"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users> <hidden from users>"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Jaguar",
@@ -170,7 +169,7 @@
 		"obsoleteTech": "Army Formation",
 		"upgradesTo": "Swordsman",
 		"promotions": ["[Jaguar] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>","May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>","May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -183,7 +182,7 @@
 		"cost": 30,
 		"obsoleteTech": "Defensive Fortification",
 		"promotions": ["Haka War Dance"],
-		"uniques":["Can build [Moai] improvements on tiles", "[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
+		"uniques":["Can build [Moai] improvements on tiles", "[+10]% Strength <vs [Military] units> <when defending>", "May upgrade to [Spearman] through ruins-like effects", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
@@ -196,8 +195,8 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
-		"attackSound": "metalhit"	
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Hypaspist",
@@ -211,8 +210,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Hypaspist] ability"],
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
-		"attackSound": "metalhit"	
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Iron Wall Legion",
@@ -226,7 +225,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"promotions": ["[Iron Wall Legion] ability"],
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -241,7 +240,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": ["Costs [10] [Iron]", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
     },
 	{
 		"name": "Berserker",
@@ -269,9 +268,9 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>", "[+33]% Strength <vs cities> <when defending>"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>", "[+33]% Strength <vs cities> <when defending>"],
 		"promotions": ["[Battering Ram Warrior] ability"],
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Longswordsman",
@@ -282,7 +281,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -296,8 +295,8 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
-		"promotions": ["Drill I"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
+		"promotions": ["Drill I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -311,7 +310,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
@@ -326,7 +325,7 @@
 	    "requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"]
+		"uniques":["Costs [10] [Iron]",  "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [1] movement>"],
 		"promotions": ["[Black Watch] ability"],
 		"attackSound": "metalhit"
 	},
@@ -339,8 +338,8 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Musketeer",
@@ -353,8 +352,8 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Dahomei Women's Guard",
@@ -367,8 +366,8 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"		
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Janissary",
@@ -381,9 +380,9 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["[Janissary] ability"],
-		"attackSound": "shot"		
+		"attackSound": "shot"
 	},
 	{
 		"name": "Tercio",
@@ -397,7 +396,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "[+50]% Strength <vs [Mobile] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Minuteman",
@@ -412,7 +411,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+10]% Strength <vs [Military] units> <when defending>", "Ignores terrain cost", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["Drill I"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Rifleman",
@@ -423,8 +422,8 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Mehal Sefari",
@@ -437,9 +436,9 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["Drill I", "Drill II"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Andean Army",
@@ -453,8 +452,8 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["[Andean Army] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"		
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Redshirts",
@@ -468,8 +467,8 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["[Redshirts] ability"],
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "May capture killed [Military] units <with [50]% chance>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "May capture killed [Military] units <with [50]% chance>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Great War Infantry",
@@ -480,8 +479,8 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Foreign Legion",
@@ -508,9 +507,9 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Materials Science",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["[Miner Corps] ability"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Infantry",
@@ -520,8 +519,8 @@
 		"cost": 620,
 		"requiredTech": "Materials Science",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"	
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Cobra Commando",
@@ -533,8 +532,8 @@
 		"cost": 660,
 		"requiredTech": "Materials Science",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "shot"		
+		"uniques":["[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "shot"
 	},
 	{
 		"name": "Paratrooper",
@@ -544,7 +543,7 @@
 		"cost": 620,
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Cuban International Revolutionary Fighter",
@@ -556,7 +555,7 @@
 		"cost": 620,
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop to [Land] tiles up to [8] tiles away <in [{Friendly} {Land}] tiles>","[+10]% Strength <vs [Military] units> <when defending>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
-		"attackSound": "shot"			
+		"attackSound": "shot"
 	},
 	{
 		"name": "Mechanized Infantry",
@@ -565,10 +564,10 @@
 		"strength": 90,
 		"cost": 720,
 		"requiredTech": "Robotics",
-		"uniques":["Costs [10] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [10] [Aluminum]", "[+10]% Strength <vs [Military] units> <when defending>", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"],
 		"attackSound": "tankshot"
 			
-	// 射手
+	
 	},
 	{
 		"name": "Archer",
@@ -580,8 +579,8 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>",
-		]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -596,8 +595,8 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>", "Withdraws before melee combat <with [80]% chance>"]
-		"attackSound": "arrow"	
+		"uniques":["[+20]% Strength <vs [Barbarian] units> <when attacking>", "Withdraws before melee combat <with [80]% chance>"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Atlatlist",
@@ -610,8 +609,8 @@
 		"replaces": "Archer",
 		"uniqueTo": "The Maya",
 		"upgradesTo": "Composite Bowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
-		"attackSound": "arrow"	
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Bowman",
@@ -625,7 +624,7 @@
 		"upgradesTo": "Composite Bowman",
 		"replaces": "Archer",
 		"uniqueTo": "Babylon",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -638,7 +637,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Crossbowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -653,7 +652,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Crossbowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["[Yin Archer] ability"],
 		"attackSound": "arrow"
 	},
@@ -669,7 +668,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Crossbowman",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "arrow"
 	},
@@ -686,8 +685,8 @@
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Crossbowman",
 		"promotions": ["[Mobile Archer] ability"],
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
-		"attackSound": "arrow"		
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"
     },
 	{
 		"name": "Crossbowman",
@@ -699,8 +698,8 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
-		"attackSound": "arrow"	
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Longbowman",
@@ -715,9 +714,9 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["Additional Range"],
-		"attackSound": "arrow"	
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Chu-Ko-Nu",
@@ -731,9 +730,9 @@
 	    "requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"promotions": ["[Chu-Ko-Nu] ability"],
-		"attackSound": "crossbow"	
+		"attackSound": "crossbow"
 	},
 	{
 		"name": "Fjelljeger",
@@ -747,9 +746,9 @@
 	    "requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Military Science",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Invisible to non-adjacent units <in [Hill] tiles>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "Invisible to non-adjacent units <in [Hill] tiles>"],
 		"promotions": ["[Fjelljeger] ability"],
-		"attackSound": "crossbow"	
+		"attackSound": "crossbow"
 	},
 	{
 		"name": "Gatling Gun",
@@ -760,10 +759,10 @@
 		"rangedStrength": 30,
 		"cost": 320,
 		"requiredTech": "Military Science",
-	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun"	
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Machine Gun",
@@ -774,9 +773,9 @@
 		"rangedStrength": 60,
 		"cost": 620,
 		"requiredTech": "Ballistics",
-		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"],
 		"upgradesTo": "Mechanized Infantry",
-		"attackSound": "machinegun"	
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Bazooka",
@@ -789,11 +788,11 @@
 		"rangedStrength": 55,
 		"cost": 465,
 		"requiredTech": "Ballistics",
-	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[+50]% Strength <vs [Mobile] units>"]
+	    "uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>", "[+50]% Strength <vs [Mobile] units>"],
 	    "upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
 		
-	// 机动部队
+	
 	},
 	{
 		"name": "Horseman",
@@ -805,7 +804,7 @@
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>",],
+		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 	},
 	{
@@ -822,7 +821,7 @@
 		"obsoleteTech": "Chivalry",
 		"promotions": ["[Companion Cavalry] ability"],
 		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Cataphract",
@@ -837,7 +836,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "African Forest Elephant",
@@ -916,7 +915,7 @@
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "arrow"	
+		"attackSound": "arrow"
 	},
 	{
 		"name": "War Chariot",
@@ -933,7 +932,7 @@
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "arrow"		
+		"attackSound": "arrow"
 	},
 	{
 		"name": "War Elephant",
@@ -950,7 +949,7 @@
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "elephant"	
+		"attackSound": "elephant"
 	},
 	{
 		"name": "Horse Archer",
@@ -967,7 +966,7 @@
 		"upgradesTo": "Mounted Archer",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus"],
-		"attackSound": "arrow"		
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Ancient Chinese Chariot",
@@ -996,7 +995,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Cossack",
@@ -1012,7 +1011,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Cossack] ability"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Conquistador",
@@ -1028,7 +1027,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[+20]% Strength <when attacking> <on foreign continents>", "[+2] Sight", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Conquistador] ability"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Vietnam War Elephant",
@@ -1043,7 +1042,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
-		"attackSound": "arrow"			
+		"attackSound": "arrow"
     },
 	{
 		"name": "Templar Knight",
@@ -1059,7 +1058,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [250] [Faith] [in cities following our religion]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Templar Knight] ability"],
-		"attackSound": "horse"		
+		"attackSound": "horse"
 	},
 	{
 		"name": "Naresuan's Elephant",
@@ -1073,7 +1072,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>", "[+33]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>",],
+		"uniques": ["Costs [10] [Iron]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>", "[+33]% Strength <vs [Mobile] units>", "[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
 	},
 	{
@@ -1089,7 +1088,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]", "Can be purchased for [80] [Culture] [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Can move after attacking", "[Target Unit] gains the [[Mandekalu Cavalry] ability] status for [3] turn(s) <upon damaging a [Military] unit>", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Elite Cavalry",
@@ -1105,7 +1104,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Elite Cavalry] ability"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Mamluk Cavalry",
@@ -1121,7 +1120,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>"],
 		"promotions": ["[Mamluk Cavalry] ability"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Carolingian Knight",
@@ -1137,7 +1136,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Costs [10] [Iron]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Iron]> <for [2] movement>", "[This Unit] heals [50] HP <costs [+30 Faith] stats> <for [1] movement>"],
 		"promotions": ["[Carolingian Knight] ability"],
-		"attackSound": "horse"		
+		"attackSound": "horse"
 	},
 	{
 		"name": "Mounted Archer",
@@ -1152,7 +1151,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Camel Archer",
@@ -1169,7 +1168,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking" ,"No defensive terrain bonus"],
-		"attackSound": "arrow"	
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Keshik",
@@ -1187,7 +1186,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Consumes [1] [Horses]", "Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Keshik] ability"],
-		"attackSound": "arrow"	
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Cavalry",
@@ -1200,7 +1199,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "shot"	
+		"attackSound": "shot"
 	},
 	{
 		"name": "Cowboy Cavalry",
@@ -1215,7 +1214,7 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": ["Consumes [1] [Horses]",  "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "shot"   
+		"attackSound": "shot"
 	},
 	{
 		"name": "Hussar",
@@ -1256,7 +1255,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
-		"attackSound": "tankshot"	
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "T-34",
@@ -1270,7 +1269,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
-		"attackSound": "tankshot"	
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Panzer",
@@ -1284,7 +1283,7 @@
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
 	    "uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "Can move after attacking","No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
-		"attackSound": "tankshot"	
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Modern Armor",
@@ -1296,7 +1295,7 @@
 		"requiredTech": "Mobile Tactics",
 		"upgradesTo": "Giant Death Robot",
 		"uniques": ["Costs [20] [Aluminum]", "Consumes [1] [Oil]", "Can move after attacking", "No defensive terrain bonus", "[+10]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"],
-		"attackSound": "tankshot"	
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Giant Death Robot",
@@ -1309,7 +1308,7 @@
 		"uniques": ["Costs [25] [Aluminum]", "Costs [30] [Steels]", "Consumes [2] [Uranium]", "Can move after attacking", "No defensive terrain bonus", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"],
 		"attackSound": "gdrAttack"
 			
-	// 反XX单位
+	
 	},
 	{
 		"name": "Spearman",
@@ -1320,8 +1319,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-		"uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]
-		"attackSound": "metalhit"	
+		"uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Persian Immortal",
@@ -1336,7 +1335,7 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal(Ranged)]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions":["[Persian Immortal] ability"],
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Persian Immortal(Ranged)",
@@ -1349,7 +1348,7 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["Unbuildable","Cannot be purchased","[+33]% Strength <vs [{Melee} {Mobile}] units>","Can transform to [Persian Immortal]"],
 		"promotions":["[Persian Immortal] ability"],
-		"attackSound": "metalhit"		
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Hoplite",
@@ -1362,8 +1361,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Defensive Fortification",
 		"upgradesTo": "Pikeman",
-	    "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	
-		"attackSound": "metalhit"		
+	    "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pictish Warrior",
@@ -1378,7 +1377,7 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
 		"promotions": ["Pictish Courage"],
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
 	},   
 	{
 		"name": "Pikeman",
@@ -1389,8 +1388,8 @@
 		"requiredTech": "Defensive Fortification",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
-		"attackSound": "metalhit"	
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Landsknecht",
@@ -1418,8 +1417,8 @@
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
 	    "promotions": ["[Impi] ability"],
-        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"]	    
-		"attackSound": "metalhit"		
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Palace Guard",
@@ -1432,8 +1431,8 @@
 		"requiredTech": "Army Formation",
 		"upgradesTo": "Lancer",
 	    "obsoleteTech": "Metallurgy",
-        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "Comment [[Gold] cost of purchasing [Palace Guard] units [-33]%]", "[This Unit] heals [25] HP <costs [+50 Gold] stats>"]	    
-		"attackSound": "metalhit"		
+        "uniques":["[+40]% Strength <vs [{Melee} {Mobile}] units>", "Consumes [-1] [Number of Fighters] <for [Palestine] Civilizations>  <hidden from users>", "Comment [[Gold] cost of purchasing [Palace Guard] units [-33]%]", "[This Unit] heals [25] HP <costs [+50 Gold] stats>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Lancer",
@@ -1474,7 +1473,7 @@
 		"promotions": ["[Hakkapeliitta] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"	
+		"attackSound": "horse"
 	},
 	{
 		"name": "Winged Hussar",
@@ -1489,7 +1488,7 @@
 		"promotions": ["[Winged Hussar] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "metalhit"	
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Anti-Tank Gun",
@@ -1499,7 +1498,7 @@
 		"cost": 570,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
-		"uniques":["Costs [15] [Steels]", "[+100]% Strength <vs [{Melee} {Mobile}] units> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [1] movement>"]
+		"uniques":["Costs [15] [Steels]", "[+100]% Strength <vs [{Melee} {Mobile}] units> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [1] movement>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1534,9 +1533,9 @@
 		"cost": 820,
 		"requiredTech": "Rocketry",
 		"uniques": ["Costs [20] [Aluminum]", "[80]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [2] [Flybomb] units", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"],
-		"attackSound": "missile"	
+		"attackSound": "missile"
 		
-	// 攻城单位
+	
 	},
 	{
 		"name": "Catapult",
@@ -1567,7 +1566,7 @@
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "[+100]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "throw"	
+		"attackSound": "throw"
     },
 	{
 		"name": "Battering Ram",
@@ -1582,7 +1581,7 @@
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending> <vs [Melee] units>", "[-1] Sight", "Can only attack [City] units", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "throw"    		
+		"attackSound": "throw"
 	},
 	{
 		"name": "Trebuchet",
@@ -1597,7 +1596,7 @@
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs cities> <when defending>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "throw"	
+		"attackSound": "throw"
 	},
 	{
 		"name": "Hwach'a",
@@ -1613,7 +1612,7 @@
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "throw"	
+		"attackSound": "throw"
 	},
 	{
 		"name": "Ballista Elephant",
@@ -1645,7 +1644,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+200]% Strength <vs cities> <when attacking>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "cannon",
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Light Cannon",
@@ -1662,7 +1661,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight", "[+20]% Strength <vs [Military] units> <when attacking>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Artillery",
@@ -1678,7 +1677,7 @@
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["Costs [20] [Steels]", "No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","[+200]% Strength <vs cities> <when attacking>", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"	
+		"attackSound": "artillery"
 	},
 	{
 		"name": "Rocket Artillery",
@@ -1692,9 +1691,9 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["Costs [15] [Aluminum]", "No defensive terrain bonus","[-1] Sight","[+200]% Strength <vs cities> <when attacking>","Can carry [1] [Flybomb] units", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>", "[+50]% Strength <when fighting in [Fort] tiles> <when attacking>", "[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"	
+		"attackSound": "artillery"
 		
-	// 近程海军
+	
 	},
 	{
 		"name": "Trireme",
@@ -1723,7 +1722,7 @@
 		"requiredTech": "Sailing",
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"		
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Quinquereme",
@@ -1747,8 +1746,8 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"]
-		"attackSound": "cannon"	
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Turtle Ship",
@@ -1762,7 +1761,7 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
 		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Jukung Perang",
@@ -1775,8 +1774,8 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"uniques": ["[+1] Sight"]
-		"attackSound": "cannon"	
+		"uniques": ["[+1] Sight"],
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Dragon Boat",
@@ -1789,8 +1788,8 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Steam Power",
-		"promotions": ["Boarding Party I"]
-		"uniques": ["[+1] Sight"]
+		"promotions": ["Boarding Party I"],
+		"uniques": ["[+1] Sight"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1804,7 +1803,7 @@
 		"obsoleteTech": "Combustion",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Sea Beggar",
@@ -1819,7 +1818,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["May capture killed [Water] units"],
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Sealift"],
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Ironclad",
@@ -1831,7 +1830,7 @@
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Coal]", "[+33]% Strength <vs cities>","Double movement in [Coast]", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
-		"attackSound": "shipguns"		
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Destroyer",
@@ -1843,9 +1842,9 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Coal]", "Can see invisible [Submarine] units", "[60]% chance to intercept air attacks", "Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "[+1] Sight", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
-		"attackSound": "shipguns"	
+		"attackSound": "shipguns"
 
-	// 远程海军
+	
 	},
 	{
 		"name": "Galleass",
@@ -1884,7 +1883,7 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Ship of the Line",
@@ -1898,7 +1897,7 @@
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
-		"attackSound": "cannon"	
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Battleship",
@@ -1928,7 +1927,7 @@
 		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]", "Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"	
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Almirante Battleship",
@@ -1944,7 +1943,7 @@
 		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Costs [20] [Steels]","Consumes [1] [Oil]", "[This Unit] heals [10] HP <costs [10] [Steels]> <for [2] movement>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"	
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Missile Cruiser",
@@ -1958,9 +1957,9 @@
 		"requiredTech": "Internetwork",
 		"uniques": ["Costs [15] [Aluminum]", "Consumes [1] [Oil]", "[70]% chance to intercept air attacks", "Can see invisible [Submarine] units", "Can carry [4] [Flybomb] units", "[+100]% Strength <vs [Submarine] units>", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"],
 		"promotions": ["Indirect Fire", "Additional Range"],
-		"attackSound": "shipguns"	
+		"attackSound": "shipguns"
 			
-	//海军运输单位
+	
 	},
 	{
 		"name": "Carrier",
@@ -1971,7 +1970,7 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Costs [15] [Aluminum]", "Costs [15] [Steels]", "Consumes [1] [Oil]", "Cannot attack", "Can carry [6] [Aircraft] units", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"]
 		
-	// 潜艇
+	
 	},
 	{
 		"name": "Submarine",
@@ -1997,7 +1996,7 @@
 		"uniques": ["Costs [20] [Aluminum]", "Consumes [1] [Uranium]", "[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Flybomb] units", "Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [2] movement>"],
 		"attackSound": "torpedo"
 		
-	// 战斗机
+	
 	},
 	{
 		"name": "Triplane",
@@ -2044,7 +2043,7 @@
 		"uniques": ["Costs [20] [Aluminum]", "[90]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>","[+4] Sight", "Can see over obstacles", "Can perform Air Sweep", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"],
 		"attackSound": "jetgun"
 		
-	// 轰炸机
+	
 	},
 	{
 		"name": "Great War Bomber",
@@ -2070,7 +2069,7 @@
 		"cost": 720,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"uniques":["Costs [10] [Aluminum]", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [10] [Aluminum]", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"],
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
 	},
@@ -2086,10 +2085,10 @@
 		"cost": 720,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"uniques":["Costs [10] [Aluminum]", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"]
+		"uniques":["Costs [10] [Aluminum]", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"],
 		"promotions": ["Pinpoint Bombing I", "Tactical Evasion I"],
 		"upgradesTo": "Stealth Bomber",
-		"attackSound": "bombing"	
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Stealth Bomber",
@@ -2104,7 +2103,7 @@
 		"uniques": ["Costs [20] [Aluminum]", "Damage taken from interception reduced by [50]%", "Cannot be carried by [Water Carrier] units", "[+4] Sight", "Can see over obstacles", "[This Unit] heals [10] HP <costs [10] [Aluminum]> <for [1] movement>"],
 		"attackSound": "bombing"
 		
-	// 核武器、导弹
+	
 	},
 	{
 		"name": "Atomic Bomb",
@@ -2126,7 +2125,7 @@
 		"rangedStrength": 150,
 		"range": 12,
 		"cost": 900,
-		"requiredTech": "Advanced Ballistics"
+		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Blast radius [0]", "Nuclear weapon of Strength [1]", "Self-destructs when attacking", "Cannot be intercepted"
 		],
 		"attackSound": "missile"
@@ -2144,7 +2143,7 @@
 			],
 		"attackSound": "nuke"
 		
-	// 宇宙飞船
+	
 	},
 	{
 		"name": "SS Booster",
@@ -2179,7 +2178,7 @@
 		"uniques": ["Costs [30] [Aluminum]", "Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		
 				
-	// 伟人单位
+	
 	},
 	{
 		"name": "Great Artist",
@@ -2200,20 +2199,20 @@
 	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]", ],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can hurry technology research", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Great Person - [Science]", "Unbuildable", "Uncapturable","Is part of Great Person group [Science]" ],
 		"movement": 2
 	},
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]", ],
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable", "Uncapturable","Is part of Great Person group [Action]" ],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]", ],
+		"uniques": ["Empire enters a [10]-turn Golden Age <by consuming this unit>", "Can speed up construction of a building", "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Great Person - [Production]", "Unbuildable", "Uncapturable","Is part of Great Person group [Technology]" ],
 		"movement": 2	
 	},
 	{
@@ -2228,7 +2227,7 @@
 			"Unbuildable", "Religious Unit",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
-		"religiousStrength": 1000,
+		"religiousStrength": 1000
 	},
 	{
 		"name": "Great General",
@@ -2241,8 +2240,8 @@
 		"replaces": "Great General",
 		"uniqueTo": "Yun Ji Court",
 		"unitType": "Civilian",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable", ],
-		"movement": 4,
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [3] tiles", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Can be earned through combat", "Uncapturable" ],
+		"movement": 4
 	},
 	{
 		"name": "Staff",
@@ -2250,13 +2249,13 @@
 		"uniqueTo": "Sweden",
 		"unitType": "Civilian",
 		"uniques": [
-		"Transfer Movement to [Military]"
+		"Transfer Movement to [Military]",
 		"[+10]% Strength bonus for [Land] units within [0] tiles", 
 		"[+5]% Strength bonus for [Land] units within [1] tiles", 
 		"Unbuildable",
-		"[-1] Movement <after adopting [Discipline]>"
-		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable", ],
-		"movement": 3,
+		"[-1] Movement <after adopting [Discipline]>",
+		"Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Can be earned through combat", "Uncapturable" ],
+		"movement": 3
 	},
 	{
 		"name": "Khan",
@@ -2264,7 +2263,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Mongolia",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Land] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "All adjacent units heal [+10] HP when healing", "Unbuildable", "Uncapturable", "Can be earned through combat",  "[+20]% Strength bonus for [Land] units within [1] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>", "[+30]% Strength bonus for [Land] units within [0] tiles <for [Mamluks] Civilizations> <if [Civilized Leader-Baybars] is constructed> <hidden from users>"],
-		"movement": 5,
+		"movement": 5
 	},
 	{
 		"name": "Great Admiral",
@@ -2275,30 +2274,30 @@
 		"Great Person - [Great Admiral]", 
 		"Turn this tile into a [Coast] tile <for [Human player] Civilizations> <[3] times> <in [Land] tiles> <for [2] movement> <in [Your] cities> <in tiles adjacent to [Coast] tiles>", 
 		"[+1] Sight <when [Embarked]>",
-		"Double movement in [Coast]"
+		"Double movement in [Coast]",
 		"Uncapturable",
 		"Unbuildable",
-		"Is part of Great Person group [Military]",
+		"Is part of Great Person group [Military]"
 		
 		],
 		"movement": 2
 	
-	// 特殊伟人
 	
-	// 古典-特殊大先知
+	
+	
 	},
 	{
 		"name": "Confucius",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Free Social Policy <by consuming this unit>"
+		    "Free Social Policy <by consuming this unit>",
 		    "Religious Unit",
 			"Unbuildable", "Uncapturable",
 			
 			"Special Great Person",
-			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>"
 			],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Gautama Siddhartha",
@@ -2308,9 +2307,9 @@
 			"Religious Unit",
 			"Unbuildable", "Uncapturable",
 			
-			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>"
 			],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Jesus",
@@ -2323,7 +2322,7 @@
 			"May enter foreign tiles without open borders",
 			"Unbuildable", "Uncapturable", "Religious Unit",
 			
-			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2337,7 +2336,7 @@
 		    "Can Spread Religion <for [2] movement> <[4] times>",
 			"Unbuildable", "Uncapturable",
 			
-			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>"
 			],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2350,12 +2349,12 @@
 		    "Gain enough Faith for [100]% of a Great Prophet <by consuming this unit>",
 			"Unbuildable", "Uncapturable",
 			
-			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>",
+			"Gain [5] [Faith] <upon turn end> <(modified by game speed)>"
 			],
-		"movement": 2,
+		"movement": 2
 		
-	// 特殊大军
-	// 古典-特殊大军
+	
+	
 	},
 	{
 		"name": "Sun Tzu",
@@ -2365,7 +2364,7 @@
 		 "All adjacent units heal [+10] HP when healing", 
 		"Triggers a [Sun Tzu's Art of War - Military Conflict] event <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
 		"movement": 2
@@ -2379,7 +2378,7 @@
 		"[2] free [Swordsman] units appear <by consuming this unit> <during the [Classical era]>",
 		"[2] free [Catapult] units appear <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
 		"movement": 2
@@ -2392,7 +2391,7 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Foot Soldier] units gain the [[Spartacus] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
 		"movement": 2
@@ -2405,7 +2404,7 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Melee] units gain the [[Bai Qi] ability] promotion <by consuming this unit> <during the [Classical era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
 		"movement": 2
@@ -2419,12 +2418,12 @@
 		"[+1] Sight <when [Embarked]>",
 		"Double movement in [Coast]",
 	    "Unbuildable", "Uncapturable",
-		"Great Admiral",
+		"Great Admiral"
 		
 		],
 		"movement": 2
 	
-	// 中古-特殊大军
+	
 	},
 	{
 		"name": "Belisarius",
@@ -2434,7 +2433,7 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[-15]% Strength for enemy [Land] units in adjacent [Land] tiles <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
 		"movement": 2
@@ -2449,10 +2448,10 @@
 		"[+2] Movement <during the [Medieval era]>",
 		"[+2] Sight <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Xiang Yu",
@@ -2462,10 +2461,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[+30]% Strength bonus for [Melee] units within [0] tiles <during the [Medieval era]>", 
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Li Jing",
@@ -2475,10 +2474,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Medieval era] units gain the [[Li Jing] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Subedei",
@@ -2488,10 +2487,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Medieval era] units gain the [[Subedei] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Timur",
@@ -2501,10 +2500,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Mobile] units gain the [[Timur] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Jeanne",
@@ -2514,10 +2513,10 @@
 		"All adjacent units heal [+25] HP when healing <during the [Medieval era]>",
 		"All adjacent units heal [+10] HP when healing <starting from the [Renaissance era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Khalid ibn al-Walid",
@@ -2527,10 +2526,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Melee] units gain the [[Khalid ibn al-Walid] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
     },
 	{
 		"name": "Bayezid I",
@@ -2540,10 +2539,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Ranged] units gain the [[Bayezid I] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Mgar-Blon-Khri-Vbring-Btsan-Brod",
@@ -2553,10 +2552,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Military] units gain the [[Mgar-Blon-Khri-Vbring-Btsan-Brod] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "Narses",
@@ -2566,10 +2565,10 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[Military] units gain the [[Narses] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	},
 	{
 		"name": "William Marshal",
@@ -2579,14 +2578,14 @@
 		"All adjacent units heal [+10] HP when healing",
 		"[{Melee} {Mobile}] units gain the [[William Marshal] ability] promotion <by consuming this unit> <during the [Medieval era]>",
 	    "Unbuildable", "Uncapturable",
-		"Great General",
+		"Great General"
 		
 		],
-		"movement": 2,
+		"movement": 2
 	
 		
 
-	// 复兴-特殊大军
+	
 	},
 	{
 		"name": "Lee Sunshin",
@@ -2600,7 +2599,7 @@
 		],
 		"movement": 2
 	
-	// 电气-特殊大军
+	
 	},
 	{
 		"name": "Henri Philippe Pétain",
@@ -2614,7 +2613,7 @@
 		],
 		"movement": 2	
 		
-	// 宗教单位
+	
     },
     {
 		"name": "Missionary",

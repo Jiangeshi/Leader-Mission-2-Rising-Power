@@ -1,5 +1,5 @@
 [
-    // 万神殿
+    
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
@@ -23,12 +23,12 @@
     {
         "name": "God of Abundance",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [{Land} {Bonus resource}]"],
+        "uniques": ["[+1 Faith] from every [{Land} {Bonus resource}]"]
     },
     {
         "name": "Heart of Fire",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"],
+        "uniques": ["[+1 Faith] from every [Volcanic Soil]", "[+2 Faith] from every [Volcano]", "[+2 Faith] from every [Geothermal Crevice]"]
     },
     {
         "name": "Baptism",
@@ -38,14 +38,14 @@
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Coast]", "[+2 Faith] from every [Ocean]"],
+        "uniques": ["[+1 Faith] from every [Coast]", "[+2 Faith] from every [Ocean]"]
     },
     {
         "name": "Oracle Bells",
         "type": "Pantheon",
-        "uniques": ["Comment [[Gain extra [33] [Faith] when selling cargo] [(modified by game speed)]]"],    
+        "uniques": ["Comment [[Gain extra [33] [Faith] when selling cargo] [(modified by game speed)]]"]    
         
-    // 文化
+    
     },
     {
         "name": "God of the Open Sky",
@@ -62,7 +62,7 @@
         "type": "Pantheon",
         "uniques": ["[+2 Culture] [in all cities connected to capital]"]
         
-    // 金钱
+    
     },
     {
         "name": "Goddess of the Hunt",
@@ -79,7 +79,7 @@
         "type": "Pantheon",
         "uniques": ["[+2 Gold] from every [Lumber mill]", "[+1 Gold] from every [Mine]"]
         
-    // 科研
+    
     },
     {
         "name": "Divine Revelation",
@@ -96,7 +96,7 @@
         "type": "Pantheon",
         "uniques": ["[+2 Science] [in all cities connected to capital]"]
         
-    //产能
+    
     },
     {
         "name": "God of Flood",
@@ -113,7 +113,7 @@
         "type": "Pantheon",
         "uniques": ["[+1 Production] from every [Fishing Boats]", "[+1 Production] from every [Mudflat]"]
             
-    // 战争
+    
     },
     {
         "name": "Patron Saint",
@@ -130,7 +130,7 @@
         "type": "Pantheon",
         "uniques": ["Earn [120]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
         
-    //特殊
+    
     },
     {
         "name": "God of River",
@@ -153,7 +153,7 @@
         "uniques": ["Comment [[-15]% construction time for [All] improvements]"]
 
         
-    //创建者词条
+    
     },
     {
         "name": "Unification of The State and The Church",
@@ -215,7 +215,7 @@
         "type": "Founder",
         "uniques": ["[-25]% Food consumption by [Followers of this Religion] [in all cities]"]    
         
-    //跟随者词条
+    
     },
     {
         "name": "Strong Holy City",
@@ -322,7 +322,7 @@
         "type": "Follower",
         "uniques": ["[+1 Happiness, +1 Culture] from every [Shrine]", "[+1 Happiness, +1 Culture] from every [Temple]"]  
           
-    //增强词条
+    
     },
     {
         "name": "Religious War",
@@ -352,12 +352,12 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+50]% Natural religion spread [in all cities]",] 
+        "uniques": ["[+50]% Natural religion spread [in all cities]"] 
     },
     {
         "name": "Holy City of Faith",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in holy cities]",]
+        "uniques": ["[+100]% Natural religion spread [in holy cities]"]
     },
     {
         "name": "Reliquary",
@@ -377,18 +377,18 @@
     {
         "name": "Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%", "[Faith] cost of purchasing [Great Prophet] units [-30]%"] 
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%", "[Faith] cost of purchasing [Great Prophet] units [-30]%"]
     },
     {
         "name": "Devout Palmer",
         "type": "Enhancer",
         "uniques": ["[Faith] cost of purchasing items in cities [-15]%"]
-    }
+    },
     {
         "name": "Justification by Faith",
         "type": "Enhancer",
         "uniques": ["Gain [75] [Faith] <upon expending a [Religious Unit] unit> <(modified by game speed)>", "Instantly provides [75] [Local Cultural Influence] <upon expending a [Religious Unit] unit> <(modified by game speed)>", "Only available <when [Cultural] Victory is enabled>"]
-    }
+    },
     {
         "name": "Religious Appeal",
         "type": "Enhancer",

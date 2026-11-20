@@ -1,5 +1,5 @@
 [
-    // 世界会议部分
+    
     {
         "name": "International Exposition",
         "text": "[A session of the [International Exposition] is now in progress! All surviving major civilizations that have discovered the Nation technology may choose to vote on one of the following three bills. After three turns, the bill with the most votes will be enacted and remain in effect until the next session begins.]",
@@ -13,7 +13,7 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B1] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2",
@@ -23,8 +23,8 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"          
-                ],
+                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
+                ]
             },
             {
                 "text": "Bill 3",
@@ -34,9 +34,9 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"              
-                ],
-            },
+                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
+                ]
+            }
 
         ]
     },
@@ -51,11 +51,11 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
                 "[+1 Culture] from all [Culture] buildings <for [17] turns>",
                 "[+1 Culture] from every [World Wonder] <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2 received the most votes",
@@ -64,12 +64,12 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
-                "[+1 Science] from all [Science] buildings <for [17] turns>"
+                "[+1 Science] from all [Science] buildings <for [17] turns>",
                 "[+1 Science] from every [World Wonder] <for [17] turns>"
                 
-                ],
+                ]
             },
             {
                 "text": "Bill 3 received the most votes",
@@ -78,10 +78,10 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                "[+1 Happiness] [in all cities] <for [17] turns>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
+                "[+1 Happiness] [in all cities] <for [17] turns>",
                 "[+1 Happiness] from every [World Wonder] <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "No bill received a majority",
@@ -92,10 +92,10 @@
                 ],
                 "uniques": [
                 "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                ],
-            },
+                ]
+            }
         ]
     },
     {
@@ -111,7 +111,7 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B1] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2",
@@ -121,8 +121,8 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"                
-                ],
+                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
+                ]
             },
             {
                 "text": "Bill 3",
@@ -132,9 +132,9 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"              
-                ],
-            },
+                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
+                ]
+            }
 
         ]
     },
@@ -149,10 +149,10 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
-                "[+33]% [Gold] from Trade Routes <for [17] turns>",
-                ],
+                "[+33]% [Gold] from Trade Routes <for [17] turns>"
+                ]
             },
             {
                 "text": "Bill 2 received the most votes",
@@ -165,7 +165,7 @@
                 
                 "[+1 Gold] from every [Luxury resource] <(modified by game progress up to [+300]%)> <for [17] turns>"
                 
-                ],
+                ]
             },
             {
                 "text": "Bill 3 received the most votes",
@@ -177,7 +177,7 @@
                 "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[+20]% Strength <vs [Barbarian] units> <for [17] turns>",
             "Earn [150]% of killed [Barbarian] unit's [Strength] as [Gold] <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "No bill received a majority",
@@ -188,10 +188,10 @@
                 ],
                 "uniques": [
                 "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                ],
-            },
+                ]
+            }
         ]
     },
     {
@@ -207,7 +207,7 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B1] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2",
@@ -217,8 +217,8 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"            
-                ],
+                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
+                ]
             },
             {
                 "text": "Bill 3",
@@ -228,9 +228,9 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"               
-                ],
-            },
+                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
+                ]
+            }
 
         ]
     },
@@ -245,10 +245,10 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
-                "[+15]% Production when constructing [Military] units [in all cities] <for [17] turns>",
-                ],
+                "[+15]% Production when constructing [Military] units [in all cities] <for [17] turns>"
+                ]
             },
             {
                 "text": "Bill 2 received the most votes",
@@ -261,7 +261,7 @@
                 
                 "[+10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles> <for [17] turns>"
                 
-                ],
+                ]
             },
             {
                 "text": "Bill 3 received the most votes",
@@ -272,7 +272,7 @@
                 ],
                 "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[-90]% maintenance costs <for [Military] units> <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "No bill received a majority",
@@ -283,10 +283,10 @@
                 ],
                 "uniques": [
                 "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                ],
-            },
+                ]
+            }
         ]
     },
     {
@@ -302,7 +302,7 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B1] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2",
@@ -312,8 +312,8 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"                
-                ],
+                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
+                ]
             },
             {
                 "text": "Bill 3",
@@ -323,9 +323,9 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"                
-                ],
-            },
+                "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
+                ]
+            }
 
         ]
     },
@@ -340,10 +340,10 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
-                "[+1 Faith] per [3] population [in all cities] <for [17] turns>",
-                ],
+                "[+1 Faith] per [3] population [in all cities] <for [17] turns>"
+                ]
             },
             {
                 "text": "Bill 2 received the most votes",
@@ -354,7 +354,7 @@
                 ],
                 "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                  "[Faith] cost of purchasing [Inquisitor] units [-50]% <for [17] turns>", "[Faith] cost of purchasing [Great Prophet] units [-20]% <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "Bill 3 received the most votes",
@@ -365,8 +365,8 @@
                 ],
                 "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
                 "[-10]% [Faith] <for [17] turns>",
-                "[+15]% [Science] <for [17] turns>",                
-                ],
+                "[+15]% [Science] <for [17] turns>"
+                ]
             },
             {
                 "text": "No bill received a majority",
@@ -377,10 +377,10 @@
                 ],
                 "uniques": [
                 "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                ],
-            },
+                ]
+            }
         ]
     },
     {
@@ -396,7 +396,7 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B1] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [1]> <for [AI player] Civilizations> <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Bill 2",
@@ -406,8 +406,8 @@
                     }
                 ],
                 "uniques": [
-                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"              
-                ],
+                "Instantly provides [1] [B2] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [2]> <for [AI player] Civilizations> <hidden from users>"
+                ]
             },
             {
                 "text": "Bill 3",
@@ -418,8 +418,8 @@
                 ],
                 "uniques": [
                 "Instantly provides [1] [B3] <hidden from users>", "Unavailable <when number of [[turns]*[Owned [improved] Tiles]%3+1] is different than [3]> <for [AI player] Civilizations> <hidden from users>"
-                ],
-            },
+                ]
+            }
 
         ]
     },
@@ -434,10 +434,10 @@
                     "text": ""
                     }
                 ],
-                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "uniques": ["Only available <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 
-                "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [5]> <for [17] turns>",
-                ],
+                "[+1 Happiness, -2 Gold] per [3] population [in all cities] <when number of [Happiness] is less than [5]> <for [17] turns>"
+                ]
             },
             {
                 "text": "Bill 2 received the most votes",
@@ -448,7 +448,7 @@
                 ],
                 "uniques": ["Only available <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                  "[+1 Food] from all [Production] buildings <in cities with less than [7] [Population]> <for [17] turns>"
-                ],
+                ]
             },
             {
                 "text": "Bill 3 received the most votes",
@@ -458,8 +458,8 @@
                     }
                 ],
                 "uniques": ["Only available <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>",
-                "[+1] Movement <for [Worker] units> <for [17] turns>",                
-                ],
+                "[+1] Movement <for [Worker] units> <for [17] turns>"
+                ]
             },
             {
                 "text": "No bill received a majority",
@@ -470,14 +470,14 @@
                 ],
                 "uniques": [
                 "Unavailable <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 1] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
-                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>"
+                "Unavailable <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 2] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 3] Buildings by [Major] Civilizations]> <hidden from users>",
                 "Unavailable <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 1] Buildings by [Major] Civilizations]> <when number of [[Vote for the Bill 3] Buildings by [Major] Civilizations] is more than [[Vote for the Bill 2] Buildings by [Major] Civilizations]> <hidden from users>"
-                ],
-            },
+                ]
+            }
         ]
     },
-    // 世界会议部分结束
-    // 地狱模式
+    
+    
     {
         "name": "Select Hell Difficulty Debuff",
         "text": "The Debuff you choose will accompany you throughout the entire game. Unselected Debuffs can also be manually activated in buildings.",
@@ -489,7 +489,7 @@
                     "text": "[[Rebel units may spawn]\n[[for [AI player] Civilizations] [vs [Barbarian] units] [[+100]% Strength]]]"
                     }
                 ],
-                "uniques": ["Gain a free [Totally Isolated] [in capital] <hidden from users>", "Only available <if [Totally Isolated] is not constructed>"],
+                "uniques": ["Gain a free [Totally Isolated] [in capital] <hidden from users>", "Only available <if [Totally Isolated] is not constructed>"]
             },
             {
                 "text": "Wallowing in Luxury and Pleasure",
@@ -498,7 +498,7 @@
                     "text": "[[-1]% Yield from every [Luxury resource]]\n[[-2] Happiness from each type of luxury resource]"
                     }
                 ],
-                "uniques": ["Gain a free [Wallowing in Luxury and Pleasure] [in capital] <hidden from users>", "Only available <if [Wallowing in Luxury and Pleasure] is not constructed>"],
+                "uniques": ["Gain a free [Wallowing in Luxury and Pleasure] [in capital] <hidden from users>", "Only available <if [Wallowing in Luxury and Pleasure] is not constructed>"]
             },
             {
                 "text": "Paralyzed",
@@ -507,7 +507,7 @@
                     "text": "[[-1] Movement] [for [Civilian] units]"
                     }
                 ],
-                "uniques": ["Gain a free [Paralyzed] [in capital] <hidden from users>", "Only available <if [Paralyzed] is not constructed>"],
+                "uniques": ["Gain a free [Paralyzed] [in capital] <hidden from users>", "Only available <if [Paralyzed] is not constructed>"]
             },            
             {
                 "text": "Tunnel Vision",
@@ -516,7 +516,7 @@
                     "text": "[[-25]% [Culture] [in all cities]]\n[[-25]% [Science] [in all cities]]"
                     }
                 ],
-                "uniques": ["Gain a free [Tunnel Vision] [in capital] <hidden from users>", "Only available <if [Tunnel Vision] is not constructed>"],
+                "uniques": ["Gain a free [Tunnel Vision] [in capital] <hidden from users>", "Only available <if [Tunnel Vision] is not constructed>"]
             },                 
             {
                 "text": "Heavily in Debt",
@@ -525,7 +525,7 @@
                     "text": "[Lose twice the amount of Gold currently owned every 10 turns]"
                     }
                 ],
-                "uniques": ["Gain a free [Heavily in Debt] [in capital] <hidden from users>", "Only available <if [Heavily in Debt] is not constructed>"],
+                "uniques": ["Gain a free [Heavily in Debt] [in capital] <hidden from users>", "Only available <if [Heavily in Debt] is not constructed>"]
             },             
             {
                 "text": "Deliberate Work Slowdown",
@@ -534,11 +534,11 @@
                     "text": "[Can build [all] improvements at a [-50]% rate]"
                     }
                 ],
-                "uniques": ["Gain a free [Deliberate Work Slowdown] [in capital] <hidden from users>", "Only available <if [Deliberate Work Slowdown] is not constructed>"],
-            },             
+                "uniques": ["Gain a free [Deliberate Work Slowdown] [in capital] <hidden from users>", "Only available <if [Deliberate Work Slowdown] is not constructed>"]
+            }             
         ]
     },
-    // 贝宁
+    
     {
         "name": "Sacrifice I",
         "text": "You offered up your blood as a sacrifice, and the gods heeded your pleading with a favorable response.",
@@ -575,7 +575,7 @@
             {
                 "text": "Gain Power",
                 "uniques": ["[+15]% Strength <for [Military] units> <for [4] turns>", "Only available<after turn number [49]>"]
-            },
+            }
         ]
     },
     {
@@ -584,16 +584,16 @@
         "choices": [
             {
                 "text": "Start Golden Age",
-                "uniques": ["Empire enters a [10]-turn Golden Age"],
+                "uniques": ["Empire enters a [10]-turn Golden Age"]
             },
             {
                 "text": "Gain Population",
-                "uniques": ["[+1] population in a random city"],
+                "uniques": ["[+1] population in a random city"]
             },
             {
                 "text": "Gain Faith",
-                "uniques": ["Gain enough Faith for [20]% of a Great Prophet"],
-            },
+                "uniques": ["Gain enough Faith for [20]% of a Great Prophet"]
+            }
         ]
     },
     {
@@ -602,66 +602,66 @@
         "choices": [
             {
                 "text": "Civilized Leader-Lenin",
-                "uniques": ["Gain a free [Civilized Leader-Lenin] [in capital]"],
+                "uniques": ["Gain a free [Civilized Leader-Lenin] [in capital]"]
             },
             {
                 "text": "Civilized Leader-Stalin",
-                "uniques": ["Gain a free [Civilized Leader-Stalin] [in capital]"],
+                "uniques": ["Gain a free [Civilized Leader-Stalin] [in capital]"]
             },
             {
                 "text": "Civilized Leader-Trotsky",
-                "uniques": ["Gain a free [Civilized Leader-Trotsky] [in capital]"],
-            },
+                "uniques": ["Gain a free [Civilized Leader-Trotsky] [in capital]"]
+            }
         ]
     },
-    // 时代奖励
+    
     {
         "name": "New Era",
         "text": "Under your wise and powerful leadership, your civilization has flourished and entered a new era.",
         "choices": [
             {
                 "text": "Start Golden Age",
-                "uniques": ["Empire enters a [8]-turn Golden Age"],
+                "uniques": ["Empire enters a [8]-turn Golden Age"]
             },
             {
                 "text": "Gain Population",
-                "uniques": ["[+1] population in a random city", "[+1] population in a random city", "[+1] population in a random city"],
+                "uniques": ["[+1] population in a random city", "[+1] population in a random city", "[+1] population in a random city"]
             },
             {
                 "text": "Gain Settler",
                 "uniques": [
                 "Free [Settler] appears", "Free [Scout] appears", "Only available <for [Human player] Civilizations>"
-                ],
+                ]
             },
             {
                 "text": "Gain Feat",
                 "uniques": [
-                "Instantly provides [18] [Feat]",
-                ],
+                "Instantly provides [18] [Feat]"
+                ]
             },            
             {
                 "text": "Gain Technology",
-                "uniques": ["Free Technology"],
+                "uniques": ["Free Technology"]
             },
             {
                 "text": "Gain Faith",
-                "uniques": ["Gain enough Faith for [66]% of a Great Prophet"],
+                "uniques": ["Gain enough Faith for [66]% of a Great Prophet"]
             },
             {
                 "text": "Gain Spy",
-                "uniques": ["Gain an extra spy", "Only available <when espionage is enabled>"],
+                "uniques": ["Gain an extra spy", "Only available <when espionage is enabled>"]
             },
             {
                 "text": "Gain Itinerant Merchant Capacity",
-                "uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]", "Free [Itinerant Merchant] appears"],
+                "uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]", "Free [Itinerant Merchant] appears"]
             },
             {
                 "text": "Gain Power",
                 "uniques": ["[+12]% Strength <for [Military] units> <for [15] turns>", "Only available <after adopting [Honor]>"]
-            },
+            }
         ]
     },
-    // 国家奖励
+    
     {
         "name": "Establishing Country",
         "text": "Under your wise and powerful leadership, your civilization has established its own country and will shine brightly in the world.",
@@ -671,48 +671,48 @@
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "Free Great Person"
-                ],
+                ]
             },
             {
                 "text": "Ideological Emancipation",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "Free Social Policy"
-                    "Provides the cheapest [Culture] building in your first [1] cities for free",
-                    ],
+                    "Free Social Policy",
+                    "Provides the cheapest [Culture] building in your first [1] cities for free"
+                    ]
             },
             {
                 "text": "Industrial Eevolution",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[+15]% [Production] <for [15] turns>"
-                    ],
+                    ]
             },
             {
                 "text": "Technological Innovation",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[+20]% [Science] <for [10] turns>"
+                    "[+20]% [Science] <for [10] turns>",
                     "Free Technology"
-                ],
+                ]
             },
             {
                 "text": "Economic Development",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
                     "[+50]% [Gold] <for [15] turns>"
-                    ],
+                    ]
             },
             {
                 "text": "Giving the People Peace and Security",
                 "uniques": [
                     "Empire enters a [10]-turn Golden Age",
-                    "[25]% Food is carried over after population increases [in all cities] <for [20] turns>",
-                    ],
-            },
+                    "[25]% Food is carried over after population increases [in all cities] <for [20] turns>"
+                    ]
+            }
         ]
-    }
-    // 荷兰
+    },
+    
     {
         "name": "Obtain Investment Projects",
         "text": "",
@@ -721,7 +721,7 @@
                 "text": "Infrastructure Investment",
                 "uniques": [
                     "Only available<if [Infrastructure Investment] is not constructed>", "Provides a [Infrastructure Investment] in your first [1] cities for free"
-                ],
+                ]
             },
             {
                 "text": "Productive Investment",
@@ -738,10 +738,10 @@
             {
                 "text": "Grain Investment",
                 "uniques": ["Provides a [Grain Investment] in your first [1] cities for free", "Only available<if [Grain Investment] is not constructed>"]    
-            },
+            }
         ]
         
-    // 意大利
+    
     },
     {
         "name": "Choose 3 free Great Person points",
@@ -751,7 +751,7 @@
                 "text": "Great Artist Point",
                 "uniques": [
                     "Only available <if [Great Artist Point] is not constructed>", "Provides a [Great Artist Point] in your first [1] cities for free <hidden from users>"
-                ],
+                ]
             },
             {
                 "text": "Great Scientist Point",
@@ -772,9 +772,9 @@
             {
                 "text": "Great Admiral Point",
                 "uniques": ["Provides a [Great Admiral Point] in your first [1] cities for free<hidden from users>", "Only available<if [Great Admiral Point] is not constructed>"]    
-            },
+            }
         ]
-    // 特殊伟人事件
+    
     },
     {
         "name": "Special Great Prophet Project",
@@ -786,7 +786,7 @@
             {
             "text": "Free Social Policy by consuming [Confucius]"
             }
-                ]
+                ],
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Confucius] is constructed by anybody>", "Only available<for [non-[Chile]] Civilizations>", "Provides a [Confucius] in your first [1] cities for free"]
             },
             {
@@ -795,7 +795,7 @@
             {
             "text": "Gain a free Pantheon belief by consuming [Gautama Siddhartha]"
             }
-                ]
+                ],
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Gautama Siddhartha] is constructed by anybody>", "Provides a [Gautama Siddhartha] in your first [1] cities for free"]
             },
             {
@@ -804,7 +804,7 @@
             {
             "text": "[Jesus] can Spread Religion for 2 movement 6 times and can instantly construct a [Holy site] improvement once"
             }
-                ]                
+                ],
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Jesus] is constructed by anybody>", "Provides a [Jesus] in your first [1] cities for free"]
             },
             {
@@ -813,7 +813,7 @@
             {
             "text": "[Muhammad] can Spread Religion for 2 movement 4 times and +20% †Strength bonus for Land units within 1 tiles"
             }
-                ]                
+                ],
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Muhammad] is constructed by anybody>", "Provides a [Muhammad] in your first [1] cities for free"]
             },
             {
@@ -822,9 +822,9 @@
             {
             "text": "Gain enough [Faith] for 100% of a [Great Prophet] by consuming [Zoroaster]"
             }
-                ]                
+                ],
                 "uniques": ["Only available<during the [Classical era]>", "Unavailable <if [Zoroaster] is constructed by anybody>", "Provides a [Zoroaster] in your first [1] cities for free"]
-            },
+            }
         ]
     },
     {
@@ -875,9 +875,9 @@
             }
                 ],
                 "uniques": ["Only available <during the [Classical era]>", "Unavailable <if [Themistocles] is constructed by anybody>", "Provides a [Themistocles] in your first [1] cities for free"]
-            },
+            }
         ]
-    }
+    },
     {
         "name": "Sun Tzu's Art of War - Military Conflict",
         "text": "",
@@ -899,7 +899,7 @@
                 "text": "Immovability like a mountain",
 
                 "uniques": [                    "[+10]% Strength <for [Military] units> <when defending> <for [10] turns> <during the [Classical era]>"]
-            },
+            }
         ]
     },
     {
@@ -1013,22 +1013,22 @@
             }
                 ],
                 "uniques": ["Only available <during the [Medieval era]>", "Unavailable <if [William Marshal] is constructed by anybody>", "Provides a [William Marshal] in your first [1] cities for free"]         
-            },
+            }
         ]
     },
     
-    // 事件选择
-    // 种子稀有度：
-    // 2、3：普通
-    // 1：稀有
-    // 4：史诗
-    // 5：传奇
+    
+    
+    
+    
+    
+    
     {
         "name": "Choose New Civilization Capability !",
         "text": "",
         "choices": [
-        // 种子1
-        // 雄伟壮丽
+        
+        
             {
                 "text": "Monumentality",
                 "civilopediaText": [
@@ -1043,7 +1043,7 @@
                 "Provides a [Monumentality] in your first [1] cities for free <hidden from users>"]
             },    
             
-        // 固若金汤
+        
             {
                 "text": "Ironclad Defense",
                 "civilopediaText": [
@@ -1058,7 +1058,7 @@
                 "Provides a [Ironclad Defense] in your first [1] cities for free <hidden from users>"]
             },        
             
-        // 万国来朝
+        
             {
                 "text": "All Nations Tribute",
                 "civilopediaText": [
@@ -1073,7 +1073,7 @@
                 "Provides a [All Nations Tribute] in your first [1] cities for free <hidden from users>"]
             },  
                       
-        // 田月桑时
+        
             {
                 "text": "Farming Season",
                 "civilopediaText": [
@@ -1088,7 +1088,7 @@
                 "Provides a [Farming Season] in your first [1] cities for free <hidden from users>"]
             },     
                 
-        // 逐鹿中原
+        
             {
                 "text": "Fight for the Throne",
                 "civilopediaText": [
@@ -1104,9 +1104,9 @@
             },
             
         
-        // 种子2
+        
             
-        // 开疆扩土
+        
             {
                 "text": "Wider Domains",
                 "civilopediaText": [
@@ -1121,7 +1121,7 @@
                 "Provides a [Wider Domains] in your first [1] cities for free <hidden from users>"]
             },    
             
-        // 太平盛世
+        
             {
                 "text": "Peace and Prosperity",
                 "civilopediaText": [
@@ -1136,7 +1136,7 @@
                 "Provides a [Peace and Prosperity] in your first [1] cities for free <hidden from users>"]
             },            
             
-        // 为民请命
+        
             {
                 "text": "Advocate For Folk",
                 "civilopediaText": [
@@ -1151,7 +1151,7 @@
                 "Provides a [Advocate For Folk] in your first [1] cities for free <hidden from users>"]
             },             
              
-        // 兵强将勇
+        
             {
                 "text": "Strong Soldiers and Brave Generals",
                 "civilopediaText": [
@@ -1166,7 +1166,7 @@
                 "Provides a [Strong Soldiers and Brave Generals] in your first [1] cities for free <hidden from users>"]
             },    
             
-        // 天降大任
+        
             {
                 "text": "Heaven's Calling",
                 "civilopediaText": [
@@ -1181,9 +1181,9 @@
             },    
             
             
-        // 种子3
+        
 
-        // 以战止戈
+        
             {
                 "text": "Stop the War with War",
                 "civilopediaText": [
@@ -1198,7 +1198,7 @@
                 "Provides a [Stop the War with War] in your first [1] cities for free <hidden from users>"]
             },            
             
-        // 意外之财
+        
             {
                 "text": "Windfall",
                 "civilopediaText": [
@@ -1213,7 +1213,7 @@
                 "Provides a [Windfall] in your first [1] cities for free <hidden from users>"]
             },       
                              
-        // 训练有素
+        
             {
                 "text": "Well Trained",
                 "civilopediaText": [
@@ -1228,7 +1228,7 @@
                 "Provides a [Well Trained] in your first [1] cities for free <hidden from users>"]
             },      
             
-        // 鞠躬尽瘁
+        
             {
                 "text": "No Regrets",
                 "civilopediaText": [
@@ -1243,7 +1243,7 @@
                 "Provides a [No Regrets] in your first [1] cities for free <hidden from users>"]
             },          
             
-        // 封狼居胥
+        
             {
                 "text": "Supreme Triumph",
                 "civilopediaText": [
@@ -1258,8 +1258,8 @@
                 "Provides a [Supreme Triumph] in your first [1] cities for free <hidden from users>"]
             },       
 
-        // 种子4
-        // 锦绣河山
+        
+        
             {
                 "text": "The Beautiful Rivers and Mountains",
                 "civilopediaText": [
@@ -1274,7 +1274,7 @@
                 "Provides a [The Beautiful Rivers and Mountains] in your first [1] cities for free <hidden from users>"]
             },
             
-        // 五谷丰登
+        
             {
                 "text": "Bumper Grain Harvest",
                 "civilopediaText": [
@@ -1289,7 +1289,7 @@
                 "Provides a [Bumper Grain Harvest] in your first [1] cities for free <hidden from users>"]
             },    
                     
-        // 精益求精
+        
             {
                 "text": "Refine Relentlessly",
                 "civilopediaText": [
@@ -1304,7 +1304,7 @@
                 "Provides a [Refine Relentlessly] in your first [1] cities for free <hidden from users>"]
             },        
             
-        // 乱世枭雄
+        
             {
                 "text": "Trouble Times Heroes",
                 "civilopediaText": [
@@ -1319,7 +1319,7 @@
                 "Provides a [Trouble Times Heroes] in your first [1] cities for free <hidden from users>"]
             },            
             
-        // 青史留名
+        
             {
                 "text": "Carved in History",
                 "civilopediaText": [
@@ -1338,8 +1338,8 @@
             
             
             
-        // 种子5
-        // 穰穰满家
+        
+        
             {
                 "text": "Abundant Harvest Fills the Home",
                 "civilopediaText": [
@@ -1354,7 +1354,7 @@
                 "Provides a [Abundant Harvest Fills the Home] in your first [1] cities for free <hidden from users>"]
             },   
             
-        // 摧枯拉朽
+        
             {
                 "text": "Crushing Offensive",
                 "civilopediaText": [
@@ -1369,7 +1369,7 @@
                 "Provides a [Crushing Offensive] in your first [1] cities for free <hidden from users>"]
             },       
             
-        // 大兴土木
+        
             {
                 "text": "Launch Large-scale Construction",
                 "civilopediaText": [
@@ -1384,7 +1384,7 @@
                 "Provides a [Launch Large-scale Construction] in your first [1] cities for free <hidden from users>"]
             },     
               
-        // 精耕细作
+        
             {
                 "text": "Intensive and Meticulous Farming",
                 "civilopediaText": [
@@ -1399,7 +1399,7 @@
                 "Provides a [Intensive and Meticulous Farming] in your first [1] cities for free <hidden from users>"]
             },              
             
-        // 死战不退
+        
             {
                 "text": "Fight to the Last",
                 "civilopediaText": [
@@ -1412,8 +1412,8 @@
                 "Unavailable <if [Fight to the Last] is constructed by anybody>",
                 
                 "Provides a [Fight to the Last] in your first [1] cities for free <hidden from users>"]
-            },              
+            }              
               
         ]
-    },
+    }
 ]

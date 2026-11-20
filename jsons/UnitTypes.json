@@ -1,43 +1,43 @@
 [
     {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land",
         "uniques": []
     },
     {
         "name": "Civilian Water",
-        "movementType": "Water"
+        "movementType": "Water",
         "uniques": []
     },
     {
         "name": "Reconnaissance",
-        "movementType": "Land"
-        "uniques":[]    
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Foot Soldier",
-        "movementType": "Land"
-        "uniques":[]
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Shooter",
-        "movementType": "Land"
-        "uniques":[]    
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Mobile",
-        "movementType": "Land"
-        "uniques":[]    
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Anti-Mobile",
-        "movementType": "Land"
-        "uniques":[]    
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Anti-Air",
-        "movementType": "Land"
-        "uniques":[]        
+        "movementType": "Land",
+        "uniques":[],    
     },
     {
         "name": "Helicopter",
@@ -46,18 +46,18 @@
     },
     {
         "name": "Siege",
-        "movementType": "Land"
-        "uniques":[]    
+        "movementType": "Land",
+        "uniques":[],
     },
     {
         "name": "Melee Water",
-        "movementType": "Water"
-        "uniques":[]                
+        "movementType": "Water",
+        "uniques":[],
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water"
-        "uniques":[]                
+        "movementType": "Water",
+        "uniques":[],
     },
     {
         "name": "Submarine",
@@ -66,17 +66,17 @@
     },
     {
         "name": "Water Carrier",
-        "movementType": "Water"
-        "uniques":[]                
+        "movementType": "Water",
+        "uniques":[],
     },
     {
         "name": "Fighter",
-        "movementType": "Air"
+        "movementType": "Air",
         "uniques": ["Aircraft"]
     },
     {
         "name": "Bomber",
-        "movementType": "Air"   
+        "movementType": "Air",   
         "uniques": ["Aircraft"]   
     },
     {
@@ -94,11 +94,11 @@
         "movementType": "Air",
         "uniques": ["Support Unit"]
         
-    //判断类型
+    
     },
     {
         "name": "Melee",
-        "movementType": "Land",
+        "movementType": "Land"
     },
     {
         "name": "Ranged",

@@ -10,8 +10,8 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
-        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])"
-        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
+        "uniques": ["May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])",
+        "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>"
         ],
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
@@ -33,7 +33,7 @@
         "uniques": [
         "May not generate great prophet equivalents naturally <for [Human player] Civilizations> <after founding a religion>",
         "May buy [Great Prophet] units for [180] [Faith] [in all cities] at an increasing price ([50])",
-        "May buy [Special Great Prophet Project] buildings for [335] [Faith] [in all cities] at an increasing price ([50])"
+        "May buy [Special Great Prophet Project] buildings for [335] [Faith] [in all cities] at an increasing price ([50])",
         "[+20]% maintenance costs <for [Military] units>"
         ],    
         "iconRGB": [233, 31, 99]
@@ -109,7 +109,7 @@
             "[-20]% [Faith]",
             "[+80]% maintenance costs <for [Military] units>"
             ],        
-        "iconRGB": [63, 81, 182],
+        "iconRGB": [63, 81, 182]
     },
     {
         "name": "Modern era",
@@ -131,9 +131,9 @@
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])", 
             "Every major Civilization gains a spy once a civilization enters this era",
             "[-30]% [Faith]",
-            "[+100]% maintenance costs <for [Military] units>"    
+            "[+100]% maintenance costs <for [Military] units>"
             ],        
-        "iconRGB": [33, 150, 243],
+        "iconRGB": [33, 150, 243]
     },
     {
         "name": "Atomic era",
@@ -156,8 +156,8 @@
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
             "Every major Civilization gains a spy once a civilization enters this era",
             "[-40]% [Faith]",
-            "[+120]% maintenance costs <for [Military] units>"            
-            ],
+            "[+120]% maintenance costs <for [Military] units>"
+            ]
     },
     {
         "name": "Information era",
@@ -180,8 +180,8 @@
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
             "Every major Civilization gains a spy once a civilization enters this era",
             "[-50]% [Faith]",
-            "[+140]% maintenance costs <for [Military] units>"    
-            ],
+            "[+140]% maintenance costs <for [Military] units>"
+            ]
     },
     {
         "name": "Future era",
@@ -202,9 +202,9 @@
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally",
             "May buy [Great Prophet] units for [1000] [Faith] [in all cities] at an increasing price ([50])",
-            "Every major Civilization gains a spy once a civilization enters this era"
-            "[-60]% [Faith]"
-            "[+160]% maintenance costs <for [Military] units>"        
-            ],
+            "Every major Civilization gains a spy once a civilization enters this era",
+            "[-60]% [Faith]",
+            "[+160]% maintenance costs <for [Military] units>"
+            ]
     }
 ]

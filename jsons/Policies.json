@@ -1,5 +1,5 @@
 [
-    // 奴隶制度
+    
     {
         "name": "Tradition",
         "era": "Ancient era",
@@ -22,7 +22,7 @@
                     "Free [Worker] appears"
                 ],
                 "row": 1,
-                "column": 1,   
+                "column": 1   
             },
             {
                 "name": "Citizenship",
@@ -46,7 +46,7 @@
                 "name": "Oligarchy",
                 "uniques": [
                     "Each city founded increases culture cost of policies [25]% less than normal",
-                    "[+20]% Strength for cities <with a garrison>",
+                    "[+20]% Strength for cities <with a garrison>"
                 ],
                 "requires": ["Aristocracy"],
                 "row": 3,
@@ -55,11 +55,11 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements <for [Civilian] units>", "Empire enters a [8]-turn Golden Age",
+                    "[-25]% construction time for [All] improvements <for [Civilian] units>", "Empire enters a [8]-turn Golden Age"
                 ],
                 "requires": ["Republic", "Citizenship"],
                 "row": 3,
-                "column": 5,
+                "column": 5
             },
             {
                 "name": "Tradition Complete",
@@ -71,7 +71,7 @@
             }
         ]
         
-    // 封建制度
+    
     },
     {
         "name": "Feudalism1",
@@ -140,12 +140,12 @@
                 "name": "Feudalism1 Complete",
                 "uniques": [
                     "[+1] population [in all cities]",
-                    "[-20]% Culture cost of adopting new Policies",
+                    "[-20]% Culture cost of adopting new Policies"
                 ]    
             }
         ]
         
-    // 资本制度
+    
     },
     {
         "name": "Liberty",
@@ -191,7 +191,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+2 Culture, +2 Science, +2 Production] [in all cities connected to capital]",
+                    "[+2 Culture, +2 Science, +2 Production] [in all cities connected to capital]"
                 ],
                 "requires": ["Representation"],
                 "row": 2,
@@ -217,7 +217,7 @@
     },
     {
     
-    // 独裁制度
+    
         "name": "Autocracy",
         "era": "Industrial era",
         "priorities": {
@@ -229,16 +229,16 @@
         },
         "uniques": [
             "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
             "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
         ],
         "policies": [
             {
                 "name": "Police State",
                 "uniques": [
                     "[+2 Happiness] from every [Courthouse]",
-                    "[+100]% Production when constructing [Happiness] buildings [in all cities]",
+                    "[+100]% Production when constructing [Happiness] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1    
@@ -262,7 +262,7 @@
             {
                 "name": "Military Chemical Industry",
                 "uniques": [
-                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "[+25]% Production when constructing [Military] units [in all cities]"
                 ],
                 "requires": ["Militarism"],
                 "row": 2,
@@ -298,7 +298,7 @@
     },
     {
     
-    // 自由制度
+    
         "name": "Freedom",
         "era": "Industrial era",
         "priorities": {
@@ -311,7 +311,7 @@
         "uniques": [
             "[+33]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Order]>"
         ],
         "policies": [
             {
@@ -346,7 +346,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "Free Great Person",
+                    "Free Great Person"
                 ],
                 "requires": ["Civil Society", "Universal Suffrage"],
                 "row": 2,
@@ -356,7 +356,7 @@
                 "name": "Neoliberalism",
                 "uniques": [
                     "[+20]% [Production] from every [Stock Exchange]",
-                    "[+20]% [Gold] from every [Broadcast Tower]",
+                    "[+20]% [Gold] from every [Broadcast Tower]"
                 ],
                 "requires": ["Democracy"],
                 "row": 3,
@@ -373,7 +373,7 @@
     },
     {
     
-    // 社会制度
+    
         "name": "Order",
         "era": "Industrial era",
         "priorities": {
@@ -453,7 +453,7 @@
     },
     {
     
-    // 理性政策
+    
         "name": "Rationalism",
         "era": "Medieval era",
         "priorities": {
@@ -465,7 +465,7 @@
         },
         "uniques": [
             "Only available <after discovering [Education]>",
-            "[+10]% [Science] <while the empire is happy>",
+            "[+10]% [Science] <while the empire is happy>"
         ],
         "policies": [
             {
@@ -514,14 +514,14 @@
                 "name": "Rationalism Complete",
                 "uniques": [
                     "[2] Free Technologies",
-                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
     },
     {
     
-    // 工业政策
+    
         "name": "Industrial",
         "era": "Medieval era",
         "priorities": {
@@ -593,7 +593,7 @@
     },
     {
     
-    // 外交政策
+    
         "name": "Patronage",
         "era": "Ancient era",
         "priorities": {
@@ -642,7 +642,7 @@
                 "uniques": [
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
-                    "[+5]% [External Cultural Influence] resource production <for every [Remaining [Open Borders] Civilizations]>"    
+                    "[+5]% [External Cultural Influence] resource production <for every [Remaining [Open Borders] Civilizations]>"
                 ],
                 "requires": ["Scholasticism"],
                 "row": 3,
@@ -670,7 +670,7 @@
     },
     {
     
-    // 商业政策
+    
         "name": "Commerce",
         "era": "Ancient era",
         "priorities": {
@@ -693,7 +693,7 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Movement <for [Great Admiral] units>",
-                    "Free [Great Admiral] appears",
+                    "Free [Great Admiral] appears"
                 ],
                 "row": 1,
                 "column": 1
@@ -702,7 +702,7 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1] Movement <for [Itinerant Merchant] units>",
+                    "[+1] Movement <for [Itinerant Merchant] units>"
                 ],
                 "row": 1,
                 "column": 3        
@@ -711,8 +711,8 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-50]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for [All] buildings [in all cities]"
-                    "[+2 Production] [in all coastal cities]",
+                    "[-25]% maintenance cost for [All] buildings [in all cities]",
+                    "[+2 Production] [in all coastal cities]"
                 ],
                 "row": 1,
                 "column": 5
@@ -721,7 +721,7 @@
                 "name": "Merchant Navy",
                 "uniques": [
                     "[+15]% Production when constructing [Water] units [in all coastal cities]",
-                    "Comment [Gain 4 [Gold] when a [Fisherman] ends their turn on a [Fishing Boats] tile]",
+                    "Comment [Gain 4 [Gold] when a [Fisherman] ends their turn on a [Fishing Boats] tile]"
 
                 ],
                 "requires": ["Naval Tradition"],
@@ -730,7 +730,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["Comment [Gain extra [5]% [Gold] per turn of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource",],
+                "uniques": ["Comment [Gain extra [5]% [Gold] per turn of [Science] when selling cargo]", "[+2] Happiness from each type of luxury resource"],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 3
@@ -748,7 +748,7 @@
     },
     {
     
-    // 宗教政策
+    
         "name": "Piety",
         "era": "Ancient era",
         "priorities": {
@@ -761,14 +761,14 @@
         "uniques": [
             "Only available <after discovering [Belief Worship]>",
             "[+1 Culture, +1 Faith] from every [Shrine]",
-            "[+75]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+75]% Production when constructing [Shrine] buildings [in all cities]"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith, +1 Happiness] from every [Temple]",
-                    "[+75]% Production when constructing [Temple] buildings [in all cities]",
+                    "[+75]% Production when constructing [Temple] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -818,7 +818,7 @@
         ]    
     },
     {
-    // 战争政策
+    
         "name": "Honor",
         "era": "Ancient era",
         "priorities": {
@@ -837,20 +837,20 @@
             {
                 "name": "Military Reclamation System",
                 "uniques": [
-                    //"Comment [Military Reclamation can be carried out in cities with a garrison]", 
+                    
                     "Comment [Foot soldier can build [Farm] / [Mine] improvements on tiles]",
                     "Comment [+1 [Culture] for [Farm] with garrison]",
                     "Comment [Provides 1 [Feat] upon military unit defeating a [Barbarian] unit]"
                 ],
                 "row": 1,
-                "column": 1,
+                "column": 1
             },
             {
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [Military] units [in all cities]",
                     "Free [Great General] appears",
-                    "[+1 Culture] [in capital] <for every [2] [[Military] Units]>",
+                    "[+1 Culture] [in capital] <for every [2] [[Military] Units]>"
                 ],
                 "row": 1,
                 "column": 3
@@ -859,7 +859,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-                    "[+2] Movement <for [Great General] units>",
+                    "[+2] Movement <for [Great General] units>"
                 ],
                 "row": 1,
                 "column": 5
@@ -880,11 +880,11 @@
                 "uniques": [
                     "[-50]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Production, +1 Happiness] from every [Barracks]",
-                    "[+1 Production, +1 Happiness] from every [Courthouse]",
+                    "[+1 Production, +1 Happiness] from every [Courthouse]"
                 ],
                 "requires": ["Military Reclamation System"],
                 "row": 3,
-                "column": 1,
+                "column": 1
             },
             {
                 "name": "Honor Complete",

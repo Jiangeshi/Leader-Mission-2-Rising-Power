@@ -43,7 +43,7 @@
 				"name": "Trapping",
 				"row": 7,
 				"prerequisites": ["Drill Wood to Make Fire"],
-				"quote": ""	
+				"quote": ""
 			}
 		]
 	},
@@ -82,7 +82,7 @@
 				"name": "Masonry",
 				"row": 6,
 				"prerequisites": ["Mining"],
-				"quote": ""	
+				"quote": ""
 			}
 		]	
 	},
@@ -115,7 +115,7 @@
 				"name": "Bronze Working",
 				"row": 7,
 				"prerequisites": ["Masonry","Trapping"],
-				"quote": ""	
+				"quote": ""
 			}
 		]		
 	},
@@ -138,7 +138,7 @@
 				"row": 4,
 				"prerequisites": ["Sailing"],
 				"uniques": ["Enables embarkation for land units"],	
-				"quote": ""	
+				"quote": ""
 			},
 			{
 				"name": "Horseback Riding",
@@ -150,7 +150,7 @@
 				"name": "Iron Working",
 				"row": 7,
 				"prerequisites": ["Bronze Working"],
-				"quote": ""	
+				"quote": ""
 			}
 		]			
 	},
@@ -172,7 +172,7 @@
 				"name": "Currency",
 				"row": 5,
 				"prerequisites": ["Horseback Riding"],
-				"uniques": ["Gain [400] [Gold] <if no other Civilization has researched this> <(modified by game speed)>", "Instantly provides [1] [Itinerant Merchant Capacity]"],
+				"uniques": ["Gain [400] [Gold] <if no other Civilization has researched this> <(modified by game speed)>", "Instantly provides [1] [Itinerant Merchant Capacity"],
 				"quote": ""
 			},
 			{
@@ -186,8 +186,7 @@
 				"name": "Army Formation",
 				"row": 7,
 				"prerequisites": ["Iron Working"],
-				"uniques":["Free [Great General] appears <if no other Civilization has researched this>",
-				]	
+				"uniques":["Free [Great General] appears <if no other Civilization has researched this>"],
 				"quote": ""
 			}
 		]			
@@ -205,8 +204,8 @@
 				"prerequisites": ["Nation"],
 			    "uniques":[
 		"Free Social Policy",	    
-		"[-10]% Culture cost of adopting new Policies",
-		]
+		"[-10]% Culture cost of adopting new Policies"
+		],
 				"quote": ""
 			},
 			{
@@ -219,7 +218,7 @@
 				"name": "Compass",
 				"row": 4,
 				"prerequisites": ["Optics", "Currency"],
-				"uniques": ["Enables [Embarked] units to enter ocean tiles"]
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"quote": ""
 			},
 			{
@@ -298,7 +297,7 @@
 				"name": "Civil Service",
 				"row": 2,
 				"prerequisites": ["Education"],
-				"uniques":["[+15]% [Culture] [in all cities]"]
+				"uniques":["[+15]% [Culture] [in all cities]"],
 				"quote": ""
 			},
 			{
@@ -313,7 +312,7 @@
 				"row": 6,
 				"prerequisites": ["Agricultural Improvement","Chivalry","Steel"],
 				"uniques": ["[-25]% Gold cost of upgrading <for [Military] units>",
-				"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
+				"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
 				"quote": ""
 			}
 		]					
@@ -356,7 +355,7 @@
 				"name": "Printing Press",
 				"row": 3,
 				"prerequisites": ["The Renaissance"],
-				"quote": ""	
+				"quote": ""
 			},
 			{
 				"name": "Navigation",
@@ -402,7 +401,7 @@
 				"name": "Metallurgy",
 				"row": 5,
 				"prerequisites": ["Metal Casting"],
-				"quote": ""		
+				"quote": ""
 			},
 			{
 				"name": "Fertilizer",
@@ -436,7 +435,7 @@
 				"name": "Military Science",
 				"row": 6,
 				"prerequisites": ["Metallurgy","Fertilizer"],
-				"quote": ""		
+				"quote": ""
 			},
 			{
 				"name": "Rifling",
@@ -470,7 +469,7 @@
 				"name": "Dynamite",
 				"row": 7,
 				"prerequisites": ["Military Science","Rifling"],
-				"quote": ""		
+				"quote": ""
 			}
 		]		
 	},
@@ -491,14 +490,14 @@
 				"name": "Construction",
 				"row": 4,
 				"prerequisites": ["Industrialization"],
-				"uniques":["[+1 Production] from all [Production] buildings", "Instantly provides [1] [Itinerant Merchant Capacity]"]
+				"uniques":["[+1 Production] from all [Production] buildings", "Instantly provides [1] [Itinerant Merchant Capacity]"],
 				"quote": ""
 			},
 			{
 				"name": "Railroads",
 				"row": 7,
 				"prerequisites": ["Industrialization","Dynamite"],
-				"quote": ""		
+				"quote": ""
 			}
 		]			
 	},
@@ -540,7 +539,7 @@
 				"name": "Flight",
 				"row": 6,
 				"prerequisites": ["Replaceable Parts"],
-				"quote": ""		
+				"quote": ""
 			},
 			{
 				"name": "Combustion",
@@ -573,13 +572,13 @@
 				"name": "Ballistics",
 				"row": 5,
 				"prerequisites": ["Flight"],
-				"quote": ""		
+				"quote": ""
 			},
 			{
 				"name": "Globalization",
 				"row": 7,
 				"prerequisites": ["Flight","Combustion"],
-				"uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]"]
+				"uniques": ["Instantly provides [1] [Itinerant Merchant Capacity]"],
 				"quote": ""
 			}
 		]					
@@ -607,7 +606,7 @@
 				"name": "Radar",
 				"row": 5,
 				"prerequisites": ["Ballistics"],
-				"quote": ""		
+				"quote": ""
 			},
 			{
 				"name": "Combined Arms",
@@ -640,7 +639,7 @@
 				"name": "Computers",
 				"row": 5,
 				"prerequisites": ["Radar","Materials Science"],
-				"quote": ""		
+				"quote": ""
 			}
 		]
 	},
@@ -667,7 +666,7 @@
 				"name": "Telecommunications",
 				"row": 7,
 				"prerequisites": ["Combined Arms"],
-				"quote": ""		
+				"quote": ""
 			}
 		]				
 	},
@@ -694,7 +693,7 @@
 				"name": "Internetwork",
 				"row": 7,
 				"prerequisites": ["Telecommunications"],
-				"quote": ""		
+				"quote": ""
 			}
 		]					
 	},
@@ -708,7 +707,7 @@
 			{
 				"name": "Nanotechnology",
 				"row": 2,
-				"prerequisites": ["Advanced Ballistics",],
+				"prerequisites": ["Advanced Ballistics"],
 				"quote": ""
 			},
 			{
@@ -728,7 +727,7 @@
 				"name": "Mobile Tactics",
 				"row": 7,
 				"prerequisites": ["Internetwork","Robotics"],
-				"quote": ""		
+				"quote": ""
 			}
 		]		
 	},
@@ -755,7 +754,7 @@
 				"name": "Stealth",
 				"row": 7,
 				"prerequisites": ["Mobile Tactics","Satellites"],
-				"quote": ""		
+				"quote": ""
 			}
 		]			
 	},
@@ -771,7 +770,7 @@
 				"row": 4,
 				"prerequisites": ["Nuclear Fusion","Artificial Intelligence","Stealth"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
-				"quote": "",
+				"quote": ""
 			}
 		]
 	}
