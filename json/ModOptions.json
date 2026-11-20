@@ -1,0 +1,28 @@
+{
+    "isBaseRuleset": false,
+    "modVersion": "1.0.0",
+    "recommendedGameVersion": "5.0.1.3",
+    "modDependencies": [],
+    "constants": {
+        "religionLimitMultiplier": 1,
+        "riverCountMultiplier": 0.02,
+        "minimalCityDistance": 2,
+        "cityStrengthBase": 7.0,
+        "cityStrengthPerPop": 0.7
+    },
+    "uniques": [
+        "Can trade civilization introductions for [100] Gold",
+        "Can be used as permanent audiovisual mod"
+    ],
+    "difficultiesToRemove": [
+        "Legend",
+        "Hell"
+    ],
+    "speedsToRemove": [
+        "Barbarian Breakout",
+        "Real"
+    ],
+    "victoriesToRemove": [
+        "Roguelike Mode"
+    ]
+}
